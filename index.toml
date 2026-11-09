@@ -457,12 +457,60 @@ file = "kubejs/config/common.json"
 hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
 
 [[files]]
-file = "kubejs/server_scripts/campfiremons_boot.js"
-hash = "a605eda67777bb4a92563b3a94ba3e6fef33ba35a54a4be1cc1127e9d8d3c89c"
+file = "kubejs/data/campfiremons/advancement/bypass.json"
+hash = "e3ed6810058adbc00e47fd593f3d868118aa24ab4dfab8d8d793648977b107de"
 
 [[files]]
-file = "kubejs/startup_scripts/campfiremons_boot.js"
-hash = "74394f619ed1530a2648d3b542b71e14397242f9c3c7b544537735dc19e3bad7"
+file = "kubejs/data/campfiremons/advancement/stage/1.json"
+hash = "ae6d95ed9f436e2fc6d80c46635ddc05e60be9c3ecfdf2ec54a957e18dbae087"
+
+[[files]]
+file = "kubejs/data/campfiremons/advancement/stage/2.json"
+hash = "082d34df9f92e83fcbf7584d3be91880ea487eebc4248fe88bf7fdaf19628278"
+
+[[files]]
+file = "kubejs/data/campfiremons/advancement/stage/3.json"
+hash = "990cda3f5871850260aed5baa24ce005f8bac4b7172e81dee1541270fddcfbc4"
+
+[[files]]
+file = "kubejs/data/campfiremons/advancement/stage/4.json"
+hash = "ebc88510e1c8cb9a94efbe1c4a55f9547e6d5de105dca4f4ba3c4cb1fb7580f0"
+
+[[files]]
+file = "kubejs/data/campfiremons/advancement/stage/5.json"
+hash = "3f610e864d22caaf93dbb4d8d948a20b262d51afbc305f0132ef4f7cf493a115"
+
+[[files]]
+file = "kubejs/data/campfiremons/advancement/stage/6.json"
+hash = "46b71301590fc65d577048cb368882e550a7949c208d68eaaee9857b34217098"
+
+[[files]]
+file = "kubejs/data/campfiremons/advancement/stage/7.json"
+hash = "ad10479f059117a167ee45968b9185f0a2a918a2f6b701d05d25bcca507677f7"
+
+[[files]]
+file = "kubejs/data/campfiremons/advancement/stage/8.json"
+hash = "c5164f6955b6fd3e93eeb1eb53bad864d2f4a02b5e97a111d64243215a0792ad"
+
+[[files]]
+file = "kubejs/data/campfiremons/advancement/stage/9.json"
+hash = "fdf812217fdbd1195beb2cff64c2256dbe752ec107c3f5071850f350e93c6bc6"
+
+[[files]]
+file = "kubejs/data/campfiremons/advancement/stage/root.json"
+hash = "b14ecd6cda159351ea157aae21114023cf39466ce6f64cc1796f502b834afdca"
+
+[[files]]
+file = "kubejs/startup_scripts/campfiremons/cobblemon_hooks.js"
+hash = "21687adb07bcb4ab7e4e1d40dc6c289621e8fa5603aa4a87248cbbc160e42aa5"
+
+[[files]]
+file = "kubejs/startup_scripts/campfiremons/config.js"
+hash = "9d6f6b079c837df915cbf9928ed13edc465f3f5e6abc77c1d3c446b93e0f6daf"
+
+[[files]]
+file = "kubejs/startup_scripts/campfiremons/tier_locks.js"
+hash = "a6f5c3d2f786e17a2fc95aa15b0d7974f1608381b1861655dddd533c4030f2b6"
 
 [[files]]
 file = "mods/advanced-core-info.pw.toml"

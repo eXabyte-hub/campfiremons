@@ -1,0 +1,22 @@
+{
+  "parent": "campfiremons:stage/5",
+  "display": {
+    "icon": {
+      "id": "cobblemon:beast_ball"
+    },
+    "title": {
+      "text": "Stage 6"
+    },
+    "description": {
+      "text": "Beat Gym 6."
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "granted_by_quest": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

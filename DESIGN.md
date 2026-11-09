@@ -3,7 +3,7 @@
 Status: **draft v2** (2026-11-09).
 - v1 came from the interview with Jack.
 - v2 lowers the difficulty: catching has no level limit (the cap applies to gyms instead), loot is only lightly gated, and the chosen §5.2 mods move into §5.1.
-Pack name and namespace are TBD. The placeholder namespace below is `cobblepack`.
+Pack name: **Campfiremons**, namespace `campfiremons`.
 
 Legend: **[decided]** came from the interview. **[proposed]** is a default I picked that you should change if you disagree.
 Numbers marked *draft* get tuned in playtesting.
@@ -43,9 +43,9 @@ ATMons has no license, so we only study its approach (see §6).
 
 - Every FTB Quests chapter is one **stage**. The chapter's capstone quest is that stage's **gym battle**.
 - Earning the badge completes the stage. The **stage number = badges earned**, giving one progression number for everything.
-- Stage flags are **advancements**: `cobblepack:stage/1` … `cobblepack:stage/9` [proposed].
+- Stage flags are **advancements**: `campfiremons:stage/1` … `campfiremons:stage/9` [proposed].
   - *Advancement*: a per-player flag the game saves, visible in the advancements screen, and grantable by command.
-  - FTB Quests grants them with a command reward (`/advancement grant @p only cobblepack:stage/3`).
+  - FTB Quests grants them with a command reward (`/advancement grant @p only campfiremons:stage/3`).
   - Vanilla **loot tables can test advancements**, which is the main reason to prefer them over KubeJS "stages" (§4.4).
 - Gyms are a **mix** [decided]. Proposed split:
   - Gyms 1–4 live in a **hub town** at spawn, admin-built and placed with RCT commands.
@@ -75,13 +75,13 @@ The caps get matched to RCT's actual gym-leader levels once we can see them in t
 
 | Tier | Contents (examples) | Default source of membership |
 |---|---|---|
-| T1 Sub-legendary | Birds, beasts, regis, lake trio, Swords of Justice, Forces of Nature, Tapus, Kubfu… | Cobblemon label `legendary` **minus** the T4 list |
-| T2 Ultra Beast + Paradox | Nihilego…Blacephalon, Great Tusk…Iron Leaves… | labels `ultra_beast`, `paradox` |
-| T3 Mythical | Mew, Celebi, Jirachi, Deoxys, … | label `mythical` |
-| T4 Box/restricted | Mewtwo, Lugia, Ho-Oh, the weather trio, the creation trio, Arceus, … Koraidon, Miraidon, Terapagos | **explicit list** in our config |
+| T1 Sub-legendary | Birds, beasts, regis, lake trio, Swords of Justice, Forces of Nature, Tapus, Kubfu… | label `legendary` **minus** label `restricted` (44 species) |
+| T2 Ultra Beast + Paradox | Nihilego…Blacephalon, Great Tusk…Iron Leaves… | labels `ultra_beast`, `paradox` (31) |
+| T3 Mythical | Mew, Celebi, Jirachi, Deoxys, … | label `mythical` (22, Arceus moved to T4) |
+| T4 Box/restricted | Mewtwo, Lugia, Ho-Oh, the weather trio, the creation trio, Arceus, … Koraidon, Miraidon, Terapagos | Cobblemon's own label `restricted` (27) + Arceus override |
 
 Tier lists live in one config file. Any species can be moved by hand (for example, putting Kubfu earlier).
-The label names still need checking against the 1.8.4 species data.
+Label names verified against the Cobblemon 1.8.4 species data. Tier stages, label rules and per-species overrides live in `kubejs/startup_scripts/campfiremons/config.js`.
 
 **Sources once a tier is unlocked** [decided: all of them]:
 - Legendary Monuments shrines and summoning
@@ -104,7 +104,7 @@ Implemented as our own KubeJS hooks into Cobblemon's events (§6).
 - **Tier locks** (unchanged): throwing at, or starting a battle with, a wild T1–T4 Pokémon whose tier you haven't unlocked is cancelled. You get a chat/actionbar message and an error sound.
 - **Master Ball:** no special catching rule, and it can't get around tier locks.
 - **Trading: trust the group** [decided]. You can trade a legendary to someone without the unlock, and they can use it outside gym battles. Only catching and wild battles check tiers.
-- An **admin bypass** (creative mode, or a `cobblepack:bypass` advancement) is included for testing.
+- An **admin bypass**: the hidden `campfiremons:bypass` advancement. Creative mode is deliberately *not* a bypass, so locks can be tested in creative.
 - Known gaps to check: Raid Dens, Ultra Wormholes and Legendary Monuments may run their own capture flow that skips the normal ball-hit event. Where they do, we gate access to the content (raid star tier, wormhole entry, summon item) instead.
 
 ### 4.2 Level cap: gyms and EXP
@@ -137,7 +137,7 @@ Implemented as our own KubeJS hooks into Cobblemon's events (§6).
 
 - Exploring should feel rewarding, so most loot is left as the mods ship it.
 - We only **strip the §4.3 held-back items** from world loot and re-add them at their stage.
-  - Plain datapack JSON can check the looting player's advancements, e.g. "Bottle Caps only if `cobblepack:stage/7`". No extra mod is needed.
+  - Plain datapack JSON can check the looting player's advancements, e.g. "Bottle Caps only if `campfiremons:stage/7`". No extra mod is needed.
   - *Loot table*: the JSON that decides what a chest, mob or block drops. KubeJS can ship datapack files under `kubejs/data/`.
 - Tables to check for those items:
   - vanilla structure chests
@@ -231,11 +231,11 @@ This is studied from ATMons' `catch_restrictions.js`. The design is ours; no ATM
 - **Startup script** (`kubejs/startup_scripts/`): subscribe to Cobblemon's own Kotlin event bus once at startup.
   - The events are `THROWN_POKEBALL_HIT` and `BATTLE_STARTED_PRE`, at a late priority so other mods see them first.
   - *Startup scripts* run once when the game boots, on both client and server. *Server scripts* run on the server and reload with `/reload`.
-- The handlers stay thin and call into **server-side logic** that reads the player's stage advancements and our config (caps table, tier lists, messages). That makes most of it reloadable without restarting.
+- The hook only forwards each event to a handler on `global.campfiremons`, looked up per event. The handlers and config live in other startup scripts, because KubeJS 2101 makes `global` read-only in server/client scripts. `/kubejs reload startup` swaps in new logic without a restart.
   - Ball hit: tier lock only. There is no level check on catching any more.
   - Battle start: tier lock for wild battles. For gym/League trainers it also runs the over-cap party check, unless RCT already handles that (§4.2).
-- Config: `kubejs/server_scripts/cobblepack/config.js` (caps, tiers, which RCT trainers count as gym/League).
-- Data: `kubejs/data/cobblepack/advancement/stage/*.json` (hidden-trigger advancements granted by command).
+- Config: `kubejs/startup_scripts/campfiremons/config.js` (caps, tiers, which RCT trainers count as gym/League).
+- Data: `kubejs/data/campfiremons/advancement/stage/*.json` (hidden-trigger advancements granted by command).
 - **Verify before writing code** (rule 5):
   - exact event class and field names in the Cobblemon 1.8.4 jar
   - how Rhino calls `subscribe(Priority, …)` on a Kotlin observable
@@ -318,7 +318,7 @@ This is studied from ATMons' `catch_restrictions.js`. The design is ours; no ATM
 
 ## 10. Open questions (not blocking F0/F1)
 
-1. Pack name, which also sets the namespace (replacing `cobblepack`).
+1. ~~Pack name~~ Decided: Campfiremons (`campfiremons`).
 2. Which rented host (see the requirements in §8).
 3. Final cap numbers and the T4 list, after we see RCT's trainer levels.
 4. Should Master Ball be the S9 reward only, or also a rare raid ★7 drop?
@@ -331,7 +331,7 @@ This is studied from ATMons' `catch_restrictions.js`. The design is ours; no ATM
 
 - **FTB Quests via packwiz:** it's CurseForge-only. If its authors disallow third-party downloads, packwiz-installer would make friends download it by hand. Check in F0.
 - **1.7-era addons on Cobblemon 1.8.4** (the ⚠️ rows): test in batches in F6, starting with the ones F1 depends on (none).
-- **Cobblemon event API in 1.8.4** may differ from what ATMons used on 1.7.3. Read the jar in F1.
+- ~~Cobblemon event API in 1.8.4~~ Verified in F1 against the 1.8.4 jar and source (event classes, the subscribe overload, labels, cancel behaviour).
 - **Capture flows** in Raid Dens, Ultra Wormholes and Legendary Monuments may bypass ball-hit events (§4.1).
 - **How a gym defeat reaches FTB Quests:** an RCT API event, an RCT advancement, or a Cobblemon Quests Reloaded task. Check in F5.
 - **Telling gym/League trainers apart in code** from roaming RCT trainers: a trainer ID list, an RCT "key trainer" flag, or a tag. Check in F2.

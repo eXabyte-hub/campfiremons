@@ -31,9 +31,22 @@ Restart Prism if the instance doesn't show up.
 - Press Play on **Campfiremons Dev**. Its pre-launch hook (`tools/dev-prelaunch.sh`) runs
   `packwiz refresh` and then syncs mods/configs from this repo into the instance.
 - `kubejs/` and `config/ftbquests/` in the instance are symlinks to this repo. Script edits are
-  live (use `/reload` in game for server scripts), and the in-game quest editor saves straight into git.
+  live: `/reload` re-runs server scripts, and `/kubejs reload startup` re-runs startup scripts
+  (where the Cobblemon gating lives). The in-game quest editor saves straight into git.
 - Logs (KubeJS 2101 writes them under the instance's `logs/`, not `kubejs/logs/`):
   `minecraft/logs/kubejs/startup.log`, `server.log`, `client.log`, and `minecraft/logs/latest.log`.
+
+## Testing stages
+
+A player's stage is their highest `campfiremons:stage/N` advancement. With vanilla `/advancement`:
+
+```
+/advancement grant @s until campfiremons:stage/4    # stages 1–4 (the advancement + its parents)
+/advancement revoke @s from campfiremons:stage/1    # clears all stages (the advancement + its children)
+/advancement grant @s only campfiremons:bypass      # admin bypass for every lock
+```
+
+Don't use `through` for this: it also grants all the *children*, i.e. every later stage up to Champion.
 
 ## Adding or updating mods
 

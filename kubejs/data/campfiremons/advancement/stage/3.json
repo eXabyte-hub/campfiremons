@@ -1,0 +1,22 @@
+{
+  "parent": "campfiremons:stage/2",
+  "display": {
+    "icon": {
+      "id": "cobblemon:ultra_ball"
+    },
+    "title": {
+      "text": "Stage 3"
+    },
+    "description": {
+      "text": "Beat Gym 3."
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "granted_by_quest": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

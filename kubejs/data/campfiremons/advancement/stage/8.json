@@ -1,0 +1,22 @@
+{
+  "parent": "campfiremons:stage/7",
+  "display": {
+    "icon": {
+      "id": "cobblemon:cherish_ball"
+    },
+    "title": {
+      "text": "Stage 8"
+    },
+    "description": {
+      "text": "Beat Gym 8."
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "granted_by_quest": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

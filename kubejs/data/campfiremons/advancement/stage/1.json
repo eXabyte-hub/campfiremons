@@ -1,0 +1,22 @@
+{
+  "parent": "campfiremons:stage/root",
+  "display": {
+    "icon": {
+      "id": "cobblemon:poke_ball"
+    },
+    "title": {
+      "text": "Stage 1"
+    },
+    "description": {
+      "text": "Beat Gym 1."
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "granted_by_quest": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
