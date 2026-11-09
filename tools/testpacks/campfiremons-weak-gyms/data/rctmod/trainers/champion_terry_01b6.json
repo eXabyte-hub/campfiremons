@@ -1,0 +1,28 @@
+{
+  "name": "Champion Terry",
+  "identity": "Rival Terry",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "maxSelectMargin": 0.15
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 0
+  },
+  "bag": [],
+  "team": [
+    {
+      "species": "magikarp",
+      "gender": "MALE",
+      "level": 5,
+      "nature": "hardy",
+      "ability": "swiftswim",
+      "moveset": [
+        "splash"
+      ],
+      "ivs": {},
+      "evs": {}
+    }
+  ]
+}

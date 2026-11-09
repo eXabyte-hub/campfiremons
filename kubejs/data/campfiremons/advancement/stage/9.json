@@ -15,8 +15,20 @@
     "announce_to_chat": true
   },
   "criteria": {
-    "granted_by_quest": {
-      "trigger": "minecraft:impossible"
+    "beat_trainer": {
+      "trigger": "rctmod:defeat_count",
+      "conditions": {
+        "count": 1,
+        "entity": {
+          "type": null
+        },
+        "trainer_ids": [
+          "champion_terry_01b8",
+          "champion_terry_01b7",
+          "champion_terry_01b6"
+        ],
+        "trainer_type": null
+      }
     }
   },
   "rewards": {

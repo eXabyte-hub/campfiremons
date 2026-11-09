@@ -4,7 +4,7 @@ player reaches the stage that unlocks them. Edit the config below, run, then `pa
     python -I tools/gen_finds.py
 
 Writes (all under kubejs/data/, overwriting previous output):
-  campfiremons/advancement/stage/{root,1..9}.json   stage advancements (titles/hints live here, not in the JSON)
+  campfiremons/advancement/stage/{root,1..9}.json   stage advancements: titles/hints, and the RCT gym win that grants each
   campfiremons/advancement/found/<id>.json          "found it" flags for find-once items (inventory_changed)
   campfiremons/loot_table/finds/<id>.json           one-item tables the loot modifiers roll
   campfiremons/loot_modifiers/finds/<id>.json       NeoForge add_table modifiers, gated per player
@@ -72,6 +72,12 @@ STAGES = {
     9: ("Stage 9: Champion", "Beat the Elite Four and Champion Terry. Reward: a Master Ball."),
 }
 STAGE_ICONS = ["poke_ball", "great_ball", "ultra_ball", "quick_ball", "dusk_ball", "beast_ball", "luxury_ball", "cherish_ball", "master_ball"]
+# Beating this RCT trainer (Radical Red series, IDs from rctmod's own defeat_leader_* advancements) completes the stage
+STAGE_TRAINERS = {
+    1: ["leader_brock_019e"], 2: ["leader_misty_019f"], 3: ["leader_lt_surge_01a0"], 4: ["leader_erika_01a1"],
+    5: ["leader_sabrina_01a4"], 6: ["leader_koga_01a2"], 7: ["leader_blaine_01a3"], 8: ["leader_clair_004a"],
+    9: ["champion_terry_01b8", "champion_terry_01b7", "champion_terry_01b6"],
+}
 DIRECT_REWARDS = {9: ["cobblemon:master_ball"]}
 
 
@@ -108,7 +114,9 @@ def main():
                 "title": {"text": title}, "description": {"text": desc},
                 "frame": "challenge" if n == 9 else "goal", "show_toast": True, "announce_to_chat": True,
             },
-            "criteria": {"granted_by_quest": {"trigger": "minecraft:impossible"}},
+            # Same condition shape as rctmod's own advancements; /advancement grant still works for testing
+            "criteria": {"beat_trainer": {"trigger": "rctmod:defeat_count", "conditions": {
+                "count": 1, "entity": {"type": None}, "trainer_ids": STAGE_TRAINERS[n], "trainer_type": None}}},
         }
         if n in DIRECT_REWARDS:
             adv["rewards"] = {"loot": [f"campfiremons:rewards/stage_{n}"]}

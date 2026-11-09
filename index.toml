@@ -498,39 +498,39 @@ hash = "13b84b286a8d42cfb90dfee0d2d0e07792a056729111cdf86014e9e21e0a124c"
 
 [[files]]
 file = "kubejs/data/campfiremons/advancement/stage/1.json"
-hash = "b6153e7c0bef51051595bb14cad6316a2a3c4f07f602d4164517a97db5aa36b5"
+hash = "cba16b5b7d371e1f1ccd01b53254d3a28b440bd549352505fe1d978b54dccc08"
 
 [[files]]
 file = "kubejs/data/campfiremons/advancement/stage/2.json"
-hash = "68bdde9a25eb3100f0fbdfdda4f9d56af6b4f3ba7699cd1d61aed88d7d14a040"
+hash = "b0e2b63ecee7c71c4012354cef8879c5b1affc9d20f8fcc89d3a633a368fcb1a"
 
 [[files]]
 file = "kubejs/data/campfiremons/advancement/stage/3.json"
-hash = "702a43a3dc12ee5e7e3b625339ddfa86d98f7210e8a3d601a261fd5331dd2d15"
+hash = "08899a0965e75df8e813fd8dfe988d9bc8c82ab265c660549a6c43cb9d157579"
 
 [[files]]
 file = "kubejs/data/campfiremons/advancement/stage/4.json"
-hash = "1c7147c2246877fdd3d61b1932b2bb9ab7d3ef966cb149b2a08f944f4b19dc6b"
+hash = "f835bf718f95575e0de58e54dc9ed2bb87886abeab592b0f99fb11d00b80cf7d"
 
 [[files]]
 file = "kubejs/data/campfiremons/advancement/stage/5.json"
-hash = "37f5e34866b80e5a859fa8be2a6fb500259e35031ef93871d055f0d0a9db5a73"
+hash = "cc3ba27b6f879cdf9d1bba76e34b8ffa62c9bb155f7aa0ae91fd2a6a9e2bfe6a"
 
 [[files]]
 file = "kubejs/data/campfiremons/advancement/stage/6.json"
-hash = "7ffdb5c306f59403b3156b82e8e8ea595042ca3887df91def74dfa29de7b0a9e"
+hash = "3d426c1dbc3c05d7b65772f67afe28deb2b2e8da8f0edb191c1b95c6f5c42734"
 
 [[files]]
 file = "kubejs/data/campfiremons/advancement/stage/7.json"
-hash = "03b1b0bd05fc82ad6cacac477d7900cf36023e0a14cfa98264789b1fb1506a1e"
+hash = "4d200dce29d5a8896a15687dbc37c66bf6932e984c115bb17a0cbfaebceb0c92"
 
 [[files]]
 file = "kubejs/data/campfiremons/advancement/stage/8.json"
-hash = "2a2fb8de329c3ffe9acd74368bcf4cb531af64cc2f85496ecff57d39ae840a31"
+hash = "cb65fd36e118934c3a4500c7f5db23b6a82a9806a4b88d3177e65277474f98ea"
 
 [[files]]
 file = "kubejs/data/campfiremons/advancement/stage/9.json"
-hash = "af7d141d036a9077f2d94126a3a4c5c5cd5b3e9d5fc21572c7ec7ce2394b8ecd"
+hash = "d392e26fb1858decd87c05d34200a5d0568e4a680412b2e8a5dde568d1484d31"
 
 [[files]]
 file = "kubejs/data/campfiremons/advancement/stage/root.json"
