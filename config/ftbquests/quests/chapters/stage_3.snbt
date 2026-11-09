@@ -1,0 +1,141 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "stage_3"
+	group: ""
+	icon: {
+		id: "cobblemon:ultra_ball"
+	}
+	id: "4924463815C0080A"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"D7CC07EDED5AEA39"
+			]
+			icon: {
+				id: "cobblemon:ultra_ball"
+			}
+			id: "76F7F4825D03977D"
+			rewards: [
+				{
+					id: "A8713AAD5CA34348"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "campfiremons:stage/3"
+					criterion: ""
+					id: "BF985B6D71C312AC"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"76F7F4825D03977D"
+			]
+			icon: {
+				id: "mega_showdown:z_ring"
+			}
+			id: "10A6D6C341C9DE6F"
+			rewards: [
+				{
+					id: "E16D8FEE5870E567"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					advancement: "campfiremons:found/z_ring"
+					criterion: ""
+					id: "220034700C5C3AA4"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"76F7F4825D03977D"
+			]
+			icon: {
+				id: "cobblemon:ultra_ball"
+			}
+			id: "42EE0BCEB05AED22"
+			rewards: [
+				{
+					count: 8
+					id: "C2310FC1FC10428B"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					action: "catch"
+					amount: 30L
+					biome: ""
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "2166C99A3497230A"
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"76F7F4825D03977D"
+			]
+			icon: {
+				id: "cobblemon:quick_ball"
+			}
+			id: "267B4C856236D8EB"
+			rewards: [
+				{
+					id: "4403570DEB45519E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "campfiremons:stage/4"
+					criterion: ""
+					id: "81EEF96347AD5302"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+}

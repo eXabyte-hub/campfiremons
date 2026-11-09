@@ -1,0 +1,141 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "stage_6"
+	group: ""
+	icon: {
+		id: "cobblemon:beast_ball"
+	}
+	id: "3BE0612417675CBC"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"080EFFF2C23BE2C4"
+			]
+			icon: {
+				id: "cobblemon:beast_ball"
+			}
+			id: "8F12100FA106E395"
+			rewards: [
+				{
+					id: "E72F82FE53F63D26"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "campfiremons:stage/6"
+					criterion: ""
+					id: "BC2BB70C6FBC56A3"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"8F12100FA106E395"
+			]
+			icon: {
+				id: "mega_showdown:tera_orb"
+			}
+			id: "77BDF8BC23C0AC35"
+			rewards: [
+				{
+					id: "829311BF0F2A184F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					advancement: "campfiremons:found/tera_orb"
+					criterion: ""
+					id: "0B57ACA88D03ACD6"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"8F12100FA106E395"
+			]
+			icon: {
+				id: "cobblemon:beast_ball"
+			}
+			id: "D3D6C99E71D40EC6"
+			rewards: [
+				{
+					count: 4
+					id: "D1CA969857E3CB7D"
+					item: {
+						count: 1
+						id: "cobblemon:beast_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					action: "catch"
+					amount: 1L
+					biome: ""
+					dimension: ""
+					form: "ultra_beast, paradox"
+					gender: ""
+					id: "890DE661C58A3543"
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"8F12100FA106E395"
+			]
+			icon: {
+				id: "cobblemon:luxury_ball"
+			}
+			id: "242F5963CF4C6819"
+			rewards: [
+				{
+					id: "080FA6AE96420C75"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "campfiremons:stage/7"
+					criterion: ""
+					id: "EE58B8686B504867"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+}

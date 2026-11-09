@@ -1,0 +1,27 @@
+{
+	quest.0612A68FC7008D19.quest_desc: [
+		"Every legendary tier is open. Giovanni brings Mega Mewtwo; you can bring yours."
+	]
+	quest.0612A68FC7008D19.quest_subtitle: "Catch a mythical or box legend"
+	quest.0612A68FC7008D19.title: "Myths and Legends"
+	quest.1F0B4EF36C9FB5B7.quest_desc: [
+		"Clair spawns in mountain peaks."
+		""
+		"Gym leaders are RCT key trainers. They spawn near you in their favourite biomes once you've beaten the key trainers before them (rivals, Team Rocket); gyms 1-4 will also live in the hub town."
+		""
+		"Your whole party must be at or under your level cap to battle."
+	]
+	quest.1F0B4EF36C9FB5B7.quest_subtitle: "Reach Stage 8"
+	quest.1F0B4EF36C9FB5B7.title: "Beat Clair"
+	quest.684B056C379FF9C4.quest_desc: [
+		"You beat Blaine. Mythicals and box legends can be caught, and a Dynamax Band turns up in structure chests: dungeons, temples, shipwrecks, ruins, strongholds and more."
+	]
+	quest.684B056C379FF9C4.quest_subtitle: "Stage 7 reached"
+	quest.684B056C379FF9C4.title: "Volcano Badge"
+	quest.6E95CF8E029955B9.quest_desc: [
+		"It now turns up (once) in structure chests: dungeons, temples, shipwrecks, ruins, strongholds and more."
+		"Chests are per player, so check every one you pass."
+	]
+	quest.6E95CF8E029955B9.quest_subtitle: "Explore structure chests"
+	quest.6E95CF8E029955B9.title: "Find the Dynamax Band"
+}

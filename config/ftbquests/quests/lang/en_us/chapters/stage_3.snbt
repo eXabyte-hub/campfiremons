@@ -1,0 +1,27 @@
+{
+	quest.10A6D6C341C9DE6F.quest_desc: [
+		"It now turns up (once) in structure chests: dungeons, temples, shipwrecks, ruins, strongholds and more."
+		"Chests are per player, so check every one you pass."
+	]
+	quest.10A6D6C341C9DE6F.quest_subtitle: "Explore structure chests"
+	quest.10A6D6C341C9DE6F.title: "Find the Z-Ring"
+	quest.267B4C856236D8EB.quest_desc: [
+		"Erika spawns in lush, densely overgrown biomes."
+		""
+		"Gym leaders are RCT key trainers. They spawn near you in their favourite biomes once you've beaten the key trainers before them (rivals, Team Rocket); gyms 1-4 will also live in the hub town."
+		""
+		"Your whole party must be at or under your level cap to battle."
+	]
+	quest.267B4C856236D8EB.quest_subtitle: "Reach Stage 4"
+	quest.267B4C856236D8EB.title: "Beat Erika"
+	quest.42EE0BCEB05AED22.quest_desc: [
+		"Ultra Balls work now."
+	]
+	quest.42EE0BCEB05AED22.quest_subtitle: "Catch 30 Pokémon"
+	quest.42EE0BCEB05AED22.title: "Ultra Collector"
+	quest.76F7F4825D03977D.quest_desc: [
+		"You beat Lt. Surge. A Z-Ring now turns up in structure chests: dungeons, temples, shipwrecks, ruins, strongholds and more."
+	]
+	quest.76F7F4825D03977D.quest_subtitle: "Stage 3 reached"
+	quest.76F7F4825D03977D.title: "Thunder Badge"
+}

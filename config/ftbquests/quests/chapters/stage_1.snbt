@@ -1,0 +1,113 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "stage_1"
+	group: ""
+	icon: {
+		id: "cobblemon:poke_ball"
+	}
+	id: "F59D5EE978AE2FBF"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"1D77FC3C44DE2076"
+			]
+			icon: {
+				id: "cobblemon:poke_ball"
+			}
+			id: "8A1203ECCFFBC147"
+			rewards: [
+				{
+					id: "9DB166E34C71F999"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "campfiremons:stage/1"
+					criterion: ""
+					id: "328396D516747A11"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"8A1203ECCFFBC147"
+			]
+			icon: {
+				id: "cobblemon:great_ball"
+			}
+			id: "35D7D9A5A5A1AEBB"
+			rewards: [
+				{
+					count: 8
+					id: "E75C63B351557E03"
+					item: {
+						count: 1
+						id: "cobblemon:great_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					action: "catch"
+					amount: 15L
+					biome: ""
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "8B05193157B622FE"
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"8A1203ECCFFBC147"
+			]
+			icon: {
+				id: "cobblemon:great_ball"
+			}
+			id: "6EFA1D7CDA08F0A4"
+			rewards: [
+				{
+					id: "4ABF1C67009EF56F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "campfiremons:stage/2"
+					criterion: ""
+					id: "DB07E1321CA49F96"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+}

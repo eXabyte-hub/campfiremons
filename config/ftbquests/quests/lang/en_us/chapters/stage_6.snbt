@@ -1,0 +1,27 @@
+{
+	quest.242F5963CF4C6819.quest_desc: [
+		"Blaine spawns in hot biomes: deserts, badlands, savannas."
+		""
+		"Gym leaders are RCT key trainers. They spawn near you in their favourite biomes once you've beaten the key trainers before them (rivals, Team Rocket); gyms 1-4 will also live in the hub town."
+		""
+		"Your whole party must be at or under your level cap to battle."
+	]
+	quest.242F5963CF4C6819.quest_subtitle: "Reach Stage 7"
+	quest.242F5963CF4C6819.title: "Beat Blaine"
+	quest.77BDF8BC23C0AC35.quest_desc: [
+		"It now turns up (once) in structure chests: dungeons, temples, shipwrecks, ruins, strongholds and more."
+		"Chests are per player, so check every one you pass."
+	]
+	quest.77BDF8BC23C0AC35.quest_subtitle: "Explore structure chests"
+	quest.77BDF8BC23C0AC35.title: "Find the Tera Orb"
+	quest.8F12100FA106E395.quest_desc: [
+		"You beat Koga. Ultra Beasts and Paradox Pokémon can be caught, and a Tera Orb turns up in structure chests: dungeons, temples, shipwrecks, ruins, strongholds and more."
+	]
+	quest.8F12100FA106E395.quest_subtitle: "Stage 6 reached"
+	quest.8F12100FA106E395.title: "Soul Badge"
+	quest.D3D6C99E71D40EC6.quest_desc: [
+		"Beast Balls work now."
+	]
+	quest.D3D6C99E71D40EC6.quest_subtitle: "Catch an Ultra Beast or Paradox Pokémon"
+	quest.D3D6C99E71D40EC6.title: "Beyond the Wormhole"
+}

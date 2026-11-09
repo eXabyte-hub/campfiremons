@@ -1,0 +1,221 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "stage_0"
+	group: ""
+	icon: {
+		id: "cobblemon:poke_ball"
+	}
+	id: "2C1FC7D4CD62E5E4"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [ ]
+			icon: {
+				id: "minecraft:campfire"
+			}
+			id: "2142C565D5E72B2B"
+			rewards: [
+				{
+					id: "E9848A4ED8E6DC97"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "10282883D85F0F3C"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2142C565D5E72B2B"
+			]
+			icon: {
+				id: "cobblemon:poke_ball"
+			}
+			id: "07770E338AC86117"
+			rewards: [
+				{
+					count: 5
+					id: "78E356F3C0FC8511"
+					item: {
+						count: 1
+						id: "cobblemon:poke_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					action: "catch"
+					amount: 1L
+					biome: ""
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "E4DA7DD4DCFC74C3"
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+			]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"07770E338AC86117"
+			]
+			icon: {
+				id: "cobblemon:poke_ball"
+			}
+			id: "C2B290715D042AD2"
+			rewards: [
+				{
+					count: 3
+					id: "70CF0D0FD6D4C59F"
+					item: {
+						count: 1
+						id: "cobblemon:potion"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					action: "catch"
+					amount: 5L
+					biome: ""
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "5B04E7BC1C243876"
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+			]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"07770E338AC86117"
+			]
+			icon: {
+				id: "cobblemon:exp_candy_xs"
+			}
+			id: "2CB794566D297784"
+			rewards: [
+				{
+					count: 2
+					id: "D15EE0E6A255FE23"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_s"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					action: "evolve"
+					amount: 1L
+					biome: ""
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "93A9564FA12EF776"
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+			]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"C2B290715D042AD2"
+			]
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "509520097CAAFD27"
+			rewards: [
+				{
+					id: "238762096CBB7A81"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [
+				{
+					id: "376D97250BF5ABB7"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"C2B290715D042AD2"
+			]
+			icon: {
+				id: "cobblemon:poke_ball"
+			}
+			id: "1D77FC3C44DE2076"
+			rewards: [
+				{
+					id: "FC04602964D9F97F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "campfiremons:stage/1"
+					criterion: ""
+					id: "F26120F50C3828AB"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+}

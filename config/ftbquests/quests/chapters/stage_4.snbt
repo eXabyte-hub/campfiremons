@@ -1,0 +1,113 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "stage_4"
+	group: ""
+	icon: {
+		id: "cobblemon:quick_ball"
+	}
+	id: "E12895B02D761DD9"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"267B4C856236D8EB"
+			]
+			icon: {
+				id: "cobblemon:quick_ball"
+			}
+			id: "E402F1288E504076"
+			rewards: [
+				{
+					id: "CF1B4E62BBFE8456"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "campfiremons:stage/4"
+					criterion: ""
+					id: "AD7CA5ACB94BF2C7"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"E402F1288E504076"
+			]
+			icon: {
+				id: "cobblemon:exp_candy_l"
+			}
+			id: "BD95E6EDDA9C33DE"
+			rewards: [
+				{
+					count: 4
+					id: "A86D69F0A3307118"
+					item: {
+						count: 1
+						id: "cobblemon:hyper_potion"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					action: "level_up_to"
+					amount: 50L
+					biome: ""
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "4DFD209F9A577304"
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"E402F1288E504076"
+			]
+			icon: {
+				id: "cobblemon:dusk_ball"
+			}
+			id: "5AAE215A3FED46AB"
+			rewards: [
+				{
+					id: "A3263294CEC42EF6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "campfiremons:stage/5"
+					criterion: ""
+					id: "DAE9A2B2B1A77EE5"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+}

@@ -449,6 +449,102 @@ file = "config/fancymenu/options.txt"
 hash = "7d344bc0e4b17014290c3e7570a7505099de513f28b51cf6319919d75b465b3f"
 
 [[files]]
+file = "config/ftbquests/quests/chapter_groups.snbt"
+hash = "e57d8311aec9f524911ed1313cabf138bb7fa5a2d3ba985a00a2a267ff35ef78"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/stage_0.snbt"
+hash = "31fc3e29785d64515f3e1fbab2da861e2d1a9e76e62a0419fbdbff1454724cf0"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/stage_1.snbt"
+hash = "386850a78f43ac7e218f333d65ea2b9f70ee2d93a041e7572e5022db3a2aa677"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/stage_2.snbt"
+hash = "ed2717cd1bee5f7328b9f2a0345c4bf483f54c4fb628cc9212e67d3f66336e21"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/stage_3.snbt"
+hash = "16345ed3fee066914eb268154f2b5cad0093348e3e07df9026062cc7a6bf66f9"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/stage_4.snbt"
+hash = "be96e3e870b17f498ea23133c706f143e76c0f623b401bcd989d3587a3713699"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/stage_5.snbt"
+hash = "ed14929b6ff02173e7de1afd84f1c8e29c80e9c4446510a30e53e1055cb98fa5"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/stage_6.snbt"
+hash = "78008990c7a548b943d362ec1657bd758eca9279c555020c7ce0f333a22e192d"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/stage_7.snbt"
+hash = "55b52f19037e313bccb78e13a48bafed905b66c924327d6467854f15914bfdfd"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/stage_8.snbt"
+hash = "8ddd937ecd0d0c3cffe0d38f7f4b489c31e078e7a46ccb150ea080455e5e76e7"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/stage_9.snbt"
+hash = "f4b8cd054d2fddaa8f8d8fc9dd4b00820b4240564a24a345feafe91c18c0f8a0"
+
+[[files]]
+file = "config/ftbquests/quests/data.snbt"
+hash = "cf1b631ef84d4ff8399d1bd5b9f0a9b54c391bf7fb2440d46d0afed186a0d1d8"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapter.snbt"
+hash = "89bda4170bcf81999fa7510bc5a9c46d5592d9ad32b653a38c6cc999d3b7c2dd"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/stage_0.snbt"
+hash = "24d9c1408cc54ad46aefa8b6b5ed23cee441d3682c3241fb4f1e16622338a7a0"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/stage_1.snbt"
+hash = "a46cf66d9c0bd6fd9ab95e7fd4fd35eceaa244a09cafbe24a96803163adc9acf"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/stage_2.snbt"
+hash = "2bb8562ddb34c7dea58d0a381148486e3a4dd12cc35966c75a1106b28e9b35a7"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/stage_3.snbt"
+hash = "96b98e8ae9fd9a3335b411330f0e88878d1a246c24a7118baa5283b2a2b4656f"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/stage_4.snbt"
+hash = "a467c54da0cd69f08b2f3a3bab6d3c8e12aff79544c00b68e83442df0c81ce94"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/stage_5.snbt"
+hash = "9240ccd6bc39b39d3f3c9078af929a38c64f838d7a0dcc4c63c098e48e069ad8"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/stage_6.snbt"
+hash = "bea363ecc9b98718ef4c858772a6c035105da879f27e9ac1e9ce008ad3e28566"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/stage_7.snbt"
+hash = "288ed689c85ed01b4e2e98bb0f90d5a0cadf2d11dcf420fe29efe42648ea249f"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/stage_8.snbt"
+hash = "924c9f0d2e6be4a8085f6360689b17af4e5a56b72a40a9a5357fe8dff7289b3c"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/stage_9.snbt"
+hash = "47e48746a045e1032654035f5dce5f248291515c2d9d940c91bca386740eab13"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/file.snbt"
+hash = "e9a518d3457113955507520776f49e22e49ef5dfdcbaa228b4891942d6cd0b22"
+
+[[files]]
 file = "defaultconfigs/rctmod-server.toml"
 hash = "b40eaa776bd701e4e1538b3783bcf9e1754cfd467180689afaac86f4fc6df5fa"
 
@@ -752,6 +848,11 @@ metafile = true
 [[files]]
 file = "mods/cobblemon-mega-showdown.pw.toml"
 hash = "450920a4100688783500078850dde0ba777f790bdf5ac2d45c5938432ab75e50"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-quest-reloaded.pw.toml"
+hash = "093ebb8f3b0af4596a82a0b9039fa641e03361b5550be028a8669252ecb05241"
 metafile = true
 
 [[files]]

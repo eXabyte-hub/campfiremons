@@ -1,0 +1,21 @@
+{
+	quest.35D7D9A5A5A1AEBB.quest_desc: [
+		"Great Balls work now."
+	]
+	quest.35D7D9A5A5A1AEBB.quest_subtitle: "Catch 15 Pokémon"
+	quest.35D7D9A5A5A1AEBB.title: "Great Catches"
+	quest.6EFA1D7CDA08F0A4.quest_desc: [
+		"Misty spawns in wet biomes: rivers, beaches, oceans."
+		""
+		"Gym leaders are RCT key trainers. They spawn near you in their favourite biomes once you've beaten the key trainers before them (rivals, Team Rocket); gyms 1-4 will also live in the hub town."
+		""
+		"Your whole party must be at or under your level cap to battle."
+	]
+	quest.6EFA1D7CDA08F0A4.quest_subtitle: "Reach Stage 2"
+	quest.6EFA1D7CDA08F0A4.title: "Beat Misty"
+	quest.8A1203ECCFFBC147.quest_desc: [
+		"You beat Brock."
+	]
+	quest.8A1203ECCFFBC147.quest_subtitle: "Stage 1 reached"
+	quest.8A1203ECCFFBC147.title: "Boulder Badge"
+}

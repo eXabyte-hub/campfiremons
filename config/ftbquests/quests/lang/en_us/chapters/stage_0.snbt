@@ -1,0 +1,40 @@
+{
+	quest.07770E338AC86117.quest_desc: [
+		"Throw a Poké Ball at a wild Pokémon, or battle it first to make the catch easier."
+	]
+	quest.07770E338AC86117.quest_subtitle: "Catch any Pokémon"
+	quest.07770E338AC86117.title: "First Catch"
+	quest.1D77FC3C44DE2076.quest_desc: [
+		"Brock spawns in caves, plateaus, mountains and hills."
+		""
+		"Gym leaders are RCT key trainers. They spawn near you in their favourite biomes once you've beaten the key trainers before them (rivals, Team Rocket); gyms 1-4 will also live in the hub town."
+		""
+		"Your whole party must be at or under your level cap to battle."
+	]
+	quest.1D77FC3C44DE2076.quest_subtitle: "Reach Stage 1"
+	quest.1D77FC3C44DE2076.title: "Beat Brock"
+	quest.2142C565D5E72B2B.quest_desc: [
+		"Progress is measured in &6stages&r: beat a gym leader to reach the next one."
+		"Each stage unlocks Pokémon you're allowed to catch (legendaries come in tiers) and items that start turning up in structure chests for you."
+		""
+		"Your Pokémon can't level past your &elevel cap&r: the ace level of your next unbeaten key trainer."
+		"Press &aL&r to see your stages in the Campfiremons League advancement tab."
+	]
+	quest.2142C565D5E72B2B.quest_subtitle: "Read me first"
+	quest.2142C565D5E72B2B.title: "Welcome to Campfiremons"
+	quest.2CB794566D297784.quest_desc: [
+		"Level a Pokémon until it evolves."
+	]
+	quest.2CB794566D297784.quest_subtitle: "Evolve a Pokémon"
+	quest.2CB794566D297784.title: "Growing Up"
+	quest.509520097CAAFD27.quest_desc: [
+		"Cobblemon ruins and shipwreck coves hide gilded chests; every structure chest is rolled for you alone."
+	]
+	quest.509520097CAAFD27.quest_subtitle: "A hint"
+	quest.509520097CAAFD27.title: "Out Exploring"
+	quest.C2B290715D042AD2.quest_desc: [
+		"Any level is fine: if you can weaken it, you can catch it. Legendaries are locked until later stages."
+	]
+	quest.C2B290715D042AD2.quest_subtitle: "Catch 5 Pokémon"
+	quest.C2B290715D042AD2.title: "Building a Team"
+}

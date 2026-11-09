@@ -1,0 +1,141 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "stage_7"
+	group: ""
+	icon: {
+		id: "cobblemon:luxury_ball"
+	}
+	id: "BB8D890143164F83"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"242F5963CF4C6819"
+			]
+			icon: {
+				id: "cobblemon:luxury_ball"
+			}
+			id: "684B056C379FF9C4"
+			rewards: [
+				{
+					id: "49915B8737FB8427"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "campfiremons:stage/7"
+					criterion: ""
+					id: "08E31633F0ADDBB3"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"684B056C379FF9C4"
+			]
+			icon: {
+				id: "mega_showdown:dynamax_band"
+			}
+			id: "6E95CF8E029955B9"
+			rewards: [
+				{
+					id: "13C9159FCAAC5C6B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					advancement: "campfiremons:found/dynamax_band"
+					criterion: ""
+					id: "70D35F78CD8706A6"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"684B056C379FF9C4"
+			]
+			icon: {
+				id: "cobblemon:luxury_ball"
+			}
+			id: "0612A68FC7008D19"
+			rewards: [
+				{
+					count: 2
+					id: "0F29424C10D122FB"
+					item: {
+						count: 1
+						id: "cobblemon:max_revive"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					action: "catch"
+					amount: 1L
+					biome: ""
+					dimension: ""
+					form: "mythical, restricted"
+					gender: ""
+					id: "619A34B72EFB9496"
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"684B056C379FF9C4"
+			]
+			icon: {
+				id: "cobblemon:cherish_ball"
+			}
+			id: "1F0B4EF36C9FB5B7"
+			rewards: [
+				{
+					id: "2E2BFE733A8DF99E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "campfiremons:stage/8"
+					criterion: ""
+					id: "4334A762A42040B6"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+}

@@ -42,6 +42,10 @@ Restart Prism if the instance doesn't show up.
 under `kubejs/data/` (see the list at the top of the script). Don't hand-edit those JSON files: change the
 config in the script, then run `python -I tools/gen_finds.py` and `packwiz refresh`.
 
+The quest book in `config/ftbquests/quests/` was generated **once** by `tools/gen_quests.py` (one chapter per
+stage). From now on it is edited in game: open the book, toggle edit mode (needs op), and FTB Quests saves straight
+into this repo through the dev-instance symlink. Re-running the script needs `--force` and discards those edits.
+
 ## Testing stages
 
 A player's stage is their highest `campfiremons:stage/N` advancement. With vanilla `/advancement`:
@@ -55,8 +59,8 @@ A player's stage is their highest `campfiremons:stage/N` advancement. With vanil
 Don't use `through` for this: it also grants all the *children*, i.e. every later stage up to Champion.
 
 Local test fixtures live in `tools/testpacks/` (datapacks, never shipped). Copy them into a dev world with
-`sh tools/install-testpack.sh "<world folder>"`, then `/reload`; toggle one with
-`/datapack enable|disable "file/<pack>"`.
+`sh tools/install-testpack.sh ["<world folder>"]` (default: the newest world), then in game `/reload` and
+`/datapack enable "file/<pack>"`; `/datapack disable` turns one off again.
 
 - `campfiremons-test`: the `campfiremons_mega_test` RCT trainer (Radical Red series, optional, never spawns)
   leading with Mega-ready Manectric and a Primal Kyogre. Summon with `/rctmod trainer summon campfiremons_mega_test`.

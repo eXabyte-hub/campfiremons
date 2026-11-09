@@ -1,0 +1,81 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "stage_9"
+	group: ""
+	icon: {
+		id: "cobblemon:master_ball"
+	}
+	id: "E1224DA4503ECEF3"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"7EC34193D0BD8315"
+			]
+			icon: {
+				id: "cobblemon:master_ball"
+			}
+			id: "1917193EDCFD2011"
+			rewards: [
+				{
+					id: "B7F4E3132F4EE806"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "campfiremons:stage/9"
+					criterion: ""
+					id: "0B3A61A69FF45395"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1917193EDCFD2011"
+			]
+			icon: {
+				id: "cobblemon:master_ball"
+			}
+			id: "7F9748B62E911B11"
+			rewards: [
+				{
+					id: "7C13B57797367D74"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					action: "catch"
+					amount: 100L
+					biome: ""
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "34088E5E2892D1C3"
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+	]
+}

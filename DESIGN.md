@@ -351,7 +351,7 @@ This is studied from ATMons' `catch_restrictions.js`. The design is ours; no ATM
 | F2 | Level cap via RCT: Radical Red series for everyone, tier stages per the parity rule | New world starts in Radical Red with cap 15; over-cap party refused by trainers; EXP stops at the cap |
 | F3 | F3a: gimmick enablers + held-back items as per-player stage finds with Lootr (done). F3b: Only Bottle Caps + ball/cap use-locks, Master Ball recipe removed (done). Create ball chain deferred to when Create is added | Locked balls/caps refuse to be used below their stage; enablers have no crafting recipe |
 | F4 | Stage-aware loot tables | Early chests give no top-tier items |
-| F5 | Quest chapters 0–2 + gym-defeat → stage hookup | Beating Gym 1 grants stage 1 |
+| F5 | Gym wins grant stages via RCT's `rctmod:defeat_count` trigger (done). Quest book skeleton: one FTB Quests chapter per stage, generated once by `tools/gen_quests.py`, then edited in game (Cobblemon Quests Reloaded for Pokémon tasks) | Beating Brock grants Stage 1; quests auto-complete from stage/found advancements |
 | F6 | Remaining addons, compatibility-tested in batches. Mega Showdown + ZA Megas done first (trainer Megas and Primals verified) | Clean launch with every chosen mod |
 | F7 | Mechanic/raid/TM/breeding gating | Per the §4.6 table |
 | F8 | Economy shops gated | No above-stage purchases |
@@ -376,6 +376,6 @@ This is studied from ATMons' `catch_restrictions.js`. The design is ours; no ATM
 - **1.7-era addons on Cobblemon 1.8.4** (the ⚠️ rows): test in batches in F6, starting with the ones F1 depends on (none).
 - ~~Cobblemon event API in 1.8.4~~ Verified in F1 against the 1.8.4 jar and source (event classes, the subscribe overload, labels, cancel behaviour).
 - **Capture flows** in Raid Dens, Ultra Wormholes and Legendary Monuments may bypass ball-hit events (§4.1).
-- **How a gym defeat reaches FTB Quests:** RCT ships an advancement per key trainer (e.g. `rctmod:trainers/defeat_leader_brock`, titled "Boulder Badge"), which an FTB Quests advancement task can watch. Confirm in F5.
+- ~~How a gym defeat reaches FTB Quests~~ Solved in F5: our stage advancements use RCT's own `rctmod:defeat_count` trigger, and quests watch the stage advancements.
 - ~~Telling gym/League trainers apart in code~~ Not needed: RCT caps every trainer battle (§4.2).
 - ~~RR trainers carry Mega Stones and Primal orbs~~ Verified with Mega Showdown 1.3.3: RR trainer data names `mega_showdown:` items with a plain-item fallback (Manectite, else Expert Belt), RCT's AI picks Mega/Tera/Z/Dynamax whenever Showdown offers it, and trainers need no Mega Bracelet. A test trainer's Manectric Mega Evolved and its Kyogre went Primal (`tools/testpacks/`).

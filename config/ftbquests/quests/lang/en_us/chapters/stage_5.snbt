@@ -1,0 +1,26 @@
+{
+	quest.080EFFF2C23BE2C4.quest_desc: [
+		"Koga spawns in swamps and jungles."
+		""
+		"Gym leaders are RCT key trainers. They spawn near you in their favourite biomes once you've beaten the key trainers before them (rivals, Team Rocket); gyms 1-4 will also live in the hub town."
+		""
+		"Your whole party must be at or under your level cap to battle."
+	]
+	quest.080EFFF2C23BE2C4.quest_subtitle: "Reach Stage 6"
+	quest.080EFFF2C23BE2C4.title: "Beat Koga"
+	quest.0C197F08D81F9BF3.quest_desc: [
+		"You beat Sabrina. Sub-legendary Pokémon can now be caught."
+	]
+	quest.0C197F08D81F9BF3.quest_subtitle: "Stage 5 reached"
+	quest.0C197F08D81F9BF3.title: "Marsh Badge"
+	quest.219C6B0EF7C308FF.quest_desc: [
+		"Birds, beasts, regis, lake trio, Tapus and friends can be caught now."
+	]
+	quest.219C6B0EF7C308FF.quest_subtitle: "Catch a sub-legendary"
+	quest.219C6B0EF7C308FF.title: "Legends Awaken"
+	quest.A71C0D5D1AD1966D.quest_desc: [
+		"Legendaries appear as rare spawns; shrines and raids join later in the pack."
+	]
+	quest.A71C0D5D1AD1966D.quest_subtitle: "A hint"
+	quest.A71C0D5D1AD1966D.title: "Out Exploring"
+}

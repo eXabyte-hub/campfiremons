@@ -1,0 +1,21 @@
+{
+	quest.5AAE215A3FED46AB.quest_desc: [
+		"Sabrina spawns in spooky or sparse biomes."
+		""
+		"Gym leaders are RCT key trainers. They spawn near you in their favourite biomes once you've beaten the key trainers before them (rivals, Team Rocket); gyms 1-4 will also live in the hub town."
+		""
+		"Your whole party must be at or under your level cap to battle."
+	]
+	quest.5AAE215A3FED46AB.quest_subtitle: "Reach Stage 5"
+	quest.5AAE215A3FED46AB.title: "Beat Sabrina"
+	quest.BD95E6EDDA9C33DE.quest_desc: [
+		"Giovanni and the rival's evolved teams are coming."
+	]
+	quest.BD95E6EDDA9C33DE.quest_subtitle: "Get a Pokémon to Lv50"
+	quest.BD95E6EDDA9C33DE.title: "Veteran"
+	quest.E402F1288E504076.quest_desc: [
+		"You beat Erika."
+	]
+	quest.E402F1288E504076.quest_subtitle: "Stage 4 reached"
+	quest.E402F1288E504076.title: "Rainbow Badge"
+}

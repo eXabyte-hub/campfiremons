@@ -1,0 +1,139 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "stage_5"
+	group: ""
+	icon: {
+		id: "cobblemon:dusk_ball"
+	}
+	id: "0FC5609B33DF101F"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"5AAE215A3FED46AB"
+			]
+			icon: {
+				id: "cobblemon:dusk_ball"
+			}
+			id: "0C197F08D81F9BF3"
+			rewards: [
+				{
+					id: "4C7429EA765DBE6F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "campfiremons:stage/5"
+					criterion: ""
+					id: "E108EAA06A0319DF"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0C197F08D81F9BF3"
+			]
+			icon: {
+				id: "cobblemon:ultra_ball"
+			}
+			id: "219C6B0EF7C308FF"
+			rewards: [
+				{
+					count: 3
+					id: "A207B68FCB4FE49D"
+					item: {
+						count: 1
+						id: "cobblemon:revive"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					action: "catch"
+					amount: 1L
+					biome: ""
+					dimension: ""
+					form: "legendary"
+					gender: ""
+					id: "2679E64242A8FA5A"
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0C197F08D81F9BF3"
+			]
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "A71C0D5D1AD1966D"
+			rewards: [
+				{
+					id: "FE0F95DC343A7980"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [
+				{
+					id: "F758B65DD64604EB"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0C197F08D81F9BF3"
+			]
+			icon: {
+				id: "cobblemon:beast_ball"
+			}
+			id: "080EFFF2C23BE2C4"
+			rewards: [
+				{
+					id: "0D94B4F4CCDB1631"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "campfiremons:stage/6"
+					criterion: ""
+					id: "C35423677A06909E"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+}

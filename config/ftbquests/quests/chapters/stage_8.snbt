@@ -1,0 +1,225 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "stage_8"
+	group: ""
+	icon: {
+		id: "cobblemon:cherish_ball"
+	}
+	id: "5074FCAF2FDED64A"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"1F0B4EF36C9FB5B7"
+			]
+			icon: {
+				id: "cobblemon:cherish_ball"
+			}
+			id: "F72A62BD6E632A26"
+			rewards: [
+				{
+					id: "C5FDE8547CCD6A28"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "campfiremons:stage/8"
+					criterion: ""
+					id: "C684EFE8559E188E"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"F72A62BD6E632A26"
+			]
+			icon: {
+				id: "mega_showdown:red_orb"
+			}
+			id: "5CF63FA2C8331298"
+			rewards: [
+				{
+					id: "72D28A8B8860E2EB"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					advancement: "campfiremons:found/red_orb"
+					criterion: ""
+					id: "87C44B14EF053FF6"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"F72A62BD6E632A26"
+			]
+			icon: {
+				id: "mega_showdown:blue_orb"
+			}
+			id: "D607CA6A5633F780"
+			rewards: [
+				{
+					id: "45B7D81FF19EE2AB"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					advancement: "campfiremons:found/blue_orb"
+					criterion: ""
+					id: "3D957ED11DBB5E82"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"F72A62BD6E632A26"
+			]
+			icon: {
+				id: "mega_showdown:rusted_sword"
+			}
+			id: "1F8AD986D9B689B8"
+			rewards: [
+				{
+					id: "9F5EFC7E0F604261"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					advancement: "campfiremons:found/rusted_sword"
+					criterion: ""
+					id: "7560659788D46D49"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"F72A62BD6E632A26"
+			]
+			icon: {
+				id: "mega_showdown:rusted_shield"
+			}
+			id: "A4B38243E9B5C746"
+			rewards: [
+				{
+					id: "385D2E6751A2572C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					advancement: "campfiremons:found/rusted_shield"
+					criterion: ""
+					id: "CCEBE7AA54376074"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"F72A62BD6E632A26"
+			]
+			icon: {
+				id: "cobblemon:rare_candy"
+			}
+			id: "30AE46A577517A11"
+			rewards: [
+				{
+					count: 4
+					id: "85D8969154ADEFEF"
+					item: {
+						count: 1
+						id: "cobblemon:full_restore"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					action: "level_up_to"
+					amount: 80L
+					biome: ""
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "9B4B217156B1011E"
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"F72A62BD6E632A26"
+			]
+			icon: {
+				id: "cobblemon:master_ball"
+			}
+			id: "7EC34193D0BD8315"
+			rewards: [
+				{
+					id: "2201495DA5F0B8BC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "campfiremons:stage/9"
+					criterion: ""
+					id: "5D054621EDCFD359"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+}

@@ -1,0 +1,45 @@
+{
+	quest.1F8AD986D9B689B8.quest_desc: [
+		"It now turns up (once) in structure chests: dungeons, temples, shipwrecks, ruins, strongholds and more."
+		"Chests are per player, so check every one you pass."
+	]
+	quest.1F8AD986D9B689B8.quest_subtitle: "Explore structure chests"
+	quest.1F8AD986D9B689B8.title: "Find the Rusted Sword"
+	quest.30AE46A577517A11.quest_desc: [
+		"The Elite Four use Primal Kyogre and Groudon, Crowned Zacian and box legends."
+	]
+	quest.30AE46A577517A11.quest_subtitle: "Get a Pokémon to Lv80"
+	quest.30AE46A577517A11.title: "Peak Form"
+	quest.5CF63FA2C8331298.quest_desc: [
+		"It now turns up (once) in structure chests: dungeons, temples, shipwrecks, ruins, strongholds and more."
+		"Chests are per player, so check every one you pass."
+	]
+	quest.5CF63FA2C8331298.quest_subtitle: "Explore structure chests"
+	quest.5CF63FA2C8331298.title: "Find the Red Orb"
+	quest.7EC34193D0BD8315.quest_desc: [
+		"Beat the Elite Four, then find Champion Terry in rare biomes near End cities, after beating the Elite Four."
+		""
+		"Gym leaders are RCT key trainers. They spawn near you in their favourite biomes once you've beaten the key trainers before them (rivals, Team Rocket); gyms 1-4 will also live in the hub town."
+		""
+		"Your whole party must be at or under your level cap to battle."
+	]
+	quest.7EC34193D0BD8315.quest_subtitle: "Reach Stage 9"
+	quest.7EC34193D0BD8315.title: "Become the Champion"
+	quest.A4B38243E9B5C746.quest_desc: [
+		"It now turns up (once) in structure chests: dungeons, temples, shipwrecks, ruins, strongholds and more."
+		"Chests are per player, so check every one you pass."
+	]
+	quest.A4B38243E9B5C746.quest_subtitle: "Explore structure chests"
+	quest.A4B38243E9B5C746.title: "Find the Rusted Shield"
+	quest.D607CA6A5633F780.quest_desc: [
+		"It now turns up (once) in structure chests: dungeons, temples, shipwrecks, ruins, strongholds and more."
+		"Chests are per player, so check every one you pass."
+	]
+	quest.D607CA6A5633F780.quest_subtitle: "Explore structure chests"
+	quest.D607CA6A5633F780.title: "Find the Blue Orb"
+	quest.F72A62BD6E632A26.quest_desc: [
+		"You beat Clair. Red and Blue Orbs, the Rusted Sword and Shield, and Ability Capsules and Patches turn up in structure chests: dungeons, temples, shipwrecks, ruins, strongholds and more."
+	]
+	quest.F72A62BD6E632A26.quest_subtitle: "Stage 8 reached"
+	quest.F72A62BD6E632A26.title: "Rising Badge"
+}
