@@ -1,0 +1,11 @@
+# Files in the repo that are NOT shipped to players (gitignore syntax).
+*.md
+tools/
+.github/
+dist/
+.gitkeep
+
+# Runtime output that can end up here through the dev-instance symlinks
+kubejs/logs/
+kubejs/exported/
+kubejs/probe/

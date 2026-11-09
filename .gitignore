@@ -1,0 +1,13 @@
+# Runtime output written through the dev-instance symlinks
+kubejs/logs/
+kubejs/exported/
+kubejs/probe/
+
+# Build output
+dist/
+*.mrpack
+
+# Editors / tooling
+.idea/
+.vscode/
+__pycache__/

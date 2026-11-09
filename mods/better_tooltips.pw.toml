@@ -1,0 +1,13 @@
+name = "Better Tooltips"
+filename = "better_tooltips-1.0.3.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Z7rKZJ8k/versions/cnt6F6VI/better_tooltips-1.0.3.jar"
+hash-format = "sha512"
+hash = "f9f84903c7c5945deed7c4d59a1e5f3a6c6f3625140b81b719e56341a08d49af8b333aacdcffd7bcb5528a59f7207e73afbf121609db793778726e158f614d65"
+
+[update]
+[update.modrinth]
+mod-id = "Z7rKZJ8k"
+version = "cnt6F6VI"

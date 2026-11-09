@@ -1,0 +1,13 @@
+name = "Campfiremons"
+author = "Jack"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "5a1487c472fbe5621ea567936c8fb75068725a9b139a7259c8d08f2ebc8f9497"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.264"
