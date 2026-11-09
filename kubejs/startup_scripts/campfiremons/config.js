@@ -6,12 +6,13 @@ global.campfiremonsConfig = {
   // A player's stage is the highest campfiremons:stage/N advancement they have (0 if none).
   maxStage: 9,
 
-  // Legendary tiers and the stage that unlocks each one.
+  // Legendary tiers and the stage that unlocks each one (parity rule, DESIGN.md §3.2: Radical Red trainers use
+  // every tier from Giovanni's 3rd team and Clair onward, which you face at Stage 7; T1/T2 ramp in earlier).
   tiers: {
-    sub_legendary: { name: 'Sub-legendary', stage: 4 },
+    sub_legendary: { name: 'Sub-legendary', stage: 5 },
     beast_paradox: { name: 'Ultra Beast / Paradox', stage: 6 },
-    mythical: { name: 'Mythical', stage: 8 },
-    restricted: { name: 'Box legend', stage: 9 },
+    mythical: { name: 'Mythical', stage: 7 },
+    restricted: { name: 'Box legend', stage: 7 },
   },
 
   // Species are sorted into tiers by their Cobblemon labels; the first matching rule wins.

@@ -36,6 +36,7 @@ ATMons has no license, so we only study its approach (see §6).
 | Players | Small friend group, **mixed or unknown launchers** [decided] |
 | Unlocks | **Per player** [decided] |
 | Repo | **Public GitHub** [decided] |
+| Trainers | Radical Cobblemon Trainers 0.19.2-beta, **Radical Red series** for everyone [decided] |
 
 ## 3. Progression model
 
@@ -48,30 +49,47 @@ ATMons has no license, so we only study its approach (see §6).
   - FTB Quests grants them with a command reward (`/advancement grant @p only campfiremons:stage/3`).
   - Vanilla **loot tables can test advancements**, which is the main reason to prefer them over KubeJS "stages" (§4.4).
 - Gyms are a **mix** [decided]. Proposed split:
-  - Gyms 1–4 live in a **hub town** at spawn, admin-built and placed with RCT commands.
-  - Gyms 5–8 are **out in the world** (Radical Gyms & Structures).
-  - The Elite Four and Champion are back in the hub's **League** building.
+  - Gyms 1–4 (Brock, Misty, Lt. Surge, Erika) live in a **hub town** at spawn, admin-built and placed with RCT commands.
+  - Gyms 5–8 (Sabrina, Koga, Blaine, Clair) are **out in the world** (Radical Gyms & Structures).
+  - The Elite Four and Champion Terry are back in the hub's **League** building.
+  - The rival, Brendan/May and Team Rocket fights are RCT key trainers that spawn in the world; they raise the level cap but aren't stage gates.
 - Side chapters (not stage gates): Breeding, Raids, Legends, Create/Engineering, Economy.
 
-### 3.2 Stage table (*draft*)
+### 3.2 Parity rule [decided]
 
-| Stage | Reached by | Level cap | Legend tier | Main unlocks |
+**Before you face a trainer, you can get the same class of power they use.** If a trainer brings a Mega, Megas are unlocked for you by then; if they bring a legendary, so is that tier. Unlocking *earlier* than the first trainer that uses something is fine ("at least equivalent").
+
+From RCT's Radical Red data, the first fight that uses each class:
+
+| Power class | First used by | You face them with | So it unlocks at |
+|---|---|---|---|
+| Mega Evolution | Lt. Surge (Mega Manectric) | 2 badges | **Stage 2** |
+| Perfect IVs (and trained EVs) | Brock, and every trainer after | 0 badges | Bottle Caps at **Stage 2** (as early as the gate allows) |
+| Sub-legendary, Ultra Beast, box legend | Giovanni's 3rd team (Tapu Lele, Celesteela, Mega Mewtwo Y) | 7 badges | by **Stage 7** (ramped in from Stage 5, see below) |
+| Mythical | Clair (Magearna) | 7 badges | **Stage 7** |
+| Primal Reversion, Crowned Zacian | Elite Four (Lorelei, Bruno) | 8 badges | **Stage 8** |
+| Z-Moves, Tera, Dynamax | never used by RR trainers | — | kept as **player-only bonuses** [decided] |
+
+### 3.3 Stage table
+
+| Stage | Reached by | Level cap while at this stage | Legend tier | Main unlocks |
 |---|---|---|---|---|
 | 0 | start | 15 | none | Poké Ball, apricorn basics, Create basics, Cobbleworkers basics |
-| 1 | Gym 1 (hub) | 22 | none | Great Ball, evolution stones in loot, TRs |
-| 2 | Gym 2 (hub) | 28 | none | **Breeding** (Cobbreeding), shop tier 2, Cobblenav |
-| 3 | Gym 3 (hub) | 34 | none | **Ultra Ball** via a Create chain, Z-Moves, raids ★1–2 |
-| 4 | Gym 4 (hub) | 40 | **T1** sub-legends | **Megas**, Refined Storage, raids ★3–4 |
-| 5 | Gym 5 (world) | 46 | T1 | TM crafting, Create egg incubation, specialty balls (Quick/Timer/Dusk…) |
-| 6 | Gym 6 (world) | 52 | **T2** UB + Paradox | Beast Ball, Ultra Wormholes, **Tera**, Oritech |
-| 7 | Gym 7 (world) | 58 | T2 | **Dynamax**, raids ★5–6, Bottle Caps |
-| 8 | Gym 8 (world) | 64 | **T3** mythicals | Ability Capsule/Patch, Oritech late tier, raids ★7 |
-| 9 | Elite Four + Champion (hub) | 100 | **T4** box legends | Battle Tower, one Master Ball per player (quest), endgame |
+| 1 | Brock | 21 → 27 | none | Great Ball, evolution stones in loot, TRs |
+| 2 | Misty | 29 → 34 | none | **Megas**, **Bottle Caps**, **Breeding** (Cobbreeding), shop tier 2, Cobblenav |
+| 3 | Lt. Surge | 44 | none | **Ultra Ball** via a Create chain, Z-Moves (bonus), raids ★1–2 |
+| 4 | Erika | 46 → 59 | none | Refined Storage, raids ★3–4 |
+| 5 | Sabrina | 63 → 68 | **T1** sub-legends | TM crafting, Create egg incubation, specialty balls (Quick/Timer/Dusk…) |
+| 6 | Koga | 73 → 76 | **T2** UB + Paradox | Beast Ball, Ultra Wormholes, Tera (bonus), Oritech |
+| 7 | Blaine | 79 → 81 | **T3** mythicals + **T4** box legends | Dynamax (bonus), raids ★5–6 |
+| 8 | Clair | 81 → 85 | all | **Primal orbs, Rusted Sword/Shield**, Ability Capsule/Patch, Oritech late tier, raids ★7 |
+| 9 | Elite Four + Champion Terry (hub) | 100 | all | Battle Tower, one Master Ball per player (quest), endgame |
 
-The cap limits **EXP** and **which Pokémon you can bring to gym and League battles**. It does **not** limit catching (§4.1).
-The caps get matched to RCT's actual gym-leader levels once we can see them in the jar.
+- The **level cap is RCT's**, not ours: the ace level of your next unbeaten key trainer in the series (minimum 15). It rises with every key fight, including rivals and Team Rocket, so the "→" ranges show how it climbs within a stage.
+- The cap limits **EXP** and **which Pokémon you can bring to any RCT trainer battle** (§4.2). It does **not** limit catching (§4.1).
+- Legendary tiers ramp in [decided]: T1 at Stage 5, T2 at 6, T3 and T4 at 7. Parity alone would only require all four at 7; the ramp gives time to catch and train them before Giovanni and Clair.
 
-### 3.3 Legendary tiers: by power, not region [decided]
+### 3.4 Legendary tiers: by power, not region [decided]
 
 | Tier | Contents (examples) | Default source of membership |
 |---|---|---|
@@ -107,14 +125,15 @@ Implemented as our own KubeJS hooks into Cobblemon's events (§6).
 - An **admin bypass**: the hidden `campfiremons:bypass` advancement. Creative mode is deliberately *not* a bypass, so locks can be tested in creative.
 - Known gaps to check: Raid Dens, Ultra Wormholes and Legendary Monuments may run their own capture flow that skips the normal ball-hit event. Where they do, we gate access to the content (raid star tier, wormhole entry, summon item) instead.
 
-### 4.2 Level cap: gyms and EXP
+### 4.2 Level cap: trainers and EXP (handled by RCT)
 
-- **Gym/League cap** [decided]: in battles against gym leaders, the Elite Four and the Champion, any party Pokémon above your stage's cap is either **scaled down to the cap** or **not allowed**. Which one depends on what RCT/Cobblemon support; "not allowed" is the fallback and is easy to do ourselves.
-  - With the fallback, the battle is refused and the message lists the over-cap Pokémon to box first.
-  - Ordinary roaming RCT trainers are not capped [proposed]. That keeps the open world relaxed; only the stage gates are strict.
-- **EXP stops at the current cap** (unchanged), so you can't grind one mon far past the next gym.
-  - Caught over-cap mons keep their level. They just can't gain more and can't enter gyms yet.
-- RCT appears to have its own level-cap progression; an addon called *RCT Capture Cap* hooks catching into it. If RCT already blocks over-cap teams in trainer battles, we use that and give it our cap table, keeping **one** source of truth. If not, we enforce both rules in our own KubeJS code.
+Verified in the RCT 0.19.2-beta source: RCT already does both halves, so we configure it rather than write code.
+- **Trainer battle gate:** every RCT trainer refuses to battle if your party's highest-level Pokémon is above your cap ("over level cap"). It refuses; there's no scaling down.
+  - This applies to **all** RCT trainers, not only gyms. The v2 idea of leaving roaming trainers uncapped isn't possible without patching RCT, and isn't needed: the EXP cap means only caught over-cap mons can trip it, and you box those first.
+- **EXP stops at the current cap** (`allowOverLeveling = false`, RCT's default), with an action-bar warning.
+  - Rare Candy and EXP Candy go through the same Cobblemon EXP event, so they respect the cap too, and a candy that would add nothing isn't used up.
+  - Caught over-cap mons keep their level. They just can't gain more and can't battle trainers until the cap catches up.
+- **Config** (shipped as `defaultconfigs/rctmod-server.toml`, copied into each new world): `initialSeries = "radicalred"`, so everyone starts in the series without visiting a Trainer Association; initial cap 15 and over-leveling off are RCT's defaults.
 
 ### 4.3 Balls & items (recipe changes via KubeJS)
 
@@ -126,18 +145,20 @@ Implemented as our own KubeJS hooks into Cobblemon's events (§6).
   - Poké → Great (S1) → Ultra, which needs Create processing (S3) → specialty balls (S5) → Beast (S6).
   - **Master Ball is never craftable or lootable.** One per player comes from the S9 quest.
   - We try *Create: Cobblemon Balls Overhaul*. If it breaks on 1.8, we write our own Create recipe chain in KubeJS.
-- **Only the truly broken items are held back** [decided]:
-  - Master Ball: S9 quest only
-  - Bottle Caps: from S7
+- **Only the truly broken items are held back** [decided], each at its parity point (§3.2):
+  - Mega Bracelet and Mega Stones: from S2
+  - Bottle Caps: from S2
+  - Primal orbs (Red/Blue Orb), Rusted Sword/Shield: from S8
   - Ability Capsule/Patch: from S8
+  - Master Ball: S9 quest only
 - Everything else stays craftable and lootable as normal: Rare Candy, EXP Candy, evolution stones, and competitive held items (Choice items, Life Orb, Leftovers).
-  - The EXP cap stops candies from over-leveling; F2 checks that Rare Candy respects it.
+  - The EXP cap stops candies from over-leveling (verified, §4.2).
 
 ### 4.4 Loot (light touch) [decided]
 
 - Exploring should feel rewarding, so most loot is left as the mods ship it.
 - We only **strip the §4.3 held-back items** from world loot and re-add them at their stage.
-  - Plain datapack JSON can check the looting player's advancements, e.g. "Bottle Caps only if `campfiremons:stage/7`". No extra mod is needed.
+  - Plain datapack JSON can check the looting player's advancements, e.g. "Bottle Caps only if `campfiremons:stage/2`". No extra mod is needed.
   - *Loot table*: the JSON that decides what a chest, mob or block drops. KubeJS can ship datapack files under `kubejs/data/`.
 - Tables to check for those items:
   - vanilla structure chests
@@ -155,7 +176,8 @@ Implemented as our own KubeJS hooks into Cobblemon's events (§6).
 
 | System | Gate |
 |---|---|
-| Z-Moves / Megas / Tera / Dynamax (Mega Showdown) | S3 / S4 / S6 / S7, by gating their key items (Z-Ring, Mega Bracelet, Tera Orb, Dynamax Band) |
+| Megas / Z-Moves / Tera / Dynamax (Mega Showdown) | S2 / S3 / S6 / S7, by gating their key items (Mega Bracelet, Z-Ring, Tera Orb, Dynamax Band). Megas are parity; the other three are player-only bonuses |
+| Primal Reversion, Crowned forms | S8 (Red/Blue Orb, Rusted Sword/Shield) |
 | Raid Dens | Star tiers by stage (config or KubeJS) |
 | TMs (SimpleTMs) | TRs from S1, TM crafting at S5 |
 | Breeding (Cobbreeding) [decided] | Basic breeding S2; Create-driven incubation S5 (a KubeJS recipe/machine tie-in) |
@@ -306,11 +328,11 @@ This is studied from ATMons' `catch_restrictions.js`. The design is ours; no ATM
 |---|---|---|
 | F0 | Repo + packwiz + dev instance (official 1.8.4 + KubeJS + FTB Quests) | Instance launches; logs readable; repo committed |
 | **F1** | **Stage advancements + legendary tier locks** (catching and wild battles, admin bypass) | Legends catchable or blocked per stage, verified in game with `/advancement grant` |
-| F2 | Level cap: gym/League party check + EXP cap (aligned with RCT) | Over-cap mons blocked or scaled in gyms; EXP stops at the cap; Rare Candy respects it |
+| F2 | Level cap via RCT: Radical Red series for everyone, tier stages per the parity rule | New world starts in Radical Red with cap 15; over-cap party refused by trainers; EXP stops at the cap |
 | F3 | Stage seals + ball/item recipe gating + Create ball chain | Recipes show seals in EMI/JEI |
 | F4 | Stage-aware loot tables | Early chests give no top-tier items |
 | F5 | Quest chapters 0–2 + gym-defeat → stage hookup | Beating Gym 1 grants stage 1 |
-| F6 | Remaining addons, compatibility-tested in batches | Clean launch with every chosen mod |
+| F6 | Remaining addons, compatibility-tested in batches. **Mega Showdown first**: RR trainers use Megas from Lt. Surge (gym 3) | Clean launch with every chosen mod |
 | F7 | Mechanic/raid/TM/breeding gating | Per the §4.6 table |
 | F8 | Economy shops gated | No above-stage purchases |
 | F9 | Tech gating (RS, Oritech) | |
@@ -322,7 +344,7 @@ This is studied from ATMons' `catch_restrictions.js`. The design is ours; no ATM
 2. Which rented host (see the requirements in §8).
 3. Final cap numbers and the T4 list, after we see RCT's trainer levels.
 4. Should Master Ball be the S9 reward only, or also a rare raid ★7 drop?
-8. Gym cap: scale over-cap mons down, or refuse the battle? This depends partly on what RCT supports (§4.2).
+8. ~~Gym cap: scale or refuse?~~ Decided by RCT: it refuses (§4.2).
 5. Who builds the hub town (you, or a schematic)?
 6. Does anyone actually need the CurseForge app?
 7. Do we keep FTB Chunks/Essentials/Ultimine? They're useful on a server, but not chosen yet.
@@ -333,5 +355,6 @@ This is studied from ATMons' `catch_restrictions.js`. The design is ours; no ATM
 - **1.7-era addons on Cobblemon 1.8.4** (the ⚠️ rows): test in batches in F6, starting with the ones F1 depends on (none).
 - ~~Cobblemon event API in 1.8.4~~ Verified in F1 against the 1.8.4 jar and source (event classes, the subscribe overload, labels, cancel behaviour).
 - **Capture flows** in Raid Dens, Ultra Wormholes and Legendary Monuments may bypass ball-hit events (§4.1).
-- **How a gym defeat reaches FTB Quests:** an RCT API event, an RCT advancement, or a Cobblemon Quests Reloaded task. Check in F5.
-- **Telling gym/League trainers apart in code** from roaming RCT trainers: a trainer ID list, an RCT "key trainer" flag, or a tag. Check in F2.
+- **How a gym defeat reaches FTB Quests:** RCT ships an advancement per key trainer (e.g. `rctmod:trainers/defeat_leader_brock`, titled "Boulder Badge"), which an FTB Quests advancement task can watch. Confirm in F5.
+- ~~Telling gym/League trainers apart in code~~ Not needed: RCT caps every trainer battle (§4.2).
+- **RR trainers carry Mega Stones and Primal orbs.** Without Mega Showdown installed it's unverified what RCT does with them. Install and test Mega Showdown before anyone reaches Lt. Surge.

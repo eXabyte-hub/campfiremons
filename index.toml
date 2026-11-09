@@ -449,6 +449,10 @@ file = "config/fancymenu/options.txt"
 hash = "7d344bc0e4b17014290c3e7570a7505099de513f28b51cf6319919d75b465b3f"
 
 [[files]]
+file = "defaultconfigs/rctmod-server.toml"
+hash = "b40eaa776bd701e4e1538b3783bcf9e1754cfd467180689afaac86f4fc6df5fa"
+
+[[files]]
 file = "kubejs/config/client.json"
 hash = "0aeb4cb329b896e33a0777a1683b0b813a6f2f0adc5bc2cf3e6d10e18e442fef"
 
@@ -501,12 +505,16 @@ file = "kubejs/data/campfiremons/advancement/stage/root.json"
 hash = "b14ecd6cda159351ea157aae21114023cf39466ce6f64cc1796f502b834afdca"
 
 [[files]]
+file = "kubejs/server_scripts/main.js"
+hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
+
+[[files]]
 file = "kubejs/startup_scripts/campfiremons/cobblemon_hooks.js"
 hash = "21687adb07bcb4ab7e4e1d40dc6c289621e8fa5603aa4a87248cbbc160e42aa5"
 
 [[files]]
 file = "kubejs/startup_scripts/campfiremons/config.js"
-hash = "9d6f6b079c837df915cbf9928ed13edc465f3f5e6abc77c1d3c446b93e0f6daf"
+hash = "e252414787bad63fcfa5f263c98580e833c020ec16bbc7ae565ca56a4cb325e8"
 
 [[files]]
 file = "kubejs/startup_scripts/campfiremons/tier_locks.js"
@@ -835,6 +843,16 @@ metafile = true
 [[files]]
 file = "mods/prickle.pw.toml"
 hash = "c99c5bac469e8d6ece5aae80f08635e3bbb8367f0c586b6288573c725faefe69"
+metafile = true
+
+[[files]]
+file = "mods/rctapi.pw.toml"
+hash = "4ac89f2474b142c47025cce9795bd459e47a2c403c1290cea4e5ac7287652815"
+metafile = true
+
+[[files]]
+file = "mods/rctmod.pw.toml"
+hash = "6e7c889a77e6b8fdee92bc90be6a2d0bd902250ea23ac9122c3d538abb6080af"
 metafile = true
 
 [[files]]

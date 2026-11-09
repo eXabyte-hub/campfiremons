@@ -1,0 +1,13 @@
+# Radical Cobblemon Trainers: server defaults for Campfiremons (DESIGN.md §4.2).
+# NeoForge copies this into <world>/serverconfig/ when a world first loads with RCT;
+# keys not listed here are filled in with RCT's own defaults.
+
+[Players]
+	# Everyone starts in the Radical Red series, so the level cap follows its key trainers from the start.
+	initialSeries = "radicalred"
+	# Cap before the first key trainer (Brock's ace is 14).
+	initialLevelCap = 15
+	# Cap = next unbeaten key trainer's ace level + this offset.
+	relativeLevelCap = 0
+	# false: Pokémon can't gain EXP past the cap (candies included).
+	allowOverLeveling = false
