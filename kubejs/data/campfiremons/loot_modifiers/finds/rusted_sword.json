@@ -279,6 +279,158 @@
         {
           "condition": "neoforge:loot_table_id",
           "loot_table_id": "mega_showdown:chests/observatory_dome_chest"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "legendarymonuments:chests/bell_tower_chest"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "legendarymonuments:chests/calyrex_chest"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "legendarymonuments:chests/dragoeleki_chest"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "legendarymonuments:chests/heatran_cave_chest"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "legendarymonuments:chests/kubfu_dark_chest"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "legendarymonuments:chests/kubfu_water_chest"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "legendarymonuments:chests/liberty_island_chest"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "legendarymonuments:chests/lugia_temple_chest"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "legendarymonuments:chests/regice_chest"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "legendarymonuments:chests/regigigas_chest"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "legendarymonuments:chests/regirock_chest"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "legendarymonuments:chests/registeel_chest"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "legendarymonuments:chests/swsh_temple_shield"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "legendarymonuments:chests/swsh_temple_sword"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "legendarymonuments:chests/thalic_chest"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "legendarymonuments:chests/turnback_cave_chest"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobbleloots:loot_ball/azure"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobbleloots:loot_ball/citrine"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobbleloots:loot_ball/dive"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobbleloots:loot_ball/dusk"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobbleloots:loot_ball/great"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobbleloots:loot_ball/heal"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobbleloots:loot_ball/lure"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobbleloots:loot_ball/luxury"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobbleloots:loot_ball/master"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobbleloots:loot_ball/nest"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobbleloots:loot_ball/net"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobbleloots:loot_ball/poke"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobbleloots:loot_ball/premier"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobbleloots:loot_ball/pumpkin"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobbleloots:loot_ball/quick"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobbleloots:loot_ball/rainbow"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobbleloots:loot_ball/roseate"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobbleloots:loot_ball/safari"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobbleloots:loot_ball/slate"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobbleloots:loot_ball/timer"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobbleloots:loot_ball/ultra"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobbleloots:loot_ball/verdant"
         }
       ]
     },

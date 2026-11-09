@@ -1,0 +1,13 @@
+name = "Cobblemon Battle Extras"
+filename = "cobblemon-battle-extras-neoforge-1.13.47.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/2iY8VFqL/versions/kXNdY5X7/cobblemon-battle-extras-neoforge-1.13.47.jar"
+hash-format = "sha512"
+hash = "361a566c093cd7ecf336972e753c1f46c04d285e49b34894178c7701cd9a12505a0649bc5eec2b07ec038c0d4efc509d254b5820dfc516a9601d3e914b501c92"
+
+[update]
+[update.modrinth]
+mod-id = "2iY8VFqL"
+version = "kXNdY5X7"

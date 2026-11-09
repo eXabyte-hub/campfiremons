@@ -1,0 +1,13 @@
+name = "Cobblemon Battle Tower"
+filename = "cobblemon_battle_tower-neoforge-1.11.24.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/v19DG9nW/versions/ZOUIqmra/cobblemon_battle_tower-neoforge-1.11.24.jar"
+hash-format = "sha512"
+hash = "51a7b265e1fc9a1e3d25b4774b15b5896893127ab9721d473eeca12c67d1581c3a1fa9ae6b2a90686633a44305ee90b026b303a395d1e4190e88930577ba67d4"
+
+[update]
+[update.modrinth]
+mod-id = "v19DG9nW"
+version = "ZOUIqmra"

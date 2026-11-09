@@ -28,5 +28,10 @@
         "trainer_type": null
       }
     }
+  },
+  "rewards": {
+    "loot": [
+      "campfiremons:rewards/stage_1"
+    ]
   }
 }

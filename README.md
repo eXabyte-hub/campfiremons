@@ -76,6 +76,13 @@ packwiz cf add <curseforge-slug>      # only if the mod isn't on Modrinth
 packwiz update <name>                 # bump one mod
 ```
 
+Modrinth/CurseForge dependency lists can be incomplete (Chipped needs Resourceful Lib and Athena but doesn't say so).
+After adding mods and syncing the dev instance, check what the jars themselves require before launching:
+
+```sh
+python -I tools/check_deps.py        # lists required mod ids no installed jar provides
+```
+
 Re-importing the official pack's files at their exact versions (after an official update):
 
 ```sh

@@ -4,6 +4,7 @@
 
 const $SoundEvents = Java.loadClass('net.minecraft.sounds.SoundEvents')
 const $SoundSource = Java.loadClass('net.minecraft.sounds.SoundSource')
+const $Cobblemon = Java.loadClass('com.cobblemon.mod.common.Cobblemon')
 
 const STAGE_PREFIX = 'campfiremons:stage/'
 const BYPASS = 'campfiremons:bypass'
@@ -45,6 +46,30 @@ function lockedMessage(pokemon, tier) {
     .append(` is a ${tier.name} Pokémon. It unlocks at Stage ${tier.stage}.`))
 }
 
+// Held-item locks (config.js heldItemLocks): the first party Pokémon holding an item above its owner's stage.
+function heldItemBlock(players) {
+  let locks = global.campfiremonsConfig.heldItemLocks
+  let lockedAt = {}
+  Object.keys(locks).forEach(stage => locks[stage].forEach(id => { lockedAt[id] = parseInt(stage) }))
+
+  let blocked = null
+  players.forEach(player => {
+    if (blocked || isBypassed(player)) return
+    let stage = playerStage(player)
+    $Cobblemon.INSTANCE.storage.getParty(player).forEach(pokemon => {
+      let held = pokemon.heldItem()
+      let need = lockedAt[String(held.id)]
+      if (blocked || !need || stage >= need) return
+      blocked = {
+        player: player,
+        message: Text.red(pokemon.species.translatedName.copy().append("'s ").append(held.hoverName)
+          .append(` works from Stage ${need}. Take it off to battle.`)),
+      }
+    })
+  })
+  return blocked
+}
+
 function deny(player, message) {
   player.setStatusMessage(message)
   player.playNotifySound($SoundEvents.VILLAGER_NO, $SoundSource.PLAYERS, 1.0, 1.0)
@@ -72,6 +97,7 @@ global.campfiremons.onPokeballHit = event => {
 }
 
 // Any battle with a wild Pokémon: every player in it must have that Pokémon's tier unlocked.
+// Any battle at all: no player's party may hold a held-item-locked item above their stage.
 global.campfiremons.onBattleStartPre = event => {
   if (event.isCanceled()) return
   let battle = event.battle
@@ -90,6 +116,7 @@ global.campfiremons.onBattleStartPre = event => {
       })
     })
   })
+  if (!blocked) blocked = heldItemBlock(players)
   if (!blocked) return
 
   event.cancel()

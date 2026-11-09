@@ -42,12 +42,23 @@ global.campfiremonsConfig = {
     2: [ // Bottle Caps (parity: Radical Red trainers have perfect IVs); Withered caps lower IVs and stay free
       'obc:bottle_cap', 'obc:bottle_cap_hp', 'obc:bottle_cap_attack', 'obc:bottle_cap_defence',
       'obc:bottle_cap_special_attack', 'obc:bottle_cap_special_defence', 'obc:bottle_cap_speed', 'obc:bottle_cap_gold',
+      // Cobblenav's spawn finders
+      'cobblenav:pokenav_item', 'cobblenav:pokenav_item_old', 'cobblenav:pokefinder_item', 'cobblenav:fishingnav_item',
     ],
     3: [ // tier 3 balls
       'cobblemon:ultra_ball', 'cobblemon:quick_ball', 'cobblemon:dusk_ball', 'cobblemon:timer_ball',
       'cobblemon:repeat_ball', 'cobblemon:luxury_ball', 'cobblemon:love_ball',
     ],
     6: ['cobblemon:dream_ball', 'cobblemon:beast_ball'], // tier 4 balls
-    9: ['cobblemon:master_ball'], // the Champion's reward; its recipe is removed
+    // Stage 8 finds, but Cobbleloots, Raid Dens and Legendary Monuments loot can drop them earlier
+    8: ['cobblemon:ability_capsule', 'cobblemon:ability_patch'],
+    9: ['cobblemon:master_ball'], // the Champion's reward; its recipe is removed, but Cobbleloots can drop one
+  },
+
+  // Held-item locks (tier_locks.js, at battle start): these work just by being held, so a use-lock can't stop them.
+  // A battle is refused while a party Pokémon holds one above your stage. Stage 8 finds, but Legendary Monuments
+  // has its own chests and recipes for them.
+  heldItemLocks: {
+    8: ['mega_showdown:red_orb', 'mega_showdown:blue_orb', 'mega_showdown:rusted_sword', 'mega_showdown:rusted_shield'],
   },
 }

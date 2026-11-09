@@ -1,0 +1,13 @@
+name = "MoreCobblemonTweaks"
+filename = "MoreCobblemonTweaks-neoforge-1.3.6.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/5KWlJ2HC/versions/M790FsW7/MoreCobblemonTweaks-neoforge-1.3.6.jar"
+hash-format = "sha512"
+hash = "0dd6f563bc9474dd7e63ea3f547aaff52db410c5c4971293f0f4bebe0bd38b2ba0aa2dfb5b8aea24b13d3eb85b5402bb1334ac19334c5d461f74cabe19e406bd"
+
+[update]
+[update.modrinth]
+mod-id = "5KWlJ2HC"
+version = "M790FsW7"

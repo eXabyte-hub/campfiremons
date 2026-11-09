@@ -1,0 +1,13 @@
+name = "PokeBadges [Cobblemon & Pixelmon Addon]"
+filename = "pokebadges-neoforge-2.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/XoK0D7K2/versions/phljl8AJ/pokebadges-neoforge-2.0.0.jar"
+hash-format = "sha512"
+hash = "cf15e65971a67657c017b5609e93d63d20098c7a3b770f3598d523d63d4457e8d47d7b53c3b152a247584eaf127920355279fb52699f6db9aef6ab5602025ac9"
+
+[update]
+[update.modrinth]
+mod-id = "XoK0D7K2"
+version = "phljl8AJ"

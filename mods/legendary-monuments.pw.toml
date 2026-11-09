@@ -1,0 +1,13 @@
+name = "Cobblemon: Legendary Monuments (CB 1.8 Version Out)"
+filename = "legendarymonuments-neoforge-1.21.1-8.2-Keep-Fighting.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/m6RyHSbV/versions/oRFso4Pk/legendarymonuments-neoforge-1.21.1-8.2-Keep-Fighting.jar"
+hash-format = "sha512"
+hash = "9f51c3059589565d8da5f30b8b3a453b12323b3fff88cd59bdf59e9ac7119c2711f73af5ec0c5731e5b0d146eecf6528d1bc455cc12c4ef4076bc3dad6f708de"
+
+[update]
+[update.modrinth]
+mod-id = "m6RyHSbV"
+version = "oRFso4Pk"

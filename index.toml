@@ -454,47 +454,47 @@ hash = "e57d8311aec9f524911ed1313cabf138bb7fa5a2d3ba985a00a2a267ff35ef78"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stage_0.snbt"
-hash = "020669fcb04b6dcf997cba94fa35c6846d07709d47096596b79b7e34d4e2d423"
+hash = "fbc96683b282822b41a9bb128edd890eb00c6210a231fa68ac7ed06f5121c700"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stage_1.snbt"
-hash = "889fb4ec64d135a296ab42c12031811a4a1e9d5be1a49cd551ca1f9c55956a62"
+hash = "37f35b33979ad22734e08f1d09e8460e23fc8b9e0508ba377137afd0b217098e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stage_2.snbt"
-hash = "cd29480b2e21586a150fbb423bedee1662ed8b73a598a57eead9867a7ce8fa70"
+hash = "42df225b99b80e5e70a2963afc1a3bd5614e80680162bb540150cb1456a1d5ae"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stage_3.snbt"
-hash = "fa951637167dae009443db7cc302101e8e00758d9b940e02a61a47790bbe1e8d"
+hash = "fba3559fc1390b3d6a9550e6dd2521636c2b6b4bcf54708f06d98436af6de09b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stage_4.snbt"
-hash = "d24b482e6898a7c7d44516ebdb43c3ac4c3b30dbdd52256d91c58801cac5bcdb"
+hash = "9bfdd546a76b97128f1e7813f2495dd95c2e24ce500a66ec38d9cb4bdebffaf3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stage_5.snbt"
-hash = "b3ccd3be0463c19bb41c39c229fd7b6b12d65987b94b932f6d2a55e066a84211"
+hash = "909510dc0039a7270420bc265497c9759c4b71000b9b720a19727bb4bde1df30"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stage_6.snbt"
-hash = "f2a33851cc5bad3b82b0b4fab413742fcc3275338cd5d26b1f476df07030bf63"
+hash = "706860f04034ce5871e3119f4b7695302f7e6056a13cacc3d5aef10cafc6a726"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stage_7.snbt"
-hash = "368cbf1010d0e807e4717b63fc00f38809459ed8c233156f4e7dcb5a580525ba"
+hash = "fe53f5d32ed72f4787f9d14d1ac6eae56ec5b45723fe8a0509b3f39a440609ed"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stage_8.snbt"
-hash = "f306c4b994e673e63b267fb77c57588158ff6d5c6680a74d86fd4039cccfcdd3"
+hash = "ddc7804adce5a07eb24e7c52f568c39e93b0a4e059ef7d6e3a3b29f9cab5b57d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stage_9.snbt"
-hash = "bbc76b7ccf720b6faf0cb80a6497d8874a018befb1e06e44ed8ba60d18834833"
+hash = "e19170f98b3d6516c0ec33c415ca7e63ee04be364f82c1a39a62f71e04c650c1"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-hash = "cf1b631ef84d4ff8399d1bd5b9f0a9b54c391bf7fb2440d46d0afed186a0d1d8"
+hash = "16801efca45525e1a36f98b959e0bdcc961a950915e8b4a91a62209f8aa56002"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapter.snbt"
@@ -594,35 +594,35 @@ hash = "13b84b286a8d42cfb90dfee0d2d0e07792a056729111cdf86014e9e21e0a124c"
 
 [[files]]
 file = "kubejs/data/campfiremons/advancement/stage/1.json"
-hash = "cba16b5b7d371e1f1ccd01b53254d3a28b440bd549352505fe1d978b54dccc08"
+hash = "b749b278d917f73d13d54c62dc338d15a7acbbc7f35fd3646eed9636163f015b"
 
 [[files]]
 file = "kubejs/data/campfiremons/advancement/stage/2.json"
-hash = "b0e2b63ecee7c71c4012354cef8879c5b1affc9d20f8fcc89d3a633a368fcb1a"
+hash = "946f5362dddecf9ba0d53fad47d4cf2fcbac1ca9acfdc5a74052abb0f1c8bb9c"
 
 [[files]]
 file = "kubejs/data/campfiremons/advancement/stage/3.json"
-hash = "08899a0965e75df8e813fd8dfe988d9bc8c82ab265c660549a6c43cb9d157579"
+hash = "71afe154c5ccd78a3feea8364bc3d570f7d735de07835f415d3422ec4b7089e5"
 
 [[files]]
 file = "kubejs/data/campfiremons/advancement/stage/4.json"
-hash = "f835bf718f95575e0de58e54dc9ed2bb87886abeab592b0f99fb11d00b80cf7d"
+hash = "ba93b9b1edca7e126419e017dce783b31030ea4214c39eee5c4a43e2f482fd9f"
 
 [[files]]
 file = "kubejs/data/campfiremons/advancement/stage/5.json"
-hash = "cc3ba27b6f879cdf9d1bba76e34b8ffa62c9bb155f7aa0ae91fd2a6a9e2bfe6a"
+hash = "41283043716339726f66eae436b90b4343e9c73ea69c105957ba5d6924ec22fd"
 
 [[files]]
 file = "kubejs/data/campfiremons/advancement/stage/6.json"
-hash = "3d426c1dbc3c05d7b65772f67afe28deb2b2e8da8f0edb191c1b95c6f5c42734"
+hash = "334e77796fee35d9a4eb1881edf62a89b00da180f8582652956c7b5f0a20008a"
 
 [[files]]
 file = "kubejs/data/campfiremons/advancement/stage/7.json"
-hash = "4d200dce29d5a8896a15687dbc37c66bf6932e984c115bb17a0cbfaebceb0c92"
+hash = "ffd80ed6b28cf80f30689b87effe9f64e0d5ce2988d518ce635e47ee6b384972"
 
 [[files]]
 file = "kubejs/data/campfiremons/advancement/stage/8.json"
-hash = "cb65fd36e118934c3a4500c7f5db23b6a82a9806a4b88d3177e65277474f98ea"
+hash = "d33dc9e9f550f09b076ba82aa8fa32175fce3f2ca4da1534096de6d94468df94"
 
 [[files]]
 file = "kubejs/data/campfiremons/advancement/stage/9.json"
@@ -634,43 +634,43 @@ hash = "2c19a47656b2d228974b735df5debf191d512af00b360d1b0e932598eb134446"
 
 [[files]]
 file = "kubejs/data/campfiremons/loot_modifiers/finds/ability_capsule.json"
-hash = "5e9d9adccff92b09b20f80f0f40e8ce152ba55f33ad9034a1651ca20b6c3289e"
+hash = "5a1cce43d0aa254e2f99818294e51097224d2cacfb126b9df0821d897522acdf"
 
 [[files]]
 file = "kubejs/data/campfiremons/loot_modifiers/finds/ability_patch.json"
-hash = "f09a9887f1db9575cebe65c4b55d6dfa128755a2e7331874b0a2ac6517c689dc"
+hash = "1b691532da43fc9f46d1f1fd8f40292f76fcd52efe019e044b7c25fe776d7eb2"
 
 [[files]]
 file = "kubejs/data/campfiremons/loot_modifiers/finds/blue_orb.json"
-hash = "21fddc499f006dc0cfcf37feefbb5231ee5adeb73fd2dd95a48da463bc964cdb"
+hash = "54e6ca8c3e06027f5ebb634879d5ea8d995f4acdeef18767413e548d87fb4379"
 
 [[files]]
 file = "kubejs/data/campfiremons/loot_modifiers/finds/dynamax_band.json"
-hash = "bb8d5b5de30f524a55936e00f4a7903038db1c17b16ac2c9ea6b00f42863bafe"
+hash = "23f9c69458826a723c8165b3d7560a68c294083a09f505a72b9c5d951cffe805"
 
 [[files]]
 file = "kubejs/data/campfiremons/loot_modifiers/finds/mega_bracelet.json"
-hash = "23a180858d84067d3f266f569211136e8919d2ef3e1b8a091ce7c47ed64765b0"
+hash = "a8895a2b7f3eb4e600161bb48620599253389cd0664b0d7b99816ef37ef4fce5"
 
 [[files]]
 file = "kubejs/data/campfiremons/loot_modifiers/finds/red_orb.json"
-hash = "869f45d66da1843590677798a4bb379d40e533a059b43c2a0c5582731b4a2a98"
+hash = "9e66b7ce17e4e4c13156109bb93b49c360517b6228a02aa5293fe9769454403f"
 
 [[files]]
 file = "kubejs/data/campfiremons/loot_modifiers/finds/rusted_shield.json"
-hash = "bd235c22102c53595524240c1a00da5cfa0280d00ebf742a108723b41c71a989"
+hash = "3efd7754a866e7983f4bd260f9d6f363a7e516982ed7607488b7266505ef2413"
 
 [[files]]
 file = "kubejs/data/campfiremons/loot_modifiers/finds/rusted_sword.json"
-hash = "3fd571caecb1ee627e75d2fa5ffb265fc37142745bfaaad9f4aa9851e3314fc6"
+hash = "6a1fc1ac4327688b9fa45b2bb490b29035c8186e4c9acfd746539177d5aed081"
 
 [[files]]
 file = "kubejs/data/campfiremons/loot_modifiers/finds/tera_orb.json"
-hash = "9e55badd004fe674661f80522b1b5cf302a788d3623eea1b3119cdbbeb3b9084"
+hash = "345c431cf2c1422b745c04ea46c420e7e758af7072181f99b5968a35bd5e423c"
 
 [[files]]
 file = "kubejs/data/campfiremons/loot_modifiers/finds/z_ring.json"
-hash = "c509df91df9c8648e9e58f6839d07c5195ce0a2b81672fc4df9c514c765fec21"
+hash = "d1a460c828aa8a21c5d0aa35fd0106457d817b3afd670841f7cac90c70f9a1d5"
 
 [[files]]
 file = "kubejs/data/campfiremons/loot_table/finds/ability_capsule.json"
@@ -713,6 +713,38 @@ file = "kubejs/data/campfiremons/loot_table/finds/z_ring.json"
 hash = "c2bbbea9b6d7c2d58370650c74f67603769b9dad2fea70292e3e1902e60e9245"
 
 [[files]]
+file = "kubejs/data/campfiremons/loot_table/rewards/stage_1.json"
+hash = "ee2e906e3c496c00ab1c6cb68c8a14ddcaff6c5b9585560286e58478d147cf6e"
+
+[[files]]
+file = "kubejs/data/campfiremons/loot_table/rewards/stage_2.json"
+hash = "40f75e0ae8e0bbd37e2b75660b7fc7280f73d05245c6b7f78a95242c0638a9ba"
+
+[[files]]
+file = "kubejs/data/campfiremons/loot_table/rewards/stage_3.json"
+hash = "2c88567b315703e34d7893b83378b5a34978a88b5d2486bbef5550971b75905c"
+
+[[files]]
+file = "kubejs/data/campfiremons/loot_table/rewards/stage_4.json"
+hash = "8c9493c9d8806a22d37c8d97e823f2cb355f3467a6c3b79b77a10445e8521721"
+
+[[files]]
+file = "kubejs/data/campfiremons/loot_table/rewards/stage_5.json"
+hash = "6ffe18f6bfd9995d40f5017c2b5809fe1397fa871978ec0a6a8aad9658303583"
+
+[[files]]
+file = "kubejs/data/campfiremons/loot_table/rewards/stage_6.json"
+hash = "fb166bb474bfbc3c3dda8a5bcabc7be57dc0ffdf87b0fbd284c583bfa6f9e268"
+
+[[files]]
+file = "kubejs/data/campfiremons/loot_table/rewards/stage_7.json"
+hash = "0f309d5ff7ab9fb6e1561e997be938fd7930c4ad2d67d4b9b85d1391a636209c"
+
+[[files]]
+file = "kubejs/data/campfiremons/loot_table/rewards/stage_8.json"
+hash = "71fe3e8a8dab1ca4e99b04567a48c0ace63dc2d7061c9b7ea6cfd706fe094369"
+
+[[files]]
 file = "kubejs/data/campfiremons/loot_table/rewards/stage_9.json"
 hash = "fda5d59b748c432c9c878c8919622ac8ff4ad08c7cd6e069e05ae4dcd542e788"
 
@@ -734,11 +766,11 @@ hash = "21687adb07bcb4ab7e4e1d40dc6c289621e8fa5603aa4a87248cbbc160e42aa5"
 
 [[files]]
 file = "kubejs/startup_scripts/campfiremons/config.js"
-hash = "2ab990a264c97fe3c84cf72186d28b7e5861a6922a08b252974a6fbfdc48f174"
+hash = "8f241f771b9826aa62161217549146112aac01941be9f00afb358240645f852b"
 
 [[files]]
 file = "kubejs/startup_scripts/campfiremons/tier_locks.js"
-hash = "6b673e20d9dbdd5d3d1bdf7fbe999e92e38ff3ee951f326ce16e0a69eee2d28d"
+hash = "a2118e9488c23e059beabcaaf2d3c1161ada2fe83fe2006a56d624b508463e21"
 
 [[files]]
 file = "mods/accessories.pw.toml"
@@ -773,6 +805,11 @@ metafile = true
 [[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "187eafde5974beee1263538b462b7b8fe2fc8948c5d413980d9796d55928580b"
+metafile = true
+
+[[files]]
+file = "mods/athena-ctm.pw.toml"
+hash = "f54cf71372645810ce22b0ba68e706139565437150e4cfd22bde4c14606099c4"
 metafile = true
 
 [[files]]
@@ -821,8 +858,18 @@ hash = "68d6016fa3707c434b3aca5db041c7518c70feb53d0183faa2502cc6efd4c827"
 metafile = true
 
 [[files]]
+file = "mods/catch-rate-display.pw.toml"
+hash = "e28b4dec295a320bf019c38321fe18bc4f08bb2b25c4f1091470c549ef1ba5e8"
+metafile = true
+
+[[files]]
 file = "mods/cherished-worlds.pw.toml"
 hash = "63f417eca4f251f85a5ae512394cbb9fa88dfdfb2b934b94637ba8b7dac1a831"
+metafile = true
+
+[[files]]
+file = "mods/chipped.pw.toml"
+hash = "24c6c3fe917ffbcef04e788dec3e003d0ed03433bc00f9cf4f23fe9b85636aa7"
 metafile = true
 
 [[files]]
@@ -846,8 +893,38 @@ hash = "2acaff560bbda5741538528a2967355ec86a8f7564adba0b2316989c66892374"
 metafile = true
 
 [[files]]
+file = "mods/cobblefurnies.pw.toml"
+hash = "6beb1d27bf94f370291a868c5c5470eb6aaab5f9990ce5d66f3eba0ea4a3fec8"
+metafile = true
+
+[[files]]
+file = "mods/cobbleloots.pw.toml"
+hash = "658356ac6f6254978ab8dd402a8a7ce11df8ffcfde53f5ff5fdc13ee9b78415d"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-battle-extras.pw.toml"
+hash = "51fd49d06a79439794ea8845958f5380efb8d8a193ec2b8d80f98f8a6b56ff46"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-battle-tower.pw.toml"
+hash = "de9ba3bce34c520f9e26b7a6acecdb3ea290868b19eb08d87d8ebf5ad381f03b"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-capture-xp.pw.toml"
+hash = "ea90ecdd3906af5a4707df5ae1ad368ffb8fb627d59bad86f5ca58f7eaa696ea"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-mega-showdown.pw.toml"
 hash = "450920a4100688783500078850dde0ba777f790bdf5ac2d45c5938432ab75e50"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-pokenav.pw.toml"
+hash = "c2c87b9fe04066c049b3e5865232d50cc280e016d127df5c114abe69c9e5c05f"
 metafile = true
 
 [[files]]
@@ -856,8 +933,38 @@ hash = "093ebb8f3b0af4596a82a0b9039fa641e03361b5550be028a8669252ecb05241"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-safepastures.pw.toml"
+hash = "c15f2415da5aa18266fd90eb84309f24f575777ddbacfbec02a87754f5884b3d"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-spawn-notification.pw.toml"
+hash = "fe0ee8f09e149ca89124d74612871f47689657dfecd66706f863670ffc67c7fd"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-tim-core.pw.toml"
+hash = "5cb828ace2a58b8c186ed5591733e07a8bcb11ab61ed86d96052d1a1e5f57f53"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon.pw.toml"
 hash = "63338ce7e20f31e1aef44bf82ea0377dc66ae2dfc5724ad4617e5212e09235e0"
+metafile = true
+
+[[files]]
+file = "mods/cobblemonraiddens.pw.toml"
+hash = "44925367c0bae557040f165930d0026911cdc1967bb8ac15b9d253d23aa0a221"
+metafile = true
+
+[[files]]
+file = "mods/cobbleworkers.pw.toml"
+hash = "47421b05b6281bce597708c7202b3c9a40741b0f7fd4245a35c87ebef7553762"
+metafile = true
+
+[[files]]
+file = "mods/cobbreeding.pw.toml"
+hash = "aa8f86c0deec2e5ff6a20360be15748c5281faaa0acf45f15044eff42f182ad9"
 metafile = true
 
 [[files]]
@@ -966,6 +1073,11 @@ hash = "d1665d3000a0857df2d4ea5d3b3a6c5e2b0a60b0c83f8c0f30f05b5305b1878f"
 metafile = true
 
 [[files]]
+file = "mods/geckolib.pw.toml"
+hash = "35779b39ddc06059ec483b33de2ecfdc3adb95c0a49e69b6701fb0024827e2f5"
+metafile = true
+
+[[files]]
 file = "mods/invmove.pw.toml"
 hash = "a246c345f9568f6b244d017c4201c6170b1ad54808c9c4799c146a0a794663aa"
 metafile = true
@@ -1021,8 +1133,18 @@ hash = "76b766b465351c6f1f57bbf68f72b66a59655d2e9a150c79b3f691d79ccbe1de"
 metafile = true
 
 [[files]]
+file = "mods/legendary-monuments.pw.toml"
+hash = "df45b7ccfbb50f10c9cc5e32d5ea6020346c45c5ebbc89ff5159f390bd5d7960"
+metafile = true
+
+[[files]]
 file = "mods/lithium.pw.toml"
 hash = "51e129832b04acd57da470fc41725bad5e101b6a6b1d4901fd8ea7a92b14e13d"
+metafile = true
+
+[[files]]
+file = "mods/lithostitched.pw.toml"
+hash = "c0611d8448bc043f372a008a435e14aa238ba8fca52fd1d79634424576ea9e12"
 metafile = true
 
 [[files]]
@@ -1053,6 +1175,11 @@ metafile = true
 [[files]]
 file = "mods/monsters-in-the-closet.pw.toml"
 hash = "6afce08213c05a33240e980e2b92032a6a3ad25d2a54ff8e9f56b5f00d46d45d"
+metafile = true
+
+[[files]]
+file = "mods/more-cobblemon-tweaks.pw.toml"
+hash = "43ae00dbd444da61f5846fd96c9da0a715b7244652e26a20a268c78dd046fd16"
 metafile = true
 
 [[files]]
@@ -1096,6 +1223,11 @@ hash = "255d8497721c69eb8ff2473053cfa287cfe920b348c8a03f43508dd61dfb7ec7"
 metafile = true
 
 [[files]]
+file = "mods/pokebadges.pw.toml"
+hash = "466105c6b968cc86d9db8031a434f65080c418600d23facb950db15ed9638767"
+metafile = true
+
+[[files]]
 file = "mods/presence-footsteps.pw.toml"
 hash = "dee709ea8dbbb9e75de4d53b1b9e1fd0e535abc0809c1f5aaadf783178cccf21"
 metafile = true
@@ -1103,6 +1235,11 @@ metafile = true
 [[files]]
 file = "mods/prickle.pw.toml"
 hash = "c99c5bac469e8d6ece5aae80f08635e3bbb8367f0c586b6288573c725faefe69"
+metafile = true
+
+[[files]]
+file = "mods/radical-gyms-cobblemon.pw.toml"
+hash = "72e3e06137eb1eaa5cc5beed861303e89ff1a9e22825661ecae947c1970a537f"
 metafile = true
 
 [[files]]
@@ -1118,6 +1255,11 @@ metafile = true
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "8690379014fbba53059759936c7deb4d62aabc7a2006da3d45929dc582b119b7"
+metafile = true
+
+[[files]]
+file = "mods/resourceful-lib.pw.toml"
+hash = "c0b066684294c33972d562e0cb08ea17b2d31bcf86cd1d6c63b8e968f0eac7a2"
 metafile = true
 
 [[files]]
@@ -1173,6 +1315,11 @@ metafile = true
 [[files]]
 file = "mods/wakes-reforged.pw.toml"
 hash = "8e464c45945b7311b01d0be50a714e8a64d389dc27331f4a27d7981fd29131b9"
+metafile = true
+
+[[files]]
+file = "mods/wild-battle-api.pw.toml"
+hash = "a398ee5619d5359201803b329a2fede00e9383b62407de728aec237873a010c3"
 metafile = true
 
 [[files]]

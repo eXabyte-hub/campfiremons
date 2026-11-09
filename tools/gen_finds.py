@@ -9,7 +9,7 @@ Writes (all under kubejs/data/, overwriting previous output):
   campfiremons/loot_table/finds/<id>.json           one-item tables the loot modifiers roll
   campfiremons/loot_modifiers/finds/<id>.json       NeoForge add_table modifiers, gated per player
   neoforge/loot_modifiers/global_loot_modifiers.json
-  campfiremons/loot_table/rewards/stage_9.json      the one direct reward left (Master Ball)
+  campfiremons/loot_table/rewards/stage_N.json      direct stage rewards (gym badges, the Master Ball)
 
 Per-player rolls rely on Lootr: each player's chest loot is generated with that player as the loot context.
 """
@@ -42,6 +42,16 @@ CHESTS = (
     + ["mega_showdown:archaeological_site/archaeological_site_chest", "mega_showdown:wishing_weald/wishing_weald_chest"]
     + [f"mega_showdown:chests/{c}" for c in
        ("observatory_barrel", "observatory_barrel_2", "observatory_barrel_3", "observatory_chest", "observatory_dome_chest")]
+    # Legendary Monuments exploration chests (dojo vaults/spawners and NPC rewards left out)
+    + [f"legendarymonuments:chests/{c}" for c in
+       ("bell_tower_chest", "calyrex_chest", "dragoeleki_chest", "heatran_cave_chest", "kubfu_dark_chest",
+        "kubfu_water_chest", "liberty_island_chest", "lugia_temple_chest", "regice_chest", "regigigas_chest",
+        "regirock_chest", "registeel_chest", "swsh_temple_shield", "swsh_temple_sword", "thalic_chest",
+        "turnback_cave_chest")]
+    # Cobbleloots loot balls, opened per player (top-level tables only; their shared/* sub-tables would double-roll)
+    + [f"cobbleloots:loot_ball/{c}" for c in
+       ("azure", "citrine", "dive", "dusk", "great", "heal", "lure", "luxury", "master", "nest", "net", "poke",
+        "premier", "pumpkin", "quick", "rainbow", "roseate", "safari", "slate", "timer", "ultra", "verdant")]
 )
 WHERE = "structure chests: dungeons, temples, shipwrecks, ruins, strongholds and more"
 
@@ -78,7 +88,13 @@ STAGE_TRAINERS = {
     5: ["leader_sabrina_01a4"], 6: ["leader_koga_01a2"], 7: ["leader_blaine_01a3"], 8: ["leader_clair_004a"],
     9: ["champion_terry_01b8", "champion_terry_01b7", "champion_terry_01b6"],
 }
-DIRECT_REWARDS = {9: ["cobblemon:master_ball"]}
+# Handed out by the stage advancement itself: the gym's PokeBadges badge (cosmetic) and the Champion's Master Ball
+DIRECT_REWARDS = {
+    1: ["pokebadges:boulder_kanto_badge", "pokebadges:badge_box"], 2: ["pokebadges:cascade_kanto_badge"],
+    3: ["pokebadges:thunder_kanto_badge"], 4: ["pokebadges:rainbow_kanto_badge"], 5: ["pokebadges:marsh_kanto_badge"],
+    6: ["pokebadges:soul_kanto_badge"], 7: ["pokebadges:volcano_kanto_badge"], 8: ["pokebadges:rising_johto_badge"],
+    9: ["cobblemon:master_ball"],
+}
 
 
 def write(rel, obj):
