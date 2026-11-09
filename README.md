@@ -48,6 +48,12 @@ A player's stage is their highest `campfiremons:stage/N` advancement. With vanil
 
 Don't use `through` for this: it also grants all the *children*, i.e. every later stage up to Champion.
 
+Local test fixtures live in `tools/testpacks/campfiremons-test/` (a datapack, never shipped). Copy it into a
+dev world with `sh tools/install-testpack.sh "<world folder>"`, then `/reload`. It contains:
+
+- `campfiremons_mega_test`: an RCT trainer (Radical Red series, optional, never spawns) leading with
+  Mega-ready Manectric and a Primal Kyogre. Summon with `/rctmod trainer summon campfiremons_mega_test`.
+
 ## Adding or updating mods
 
 ```sh

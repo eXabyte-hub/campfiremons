@@ -1,0 +1,31 @@
+{
+  "name": "Mega Test",
+  "ai": { "type": "rct", "data": { "maxSelectMargin": 0.15 } },
+  "battleRules": { "maxItemUses": 0 },
+  "bag": [],
+  "team": [
+    {
+      "species": "manectric",
+      "gender": "MALE",
+      "level": 20,
+      "nature": "modest",
+      "ability": "intimidate",
+      "moveset": ["thunderbolt", "flamethrower", "bite", "protect"],
+      "ivs": { "hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31 },
+      "evs": {},
+      "heldItem": ["mega_showdown:manectite"]
+    },
+    {
+      "species": "kyogre",
+      "gender": "GENDERLESS",
+      "level": 20,
+      "nature": "modest",
+      "ability": "drizzle",
+      "moveset": ["surf", "icebeam", "calmmind", "protect"],
+      "ivs": { "hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31 },
+      "evs": {},
+      "heldItem": ["mega_showdown:blue_orb"],
+      "aspects": ["primal"]
+    }
+  ]
+}

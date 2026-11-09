@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "description": "Campfiremons local test fixtures. Never shipped to players (tools/ is packwiz-ignored)."
+  }
+}

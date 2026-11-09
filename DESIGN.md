@@ -157,6 +157,12 @@ Verified in the RCT 0.19.2-beta source: RCT already does both halves, so we conf
   - Master Ball: S9 quest only
 - Everything else stays craftable and lootable as normal: Rare Candy, EXP Candy, evolution stones, and competitive held items (Choice items, Life Orb, Leftovers).
   - The EXP cap stops candies from over-leveling (verified, §4.2).
+- Item IDs to gate in F3 (from the jars):
+  - Mega: `mega_showdown:mega_bracelet` (+ colour variants), `mega_ring`, `may_bracelet`, `lysandre_ring`, `omni_ring`, `keystone`, and 93 Mega Stones (`*ite`, `*ite_x`/`_y`/`_z`).
+    `omni_ring` likely enables every gimmick at once, so it gates at the *latest* gimmick stage.
+  - Z-Moves: `z_ring` (+ variants, `*_z_power_ring`) and 35 Z-Crystals (`*ium_z`). Tera: `tera_orb`, 19 Tera Shards. Dynamax: `dynamax_band`.
+  - Primal/Crowned: `mega_showdown:red_orb`, `blue_orb`, `rusted_sword`, `rusted_shield`. Abilities: `cobblemon:ability_capsule`, `ability_patch`.
+  - **Bottle Caps aren't in Cobblemon or Mega Showdown**; F3 adds a small mod for them (candidates: Only Bottle Caps, Cobblemon Utility+).
 
 ### 4.4 Loot (light touch) [decided]
 
@@ -336,7 +342,7 @@ This is studied from ATMons' `catch_restrictions.js`. The design is ours; no ATM
 | F3 | Stage seals + ball/item recipe gating + Create ball chain | Recipes show seals in EMI/JEI |
 | F4 | Stage-aware loot tables | Early chests give no top-tier items |
 | F5 | Quest chapters 0–2 + gym-defeat → stage hookup | Beating Gym 1 grants stage 1 |
-| F6 | Remaining addons, compatibility-tested in batches. **Mega Showdown first**: RR trainers use Megas from Lt. Surge (gym 3) | Clean launch with every chosen mod |
+| F6 | Remaining addons, compatibility-tested in batches. Mega Showdown + ZA Megas done first (trainer Megas and Primals verified) | Clean launch with every chosen mod |
 | F7 | Mechanic/raid/TM/breeding gating | Per the §4.6 table |
 | F8 | Economy shops gated | No above-stage purchases |
 | F9 | Tech gating (RS, Oritech) | |
@@ -362,4 +368,4 @@ This is studied from ATMons' `catch_restrictions.js`. The design is ours; no ATM
 - **Capture flows** in Raid Dens, Ultra Wormholes and Legendary Monuments may bypass ball-hit events (§4.1).
 - **How a gym defeat reaches FTB Quests:** RCT ships an advancement per key trainer (e.g. `rctmod:trainers/defeat_leader_brock`, titled "Boulder Badge"), which an FTB Quests advancement task can watch. Confirm in F5.
 - ~~Telling gym/League trainers apart in code~~ Not needed: RCT caps every trainer battle (§4.2).
-- **RR trainers carry Mega Stones and Primal orbs.** Without Mega Showdown installed it's unverified what RCT does with them. Install and test Mega Showdown before anyone reaches Lt. Surge.
+- ~~RR trainers carry Mega Stones and Primal orbs~~ Verified with Mega Showdown 1.3.3: RR trainer data names `mega_showdown:` items with a plain-item fallback (Manectite, else Expert Belt), RCT's AI picks Mega/Tera/Z/Dynamax whenever Showdown offers it, and trainers need no Mega Bracelet. A test trainer's Manectric Mega Evolved and its Kyogre went Primal (`tools/testpacks/`).

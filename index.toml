@@ -521,6 +521,11 @@ file = "kubejs/startup_scripts/campfiremons/tier_locks.js"
 hash = "a6f5c3d2f786e17a2fc95aa15b0d7974f1608381b1861655dddd533c4030f2b6"
 
 [[files]]
+file = "mods/accessories.pw.toml"
+hash = "2017362c793d95887d38b3353abb7c77f212175e82ed848296575ea0e466b7d7"
+metafile = true
+
+[[files]]
 file = "mods/advanced-core-info.pw.toml"
 hash = "0ab433c62691c127d3e5842faaa26eafdd66079e7c0d365f8870ecbda2b67eca"
 metafile = true
@@ -618,6 +623,11 @@ metafile = true
 [[files]]
 file = "mods/clumps.pw.toml"
 hash = "2acaff560bbda5741538528a2967355ec86a8f7564adba0b2316989c66892374"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-mega-showdown.pw.toml"
+hash = "450920a4100688783500078850dde0ba777f790bdf5ac2d45c5938432ab75e50"
 metafile = true
 
 [[files]]
@@ -811,6 +821,11 @@ hash = "6afce08213c05a33240e980e2b92032a6a3ad25d2a54ff8e9f56b5f00d46d45d"
 metafile = true
 
 [[files]]
+file = "mods/navas-zamega.pw.toml"
+hash = "0f1148ea2b643d8999ba0e96b62171e4925470518d874f9f13e213affaf4e968"
+metafile = true
+
+[[files]]
 file = "mods/netherportalfix.pw.toml"
 hash = "748bdcbc7788a77881979189827f1baf3f6ef5fdaeb58b00e51e043c2c0abe39"
 metafile = true
@@ -823,6 +838,11 @@ metafile = true
 [[files]]
 file = "mods/open-loader.pw.toml"
 hash = "904c4adb3f8087a2c5381efd5d210183484934540372a5c839ab4790325e5cff"
+metafile = true
+
+[[files]]
+file = "mods/owo-lib.pw.toml"
+hash = "6514f98b34602b789fc2dbcafe7a67468d1c94d74965a0142a79b7ab23628a9a"
 metafile = true
 
 [[files]]
