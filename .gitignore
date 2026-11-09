@@ -2,6 +2,9 @@
 kubejs/logs/
 kubejs/exported/
 kubejs/probe/
+# Generated per install: holds a local auth token, never commit or ship it
+kubejs/config/web_server.json
+kubejs/README.txt
 
 # Build output
 dist/

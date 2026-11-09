@@ -284,7 +284,7 @@ This is studied from ATMons' `catch_restrictions.js`. The design is ours; no ATM
 
 - A separate Prism instance runs the pack from the repo.
 - `kubejs/` and `config/` are linked into the instance so edits land straight in git, and the FTB Quests editor saves into the repo.
-- I read `kubejs/logs/startup.log`, `kubejs/logs/server.log` and `logs/latest.log` after each launch.
+- I read `logs/kubejs/startup.log`, `logs/kubejs/server.log` and `logs/latest.log` in the instance after each launch (KubeJS 2101 writes its logs there, not under `kubejs/logs/`).
 - The details (symlink vs `packwiz serve`, keeping hashes in sync with `packwiz refresh`) get settled in setup.
 
 ## 8. Multiplayer / server

@@ -445,6 +445,18 @@ file = "config/defaultoptions/options.txt"
 hash = "091b884d5cc514338c8b0423e17b206dcff806e281dd517ee73818d348fe0586"
 
 [[files]]
+file = "config/fancymenu/options.txt"
+hash = "7d344bc0e4b17014290c3e7570a7505099de513f28b51cf6319919d75b465b3f"
+
+[[files]]
+file = "kubejs/config/client.json"
+hash = "0aeb4cb329b896e33a0777a1683b0b813a6f2f0adc5bc2cf3e6d10e18e442fef"
+
+[[files]]
+file = "kubejs/config/common.json"
+hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
+
+[[files]]
 file = "kubejs/server_scripts/campfiremons_boot.js"
 hash = "a605eda67777bb4a92563b3a94ba3e6fef33ba35a54a4be1cc1127e9d8d3c89c"
 

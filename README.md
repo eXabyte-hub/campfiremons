@@ -32,8 +32,8 @@ Restart Prism if the instance doesn't show up.
   `packwiz refresh` and then syncs mods/configs from this repo into the instance.
 - `kubejs/` and `config/ftbquests/` in the instance are symlinks to this repo. Script edits are
   live (use `/reload` in game for server scripts), and the in-game quest editor saves straight into git.
-- Logs: `kubejs/logs/startup.log`, `kubejs/logs/server.log` (here, through the symlink) and the
-  instance's `minecraft/logs/latest.log`.
+- Logs (KubeJS 2101 writes them under the instance's `logs/`, not `kubejs/logs/`):
+  `minecraft/logs/kubejs/startup.log`, `server.log`, `client.log`, and `minecraft/logs/latest.log`.
 
 ## Adding or updating mods
 
@@ -52,3 +52,5 @@ packwiz refresh
 
 Official-pack overrides that are deliberately **not** included: the bundled tutorial world, the
 FancyMenu title-screen branding/assets, the CraftPresence (Discord status) config and the official tips pack.
+We ship only `config/fancymenu/options.txt`, with `modpack_mode` on and the editing overlay off, so players
+get the plain title screen with no FancyMenu setup prompts.
