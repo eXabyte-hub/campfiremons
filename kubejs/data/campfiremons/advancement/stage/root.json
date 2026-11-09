@@ -1,12 +1,22 @@
 {
   "display": {
-    "icon": { "id": "minecraft:campfire" },
-    "title": { "text": "Campfiremons League" },
-    "description": { "text": "Beat gyms to raise your stage and unlock stronger Pokémon." },
+    "icon": {
+      "id": "minecraft:campfire"
+    },
+    "title": {
+      "text": "Campfiremons League"
+    },
+    "description": {
+      "text": "Beat gyms to raise your stage. Each stage unlocks Pokémon to catch and items to find."
+    },
     "background": "minecraft:textures/block/spruce_planks.png",
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": false
   },
-  "criteria": { "joined": { "trigger": "minecraft:tick" } }
+  "criteria": {
+    "joined": {
+      "trigger": "minecraft:tick"
+    }
+  }
 }

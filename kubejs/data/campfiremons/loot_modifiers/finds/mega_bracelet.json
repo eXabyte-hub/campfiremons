@@ -1,0 +1,304 @@
+{
+  "type": "neoforge:add_table",
+  "conditions": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/simple_dungeon"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/abandoned_mineshaft"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/desert_pyramid"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/jungle_temple"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/igloo_chest"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/pillager_outpost"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/ruined_portal"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/shipwreck_treasure"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/shipwreck_supply"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/buried_treasure"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/underwater_ruin_big"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/underwater_ruin_small"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/stronghold_corridor"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/stronghold_crossing"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/stronghold_library"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/woodland_mansion"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/ancient_city"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/nether_bridge"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/bastion_treasure"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/bastion_other"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/bastion_bridge"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/end_city_treasure"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/trial_chambers/supply"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/trial_chambers/corridor"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/trial_chambers/intersection"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/trial_chambers/entrance"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemon:ruins/gilded_chests/base"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemon:ruins/gilded_chests/ruins"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemon:ruins/gilded_chests/alluringvoice"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemon:ruins/gilded_chests/burningjealousy"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemon:ruins/gilded_chests/chillingwater"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemon:ruins/gilded_chests/coaching"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemon:ruins/gilded_chests/corrosivegas"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemon:ruins/gilded_chests/dracometeor"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemon:ruins/gilded_chests/dragoncheer"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemon:ruins/gilded_chests/gimmialluringvoice"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemon:ruins/gilded_chests/grassyglide"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemon:ruins/gilded_chests/hardpress"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemon:ruins/gilded_chests/lashout"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemon:ruins/gilded_chests/meteorbeam"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemon:ruins/gilded_chests/mistyexplosion"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemon:ruins/gilded_chests/poltergeist"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemon:ruins/gilded_chests/pounce"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemon:ruins/gilded_chests/psychicnoise"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemon:ruins/gilded_chests/risingvoltage"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemon:ruins/gilded_chests/scaleshot"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemon:ruins/gilded_chests/scorchingsands"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemon:ruins/gilded_chests/skydrop"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemon:ruins/gilded_chests/steelbeam"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemon:ruins/gilded_chests/supercellslam"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemon:ruins/gilded_chests/telekinesis"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemon:ruins/gilded_chests/temperflare"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemon:ruins/gilded_chests/trailblaze"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemon:ruins/gilded_chests/tripleaxel"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemon:ruins/gilded_chests/upperhand"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemon:shipwreck_coves/gilded_chests/big_treasure_blastburn"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemon:shipwreck_coves/gilded_chests/big_treasure_frenzyplant"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemon:shipwreck_coves/gilded_chests/big_treasure_hydrocannon"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemon:shipwreck_coves/gilded_chests/lesser_treasure"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemon:shipwreck_coves/vanilla_chests/cove1_barrel"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemon:shipwreck_coves/vanilla_chests/cove1_chest"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemon:shipwreck_coves/vanilla_chests/cove2_barrel"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "mega_showdown:archaeological_site/archaeological_site_chest"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "mega_showdown:wishing_weald/wishing_weald_chest"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "mega_showdown:chests/observatory_barrel"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "mega_showdown:chests/observatory_barrel_2"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "mega_showdown:chests/observatory_barrel_3"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "mega_showdown:chests/observatory_chest"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "mega_showdown:chests/observatory_dome_chest"
+        }
+      ]
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type_specific": {
+          "type": "minecraft:player",
+          "advancements": {
+            "campfiremons:stage/2": true,
+            "campfiremons:found/mega_bracelet": false
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:random_chance",
+      "chance": 0.25
+    }
+  ],
+  "table": "campfiremons:finds/mega_bracelet"
+}

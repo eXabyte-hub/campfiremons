@@ -8,7 +8,7 @@
       "text": "Stage 9: Champion"
     },
     "description": {
-      "text": "Beat the Elite Four and the Champion."
+      "text": "Beat the Elite Four and Champion Terry. Reward: a Master Ball."
     },
     "frame": "challenge",
     "show_toast": true,
@@ -18,5 +18,10 @@
     "granted_by_quest": {
       "trigger": "minecraft:impossible"
     }
+  },
+  "rewards": {
+    "loot": [
+      "campfiremons:rewards/stage_9"
+    ]
   }
 }

@@ -36,6 +36,12 @@ Restart Prism if the instance doesn't show up.
 - Logs (KubeJS 2101 writes them under the instance's `logs/`, not `kubejs/logs/`):
   `minecraft/logs/kubejs/startup.log`, `server.log`, `client.log`, and `minecraft/logs/latest.log`.
 
+## Generated data
+
+`tools/gen_finds.py` owns the stage advancements, the "found" advancements and the stage-finds loot modifiers
+under `kubejs/data/` (see the list at the top of the script). Don't hand-edit those JSON files: change the
+config in the script, then run `python -I tools/gen_finds.py` and `packwiz refresh`.
+
 ## Testing stages
 
 A player's stage is their highest `campfiremons:stage/N` advancement. With vanilla `/advancement`:

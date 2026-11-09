@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "entries": [
+    "campfiremons:finds/mega_bracelet",
+    "campfiremons:finds/z_ring",
+    "campfiremons:finds/tera_orb",
+    "campfiremons:finds/dynamax_band",
+    "campfiremons:finds/red_orb",
+    "campfiremons:finds/blue_orb",
+    "campfiremons:finds/rusted_sword",
+    "campfiremons:finds/rusted_shield",
+    "campfiremons:finds/ability_capsule",
+    "campfiremons:finds/ability_patch"
+  ]
+}

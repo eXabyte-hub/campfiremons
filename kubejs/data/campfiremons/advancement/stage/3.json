@@ -5,10 +5,10 @@
       "id": "cobblemon:ultra_ball"
     },
     "title": {
-      "text": "Stage 3"
+      "text": "Stage 3 · Z-Ring"
     },
     "description": {
-      "text": "Beat Gym 3."
+      "text": "Beat Lt. Surge. A Z-Ring now turns up in structure chests: dungeons, temples, shipwrecks, ruins, strongholds and more."
     },
     "frame": "goal",
     "show_toast": true,

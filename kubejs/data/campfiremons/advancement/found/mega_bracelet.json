@@ -1,0 +1,29 @@
+{
+  "parent": "campfiremons:stage/2",
+  "display": {
+    "icon": {
+      "id": "mega_showdown:mega_bracelet"
+    },
+    "title": {
+      "text": "Mega Bracelet"
+    },
+    "description": {
+      "text": "Find it in structure chests: dungeons, temples, shipwrecks, ruins, strongholds and more."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "found": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#mega_showdown:mega_bracelet"
+          }
+        ]
+      }
+    }
+  }
+}
