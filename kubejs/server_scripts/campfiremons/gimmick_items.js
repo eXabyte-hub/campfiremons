@@ -26,9 +26,11 @@ ServerEvents.recipes(event => {
   event.remove({ output: '#mega_showdown:tera_orb' })
   event.remove({ output: '#mega_showdown:dynamax_band' })
   event.remove({ output: '#mega_showdown:omni_ring' })
-  // Stage 8 rewards (Cobblemon brews the capsule, Mega Showdown crafts the patch)
+  // Stage 8 finds (Cobblemon brews the capsule, Mega Showdown crafts the patch)
   event.remove({ output: 'cobblemon:ability_capsule' })
   event.remove({ output: 'cobblemon:ability_patch' })
+  // The Master Ball is only ever the Champion's reward (Cobblemon ships a netherite/Nether Star recipe)
+  event.remove({ output: 'cobblemon:master_ball' })
 
   // Cosmetic swaps: any bracelet/ring look from the base one and back, at a stonecutter
   let lookSets = [MEGA_BRACELETS, Z_RINGS]

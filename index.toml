@@ -626,7 +626,11 @@ hash = "bd51db29fe13e5d94a4c43c3864a96c06c061e126e470305686f6164f0ad3537"
 
 [[files]]
 file = "kubejs/server_scripts/campfiremons/gimmick_items.js"
-hash = "dd5feaf06373644a1c39d9239aee86f4c7784b92bd5a749774889b97376796fa"
+hash = "aab079861a0aaccbf6c0d3e26561fd7806ec6d607aa98fc9e37d222590b67295"
+
+[[files]]
+file = "kubejs/server_scripts/campfiremons/item_locks.js"
+hash = "868e0bb34aa740e9325c16dab333225f85d242566477a9a6084b4875f840dcce"
 
 [[files]]
 file = "kubejs/startup_scripts/campfiremons/cobblemon_hooks.js"
@@ -634,11 +638,11 @@ hash = "21687adb07bcb4ab7e4e1d40dc6c289621e8fa5603aa4a87248cbbc160e42aa5"
 
 [[files]]
 file = "kubejs/startup_scripts/campfiremons/config.js"
-hash = "e252414787bad63fcfa5f263c98580e833c020ec16bbc7ae565ca56a4cb325e8"
+hash = "2ab990a264c97fe3c84cf72186d28b7e5861a6922a08b252974a6fbfdc48f174"
 
 [[files]]
 file = "kubejs/startup_scripts/campfiremons/tier_locks.js"
-hash = "a6f5c3d2f786e17a2fc95aa15b0d7974f1608381b1861655dddd533c4030f2b6"
+hash = "6b673e20d9dbdd5d3d1bdf7fbe999e92e38ff3ee951f326ce16e0a69eee2d28d"
 
 [[files]]
 file = "mods/accessories.pw.toml"
@@ -963,6 +967,11 @@ metafile = true
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
 hash = "e0f1cef5482844e62c6fc3c7771fc9ef8385c47092248f76aa1fa271220b24e8"
+metafile = true
+
+[[files]]
+file = "mods/only-bottle-caps.pw.toml"
+hash = "fc4564d1829aa06f0410c91e453739981ce8d839b91095e67f991b2b98ea834e"
 metafile = true
 
 [[files]]

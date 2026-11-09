@@ -27,11 +27,15 @@ function tierOf(species) {
   return null
 }
 
+function isBypassed(player) {
+  return player.isAdvancementDone(BYPASS)
+}
+
 // The tier that stops this player from catching/battling this Pokémon, or null if they may.
 function lockingTier(player, pokemon) {
   let tierId = tierOf(pokemon.species)
   if (!tierId) return null
-  if (player.isAdvancementDone(BYPASS)) return null
+  if (isBypassed(player)) return null
   let tier = global.campfiremonsConfig.tiers[tierId]
   return playerStage(player) >= tier.stage ? null : tier
 }
@@ -47,6 +51,11 @@ function deny(player, message) {
 }
 
 global.campfiremons = global.campfiremons || {}
+
+// Shared with server scripts (they can read `global` but not write it), e.g. item_locks.js
+global.campfiremons.playerStage = playerStage
+global.campfiremons.isBypassed = isBypassed
+global.campfiremons.deny = deny
 
 // A ball hitting a wild Pokémon. Cancelled hits drop the ball back as an item (Cobblemon behaviour).
 // Battles against locked Pokémon are blocked at battle start, so this mainly covers overworld throws.

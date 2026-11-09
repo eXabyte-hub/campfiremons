@@ -29,4 +29,25 @@ global.campfiremonsConfig = {
   overrides: {
     arceus: 'restricted', // labelled mythical, but it belongs with the box legends
   },
+
+  // Use-locks (DESIGN.md §4.3, server_scripts/campfiremons/item_locks.js): crafting stays free, but throwing or using
+  // one of these below its stage is refused. Balls follow Cobblemon's own material tiers (tier_N_poke_ball_materials);
+  // tier 1 balls (Poké, Premier, Heal, Safari, apricorn colour balls) are never locked.
+  itemLocks: {
+    1: [ // tier 2 balls
+      'cobblemon:great_ball', 'cobblemon:net_ball', 'cobblemon:dive_ball', 'cobblemon:nest_ball', 'cobblemon:level_ball',
+      'cobblemon:lure_ball', 'cobblemon:heavy_ball', 'cobblemon:moon_ball', 'cobblemon:friend_ball', 'cobblemon:fast_ball',
+      'cobblemon:sport_ball', 'cobblemon:park_ball',
+    ],
+    2: [ // Bottle Caps (parity: Radical Red trainers have perfect IVs); Withered caps lower IVs and stay free
+      'obc:bottle_cap', 'obc:bottle_cap_hp', 'obc:bottle_cap_attack', 'obc:bottle_cap_defence',
+      'obc:bottle_cap_special_attack', 'obc:bottle_cap_special_defence', 'obc:bottle_cap_speed', 'obc:bottle_cap_gold',
+    ],
+    3: [ // tier 3 balls
+      'cobblemon:ultra_ball', 'cobblemon:quick_ball', 'cobblemon:dusk_ball', 'cobblemon:timer_ball',
+      'cobblemon:repeat_ball', 'cobblemon:luxury_ball', 'cobblemon:love_ball',
+    ],
+    6: ['cobblemon:dream_ball', 'cobblemon:beast_ball'], // tier 4 balls
+    9: ['cobblemon:master_ball'], // the Champion's reward; its recipe is removed
+  },
 }

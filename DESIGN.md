@@ -150,14 +150,16 @@ Verified in the RCT 0.19.2-beta source: RCT already does both halves, so we conf
   - Why not gate crafting: in 1.21 the crafting grid doesn't know who is crafting (KubeJS's `modifyResult` sees only the grid), and most enabler recipes fill all 9 slots, leaving no room for a seal ingredient. So their recipes are removed.
   - Mega Stones, Z-Crystals and Tera Shards stay obtainable as Mega Showdown ships them: they do nothing for a player without the matching enabler.
   - Cosmetic looks (17 bracelets, 15 Z-Rings) swap from the base item and back at a stonecutter. The Omni Ring is crafted from all four enablers, so it's naturally Stage 7.
-  - **Stage seals** (a per-player crafting ingredient) remain an option for repeatable crafts like balls (F3b); not built yet.
+  - Stage seals (a per-player crafting ingredient) turned out unnecessary: repeatable items use use-locks instead (balls, caps; below).
 - Balls:
-  - Poké → Great (S1) → Ultra, which needs Create processing (S3) → specialty balls (S5) → Beast (S6).
-  - **Master Ball is never craftable or lootable.** One per player comes from the Stage 9 reward.
-  - We try *Create: Cobblemon Balls Overhaul*. If it breaks on 1.8, we write our own Create recipe chain in KubeJS.
+  - **Use-locks** [decided, F3b]: balls are crafted (and later automated with Create) freely, but **throwing** one above your stage is refused with a message and the ball isn't used up (KubeJS `ItemEvents.rightClicked`/`entityInteracted`, list in `config.js` `itemLocks`).
+  - Ladder = Cobblemon's own ball material tiers: T1 (Poké, Premier, Heal, Safari, apricorn colour balls) S0 → T2 (Great, Net, Dive, Nest, Level, Lure, Heavy, Moon, Friend, Fast, Sport, Park) S1 → T3 (Ultra, Quick, Dusk, Timer, Repeat, Luxury, Love) S3 → T4 (Dream, Beast) S6.
+  - A Create production chain for balls is optional flavour later (when Create is added); the per-player gate doesn't depend on it.
+  - **Master Ball is never craftable or lootable.** One per player comes from the Stage 9 reward; Cobblemon's own recipe is removed and it's use-locked to S9.
+  - For that chain we'd try *Create: Cobblemon Balls Overhaul* first; if it breaks on 1.8, our own Create recipes in KubeJS.
 - **Only the truly broken items are held back** [decided], each at its parity point (§3.2):
   - Mega Bracelet: S2 find (Mega Stones stay free; useless without it)
-  - Bottle Caps: from S2
+  - Bottle Caps: use-locked to S2 (Only Bottle Caps; crafting stays free, Withered caps never locked)
   - Primal orbs (Red/Blue Orb), Rusted Sword/Shield: S8 finds (no other survival source exists)
   - Ability Capsule/Patch: S8 finds, repeatable (recipes removed; Cobblemon's own loot copies are F4)
   - Master Ball: S9 reward only
@@ -168,7 +170,7 @@ Verified in the RCT 0.19.2-beta source: RCT already does both halves, so we conf
     `omni_ring` likely enables every gimmick at once, so it gates at the *latest* gimmick stage.
   - Z-Moves: `z_ring` (+ variants, `*_z_power_ring`) and 35 Z-Crystals (`*ium_z`). Tera: `tera_orb`, 19 Tera Shards. Dynamax: `dynamax_band`.
   - Primal/Crowned: `mega_showdown:red_orb`, `blue_orb`, `rusted_sword`, `rusted_shield`. Abilities: `cobblemon:ability_capsule`, `ability_patch`.
-  - **Bottle Caps aren't in Cobblemon or Mega Showdown**; F3 adds a small mod for them (candidates: Only Bottle Caps, Cobblemon Utility+).
+  - Bottle Caps: **Only Bottle Caps 1.5.0** (`obc:bottle_cap`, `bottle_cap_<stat>`, `bottle_cap_gold`). Cobblemon Utility+ was dropped: its Master Candy/Cobblemax set Pokémon to Lv100, bypassing the level cap.
 
 ### 4.4 Loot (light touch) [decided]
 
@@ -242,7 +244,8 @@ Additions on top of the official pack. "1.8?" shows whether the addon's latest N
 | Cobbleworkers 2.0.7 | Pokémon-powered automation | ✅ |
 | Create: Cobblemon Balls Overhaul 0.0.4 | Create ball recipes | ⚠️ (fallback: our own KubeJS recipes) |
 | Cobblenav 2.4.2 | Pokénav / spawn finder | 🟡 |
-| Cobblemon Utility+ 1.8.0, MoreCobblemonTweaks | QoL | 🟡 |
+| MoreCobblemonTweaks | QoL | 🟡 |
+| Only Bottle Caps 1.5.0 | Bottle Caps (IV maxing), use-locked to Stage 2 | ✅ |
 | Cobbreeding 2.4.1 | Breeding | ✅ (needs ≥ 1.8.2) |
 | CobbleDollars 2.0.0-beta | Economy | ⚠️ (last build July 2026) |
 | Create 6.0.10 | Tech backbone | n/a |
@@ -346,7 +349,7 @@ This is studied from ATMons' `catch_restrictions.js`. The design is ours; no ATM
 | F0 | Repo + packwiz + dev instance (official 1.8.4 + KubeJS + FTB Quests) | Instance launches; logs readable; repo committed |
 | **F1** | **Stage advancements + legendary tier locks** (catching and wild battles, admin bypass) | Legends catchable or blocked per stage, verified in game with `/advancement grant` |
 | F2 | Level cap via RCT: Radical Red series for everyone, tier stages per the parity rule | New world starts in Radical Red with cap 15; over-cap party refused by trainers; EXP stops at the cap |
-| F3 | F3a: gimmick enablers + held-back items as per-player stage finds with Lootr (done). F3b: Bottle Caps mod, ball gating + Create ball chain | Items turn up in chests only after their stage, once each; enablers have no crafting recipe |
+| F3 | F3a: gimmick enablers + held-back items as per-player stage finds with Lootr (done). F3b: Only Bottle Caps + ball/cap use-locks, Master Ball recipe removed (done). Create ball chain deferred to when Create is added | Locked balls/caps refuse to be used below their stage; enablers have no crafting recipe |
 | F4 | Stage-aware loot tables | Early chests give no top-tier items |
 | F5 | Quest chapters 0–2 + gym-defeat → stage hookup | Beating Gym 1 grants stage 1 |
 | F6 | Remaining addons, compatibility-tested in batches. Mega Showdown + ZA Megas done first (trainer Megas and Primals verified) | Clean launch with every chosen mod |
