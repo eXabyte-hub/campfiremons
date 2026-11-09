@@ -7,44 +7,70 @@
 		id: "cobblemon:poke_ball"
 	}
 	id: "2C1FC7D4CD62E5E4"
+	images: [ ]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [ ]
 			icon: {
 				id: "minecraft:campfire"
 			}
-			id: "2142C565D5E72B2B"
+			id: "7BFE2B886541122D"
 			rewards: [
 				{
-					id: "E9848A4ED8E6DC97"
+					id: "1FA6449261DCCAAB"
 					type: "xp_levels"
-					xp_levels: 1
+					xp_levels: 3
+				}
+				{
+					id: "430488141CAE0E26"
+					item: {
+						count: 1
+						id: "rctmod:trainer_card"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "555B497B4D52E58E"
+					item: {
+						count: 1
+						id: "cobblemon:poke_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "065EDA2CA849421B"
+					item: {
+						count: 1
+						id: "cobblemon:potion"
+					}
+					type: "item"
 				}
 			]
 			shape: "gear"
-			size: 1.5d
-			tasks: [
-				{
-					id: "10282883D85F0F3C"
-					type: "checkmark"
-				}
-			]
+			size: 2.0d
+			tasks: [{
+				id: "5A96394A81C1F2F9"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"2142C565D5E72B2B"
-			]
 			icon: {
 				id: "cobblemon:poke_ball"
 			}
 			id: "07770E338AC86117"
 			rewards: [
 				{
-					count: 5
+					id: "6EB93F2AF2347A66"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 16
 					id: "78E356F3C0FC8511"
 					item: {
 						count: 1
@@ -55,118 +81,150 @@
 			]
 			shape: "circle"
 			size: 1.0d
-			tasks: [
-				{
-					action: "catch"
-					amount: 1L
-					biome: ""
-					dimension: ""
-					form: ""
-					gender: ""
-					id: "E4DA7DD4DCFC74C3"
-					poke_ball_used: ""
-					pokemon: ""
-					pokemon_type: ""
-					region: ""
-					shiny: false
-					time_max: 24000L
-					time_min: 0L
-					type: "cobblemon_tasks:cobblemon_task"
-				}
-			]
-			x: 2.0d
-			y: -1.0d
+			tasks: [{
+				abilities: ""
+				action: "catch"
+				amount: 1L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "6B7400D7AA8A23C6"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 2.5d
+			y: 0.0d
 		}
 		{
-			dependencies: [
-				"07770E338AC86117"
-			]
+			dependencies: ["07770E338AC86117"]
 			icon: {
 				id: "cobblemon:poke_ball"
 			}
-			id: "C2B290715D042AD2"
+			id: "0440240B5085D636"
 			rewards: [
 				{
-					count: 3
+					id: "254EBBC31FE01A89"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 16
 					id: "70CF0D0FD6D4C59F"
 					item: {
 						count: 1
-						id: "cobblemon:potion"
+						id: "cobblemon:poke_ball"
 					}
 					type: "item"
 				}
 			]
 			shape: "circle"
 			size: 1.0d
-			tasks: [
-				{
-					action: "catch"
-					amount: 5L
-					biome: ""
-					dimension: ""
-					form: ""
-					gender: ""
-					id: "5B04E7BC1C243876"
-					poke_ball_used: ""
-					pokemon: ""
-					pokemon_type: ""
-					region: ""
-					shiny: false
-					time_max: 24000L
-					time_min: 0L
-					type: "cobblemon_tasks:cobblemon_task"
-				}
-			]
-			x: 4.0d
-			y: -1.0d
+			tasks: [{
+				abilities: ""
+				action: "catch"
+				amount: 5L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "5B04E7BC1C243876"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 4.5d
+			y: 0.0d
 		}
 		{
-			dependencies: [
-				"07770E338AC86117"
-			]
 			icon: {
 				id: "cobblemon:exp_candy_xs"
 			}
 			id: "2CB794566D297784"
 			rewards: [
 				{
-					count: 2
-					id: "D15EE0E6A255FE23"
+					id: "61C31E6BB6A60FC8"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 4
+					id: "234DC2D8B587A3FF"
 					item: {
 						count: 1
-						id: "cobblemon:exp_candy_s"
+						id: "cobblemon:exp_candy_xs"
 					}
 					type: "item"
 				}
 			]
 			shape: "circle"
 			size: 1.0d
-			tasks: [
-				{
-					action: "evolve"
-					amount: 1L
-					biome: ""
-					dimension: ""
-					form: ""
-					gender: ""
-					id: "93A9564FA12EF776"
-					poke_ball_used: ""
-					pokemon: ""
-					pokemon_type: ""
-					region: ""
-					shiny: false
-					time_max: 24000L
-					time_min: 0L
-					type: "cobblemon_tasks:cobblemon_task"
-				}
-			]
-			x: 4.0d
-			y: 1.0d
+			tasks: [{
+				abilities: ""
+				action: "evolve"
+				amount: 1L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "55A038099295A219"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 6.5d
+			y: 0.0d
 		}
 		{
-			dependencies: [
-				"C2B290715D042AD2"
-			]
 			icon: {
 				id: "minecraft:compass"
 			}
@@ -175,46 +233,67 @@
 				{
 					id: "238762096CBB7A81"
 					type: "xp_levels"
-					xp_levels: 1
+					xp_levels: 2
 				}
-			]
-			shape: "square"
-			size: 1.0d
-			tasks: [
 				{
-					id: "376D97250BF5ABB7"
-					type: "checkmark"
+					count: 2
+					id: "4010DD869C8E3984"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xs"
+					}
+					type: "item"
 				}
 			]
-			x: 0.0d
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "376D97250BF5ABB7"
+				type: "checkmark"
+			}]
+			x: 4.5d
 			y: 3.0d
 		}
 		{
-			dependencies: [
-				"C2B290715D042AD2"
-			]
+			hide_dependency_lines: true
 			icon: {
 				id: "cobblemon:poke_ball"
 			}
 			id: "1D77FC3C44DE2076"
 			rewards: [
 				{
-					id: "FC04602964D9F97F"
+					id: "35788B84658CAD6C"
 					type: "xp_levels"
-					xp_levels: 5
+					xp_levels: 10
+				}
+				{
+					count: 32
+					id: "1F25EFB6BD768F59"
+					item: {
+						count: 1
+						id: "cobblemon:great_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "54812E56BDDBC4F4"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_s"
+					}
+					type: "item"
 				}
 			]
 			shape: "hexagon"
-			size: 1.5d
-			tasks: [
-				{
-					advancement: "campfiremons:stage/1"
-					criterion: ""
-					id: "F26120F50C3828AB"
-					type: "advancement"
-				}
-			]
-			x: 8.0d
+			size: 2.0d
+			tasks: [{
+				advancement: "campfiremons:stage/1"
+				criterion: ""
+				id: "36DD85086436EA76"
+				type: "advancement"
+			}]
+			x: 9.0d
 			y: 0.0d
 		}
 	]

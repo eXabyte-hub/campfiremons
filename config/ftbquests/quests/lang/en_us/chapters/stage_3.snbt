@@ -5,23 +5,33 @@
 	]
 	quest.10A6D6C341C9DE6F.quest_subtitle: "Explore structure chests"
 	quest.10A6D6C341C9DE6F.title: "Find the Z-Ring"
+	quest.1783D60CE9E9DB38.quest_desc: [
+		"You beat Lt. Surge. A Z-Ring now turns up in structure chests: dungeons, temples, shipwrecks, ruins, strongholds and more."
+	]
+	quest.1783D60CE9E9DB38.quest_subtitle: "Stage 3 reached"
+	quest.1783D60CE9E9DB38.title: "Thunder Badge"
 	quest.267B4C856236D8EB.quest_desc: [
 		"Erika spawns in lush, densely overgrown biomes."
 		""
-		"Gym leaders are RCT key trainers. They spawn near you in their favourite biomes once you've beaten the key trainers before them (rivals, Team Rocket); gyms 1-4 will also live in the hub town."
+		"Gym leaders are RCT key trainers: they spawn near you in those biomes once you've beaten the key trainers before them. Gyms 1-4 will also live in the hub town."
 		""
 		"Your whole party must be at or under your level cap to battle."
 	]
 	quest.267B4C856236D8EB.quest_subtitle: "Reach Stage 4"
 	quest.267B4C856236D8EB.title: "Beat Erika"
 	quest.42EE0BCEB05AED22.quest_desc: [
-		"Ultra Balls work now."
+		"&eUltra Balls&r and the other tier 3 balls work now."
 	]
 	quest.42EE0BCEB05AED22.quest_subtitle: "Catch 30 Pokémon"
 	quest.42EE0BCEB05AED22.title: "Ultra Collector"
-	quest.76F7F4825D03977D.quest_desc: [
-		"You beat Lt. Surge. A Z-Ring now turns up in structure chests: dungeons, temples, shipwrecks, ruins, strongholds and more."
+	quest.457B46D8E62CF8AA.quest_desc: [
+		"Fully evolved teams are what wins from here on."
 	]
-	quest.76F7F4825D03977D.quest_subtitle: "Stage 3 reached"
-	quest.76F7F4825D03977D.title: "Thunder Badge"
+	quest.457B46D8E62CF8AA.quest_subtitle: "Evolve 5 Pokémon"
+	quest.457B46D8E62CF8AA.title: "Evolution Expert"
+	quest.ABA5E1CF60E8731E.quest_desc: [
+		"Wear the &eZ-Ring&r, give a Pokémon a matching &eZ-Crystal&r and unleash a Z-Move."
+	]
+	quest.ABA5E1CF60E8731E.quest_subtitle: "Use it in battle"
+	quest.ABA5E1CF60E8731E.title: "Z-Power"
 }

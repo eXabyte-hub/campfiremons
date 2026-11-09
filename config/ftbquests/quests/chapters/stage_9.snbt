@@ -6,42 +6,63 @@
 	icon: {
 		id: "cobblemon:master_ball"
 	}
-	id: "E1224DA4503ECEF3"
+	id: "0F1CBEA36275A1D4"
+	images: [ ]
 	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"7EC34193D0BD8315"
-			]
+			dependencies: ["7EC34193D0BD8315"]
 			icon: {
 				id: "cobblemon:master_ball"
 			}
-			id: "1917193EDCFD2011"
+			id: "534ACB982620E7AD"
 			rewards: [
 				{
-					id: "B7F4E3132F4EE806"
+					id: "28C56027A945A5DB"
 					type: "xp_levels"
-					xp_levels: 2
+					xp_levels: 5
+				}
+				{
+					count: 16
+					id: "6068E93C3835A389"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "16C5277B67DA9519"
+					item: {
+						count: 1
+						id: "cobblemon:full_restore"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "18AC81B49538079F"
+					item: {
+						count: 1
+						id: "cobblemon:max_revive"
+					}
+					type: "item"
 				}
 			]
 			shape: "gear"
-			size: 1.5d
-			tasks: [
-				{
-					advancement: "campfiremons:stage/9"
-					criterion: ""
-					id: "0B3A61A69FF45395"
-					type: "advancement"
-				}
-			]
+			size: 2.0d
+			tasks: [{
+				advancement: "campfiremons:stage/9"
+				criterion: ""
+				id: "673382FF1FE2D510"
+				type: "advancement"
+			}]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"1917193EDCFD2011"
-			]
 			icon: {
 				id: "cobblemon:master_ball"
 			}
@@ -50,32 +71,107 @@
 				{
 					id: "7C13B57797367D74"
 					type: "xp_levels"
-					xp_levels: 10
+					xp_levels: 4
+				}
+				{
+					count: 16
+					id: "3E85824997FCEFCD"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
 				}
 			]
 			shape: "circle"
 			size: 1.0d
-			tasks: [
+			tasks: [{
+				abilities: ""
+				action: "catch"
+				amount: 100L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "34088E5E2892D1C3"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F9748B62E911B11"]
+			icon: {
+				id: "cobblemon:luxury_ball"
+			}
+			id: "7EFFCF53AB81B423"
+			rewards: [
 				{
-					action: "catch"
-					amount: 100L
-					biome: ""
-					dimension: ""
-					form: ""
-					gender: ""
-					id: "34088E5E2892D1C3"
-					poke_ball_used: ""
-					pokemon: ""
-					pokemon_type: ""
-					region: ""
-					shiny: false
-					time_max: 24000L
-					time_min: 0L
-					type: "cobblemon_tasks:cobblemon_task"
+					id: "2F885F5DED2C40AF"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 16
+					id: "0497ED2074EF306D"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 2.0d
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				abilities: ""
+				action: "catch"
+				amount: 1L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "250B809CFFF855C8"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				raid_tiers: ""
+				region: ""
+				shiny: true
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 4.5d
+			y: 0.0d
 		}
 	]
 }

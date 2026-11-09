@@ -2,22 +2,32 @@
 	quest.080EFFF2C23BE2C4.quest_desc: [
 		"Koga spawns in swamps and jungles."
 		""
-		"Gym leaders are RCT key trainers. They spawn near you in their favourite biomes once you've beaten the key trainers before them (rivals, Team Rocket); gyms 1-4 will also live in the hub town."
+		"Gym leaders are RCT key trainers: they spawn near you in those biomes once you've beaten the key trainers before them. Gyms 1-4 will also live in the hub town."
 		""
 		"Your whole party must be at or under your level cap to battle."
 	]
 	quest.080EFFF2C23BE2C4.quest_subtitle: "Reach Stage 6"
 	quest.080EFFF2C23BE2C4.title: "Beat Koga"
-	quest.0C197F08D81F9BF3.quest_desc: [
-		"You beat Sabrina. Sub-legendary Pokémon can now be caught."
-	]
-	quest.0C197F08D81F9BF3.quest_subtitle: "Stage 5 reached"
-	quest.0C197F08D81F9BF3.title: "Marsh Badge"
 	quest.219C6B0EF7C308FF.quest_desc: [
 		"Birds, beasts, regis, lake trio, Tapus and friends can be caught now."
 	]
 	quest.219C6B0EF7C308FF.quest_subtitle: "Catch a sub-legendary"
 	quest.219C6B0EF7C308FF.title: "Legends Awaken"
+	quest.3426FB3074FCED6C.quest_desc: [
+		"You beat Sabrina. Sub-legendary Pokémon can now be caught."
+	]
+	quest.3426FB3074FCED6C.quest_subtitle: "Stage 5 reached"
+	quest.3426FB3074FCED6C.title: "Marsh Badge"
+	quest.3FF732B035717862.quest_subtitle: "Get a Pokémon to Lv60"
+	quest.3FF732B035717862.title: "Elite Training"
+	quest.A4A1503F25CFE7CF.quest_desc: [
+		"These key trainers stand between you and the next gym:"
+		"&e- Trainer Brendan (Lv63)"
+		""
+		"Each one you beat raises your level cap. They spawn near you in their own biomes."
+	]
+	quest.A4A1503F25CFE7CF.quest_subtitle: "Key fights"
+	quest.A4A1503F25CFE7CF.title: "Before Koga"
 	quest.A71C0D5D1AD1966D.quest_desc: [
 		"Legendaries appear as rare spawns; shrines and raids join later in the pack."
 	]

@@ -1,9 +1,24 @@
 {
+	quest.16CFD93FC04F16F8.quest_desc: [
+		"Wear the &eMega Bracelet&r, give a Pokémon its &eMega Stone&r and pick Mega in battle. Lt. Surge will."
+	]
+	quest.16CFD93FC04F16F8.quest_subtitle: "Use it in battle"
+	quest.16CFD93FC04F16F8.title: "Mega Evolution"
+	quest.374ED3817109D1AE.quest_desc: [
+		"You beat Misty. A Mega Bracelet now turns up in structure chests: dungeons, temples, shipwrecks, ruins, strongholds and more."
+	]
+	quest.374ED3817109D1AE.quest_subtitle: "Stage 2 reached"
+	quest.374ED3817109D1AE.title: "Cascade Badge"
 	quest.48A7DEDFD3D5011B.quest_desc: [
 		"Mega Showdown's archaeological sites, observatories and the Wishing Weald hold Mega Stones and more."
 	]
 	quest.48A7DEDFD3D5011B.quest_subtitle: "A hint"
 	quest.48A7DEDFD3D5011B.title: "Out Exploring"
+	quest.5F400D25B5BCD4D9.quest_desc: [
+		"Try new biomes: every area has different Pokémon."
+	]
+	quest.5F400D25B5BCD4D9.quest_subtitle: "Catch 20 Pokémon"
+	quest.5F400D25B5BCD4D9.title: "Field Research"
 	quest.8976FC1F2EBF20C9.quest_desc: [
 		"It now turns up (once) in structure chests: dungeons, temples, shipwrecks, ruins, strongholds and more."
 		"Chests are per player, so check every one you pass."
@@ -11,27 +26,25 @@
 	quest.8976FC1F2EBF20C9.quest_subtitle: "Explore structure chests"
 	quest.8976FC1F2EBF20C9.title: "Find the Mega Bracelet"
 	quest.8F9368E4F9FA5A82.quest_desc: [
-		"Bottle Caps work now too: max out a stat's IVs like Radical Red trainers have."
+		"&eBottle Caps&r work now: max out a stat's IVs, like Radical Red trainers have."
 	]
 	quest.8F9368E4F9FA5A82.quest_subtitle: "Get a Pokémon to Lv30"
 	quest.8F9368E4F9FA5A82.title: "Training Up"
-	quest.D76F1ED7B096053C.quest_desc: [
-		"You beat Misty. A Mega Bracelet now turns up in structure chests: dungeons, temples, shipwrecks, ruins, strongholds and more."
-	]
-	quest.D76F1ED7B096053C.quest_subtitle: "Stage 2 reached"
-	quest.D76F1ED7B096053C.title: "Cascade Badge"
 	quest.D7CC07EDED5AEA39.quest_desc: [
 		"Lt. Surge spawns in plains and other sparse grassland."
 		""
-		"Gym leaders are RCT key trainers. They spawn near you in their favourite biomes once you've beaten the key trainers before them (rivals, Team Rocket); gyms 1-4 will also live in the hub town."
+		"Gym leaders are RCT key trainers: they spawn near you in those biomes once you've beaten the key trainers before them. Gyms 1-4 will also live in the hub town."
 		""
 		"Your whole party must be at or under your level cap to battle."
 	]
 	quest.D7CC07EDED5AEA39.quest_subtitle: "Reach Stage 3"
 	quest.D7CC07EDED5AEA39.title: "Beat Lt. Surge"
-	quest.FFF74A86D1630549.quest_desc: [
-		"Wear the Mega Bracelet, give a Pokémon its Mega Stone, and choose Mega in battle. Lt. Surge will."
+	quest.F0C61560FD1C794A.quest_desc: [
+		"These key trainers stand between you and the next gym:"
+		"&e- Trainer Brendan (Lv29)"
+		""
+		"Each one you beat raises your level cap. They spawn near you in their own biomes."
 	]
-	quest.FFF74A86D1630549.quest_subtitle: "Mega Evolve in battle"
-	quest.FFF74A86D1630549.title: "Mega Evolution"
+	quest.F0C61560FD1C794A.quest_subtitle: "Key fights"
+	quest.F0C61560FD1C794A.title: "Before Lt. Surge"
 }

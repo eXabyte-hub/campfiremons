@@ -1,27 +1,44 @@
 {
 	quest.0612A68FC7008D19.quest_desc: [
-		"Every legendary tier is open. Giovanni brings Mega Mewtwo; you can bring yours."
+		"Every legendary tier is open. Giovanni brings Mega Mewtwo Y; you can bring yours."
 	]
 	quest.0612A68FC7008D19.quest_subtitle: "Catch a mythical or box legend"
 	quest.0612A68FC7008D19.title: "Myths and Legends"
+	quest.14F86FB31E011ACE.quest_desc: [
+		"These key trainers stand between you and the next gym:"
+		"&e- Rocket Admin Archer (Lv79)"
+		"&e- Rocket Admin Ariana (Lv79)"
+		"&e- Boss Giovanni (Lv80)"
+		""
+		"Each one you beat raises your level cap. They spawn near you in their own biomes."
+	]
+	quest.14F86FB31E011ACE.quest_subtitle: "Key fights"
+	quest.14F86FB31E011ACE.title: "Before Clair"
 	quest.1F0B4EF36C9FB5B7.quest_desc: [
 		"Clair spawns in mountain peaks."
 		""
-		"Gym leaders are RCT key trainers. They spawn near you in their favourite biomes once you've beaten the key trainers before them (rivals, Team Rocket); gyms 1-4 will also live in the hub town."
+		"Gym leaders are RCT key trainers: they spawn near you in those biomes once you've beaten the key trainers before them. Gyms 1-4 will also live in the hub town."
 		""
 		"Your whole party must be at or under your level cap to battle."
 	]
 	quest.1F0B4EF36C9FB5B7.quest_subtitle: "Reach Stage 8"
 	quest.1F0B4EF36C9FB5B7.title: "Beat Clair"
-	quest.684B056C379FF9C4.quest_desc: [
+	quest.33BAAF0DAA8D5881.quest_subtitle: "Get a Pokémon to Lv75"
+	quest.33BAAF0DAA8D5881.title: "Peak Training"
+	quest.69C0821EA21C4C93.quest_desc: [
 		"You beat Blaine. Mythicals and box legends can be caught, and a Dynamax Band turns up in structure chests: dungeons, temples, shipwrecks, ruins, strongholds and more."
 	]
-	quest.684B056C379FF9C4.quest_subtitle: "Stage 7 reached"
-	quest.684B056C379FF9C4.title: "Volcano Badge"
+	quest.69C0821EA21C4C93.quest_subtitle: "Stage 7 reached"
+	quest.69C0821EA21C4C93.title: "Volcano Badge"
 	quest.6E95CF8E029955B9.quest_desc: [
 		"It now turns up (once) in structure chests: dungeons, temples, shipwrecks, ruins, strongholds and more."
 		"Chests are per player, so check every one you pass."
 	]
 	quest.6E95CF8E029955B9.quest_subtitle: "Explore structure chests"
 	quest.6E95CF8E029955B9.title: "Find the Dynamax Band"
+	quest.DA87870A2FE118B1.quest_desc: [
+		"With the &eDynamax Band&r equipped, Dynamax in battle."
+	]
+	quest.DA87870A2FE118B1.quest_subtitle: "Use it in battle"
+	quest.DA87870A2FE118B1.title: "Dynamax"
 }

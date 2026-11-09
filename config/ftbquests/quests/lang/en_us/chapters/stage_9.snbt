@@ -1,12 +1,14 @@
 {
-	quest.1917193EDCFD2011.quest_desc: [
-		"You beat the Elite Four and Champion Terry. Reward: a Master Ball."
-	]
-	quest.1917193EDCFD2011.quest_subtitle: "Stage 9 reached"
-	quest.1917193EDCFD2011.title: "Champion!"
+	quest.7EFFCF53AB81B423.quest_subtitle: "Catch a shiny Pokémon"
+	quest.7EFFCF53AB81B423.title: "Shiny Hunter"
 	quest.7F9748B62E911B11.quest_desc: [
-		"Your Master Ball arrived with the Champion title."
+		"Your &eMaster Ball&r arrived with the Champion title."
 	]
 	quest.7F9748B62E911B11.quest_subtitle: "Catch 100 Pokémon"
 	quest.7F9748B62E911B11.title: "Gotta Catch 'Em All"
+	quest.B5701991E9C0EC9F.quest_desc: [
+		"You beat the Elite Four and Champion Terry. Reward: a Master Ball."
+	]
+	quest.B5701991E9C0EC9F.quest_subtitle: "Stage 9 reached"
+	quest.B5701991E9C0EC9F.title: "Champion!"
 }

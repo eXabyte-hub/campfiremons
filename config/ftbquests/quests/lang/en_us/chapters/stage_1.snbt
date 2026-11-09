@@ -1,21 +1,35 @@
 {
 	quest.35D7D9A5A5A1AEBB.quest_desc: [
-		"Great Balls work now."
+		"&eGreat Balls&r and the other tier 2 balls work now."
 	]
 	quest.35D7D9A5A5A1AEBB.quest_subtitle: "Catch 15 Pokémon"
 	quest.35D7D9A5A5A1AEBB.title: "Great Catches"
 	quest.6EFA1D7CDA08F0A4.quest_desc: [
 		"Misty spawns in wet biomes: rivers, beaches, oceans."
 		""
-		"Gym leaders are RCT key trainers. They spawn near you in their favourite biomes once you've beaten the key trainers before them (rivals, Team Rocket); gyms 1-4 will also live in the hub town."
+		"Gym leaders are RCT key trainers: they spawn near you in those biomes once you've beaten the key trainers before them. Gyms 1-4 will also live in the hub town."
 		""
 		"Your whole party must be at or under your level cap to battle."
 	]
 	quest.6EFA1D7CDA08F0A4.quest_subtitle: "Reach Stage 2"
 	quest.6EFA1D7CDA08F0A4.title: "Beat Misty"
-	quest.8A1203ECCFFBC147.quest_desc: [
+	quest.901636C69E2512B5.quest_desc: [
+		"Misty's team tops out at Lv27."
+	]
+	quest.901636C69E2512B5.quest_subtitle: "Get a Pokémon to Lv20"
+	quest.901636C69E2512B5.title: "On the Road"
+	quest.AD4E5491BD22A501.quest_desc: [
+		"These key trainers stand between you and the next gym:"
+		"&e- Rocket Admin Archer (Lv21)"
+		"&e- Rival Terry (Lv21)"
+		""
+		"Each one you beat raises your level cap. They spawn near you in their own biomes."
+	]
+	quest.AD4E5491BD22A501.quest_subtitle: "Key fights"
+	quest.AD4E5491BD22A501.title: "Before Misty"
+	quest.D5DC4192ED160AE8.quest_desc: [
 		"You beat Brock."
 	]
-	quest.8A1203ECCFFBC147.quest_subtitle: "Stage 1 reached"
-	quest.8A1203ECCFFBC147.title: "Boulder Badge"
+	quest.D5DC4192ED160AE8.quest_subtitle: "Stage 1 reached"
+	quest.D5DC4192ED160AE8.title: "Boulder Badge"
 }

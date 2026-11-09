@@ -1,21 +1,34 @@
 {
+	quest.389BB3BBD7ABD021.quest_desc: [
+		"You beat Erika."
+	]
+	quest.389BB3BBD7ABD021.quest_subtitle: "Stage 4 reached"
+	quest.389BB3BBD7ABD021.title: "Rainbow Badge"
+	quest.4A1909D2C33CD3FE.quest_subtitle: "Catch 40 Pokémon"
+	quest.4A1909D2C33CD3FE.title: "Growing Collection"
 	quest.5AAE215A3FED46AB.quest_desc: [
 		"Sabrina spawns in spooky or sparse biomes."
 		""
-		"Gym leaders are RCT key trainers. They spawn near you in their favourite biomes once you've beaten the key trainers before them (rivals, Team Rocket); gyms 1-4 will also live in the hub town."
+		"Gym leaders are RCT key trainers: they spawn near you in those biomes once you've beaten the key trainers before them. Gyms 1-4 will also live in the hub town."
 		""
 		"Your whole party must be at or under your level cap to battle."
 	]
 	quest.5AAE215A3FED46AB.quest_subtitle: "Reach Stage 5"
 	quest.5AAE215A3FED46AB.title: "Beat Sabrina"
+	quest.81DBEC90E713DC66.quest_desc: [
+		"These key trainers stand between you and the next gym:"
+		"&e- Boss Giovanni (Lv46)"
+		"&e- Rival Terry (Lv55)"
+		"&e- Rocket Admins Archer & Ariana (Lv55)"
+		"&e- Boss Giovanni (Lv56)"
+		""
+		"Each one you beat raises your level cap. They spawn near you in their own biomes."
+	]
+	quest.81DBEC90E713DC66.quest_subtitle: "Key fights"
+	quest.81DBEC90E713DC66.title: "Before Sabrina"
 	quest.BD95E6EDDA9C33DE.quest_desc: [
 		"Giovanni and the rival's evolved teams are coming."
 	]
 	quest.BD95E6EDDA9C33DE.quest_subtitle: "Get a Pokémon to Lv50"
 	quest.BD95E6EDDA9C33DE.title: "Veteran"
-	quest.E402F1288E504076.quest_desc: [
-		"You beat Erika."
-	]
-	quest.E402F1288E504076.quest_subtitle: "Stage 4 reached"
-	quest.E402F1288E504076.title: "Rainbow Badge"
 }

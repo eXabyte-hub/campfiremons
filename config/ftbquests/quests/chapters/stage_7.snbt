@@ -6,42 +6,64 @@
 	icon: {
 		id: "cobblemon:luxury_ball"
 	}
-	id: "BB8D890143164F83"
+	id: "096137A26F3886E8"
+	images: [ ]
 	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"242F5963CF4C6819"
-			]
+			dependencies: ["242F5963CF4C6819"]
 			icon: {
 				id: "cobblemon:luxury_ball"
 			}
-			id: "684B056C379FF9C4"
+			id: "69C0821EA21C4C93"
 			rewards: [
 				{
-					id: "49915B8737FB8427"
+					id: "6035C1F264332681"
 					type: "xp_levels"
-					xp_levels: 2
+					xp_levels: 5
+				}
+				{
+					count: 16
+					id: "75EA7E9199E7CF88"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0792C30A7D358A1A"
+					item: {
+						count: 1
+						id: "cobblemon:max_potion"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "05382FD79FFF7DA1"
+					item: {
+						count: 1
+						id: "cobblemon:max_revive"
+					}
+					type: "item"
 				}
 			]
 			shape: "gear"
-			size: 1.5d
-			tasks: [
-				{
-					advancement: "campfiremons:stage/7"
-					criterion: ""
-					id: "08E31633F0ADDBB3"
-					type: "advancement"
-				}
-			]
+			size: 2.0d
+			tasks: [{
+				advancement: "campfiremons:stage/7"
+				criterion: ""
+				id: "7C64F3875BA6E9B5"
+				type: "advancement"
+			}]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"684B056C379FF9C4"
-			]
+			dependencies: ["69C0821EA21C4C93"]
 			icon: {
 				id: "mega_showdown:dynamax_band"
 			}
@@ -50,69 +72,249 @@
 				{
 					id: "13C9159FCAAC5C6B"
 					type: "xp_levels"
-					xp_levels: 2
+					xp_levels: 3
 				}
-			]
-			shape: "circle"
-			size: 1.0d
-			tasks: [
 				{
-					advancement: "campfiremons:found/dynamax_band"
-					criterion: ""
-					id: "70D35F78CD8706A6"
-					type: "advancement"
-				}
-			]
-			x: 2.0d
-			y: -2.0d
-		}
-		{
-			dependencies: [
-				"684B056C379FF9C4"
-			]
-			icon: {
-				id: "cobblemon:luxury_ball"
-			}
-			id: "0612A68FC7008D19"
-			rewards: [
-				{
-					count: 2
-					id: "0F29424C10D122FB"
+					count: 3
+					id: "0323C75EA4066E15"
 					item: {
 						count: 1
-						id: "cobblemon:max_revive"
+						id: "cobblemon:exp_candy_xl"
 					}
 					type: "item"
 				}
 			]
 			shape: "circle"
 			size: 1.0d
-			tasks: [
-				{
-					action: "catch"
-					amount: 1L
-					biome: ""
-					dimension: ""
-					form: "mythical, restricted"
-					gender: ""
-					id: "619A34B72EFB9496"
-					poke_ball_used: ""
-					pokemon: ""
-					pokemon_type: ""
-					region: ""
-					shiny: false
-					time_max: 24000L
-					time_min: 0L
-					type: "cobblemon_tasks:cobblemon_task"
-				}
-			]
-			x: 2.0d
-			y: 2.0d
+			tasks: [{
+				advancement: "campfiremons:found/dynamax_band"
+				criterion: ""
+				id: "70D35F78CD8706A6"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -3.0d
 		}
 		{
-			dependencies: [
-				"684B056C379FF9C4"
+			dependencies: ["6E95CF8E029955B9"]
+			icon: {
+				id: "mega_showdown:dynamax_band"
+			}
+			id: "21D425525C990B07"
+			rewards: [
+				{
+					id: "72A3F8486F074C60"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 4
+					id: "1AE1F21AEBE3E044"
+					item: {
+						count: 1
+						id: "cobblemon:max_potion"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "164D96D3C2C8D91B"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
 			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				abilities: ""
+				action: "dynamax"
+				amount: 1L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "3789FAD6763C5953"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["69C0821EA21C4C93"]
+			icon: {
+				id: "cobblemon:luxury_ball"
+			}
+			id: "0612A68FC7008D19"
+			rewards: [
+				{
+					id: "6ECB63F1980B950B"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 16
+					id: "0F29424C10D122FB"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				abilities: ""
+				action: "catch"
+				amount: 1L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: "mythical,restricted"
+				gender: ""
+				held_items: ""
+				id: "619A34B72EFB9496"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0612A68FC7008D19"]
+			icon: {
+				id: "cobblemon:exp_candy_xl"
+			}
+			id: "33BAAF0DAA8D5881"
+			rewards: [
+				{
+					id: "2030B27A789E5EF0"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 4
+					id: "329AC3C6542249EC"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				abilities: ""
+				action: "level_up_to"
+				amount: 75L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "4E9559B3558EDC03"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["69C0821EA21C4C93"]
+			icon: {
+				id: "rctmod:trainer_card"
+			}
+			id: "14F86FB31E011ACE"
+			rewards: [
+				{
+					id: "4FDB4A3CE57F561A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 6
+					id: "461A6DC0D277332E"
+					item: {
+						count: 1
+						id: "cobblemon:max_potion"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "75D820143C016FC0"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "425A33A152B51C94"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["69C0821EA21C4C93"]
+			hide_dependency_lines: true
 			icon: {
 				id: "cobblemon:cherish_ball"
 			}
@@ -121,20 +323,45 @@
 				{
 					id: "2E2BFE733A8DF99E"
 					type: "xp_levels"
-					xp_levels: 5
+					xp_levels: 10
+				}
+				{
+					count: 32
+					id: "0588491A17F2BED9"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "0C7DFF2D462C42A1"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5FAC4D561124B050"
+					item: {
+						count: 1
+						id: "cobblemon:rare_candy"
+					}
+					type: "item"
 				}
 			]
 			shape: "hexagon"
-			size: 1.5d
-			tasks: [
-				{
-					advancement: "campfiremons:stage/8"
-					criterion: ""
-					id: "4334A762A42040B6"
-					type: "advancement"
-				}
-			]
-			x: 8.0d
+			size: 2.0d
+			tasks: [{
+				advancement: "campfiremons:stage/8"
+				criterion: ""
+				id: "4334A762A42040B6"
+				type: "advancement"
+			}]
+			x: 9.0d
 			y: 0.0d
 		}
 	]
