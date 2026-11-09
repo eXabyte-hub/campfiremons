@@ -81,6 +81,8 @@ After adding mods and syncing the dev instance, check what the jars themselves r
 
 ```sh
 python -I tools/check_deps.py        # lists required mod ids no installed jar provides
+python -I tools/check_versions.py    # flags Modrinth builds that aren't for our Minecraft version/loader
+python -I tools/check_biomes.py      # for biome mods: which new biomes get no Cobblemon spawns
 ```
 
 Re-importing the official pack's files at their exact versions (after an official update):

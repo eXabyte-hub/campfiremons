@@ -48,6 +48,39 @@ CHESTS = (
         "kubfu_water_chest", "liberty_island_chest", "lugia_temple_chest", "regice_chest", "regigigas_chest",
         "regirock_chest", "registeel_chest", "swsh_temple_shield", "swsh_temple_sword", "thalic_chest",
         "turnback_cave_chest")]
+    # Worldgen structures: YUNG's (Better Mineshafts reuses vanilla's table), When Dungeons Arise treasure chests,
+    # Incendium treasure, Terralith's non-village structures
+    + [f"betterdungeons:{c}" for c in
+       ("skeleton_dungeon/chests/common", "skeleton_dungeon/chests/middle", "small_dungeon/chests/loot_piles",
+        "small_nether_dungeon/chests/common", "spider_dungeon/chests/egg_room", "zombie_dungeon/chests/common",
+        "zombie_dungeon/chests/special", "zombie_dungeon/chests/tombstone")]
+    + [f"betterstrongholds:chests/{c}" for c in
+       ("armoury", "common", "crypt", "grand_library", "library_md", "mess", "prison_lg", "trap", "treasure")]
+    + [f"betterfortresses:chests/{c}" for c in
+       ("beacon", "extra", "hall", "keep", "obsidian", "puzzle", "quarters", "storage", "worship")]
+    + [f"dungeons_arise:chests/{c}" for c in
+       ("aviary/aviary_treasure", "bandit_towers/bandit_towers_treasure", "ceryneian_hind/ceryneian_hind_treasure",
+        "foundry/foundry_treasure", "heavenly_challenger/heavenly_challenger_treasure",
+        "heavenly_conqueror/heavenly_conqueror_treasure", "heavenly_rider/heavenly_rider_treasure",
+        "illager_corsair/illager_corsair_treasure", "illager_fort/illager_fort_treasure",
+        "illager_galley/illager_galley_treasure", "illager_windmill/illager_windmill_treasure",
+        "infested_temple/infested_temple_top_treasure", "infested_temple/infested_temple_vault_treasure",
+        "jungle_tree_house/jungle_tree_house_treasure", "keep_kayra/keep_kayra_garden_treasure",
+        "keep_kayra/keep_kayra_library_treasure", "keep_kayra/keep_kayra_treasure",
+        "kisegi_sanctuary/kisegi_sanctuary_treasure", "kisegi_sanctuary/kisegi_sanctuary_vault_normal_treasure",
+        "kisegi_sanctuary/kisegi_sanctuary_vault_ominous_treasure", "mechanical_nest/mechanical_nest_treasure",
+        "mines_treasure_big", "mines_treasure_medium", "mines_treasure_small",
+        "mining_complex/mining_complex_treasure", "mining_system/mining_system_treasure",
+        "mushroom_house/mushroom_house_treasure", "mushroom_mines/mushroom_mines_treasure",
+        "mushroom_village/mushroom_village_treasure", "plague_asylum/plague_asylum_treasure",
+        "scorched_mines/scorched_mines_treasure", "shiraz_palace/shiraz_palace_treasure",
+        "small_blimp/small_blimp_treasure", "thornborn_towers/thornborn_towers_top_treasure", "typhon/typhon_treasure",
+        "undead_pirate_ship/undead_pirate_ship_treasure")]
+    + [f"incendium:{c}" for c in
+       ("castle/treasure/quartz", "lab/treasure", "pipeline/base/treasure", "pipeline/treasure",
+        "quartz_flats/kitchen_treasure", "quartz_flats/kitchen_extra_treasure", "reactor/office_treasure",
+        "reactor/treasure", "sanctum/common_loot", "sanctum/lower_loot")]
+    + [f"terralith:{c}" for c in ("mage/treasure", "spire/treasure", "underground/chest")]
     # Cobbleloots loot balls, opened per player (top-level tables only; their shared/* sub-tables would double-roll)
     + [f"cobbleloots:loot_ball/{c}" for c in
        ("azure", "citrine", "dive", "dusk", "great", "heal", "lure", "luxury", "master", "nest", "net", "poke",
