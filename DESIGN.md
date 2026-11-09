@@ -134,6 +134,10 @@ Verified in the RCT 0.19.2-beta source: RCT already does both halves, so we conf
   - Rare Candy and EXP Candy go through the same Cobblemon EXP event, so they respect the cap too, and a candy that would add nothing isn't used up.
   - Caught over-cap mons keep their level. They just can't gain more and can't battle trainers until the cap catches up.
 - **Config** (shipped as `defaultconfigs/rctmod-server.toml`, copied into each new world): `initialSeries = "radicalred"`, so everyone starts in the series without visiting a Trainer Association; initial cap 15 and over-leveling off are RCT's defaults.
+- **Scaling instead of refusing: not now** [decided]. Over-cap Pokémon get boxed before a trainer fight.
+  - Config and KubeJS can't do it: RCT refuses before a battle exists (its own start method re-checks the cap), and RCT API's level rule is flat (every player Pokémon set to one level, up *and* down) and comes from Cobblemon's shared battle formats, so it can't be set per trainer.
+  - The only route is a small companion Java mod (mixins: skip RCT's cap refusal, scale only over-cap Pokémon down). Level-adjusted battles also run on copies of your Pokémon, which likely means no EXP/EVs from them; that needs checking first.
+  - Revisit after F6, once we see how often boxing actually gets in the way.
 
 ### 4.3 Balls & items (recipe changes via KubeJS)
 
@@ -345,6 +349,7 @@ This is studied from ATMons' `catch_restrictions.js`. The design is ours; no ATM
 3. Final cap numbers and the T4 list, after we see RCT's trainer levels.
 4. Should Master Ball be the S9 reward only, or also a rare raid ★7 drop?
 8. ~~Gym cap: scale or refuse?~~ Decided by RCT: it refuses (§4.2).
+9. After F6: is boxing over-cap Pokémon annoying enough to justify a companion mod for scaling (§4.2)?
 5. Who builds the hub town (you, or a schematic)?
 6. Does anyone actually need the CurseForge app?
 7. Do we keep FTB Chunks/Essentials/Ultimine? They're useful on a server, but not chosen yet.
