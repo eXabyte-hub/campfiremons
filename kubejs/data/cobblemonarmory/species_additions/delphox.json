@@ -1,0 +1,24 @@
+{
+  "target": "cobblemon:delphox",
+  "drops": {
+    "entries": [
+      {
+        "item": "minecraft:stick"
+      },
+      {
+        "item": "minecraft:blaze_powder",
+        "quantityRange": "0-3"
+      },
+      {
+        "item": "cobblemon:charcoal_stick",
+        "percentage": 25.0
+      },
+      {
+        "item": "cobblemonarmory:delphox_fur",
+        "percentage": 75.0,
+        "quantityRange": "0-2"
+      }
+    ],
+    "amount": 7
+  }
+}

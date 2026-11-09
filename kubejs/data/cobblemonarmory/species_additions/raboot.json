@@ -1,0 +1,28 @@
+{
+  "target": "cobblemon:raboot",
+  "drops": {
+    "entries": [
+      {
+        "item": "minecraft:rabbit_hide",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "minecraft:rabbit"
+      },
+      {
+        "item": "minecraft:rabbit_foot",
+        "percentage": 10.0
+      },
+      {
+        "item": "cobblemon:charcoal_stick",
+        "percentage": 10.0
+      },
+      {
+        "item": "cobblemonarmory:cinderace_fur",
+        "percentage": 50.0,
+        "quantityRange": "0-2"
+      }
+    ],
+    "amount": 7
+  }
+}

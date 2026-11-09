@@ -46,6 +46,9 @@ The quest book in `config/ftbquests/quests/` was generated **once** by `tools/ge
 stage). From now on it is edited in game: open the book, toggle edit mode (needs op), and FTB Quests saves straight
 into this repo through the dev-instance symlink. Re-running the script needs `--force` and discards those edits.
 
+`tools/gen_drops.py` owns every `species_additions` file under `kubejs/data/` (drop fixes for mods that replace
+Pokémon drop tables, plus egg drops). Re-run it after updating Cobblemon or any mod that ships species_additions.
+
 ## Testing stages
 
 A player's stage is their highest `campfiremons:stage/N` advancement. With vanilla `/advancement`:

@@ -1,0 +1,17 @@
+{
+  "target": "cobblemon:feraligatr",
+  "drops": {
+    "entries": [
+      {
+        "item": "cobblemon:mystic_water",
+        "percentage": 25.0
+      },
+      {
+        "item": "cobblemonarmory:feraligatr_scale",
+        "percentage": 75.0,
+        "quantityRange": "0-2"
+      }
+    ],
+    "amount": 3
+  }
+}

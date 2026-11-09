@@ -1,0 +1,28 @@
+{
+  "target": "cobblemon:spearow",
+  "drops": {
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "minecraft:chicken"
+      },
+      {
+        "item": "cobblemon:sharp_beak",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:charti_berry",
+        "percentage": 2.5
+      },
+      {
+        "item": "minecraft:egg",
+        "percentage": 35.0,
+        "quantityRange": "1-2"
+      }
+    ],
+    "amount": 5
+  }
+}

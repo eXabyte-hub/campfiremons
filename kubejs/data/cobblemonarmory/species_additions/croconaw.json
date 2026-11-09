@@ -1,0 +1,17 @@
+{
+  "target": "cobblemon:croconaw",
+  "drops": {
+    "entries": [
+      {
+        "item": "cobblemon:mystic_water",
+        "percentage": 10.0
+      },
+      {
+        "item": "cobblemonarmory:feraligatr_scale",
+        "percentage": 50.0,
+        "quantityRange": "0-2"
+      }
+    ],
+    "amount": 3
+  }
+}

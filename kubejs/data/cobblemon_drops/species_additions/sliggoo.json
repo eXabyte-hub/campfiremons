@@ -1,0 +1,36 @@
+{
+  "target": "cobblemon:sliggoo",
+  "drops": {
+    "entries": [
+      {
+        "item": "minecraft:slime_ball",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "cobblemon:shed_shell",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:haban_berry",
+        "percentage": 5.0
+      },
+      {
+        "item": "minecraft:slime_ball",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "legendarymonuments:lightstone_shard",
+        "percentage": 6.0
+      },
+      {
+        "item": "legendarymonuments:darkstone_shard",
+        "percentage": 6.0
+      },
+      {
+        "item": "cobblemon:haban_berry",
+        "percentage": 5.0
+      }
+    ],
+    "amount": 7
+  }
+}

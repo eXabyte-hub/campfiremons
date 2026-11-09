@@ -1,0 +1,21 @@
+{
+  "target": "cobblemon:haxorus",
+  "drops": {
+    "entries": [
+      {
+        "item": "cobblemon:dragon_fang",
+        "percentage": 10.0
+      },
+      {
+        "item": "cobblemon:haban_berry",
+        "percentage": 10.0
+      },
+      {
+        "item": "cobblemonarmory:haxorus_shard",
+        "percentage": 75.0,
+        "quantityRange": "0-2"
+      }
+    ],
+    "amount": 4
+  }
+}

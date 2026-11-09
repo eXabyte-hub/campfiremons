@@ -1,0 +1,21 @@
+{
+  "target": "cobblemon:primeape",
+  "drops": {
+    "entries": [
+      {
+        "item": "cobblemon:muscle_band",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:payapa_berry",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemonarmory:primeape_fur",
+        "percentage": 50.0,
+        "quantityRange": "0-2"
+      }
+    ],
+    "amount": 4
+  }
+}

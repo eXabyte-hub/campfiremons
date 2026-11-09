@@ -1,0 +1,21 @@
+{
+  "target": "cobblemon:torracat",
+  "drops": {
+    "entries": [
+      {
+        "item": "cobblemon:charcoal_stick",
+        "percentage": 10.0
+      },
+      {
+        "item": "cobblemon:expert_belt",
+        "percentage": 10.0
+      },
+      {
+        "item": "cobblemonarmory:incineroar_fur",
+        "percentage": 50.0,
+        "quantityRange": "0-2"
+      }
+    ],
+    "amount": 4
+  }
+}

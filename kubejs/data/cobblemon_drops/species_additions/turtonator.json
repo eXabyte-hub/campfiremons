@@ -1,0 +1,40 @@
+{
+  "target": "cobblemon:turtonator",
+  "drops": {
+    "entries": [
+      {
+        "item": "minecraft:turtle_scute",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "minecraft:charcoal",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:haban_berry",
+        "percentage": 5.0
+      },
+      {
+        "item": "minecraft:turtle_scute",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "legendarymonuments:lightstone_shard",
+        "percentage": 6.0
+      },
+      {
+        "item": "legendarymonuments:darkstone_shard",
+        "percentage": 6.0
+      },
+      {
+        "item": "minecraft:charcoal",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:haban_berry",
+        "percentage": 5.0
+      }
+    ],
+    "amount": 8
+  }
+}

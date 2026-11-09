@@ -1,0 +1,32 @@
+{
+  "target": "cobblemon:hydreigon",
+  "drops": {
+    "entries": [
+      {
+        "item": "minecraft:dragon_breath",
+        "quantityRange": "0-3"
+      },
+      {
+        "item": "cobblemon:roseli_berry",
+        "percentage": 10.0
+      },
+      {
+        "item": "minecraft:dragon_breath",
+        "quantityRange": "0-3"
+      },
+      {
+        "item": "legendarymonuments:lightstone_shard",
+        "percentage": 10.0
+      },
+      {
+        "item": "legendarymonuments:darkstone_shard",
+        "percentage": 10.0
+      },
+      {
+        "item": "cobblemon:roseli_berry",
+        "percentage": 10.0
+      }
+    ],
+    "amount": 8
+  }
+}

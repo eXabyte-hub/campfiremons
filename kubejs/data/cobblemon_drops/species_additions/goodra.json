@@ -1,0 +1,36 @@
+{
+  "target": "cobblemon:goodra",
+  "drops": {
+    "entries": [
+      {
+        "item": "minecraft:slime_ball",
+        "quantityRange": "0-3"
+      },
+      {
+        "item": "cobblemon:shed_shell",
+        "percentage": 10.0
+      },
+      {
+        "item": "cobblemon:haban_berry",
+        "percentage": 10.0
+      },
+      {
+        "item": "minecraft:slime_ball",
+        "quantityRange": "0-3"
+      },
+      {
+        "item": "legendarymonuments:lightstone_shard",
+        "percentage": 10.0
+      },
+      {
+        "item": "legendarymonuments:darkstone_shard",
+        "percentage": 10.0
+      },
+      {
+        "item": "cobblemon:haban_berry",
+        "percentage": 10.0
+      }
+    ],
+    "amount": 9
+  }
+}

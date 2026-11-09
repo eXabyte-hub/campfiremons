@@ -1,0 +1,21 @@
+{
+  "target": "cobblemon:axew",
+  "drops": {
+    "entries": [
+      {
+        "item": "cobblemon:dragon_fang",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:haban_berry",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemonarmory:haxorus_shard",
+        "percentage": 25.0,
+        "quantityRange": "0-2"
+      }
+    ],
+    "amount": 4
+  }
+}

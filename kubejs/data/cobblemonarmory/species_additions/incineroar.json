@@ -1,0 +1,21 @@
+{
+  "target": "cobblemon:incineroar",
+  "drops": {
+    "entries": [
+      {
+        "item": "cobblemon:charcoal_stick",
+        "percentage": 25.0
+      },
+      {
+        "item": "cobblemon:expert_belt",
+        "percentage": 25.0
+      },
+      {
+        "item": "cobblemonarmory:incineroar_fur",
+        "percentage": 75.0,
+        "quantityRange": "0-2"
+      }
+    ],
+    "amount": 4
+  }
+}

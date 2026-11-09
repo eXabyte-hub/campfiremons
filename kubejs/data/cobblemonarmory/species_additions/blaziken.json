@@ -1,0 +1,24 @@
+{
+  "target": "cobblemon:blaziken",
+  "drops": {
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "0-3"
+      },
+      {
+        "item": "minecraft:chicken"
+      },
+      {
+        "item": "cobblemon:charcoal_stick",
+        "percentage": 25.0
+      },
+      {
+        "item": "cobblemonarmory:blaziken_feathers",
+        "percentage": 75.0,
+        "quantityRange": "0-2"
+      }
+    ],
+    "amount": 7
+  }
+}

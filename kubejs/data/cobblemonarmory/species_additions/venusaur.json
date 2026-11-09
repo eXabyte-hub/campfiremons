@@ -1,0 +1,21 @@
+{
+  "target": "cobblemon:venusaur",
+  "drops": {
+    "entries": [
+      {
+        "item": "minecraft:melon_seeds",
+        "quantityRange": "0-3"
+      },
+      {
+        "item": "cobblemon:miracle_seed",
+        "percentage": 25.0
+      },
+      {
+        "item": "cobblemonarmory:venusaur_flower",
+        "percentage": 75.0,
+        "quantityRange": "0-2"
+      }
+    ],
+    "amount": 6
+  }
+}

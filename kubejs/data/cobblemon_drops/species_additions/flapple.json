@@ -1,0 +1,30 @@
+{
+  "target": "cobblemon:flapple",
+  "drops": {
+    "entries": [
+      {
+        "item": "minecraft:apple"
+      },
+      {
+        "item": "cobblemon:yache_berry",
+        "percentage": 5.0
+      },
+      {
+        "item": "minecraft:apple"
+      },
+      {
+        "item": "legendarymonuments:lightstone_shard",
+        "percentage": 6.0
+      },
+      {
+        "item": "legendarymonuments:darkstone_shard",
+        "percentage": 6.0
+      },
+      {
+        "item": "cobblemon:yache_berry",
+        "percentage": 5.0
+      }
+    ],
+    "amount": 4
+  }
+}

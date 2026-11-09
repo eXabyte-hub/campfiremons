@@ -1,0 +1,32 @@
+{
+  "target": "cobblemon:drakloak",
+  "drops": {
+    "entries": [
+      {
+        "item": "minecraft:phantom_membrane",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:haban_berry",
+        "percentage": 5.0
+      },
+      {
+        "item": "minecraft:phantom_membrane",
+        "percentage": 5.0
+      },
+      {
+        "item": "legendarymonuments:lightstone_shard",
+        "percentage": 6.0
+      },
+      {
+        "item": "legendarymonuments:darkstone_shard",
+        "percentage": 6.0
+      },
+      {
+        "item": "cobblemon:haban_berry",
+        "percentage": 5.0
+      }
+    ],
+    "amount": 4
+  }
+}

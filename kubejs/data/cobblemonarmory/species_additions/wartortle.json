@@ -1,0 +1,21 @@
+{
+  "target": "cobblemon:wartortle",
+  "drops": {
+    "entries": [
+      {
+        "item": "minecraft:turtle_scute",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "cobblemon:mystic_water",
+        "percentage": 10.0
+      },
+      {
+        "item": "cobblemonarmory:blastoise_shell",
+        "percentage": 50.0,
+        "quantityRange": "0-2"
+      }
+    ],
+    "amount": 5
+  }
+}

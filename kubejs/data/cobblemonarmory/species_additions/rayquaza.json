@@ -1,0 +1,17 @@
+{
+  "target": "cobblemon:rayquaza",
+  "drops": {
+    "entries": [
+      {
+        "item": "minecraft:dragon_breath",
+        "quantityRange": "3-5"
+      },
+      {
+        "item": "cobblemonarmory:rayquaza_scale",
+        "percentage": 100.0,
+        "quantityRange": "0-2"
+      }
+    ],
+    "amount": 7
+  }
+}

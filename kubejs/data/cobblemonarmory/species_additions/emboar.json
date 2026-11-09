@@ -1,0 +1,21 @@
+{
+  "target": "cobblemon:emboar",
+  "drops": {
+    "entries": [
+      {
+        "item": "minecraft:porkchop",
+        "quantityRange": "2-4"
+      },
+      {
+        "item": "cobblemon:charcoal_stick",
+        "percentage": 25.0
+      },
+      {
+        "item": "cobblemonarmory:emboar_skin",
+        "percentage": 75.0,
+        "quantityRange": "0-2"
+      }
+    ],
+    "amount": 7
+  }
+}

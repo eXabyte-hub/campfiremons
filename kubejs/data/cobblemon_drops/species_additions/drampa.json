@@ -1,0 +1,32 @@
+{
+  "target": "cobblemon:drampa",
+  "drops": {
+    "entries": [
+      {
+        "item": "minecraft:dragon_breath",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:persim_berry",
+        "percentage": 5.0
+      },
+      {
+        "item": "minecraft:dragon_breath",
+        "percentage": 5.0
+      },
+      {
+        "item": "legendarymonuments:lightstone_shard",
+        "percentage": 6.0
+      },
+      {
+        "item": "legendarymonuments:darkstone_shard",
+        "percentage": 6.0
+      },
+      {
+        "item": "cobblemon:persim_berry",
+        "percentage": 5.0
+      }
+    ],
+    "amount": 4
+  }
+}

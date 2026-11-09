@@ -1,0 +1,24 @@
+{
+  "target": "cobblemon:tinkatink",
+  "drops": {
+    "entries": [
+      {
+        "item": "minecraft:raw_iron",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:razz_berry",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemonarmory:tinkaton_hammer_piece",
+        "percentage": 15.0
+      },
+      {
+        "item": "cobblemonarmory:tinkaton_handle_piece",
+        "percentage": 15.0
+      }
+    ],
+    "amount": 4
+  }
+}

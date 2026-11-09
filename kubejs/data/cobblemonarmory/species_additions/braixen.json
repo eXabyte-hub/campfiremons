@@ -1,0 +1,24 @@
+{
+  "target": "cobblemon:braixen",
+  "drops": {
+    "entries": [
+      {
+        "item": "minecraft:stick"
+      },
+      {
+        "item": "minecraft:blaze_powder",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "cobblemon:charcoal_stick",
+        "percentage": 10.0
+      },
+      {
+        "item": "cobblemonarmory:delphox_fur",
+        "percentage": 50.0,
+        "quantityRange": "0-2"
+      }
+    ],
+    "amount": 6
+  }
+}

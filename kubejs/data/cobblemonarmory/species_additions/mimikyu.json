@@ -1,0 +1,21 @@
+{
+  "target": "cobblemon:mimikyu",
+  "drops": {
+    "entries": [
+      {
+        "item": "cobblemon:spell_tag",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:chesto_berry",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemonarmory:mimikyu_fabric",
+        "percentage": 75.0,
+        "quantityRange": "0-2"
+      }
+    ],
+    "amount": 4
+  }
+}

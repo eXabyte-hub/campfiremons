@@ -1,0 +1,21 @@
+{
+  "target": "cobblemon:charmander",
+  "drops": {
+    "entries": [
+      {
+        "item": "minecraft:blaze_powder",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:charcoal_stick",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemonarmory:charizard_scales",
+        "percentage": 25.0,
+        "quantityRange": "0-2"
+      }
+    ],
+    "amount": 4
+  }
+}

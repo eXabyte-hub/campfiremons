@@ -1,0 +1,21 @@
+{
+  "target": "cobblemon:mudkip",
+  "drops": {
+    "entries": [
+      {
+        "item": "minecraft:clay_ball",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:mystic_water",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemonarmory:swampert_skin",
+        "percentage": 25.0,
+        "quantityRange": "0-2"
+      }
+    ],
+    "amount": 4
+  }
+}

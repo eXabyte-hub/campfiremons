@@ -1,0 +1,38 @@
+{
+  "target": "cobblemon:altaria",
+  "drops": {
+    "entries": [
+      {
+        "item": "minecraft:white_wool",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "minecraft:chicken"
+      },
+      {
+        "item": "cobblemon:yache_berry",
+        "percentage": 5.0
+      },
+      {
+        "item": "minecraft:white_wool",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "legendarymonuments:lightstone_shard",
+        "percentage": 6.0
+      },
+      {
+        "item": "legendarymonuments:darkstone_shard",
+        "percentage": 6.0
+      },
+      {
+        "item": "minecraft:chicken"
+      },
+      {
+        "item": "cobblemon:yache_berry",
+        "percentage": 5.0
+      }
+    ],
+    "amount": 8
+  }
+}

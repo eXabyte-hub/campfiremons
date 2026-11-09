@@ -1,0 +1,21 @@
+{
+  "target": "cobblemon:treecko",
+  "drops": {
+    "entries": [
+      {
+        "item": "minecraft:stick",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:miracle_seed",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemonarmory:sceptile_leaves",
+        "percentage": 25.0,
+        "quantityRange": "0-2"
+      }
+    ],
+    "amount": 4
+  }
+}

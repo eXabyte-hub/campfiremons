@@ -1,0 +1,21 @@
+{
+  "target": "cobblemon:espeon",
+  "drops": {
+    "entries": [
+      {
+        "item": "cobblemon:sun_stone",
+        "percentage": 25.0
+      },
+      {
+        "item": "cobblemon:twisted_spoon",
+        "percentage": 10.0
+      },
+      {
+        "item": "cobblemonarmory:eevee_fur",
+        "percentage": 25.0,
+        "quantityRange": "0-2"
+      }
+    ],
+    "amount": 4
+  }
+}

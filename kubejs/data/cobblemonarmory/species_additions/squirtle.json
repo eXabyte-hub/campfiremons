@@ -1,0 +1,26 @@
+{
+  "target": "cobblemon:squirtle",
+  "drops": {
+    "entries": [
+      {
+        "item": "minecraft:turtle_scute",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:mystic_water",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemonarmory:squirtle_glasses",
+        "percentage": 30.0,
+        "quantityRange": "1"
+      },
+      {
+        "item": "cobblemonarmory:blastoise_shell",
+        "percentage": 25.0,
+        "quantityRange": "0-2"
+      }
+    ],
+    "amount": 4
+  }
+}

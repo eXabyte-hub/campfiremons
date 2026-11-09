@@ -1,0 +1,17 @@
+{
+  "target": "cobblemon:quilava",
+  "drops": {
+    "entries": [
+      {
+        "item": "cobblemon:charcoal_stick",
+        "percentage": 10.0
+      },
+      {
+        "item": "cobblemonarmory:typhlosion_fur",
+        "percentage": 50.0,
+        "quantityRange": "0-2"
+      }
+    ],
+    "amount": 3
+  }
+}

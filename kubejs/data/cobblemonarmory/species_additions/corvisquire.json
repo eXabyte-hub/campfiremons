@@ -1,0 +1,28 @@
+{
+  "target": "cobblemon:corvisquire",
+  "drops": {
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "minecraft:chicken"
+      },
+      {
+        "item": "cobblemon:sharp_beak",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:wacan_berry",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemonarmory:corviknight_feathers",
+        "percentage": 50.0,
+        "quantityRange": "0-2"
+      }
+    ],
+    "amount": 7
+  }
+}

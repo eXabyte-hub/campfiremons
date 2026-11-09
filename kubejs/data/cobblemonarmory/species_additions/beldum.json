@@ -1,0 +1,21 @@
+{
+  "target": "cobblemon:beldum",
+  "drops": {
+    "entries": [
+      {
+        "item": "minecraft:ender_pearl",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:metal_coat",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemonarmory:metagross_plate",
+        "percentage": 25.0,
+        "quantityRange": "0-2"
+      }
+    ],
+    "amount": 4
+  }
+}

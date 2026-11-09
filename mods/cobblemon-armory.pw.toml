@@ -1,0 +1,13 @@
+name = "Cobblemon: Armory"
+filename = "cobblemonarmory-1.5.4-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/2GSJkNsi/versions/KV3mdTLV/cobblemonarmory-1.5.4-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "b06af4ea97a6a6749ee6c3fab17135b210bcc36fe99214840a6023dd0754bb4e4e69a68dcf1e109596d3d337735186831c2dd22c132c9c9030b658459707727e"
+
+[update]
+[update.modrinth]
+mod-id = "2GSJkNsi"
+version = "KV3mdTLV"

@@ -55,6 +55,20 @@ global.campfiremonsConfig = {
     9: ['cobblemon:master_ball'], // the Champion's reward; its recipe is removed, but Cobbleloots can drop one
   },
 
+  // Vanilla animals that never appear (Pokémon cover their drops; frogs and bees stay for Froglights and pollination).
+  // server_scripts/campfiremons/removed_mobs.js cancels them joining the world (structure pens, village cats,
+  // trader llamas, spawn eggs); KEEP IN SYNC with kubejs/data/campfiremons/neoforge/biome_modifier/
+  // remove_passive_mobs.json, which stops their natural spawns.
+  removedMobs: [
+    'minecraft:cow', 'minecraft:pig', 'minecraft:sheep', 'minecraft:chicken', 'minecraft:rabbit', 'minecraft:mooshroom',
+    'minecraft:horse', 'minecraft:donkey', 'minecraft:mule', 'minecraft:llama', 'minecraft:trader_llama',
+    'minecraft:camel', 'minecraft:wolf', 'minecraft:cat', 'minecraft:ocelot', 'minecraft:fox', 'minecraft:parrot',
+    'minecraft:squid', 'minecraft:glow_squid', 'minecraft:cod', 'minecraft:salmon', 'minecraft:tropical_fish',
+    'minecraft:pufferfish', 'minecraft:dolphin', 'minecraft:turtle', 'minecraft:axolotl',
+    'minecraft:goat', 'minecraft:panda', 'minecraft:polar_bear', 'minecraft:armadillo', 'minecraft:sniffer',
+    'minecraft:bat',
+  ],
+
   // Held-item locks (tier_locks.js, at battle start): these work just by being held, so a use-lock can't stop them.
   // A battle is refused while a party Pokémon holds one above your stage. Stage 8 finds, but Legendary Monuments
   // has its own chests and recipes for them.

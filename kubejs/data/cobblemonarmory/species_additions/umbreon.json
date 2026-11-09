@@ -1,0 +1,21 @@
+{
+  "target": "cobblemon:umbreon",
+  "drops": {
+    "entries": [
+      {
+        "item": "cobblemon:moon_stone",
+        "percentage": 25.0
+      },
+      {
+        "item": "cobblemon:black_glasses",
+        "percentage": 10.0
+      },
+      {
+        "item": "cobblemonarmory:eevee_fur",
+        "percentage": 25.0,
+        "quantityRange": "0-2"
+      }
+    ],
+    "amount": 4
+  }
+}

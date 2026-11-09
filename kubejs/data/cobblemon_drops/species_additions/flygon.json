@@ -1,0 +1,32 @@
+{
+  "target": "cobblemon:flygon",
+  "drops": {
+    "entries": [
+      {
+        "item": "cobblemon:soft_sand",
+        "percentage": 10.0
+      },
+      {
+        "item": "cobblemon:yache_berry",
+        "percentage": 10.0
+      },
+      {
+        "item": "cobblemon:soft_sand",
+        "percentage": 10.0
+      },
+      {
+        "item": "legendarymonuments:lightstone_shard",
+        "percentage": 6.0
+      },
+      {
+        "item": "legendarymonuments:darkstone_shard",
+        "percentage": 6.0
+      },
+      {
+        "item": "cobblemon:yache_berry",
+        "percentage": 10.0
+      }
+    ],
+    "amount": 4
+  }
+}

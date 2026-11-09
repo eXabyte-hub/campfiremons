@@ -1,0 +1,17 @@
+{
+  "target": "cobblemon:meganium",
+  "drops": {
+    "entries": [
+      {
+        "item": "cobblemon:miracle_seed",
+        "percentage": 25.0
+      },
+      {
+        "item": "cobblemonarmory:meganium_petals",
+        "percentage": 75.0,
+        "quantityRange": "0-2"
+      }
+    ],
+    "amount": 3
+  }
+}

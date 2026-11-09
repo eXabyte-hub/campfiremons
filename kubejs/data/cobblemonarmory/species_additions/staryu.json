@@ -1,0 +1,13 @@
+{
+  "target": "cobblemon:staryu",
+  "drops": {
+    "entries": [
+      {
+        "item": "cobblemonarmory:starmie_pieces",
+        "percentage": 25.0,
+        "quantityRange": "0-1"
+      }
+    ],
+    "amount": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "target": "cobblemon:samurott",
+  "drops": {
+    "entries": [
+      {
+        "item": "cobblemon:mystic_water",
+        "percentage": 25.0
+      },
+      {
+        "item": "cobblemon:shell_bell",
+        "percentage": 25.0
+      },
+      {
+        "item": "cobblemonarmory:samurott_plating",
+        "percentage": 75.0,
+        "quantityRange": "0-2"
+      }
+    ],
+    "amount": 4
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "target": "cobblemon:fennekin",
+  "drops": {
+    "entries": [
+      {
+        "item": "minecraft:blaze_powder",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:charcoal_stick",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemonarmory:delphox_fur",
+        "percentage": 25.0,
+        "quantityRange": "0-2"
+      }
+    ],
+    "amount": 4
+  }
+}

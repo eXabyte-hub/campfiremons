@@ -1,0 +1,21 @@
+{
+  "target": "cobblemon:metagross",
+  "drops": {
+    "entries": [
+      {
+        "item": "minecraft:ender_pearl",
+        "quantityRange": "0-3"
+      },
+      {
+        "item": "cobblemon:metal_coat",
+        "percentage": 10.0
+      },
+      {
+        "item": "cobblemonarmory:metagross_plate",
+        "percentage": 75.0,
+        "quantityRange": "0-2"
+      }
+    ],
+    "amount": 6
+  }
+}

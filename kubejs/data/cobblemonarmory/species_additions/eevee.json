@@ -1,0 +1,21 @@
+{
+  "target": "cobblemon:eevee",
+  "drops": {
+    "entries": [
+      {
+        "item": "cobblemon:silk_scarf",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:eviolite",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemonarmory:eevee_fur",
+        "percentage": 50.0,
+        "quantityRange": "0-2"
+      }
+    ],
+    "amount": 4
+  }
+}

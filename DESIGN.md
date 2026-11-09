@@ -210,6 +210,24 @@ Verified in the RCT 0.19.2-beta source: RCT already does both halves, so we conf
 - **Oritech** from S6, as the late automation tier.
 - No Mekanism, no AE2. One storage mod, not two.
 
+### 4.8 World, mobs and gear [decided, F6]
+
+- **No vanilla passive animals** except frogs (Froglights) and bees (pollination): farm animals, mounts and pets,
+  water life and misc wildlife are gone. Pokémon cover their drops (feathers/chicken ~60 species, leather 15,
+  porkchop, mutton, rabbit, wool + shearing, milking, ink, scutes, honey). Villagers and traders stay.
+  - Natural spawns: NeoForge biome modifier `remove_passive_mobs.json`. Everything else (structure pens, village
+    cats, trader llamas, spawn eggs): KubeJS cancels them joining the world (`config.js` `removedMobs`).
+- **Pokémon drop fixes** (`tools/gen_drops.py`): Cobblemon's `species_additions` *replace* drop tables, so Cobblemon
+  Armory (90 species), Legendary Monuments (50) and Mega Showdown (2) were wiping normal drops. We override their
+  files at the same ids with original + mod drops merged, and give the Pidgey, Spearow and Starly lines and
+  Fletchling a 35% egg drop (otherwise only the Chansey and Exeggcute lines drop eggs).
+- **Hostile mobs stay.** For the harder structures: Cobblemon Armory (Pokémon-themed weapons/armour),
+  Artifacts (accessories found in dungeons) reworked by **Reliquified Artifacts** into Relics' levelling system
+  (accessories grow stronger with use), and Mythic Upgrades (late-game gear tiers).
+  - Relics needs **Curios**, so the pack runs two accessory systems: Accessories (Mega Bracelet/Z-Ring/badges)
+    and Curios (relics). Same setup as All the Mons, which runs both. Curios and Artifacts come from Modrinth;
+    Relics, Reliquified Artifacts and OctoLib from CurseForge (they allow third-party downloads).
+
 ## 5. Mod list
 
 Additions on top of the official pack. "1.8?" shows whether the addon's latest NeoForge 1.21.1 build explicitly supports Cobblemon 1.8:
@@ -234,6 +252,8 @@ Additions on top of the official pack. "1.8?" shows whether the addon's latest N
 | Cobblemon: SafePastures | Pastured mons can't die (Cobbleworkers) | ✅ |
 | Catch Rate Display | Client-only catch-chance UI | ✅ |
 | Cobblemon Battle Extras | Battle UI QoL | 🟡 |
+| Cobblemon Armory 1.5.4, Mythic Upgrades 5.1.1 | Gear for hard structures (§4.8). Simply Swords was tried and dropped: didn't fit the theme | n/a |
+| Artifacts 13.2.5 + Reliquified Artifacts 1.0.9 + Relics 0.12.11 (+ Curios, OctoLib) | Levelling accessories found in dungeons (§4.8) | n/a |
 | Terralith 2.6.2 + Tectonic 3.0.28 | Overworld biomes and terrain; all 95 Terralith biomes are in Cobblemon spawn tags (`tools/check_biomes.py`) | n/a |
 | Incendium 5.4.4, Nullscape 1.2.14 | Nether and End overhauls (End cities kept for Champion Terry) | n/a |
 | YUNG's Better Dungeons / Mineshafts / Strongholds / Nether Fortresses, When Dungeons Arise | Structures; their chests join the finds | n/a |
@@ -389,3 +409,7 @@ This is studied from ATMons' `catch_restrictions.js`. The design is ours; no ATM
 - Cobblemon client: `run_posable_molang` can't play `explosion`/`faint` on some battle participants (animation skipped).
 - Legendary Monuments: 4 dojo *spawner* loot tables fail to parse (unused by us).
 - EMI: Chipped's Workbench JEI category can't be shown through EMI's JEI bridge (277 log lines; Chipped workbench recipes just don't appear in EMI).
+- Structures placing item frames/paintings/sculk sensors slightly out of place ("Block-attached entity at invalid position", "Failed to parse vibration listener").
+- Dungeons Arise: 2 advancements (find_thornborn_towers, find_fishing_hut) fail to load.
+- GeckoLib: Relics' animated tooltip frames aren't a multiple of the frame size.
+- Connector: "Couldn't load fabric:overlays metadata".

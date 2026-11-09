@@ -1,0 +1,21 @@
+{
+  "target": "cobblemon:grotle",
+  "drops": {
+    "entries": [
+      {
+        "item": "minecraft:sweet_berries",
+        "quantityRange": "2-4"
+      },
+      {
+        "item": "cobblemon:miracle_seed",
+        "percentage": 10.0
+      },
+      {
+        "item": "cobblemonarmory:torterra_shell",
+        "percentage": 50.0,
+        "quantityRange": "0-2"
+      }
+    ],
+    "amount": 7
+  }
+}

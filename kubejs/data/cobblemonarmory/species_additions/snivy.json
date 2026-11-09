@@ -1,0 +1,17 @@
+{
+  "target": "cobblemon:snivy",
+  "drops": {
+    "entries": [
+      {
+        "item": "cobblemon:miracle_seed",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemonarmory:serperior_tail",
+        "percentage": 25.0,
+        "quantityRange": "0-2"
+      }
+    ],
+    "amount": 3
+  }
+}

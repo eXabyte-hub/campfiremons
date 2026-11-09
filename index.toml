@@ -749,6 +749,614 @@ file = "kubejs/data/campfiremons/loot_table/rewards/stage_9.json"
 hash = "fda5d59b748c432c9c878c8919622ac8ff4ad08c7cd6e069e05ae4dcd542e788"
 
 [[files]]
+file = "kubejs/data/campfiremons/neoforge/biome_modifier/remove_passive_mobs.json"
+hash = "4c44ed7597fc6bf19d1d1fba728bc0f38409e0355fae2101b8683d88ad158e39"
+
+[[files]]
+file = "kubejs/data/campfiremons/species_additions/fearow.json"
+hash = "78ec43a1f76296f56a211d9ee76ab725779a61bba1c892c5475b318671c3181c"
+
+[[files]]
+file = "kubejs/data/campfiremons/species_additions/fletchling.json"
+hash = "8d2fbf9ab9ba3a879ce6cda1774769062872e6d82b4caf5e297df840b5c9737d"
+
+[[files]]
+file = "kubejs/data/campfiremons/species_additions/pidgeot.json"
+hash = "49b721028b6aa8ef2341de08be2389baa5a388490ba7bab014cb8ce519fcdd9e"
+
+[[files]]
+file = "kubejs/data/campfiremons/species_additions/pidgeotto.json"
+hash = "13c46e404ac34b3e17922834a0dbe5b323223fe39024fb0eb0005291b0df71d2"
+
+[[files]]
+file = "kubejs/data/campfiremons/species_additions/pidgey.json"
+hash = "2a252c523889c6f12f494cc47960301110fac8c2ba2f1b109ddf5cf004c1f8a3"
+
+[[files]]
+file = "kubejs/data/campfiremons/species_additions/spearow.json"
+hash = "ed06e7c5bb4498d034b53a7211b4da3300191c9cf7a4ecfe3d7a94ac741c5bd2"
+
+[[files]]
+file = "kubejs/data/campfiremons/species_additions/staraptor.json"
+hash = "68792226ff3a1384ebb82a95c76b288707177a6f899af51650fc4e6033a987e3"
+
+[[files]]
+file = "kubejs/data/campfiremons/species_additions/staravia.json"
+hash = "f571f89f743f252e88e67ac68fabbb03dd43500a05daaba160394ef0d067b942"
+
+[[files]]
+file = "kubejs/data/campfiremons/species_additions/starly.json"
+hash = "d6696e1ab08581fb0139be9ff03eb8eb28b0c78433885ee3b35aaab31e53e339"
+
+[[files]]
+file = "kubejs/data/cobblemon/species_additions/meltan.json"
+hash = "3976b100dfca5446fba02e15a3215c4540d0faeef6f16a62221c6627b4daf54f"
+
+[[files]]
+file = "kubejs/data/cobblemon/species_additions/virizion.json"
+hash = "66e93a728c7dd1005e5a77a67409314e8f975ef6606f60f50be3bcad98d79d4b"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/altaria.json"
+hash = "bfeca84b925dfbd8f7430bc155f5f4f777298d3ab05ef2c955f65fd77849ec92"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/appletun.json"
+hash = "43cd51a97b2683fb724024d3d683e08014ba2900541534d7c03c184bdb2b5741"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/applin.json"
+hash = "a5415b4e3ee7cb2d612c552ce5b03b5a235994b7c99101f2b08539c18b0628c8"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/arctibax.json"
+hash = "9c167e37f2bd7df584d0737764d310af3162978587aaeb4be307f0be6233e34f"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/axew.json"
+hash = "c19af472d4a2c19da7181c25acbf414ce484aca2c0ac359f756c8946757dc772"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/bagon.json"
+hash = "ab19910ac7836127e89024bc87b5e9a3053067d73675b3a78ef1fab6707ef8cf"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/baxcalibur.json"
+hash = "6fa184fd8b3d339ac586525c860cdd7040f3571cd5e775700db597bbabd632d5"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/cyclizar.json"
+hash = "9119bc32e13f3d657628aafa9188b563f447ff9a3633415f49321a61f16ad7cd"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/deino.json"
+hash = "bd3704921ed562bd94613e88532be8c8a76b6a4ef59529dd42c5126f503dd0c9"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/dragalge.json"
+hash = "508a8a201bba3edad7913c48b78526cf6ca1c261f6ec9b718a6ea40fff79f883"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/dragapult.json"
+hash = "c18102b32a6a38e139fc288719c98c0afc8b1f83fec9e2261f58ac6110cb4ddc"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/dragonair.json"
+hash = "51c545192fd0313ed9e6718357c5b9c7699b1dfb307645b6047bb0982fca99d8"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/dragonite.json"
+hash = "0d0252da0c19896f3b6b9dae05699dbd4362a62e5635f443eba6529a408133df"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/drakloak.json"
+hash = "9fa9b6c070e47978d8038319252d535a8161869cbee2e2cb8e2052103356f509"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/drampa.json"
+hash = "3d3c7a61c6f28609f4cc4dc16ca4cd78b5825df7c8c85ac253c7a2f0ea0837db"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/dratini.json"
+hash = "b9e65733e48983b1b6a0c449416ebda5a1a1098c19f354444e9bf284a0566741"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/dreepy.json"
+hash = "9db822d2eb349fc66fb88e195df42dc72c18c760045a10ddab6fe427b2b7c663"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/druddigon.json"
+hash = "ec5b96fd7c38ecbec50e4347e3818a2472b74559493984fd499588d93fbf4a12"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/duraludon.json"
+hash = "5831a1243b579f700d689f04c6f2c48c9b19bb108629d9388324a8ae622ee1c5"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/flapple.json"
+hash = "2bbb4d52de2a27b81bbf93ebb5fcc428040ab6819eba7da1e241d1dee20af88c"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/flygon.json"
+hash = "07802cfffbd3f88987620bf10a244ac63a46e068c20036c6d915252bc0753aa5"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/fraxure.json"
+hash = "18d20f306403079dbdcdf8475536a8893d0a65f9a5bc7f554b74dee80dc05986"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/frigibax.json"
+hash = "9535c0237eee69d034d3c89be91aa44db4ddec38acdd748e365e6e481aaea1dd"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/gabite.json"
+hash = "29440b334fa1749e06a26347f8d8bdde79700839fbd0fe6c609bd4d42340fe25"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/garchomp.json"
+hash = "6ebe104f0131dcd18c648c5c70eb6215e4ec33aff25cb68feea5850ee87dbccf"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/gible.json"
+hash = "836d22c9ee5f3fd9d184ae39545f53633fbeb0820dc23bf6d8ffa1ec388ae383"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/goodra.json"
+hash = "9c5d784df75eb7108225f38a0d7eb937a4bd5544a01769ae3ffd370448adecbd"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/goomy.json"
+hash = "31f8eb40fc516bc4a969dead62984842a8e374cdc07d1502c3d044ccc50ef9f7"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/guzzlord.json"
+hash = "94cb616afcdcd846220d6b44b57112850738a2a477fb396ab6e73d1973651992"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/hakamoo.json"
+hash = "92c655d2a5bf69c2fb23dee041619e2d6c82969a0c22af8807cd8e48f4eba422"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/haxorus.json"
+hash = "672aac7d40e8e995275accf037f2259c9ce68048c34c1f481b6dc4f7a813bc0a"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/hydreigon.json"
+hash = "e0540915226cbd509eec996c92e1656479c954d70c9d8467a5eebfe1720fd107"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/jangmoo.json"
+hash = "8114699ae27d9183334b38434edc08eaf26ce3257d14de5e58a68725a5ab5b29"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/kingdra.json"
+hash = "835583d406fe7827fc689b8109781b9ab4eef7fe688006d5baba23d1c9b59236"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/kommoo.json"
+hash = "043312458a8dc0ed41feac8e9bfa42494e147c8e78fd9f337d3599187d208384"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/latias.json"
+hash = "a330c704d6839468897446b26615eae9fc4b16c005c961437ca31d027f0e335d"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/latios.json"
+hash = "a8a808a931c05d89242dd6c11d5e5e231ebc14c72421d4f74b14540c854bcf7f"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/naganadel.json"
+hash = "c39224c473b0cec642d3ef6f0e0f0378d5f8a679fd83a2fa93ec39bdaebf295e"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/noibat.json"
+hash = "1fdb49ff3c6b2caee5065711d8c587c41f4d2f25906ce0a6946575b00838c0c4"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/noivern.json"
+hash = "209bf880313c8546a63b357fb2045546deb0697852d21d8744a17ef888a680ef"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/rayquaza.json"
+hash = "4e194f50939c0d7765b22f234b89ae16c679ef41add51bc8c0900805353fb73b"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/salamence.json"
+hash = "20e71df1541e7e2225c2966494eb801a7f172d66f6720b9fc906f2b7c6405d9c"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/shelgon.json"
+hash = "e7923702a82770fad58dab63a06f4482a79a67cf8bdab60fc669971206b69c38"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/sliggoo.json"
+hash = "edf36b425cf9708a1d57b8057dc33d46a1ad2cd2df1173a281468f23087117f3"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/tatsugiri.json"
+hash = "edeef5b18b46ffc3f0eabcdbed09ef7974a373a00ebd4f7bf54ac9f313e49af3"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/turtonator.json"
+hash = "f6ad27c479167cb1dcb1f73c8ae13e33abca7de5c853f2326b576a28d76b2868"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/tyrantrum.json"
+hash = "c0ef43683ba78f90a995de17877cb665b1f9b7db57f6392787444b357f3ee59b"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/tyrunt.json"
+hash = "12667b7965d199896ce41a83029b0fba323b7e3df7974fa56841fda63f30715d"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/vibrava.json"
+hash = "5ef3d80c76791d4c7579a3e8269e72dc4e3c07054f58b2f3b95b90162e616032"
+
+[[files]]
+file = "kubejs/data/cobblemon_drops/species_additions/zweilous.json"
+hash = "7bc3d83f6380f53cc1aaba50072e6428f6b5e09c759cb180e69721eb63e35293"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/axew.json"
+hash = "e090a92425a832d9f590142e35e542ece277606378db1f087572949068ec9483"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/bastiodon.json"
+hash = "d7ba505bec12ccd2a776c552ed4db51dd3ceda630c287bb636387419304d4b83"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/bayleef.json"
+hash = "3f3fa9574cb8e284d1c19d62050cda3ba85267c105585c817999429b6db96c07"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/beldum.json"
+hash = "582585375cd0ebdf9e64a35b54c20d8cd848d94eace9becc8a9477811a57ffcd"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/blastoise.json"
+hash = "ad44854d684a7ea5e4dc5e98f138758412c87a72d65c41d1986c8213a4d6816c"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/blaziken.json"
+hash = "0ff0825f1ddc2d7e5c6dab6fb52ddf8984533b0f9be24e5116b8a7e8ab26669c"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/braixen.json"
+hash = "fffdf2819fcc5afae608438330e5742e1bc61bd4a82dc51b4abeb4c80073cbc7"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/bulbasaur.json"
+hash = "0801e560c34bccbd6d15a4b5544dd44005af2045be61732e0a04d27ce028ab1d"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/charizard.json"
+hash = "dc54a684ea466a890e1b78daf0ee5133871bbc33fbdec3c872642bbc77e2985b"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/charmander.json"
+hash = "1b1371158ffcae8c776c5f0cce696a12c3c4ba4b93bb02d8e89bdb7aa5e87ae3"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/charmeleon.json"
+hash = "0c86d6db985d678c81c311491a35cf0d17d24006dc7ec9d7ba6f32e7fa844e0b"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/chikorita.json"
+hash = "91ecb81f2f7b228ff70cc7cc77b4d12f1dda678d212c0d6b20f882425d2cda11"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/chimchar.json"
+hash = "1926a0639f072dfc4f365f6eda49e324746fc85ac9cabfe9eceb5d4eacc1ca74"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/cinderace.json"
+hash = "8b0085bf7d690fe7dc78b6bd8d3e45d56210b914a266ec6f7c093cab686dfee1"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/combusken.json"
+hash = "39950b06c781673ddb8987e8874b928dc24fa4cce1100903660e9f8b2ce97950"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/corviknight.json"
+hash = "ab6e6b8189766d0ba06125f2a724415fed171e4549d07960da0c194c6dc5708b"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/corvisquire.json"
+hash = "076ed4cd12360a8ec7a47ad1ac4aae411591ce85032b370fe4fa6f98b17ec184"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/croconaw.json"
+hash = "cdfaec6d6a3ac797f972cbc42e75182c4233a5e2525103f5ee32bd7e6a16eae8"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/cyndaquil.json"
+hash = "769423cb55eefbb65adcd24e50718ac93b5f039f5173b318e4e557a745b78762"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/dartrix.json"
+hash = "e175c6ea00403c23f8f2f60e0ea8657f338b2e40ca8c5cacdd7e8e9f9d0199d4"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/decidueye.json"
+hash = "f6617296b733f406fbbbc70e4b9b103f7824430903e5f689e3cd842dd2f342ed"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/delphox.json"
+hash = "01864c6460342395a1fa6c7fa09c2fd8c620068febc057ea2ee00480eead5061"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/dewott.json"
+hash = "07685513843dfc1394d592c8ebcf8c37b606dbc567954e0ebfb017b8dddb1fe6"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/drizzile.json"
+hash = "9755f7fac90794e6c2ca8dce69cdbf5878eb09de0f180b28625812aa067ed9cd"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/eevee.json"
+hash = "4e04090ce2a121b91a37bfa90edd06836d01c772bc4f34f071463aeaff7df8ba"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/emboar.json"
+hash = "755329166791b8aaf5ce07ac2eb2fdbc1af09660ef66ad3f23ddf7ce4cfe4596"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/empoleon.json"
+hash = "4252eceae13c24b1f0eaaa24669bacc2acf063f504a0a4a4caca485034ea3636"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/espeon.json"
+hash = "ef270bb53b248ecda4d18db0dfe94022df8b5507e424f86421d6e8efcf4b0642"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/fennekin.json"
+hash = "c5726474d0be4017287c94f8281473c296521412fd04801cadfc4c4ed9bc0e76"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/feraligatr.json"
+hash = "722e70930905d6d58f5539a7799162f7e349e3909f497d8e298d733d4a8c89fc"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/flareon.json"
+hash = "673a5c7b5eaa1d498ff5f1a43498fc8bcf098e9a98b0ba34e5b1c6e51cd8a9ac"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/fraxure.json"
+hash = "aa6e4fdf910be3a3a9fc8f53f819cd1fcac57538f331f1eed429e9734eccabe3"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/froakie.json"
+hash = "d5591ec015e868c506c78e4a8e35242119f1d7aab03d9cab85b4d93202cbbeee"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/frogadier.json"
+hash = "9508b1d9cd4197bfc7ab83861a984d947cd2bba2fb344485d3d10f2f1bff9cc8"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/glaceon.json"
+hash = "411d8c8f7035900592dca0ff80511a6e16e16c6b99c5b8e6e5973584cb757b84"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/greninja.json"
+hash = "a8200234cb6a602e323f025ad4bfcccc08f87d1310411a383262c0248fbb74da"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/grotle.json"
+hash = "1a9c0c04fbc79937a94cea1898b276894fe4275d141ab19a0746676afad9cea9"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/grovyle.json"
+hash = "ec6d7cbbe360414bf813fa2f64937a28c929bee0d464f629bd06d2c6fa0cfe87"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/haxorus.json"
+hash = "4652a5581a63b7a1a599b4bf98b3769a348098e51fd09d0b3d5fa70aa141b748"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/incineroar.json"
+hash = "682424128555a4992af301a07a25f252588c0523771b053f388f0cfccd8a04b6"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/infernape.json"
+hash = "8aa90b5bdafdb2f4bb08e0aa6fcd0ff2da6a9b654b96efd885835f420c1d8922"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/inteleon.json"
+hash = "f12ff4f4507d49f76e2c7795de3a55aea3d92c94844a5c27753a2a4518550036"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/ivysaur.json"
+hash = "6c8e5dcc07d6429b6dacc394b9b6297d564ff758c712066db503c3ab6fb5e81d"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/leafeon.json"
+hash = "b60a35b92667bbd1ba6de4c4955962820d2ee1132efd73af43eb6caa37492a2d"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/litten.json"
+hash = "b60e38d4cbd51fb4ab134d51056c70726831b9c5fa28cd66df0783201cd9f7ea"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/mankey.json"
+hash = "4d3d28a42a4e8f902683ebec2b499e8c88f7246f2dd13a36019f11a3b019d954"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/marshtomp.json"
+hash = "1f5a56c56913c8fbdb67f020d922109e21ac327b2aa30c56c5dd4fe3af9ee756"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/meganium.json"
+hash = "8c162c339677a71aa361e062bce46c559acd19ae08403fadb8ec9eaf3c68326c"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/metagross.json"
+hash = "9625566d1c05ad6fd2d967aa89720d820b4f4c4bad714fb61a00437bcdc72451"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/metang.json"
+hash = "5d40f17846ecd5468b5db145df086daf9a8817cca31f5fd156b1564fd4f47bee"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/mimikyu.json"
+hash = "1de3e0c41a0b677417ac70229c8b1eb6ffc2c2a93c9f31f399e48187bb881228"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/monferno.json"
+hash = "8c910b21665cc1deca33ff94bdc710e41abd1863f8e133155936804512a08830"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/mudkip.json"
+hash = "9e08cbf712e7028ac477e147e369c24d15752ce834b313930059949ce77d21d9"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/oshawott.json"
+hash = "595841f66d2adb284b109ab041cf4289d127485e5a0ada4fd9cf2d68ba61704f"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/pignite.json"
+hash = "f14e0068b0e0cda0475c2f50e56aa6bea7cdd3d2f6dae750e246bd9c49aa0f72"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/piplup.json"
+hash = "bf8d70c16e1c647e9d7bf5945bd1f81a28775b1613bcd8bd41289302ebc190e9"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/primeape.json"
+hash = "814b7dd766c2a6ba8e0643f0ea68417540d5b756b6d9dbe82565c4b3e5be0cf1"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/prinplup.json"
+hash = "9244a15413e074cdd44c2b9d432463c82cf95b8e971a9aded81be50c5bc7dde2"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/quilava.json"
+hash = "135b381c395edaa2750235742e7d5fc8f1e75f755abebdba5f53d85a3b129ffb"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/raboot.json"
+hash = "042784d8505ed833d7570352dcd108de8cdd9ade8f92a3714c1ea250391a8893"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/rayquaza.json"
+hash = "6b066f7d9a49db615bafbcb0451aaec9602e59883299c23f0e5b42bd68395aa0"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/rookidee.json"
+hash = "0e3e994c1c5212cd9dead2d9ebb4721e66a70cc33c6132d31a08a3c66d3e245d"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/rowlet.json"
+hash = "23f5deff4993b2b96c7979ef3b476b19dde4f270f4910fcb422cece6e347ccfd"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/samurott.json"
+hash = "5f8c2b81d740d09026817ce54e46bc840170cebb10b117b341e38c8a327c87ff"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/sceptile.json"
+hash = "0a409cd4edc8db72d54e3637487f5c5d7b7f729c4faed0b1dee43d1296cc107e"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/scorbunny.json"
+hash = "a17a136ab1fc5fd561a5f9624952b25eec4fb6fef356a3c7efb6881ddd5b9fbf"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/serperior.json"
+hash = "6e595f65450e2d6b2c7559b3b9e127a329492bfc53b78d69763b4b0ee4ff11d7"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/servine.json"
+hash = "6f47196a2a6d683a1e849d1557a32b95a9d030ac1b41a214723eefd564884b00"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/snivy.json"
+hash = "c6d6d798efb93649d75b282e1ecf619344bd6b70ac540f7cb50ed35aee203de9"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/sobble.json"
+hash = "7b002fe758e71790bf402111013980d0bb7d668b503f18446907867d53e013a1"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/squirtle.json"
+hash = "27809d482c5fb901a3ee72181048f7d3cc0c5155925d407b43e9b5232ab16e2f"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/starmie.json"
+hash = "4325306e2feff6449d415d481b26c7687c337c07c97989c29608c80c5e1a907b"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/staryu.json"
+hash = "48086577ec9ef6bc7c5ce490217eadc7b3fa7a45bbe65d50061e5fb30aa355a2"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/swampert.json"
+hash = "da3fc67475d97608bf69b930894973514136486784446202bbf11b4d93f769b4"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/sylveon.json"
+hash = "2958a2e3137016f842729e2d5a45cb07ca00e80b4fa20fbc591c4d29f748614d"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/tepig.json"
+hash = "2b910907eb45dd353b6b68c94f9e1f9f1a21d6d50c66c7ca5eb41d8ea82414e0"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/tinkatink.json"
+hash = "510facbdd86e692253814ded110a68d475ffd79b8c93db68ef30ea16d7c5c604"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/tinkaton.json"
+hash = "dae7a230a8ba96bbaf7cf2cf680d1e8c123425702601c264f50b545025145b67"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/tinkatuff.json"
+hash = "0e756bdba51bed7a90f4d6dbbd359904325a089f869fd1d131d5a4ff764a588f"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/torchic.json"
+hash = "c684c5425a756e2499eba1864d8835baccfbe18817344c505ad473e0f7b43984"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/torracat.json"
+hash = "e740dae438cd52da1fba4f043142eb96ca90f61ea4dd475613c67f351403bbff"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/torterra.json"
+hash = "e247491c6af2cdf31a5586048ebd2a679c3e5148828aa8d37b457fdae08daf7c"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/totodile.json"
+hash = "2aa4c1bcc8d98a0d14a04043b731060dc6d3f7242185adbe5696e3f0a0249b2e"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/treecko.json"
+hash = "f0b82addc5a4080fb6cb95ece794b313705bc8f94b99237448cddfeded83c32c"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/turtwig.json"
+hash = "7fb3a4776e97b0b01d9bf5128fa3e6bebdbe2facfdd2f40056846bff2fa4d1f9"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/typhlosion.json"
+hash = "8dfb48e5786011eb2017981253ef67f1fc1e7e8e05238a95689dfa56509fb359"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/umbreon.json"
+hash = "c17ca166f4f39e8d5f9ec17291c149e53ed94e0192b2140a4b85f89971a0bb96"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/vaporeon.json"
+hash = "3919930378ce3ea39f343f873700038f7e5f03f6d253b7907b45bc587c581bed"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/venusaur.json"
+hash = "24a839d841e6e0efeb00d74add5566564b4a597f493f4d4c4db70593211b3e6c"
+
+[[files]]
+file = "kubejs/data/cobblemonarmory/species_additions/wartortle.json"
+hash = "8cead6cca9b8a9fd741ca74035fcdc20de0727c6cae3e457174696c2ce74e7f2"
+
+[[files]]
 file = "kubejs/data/neoforge/loot_modifiers/global_loot_modifiers.json"
 hash = "bd51db29fe13e5d94a4c43c3864a96c06c061e126e470305686f6164f0ad3537"
 
@@ -761,12 +1369,16 @@ file = "kubejs/server_scripts/campfiremons/item_locks.js"
 hash = "868e0bb34aa740e9325c16dab333225f85d242566477a9a6084b4875f840dcce"
 
 [[files]]
+file = "kubejs/server_scripts/campfiremons/removed_mobs.js"
+hash = "82a31e7780860d1805d84822171a350caf829035a00139f6282bf5dfc092ed7e"
+
+[[files]]
 file = "kubejs/startup_scripts/campfiremons/cobblemon_hooks.js"
 hash = "21687adb07bcb4ab7e4e1d40dc6c289621e8fa5603aa4a87248cbbc160e42aa5"
 
 [[files]]
 file = "kubejs/startup_scripts/campfiremons/config.js"
-hash = "8f241f771b9826aa62161217549146112aac01941be9f00afb358240645f852b"
+hash = "8de24ebbb13529b7a9ad1e02ec76582eac72671da962e1623422941cdf36a655"
 
 [[files]]
 file = "kubejs/startup_scripts/campfiremons/tier_locks.js"
@@ -805,6 +1417,11 @@ metafile = true
 [[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "187eafde5974beee1263538b462b7b8fe2fc8948c5d413980d9796d55928580b"
+metafile = true
+
+[[files]]
+file = "mods/artifacts.pw.toml"
+hash = "416b7f130791397fb2ceb9e89ce3fd0e870f207c8e40b759c069cb58b7544314"
 metafile = true
 
 [[files]]
@@ -903,6 +1520,11 @@ hash = "658356ac6f6254978ab8dd402a8a7ce11df8ffcfde53f5ff5fdc13ee9b78415d"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-armory.pw.toml"
+hash = "fdce09b1bca6a0842f53e5b7ccfc98c00e77b00a5baae6a9056aab7624c4eb6c"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-battle-extras.pw.toml"
 hash = "51fd49d06a79439794ea8845958f5380efb8d8a193ec2b8d80f98f8a6b56ff46"
 metafile = true
@@ -980,6 +1602,11 @@ metafile = true
 [[files]]
 file = "mods/craftpresence.pw.toml"
 hash = "db9ad9b644149d3278deb6b6a2d7d39ad3ee3f93adf4a2054dd7145bed3bd9fb"
+metafile = true
+
+[[files]]
+file = "mods/curios.pw.toml"
+hash = "36debf7653e95a855b4fedacc19027cf2e01960fc0b6d55ef2ffbffbcb455690"
 metafile = true
 
 [[files]]
@@ -1188,6 +1815,11 @@ hash = "43ae00dbd444da61f5846fd96c9da0a715b7244652e26a20a268c78dd046fd16"
 metafile = true
 
 [[files]]
+file = "mods/mythic-upgrades.pw.toml"
+hash = "dc7d09e2ca192b0b0595c577939d7eb042364dbcad77e62de86cb72eb989254d"
+metafile = true
+
+[[files]]
 file = "mods/navas-zamega.pw.toml"
 hash = "0f1148ea2b643d8999ba0e96b62171e4925470518d874f9f13e213affaf4e968"
 metafile = true
@@ -1268,6 +1900,16 @@ hash = "8690379014fbba53059759936c7deb4d62aabc7a2006da3d45929dc582b119b7"
 metafile = true
 
 [[files]]
+file = "mods/relics-mod.pw.toml"
+hash = "a219f7f5b5c2b8615fc7b94d8b0075a0e5c37a6d79fa10eff72effa215c49fc8"
+metafile = true
+
+[[files]]
+file = "mods/reliquified-artifacts.pw.toml"
+hash = "f5632c144898b229e06271e32bc7393f506c1e743fd84cd4300a1045e9cbc421"
+metafile = true
+
+[[files]]
 file = "mods/resourceful-lib.pw.toml"
 hash = "c0b066684294c33972d562e0cb08ea17b2d31bcf86cd1d6c63b8e968f0eac7a2"
 metafile = true
@@ -1275,6 +1917,11 @@ metafile = true
 [[files]]
 file = "mods/rhino.pw.toml"
 hash = "673de9cae75d2ad02796368939384de0d7238cf5c782975d71848a2187f753e7"
+metafile = true
+
+[[files]]
+file = "mods/shatterbyte-lib.pw.toml"
+hash = "91dd981943019c16aba6592e52e7f7f04761d72c76c7fccd5590ec7101410e54"
 metafile = true
 
 [[files]]

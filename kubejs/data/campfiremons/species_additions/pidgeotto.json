@@ -1,0 +1,28 @@
+{
+  "target": "cobblemon:pidgeotto",
+  "drops": {
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "minecraft:chicken"
+      },
+      {
+        "item": "cobblemon:sharp_beak",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:chilan_berry",
+        "percentage": 5.0
+      },
+      {
+        "item": "minecraft:egg",
+        "percentage": 35.0,
+        "quantityRange": "1-2"
+      }
+    ],
+    "amount": 6
+  }
+}

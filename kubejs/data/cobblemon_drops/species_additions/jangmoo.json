@@ -1,0 +1,40 @@
+{
+  "target": "cobblemon:jangmoo",
+  "drops": {
+    "entries": [
+      {
+        "item": "cobblemon:dragon_scale",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:razor_claw",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:roseli_berry",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:dragon_scale",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:razor_claw",
+        "percentage": 2.5
+      },
+      {
+        "item": "legendarymonuments:lightstone_shard",
+        "percentage": 2.0
+      },
+      {
+        "item": "legendarymonuments:darkstone_shard",
+        "percentage": 2.0
+      },
+      {
+        "item": "cobblemon:roseli_berry",
+        "percentage": 2.5
+      }
+    ],
+    "amount": 6
+  }
+}

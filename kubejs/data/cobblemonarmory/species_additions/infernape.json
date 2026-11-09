@@ -1,0 +1,17 @@
+{
+  "target": "cobblemon:infernape",
+  "drops": {
+    "entries": [
+      {
+        "item": "cobblemon:charcoal_stick",
+        "percentage": 25.0
+      },
+      {
+        "item": "cobblemonarmory:infernape_plating",
+        "percentage": 75.0,
+        "quantityRange": "0-2"
+      }
+    ],
+    "amount": 3
+  }
+}

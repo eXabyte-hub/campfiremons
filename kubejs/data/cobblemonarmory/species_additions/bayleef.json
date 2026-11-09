@@ -1,0 +1,17 @@
+{
+  "target": "cobblemon:bayleef",
+  "drops": {
+    "entries": [
+      {
+        "item": "cobblemon:miracle_seed",
+        "percentage": 10.0
+      },
+      {
+        "item": "cobblemonarmory:meganium_petals",
+        "percentage": 50.0,
+        "quantityRange": "0-2"
+      }
+    ],
+    "amount": 3
+  }
+}

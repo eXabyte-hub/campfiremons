@@ -1,0 +1,48 @@
+{
+  "target": "cobblemon:dragonair",
+  "drops": {
+    "entries": [
+      {
+        "item": "minecraft:dragon_breath",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "cobblemon:dragon_fang",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:dragon_scale",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:yache_berry",
+        "percentage": 5.0
+      },
+      {
+        "item": "minecraft:dragon_breath",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "legendarymonuments:lightstone_shard",
+        "percentage": 6.0
+      },
+      {
+        "item": "legendarymonuments:darkstone_shard",
+        "percentage": 6.0
+      },
+      {
+        "item": "cobblemon:dragon_fang",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:dragon_scale",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:yache_berry",
+        "percentage": 5.0
+      }
+    ],
+    "amount": 10
+  }
+}

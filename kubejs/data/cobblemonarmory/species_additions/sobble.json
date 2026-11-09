@@ -1,0 +1,17 @@
+{
+  "target": "cobblemon:sobble",
+  "drops": {
+    "entries": [
+      {
+        "item": "cobblemon:mystic_water",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemonarmory:inteleon_shed",
+        "percentage": 25.0,
+        "quantityRange": "0-2"
+      }
+    ],
+    "amount": 3
+  }
+}

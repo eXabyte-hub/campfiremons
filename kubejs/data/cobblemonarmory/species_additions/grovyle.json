@@ -1,0 +1,21 @@
+{
+  "target": "cobblemon:grovyle",
+  "drops": {
+    "entries": [
+      {
+        "item": "minecraft:stick",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "cobblemon:miracle_seed",
+        "percentage": 10.0
+      },
+      {
+        "item": "cobblemonarmory:sceptile_leaves",
+        "percentage": 50.0,
+        "quantityRange": "0-2"
+      }
+    ],
+    "amount": 5
+  }
+}

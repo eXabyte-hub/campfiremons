@@ -1,0 +1,26 @@
+{
+  "target": "cobblemon:greninja",
+  "drops": {
+    "entries": [
+      {
+        "item": "minecraft:pearlescent_froglight",
+        "quantityRange": "0-3"
+      },
+      {
+        "item": "cobblemon:mystic_water",
+        "percentage": 25.0
+      },
+      {
+        "item": "cobblemonarmory:greninja_scarf",
+        "percentage": 30.0,
+        "quantityRange": "1"
+      },
+      {
+        "item": "cobblemonarmory:greninja_skin",
+        "percentage": 75.0,
+        "quantityRange": "0-2"
+      }
+    ],
+    "amount": 6
+  }
+}
