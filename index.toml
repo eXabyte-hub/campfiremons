@@ -797,6 +797,10 @@ file = "kubejs/data/campfiremons/species_additions/starly.json"
 hash = "d6696e1ab08581fb0139be9ff03eb8eb28b0c78433885ee3b35aaab31e53e339"
 
 [[files]]
+file = "kubejs/data/cobblemon/species_additions/generation3/zzz_ccc_deoxys.json"
+hash = "a2f69289c8df1b3dc23f3b9638243217dafc60e8e0519690cc9c93216620e4ec"
+
+[[files]]
 file = "kubejs/data/cobblemon/species_additions/meltan.json"
 hash = "3976b100dfca5446fba02e15a3215c4540d0faeef6f16a62221c6627b4daf54f"
 
@@ -1642,6 +1646,11 @@ hash = "aa8f86c0deec2e5ff6a20360be15748c5281faaa0acf45f15044eff42f182ad9"
 metafile = true
 
 [[files]]
+file = "mods/complete-cobblemon-collection-myths-and-legends-compat.pw.toml"
+hash = "504e1c016abd88c7c2a3420aa9250476c81cbf6bec4b94accfac2eddd2dfe008"
+metafile = true
+
+[[files]]
 file = "mods/connected-glass.pw.toml"
 hash = "376b22883dd4642dee7bf1e727440cb01d87d72293952a1ddf0c2f1c25fa7863"
 metafile = true
@@ -1649,6 +1658,11 @@ metafile = true
 [[files]]
 file = "mods/connector.pw.toml"
 hash = "a38d72ca403e9064338be6e0cf69532768b0c1aba8f88703a8ce74c2734da522"
+metafile = true
+
+[[files]]
+file = "mods/controlling.pw.toml"
+hash = "65c8086d2ec3d39acc7bd36c7a0306ccc43b602b38fa07d13291bc478ef7dfff"
 metafile = true
 
 [[files]]
@@ -1802,6 +1816,11 @@ hash = "391f5b0b0fcae3ce77be6ab211435228faec79cb92c50d69471c52ba36b139d6"
 metafile = true
 
 [[files]]
+file = "mods/inventory-profiles-next.pw.toml"
+hash = "ab503e89461dff879ee793253e173625b6ab868f570a371323ef725e567cf5ea"
+metafile = true
+
+[[files]]
 file = "mods/invmove.pw.toml"
 hash = "a246c345f9568f6b244d017c4201c6170b1ad54808c9c4799c146a0a794663aa"
 metafile = true
@@ -1814,6 +1833,11 @@ metafile = true
 [[files]]
 file = "mods/iris.pw.toml"
 hash = "db1c1e6382878b78e994dba1b9026935f8d1c5ca685c89d2437858e0a0dcab58"
+metafile = true
+
+[[files]]
+file = "mods/jade.pw.toml"
+hash = "4de3e4a1a49e332c1ad313283e0403c4273b628d634c17a9ff0c9da3d6b67f9a"
 metafile = true
 
 [[files]]
@@ -1838,7 +1862,7 @@ metafile = true
 
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
-hash = "1506a3d749a45bc760b3ad57ef1fbb959f0c166b6d1d4955114fd66db7a4855d"
+hash = "712a69b3569a8055979de6eea262068535fe182dffb3833e53e5833e9cbf9766"
 metafile = true
 
 [[files]]
@@ -1864,6 +1888,11 @@ metafile = true
 [[files]]
 file = "mods/legendary-monuments.pw.toml"
 hash = "df45b7ccfbb50f10c9cc5e32d5ea6020346c45c5ebbc89ff5159f390bd5d7960"
+metafile = true
+
+[[files]]
+file = "mods/libipn.pw.toml"
+hash = "0d2a00252d64ed7d2d9b19994f7accb780304be61f3903d36e810714b414c6cb"
 metafile = true
 
 [[files]]
@@ -1914,6 +1943,11 @@ metafile = true
 [[files]]
 file = "mods/more-cobblemon-tweaks.pw.toml"
 hash = "43ae00dbd444da61f5846fd96c9da0a715b7244652e26a20a268c78dd046fd16"
+metafile = true
+
+[[files]]
+file = "mods/mouse-tweaks.pw.toml"
+hash = "6bc414cc0f2d4c078fe83f384d786343f701f371d657c5279b5b0df1595804bd"
 metafile = true
 
 [[files]]
@@ -2044,6 +2078,11 @@ metafile = true
 [[files]]
 file = "mods/rhino.pw.toml"
 hash = "673de9cae75d2ad02796368939384de0d7238cf5c782975d71848a2187f753e7"
+metafile = true
+
+[[files]]
+file = "mods/searchables.pw.toml"
+hash = "ce9ddada6ffd55a512149cc474c6a453281a997a5fdf1b7b4a2cc73f875e704a"
 metafile = true
 
 [[files]]
@@ -2179,6 +2218,11 @@ metafile = true
 [[files]]
 file = "mods/yungs-better-strongholds.pw.toml"
 hash = "03084966c05070b5c4b17cd89234f3c0d813940a2d76b405a6699deac10a0ab8"
+metafile = true
+
+[[files]]
+file = "mods/zume.pw.toml"
+hash = "165466fe8e528309d95875396f2a5e13c0bab7bcb0c1134d1fd5f3a935d488f5"
 metafile = true
 
 [[files]]

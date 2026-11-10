@@ -104,7 +104,7 @@ Label names verified against the Cobblemon 1.8.4 species data. Tier stages, labe
 **Sources once a tier is unlocked** [decided: all of them]:
 - Legendary Monuments shrines and summoning
 - Ultra Space for T2 (Cobblemon Ultra-Beasts: rare wormholes to a one-Ultra-Beast dimension; entry is Stage 6+, below that the mod's void-fall return sends you home)
-- Rare wild spawns
+- Rare wild spawns (Complete Cobblemon Collection adds rare/ultra-rare Paradox and Ultra Beast spawns)
 - Big quest rewards
 
 ## 4. What gets gated, and how
@@ -283,6 +283,8 @@ Additions on top of the official pack. "1.8?" shows whether the addon's latest N
 | Refined Storage 2.0.9 | Storage (not gated) | n/a |
 | Oritech 1.2.13 | Late automation (not gated) | n/a |
 | Create addons: Cobblemon: Create Industries 1.5.0 (+ Cobblemore Lib), Klinks n Klangs 2.0.1, Berry Harvester 1.0, Crafts & Additions 1.7.2, Create Deco 2.1.3, Copycats+ 3.0.11 | Pokémon production lines, power, building (§4.7) | ⚠️ (Create Industries/Klinks/Berry Harvester predate Cobblemon 1.8) |
+| Complete Cobblemon Collection 1.8.4 (mod build) | Models, animations and spawns for the 34 species Cobblemon 1.8.4 has no model for (Paradox Pokémon, Celebi/Jirachi/Manaphy…, the Pawmi line, …), so trainer and raid Pokémon stop showing as stand-ins. Adds rare/ultra-rare wild Paradox and Ultra Beast spawns (tier-locked to Stage 6); no wild legendaries. All Rights Reserved, modpacks allowed without profit. It and Mega Showdown ship the same model files for ~74 legendaries/forms; Mega Showdown's must win (CCC's versions drop Calyrex riders, Ogerpon Tera, Deoxys colours and point at missing textures) | ✅ (1.8.4) |
+| Client QoL [F10]: Mouse Tweaks, Jade, Controlling (+ Searchables), Inventory Profiles Next (+ libIPN), Zume | Inventory dragging, look-at info (Cobblemon shows species/level), keybind search, sorting/auto-refill, zoom. Zume instead of Zoomify (no NeoForge build) | n/a |
 
 ### 5.2 Remaining candidates (not in unless you say so)
 

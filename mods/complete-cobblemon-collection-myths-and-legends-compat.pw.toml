@@ -1,0 +1,13 @@
+name = "Complete Cobblemon Collection"
+filename = "modccc-1.8.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qoL4kNxC/versions/rWyUftCW/modccc-1.8.4.jar"
+hash-format = "sha512"
+hash = "48c548cf50969b521dd6b2ee73a870ae2483944019131070e1e36c3976ebcca2c3e221a38e80e4feff00508f52536ebc4288cb83b6091341b40c59cf89857150"
+
+[update]
+[update.modrinth]
+mod-id = "qoL4kNxC"
+version = "rWyUftCW"
