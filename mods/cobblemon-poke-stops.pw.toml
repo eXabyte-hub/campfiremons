@@ -1,0 +1,13 @@
+name = "Cobblemon: Poke Stops"
+filename = "cobblemon_poke_stops-neoforge-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/HiwZaUgN/versions/wqu6aaC0/cobblemon_poke_stops-neoforge-1.0.0.jar"
+hash-format = "sha512"
+hash = "6cd1ab5639bf0b3f8d31b283c86f47ed8f345130a1edb2189366996703be39a13dd3a05cccb749b957e2cd0ad7f0c8f28fe5254a5e12c1e283dc6a9089a55482"
+
+[update]
+[update.modrinth]
+mod-id = "HiwZaUgN"
+version = "wqu6aaC0"

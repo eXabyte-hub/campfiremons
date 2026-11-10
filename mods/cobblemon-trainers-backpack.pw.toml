@@ -1,0 +1,13 @@
+name = "Cobblemon: Trainers Backpack"
+filename = "cobblemon_trainers_backpack-neoforge-1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/7m9uI5ma/versions/VvhgdIvC/cobblemon_trainers_backpack-neoforge-1.0.2.jar"
+hash-format = "sha512"
+hash = "b774b24a79ed98c8676e34a7b0998b969dc7359d15113be826ce40d3c055acf8736d28cb970ecaf56445a2cdcb84864455f465ee1895e7894c901dad20183b9d"
+
+[update]
+[update.modrinth]
+mod-id = "7m9uI5ma"
+version = "VvhgdIvC"

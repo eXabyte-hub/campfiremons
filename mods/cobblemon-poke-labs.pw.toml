@@ -1,0 +1,13 @@
+name = "Cobblemon : Poke Labs"
+filename = "cobblemon_poke_labs-neoforge-1.1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Wk0xZVPQ/versions/c7kh2H77/cobblemon_poke_labs-neoforge-1.1.2.jar"
+hash-format = "sha512"
+hash = "0f03d32d87d00691f748f8f45e38d4cf7ff2715abc28ffed238ebe844add7abaf4276e64c28903c74c7b96f908929ca4654d34c24fdbfb82846bb9c4a455beb1"
+
+[update]
+[update.modrinth]
+mod-id = "Wk0xZVPQ"
+version = "c7kh2H77"

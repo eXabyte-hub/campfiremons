@@ -84,6 +84,9 @@ CHESTS = (
     + [f"cobblemonextrastructures:chests/{c}" for c in
        ("berry", "burned_tower", "fishing", "generic_dungeon", "great_dungeon", "pharmacy", "snowpoint_regice",
         "snowpoint_regirock", "snowpoint_registeel", "suerebe")]
+    # Poké Labs (rare, 5 chests; the mod names its table in the minecraft namespace). Pokécenters and PokéStops are
+    # rest stops, so their chests stay out
+    + ["minecraft:chests/common_loot"]
     # Cobbleloots loot balls, opened per player (top-level tables only; their shared/* sub-tables would double-roll)
     + [f"cobbleloots:loot_ball/{c}" for c in
        ("azure", "citrine", "dive", "dusk", "great", "heal", "lure", "luxury", "master", "nest", "net", "poke",

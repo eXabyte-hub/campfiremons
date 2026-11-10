@@ -686,6 +686,10 @@
         },
         {
           "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/common_loot"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
           "loot_table_id": "cobbleloots:loot_ball/azure"
         },
         {

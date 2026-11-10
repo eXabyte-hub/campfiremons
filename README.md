@@ -36,6 +36,8 @@ Ask Jack for the address and to be added to the whitelist, then use **Multiplaye
 - **Gear unlocks by stage.** Better balls, Bottle Caps, TMs and the PokéNav can be crafted any time but only used
   once you reach their stage. Mega Bracelets, Z-Rings, Tera Orbs and other power items turn up in structure chests
   after the gym that unlocks them, and every player gets their own copy of the loot.
+- **Out in the world:** Pokécenters and PokéStops heal your team and have a PC; rare Poké Labs hold extra loot.
+  Sophisticated Backpacks can take PC and healing upgrades so you can do both on the go.
 - **Side activities:** Raid Dens open star by star as you progress, the Battle Tower opens at Stage 4, Ultra Space at
   Stage 6. The Master Ball is the Champion's reward.
 

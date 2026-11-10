@@ -1,0 +1,13 @@
+name = "Cobblemon : Simple Pokecenter's"
+filename = "cobblemon_simple_center-neoforge-1.2.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/9U50uRY3/versions/hiayoIKk/cobblemon_simple_center-neoforge-1.2.1.jar"
+hash-format = "sha512"
+hash = "cd7834cf74bb97f2f152aa64ba385412787c2f1592f7ac8777cace7bd7b5e2845167a5972b4f22d613d3fed5276611f20491e9e954ed6c4ac41f4f76080e9875"
+
+[update]
+[update.modrinth]
+mod-id = "9U50uRY3"
+version = "hiayoIKk"

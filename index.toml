@@ -654,43 +654,43 @@ hash = "2c19a47656b2d228974b735df5debf191d512af00b360d1b0e932598eb134446"
 
 [[files]]
 file = "kubejs/data/campfiremons/loot_modifiers/finds/ability_capsule.json"
-hash = "739ac5e310eacabadeb507feedac7d50a4de09647dbb49117e46b8e028d68cce"
+hash = "4315196fa679e692f26e585cebcb844c872466905934be5178514a1b13cf44c8"
 
 [[files]]
 file = "kubejs/data/campfiremons/loot_modifiers/finds/ability_patch.json"
-hash = "936da455a7c74624913fb48fe0b9cf03983e24c2170da5ccf581fccdffc7b01e"
+hash = "3e87d912d913013146719eaa2cfba950b91bb0a33cd6452d0785b9dd0b1ff185"
 
 [[files]]
 file = "kubejs/data/campfiremons/loot_modifiers/finds/blue_orb.json"
-hash = "7838839140364f1297c22e82fefd6b5ec70e70ae74ba58c68636b11b4b9a7a7e"
+hash = "3cae62186b5eb51b6e65bcd1d053028dae8e84fc17ff216d2bd9e955762bcd06"
 
 [[files]]
 file = "kubejs/data/campfiremons/loot_modifiers/finds/dynamax_band.json"
-hash = "0509a72efc2322bb9d4883f92be27e893f62e3b66d067912c56c125d99a9b0bc"
+hash = "ea1727ce617ee9348052633ba4809d12bf15f7085c843bb283b2da8fd0bacee8"
 
 [[files]]
 file = "kubejs/data/campfiremons/loot_modifiers/finds/mega_bracelet.json"
-hash = "7d6503bed08fa614678e71842095878de03322784fd9db245b98750fad6ec223"
+hash = "9d98a9f8160d749be8e09eea946cdf308e78bc80d55b12278a332f5bf1572818"
 
 [[files]]
 file = "kubejs/data/campfiremons/loot_modifiers/finds/red_orb.json"
-hash = "aa2217b53c49f28363f760caf34af2447f27e3acbe78481addd8384312ee39af"
+hash = "50bc72e1a74ea1d1dc1b4f919bf4cf706347ea8a660537dca1d97bb1b6acc026"
 
 [[files]]
 file = "kubejs/data/campfiremons/loot_modifiers/finds/rusted_shield.json"
-hash = "bdd8c7fff5022b5e400cc485024b1c2c1ea77182ff1aee312dc3f25fe78427e3"
+hash = "8f44b7c6a77ca48fc87dd85475d6ad5dca4b6ac6415dd641744b2db6ca5ba839"
 
 [[files]]
 file = "kubejs/data/campfiremons/loot_modifiers/finds/rusted_sword.json"
-hash = "a177f32f0511247c2f35ed5e1cc45362449569f53a71994d00276c9f96942b50"
+hash = "72463a8b83acf24ab8b4467bb822b71634e636a9ee549631ab12f03f5b525b6a"
 
 [[files]]
 file = "kubejs/data/campfiremons/loot_modifiers/finds/tera_orb.json"
-hash = "da9d849a7a7e29992d0bc856a766b48fad51e5f4c65f85329376c270be37112b"
+hash = "4a7e88d1b9ef0668373054f98e90b436697b748a0ff9f27dfcefc7de651d79d8"
 
 [[files]]
 file = "kubejs/data/campfiremons/loot_modifiers/finds/z_ring.json"
-hash = "3ecc5b135060fd6dc2f5608b531b1bab9763c44534ee6b267d49401263f1dc64"
+hash = "66887528c95b8dd4d9595940c9a33d00e02d1db8cf95232b84c003089564e686"
 
 [[files]]
 file = "kubejs/data/campfiremons/loot_table/finds/ability_capsule.json"
@@ -1677,6 +1677,16 @@ hash = "450920a4100688783500078850dde0ba777f790bdf5ac2d45c5938432ab75e50"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-poke-labs.pw.toml"
+hash = "2da84c3a9135a26bef213c772a1ef5a56f0203b46197b953d5364985e1ac88b7"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-poke-stops.pw.toml"
+hash = "3965a7c2662525949d3bbd13f5f5a2e3e79d2601c0de94e86d57b75b49100b76"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-pokenav.pw.toml"
 hash = "c2c87b9fe04066c049b3e5865232d50cc280e016d127df5c114abe69c9e5c05f"
 metafile = true
@@ -1692,6 +1702,11 @@ hash = "c15f2415da5aa18266fd90eb84309f24f575777ddbacfbec02a87754f5884b3d"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-simple-pokecenters.pw.toml"
+hash = "dd7a9d07ff20e2ed1d0ea5d7898f2e705a1547f6333ad11339cf448e0da88cce"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-spawn-notification.pw.toml"
 hash = "fe0ee8f09e149ca89124d74612871f47689657dfecd66706f863670ffc67c7fd"
 metafile = true
@@ -1699,6 +1714,11 @@ metafile = true
 [[files]]
 file = "mods/cobblemon-tim-core.pw.toml"
 hash = "5cb828ace2a58b8c186ed5591733e07a8bcb11ab61ed86d96052d1a1e5f57f53"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-trainers-backpack.pw.toml"
+hash = "8e982dc933d99540aed720fc4f4402d4d6cb00a37aad69c4098e04a7dd045822"
 metafile = true
 
 [[files]]
@@ -2209,6 +2229,16 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "2a001cdb3d5ac4970d422914083c27380eba8ebd40dfd435754fe6566ba78beb"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-backpacks.pw.toml"
+hash = "882a37f53c24ebad93b2fcd5feb972154f9c6df42d94e4b9282edfdafe595f41"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-core.pw.toml"
+hash = "9232af6b6fbd3a78bdcb640168966a36be6305f24bd2058f9e46c4fc1c8cb6bc"
 metafile = true
 
 [[files]]
