@@ -125,6 +125,8 @@ get the plain title screen with no FancyMenu setup prompts.
    ```
 3. CI (`.github/workflows/release.yml`) publishes the GitHub Release with the Prism zip and the server starter.
    Players get the update on their next Play, and the server on its next restart.
+   If no Release run appears under the repo's Actions tab, start it by hand: `gh workflow run release.yml --ref vX.Y.Z`.
+   (Pushes didn't start any workflow for this repo's first few hours; they have since.)
 
 Changing the Minecraft or NeoForge version also needs action outside the pack: players change the NeoForge version
 in Prism (**Edit → Version**) or re-import, and on the server `NEOFORGE_VERSION`/`NEOFORGE_SHA256` in
