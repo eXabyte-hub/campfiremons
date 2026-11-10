@@ -557,6 +557,10 @@ file = "config/inventoryprofilesnext/inventoryprofiles.json"
 hash = "bbac25f82abd53e0fff6c93104889b6f984bb59bda66a11dac6e47a7f816ddfc"
 
 [[files]]
+file = "config/terralith.json"
+hash = "de592f6eb46c9b12150d3eb3ac704ddb816dc361fefa7a827619cb0f84e6d204"
+
+[[files]]
 file = "defaultconfigs/rctmod-server.toml"
 hash = "b40eaa776bd701e4e1538b3783bcf9e1754cfd467180689afaac86f4fc6df5fa"
 
