@@ -41,8 +41,15 @@ def download_bootstrap():
     return data
 
 
+def ini_string(value):
+    # instance.cfg is read with Qt's INI rules: a value with quotes in it must be quoted as a whole, inner quotes
+    # escaped. Written bare, `"$INST_JAVA" -jar` loses the space after the quote and becomes `<java>-jar`.
+    return '"' + value.replace("\\", "\\\\").replace('"', '\\"') + '"'
+
+
 def prism_files(versions, bootstrap):
-    # $INST_JAVA is the instance's Java; Prism runs the command from the instance's minecraft/ folder
+    # $INST_JAVA is the instance's Java (quoted for paths with spaces); Prism runs the command from minecraft/
+    pre_launch = f'"$INST_JAVA" -jar packwiz-installer-bootstrap.jar {PACK_URL}'
     instance_cfg = "\n".join([
         "[General]",
         "ConfigVersion=1.3",
@@ -54,7 +61,7 @@ def prism_files(versions, bootstrap):
         "MinMemAlloc=2048",
         "MaxMemAlloc=8192",
         "OverrideCommands=true",
-        f'PreLaunchCommand="$INST_JAVA" -jar packwiz-installer-bootstrap.jar {PACK_URL}',
+        f"PreLaunchCommand={ini_string(pre_launch)}",
         "notes=Campfiremons updates itself from GitHub every time you press Play.",
         "",
     ])
