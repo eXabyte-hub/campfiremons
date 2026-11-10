@@ -15,3 +15,8 @@ First release for the group.
 - Raid Dens open by star tier, the Battle Tower at Stage 4, Ultra Space at Stage 6. Breeding is open from the start.
 - Quest book with one chapter per stage.
 - Vanilla passive mobs removed (frogs and bees stay); defeated Pokémon drop their materials instead.
+- Every Pokémon has a model (Complete Cobblemon Collection), and all 1,559 trainers have their own skin.
+- Shaders (Complementary Reimagined) and the mods' extra texture packs are on by default.
+- Quality of life: Mouse Tweaks, Jade, Controlling, Inventory Profiles Next (sort key) and Zume (zoom).
+
+Install with Prism: see the [README](https://github.com/eXabyte-hub/campfiremons#installing).
