@@ -284,7 +284,8 @@ Additions on top of the official pack. "1.8?" shows whether the addon's latest N
 | Oritech 1.2.13 | Late automation (not gated) | n/a |
 | Create addons: Cobblemon: Create Industries 1.5.0 (+ Cobblemore Lib), Klinks n Klangs 2.0.1, Berry Harvester 1.0, Crafts & Additions 1.7.2, Create Deco 2.1.3, Copycats+ 3.0.11 | Pokémon production lines, power, building (§4.7) | ⚠️ (Create Industries/Klinks/Berry Harvester predate Cobblemon 1.8) |
 | Complete Cobblemon Collection 1.8.4 (mod build) | Models, animations and spawns for the 34 species Cobblemon 1.8.4 has no model for (Paradox Pokémon, Celebi/Jirachi/Manaphy…, the Pawmi line, …), so trainer and raid Pokémon stop showing as stand-ins. Adds rare/ultra-rare wild Paradox and Ultra Beast spawns (tier-locked to Stage 6); no wild legendaries. All Rights Reserved, modpacks allowed without profit. It and Mega Showdown ship the same model files for ~74 legendaries/forms; Mega Showdown's must win (CCC's versions drop Calyrex riders, Ogerpon Tera, Deoxys colours and point at missing textures) | ✅ (1.8.4) |
-| Client QoL [F10]: Mouse Tweaks, Jade, Controlling (+ Searchables), Inventory Profiles Next (+ libIPN), Zume | Inventory dragging, look-at info (Cobblemon shows species/level), keybind search, sorting/auto-refill, zoom. Zume instead of Zoomify (no NeoForge build) | n/a |
+| Client QoL [F10]: Mouse Tweaks, Jade, Controlling (+ Searchables), Inventory Profiles Next (+ libIPN), Zume | Inventory dragging, look-at info (Cobblemon shows species/level), keybind search, sorting/auto-refill, zoom. Zume instead of Zoomify (no NeoForge build). IPN's button row is off (`config/inventoryprofilesnext/inventoryprofiles.json`, it overlapped other mods' buttons); sort with its key | n/a |
+| RCT Trainer Textures Plus 2.2 (resource pack, on by default) | Skins for all 1,559 RCT trainers, replacing RCT's plain defaults | n/a |
 
 ### 5.2 Remaining candidates (not in unless you say so)
 

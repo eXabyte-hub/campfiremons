@@ -450,7 +450,7 @@ hash = "70074e17491ae047e10c5a80458bf885c4ce8957bc27681a3b9db81a9f82975e"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "091b884d5cc514338c8b0423e17b206dcff806e281dd517ee73818d348fe0586"
+hash = "73977b7c45094a36bc54bacc047b3eb44423b4203460bfc4417a7c1749199b5b"
 
 [[files]]
 file = "config/fancymenu/options.txt"
@@ -551,6 +551,10 @@ hash = "79ddd6e3d43e2fbef2efd599125aff0117cb28d73eb25383e99d94a51d59643f"
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/file.snbt"
 hash = "e9a518d3457113955507520776f49e22e49ef5dfdcbaa228b4891942d6cd0b22"
+
+[[files]]
+file = "config/inventoryprofilesnext/inventoryprofiles.json"
+hash = "bbac25f82abd53e0fff6c93104889b6f984bb59bda66a11dac6e47a7f816ddfc"
 
 [[files]]
 file = "defaultconfigs/rctmod-server.toml"
@@ -2228,6 +2232,11 @@ metafile = true
 [[files]]
 file = "resourcepacks/better-leaves.pw.toml"
 hash = "eb0b5f269171cd5b891d9bdf2c5da89698e21a71ffec1172ead75bc19411cbdc"
+metafile = true
+
+[[files]]
+file = "resourcepacks/rct-trainer-textures-plus.pw.toml"
+hash = "8bd76c90d8c9b4d21e94bdb99ceee8e14d9a523b8e6cccf4ed64eaccdccc7852"
 metafile = true
 
 [[files]]
