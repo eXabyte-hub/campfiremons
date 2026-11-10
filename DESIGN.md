@@ -78,11 +78,11 @@ From RCT's Radical Red data, the first fight that uses each class:
 | 1 | Brock | 21 → 27 | none | Great Ball, evolution stones in loot, TRs |
 | 2 | Misty | 29 → 34 | none | **Megas**, **Bottle Caps**, **Breeding** (Cobbreeding), shop tier 2, Cobblenav |
 | 3 | Lt. Surge | 44 | none | **Ultra Ball** via a Create chain, Z-Moves (bonus), raids ★1–2 |
-| 4 | Erika | 46 → 59 | none | Refined Storage, raids ★3–4 |
+| 4 | Erika | 46 → 59 | none | raids ★3–4 |
 | 5 | Sabrina | 63 → 68 | **T1** sub-legends | TM crafting, Create egg incubation, specialty balls (Quick/Timer/Dusk…) |
-| 6 | Koga | 73 → 76 | **T2** UB + Paradox | Beast Ball, Ultra Space (Ultra-Beasts wormholes), Tera (bonus), Oritech |
+| 6 | Koga | 73 → 76 | **T2** UB + Paradox | Beast Ball, Ultra Space (Ultra-Beasts wormholes), Tera (bonus) |
 | 7 | Blaine | 79 → 81 | **T3** mythicals + **T4** box legends | Dynamax (bonus), raids ★5–6 |
-| 8 | Clair | 81 → 85 | all | **Primal orbs, Rusted Sword/Shield**, Ability Capsule/Patch, Oritech late tier, raids ★7 |
+| 8 | Clair | 81 → 85 | all | **Primal orbs, Rusted Sword/Shield**, Ability Capsule/Patch, raids ★7 |
 | 9 | Elite Four + Champion Terry (hub) | 100 | all | Battle Tower, one Master Ball per player (quest), endgame |
 
 - The **level cap is RCT's**, not ours: the ace level of your next unbeaten key trainer in the series (minimum 15). It rises with every key fight, including rivals and Team Rocket, so the "→" ranges show how it climbs within a stage.
@@ -206,12 +206,15 @@ Verified in the RCT 0.19.2-beta source: RCT already does both halves, so we conf
 | Cobblenav | Use-locked to S2 (PokéNav, PokéFinder, FishingNav) |
 | Battle Tower | S9 |
 
-### 4.7 Tech (light gating) [decided: Create + friends]
+### 4.7 Tech: no gating [decided, F6 batch 3]
 
-- **Create 6** + a couple of addons from S0. It's the backbone for ball, egg and candy production chains.
-- **Refined Storage 2** from S4 (the controller recipe needs a stage seal).
-- **Oritech** from S6, as the late automation tier.
-- No Mekanism, no AE2. One storage mod, not two.
+- Tech is open from the start; progression stays on the Pokémon side (the group doesn't rush tech).
+- **Create 6** with Pokémon production: Cobblemon: Create Industries (balls, candy, mochi on Create lines),
+  Klinks n Klangs (Cobblemon medicine/vitamins as fluids), Berry Harvester (harvesters pick Cobblemon berries).
+  Plus Crafts & Additions (electricity), Create Deco and Copycats+ (building).
+- **Refined Storage 2** for storage, **Oritech** as the late automation tier. No Mekanism, no AE2.
+- Ball use-locks still apply to Create-made balls. Create Industries' Master Ball recipe is removed (by id: it's a
+  Create sequenced-assembly recipe KubeJS may not read the output of).
 
 ### 4.8 World, mobs and gear [decided, F6]
 
@@ -277,8 +280,9 @@ Additions on top of the official pack. "1.8?" shows whether the addon's latest N
 | Cobbreeding 2.4.1 | Breeding | ✅ (needs ≥ 1.8.2) |
 | CobbleDollars 2.0.0-beta | Economy | ⚠️ (last build July 2026) |
 | Create 6.0.10 | Tech backbone | n/a |
-| Refined Storage 2.0.9 | Mid-game storage | n/a |
-| Oritech 1.2.13 | Late tech | n/a |
+| Refined Storage 2.0.9 | Storage (not gated) | n/a |
+| Oritech 1.2.13 | Late automation (not gated) | n/a |
+| Create addons: Cobblemon: Create Industries 1.5.0 (+ Cobblemore Lib), Klinks n Klangs 2.0.1, Berry Harvester 1.0, Crafts & Additions 1.7.2, Create Deco 2.1.3, Copycats+ 3.0.11 | Pokémon production lines, power, building (§4.7) | ⚠️ (Create Industries/Klinks/Berry Harvester predate Cobblemon 1.8) |
 
 ### 5.2 Remaining candidates (not in unless you say so)
 
@@ -361,7 +365,7 @@ This is studied from ATMons' `catch_restrictions.js`. The design is ours; no ATM
 
 - The host needs:
   - NeoForge 21.1.264
-  - **8–10 GB RAM** (Create + Oritech + about 110 mods)
+  - **10–12 GB RAM** (about 160 mods incl. Create, Oritech, Terralith/Tectonic worldgen)
   - SFTP access
   - an **editable startup command** for auto-updates (most Pterodactyl-based hosts allow this)
   - automatic backups
@@ -383,7 +387,7 @@ This is studied from ATMons' `catch_restrictions.js`. The design is ours; no ATM
 | F6 | Remaining addons, compatibility-tested in batches. Mega Showdown + ZA Megas first; batch 1 (Cobblemon content + QoL, 15 mods) done; worldgen (Terralith, Tectonic, Incendium, Nullscape, YUNG's, Dungeons Arise) done; batch 2 (SimpleTMs, Extra Structures, Ultra Wormholes, CobbleDollars) added; next, batch 3 (tech) | Clean launch with every chosen mod; `tools/check_deps.py` reports 0 missing |
 | F7 | Mechanic/raid/TM/breeding gating | Per the §4.6 table |
 | F8 | Economy shops gated | No above-stage purchases |
-| F9 | Tech gating (RS, Oritech) | |
+| F9 | ~~Tech gating~~ Dropped: tech is open from the start (§4.7) | |
 | F10 | Release pipeline + server + friend onboarding | A friend updates by pressing Play |
 
 ## 10. Open questions (not blocking F0/F1)

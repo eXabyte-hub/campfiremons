@@ -1366,7 +1366,7 @@ hash = "bd51db29fe13e5d94a4c43c3864a96c06c061e126e470305686f6164f0ad3537"
 
 [[files]]
 file = "kubejs/server_scripts/campfiremons/gimmick_items.js"
-hash = "aab079861a0aaccbf6c0d3e26561fd7806ec6d607aa98fc9e37d222590b67295"
+hash = "6d30e37b13e7f6fc3d1ffa4d67829116a5f6e2327de07fe8ec62cacccf61ce70"
 
 [[files]]
 file = "kubejs/server_scripts/campfiremons/item_locks.js"
@@ -1450,6 +1450,11 @@ metafile = true
 [[files]]
 file = "mods/balm.pw.toml"
 hash = "603cdc47142b5aa5729cbbf265a473574c9e2b55561de4318e9842d3d4b3b995"
+metafile = true
+
+[[files]]
+file = "mods/berryharvester.pw.toml"
+hash = "cd8450115156e357c9eccaabda05cc83f23780e88be02c810762ec5fc015050a"
 metafile = true
 
 [[files]]
@@ -1563,6 +1568,11 @@ hash = "ea90ecdd3906af5a4707df5ae1ad368ffb8fb627d59bad86f5ca58f7eaa696ea"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-create-industries.pw.toml"
+hash = "f920f707995d836b8d0629910557b08520d07d38bf16076098c90a99ac714d24"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-mega-showdown.pw.toml"
 hash = "450920a4100688783500078850dde0ba777f790bdf5ac2d45c5938432ab75e50"
 metafile = true
@@ -1613,6 +1623,11 @@ hash = "44925367c0bae557040f165930d0026911cdc1967bb8ac15b9d253d23aa0a221"
 metafile = true
 
 [[files]]
+file = "mods/cobblemore-library.pw.toml"
+hash = "b65f2b09d07b8db21de571c3353a8a2d3386aa0ee8b3f5abb00d736c3286910b"
+metafile = true
+
+[[files]]
 file = "mods/cobbleworkers.pw.toml"
 hash = "47421b05b6281bce597708c7202b3c9a40741b0f7fd4245a35c87ebef7553762"
 metafile = true
@@ -1633,6 +1648,11 @@ hash = "a38d72ca403e9064338be6e0cf69532768b0c1aba8f88703a8ce74c2734da522"
 metafile = true
 
 [[files]]
+file = "mods/copycats.pw.toml"
+hash = "b6b702e432d0a9089ab5ccbf0c83951f6afe1315822c668659b8b04e4f3b99f7"
+metafile = true
+
+[[files]]
 file = "mods/crafting-tweaks.pw.toml"
 hash = "b63999aa63a273098f42e22d8d5018c8617b8e2babdffc752d9aad3eefaaa76d"
 metafile = true
@@ -1640,6 +1660,21 @@ metafile = true
 [[files]]
 file = "mods/craftpresence.pw.toml"
 hash = "db9ad9b644149d3278deb6b6a2d7d39ad3ee3f93adf4a2054dd7145bed3bd9fb"
+metafile = true
+
+[[files]]
+file = "mods/create-deco.pw.toml"
+hash = "67a405e6307f900d168deaa954a4309c3b44a6025e4efd7b8e774b6f9d3a69cd"
+metafile = true
+
+[[files]]
+file = "mods/create.pw.toml"
+hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
+metafile = true
+
+[[files]]
+file = "mods/createaddition.pw.toml"
+hash = "e5052e0fcba9af1e3c6c0734829b441bc5a23012108bf203ca01825ca12ff6b1"
 metafile = true
 
 [[files]]
@@ -1788,6 +1823,11 @@ hash = "fe1354d34df356e42dbea734d30c44b46a4484dcd68a23045927277dafefab9d"
 metafile = true
 
 [[files]]
+file = "mods/klinksnklangs.pw.toml"
+hash = "d4e73044ef837c0e5c4cb06b35bec04d14acd3deca2b241a8718bcca21a9c3c3"
+metafile = true
+
+[[files]]
 file = "mods/konkrete.pw.toml"
 hash = "054a1887da4f14b791910660a2a7a2035ac1382461b881a65fe07b224c03735f"
 metafile = true
@@ -1908,6 +1948,11 @@ hash = "904c4adb3f8087a2c5381efd5d210183484934540372a5c839ab4790325e5cff"
 metafile = true
 
 [[files]]
+file = "mods/oritech.pw.toml"
+hash = "dbb2a2fc538df2577ac83d9eb0d7d4a67b15b3e2f1570ac380dacd79f8ddc0a4"
+metafile = true
+
+[[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "6514f98b34602b789fc2dbcafe7a67468d1c94d74965a0142a79b7ab23628a9a"
 metafile = true
@@ -1970,6 +2015,11 @@ metafile = true
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "8690379014fbba53059759936c7deb4d62aabc7a2006da3d45929dc582b119b7"
+metafile = true
+
+[[files]]
+file = "mods/refined-storage.pw.toml"
+hash = "aaf0d7287d0b48ed96307ffa1fd8bbe7a3d6bfc837be1e6ba42c09063b988e69"
 metafile = true
 
 [[files]]

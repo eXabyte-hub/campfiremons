@@ -1,0 +1,13 @@
+name = "Create: Klinks n' Klangs"
+filename = "create_klinks_n_klangs-2.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/AS2XNT4R/versions/UjgaVrQ3/create_klinks_n_klangs-2.0.1.jar"
+hash-format = "sha512"
+hash = "a750712860bad3c151041cbc5433d0a8e28d2e2714543480ba567390049375456d0b90842174d3950e9f053e15d2b41ff0389f0212e2a5e1b23fe69237f2adf9"
+
+[update]
+[update.modrinth]
+mod-id = "AS2XNT4R"
+version = "UjgaVrQ3"

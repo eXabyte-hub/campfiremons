@@ -31,6 +31,8 @@ ServerEvents.recipes(event => {
   event.remove({ output: 'cobblemon:ability_patch' })
   // The Master Ball is only ever the Champion's reward (Cobblemon ships a netherite/Nether Star recipe)
   event.remove({ output: 'cobblemon:master_ball' })
+  // Create Industries assembles one on a Create line; by id too, as KubeJS may not read Create recipe outputs
+  event.remove({ id: 'cobblemon_industries:sequenced_assembly/standard_balls/master_ball_rec' })
 
   // Cosmetic swaps: any bracelet/ring look from the base one and back, at a stonecutter
   let lookSets = [MEGA_BRACELETS, Z_RINGS]

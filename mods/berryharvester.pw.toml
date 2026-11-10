@@ -1,0 +1,13 @@
+name = "Berry Harvester"
+filename = "berryharvester-1.21.1-1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/wZks2uy6/versions/k4JGytTq/berryharvester-1.21.1-1.0.jar"
+hash-format = "sha512"
+hash = "04f8eb489e90571dcdb622819ff90af0db76b3ce41c2fa14ccdeb98ff64e882929b4e5da8cf8c7158c57858e3718892af63d81e5ea9042cda39c362f630068a7"
+
+[update]
+[update.modrinth]
+mod-id = "wZks2uy6"
+version = "k4JGytTq"
