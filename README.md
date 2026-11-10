@@ -10,7 +10,7 @@ You need [Prism Launcher](https://prismlauncher.org/) (Windows, macOS or Linux) 
 Minecraft Java Edition.
 
 1. Install Prism and sign in with your Microsoft account.
-2. Download `campfiremons-<version>-prism.zip` from the
+2. Download `Campfiremons.zip` from the
    [latest release](https://github.com/eXabyte-hub/campfiremons/releases/latest).
 3. In Prism: **Add Instance → Import**, pick the zip.
 4. Press **Play**. The first time, a window downloads about 165 mods, so give it a few minutes.

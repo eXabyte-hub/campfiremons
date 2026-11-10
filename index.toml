@@ -561,6 +561,10 @@ file = "defaultconfigs/rctmod-server.toml"
 hash = "b40eaa776bd701e4e1538b3783bcf9e1754cfd467180689afaac86f4fc6df5fa"
 
 [[files]]
+file = "kubejs/client_scripts/README.txt"
+hash = "8ee117ea4692da8eb01d6f1819019cc775fc16c8056838d9b9bf21fbbfeeddd3"
+
+[[files]]
 file = "kubejs/config/client.json"
 hash = "0aeb4cb329b896e33a0777a1683b0b813a6f2f0adc5bc2cf3e6d10e18e442fef"
 

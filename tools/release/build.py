@@ -1,6 +1,8 @@
 """Builds the release files into dist/ (CI runs this for every vX.Y.Z tag, see .github/workflows/release.yml):
 
-  campfiremons-<version>-prism.zip    Prism instance for players; on every Play it syncs the pack from the release branch
+  Campfiremons.zip                    Prism instance for players; on every Play it syncs the pack from the release branch.
+                                      No version in the name: Prism names the instance after the zip, and players see that
+                                      name (also in their Discord status via CraftPresence) long after the version changes
   campfiremons-<version>-server.zip   server starter: start.sh installs NeoForge once, syncs the pack, then starts
   release-notes.md                    this version's CHANGELOG.md section, for the GitHub Release
 
@@ -120,7 +122,7 @@ def main():
     bootstrap = download_bootstrap()
     DIST.mkdir(exist_ok=True)
     print(f"Campfiremons {version} (Minecraft {versions['minecraft']}, NeoForge {versions['neoforge']}):")
-    write_zip(DIST / f"campfiremons-{version}-prism.zip", prism_files(versions, bootstrap))
+    write_zip(DIST / "Campfiremons.zip", prism_files(versions, bootstrap))
     write_zip(DIST / f"campfiremons-{version}-server.zip", server_files(versions, bootstrap))
     (DIST / "release-notes.md").write_text(release_notes(version))
     print("  dist/release-notes.md")
