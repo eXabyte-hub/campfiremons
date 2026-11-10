@@ -2,6 +2,18 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.1
+
+Already playing? Just press Play: the pack updates itself.
+
+- Pokécenters and PokéStops out in the world, with a healing machine and a PC. Rare Poké Labs have extra loot
+  (including stage finds).
+- Sophisticated Backpacks, with Cobblemon upgrades: open your PC, heal your party (on a cooldown) or cook on the go.
+- Pokémon show as icons on the minimap.
+- Structures are spread out: about half as many on the surface, and a quarter as many When Dungeons Arise
+  dungeons. Areas you've already explored keep theirs.
+- Terralith's welcome message is gone.
+
 ## v0.1.0
 
 First release for the group.
