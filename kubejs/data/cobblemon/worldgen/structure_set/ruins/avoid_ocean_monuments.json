@@ -1,0 +1,19 @@
+{
+  "placement": {
+    "exclusion_zone": {
+      "chunk_count": 7,
+      "other_set": "minecraft:ocean_monuments"
+    },
+    "salt": 1615697744,
+    "separation": 45,
+    "spacing": 90,
+    "spread_type": "triangular",
+    "type": "minecraft:random_spread"
+  },
+  "structures": [
+    {
+      "structure": "cobblemon:ruins/submerged_forge_ruins",
+      "weight": 1
+    }
+  ]
+}

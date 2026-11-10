@@ -1,0 +1,23 @@
+{
+  "placement": {
+    "salt": 94221222,
+    "separation": 6,
+    "spacing": 24,
+    "spread_type": "triangular",
+    "type": "minecraft:random_spread"
+  },
+  "structures": [
+    {
+      "structure": "cobblemon:fishing_boat/warm_ocean",
+      "weight": 1
+    },
+    {
+      "structure": "cobblemon:fishing_boat/beach",
+      "weight": 1
+    },
+    {
+      "structure": "cobblemon:fishing_boat/deep_ocean",
+      "weight": 1
+    }
+  ]
+}

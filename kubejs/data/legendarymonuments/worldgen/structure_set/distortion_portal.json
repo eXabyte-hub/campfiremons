@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "legendarymonuments:distortion_portal",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 45789231,
+    "spacing": 22,
+    "separation": 8
+  }
+}
