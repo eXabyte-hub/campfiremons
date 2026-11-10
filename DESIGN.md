@@ -257,6 +257,7 @@ Additions on top of the official pack. "1.8?" shows whether the addon's latest N
 | Cobblemon Battle Extras | Battle UI QoL | 🟡 |
 | Cobblemon Armory 1.5.4, Mythic Upgrades 5.1.1 | Gear for hard structures (§4.8). Simply Swords was tried and dropped: didn't fit the theme | n/a |
 | Artifacts 13.2.5 + Reliquified Artifacts 1.0.9 + Relics 0.12.11 (+ Curios, OctoLib) | Levelling accessories found in dungeons (§4.8) | n/a |
+| Building: Framed Blocks, Handcrafted, Supplementaries + Amendments, Rechiseled (+ Rechiseled: Cobblemon, + Chipped compat, Fusion), Connected Glass, Building Gadgets 2 (CurseForge) | The group's ATMons building set, plus Cobblemon-block variants; alongside Chipped, CobbleFurnies and Legendary Monuments' block sets | n/a |
 | Terralith 2.6.2 + Tectonic 3.0.28 | Overworld biomes and terrain; all 95 Terralith biomes are in Cobblemon spawn tags (`tools/check_biomes.py`) | n/a |
 | Incendium 5.4.4, Nullscape 1.2.14 | Nether and End overhauls (End cities kept for Champion Terry) | n/a |
 | YUNG's Better Dungeons / Mineshafts / Strongholds / Nether Fortresses, When Dungeons Arise | Structures; their chests join the finds | n/a |
@@ -416,3 +417,5 @@ This is studied from ATMons' `catch_restrictions.js`. The design is ours; no ATM
 - Dungeons Arise: 2 advancements (find_thornborn_towers, find_fishing_hut) fail to load.
 - GeckoLib: Relics' animated tooltip frames aren't a multiple of the frame size.
 - Connector: "Couldn't load fabric:overlays metadata".
+- A structure's jigsaw processor references `minecraft:dirt_block` (not a real block); Legendary Monuments' traditional village has a missing start piece.
+- EMI can't deserialize Mythic Upgrades' `charged` effect stack; FTB Library warns about Artifacts' Mimic texture.
