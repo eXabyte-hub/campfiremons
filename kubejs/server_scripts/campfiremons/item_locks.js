@@ -23,14 +23,18 @@ function lockedStage(item) {
   return 0
 }
 
-function refuseIfLocked(event) {
-  let stage = lockedStage(event.item)
-  if (!stage) return
+// Refuses (and cancels) the event if the player is below the stage; name is what they tried to use
+function refuseBelow(event, stage, name) {
   let player = event.entity
   let helpers = global.campfiremons
   if (helpers.isBypassed(player) || helpers.playerStage(player) >= stage) return
-  helpers.deny(player, Text.red(event.item.hoverName.copy().append(` unlocks at Stage ${stage}.`)))
+  helpers.deny(player, Text.red(name.copy().append(` unlocks at Stage ${stage}.`)))
   event.cancel()
+}
+
+function refuseIfLocked(event) {
+  let stage = lockedStage(event.item)
+  if (stage) refuseBelow(event, stage, event.item.hoverName)
 }
 
 // Balls are thrown by using the item; caps and TMs are used in the air (party screen) or on a Pokémon.
@@ -38,4 +42,14 @@ function refuseIfLocked(event) {
 ItemEvents.rightClicked(refuseIfLocked)
 ItemEvents.entityInteracted(refuseIfLocked)
 
-console.info(`[campfiremons] item locks loaded (${Object.keys(LOCKED_AT).length} items, ${TAG_LOCKS.length} tags)`)
+// Blocks (config.js `blockLocks`), e.g. the Battle Tower
+let blockLocks = global.campfiremonsConfig.blockLocks
+let lockedBlocks = 0
+Object.keys(blockLocks).forEach(stage => {
+  blockLocks[stage].forEach(id => {
+    BlockEvents.rightClicked(id, event => refuseBelow(event, parseInt(stage), event.block.block.name))
+    lockedBlocks++
+  })
+})
+
+console.info(`[campfiremons] use-locks loaded (${Object.keys(LOCKED_AT).length} items, ${TAG_LOCKS.length} tags, ${lockedBlocks} blocks)`)

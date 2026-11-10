@@ -78,12 +78,12 @@ From RCT's Radical Red data, the first fight that uses each class:
 | 1 | Brock | 21 → 27 | none | Great Ball, evolution stones in loot, TRs |
 | 2 | Misty | 29 → 34 | none | **Megas**, **Bottle Caps**, **Breeding** (Cobbreeding), shop tier 2, Cobblenav |
 | 3 | Lt. Surge | 44 | none | **Ultra Ball** via a Create chain, Z-Moves (bonus), raids ★1–2 |
-| 4 | Erika | 46 → 59 | none | raids ★3–4 |
+| 4 | Erika | 46 → 59 | none | Battle Tower, raids ★3–4 |
 | 5 | Sabrina | 63 → 68 | **T1** sub-legends | TM crafting, Create egg incubation, specialty balls (Quick/Timer/Dusk…) |
 | 6 | Koga | 73 → 76 | **T2** UB + Paradox | Beast Ball, Ultra Space (Ultra-Beasts wormholes), Tera (bonus) |
 | 7 | Blaine | 79 → 81 | **T3** mythicals + **T4** box legends | Dynamax (bonus), raids ★5–6 |
 | 8 | Clair | 81 → 85 | all | **Primal orbs, Rusted Sword/Shield**, Ability Capsule/Patch, raids ★7 |
-| 9 | Elite Four + Champion Terry (hub) | 100 | all | Battle Tower, one Master Ball per player (quest), endgame |
+| 9 | Elite Four + Champion Terry (hub) | 100 | all | One Master Ball per player (direct reward), endgame |
 
 - The **level cap is RCT's**, not ours: the ace level of your next unbeaten key trainer in the series (minimum 15). It rises with every key fight, including rivals and Team Rocket, so the "→" ranges show how it climbs within a stage.
 - The cap limits **EXP** and **which Pokémon you can bring to any RCT trainer battle** (§4.2). It does **not** limit catching (§4.1).
@@ -191,7 +191,7 @@ Verified in the RCT 0.19.2-beta source: RCT already does both halves, so we conf
 - Shop stock unlocks per stage, using either per-player conditions in CobbleDollars' config (unverified) or one merchant per stage plus a KubeJS purchase check.
 - Shops must never sell above-stage items, or they would undo §4.3.
   - As built (F6 batch 2): CobbleDollars' default shop is kept (balls, healing, EXP items) because use-locks already stop players *using* above-stage balls/caps, the same as crafting. Only the Master Ball and Hisuian Origin Ball are removed: `tools/gen_shop.py` writes `config/cobbledollars/default_shop.json` (CobbleDollars reads that file, not its datapack template).
-  - The Battle Tower's BP shop keeps its Master Ball and Origin Ball as a post-game reward [decided]; both are use-locked to S9 anyway.
+  - The Battle Tower's BP shop keeps its Master Ball and Origin Ball [decided], raised to 200 BP each: a long-term goal, usable from S9 (use-locked).
   - Hisuian "ancient" balls are use-locked by their tier too (Great/Wing/Leaden S1, Ultra/Jet/Gigaton S3, Origin S9).
 
 ### 4.6 Battle mechanics & side systems
@@ -204,7 +204,7 @@ Verified in the RCT 0.19.2-beta source: RCT already does both halves, so we conf
 | TMs (SimpleTMs) | Use-locked by item tag: TRs (`#simpletms:tr_items`) S1, TMs (`#simpletms:tm_items`) S5 (`config.js` `itemTagLocks`) |
 | Breeding (Cobbreeding) [decided] | Basic breeding S2; Create-driven incubation S5 (a KubeJS recipe/machine tie-in) |
 | Cobblenav | Use-locked to S2 (PokéNav, PokéFinder, FishingNav) |
-| Battle Tower | S9 |
+| Battle Tower | S4, mid-game side activity [decided]: right-clicking the Holo Battle Tower is use-locked (`config.js` `blockLocks`). Its gated shop items stay use-locked (Master/Origin Ball S9, Ability Patch S8); Master and Origin Ball cost 200 BP (was 30) via `config/cobblemon_battle_tower/bp_shop_items.json` |
 
 ### 4.7 Tech: no gating [decided, F6 batch 3]
 
@@ -423,3 +423,4 @@ This is studied from ATMons' `catch_restrictions.js`. The design is ours; no ATM
 - Connector: "Couldn't load fabric:overlays metadata".
 - A structure's jigsaw processor references `minecraft:dirt_block` (not a real block); Legendary Monuments' traditional village has a missing start piece.
 - EMI can't deserialize Mythic Upgrades' `charged` effect stack; FTB Library warns about Artifacts' Mimic texture.
+- Recipe parse errors: Create Deco `placard`, Crafts & Additions `compat/jeed/shocking`, Create Industries `filling/standard_balls/azure_ball` (that one ball can't be filled on a Create line).

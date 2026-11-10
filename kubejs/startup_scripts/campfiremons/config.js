@@ -58,6 +58,10 @@ global.campfiremonsConfig = {
     // The Hisuian Origin Ball is the same guaranteed catch.
     9: ['cobblemon:master_ball', 'cobblemon:ancient_origin_ball'],
   },
+  // Use-locks on blocks: right-clicking one of these is refused below its stage
+  blockLocks: {
+    4: ['cobblemon_battle_tower:holo_battle_tower'], // mid-game side activity; its gated shop items stay use-locked
+  },
   // Same use-locks by item tag (for mods that register an item per move, like SimpleTMs)
   itemTagLocks: {
     1: ['simpletms:tr_items'], // single-use TRs

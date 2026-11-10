@@ -5,6 +5,10 @@ file = "config/cobbledollars/default_shop.json"
 hash = "29a27986ac6641cf5831d7ec3f0699e6d9dbd0d4feaf498d1a6364f3ba711374"
 
 [[files]]
+file = "config/cobblemon_battle_tower/bp_shop_items.json"
+hash = "490c6610c8ed3bcc8e3005ba5bc0a4688e2891b6b3f92f672917130d4a4f0f5f"
+
+[[files]]
 file = "config/defaultoptions/extra/config/ali/ali_common.json"
 hash = "5dd273c8c6244036694498c3046cff8a0a4da2d1d1156382401d8923bd47ea4b"
 
@@ -1370,7 +1374,7 @@ hash = "6d30e37b13e7f6fc3d1ffa4d67829116a5f6e2327de07fe8ec62cacccf61ce70"
 
 [[files]]
 file = "kubejs/server_scripts/campfiremons/item_locks.js"
-hash = "2b8ee0478dd982c6a402749530c4bb7a6a643912e5ff7351c6d8bde0c48587a3"
+hash = "0437d70add9b9dec4d45b59b6190d2636da80df1df98124947cf842931868736"
 
 [[files]]
 file = "kubejs/server_scripts/campfiremons/removed_mobs.js"
@@ -1386,7 +1390,7 @@ hash = "21687adb07bcb4ab7e4e1d40dc6c289621e8fa5603aa4a87248cbbc160e42aa5"
 
 [[files]]
 file = "kubejs/startup_scripts/campfiremons/config.js"
-hash = "fc5e79c53d7785cf7bba81016215d5d938496a97508f4ad814bcef51b97d62b9"
+hash = "c469b68a5ebb160618d5790195bbdfb3cf795a7dd409aa49af3b1767efaf6c14"
 
 [[files]]
 file = "kubejs/startup_scripts/campfiremons/tier_locks.js"
