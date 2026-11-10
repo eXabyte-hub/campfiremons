@@ -343,15 +343,16 @@ This is studied from ATMons' `catch_restrictions.js`. The design is ours; no ATM
 | Who | Path | Effort per update |
 |---|---|---|
 | Friends on **Prism** (recommended for everyone) | One-time import of a prepared instance whose **pre-launch hook** runs `packwiz-installer-bootstrap` against the repo's `release` branch | **Zero.** Press Play and it syncs |
-| Friends on **Modrinth App** | `.mrpack` from GitHub Releases, built by CI | Re-import per release |
+| Friends on **Modrinth App** | Not supported [decided, F10]: 9 mods are CurseForge-only, so a `.mrpack` would have to bundle (rehost) their jars. Switch to Prism | n/a |
 | Friends on **CurseForge app** | CF zip export is possible, but Modrinth-only mods complicate it | Not supported by default. Ask them to switch to Prism |
-| **Rented server** | Same bootstrap with `-s server` in the startup command, so it updates on restart. Fallback: CI builds a server zip and you upload it over SFTP | One restart |
+| **Rented server** | Server starter zip from the GitHub Release: `start.sh` installs NeoForge once, then runs the same bootstrap with `-s server` on every start. Fallback for hosts without a custom startup: `start.sh --sync-only` on your PC, then upload over SFTP | One restart |
 
 ### 7.3 Branches & release flow
 
 - `main` holds work in progress; your dev instance tracks it.
 - `release` is what friends and the server pull.
-- To ship: merge to `release` and tag `vX.Y.Z`. CI builds the `.mrpack` and server zip into a GitHub Release, and `CHANGELOG.md` gets a line.
+- To ship: merge to `release` and tag `vX.Y.Z`. CI (`tools/release/build.py`) builds the Prism instance zip and the server starter zip into a GitHub Release; neither holds mod jars. The version's `CHANGELOG.md` section becomes the release notes.
+- A check workflow fails on any push where `index.toml` is out of date, since players would hit hash mismatches.
 - Friends never see half-finished work.
 
 ### 7.4 Dev loop (your machine)
@@ -370,7 +371,7 @@ This is studied from ATMons' `catch_restrictions.js`. The design is ours; no ATM
   - an **editable startup command** for auto-updates (most Pterodactyl-based hosts allow this)
   - automatic backups
 - Everyone keeps **solo FTB Teams**. Joining a party shares quest progress, which would break "per-player unlocks".
-- Jack is op, with a whitelist.
+- Jack is op, with a whitelist. The starter's `server.properties` turns the whitelist and `allow-flight` on (Pokémon riding and Create contraptions get kicked for flying otherwise) and spawn protection off.
 - Client-only mods (Sodium, Iris, shaders, etc.) are marked client-side in packwiz so the server never downloads them.
 - The base pack includes **Sinytra Connector** (it runs Fabric mods on NeoForge). We keep it because the official pack depends on it, but prefer native NeoForge builds for everything we add.
 
@@ -388,7 +389,7 @@ This is studied from ATMons' `catch_restrictions.js`. The design is ours; no ATM
 | F7 | Mechanic/raid/TM/breeding gating. TMs done in F6; raid star tiers by stage; breeding left open | Per the §4.6 table |
 | F8 | Economy shops gated | No above-stage purchases |
 | F9 | ~~Tech gating~~ Dropped: tech is open from the start (§4.7) | |
-| F10 | Release pipeline + server + friend onboarding | A friend updates by pressing Play |
+| F10 | Release pipeline + server + friend onboarding. Prism instance zip + server starter built by CI per tag (no `.mrpack`, §7.2) | A friend updates by pressing Play |
 
 ## 10. Open questions (not blocking F0/F1)
 

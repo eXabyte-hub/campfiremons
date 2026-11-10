@@ -7,6 +7,33 @@ See `DESIGN.md` for the design brief (stages, gating, mod list, update path).
 This repo is a [packwiz](https://packwiz.infra.link/) pack. Mods are stored as small `.pw.toml`
 metadata files (download URL + hash), never as jars.
 
+## Playing (for the group)
+
+1. Install [Prism Launcher](https://prismlauncher.org/) and sign in with your Microsoft account.
+2. Download `campfiremons-<version>-prism.zip` from the
+   [latest release](https://github.com/eXabyte-hub/campfiremons/releases/latest).
+3. In Prism: **Add Instance → Import**, pick the zip.
+4. Press **Play**. The first time, a window downloads about 150 mods; after that, each Play only fetches what changed.
+
+- The instance asks for 8 GB of memory. With 16 GB of RAM or less, lower it to 6 GB in
+  **Edit → Settings → Java**.
+- The updater only manages the pack's own files: your options, resource packs and shaders are left alone.
+- You only import once. Updates arrive on Play, unless a release note says the Minecraft or NeoForge version changed.
+
+## Running the server
+
+The host needs Java 21, 10–12 GB of RAM, SFTP access and an editable startup command (DESIGN.md §8).
+
+1. Upload `campfiremons-<version>-server.zip` from the latest release and unzip it in the server folder (once).
+2. Set the startup command to `MEMORY=10G sh start.sh`, with `MEMORY` 1–2 GB below the plan's RAM.
+3. Start the server. `start.sh` installs NeoForge, syncs the pack, then the server stops to ask for the EULA:
+   set `eula=true` in `eula.txt` and start again.
+4. In the console: `op <you>`, then `whitelist add <name>` for each player (the whitelist is on by default).
+
+Every restart pulls the latest release. On a host without a custom startup command: unzip the starter on your PC,
+run `sh start.sh --sync-only` there (needs Java 21), upload the whole folder over SFTP, and set the host to start
+NeoForge's own `run.sh`. Repeat that for each update.
+
 ## Layout
 
 | Path | What |
@@ -16,6 +43,9 @@ metadata files (download URL + hash), never as jars.
 | `config/` | configs we ship; `config/defaultoptions/` holds the official pack's first-launch defaults |
 | `kubejs/` | our scripts (`startup_scripts/`, `server_scripts/`, `client_scripts/`) and datapack files |
 | `tools/` | dev scripts (not shipped to players, see `.packwizignore`) |
+| `tools/release/` | `build.py` (the release zips) and the server starter's `start.sh` |
+| `.github/workflows/` | `release.yml` publishes a GitHub Release per `vX.Y.Z` tag; `check.yml` fails on a stale `index.toml` |
+| `CHANGELOG.md` | one section per version, used as the release notes |
 
 ## Dev setup (once)
 
@@ -102,3 +132,22 @@ Official-pack overrides that are deliberately **not** included: the bundled tuto
 FancyMenu title-screen branding/assets, the CraftPresence (Discord status) config and the official tips pack.
 We ship only `config/fancymenu/options.txt`, with `modpack_mode` on and the editing overlay off, so players
 get the plain title screen with no FancyMenu setup prompts.
+
+## Releasing
+
+`main` is work in progress; players and the server pull the `release` branch.
+
+1. On `main`: bump `version` in `pack.toml`, add a `## vX.Y.Z` section to `CHANGELOG.md`, run `packwiz refresh`,
+   and commit. `python3 tools/release/build.py` builds the zips into `dist/` if you want to check them first.
+2. Ship it:
+   ```sh
+   git switch release && git merge --ff-only main && git tag vX.Y.Z
+   git push origin main release vX.Y.Z && git switch main
+   ```
+3. CI (`.github/workflows/release.yml`) publishes the GitHub Release with the Prism zip and the server starter.
+   Players get the update on their next Play, and the server on its next restart.
+
+Changing the Minecraft or NeoForge version also needs action outside the pack: players change the NeoForge version
+in Prism (**Edit → Version**) or re-import, and on the server `NEOFORGE_VERSION`/`NEOFORGE_SHA256` in
+`tools/release/server/start.sh` must be updated (`build.py` refuses to build until they match `pack.toml`), then the
+new `start.sh` uploaded.

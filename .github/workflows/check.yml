@@ -1,0 +1,23 @@
+# Fails when index.toml is out of date: players and the server would hit hash mismatches when they sync.
+# Fix locally with `packwiz refresh` and commit index.toml + pack.toml.
+name: Check
+
+on:
+  push:
+    branches: [main, release]
+  pull_request:
+
+jobs:
+  packwiz-index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: stable
+      - name: Install packwiz (the version the dev machine uses)
+        run: go install github.com/packwiz/packwiz@v0.0.0-20261014010756-170b22d78595
+      - name: index.toml matches the files
+        run: |
+          ~/go/bin/packwiz refresh
+          git diff --exit-code -- index.toml pack.toml
