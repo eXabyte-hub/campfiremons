@@ -2,7 +2,7 @@
 
 packwiz has no `modrinth import`, so this writes one .pw.toml per file from the
 pack's modrinth.index.json (URL, sha512, side), then you run `packwiz refresh`.
-Overrides are NOT copied; pick what you want by hand (see README).
+Overrides are NOT copied; pick what you want by hand (see DEVELOPMENT.md).
 
 Usage: python -I tools/import_mrpack.py <pack.mrpack> [--dry-run]
 """

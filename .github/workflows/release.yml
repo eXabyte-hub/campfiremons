@@ -1,5 +1,5 @@
 # Builds the Prism instance and server starter for a vX.Y.Z tag and publishes them as a GitHub Release.
-# Release flow: README.md "Releasing".
+# Release flow: DEVELOPMENT.md "Releasing".
 name: Release
 
 on:

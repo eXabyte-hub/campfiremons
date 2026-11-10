@@ -328,7 +328,7 @@ This is studied from ATMons' `catch_restrictions.js`. The design is ours; no ATM
 
 ```
 <pack>/                 git root, public GitHub
-  DESIGN.md README.md CHANGELOG.md
+  DESIGN.md README.md DEVELOPMENT.md CHANGELOG.md
   pack.toml index.toml  packwiz metadata
   mods/*.pw.toml        one file per mod (Modrinth or CurseForge source)
   config/               incl. config/ftbquests/quests/

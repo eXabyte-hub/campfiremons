@@ -1,5 +1,5 @@
 #!/bin/sh
-# Campfiremons server start (shipped in the server starter zip, see README.md "Running the server").
+# Campfiremons server start (shipped in the server starter zip, see DEVELOPMENT.md "Running the server").
 # On every start it:
 #   1. installs the NeoForge server, once per NeoForge version (checksum-verified),
 #   2. syncs mods and configs from the pack's release branch (packwiz-installer, server-side files only),
