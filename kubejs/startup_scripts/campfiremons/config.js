@@ -34,10 +34,11 @@ global.campfiremonsConfig = {
   // one of these below its stage is refused. Balls follow Cobblemon's own material tiers (tier_N_poke_ball_materials);
   // tier 1 balls (Poké, Premier, Heal, Safari, apricorn colour balls) are never locked.
   itemLocks: {
-    1: [ // tier 2 balls
+    1: [ // tier 2 balls (+ their Hisuian "ancient" equivalents)
       'cobblemon:great_ball', 'cobblemon:net_ball', 'cobblemon:dive_ball', 'cobblemon:nest_ball', 'cobblemon:level_ball',
       'cobblemon:lure_ball', 'cobblemon:heavy_ball', 'cobblemon:moon_ball', 'cobblemon:friend_ball', 'cobblemon:fast_ball',
       'cobblemon:sport_ball', 'cobblemon:park_ball',
+      'cobblemon:ancient_great_ball', 'cobblemon:ancient_wing_ball', 'cobblemon:ancient_leaden_ball',
     ],
     2: [ // Bottle Caps (parity: Radical Red trainers have perfect IVs); Withered caps lower IVs and stay free
       'obc:bottle_cap', 'obc:bottle_cap_hp', 'obc:bottle_cap_attack', 'obc:bottle_cap_defence',
@@ -45,14 +46,22 @@ global.campfiremonsConfig = {
       // Cobblenav's spawn finders
       'cobblenav:pokenav_item', 'cobblenav:pokenav_item_old', 'cobblenav:pokefinder_item', 'cobblenav:fishingnav_item',
     ],
-    3: [ // tier 3 balls
+    3: [ // tier 3 balls (+ ancient equivalents)
       'cobblemon:ultra_ball', 'cobblemon:quick_ball', 'cobblemon:dusk_ball', 'cobblemon:timer_ball',
       'cobblemon:repeat_ball', 'cobblemon:luxury_ball', 'cobblemon:love_ball',
+      'cobblemon:ancient_ultra_ball', 'cobblemon:ancient_jet_ball', 'cobblemon:ancient_gigaton_ball',
     ],
     6: ['cobblemon:dream_ball', 'cobblemon:beast_ball'], // tier 4 balls
     // Stage 8 finds, but Cobbleloots, Raid Dens and Legendary Monuments loot can drop them earlier
     8: ['cobblemon:ability_capsule', 'cobblemon:ability_patch'],
-    9: ['cobblemon:master_ball'], // the Champion's reward; its recipe is removed, but Cobbleloots can drop one
+    // The Champion's reward; its recipe is removed, but Cobbleloots and the (post-game) Battle Tower shop have them.
+    // The Hisuian Origin Ball is the same guaranteed catch.
+    9: ['cobblemon:master_ball', 'cobblemon:ancient_origin_ball'],
+  },
+  // Same use-locks by item tag (for mods that register an item per move, like SimpleTMs)
+  itemTagLocks: {
+    1: ['simpletms:tr_items'], // single-use TRs
+    5: ['simpletms:tm_items'], // reusable TMs
   },
 
   // Vanilla animals that never appear (Pokémon cover their drops; frogs and bees stay for Froglights and pollination).

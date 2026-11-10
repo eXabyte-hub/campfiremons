@@ -81,6 +81,9 @@ CHESTS = (
         "quartz_flats/kitchen_treasure", "quartz_flats/kitchen_extra_treasure", "reactor/office_treasure",
         "reactor/treasure", "sanctum/common_loot", "sanctum/lower_loot")]
     + [f"terralith:{c}" for c in ("mage/treasure", "spire/treasure", "underground/chest")]
+    + [f"cobblemonextrastructures:chests/{c}" for c in
+       ("berry", "burned_tower", "fishing", "generic_dungeon", "great_dungeon", "pharmacy", "snowpoint_regice",
+        "snowpoint_regirock", "snowpoint_registeel", "suerebe")]
     # Cobbleloots loot balls, opened per player (top-level tables only; their shared/* sub-tables would double-roll)
     + [f"cobbleloots:loot_ball/{c}" for c in
        ("azure", "citrine", "dive", "dusk", "great", "heal", "lure", "luxury", "master", "nest", "net", "poke",

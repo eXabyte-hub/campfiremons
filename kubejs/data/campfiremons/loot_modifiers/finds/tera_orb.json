@@ -646,6 +646,46 @@
         },
         {
           "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemonextrastructures:chests/berry"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemonextrastructures:chests/burned_tower"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemonextrastructures:chests/fishing"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemonextrastructures:chests/generic_dungeon"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemonextrastructures:chests/great_dungeon"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemonextrastructures:chests/pharmacy"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemonextrastructures:chests/snowpoint_regice"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemonextrastructures:chests/snowpoint_regirock"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemonextrastructures:chests/snowpoint_registeel"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cobblemonextrastructures:chests/suerebe"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
           "loot_table_id": "cobbleloots:loot_ball/azure"
         },
         {

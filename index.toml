@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/cobbledollars/default_shop.json"
+hash = "29a27986ac6641cf5831d7ec3f0699e6d9dbd0d4feaf498d1a6364f3ba711374"
+
+[[files]]
 file = "config/defaultoptions/extra/config/ali/ali_common.json"
 hash = "5dd273c8c6244036694498c3046cff8a0a4da2d1d1156382401d8923bd47ea4b"
 
@@ -634,43 +638,43 @@ hash = "2c19a47656b2d228974b735df5debf191d512af00b360d1b0e932598eb134446"
 
 [[files]]
 file = "kubejs/data/campfiremons/loot_modifiers/finds/ability_capsule.json"
-hash = "3281ad67e6739ed3a575a3dedd525bbbb89f13d06fbfdd2869a7cf2f6bac79f2"
+hash = "739ac5e310eacabadeb507feedac7d50a4de09647dbb49117e46b8e028d68cce"
 
 [[files]]
 file = "kubejs/data/campfiremons/loot_modifiers/finds/ability_patch.json"
-hash = "e296fbd8b774849829bd568d1d839a3f9de52bae0c3238f95deacc9be4ceb70b"
+hash = "936da455a7c74624913fb48fe0b9cf03983e24c2170da5ccf581fccdffc7b01e"
 
 [[files]]
 file = "kubejs/data/campfiremons/loot_modifiers/finds/blue_orb.json"
-hash = "d99996222f113144aff7fcb86542ad7a47b5c670b84ff3667dd577bd31d96b1f"
+hash = "7838839140364f1297c22e82fefd6b5ec70e70ae74ba58c68636b11b4b9a7a7e"
 
 [[files]]
 file = "kubejs/data/campfiremons/loot_modifiers/finds/dynamax_band.json"
-hash = "9481726a4085ff8fbe708e02902038669a7b8e71524db15a0c69bc495def0b23"
+hash = "0509a72efc2322bb9d4883f92be27e893f62e3b66d067912c56c125d99a9b0bc"
 
 [[files]]
 file = "kubejs/data/campfiremons/loot_modifiers/finds/mega_bracelet.json"
-hash = "5d0fe2b206719a3adca8e46b73a955609f496302f67b0fa9b0da250b21742645"
+hash = "7d6503bed08fa614678e71842095878de03322784fd9db245b98750fad6ec223"
 
 [[files]]
 file = "kubejs/data/campfiremons/loot_modifiers/finds/red_orb.json"
-hash = "34672ac8c1a6a0773f132ae444bf195d06e7b27614e05159962083cc686e1d77"
+hash = "aa2217b53c49f28363f760caf34af2447f27e3acbe78481addd8384312ee39af"
 
 [[files]]
 file = "kubejs/data/campfiremons/loot_modifiers/finds/rusted_shield.json"
-hash = "931caff63c45bc9b5e7f1b930d19702740995780fd6c30af1706ec527ae5de1d"
+hash = "bdd8c7fff5022b5e400cc485024b1c2c1ea77182ff1aee312dc3f25fe78427e3"
 
 [[files]]
 file = "kubejs/data/campfiremons/loot_modifiers/finds/rusted_sword.json"
-hash = "ede878df3ae124e131e3136a928320e66632ea58646ce87d57c9c5978202399e"
+hash = "a177f32f0511247c2f35ed5e1cc45362449569f53a71994d00276c9f96942b50"
 
 [[files]]
 file = "kubejs/data/campfiremons/loot_modifiers/finds/tera_orb.json"
-hash = "c74461065efc652ae9b0debc487407834f4dc2e32e33e20b5596a6c6ab5fe2bd"
+hash = "da9d849a7a7e29992d0bc856a766b48fad51e5f4c65f85329376c270be37112b"
 
 [[files]]
 file = "kubejs/data/campfiremons/loot_modifiers/finds/z_ring.json"
-hash = "ab768fce70ddc4fd8709e701c0ecf7be99e7f558a3dd830fe9693ab65950b43e"
+hash = "3ecc5b135060fd6dc2f5608b531b1bab9763c44534ee6b267d49401263f1dc64"
 
 [[files]]
 file = "kubejs/data/campfiremons/loot_table/finds/ability_capsule.json"
@@ -1366,11 +1370,15 @@ hash = "aab079861a0aaccbf6c0d3e26561fd7806ec6d607aa98fc9e37d222590b67295"
 
 [[files]]
 file = "kubejs/server_scripts/campfiremons/item_locks.js"
-hash = "868e0bb34aa740e9325c16dab333225f85d242566477a9a6084b4875f840dcce"
+hash = "2b8ee0478dd982c6a402749530c4bb7a6a643912e5ff7351c6d8bde0c48587a3"
 
 [[files]]
 file = "kubejs/server_scripts/campfiremons/removed_mobs.js"
 hash = "82a31e7780860d1805d84822171a350caf829035a00139f6282bf5dfc092ed7e"
+
+[[files]]
+file = "kubejs/server_scripts/campfiremons/ultra_space.js"
+hash = "2395ecddbc2710f39b7048ee37a0ae85ce65f7a4a49c87f835edb001377a1d5b"
 
 [[files]]
 file = "kubejs/startup_scripts/campfiremons/cobblemon_hooks.js"
@@ -1378,7 +1386,7 @@ hash = "21687adb07bcb4ab7e4e1d40dc6c289621e8fa5603aa4a87248cbbc160e42aa5"
 
 [[files]]
 file = "kubejs/startup_scripts/campfiremons/config.js"
-hash = "8de24ebbb13529b7a9ad1e02ec76582eac72671da962e1623422941cdf36a655"
+hash = "fc5e79c53d7785cf7bba81016215d5d938496a97508f4ad814bcef51b97d62b9"
 
 [[files]]
 file = "kubejs/startup_scripts/campfiremons/tier_locks.js"
@@ -1510,6 +1518,11 @@ hash = "2acaff560bbda5741538528a2967355ec86a8f7564adba0b2316989c66892374"
 metafile = true
 
 [[files]]
+file = "mods/cobbledollars.pw.toml"
+hash = "d06294493a8ca46bac5fffdcfcd0b7e76585c2795bfa4616f2e167a623e32566"
+metafile = true
+
+[[files]]
 file = "mods/cobblefurnies.pw.toml"
 hash = "6beb1d27bf94f370291a868c5c5470eb6aaab5f9990ce5d66f3eba0ea4a3fec8"
 metafile = true
@@ -1570,8 +1583,18 @@ hash = "5cb828ace2a58b8c186ed5591733e07a8bcb11ab61ed86d96052d1a1e5f57f53"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-ultra-beasts.pw.toml"
+hash = "d400233198d5a4592dd4fd97cc261da9ebdc0e6f26eb74f2228ac948b026c3c4"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon.pw.toml"
-hash = "63338ce7e20f31e1aef44bf82ea0377dc66ae2dfc5724ad4617e5212e09235e0"
+hash = "63b37b2043aef6c0f7196ea849fd0e60b2056933a1b496e9b0eb3f9ba4d14b56"
+metafile = true
+
+[[files]]
+file = "mods/cobblemonextrastructures.pw.toml"
+hash = "225afd4bdf5f89682d5ad9320216e64e9ae02270031c46e5b334d5fa42e1da60"
 metafile = true
 
 [[files]]
@@ -1741,7 +1764,7 @@ metafile = true
 
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
-hash = "712a69b3569a8055979de6eea262068535fe182dffb3833e53e5833e9cbf9766"
+hash = "1506a3d749a45bc760b3ad57ef1fbb959f0c166b6d1d4955114fd66db7a4855d"
 metafile = true
 
 [[files]]
@@ -1927,6 +1950,11 @@ metafile = true
 [[files]]
 file = "mods/shulkerboxtooltip.pw.toml"
 hash = "0bef7b3dd4758a661d3e6827bd390c12ff8a3ede4a66bb2e01e3c760f02bd509"
+metafile = true
+
+[[files]]
+file = "mods/simpletms-tms-and-trs-for-cobblemon.pw.toml"
+hash = "307a39080394cbe930be57e67fb8dae37601e8f0842da10da10977d261dac07d"
 metafile = true
 
 [[files]]
