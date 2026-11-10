@@ -530,7 +530,7 @@ hash = "fbbda959fb21b9f433dd40d5d1ef456aafbf6c23ef692fd6271d31daac9015eb"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/stage_5.snbt"
-hash = "0b1eb6c85e4844dd4c20ad2ce04845def4a1d9381a986ceaa7e4b3cf585c5a24"
+hash = "cfdeb4dd9da4321b9a4ac5428896530a9f3a317f5939126f5b51e30b4e0a1ce0"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/stage_6.snbt"
@@ -1374,7 +1374,7 @@ hash = "6d30e37b13e7f6fc3d1ffa4d67829116a5f6e2327de07fe8ec62cacccf61ce70"
 
 [[files]]
 file = "kubejs/server_scripts/campfiremons/item_locks.js"
-hash = "0437d70add9b9dec4d45b59b6190d2636da80df1df98124947cf842931868736"
+hash = "13c8df6de122fd82fc7294e1e88393b51793f65a2f2481c131c1eac499be6461"
 
 [[files]]
 file = "kubejs/server_scripts/campfiremons/removed_mobs.js"
@@ -1390,7 +1390,7 @@ hash = "21687adb07bcb4ab7e4e1d40dc6c289621e8fa5603aa4a87248cbbc160e42aa5"
 
 [[files]]
 file = "kubejs/startup_scripts/campfiremons/config.js"
-hash = "c469b68a5ebb160618d5790195bbdfb3cf795a7dd409aa49af3b1767efaf6c14"
+hash = "455ea94620e27a0ccd55f006c6a0c36593c79b328b9fbb3b1ae9983871b6c0ad"
 
 [[files]]
 file = "kubejs/startup_scripts/campfiremons/tier_locks.js"

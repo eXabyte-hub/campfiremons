@@ -74,14 +74,14 @@ From RCT's Radical Red data, the first fight that uses each class:
 
 | Stage | Reached by | Level cap while at this stage | Legend tier | Main unlocks |
 |---|---|---|---|---|
-| 0 | start | 15 | none | Poké Ball, apricorn basics, Create basics, Cobbleworkers basics |
-| 1 | Brock | 21 → 27 | none | Great Ball, evolution stones in loot, TRs |
-| 2 | Misty | 29 → 34 | none | **Megas**, **Bottle Caps**, **Breeding** (Cobbreeding), shop tier 2, Cobblenav |
-| 3 | Lt. Surge | 44 | none | **Ultra Ball** via a Create chain, Z-Moves (bonus), raids ★1–2 |
-| 4 | Erika | 46 → 59 | none | Battle Tower, raids ★3–4 |
-| 5 | Sabrina | 63 → 68 | **T1** sub-legends | TM crafting, Create egg incubation, specialty balls (Quick/Timer/Dusk…) |
-| 6 | Koga | 73 → 76 | **T2** UB + Paradox | Beast Ball, Ultra Space (Ultra-Beasts wormholes), Tera (bonus) |
-| 7 | Blaine | 79 → 81 | **T3** mythicals + **T4** box legends | Dynamax (bonus), raids ★5–6 |
+| 0 | start | 15 | none | Poké Ball, apricorn basics, Create basics, Cobbleworkers basics, breeding, raids ★1 |
+| 1 | Brock | 21 → 27 | none | Great Ball, evolution stones in loot, TRs, raids ★2 |
+| 2 | Misty | 29 → 34 | none | **Megas**, **Bottle Caps**, shop tier 2, Cobblenav |
+| 3 | Lt. Surge | 44 | none | **Ultra Ball** via a Create chain, Z-Moves (bonus), raids ★3 |
+| 4 | Erika | 46 → 59 | none | Battle Tower, raids ★4 |
+| 5 | Sabrina | 63 → 68 | **T1** sub-legends | TM crafting, specialty balls (Quick/Timer/Dusk…) |
+| 6 | Koga | 73 → 76 | **T2** UB + Paradox | Beast Ball, Ultra Space (Ultra-Beasts wormholes), Tera (bonus), raids ★5 |
+| 7 | Blaine | 79 → 81 | **T3** mythicals + **T4** box legends | Dynamax (bonus), raids ★6 |
 | 8 | Clair | 81 → 85 | all | **Primal orbs, Rusted Sword/Shield**, Ability Capsule/Patch, raids ★7 |
 | 9 | Elite Four + Champion Terry (hub) | 100 | all | One Master Ball per player (direct reward), endgame |
 
@@ -103,7 +103,6 @@ Label names verified against the Cobblemon 1.8.4 species data. Tier stages, labe
 
 **Sources once a tier is unlocked** [decided: all of them]:
 - Legendary Monuments shrines and summoning
-- Raid bosses (Raid Dens)
 - Ultra Space for T2 (Cobblemon Ultra-Beasts: rare wormholes to a one-Ultra-Beast dimension; entry is Stage 6+, below that the mod's void-fall return sends you home)
 - Rare wild spawns
 - Big quest rewards
@@ -123,7 +122,8 @@ Implemented as our own KubeJS hooks into Cobblemon's events (§6).
 - **Master Ball:** no special catching rule, and it can't get around tier locks.
 - **Trading: trust the group** [decided]. You can trade a legendary to someone without the unlock, and they can use it outside gym battles. Only catching and wild battles check tiers.
 - An **admin bypass**: the hidden `campfiremons:bypass` advancement. Creative mode is deliberately *not* a bypass, so locks can be tested in creative.
-- Known gaps to check: Raid Dens and Legendary Monuments may run their own capture flow that skips the normal ball-hit event. Where they do, we gate access to the content (raid star tier, wormhole entry, summon item) instead.
+- Other capture flows: where a mod catches without a thrown ball, we gate access to the content instead (raid star tier, wormhole entry, summon item).
+  - Raid Dens [checked, F7]: after a win, a reward screen catches the boss with the ball in your main hand. The ball only sets which ball it lives in (the catch rate comes from the star tier's config), so ball use-locks don't matter there. Its bosses are ordinary species: there are no legendary bosses in Raid Dens 0.13.5.
 
 ### 4.2 Level cap: trainers and EXP (handled by RCT)
 
@@ -200,9 +200,9 @@ Verified in the RCT 0.19.2-beta source: RCT already does both halves, so we conf
 |---|---|
 | Megas / Z-Moves / Tera / Dynamax (Mega Showdown) | S2 / S3 / S6 / S7: the enabler (Mega Bracelet, Z-Ring, Tera Orb, Dynamax Band) becomes findable at that stage and can't be crafted. Megas are parity; the other three are player-only bonuses |
 | Primal Reversion, Crowned forms | S8 finds (Red/Blue Orb, Rusted Sword/Shield) |
-| Raid Dens | Star tiers by stage (config or KubeJS) |
+| Raid Dens | Star tiers by stage [decided, F7], matched to boss level vs. the level cap: ★1 from the start, ★2 S1, ★3 S3, ★4 S4, ★5 S6 (★6 S7, ★7 S8 have no bosses in 0.13.5). Right-clicking a den crystal above your stage is refused, which covers hosting and join requests (`config.js` `raidTierLocks`). Rewards need no extra gate: Ability Capsule/Patch (★4+/★5+) are use-locked and candies respect the EXP cap |
 | TMs (SimpleTMs) | Use-locked by item tag: TRs (`#simpletms:tr_items`) S1, TMs (`#simpletms:tm_items`) S5 (`config.js` `itemTagLocks`) |
-| Breeding (Cobbreeding) [decided] | Basic breeding S2; Create-driven incubation S5 (a KubeJS recipe/machine tie-in) |
+| Breeding (Cobbreeding) | Not gated [decided, F7]: open from the start. Create-driven incubation dropped (Cobbreeding hatches eggs in your inventory, and tech isn't gated) |
 | Cobblenav | Use-locked to S2 (PokéNav, PokéFinder, FishingNav) |
 | Battle Tower | S4, mid-game side activity [decided]: right-clicking the Holo Battle Tower is use-locked (`config.js` `blockLocks`). Its gated shop items stay use-locked (Master/Origin Ball S9, Ability Patch S8); Master and Origin Ball cost 200 BP (was 30) via `config/cobblemon_battle_tower/bp_shop_items.json` |
 
@@ -265,7 +265,7 @@ Additions on top of the official pack. "1.8?" shows whether the addon's latest N
 | Incendium 5.4.4, Nullscape 1.2.14 | Nether and End overhauls (End cities kept for Champion Terry) | n/a |
 | YUNG's Better Dungeons / Mineshafts / Strongholds / Nether Fortresses, When Dungeons Arise | Structures; their chests join the finds | n/a |
 | Lootr 1.11.38 + Lootrmon 0.0.0.3 | Per-player chest loot, so stage finds are fair in multiplayer (Lootrmon covers Cobblemon's gilded chests) | n/a / ⚠️ (Lootrmon predates 1.8) |
-| Cobblemon Raid Dens 0.13.5 | Co-op raids, legendary source | 🟡 |
+| Cobblemon Raid Dens 0.13.5 | Co-op raids, ★1–5 bosses (no legendaries) | 🟡 |
 | SimpleTMs 2.3.3 | TMs/TRs | ⚠️ |
 | Cobblemon Battle Tower 1.11 | Endgame | 🟡 |
 | Legendary Monuments 8.2 | Shrines/summoning | ✅ (says 1.8.1) |
@@ -385,7 +385,7 @@ This is studied from ATMons' `catch_restrictions.js`. The design is ours; no ATM
 | F4 | Stage-aware loot tables | Early chests give no top-tier items |
 | F5 | Gym wins grant stages via RCT's `rctmod:defeat_count` trigger (done). Quest book skeleton: one FTB Quests chapter per stage, generated once by `tools/gen_quests.py`, then edited in game (Cobblemon Quests Reloaded for Pokémon tasks) | Beating Brock grants Stage 1; quests auto-complete from stage/found advancements |
 | F6 | Remaining addons, compatibility-tested in batches. Mega Showdown + ZA Megas first; batch 1 (Cobblemon content + QoL, 15 mods) done; worldgen (Terralith, Tectonic, Incendium, Nullscape, YUNG's, Dungeons Arise) done; batch 2 (SimpleTMs, Extra Structures, Ultra Wormholes, CobbleDollars) added; next, batch 3 (tech) | Clean launch with every chosen mod; `tools/check_deps.py` reports 0 missing |
-| F7 | Mechanic/raid/TM/breeding gating | Per the §4.6 table |
+| F7 | Mechanic/raid/TM/breeding gating. TMs done in F6; raid star tiers by stage; breeding left open | Per the §4.6 table |
 | F8 | Economy shops gated | No above-stage purchases |
 | F9 | ~~Tech gating~~ Dropped: tech is open from the start (§4.7) | |
 | F10 | Release pipeline + server + friend onboarding | A friend updates by pressing Play |
@@ -395,7 +395,7 @@ This is studied from ATMons' `catch_restrictions.js`. The design is ours; no ATM
 1. ~~Pack name~~ Decided: Campfiremons (`campfiremons`).
 2. Which rented host (see the requirements in §8).
 3. Final cap numbers and the T4 list, after we see RCT's trainer levels.
-4. Should Master Ball be the S9 reward only, or also a rare raid ★7 drop?
+4. ~~Should Master Ball be the S9 reward only, or also a rare raid ★7 drop?~~ S9 reward only (plus the Battle Tower shop at 200 BP); Raid Dens has no ★7 bosses and its rewards hold no Master Balls.
 8. ~~Gym cap: scale or refuse?~~ Decided by RCT: it refuses (§4.2).
 9. After F6: is boxing over-cap Pokémon annoying enough to justify a companion mod for scaling (§4.2)?
 5. Who builds the hub town (you, or a schematic)?
@@ -407,7 +407,7 @@ This is studied from ATMons' `catch_restrictions.js`. The design is ours; no ATM
 - **FTB Quests via packwiz:** it's CurseForge-only. If its authors disallow third-party downloads, packwiz-installer would make friends download it by hand. Check in F0.
 - **1.7-era addons on Cobblemon 1.8.4** (the ⚠️ rows): test in batches in F6, starting with the ones F1 depends on (none).
 - ~~Cobblemon event API in 1.8.4~~ Verified in F1 against the 1.8.4 jar and source (event classes, the subscribe overload, labels, cancel behaviour).
-- **Capture flows** in Raid Dens and Legendary Monuments may bypass ball-hit events (§4.1).
+- **Capture flows** in Legendary Monuments may bypass ball-hit events (§4.1). Raid Dens checked in F7: no legendary bosses, and the gate is the star tier.
 - ~~How a gym defeat reaches FTB Quests~~ Solved in F5: our stage advancements use RCT's own `rctmod:defeat_count` trigger, and quests watch the stage advancements.
 - ~~Telling gym/League trainers apart in code~~ Not needed: RCT caps every trainer battle (§4.2).
 - ~~RR trainers carry Mega Stones and Primal orbs~~ Verified with Mega Showdown 1.3.3: RR trainer data names `mega_showdown:` items with a plain-item fallback (Manectite, else Expert Belt), RCT's AI picks Mega/Tera/Z/Dynamax whenever Showdown offers it, and trainers need no Mega Bracelet. A test trainer's Manectric Mega Evolved and its Kyogre went Primal (`tools/testpacks/`).

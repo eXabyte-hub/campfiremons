@@ -62,6 +62,17 @@ global.campfiremonsConfig = {
   blockLocks: {
     4: ['cobblemon_battle_tower:holo_battle_tower'], // mid-game side activity; its gated shop items stay use-locked
   },
+  // Raid Dens star tiers (block-state value of `raid_tier` on cobblemonraiddens:raid_crystal_block): hosting or
+  // joining a raid above your stage is refused. Matched to each tier's boss level against the level cap (§3.3);
+  // ★1 dens are always open. Raid Dens 0.13.5 only has ★1–5 bosses; ★6–7 are here in case some get added.
+  raidTierLocks: {
+    1: ['tier_two'], // Lv 20 bosses
+    3: ['tier_three'], // Lv 35
+    4: ['tier_four'], // Lv 45
+    6: ['tier_five'], // Lv 75
+    7: ['tier_six'], // Lv 75
+    8: ['tier_seven'], // Lv 100
+  },
   // Same use-locks by item tag (for mods that register an item per move, like SimpleTMs)
   itemTagLocks: {
     1: ['simpletms:tr_items'], // single-use TRs

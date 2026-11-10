@@ -1,7 +1,7 @@
 // Use-locks (DESIGN.md §4.3): balls, Bottle Caps, TMs and other items can be crafted (and automated) freely, but
 // throwing or using one above your stage is refused and the item isn't used up. The lists are config.js
 // `itemLocks` (by id) and `itemTagLocks` (by item tag); stage and message helpers come from
-// startup_scripts/campfiremons/tier_locks.js.
+// startup_scripts/campfiremons/tier_locks.js. Blocks and Raid Den star tiers are locked the same way.
 
 const LOCKED_AT = {}
 let itemLocks = global.campfiremonsConfig.itemLocks
@@ -52,4 +52,21 @@ Object.keys(blockLocks).forEach(stage => {
   })
 })
 
-console.info(`[campfiremons] use-locks loaded (${Object.keys(LOCKED_AT).length} items, ${TAG_LOCKS.length} tags, ${lockedBlocks} blocks)`)
+// Raid Den crystals (config.js `raidTierLocks`): every den is the same block, with its star tier in the block state.
+// Hosting and join requests both start from right-clicking the crystal.
+const RAID_TIER_LOCKED_AT = {}
+let raidTierLocks = global.campfiremonsConfig.raidTierLocks
+Object.keys(raidTierLocks).forEach(stage => {
+  raidTierLocks[stage].forEach(tier => { RAID_TIER_LOCKED_AT[tier] = parseInt(stage) })
+})
+const RAID_STARS = {
+  tier_one: '★', tier_two: '★★', tier_three: '★★★', tier_four: '★★★★', tier_five: '★★★★★',
+  tier_six: '★★★★★★', tier_seven: '★★★★★★★',
+}
+BlockEvents.rightClicked('cobblemonraiddens:raid_crystal_block', event => {
+  let tier = String(event.block.properties.get('raid_tier'))
+  let stage = RAID_TIER_LOCKED_AT[tier]
+  if (stage) refuseBelow(event, stage, Text.of(`${RAID_STARS[tier]} raids`))
+})
+
+console.info(`[campfiremons] use-locks loaded (${Object.keys(LOCKED_AT).length} items, ${TAG_LOCKS.length} tags, ${lockedBlocks} blocks, ${Object.keys(RAID_TIER_LOCKED_AT).length} raid tiers)`)

@@ -103,7 +103,7 @@ GOALS = {
 HINTS = {
     0: "Cobblemon ruins and shipwreck coves hide gilded chests; every structure chest is rolled for you alone.",
     2: "Mega Showdown's archaeological sites, observatories and the Wishing Weald hold Mega Stones and more.",
-    5: "Legendaries appear as rare spawns; shrines and raids join later in the pack.",
+    5: "Legendaries appear as rare spawns and at Legendary Monuments shrines.",
 }
 
 
