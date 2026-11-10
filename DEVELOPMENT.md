@@ -85,8 +85,9 @@ packwiz cf add <curseforge-slug>      # only if the mod isn't on Modrinth
 packwiz update <name>                 # bump one mod
 ```
 
-Resource packs we turn on by default are listed by file name in `config/defaultoptions/options.txt`
-(`resourcePacks`, applied on a player's first launch). After `packwiz update` renames one (e.g. the RCT trainer skins,
+Resource packs we turn on by default (our `resourcepacks/` files and mods' built-in packs such as Cobblemon's
+Magikarp Jump and regional forms) are listed in `config/defaultoptions/options.txt` (`resourcePacks`, applied on a
+player's first launch; easiest to copy from the dev instance's `options.txt` after enabling them in game). After `packwiz update` renames one (e.g. the RCT trainer skins,
 `RCT Trainers+ [1.7] v2.2.zip`), update that entry too. The default shader pack works the same way: `shaderPack` in
 `config/defaultoptions/extra/config/iris.properties` (currently `ComplementaryReimagined_r5.9.3.zip`).
 

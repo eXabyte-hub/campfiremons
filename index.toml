@@ -450,7 +450,7 @@ hash = "70074e17491ae047e10c5a80458bf885c4ce8957bc27681a3b9db81a9f82975e"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "73977b7c45094a36bc54bacc047b3eb44423b4203460bfc4417a7c1749199b5b"
+hash = "bce7bd644cbf1b12243aa776f83287e235ea7df177b39202a9c20c2ab1c97049"
 
 [[files]]
 file = "config/fancymenu/options.txt"
