@@ -158,7 +158,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/defaultoptions/extra/config/iris.properties"
-hash = "c891a17eba47549cda58e6e253be49ac0b3a5142b8a6c47136cd7da88fccc32b"
+hash = "930833e1ff8eac1618f9ae422e65eeafca9740cc0a289431696c2951a4071560"
 
 [[files]]
 file = "config/defaultoptions/extra/config/jeed-client.toml"

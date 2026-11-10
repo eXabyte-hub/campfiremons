@@ -44,8 +44,8 @@ Ask Jack for the address and to be added to the whitelist, then use **Multiplaye
 - **The first Play stops with an error about the pre-launch command:** press Play again.
 - **Memory:** the instance asks for 8 GB. With 16 GB of RAM or less, lower it to 6 GB in
   **Edit → Settings → Java**.
-- **Shaders** are included but not selected: pick Complementary Reimagined under
-  **Options → Video Settings → Shader Packs**.
+- **Shaders** (Complementary Reimagined) are on by default. On a weaker PC, press **K** to toggle them, or turn them
+  off under **Options → Video Settings → Shader Packs**.
 - **Your own files are safe.** The updater only touches the pack's own files, so your settings, resource packs and
   shaders stay as you left them.
 - **Sorting:** hover over an inventory and press the sort key. Find or change it in Inventory Profiles Next's

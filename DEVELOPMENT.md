@@ -87,7 +87,8 @@ packwiz update <name>                 # bump one mod
 
 Resource packs we turn on by default are listed by file name in `config/defaultoptions/options.txt`
 (`resourcePacks`, applied on a player's first launch). After `packwiz update` renames one (e.g. the RCT trainer skins,
-`RCT Trainers+ [1.7] v2.2.zip`), update that entry too.
+`RCT Trainers+ [1.7] v2.2.zip`), update that entry too. The default shader pack works the same way: `shaderPack` in
+`config/defaultoptions/extra/config/iris.properties` (currently `ComplementaryReimagined_r5.9.3.zip`).
 
 Modrinth/CurseForge dependency lists can be incomplete (Chipped needs Resourceful Lib and Athena but doesn't say so).
 After adding mods and syncing the dev instance, check what the jars themselves require before launching:
