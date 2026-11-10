@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "cobblemonextrastructures:snowpoint_temple",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 22052009,
+    "spacing": 62,
+    "separation": 56
+  }
+}

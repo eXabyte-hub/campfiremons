@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "cobblemonextrastructures:sprout_tower",
+      "weight": 3
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 2651792,
+    "spacing": 38,
+    "separation": 31
+  }
+}

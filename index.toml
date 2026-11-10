@@ -1385,6 +1385,86 @@ file = "kubejs/data/cobblemonarmory/species_additions/wartortle.json"
 hash = "8cead6cca9b8a9fd741ca74035fcdc20de0727c6cae3e457174696c2ce74e7f2"
 
 [[files]]
+file = "kubejs/data/cobblemonextrastructures/worldgen/structure_set/ancient_tomb.json"
+hash = "82b09cba988f737d277596c0b67f45cf35002d0edb41a01b6e73c1ddd8520b82"
+
+[[files]]
+file = "kubejs/data/cobblemonextrastructures/worldgen/structure_set/bell_tower.json"
+hash = "e2acdcda4de88d7eaab96e9c83e168854b3f536a9988518869b2d51db5192d2f"
+
+[[files]]
+file = "kubejs/data/cobblemonextrastructures/worldgen/structure_set/berry_house.json"
+hash = "99390b7bb36d7014e5fc1f1d7c429aede7cca851abe057023dc7ee12a066232f"
+
+[[files]]
+file = "kubejs/data/cobblemonextrastructures/worldgen/structure_set/burned_tower.json"
+hash = "73ebec99e0929e9b3daf5b19e9a8bd18c532908f5e7dcc03e80241781ee9b492"
+
+[[files]]
+file = "kubejs/data/cobblemonextrastructures/worldgen/structure_set/desert_ruins.json"
+hash = "cd04735721438b550a7904e8c010a53f1181b639a89b9de0cb189d69fd52f190"
+
+[[files]]
+file = "kubejs/data/cobblemonextrastructures/worldgen/structure_set/dragons_den.json"
+hash = "67bb3723fea076a3bf4905b1b616a7a5bdb4deaed491e6c78f5715b0dc7d0a52"
+
+[[files]]
+file = "kubejs/data/cobblemonextrastructures/worldgen/structure_set/fishing_hut.json"
+hash = "e1ef4dfbac273d3c26ae3e4430bc76521162e1287ff8b076ce68505cede42161"
+
+[[files]]
+file = "kubejs/data/cobblemonextrastructures/worldgen/structure_set/island_cave.json"
+hash = "ec54ccb5bddcd08d01a84fc0e54a5df21e6e9a2e871b0032416b4ad455b2c08b"
+
+[[files]]
+file = "kubejs/data/cobblemonextrastructures/worldgen/structure_set/kurt_house.json"
+hash = "20b22fc2b09a4365638d8471a14114f53569023dba49effb6daa389a26090b2e"
+
+[[files]]
+file = "kubejs/data/cobblemonextrastructures/worldgen/structure_set/origin_cave.json"
+hash = "cb9ba82ac5a1481e44348557872873ee833432fbaf04c21426781eb07018a70f"
+
+[[files]]
+file = "kubejs/data/cobblemonextrastructures/worldgen/structure_set/origin_tomb.json"
+hash = "c016216f62655c505c2df49e600b190d7dc758c608d17a3c6d04f2e56ed61180"
+
+[[files]]
+file = "kubejs/data/cobblemonextrastructures/worldgen/structure_set/outskirt_stand.json"
+hash = "b31e5710ba21c31eb7938030de0c98ae6ed3d73154b8bd1eee08f670d22463c9"
+
+[[files]]
+file = "kubejs/data/cobblemonextrastructures/worldgen/structure_set/pharmacy.json"
+hash = "10a13cfc66b8f335d365a07cd1532817fe4408b58f0fdb13e93e3c4b7ac6dc5a"
+
+[[files]]
+file = "kubejs/data/cobblemonextrastructures/worldgen/structure_set/sea_mauville.json"
+hash = "3913f7b0bf1813839d6fba85e0ac5ae13d3d93280a407d36c62fc986e0565546"
+
+[[files]]
+file = "kubejs/data/cobblemonextrastructures/worldgen/structure_set/sky_pillar.json"
+hash = "1d3c37fc5649512b3c4b043bd5051c304c2afd832b045a5d09a8a6ec89316d40"
+
+[[files]]
+file = "kubejs/data/cobblemonextrastructures/worldgen/structure_set/snowpoint_temple.json"
+hash = "b88cd792be4f55ee7870320ad04d46c5f1010a05beeca888f0068be57d5071d1"
+
+[[files]]
+file = "kubejs/data/cobblemonextrastructures/worldgen/structure_set/sprout_tower.json"
+hash = "3f8a4b5d6dcaf40ec439cc816d7eb140e9cc1c9fc965d3816a82dd3363c70819"
+
+[[files]]
+file = "kubejs/data/cobblemonextrastructures/worldgen/structure_set/suerebe.json"
+hash = "618436445a6d1cef42f0f4d4c9a155c399f4dca21d0d3043c63ef62212302522"
+
+[[files]]
+file = "kubejs/data/dungeons_arise/worldgen/structure_set/major_structures.json"
+hash = "b1e3be88c4bb4882958cea1a2e1221ebe0dcfbdc55059b77dfe940e985314450"
+
+[[files]]
+file = "kubejs/data/dungeons_arise/worldgen/structure_set/minor_structures.json"
+hash = "8f3ac8749db08ad89100b13ba740fadfe2238857bb27f848d174d843b9ed4b00"
+
+[[files]]
 file = "kubejs/data/neoforge/loot_modifiers/global_loot_modifiers.json"
 hash = "bd51db29fe13e5d94a4c43c3864a96c06c061e126e470305686f6164f0ad3537"
 

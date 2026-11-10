@@ -55,6 +55,10 @@ Master Ball); re-run it after updating CobbleDollars.
 `tools/gen_drops.py` owns every `species_additions` file under `kubejs/data/` (drop fixes for mods that replace
 Pokémon drop tables, plus egg drops). Re-run it after updating Cobblemon or any mod that ships species_additions.
 
+`tools/gen_structure_spacing.py` owns the `worldgen/structure_set` overrides under `kubejs/data/` (When Dungeons
+Arise spacing ×2, Cobblemon Extra Structures ×1.25; the `SPREAD` table at the top). Re-run it after updating those
+mods; new spacing only applies to chunks generated afterwards.
+
 ## Testing stages
 
 A player's stage is their highest `campfiremons:stage/N` advancement. With vanilla `/advancement`:
