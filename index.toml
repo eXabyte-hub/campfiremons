@@ -430,7 +430,7 @@ hash = "83135065e7eb9129f251c9af2267497dbda6488af34a5dbbd3325255632fb61d"
 
 [[files]]
 file = "config/defaultoptions/extra/config/xaerominimap_entities.json"
-hash = "38eb3342ce8d7d4ad9cf3262d4aa69c5a8b959e7954c32223dbb9b4342b51d2d"
+hash = "24221f828d6ed80f6d7072b60ef23410a9c61e0c8d2ec4cbc6ebc2887c636692"
 
 [[files]]
 file = "config/defaultoptions/extra/config/xaeropatreon.txt"
@@ -450,7 +450,7 @@ hash = "70074e17491ae047e10c5a80458bf885c4ce8957bc27681a3b9db81a9f82975e"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "bce7bd644cbf1b12243aa776f83287e235ea7df177b39202a9c20c2ab1c97049"
+hash = "eaf8bc74e871f9dfe8b6a28c63a241d3447790e8c5450475d1470011bc83af32"
 
 [[files]]
 file = "config/fancymenu/options.txt"
@@ -2239,6 +2239,11 @@ metafile = true
 [[files]]
 file = "resourcepacks/better-leaves.pw.toml"
 hash = "eb0b5f269171cd5b891d9bdf2c5da89698e21a71ffec1172ead75bc19411cbdc"
+metafile = true
+
+[[files]]
+file = "resourcepacks/e19_cobblemon_minimap_icons.pw.toml"
+hash = "dbbf5a02c1abe8f8b596a23fa0cb84f169d28691c266393cce596bf6d755da5b"
 metafile = true
 
 [[files]]

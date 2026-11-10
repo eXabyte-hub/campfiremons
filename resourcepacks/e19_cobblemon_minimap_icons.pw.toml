@@ -1,0 +1,13 @@
+name = "E19 - Cobblemon Minimap Icons"
+filename = "E19 Cobblemon Minimap Icons.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Va3BanZa/versions/wb3yCVuz/E19%20Cobblemon%20Minimap%20Icons.zip"
+hash-format = "sha512"
+hash = "79904e038b93b040564b1e544f95121f8f6f2ff7f6fbed0421320e4eae66fb52a8394a4536ea91d1c48aee5e283002b1623aa9911e5d2b624442cb055d1daaa8"
+
+[update]
+[update.modrinth]
+mod-id = "Va3BanZa"
+version = "wb3yCVuz"
