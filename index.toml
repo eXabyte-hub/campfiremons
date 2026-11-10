@@ -1519,11 +1519,6 @@ hash = "e28b4dec295a320bf019c38321fe18bc4f08bb2b25c4f1091470c549ef1ba5e8"
 metafile = true
 
 [[files]]
-file = "mods/cherished-worlds.pw.toml"
-hash = "63f417eca4f251f85a5ae512394cbb9fa88dfdfb2b934b94637ba8b7dac1a831"
-metafile = true
-
-[[files]]
 file = "mods/chipped.pw.toml"
 hash = "24c6c3fe917ffbcef04e788dec3e003d0ed03433bc00f9cf4f23fe9b85636aa7"
 metafile = true
