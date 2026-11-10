@@ -428,3 +428,5 @@ This is studied from ATMons' `catch_restrictions.js`. The design is ours; no ATM
 - A structure's jigsaw processor references `minecraft:dirt_block` (not a real block); Legendary Monuments' traditional village has a missing start piece.
 - EMI can't deserialize Mythic Upgrades' `charged` effect stack; FTB Library warns about Artifacts' Mimic texture.
 - Recipe parse errors: Create Deco `placard`, Crafts & Additions `compat/jeed/shocking`, Create Industries `filling/standard_balls/azure_ball` (that one ball can't be filled on a Create line).
+- Cobblemon: "Unable to apply dex addition cobblemon:mega_z" (Navas ZA Megas adds to a Pokédex section that doesn't exist; the Megas themselves work).
+- Complete Cobblemon Collection's Galarian Koffing/Weezing spawns use an `illager_structures` preset from Myths and Legends, which we don't have; we define it ourselves in `kubejs/data/cobblemon/spawn_detail_presets/` (pillager outposts and woodland mansions).

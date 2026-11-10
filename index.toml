@@ -801,6 +801,10 @@ file = "kubejs/data/campfiremons/species_additions/starly.json"
 hash = "d6696e1ab08581fb0139be9ff03eb8eb28b0c78433885ee3b35aaab31e53e339"
 
 [[files]]
+file = "kubejs/data/cobblemon/spawn_detail_presets/illager_structures.json"
+hash = "b57ce74ad3d5abe98c3732510c3a231f1083011dea5c3edeb0ed884fb5db583d"
+
+[[files]]
 file = "kubejs/data/cobblemon/species_additions/generation3/zzz_ccc_deoxys.json"
 hash = "a2f69289c8df1b3dc23f3b9638243217dafc60e8e0519690cc9c93216620e4ec"
 

@@ -1,0 +1,5 @@
+{
+  "condition": {
+    "structures": ["minecraft:pillager_outpost", "minecraft:mansion"]
+  }
+}
