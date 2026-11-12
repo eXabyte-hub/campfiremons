@@ -1,7 +1,7 @@
 # Cobblemon Pack: Design Brief
 
 Status: **draft v2** (2026-11-09).
-- v1 came from the interview with Jack.
+- v1 came from the initial interview.
 - v2 lowers the difficulty: catching has no level limit (the cap applies to gyms instead), loot is only lightly gated, and the chosen §5.2 mods move into §5.1.
 Pack name: **Campfiremons**, namespace `campfiremons`.
 
@@ -384,7 +384,7 @@ This is studied from ATMons' `catch_restrictions.js`. The design is ours; no ATM
   - an **editable startup command** for auto-updates (most Pterodactyl-based hosts allow this)
   - automatic backups
 - Everyone keeps **solo FTB Teams**. Joining a party shares quest progress, which would break "per-player unlocks".
-- Jack is op, with a whitelist. The starter's `server.properties` turns the whitelist and `allow-flight` on (Pokémon riding and Create contraptions get kicked for flying otherwise) and spawn protection off.
+- The pack maintainer is op, with a whitelist. The starter's `server.properties` turns the whitelist and `allow-flight` on (Pokémon riding and Create contraptions get kicked for flying otherwise) and spawn protection off.
 - Client-only mods (Sodium, Iris, shaders, etc.) are marked client-side in packwiz so the server never downloads them.
 - The base pack includes **Sinytra Connector** (it runs Fabric mods on NeoForge). We keep it because the official pack depends on it, but prefer native NeoForge builds for everything we add.
 

@@ -22,7 +22,7 @@ through Prism.
 
 ## Joining the server
 
-Ask Jack for the address and to be added to the whitelist, then use **Multiplayer → Add Server** in game.
+Ask whoever runs the server for the address and to be added to the whitelist, then use **Multiplayer → Add Server** in game.
 
 ## How the pack plays
 
