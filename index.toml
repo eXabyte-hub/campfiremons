@@ -554,7 +554,7 @@ hash = "e9a518d3457113955507520776f49e22e49ef5dfdcbaa228b4891942d6cd0b22"
 
 [[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
-hash = "e1ae8fa37c19efb960d8a57a19f09767f8aaec21cc977846e64c679ed7cb75cf"
+hash = "65fa4f747c320a97b303c8c84fe1166e1fdae763431fb694e20967410e19ca1e"
 
 [[files]]
 file = "config/terralith.json"
