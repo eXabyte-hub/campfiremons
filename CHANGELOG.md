@@ -2,6 +2,14 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.3
+
+Nothing changes in game: just press Play as usual.
+
+- For whoever runs the server: the server starter now works on hosts that only let you choose the server jar. Set
+  it to `campfiremons-server.jar` (Java 21); on every start it installs NeoForge if needed, pulls the latest pack and
+  starts the server. `start.sh` still works on hosts that take a startup command.
+
 ## v0.1.2
 
 Already playing? Just press Play: the pack updates itself.
