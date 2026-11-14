@@ -376,7 +376,7 @@ This is studied from ATMons' `catch_restrictions.js`. The design is ours; no ATM
 | Friends on **Prism** (recommended for everyone) | One-time import of a prepared instance whose **pre-launch hook** runs `packwiz-installer-bootstrap` against the repo's `release` branch | **Zero.** Press Play and it syncs |
 | Friends on **Modrinth App** | Not supported [decided, F10]: 9 mods are CurseForge-only, so a `.mrpack` would have to bundle (rehost) their jars. Switch to Prism | n/a |
 | Friends on **CurseForge app** | CF zip export is possible, but Modrinth-only mods complicate it | Not supported by default. Ask them to switch to Prism |
-| **Rented server** | Server starter zip from the GitHub Release: `start.sh` installs NeoForge once, then runs the same bootstrap with `-s server` on every start. Fallback for hosts without a custom startup: `start.sh --sync-only` on your PC, then upload over SFTP | One restart |
+| **Rented server** | Server starter zip from the GitHub Release: the host starts `campfiremons-server.jar` (or `start.sh`, which runs it), which installs NeoForge once, runs the same bootstrap with `-s server` on every start, then starts NeoForge in the same JVM (NeoForged's ServerStarterJar). Works on any host that lets you pick the server jar | One restart |
 
 ### 7.3 Branches & release flow
 
@@ -399,7 +399,9 @@ This is studied from ATMons' `catch_restrictions.js`. The design is ours; no ATM
   - NeoForge 21.1.264
   - **10–12 GB RAM** (about 160 mods incl. Create, Oritech, Terralith/Tectonic worldgen)
   - SFTP access
-  - an **editable startup command** for auto-updates (most Pterodactyl-based hosts allow this)
+  - a **custom server jar** (or startup command) for auto-updates: the launcher jar runs the sync itself, so hosts
+    that only let you pick the jar work too [decided, F10]
+  - an Australian location (Sydney) for the group's ping
   - automatic backups
 - Everyone keeps **solo FTB Teams**. Joining a party shares quest progress, which would break "per-player unlocks".
 - The pack maintainer is op, with a whitelist. The starter's `server.properties` turns the whitelist and `allow-flight` on (Pokémon riding and Create contraptions get kicked for flying otherwise) and spawn protection off.

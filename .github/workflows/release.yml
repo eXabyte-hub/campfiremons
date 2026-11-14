@@ -15,6 +15,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4 # build.py compiles the server launcher
+        with:
+          distribution: temurin
+          java-version: "21"
       - name: Build release files
         run: python3 tools/release/build.py
       - name: Publish the GitHub Release

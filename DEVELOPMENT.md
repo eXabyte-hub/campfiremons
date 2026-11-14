@@ -15,7 +15,7 @@ metadata files (download URL + hash), never as jars.
 | `config/` | configs we ship; `config/defaultoptions/` holds the official pack's first-launch defaults |
 | `kubejs/` | our scripts (`startup_scripts/`, `server_scripts/`, `client_scripts/`) and datapack files |
 | `tools/` | dev scripts (not shipped to players, see `.packwizignore`) |
-| `tools/release/` | `build.py` (the release zips) and the server starter's `start.sh` |
+| `tools/release/` | `build.py` (the release zips) and the server starter: the launcher (`server/launcher/Launcher.java`) and `start.sh` |
 | `.github/workflows/` | `release.yml` publishes a GitHub Release per `vX.Y.Z` tag; `check.yml` fails on a stale `index.toml` |
 | `README.md` | the player-facing page: install, joining, how the pack plays |
 | `CHANGELOG.md` | one section per version, used as the release notes |
@@ -138,20 +138,27 @@ get the plain title screen with no FancyMenu setup prompts.
    (Pushes didn't start any workflow for this repo's first few hours; they have since.)
 
 Changing the Minecraft or NeoForge version also needs action outside the pack: players change the NeoForge version
-in Prism (**Edit → Version**) or re-import, and on the server `NEOFORGE_VERSION`/`NEOFORGE_SHA256` in
-`tools/release/server/start.sh` must be updated (`build.py` refuses to build until they match `pack.toml`), then the
-new `start.sh` uploaded.
+in Prism (**Edit → Version**) or re-import. For the server, add the new NeoForge installer's sha256 to
+`NEOFORGE_SHA256` in `tools/release/build.py` (it refuses to build without one), then upload the new release's
+`campfiremons-server.jar`: it installs the new NeoForge on its next start.
 
 ## Running the server
 
-The host needs Java 21, 10–12 GB of RAM, SFTP access and an editable startup command (DESIGN.md §8).
+The host needs Java 21, 10–12 GB of RAM, file access (SFTP or a web file manager), and a way to choose the server
+jar or the startup command (DESIGN.md §8). The starter's `campfiremons-server.jar` does the work on every start: it
+installs NeoForge once (checksum-verified), syncs the pack from the `release` branch, then starts NeoForge in the same
+JVM through NeoForged's ServerStarterJar, so the memory the host gives Java goes to the server.
 
 1. Upload `campfiremons-<version>-server.zip` from the latest release and unzip it in the server folder (once).
-2. Set the startup command to `MEMORY=10G sh start.sh`, with `MEMORY` 1–2 GB below the plan's RAM.
-3. Start the server. `start.sh` installs NeoForge, syncs the pack, then the server stops to ask for the EULA:
-   set `eula=true` in `eula.txt` and start again.
+2. Point the host at the launcher, either way:
+   - **Custom jar** (most panels): set the server jar to `campfiremons-server.jar`, Java to 21, and the memory
+     1–2 GB below the plan's RAM.
+   - **Startup command** (or a VPS): `MEMORY=10G sh start.sh`.
+3. Start the server. The first start installs NeoForge and downloads the mods (a few minutes), then the server stops
+   to ask for the EULA: set `eula=true` in `eula.txt` and start again.
 4. In the console: `op <you>`, then `whitelist add <name>` for each player (the whitelist is on by default).
 
-Every restart pulls the latest release. On a host without a custom startup command: unzip the starter on your PC,
-run `sh start.sh --sync-only` there (needs Java 21), upload the whole folder over SFTP, and set the host to start
-NeoForge's own `run.sh`. Repeat that for each update.
+Every restart pulls the latest release; if the sync fails (GitHub down), the server starts with the files it already
+has. The jar is a launcher: it runs the NeoForge installer and packwiz-installer as short child processes (1 GB heap
+each), then the server. Some hosts want to know that before you use one; ask them if their terms are unclear.
+`java -jar campfiremons-server.jar --sync-only` stops after the sync.

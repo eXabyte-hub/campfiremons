@@ -3,7 +3,8 @@
   Campfiremons.zip                    Prism instance for players; on every Play it syncs the pack from the release branch.
                                       No version in the name: Prism names the instance after the zip, and players see that
                                       name (also in their Discord status via CraftPresence) long after the version changes
-  campfiremons-<version>-server.zip   server starter: start.sh installs NeoForge once, syncs the pack, then starts
+  campfiremons-<version>-server.zip   server starter: campfiremons-server.jar (the jar a host starts) installs NeoForge
+                                      once, syncs the pack, then starts the server; start.sh runs the same jar
   release-notes.md                    this version's CHANGELOG.md section, for the GitHub Release
 
 Neither zip holds mod jars: packwiz-installer downloads them from Modrinth and CurseForge, so nothing is rehosted
@@ -12,10 +13,14 @@ Neither zip holds mod jars: packwiz-installer downloads them from Modrinth and C
 Usage: python3 tools/release/build.py
 """
 import hashlib
+import io
 import json
 import os
 import re
+import shutil
+import subprocess
 import sys
+import tempfile
 import tomllib
 import urllib.request
 import zipfile
@@ -29,18 +34,82 @@ PACK_URL = "https://raw.githubusercontent.com/eXabyte-hub/campfiremons/release/p
 BOOTSTRAP_URL = ("https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/"
                  "packwiz-installer-bootstrap.jar")
 BOOTSTRAP_SHA256 = "a8fbb24dc604278e97f4688e82d3d91a318b98efc08d5dbfcbcbcab6443d116c"
+# NeoForged's same-process starter (LGPL-2.1, shipped unmodified inside the launcher jar)
+SERVERSTARTER_VERSION = "0.1.35"
+SERVERSTARTER_URL = f"https://github.com/neoforged/ServerStarterJar/releases/download/{SERVERSTARTER_VERSION}/server.jar"
+SERVERSTARTER_SHA256 = "d019d815868d451e57bdb965174b8443ec361336e84e9c41abc41a6c627bacd1"
+# NeoForge server installer checksums; add the new version here when pack.toml's neoforge changes
+NEOFORGE_SHA256 = {
+    "21.1.264": "d7c035dd5436a7c524dfbad6df191b0ef34179fd3edfee9dc99262af3b80239b",
+}
 
 
 def fail(msg):
     sys.exit(f"build.py: {msg}")
 
 
-def download_bootstrap():
-    with urllib.request.urlopen(BOOTSTRAP_URL) as resp:
+def download(url, sha256, name):
+    with urllib.request.urlopen(url) as resp:
         data = resp.read()
-    if hashlib.sha256(data).hexdigest() != BOOTSTRAP_SHA256:
-        fail("packwiz-installer-bootstrap.jar doesn't match its pinned sha256")
+    if hashlib.sha256(data).hexdigest() != sha256:
+        fail(f"{name} doesn't match its pinned sha256")
     return data
+
+
+def download_bootstrap():
+    return download(BOOTSTRAP_URL, BOOTSTRAP_SHA256, "packwiz-installer-bootstrap.jar")
+
+
+def javac():
+    for home in (os.environ.get("JAVA_HOME"),):
+        if home and (Path(home) / "bin" / "javac").exists():
+            return str(Path(home) / "bin" / "javac")
+    found = shutil.which("javac")
+    if not found:
+        fail("no javac found: install a JDK 21 or set JAVA_HOME")
+    return found
+
+
+def launcher_jar(versions):
+    """campfiremons-server.jar: tools/release/server/launcher/Launcher.java, its settings, and ServerStarterJar."""
+    neoforge = versions["neoforge"]
+    if neoforge not in NEOFORGE_SHA256:
+        fail(f"no installer checksum for NeoForge {neoforge}: add it to NEOFORGE_SHA256 in tools/release/build.py")
+    starter = download(SERVERSTARTER_URL, SERVERSTARTER_SHA256, "ServerStarterJar")
+    with tempfile.TemporaryDirectory() as out:
+        subprocess.run([javac(), "--release", "21", "-d", out, str(SERVER_FILES / "launcher" / "Launcher.java")],
+                       check=True)
+        classes = {p.relative_to(out).as_posix(): p.read_bytes() for p in Path(out).rglob("*.class")}
+    settings = "\n".join([
+        f"pack.url={PACK_URL}",
+        f"neoforge.version={neoforge}",
+        f"neoforge.sha256={NEOFORGE_SHA256[neoforge]}",
+        f"bootstrap.url={BOOTSTRAP_URL}",
+        f"bootstrap.sha256={BOOTSTRAP_SHA256}",
+        f"serverstarter.version={SERVERSTARTER_VERSION}",
+        "",
+    ])
+    manifest = "\r\n".join([
+        "Manifest-Version: 1.0",
+        "Main-Class: campfiremons.Launcher",
+        "Launcher-Agent-Class: campfiremons.Launcher",
+        "Premain-Class: campfiremons.Launcher",
+        "", "",
+    ])
+    notice = (f"campfiremons/serverstarter.jar is NeoForged's ServerStarterJar {SERVERSTARTER_VERSION}, unmodified, "
+              "licensed under the GNU LGPL 2.1.\nSource: https://github.com/neoforged/ServerStarterJar\n")
+    files = {
+        "META-INF/MANIFEST.MF": manifest.encode(),
+        "campfiremons/launcher.properties": settings.encode(),
+        "campfiremons/serverstarter.jar": starter,
+        "campfiremons/THIRD-PARTY-NOTICE.txt": notice.encode(),
+        **classes,
+    }
+    buf = io.BytesIO()
+    with zipfile.ZipFile(buf, "w", zipfile.ZIP_DEFLATED) as zf:
+        for name in ["META-INF/MANIFEST.MF"] + sorted(n for n in files if n != "META-INF/MANIFEST.MF"):
+            zf.writestr(zipfile.ZipInfo(name, date_time=(2026, 1, 1, 0, 0, 0)), files[name], zipfile.ZIP_DEFLATED)
+    return buf.getvalue(), notice
 
 
 def ini_string(value):
@@ -82,13 +151,11 @@ def prism_files(versions, bootstrap):
 
 
 def server_files(versions, bootstrap):
-    start = (SERVER_FILES / "start.sh").read_text()
-    pinned = re.search(r"^NEOFORGE_VERSION=(\S+)$", start, re.M).group(1)
-    if pinned != versions["neoforge"]:
-        fail(f"start.sh pins NeoForge {pinned} but pack.toml says {versions['neoforge']}; "
-             "update NEOFORGE_VERSION and NEOFORGE_SHA256 in tools/release/server/start.sh")
+    launcher, notice = launcher_jar(versions)
     return {
-        "start.sh": (start.encode(), 0o755),
+        "campfiremons-server.jar": (launcher, 0o644),
+        "THIRD-PARTY-NOTICE.txt": (notice.encode(), 0o644),
+        "start.sh": ((SERVER_FILES / "start.sh").read_bytes(), 0o755),
         "server.properties": ((SERVER_FILES / "server.properties").read_bytes(), 0o644),
         "packwiz-installer-bootstrap.jar": (bootstrap, 0o644),
     }
