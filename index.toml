@@ -2381,6 +2381,11 @@ hash = "75ae1758ad2f9e85fc4c54767e41b872142d39b86c07b015e212f8097d56995d"
 metafile = true
 
 [[files]]
+file = "mods/underground-villages.pw.toml"
+hash = "f4e84e30a51259cdc766374ab73f8003bb6a96b27697ef0739f313913e2dfcd2"
+metafile = true
+
+[[files]]
 file = "mods/unilib.pw.toml"
 hash = "0e5570f1933bf7a3872c3bee2cdb550300e02a0d0914f009ad18e926a86693d0"
 metafile = true
