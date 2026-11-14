@@ -5,15 +5,10 @@
       "other_set": "minecraft:ocean_monuments"
     },
     "salt": 1615697744,
-    "separation": 60,
-    "spacing": 120,
+    "separation": 30,
+    "spacing": 60,
     "spread_type": "triangular",
     "type": "minecraft:random_spread"
   },
-  "structures": [
-    {
-      "structure": "cobblemon:ruins/submerged_forge_ruins",
-      "weight": 1
-    }
-  ]
+  "structures": []
 }

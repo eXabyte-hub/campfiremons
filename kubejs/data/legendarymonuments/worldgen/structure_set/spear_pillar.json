@@ -1,0 +1,18 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 34778512,
+    "separation": 100,
+    "spacing": 184,
+    "exclusion_zone": {
+      "other_set": "campfiremons:surface_structures",
+      "chunk_count": 5
+    }
+  },
+  "structures": [
+    {
+      "structure": "legendarymonuments:spear_pillar",
+      "weight": 1
+    }
+  ]
+}

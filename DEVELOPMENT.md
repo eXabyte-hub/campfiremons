@@ -55,9 +55,14 @@ Master Ball); re-run it after updating CobbleDollars.
 `tools/gen_drops.py` owns every `species_additions` file under `kubejs/data/` (drop fixes for mods that replace
 Pokémon drop tables, plus egg drops). Re-run it after updating Cobblemon or any mod that ships species_additions.
 
-`tools/gen_structure_spacing.py` owns the `worldgen/structure_set` overrides under `kubejs/data/` (surface
-structures ×2, gyms ×1.5, with per-set exceptions; the `SPREAD` table at the top). Re-run it after updating those
-mods; new spacing only applies to chunks generated afterwards.
+`tools/gen_structure_spacing.py` owns the structure placement under `kubejs/data/`: the shared
+`campfiremons:surface_structures` set and its empty cell, the `campfiremons:services` set
+(`kubejs/data/campfiremons/worldgen/`), and the overrides that empty the old sets, keep looked-up structures on grids
+of their own, or spread the rest (`RARER`, `NOT_POOLED` and `OWN_GRID` at the top). It reads the jars the pack ships
+from the dev instance, so sync that first, and re-run it after adding or updating any structure mod; changes only
+apply to chunks generated afterwards. A structure that maps or a mod look up must not be on the shared grid (finding
+it there generates every candidate cell and can stall the server): the tool finds explorer-map destinations itself,
+but add a mod that locates structures in code to `OWN_GRID`.
 
 ## Testing stages
 

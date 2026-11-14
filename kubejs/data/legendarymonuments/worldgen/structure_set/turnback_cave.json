@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "legendarymonuments:turnback_cave",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 103812912,
+    "separation": 167,
+    "spacing": 209,
+    "exclusion_zone": {
+      "other_set": "campfiremons:surface_structures",
+      "chunk_count": 5
+    }
+  }
+}

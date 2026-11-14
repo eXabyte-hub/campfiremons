@@ -1,14 +1,9 @@
 {
-  "structures": [
-    {
-      "structure": "mega_showdown:observatory",
-      "weight": 1
-    }
-  ],
+  "structures": [],
   "placement": {
     "type": "minecraft:random_spread",
-    "spacing": 84,
-    "separation": 40,
+    "spacing": 42,
+    "separation": 20,
     "spread_type": "triangular",
     "salt": 888644373,
     "frequency": 0.25

@@ -1,14 +1,9 @@
 {
-  "structures": [
-    {
-      "structure": "cobblemonextrastructures:burned_tower",
-      "weight": 1
-    }
-  ],
+  "structures": [],
   "placement": {
     "type": "minecraft:random_spread",
     "salt": 45684621,
-    "spacing": 150,
-    "separation": 140
+    "spacing": 75,
+    "separation": 70
   }
 }

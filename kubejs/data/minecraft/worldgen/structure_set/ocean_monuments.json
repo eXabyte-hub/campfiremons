@@ -1,0 +1,19 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 10387313,
+    "separation": 4,
+    "spacing": 27,
+    "spread_type": "triangular",
+    "exclusion_zone": {
+      "other_set": "campfiremons:surface_structures",
+      "chunk_count": 5
+    }
+  },
+  "structures": [
+    {
+      "structure": "minecraft:monument",
+      "weight": 1
+    }
+  ]
+}

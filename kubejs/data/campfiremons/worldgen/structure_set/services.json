@@ -1,0 +1,27 @@
+{
+  "structures": [
+    {
+      "structure": "cobblemon_poke_labs:pokelab",
+      "weight": 100
+    },
+    {
+      "structure": "cobblemon_poke_stops:poke_stops",
+      "weight": 244
+    },
+    {
+      "structure": "cobblemon_simple_center:pokecenter",
+      "weight": 278
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 42,
+    "separation": 21,
+    "salt": 1460392714,
+    "spread_type": "triangular",
+    "exclusion_zone": {
+      "other_set": "campfiremons:surface_structures",
+      "chunk_count": 5
+    }
+  }
+}

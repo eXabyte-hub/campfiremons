@@ -1,0 +1,19 @@
+{
+  "structures": [
+    {
+      "structure": "legendarymonuments:outskirt_stand",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1522002,
+    "spread_type": "triangular",
+    "spacing": 58,
+    "separation": 33,
+    "exclusion_zone": {
+      "other_set": "campfiremons:surface_structures",
+      "chunk_count": 5
+    }
+  }
+}

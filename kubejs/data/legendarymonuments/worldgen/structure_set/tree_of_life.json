@@ -1,0 +1,18 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 251158,
+    "separation": 84,
+    "spacing": 125,
+    "exclusion_zone": {
+      "other_set": "campfiremons:surface_structures",
+      "chunk_count": 5
+    }
+  },
+  "structures": [
+    {
+      "structure": "legendarymonuments:tree_of_life",
+      "weight": 1
+    }
+  ]
+}

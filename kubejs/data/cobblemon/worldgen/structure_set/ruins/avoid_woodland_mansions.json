@@ -5,15 +5,10 @@
       "other_set": "minecraft:woodland_mansions"
     },
     "salt": 1628364155,
-    "separation": 30,
-    "spacing": 50,
+    "separation": 15,
+    "spacing": 25,
     "spread_type": "triangular",
     "type": "minecraft:random_spread"
   },
-  "structures": [
-    {
-      "structure": "cobblemon:ruins/old_garden_ruins",
-      "weight": 1
-    }
-  ]
+  "structures": []
 }

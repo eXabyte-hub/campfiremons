@@ -1,0 +1,26 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 10387312,
+    "separation": 33,
+    "spacing": 67,
+    "exclusion_zone": {
+      "other_set": "campfiremons:surface_structures",
+      "chunk_count": 5
+    }
+  },
+  "structures": [
+    {
+      "structure": "legendarymonuments:lake_verity",
+      "weight": 1
+    },
+    {
+      "structure": "legendarymonuments:lake_valor",
+      "weight": 1
+    },
+    {
+      "structure": "legendarymonuments:lake_acuity",
+      "weight": 1
+    }
+  ]
+}

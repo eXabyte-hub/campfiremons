@@ -1,14 +1,9 @@
 {
-  "structures": [
-    {
-      "structure": "mega_showdown:archaeological_site",
-      "weight": 1
-    }
-  ],
+  "structures": [],
   "placement": {
     "type": "minecraft:random_spread",
-    "spacing": 64,
-    "separation": 20,
+    "spacing": 32,
+    "separation": 10,
     "salt": 112156,
     "frequency": 0.45
   }

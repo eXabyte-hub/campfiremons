@@ -1,0 +1,19 @@
+{
+  "structures": [
+    {
+      "structure": "legendarymonuments:kyuremcave",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 50015,
+    "spread_type": "triangular",
+    "spacing": 225,
+    "separation": 175,
+    "exclusion_zone": {
+      "other_set": "campfiremons:surface_structures",
+      "chunk_count": 5
+    }
+  }
+}

@@ -1,14 +1,9 @@
 {
-  "structures": [
-    {
-      "structure": "cobblemonextrastructures:outskirt_stand",
-      "weight": 1
-    }
-  ],
+  "structures": [],
   "placement": {
     "type": "minecraft:random_spread",
     "salt": 234684451,
-    "spacing": 60,
-    "separation": 50
+    "spacing": 30,
+    "separation": 25
   }
 }

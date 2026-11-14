@@ -1,0 +1,18 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 220402,
+    "separation": 84,
+    "spacing": 167,
+    "exclusion_zone": {
+      "other_set": "campfiremons:surface_structures",
+      "chunk_count": 5
+    }
+  },
+  "structures": [
+    {
+      "structure": "legendarymonuments:crown_shrine",
+      "weight": 1
+    }
+  ]
+}

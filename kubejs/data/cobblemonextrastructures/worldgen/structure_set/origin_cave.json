@@ -1,14 +1,9 @@
 {
-  "structures": [
-    {
-      "structure": "cobblemonextrastructures:origin_cave",
-      "weight": 1
-    }
-  ],
+  "structures": [],
   "placement": {
     "type": "minecraft:random_spread",
     "salt": 211120141,
-    "spacing": 160,
-    "separation": 140
+    "spacing": 80,
+    "separation": 70
   }
 }

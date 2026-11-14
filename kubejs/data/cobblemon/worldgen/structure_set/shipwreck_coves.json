@@ -1,0 +1,27 @@
+{
+  "placement": {
+    "exclusion_zone": {
+      "other_set": "campfiremons:surface_structures",
+      "chunk_count": 5
+    },
+    "salt": 94251327,
+    "separation": 42,
+    "spacing": 84,
+    "spread_type": "triangular",
+    "type": "minecraft:random_spread"
+  },
+  "structures": [
+    {
+      "structure": "cobblemon:shipwreck_coves/submerged_shipwreck_cove",
+      "weight": 1
+    },
+    {
+      "structure": "cobblemon:shipwreck_coves/lush_shipwreck_cove",
+      "weight": 1
+    },
+    {
+      "structure": "cobblemon:shipwreck_coves/magma_shipwreck_cove",
+      "weight": 1
+    }
+  ]
+}

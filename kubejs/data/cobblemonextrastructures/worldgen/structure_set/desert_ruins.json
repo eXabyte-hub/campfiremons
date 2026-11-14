@@ -8,7 +8,11 @@
   "placement": {
     "type": "minecraft:random_spread",
     "salt": 794382361,
-    "spacing": 100,
-    "separation": 90
+    "spacing": 84,
+    "separation": 75,
+    "exclusion_zone": {
+      "other_set": "campfiremons:surface_structures",
+      "chunk_count": 5
+    }
   }
 }
