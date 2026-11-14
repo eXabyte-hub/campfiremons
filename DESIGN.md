@@ -212,7 +212,8 @@ Verified in the RCT 0.19.2-beta source: RCT already does both halves, so we conf
 - **Create 6** with Pokémon production: Cobblemon: Create Industries (balls, candy, mochi on Create lines),
   Klinks n Klangs (Cobblemon medicine/vitamins as fluids), Berry Harvester (harvesters pick Cobblemon berries).
   Plus Crafts & Additions (electricity), Create Deco and Copycats+ (building).
-- **Refined Storage 2** for storage, **Oritech** as the late automation tier. No Mekanism, no AE2.
+- **Refined Storage 2** and **Tom's Simple Storage** for storage, **Oritech** as the late automation tier. No
+  Mekanism, no AE2.
 - Ball use-locks still apply to Create-made balls. Create Industries' Master Ball recipe is removed (by id: it's a
   Create sequenced-assembly recipe KubeJS may not read the output of).
 
@@ -301,12 +302,15 @@ Additions on top of the official pack. "1.8?" shows whether the addon's latest N
 | CobbleDollars 2.0.0-beta | Economy | ⚠️ (last build July 2026) |
 | Create 6.0.10 | Tech backbone | n/a |
 | Refined Storage 2.0.9 | Storage (not gated) | n/a |
+| Tom's Simple Storage 2.4.2 + Create Contraption Terminals 1.4.0 + Tom's Cobblemoned (resource pack, on by default) | Simple early storage network (inventory connectors and terminals, wireless terminal), next to Refined Storage; terminals also work on Create contraptions; Cobblemon-style textures. Not gated | n/a |
 | Oritech 1.2.13 | Late automation (not gated) | n/a |
 | Create addons: Cobblemon: Create Industries 1.5.0 (+ Cobblemore Lib), Klinks n Klangs 2.0.1, Berry Harvester 1.0, Crafts & Additions 1.7.2, Create Deco 2.1.3, Copycats+ 3.0.11 | Pokémon production lines, power, building (§4.7) | ⚠️ (Create Industries/Klinks/Berry Harvester predate Cobblemon 1.8) |
 | Complete Cobblemon Collection 1.8.4 (mod build) | Models, animations and spawns for the 34 species Cobblemon 1.8.4 has no model for (Paradox Pokémon, Celebi/Jirachi/Manaphy…, the Pawmi line, …), so trainer and raid Pokémon stop showing as stand-ins. Adds rare/ultra-rare wild Paradox and Ultra Beast spawns (tier-locked to Stage 6); no wild legendaries. All Rights Reserved, modpacks allowed without profit. It and Mega Showdown ship the same model files for ~74 legendaries/forms; Mega Showdown's must win (CCC's versions drop Calyrex riders, Ogerpon Tera, Deoxys colours and point at missing textures). Verified in game: NeoForge stacks Mega Showdown above CCC, so it wins all 70; recheck after updating either mod | ✅ (1.8.4) |
 | Client QoL [F10]: Mouse Tweaks, Jade, Controlling (+ Searchables), Inventory Profiles Next (+ libIPN), Zume | Inventory dragging, look-at info (Cobblemon shows species/level), keybind search, sorting/auto-refill, zoom. Zume instead of Zoomify (no NeoForge build). IPN's on-screen buttons are all off (sort row, the gear-profile bar under the inventory, and the settings and overlay-editor buttons that sat on FTB Library's top-left sidebar; `config/inventoryprofilesnext/inventoryprofiles.json`); sort with its key, settings via the Mods list | n/a |
 | RCT Trainer Textures Plus 2.2 (resource pack, on by default) | Skins for all 1,559 RCT trainers, replacing RCT's plain defaults | n/a |
 | E19 Cobblemon Minimap Icons 1.5.7 (resource pack, on by default) | Pokémon icons on Xaero's minimap radar, incl. Mega Showdown and CCC forms. Its model definitions only swap textures (alpha variants), never models. Needs radar icons on: the shipped `xaerominimap_entities.json` sets them to Always | n/a |
+| Stay True 1.21 (resource pack, on by default; CurseForge file pinned, it's tagged 1.21) | Vanilla-style remaster of the vanilla textures, with random block variants. Its OptiFine extras (connected textures, overlays, pink birch leaves) don't load on NeoForge. Sits below Better Leaves, which overrides all of its leaf models | n/a |
+| Cobblemon Pasture Enhanced v4 (resource pack, on by default) | Pasture block shows its egg state at a glance | n/a |
 | Cobblemon: Simple Pokécenters 1.2.1, Poké Stops 1.0.0, Poké Labs 1.1.2 | World structures with a healing machine, PC and loot chests (balls up to Ultra/Quick/Dusk, Rare Candy, vitamins: covered by use-locks and the EXP cap). Labs are rare (5 chests) and a stage-find source; Pokécenter/Stop chests aren't. Kept CobbleDollars: none of these sells anything [decided, F10] | ⚠️ (predate Cobblemon 1.8; server boots clean) |
 | Sophisticated Backpacks 3.26 + Cobblemon: Trainers Backpack 1.0.2 | Backpacks with PC, party-heal (2.5 min cooldown, tiers down to 15 s) and cooking-pot upgrades, all allowed from the start [decided, F10] | ⚠️ (Trainers Backpack predates 1.8) |
 | ~~Cherished Worlds~~ (official pack) | Removed [F10]: it looks up its platform service on a worker thread during client setup, which failed on a fresh instance's first launch and crashed the game. It only pins favourite worlds in the singleplayer list | n/a |

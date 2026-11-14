@@ -450,7 +450,7 @@ hash = "70074e17491ae047e10c5a80458bf885c4ce8957bc27681a3b9db81a9f82975e"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "eaf8bc74e871f9dfe8b6a28c63a241d3447790e8c5450475d1470011bc83af32"
+hash = "96a6109ac1cd3a3b8f189872ef61524936526648aa662f753409c07a76bb4a07"
 
 [[files]]
 file = "config/fancymenu/options.txt"
@@ -2072,6 +2072,11 @@ hash = "db9ad9b644149d3278deb6b6a2d7d39ad3ee3f93adf4a2054dd7145bed3bd9fb"
 metafile = true
 
 [[files]]
+file = "mods/create-contraption-terminals.pw.toml"
+hash = "0eaabd71feeb13bb51455fc6528adf953639fe70b17d9bb90d54bacd8f6377a8"
+metafile = true
+
+[[files]]
 file = "mods/create-deco.pw.toml"
 hash = "67a405e6307f900d168deaa954a4309c3b44a6025e4efd7b8e774b6f9d3a69cd"
 metafile = true
@@ -2557,6 +2562,11 @@ hash = "75ae1758ad2f9e85fc4c54767e41b872142d39b86c07b015e212f8097d56995d"
 metafile = true
 
 [[files]]
+file = "mods/toms-storage.pw.toml"
+hash = "a303683e4c74640f419c31db329e9afc3ee8f388abc5c6a536dc6169c274b5c6"
+metafile = true
+
+[[files]]
 file = "mods/unilib.pw.toml"
 hash = "0e5570f1933bf7a3872c3bee2cdb550300e02a0d0914f009ad18e926a86693d0"
 metafile = true
@@ -2632,6 +2642,11 @@ hash = "eb0b5f269171cd5b891d9bdf2c5da89698e21a71ffec1172ead75bc19411cbdc"
 metafile = true
 
 [[files]]
+file = "resourcepacks/cobblemon-pasture-enhanced.pw.toml"
+hash = "1b803dd34c7686e35c73dc68feeef750bb05e4ef2582a84bb5f51b28a6c52cf1"
+metafile = true
+
+[[files]]
 file = "resourcepacks/e19_cobblemon_minimap_icons.pw.toml"
 hash = "dbbf5a02c1abe8f8b596a23fa0cb84f169d28691c266393cce596bf6d755da5b"
 metafile = true
@@ -2639,6 +2654,16 @@ metafile = true
 [[files]]
 file = "resourcepacks/rct-trainer-textures-plus.pw.toml"
 hash = "8bd76c90d8c9b4d21e94bdb99ceee8e14d9a523b8e6cccf4ed64eaccdccc7852"
+metafile = true
+
+[[files]]
+file = "resourcepacks/stay-true.pw.toml"
+hash = "5c98064f8e8b4d6bd97cb3230f7b5a620bae73cd0a1d45a4dc28c2864972ac4b"
+metafile = true
+
+[[files]]
+file = "resourcepacks/toms-cobblemoned.pw.toml"
+hash = "d56faf1280b0873578367d1fe635449cad63d327a4495d5ef38a57f5a24d6653"
 metafile = true
 
 [[files]]

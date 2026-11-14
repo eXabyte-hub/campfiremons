@@ -48,7 +48,7 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["mod_resources","vanilla","fabric","moonlight:merged_pack","file/Better-Leaves-9.6.zip","file/RCT Trainers+ [1.7] v2.2.zip","coloredeggs","supplementaries:darker_ropes","mod/cobblemon:resourcepacks/gyaradosjump","mod/cobblemon:resourcepacks/regionbiasforms","mod/cobblemon:resourcepacks/uniqueshinyforms","mod/mega_showdown:resourcepacks/gyaradosjumpingmega","mod/mega_showdown:resourcepacks/regionbiasmsd","file/E19 Cobblemon Minimap Icons.zip"]
+resourcePacks:["mod_resources","vanilla","fabric","moonlight:merged_pack","file/Stay_True_1.21.zip","file/Better-Leaves-9.6.zip","file/RCT Trainers+ [1.7] v2.2.zip","coloredeggs","supplementaries:darker_ropes","mod/cobblemon:resourcepacks/gyaradosjump","mod/cobblemon:resourcepacks/regionbiasforms","mod/cobblemon:resourcepacks/uniqueshinyforms","mod/mega_showdown:resourcepacks/gyaradosjumpingmega","mod/mega_showdown:resourcepacks/regionbiasmsd","file/Cobblemon Pasture Enhanced v4.zip","file/E19 Cobblemon Minimap Icons.zip","file/Tom's Cobblemoned.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
