@@ -1573,6 +1573,10 @@ file = "kubejs/data/terralith/worldgen/structure_set/rubble.json"
 hash = "43ebe057a0931751922c977041d0f0140569ed2342b8923c6dfe1a71471f925e"
 
 [[files]]
+file = "kubejs/data/underground_villages/tags/worldgen/biome/has_structure/village_underground.json"
+hash = "1cf4794f6757d36d36fb70aa294adfb08c28f2928dee5ff743e7a6b9f9152c5c"
+
+[[files]]
 file = "kubejs/server_scripts/campfiremons/gimmick_items.js"
 hash = "6d30e37b13e7f6fc3d1ffa4d67829116a5f6e2327de07fe8ec62cacccf61ce70"
 
