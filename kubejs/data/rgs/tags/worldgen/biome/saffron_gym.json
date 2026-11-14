@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#cobblemon:is_cherry_blossom",
+    "terralith:moonlight_grove",
+    "terralith:moonlight_valley",
+    "terralith:lavender_forest",
+    "terralith:lavender_valley"
+  ]
+}

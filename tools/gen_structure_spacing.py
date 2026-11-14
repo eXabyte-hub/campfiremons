@@ -3,7 +3,7 @@
 A structure set places at most one of its structures per grid cell of `spacing` chunks (at least `separation` chunks
 apart). Every mod's sets are placed independently, so with this many structure mods they pile up next to each other.
 For every set matched in SPREAD we write an override at the SAME id (KubeJS data loads after mods) with both numbers
-multiplied. Spacing x1.5 leaves about 44% as many structures, x2 about a quarter.
+multiplied. Spacing x2 leaves about a quarter as many structures, x1.5 about 44%.
 
     python -I tools/gen_structure_spacing.py [path/to/mods]
 Re-run after updating a mod listed in SPREAD. Only affects chunks generated after the change.
@@ -19,26 +19,26 @@ DATA = Path(__file__).resolve().parent.parent / "kubejs" / "data"
 DEFAULT_MODS = os.path.expanduser("~/.local/share/PrismLauncher/instances/Campfiremons Dev/minecraft/mods")
 
 # Structure set id or whole namespace -> spacing multiplier; a full id beats its namespace, and None keeps a set as is.
-# Surface structures get x1.5. Left alone: underground sets (no surface clutter), sets that are already rare, the
+# Surface structures get x2, gyms x1.5 (they hold the leaders until the hub is built). Left alone: underground sets (no surface clutter), sets that are already rare, the
 # gyms players must find (Blackthorn, Kanto League), Terralith's fortified villages, and everything not listed
 # (vanilla, strongholds, YUNG's, Pokécenters/PokéStops/Labs).
 SPREAD = {
     "dungeons_arise": 2.0,  # huge dungeons that showed up everywhere
-    "cobblemonextrastructures": 1.5,
-    "cobblemon": 1.5,
+    "cobblemonextrastructures": 2.0,
+    "cobblemon": 2.0,
     "cobblemon:ruins/avoid_trial_chambers": None,  # cave ruins
     "cobblemon:shipwreck_coves": None,  # every 100 chunks already
-    "terralith": 1.5,
+    "terralith": 2.0,
     "terralith:underground": None,
     "terralith:underground_dungeon": None,
     "terralith:rare_village": None,
-    "rgs": 1.5,  # the 7 Kanto gyms, each every 32 chunks
+    "rgs": 1.5,  # the 7 Kanto gyms, each every 32 chunks; gym buildings contain their leader
     "rgs:blackthorn_gym": None,  # Clair (Stage 8) has to be found
     "rgs:kanto_league": None,
-    "legendarymonuments:distortion_portal": 1.5,  # the rest are rare already
-    "mega_showdown": 1.5,
+    "legendarymonuments:distortion_portal": 2.0,  # the rest are rare already
+    "mega_showdown": 2.0,
     "mega_showdown:mega_site": None,  # underground
-    "supplementaries": 1.5,  # galleons and road signs
+    "supplementaries": 2.0,  # galleons and road signs
 }
 
 

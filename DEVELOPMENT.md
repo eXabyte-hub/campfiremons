@@ -56,7 +56,7 @@ Master Ball); re-run it after updating CobbleDollars.
 Pokémon drop tables, plus egg drops). Re-run it after updating Cobblemon or any mod that ships species_additions.
 
 `tools/gen_structure_spacing.py` owns the `worldgen/structure_set` overrides under `kubejs/data/` (surface
-structures ×1.5, When Dungeons Arise ×2, with per-set exceptions; the `SPREAD` table at the top). Re-run it after updating those
+structures ×2, gyms ×1.5, with per-set exceptions; the `SPREAD` table at the top). Re-run it after updating those
 mods; new spacing only applies to chunks generated afterwards.
 
 ## Testing stages

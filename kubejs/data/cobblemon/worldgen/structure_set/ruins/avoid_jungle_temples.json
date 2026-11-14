@@ -5,8 +5,8 @@
       "other_set": "minecraft:jungle_temples"
     },
     "salt": 1027497744,
-    "separation": 20,
-    "spacing": 45,
+    "separation": 26,
+    "spacing": 60,
     "spread_type": "triangular",
     "type": "minecraft:random_spread"
   },

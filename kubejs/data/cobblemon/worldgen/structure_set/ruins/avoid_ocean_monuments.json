@@ -5,8 +5,8 @@
       "other_set": "minecraft:ocean_monuments"
     },
     "salt": 1615697744,
-    "separation": 45,
-    "spacing": 90,
+    "separation": 60,
+    "spacing": 120,
     "spread_type": "triangular",
     "type": "minecraft:random_spread"
   },

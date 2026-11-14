@@ -826,35 +826,35 @@ hash = "66e93a728c7dd1005e5a77a67409314e8f975ef6606f60f50be3bcad98d79d4b"
 
 [[files]]
 file = "kubejs/data/cobblemon/worldgen/structure_set/fishing_boats.json"
-hash = "f17a63cc07bb8daa7214aef79806eb86e52a9e4accf40fb4fd1fd06d7fc171c7"
+hash = "275992a8b15f3676c3a763021ab0f041bea476041a2bf009e6cf2a6677f285d9"
 
 [[files]]
 file = "kubejs/data/cobblemon/worldgen/structure_set/habitats/habitats.json"
-hash = "42af9733faacbff1c671cae961ec4812ef86a25682734705430fb5f8377c3f2e"
+hash = "79780a7687bfffd6e5a8e33c7f43e7c83b78a2853cffa11ea4e9a21cd0d6ea06"
 
 [[files]]
 file = "kubejs/data/cobblemon/worldgen/structure_set/ruins/avoid_jungle_temples.json"
-hash = "963d8dff8e393fcaf554ed6a707fa8a457f3b61fb29e8cae767b2655aaa19184"
+hash = "56d74f43b38e9f542b1a77792f510cc8befa74e8891acc5618bcb524bd3912b0"
 
 [[files]]
 file = "kubejs/data/cobblemon/worldgen/structure_set/ruins/avoid_ocean_monuments.json"
-hash = "0b96fe9d525a52fcb9f6d46fcec8c75a4c620fb46a7a7dcc77b76cfd66198377"
+hash = "f0da6127f2933f61bf4cbdfbaa266f07cd7769e3778d6dea0a1f26b8f60927e4"
 
 [[files]]
 file = "kubejs/data/cobblemon/worldgen/structure_set/ruins/avoid_villages.json"
-hash = "5d1f2a85efd94605e221c35baf7a83ba2eced35bdb6502bb37f5664e6f3745e7"
+hash = "a1499d1943e1c7f16f2630e6667bb51875d247b8d4133778db259ac7e6160761"
 
 [[files]]
 file = "kubejs/data/cobblemon/worldgen/structure_set/ruins/avoid_witch_huts.json"
-hash = "628d35afde27a653cb91938dcc4b5f23bfd262de3fdc1fbb2232b8e23c8bf7be"
+hash = "edd3a0a5186c1d1f02d53f099561b4fb705e985cfff73c149664e0b48fe41cd1"
 
 [[files]]
 file = "kubejs/data/cobblemon/worldgen/structure_set/ruins/avoid_woodland_mansions.json"
-hash = "87ac7369016ba2d3d1e1f14a79e59bb52bc6e303ec70ebbfa25bd80cd1e8876a"
+hash = "23a8188ff1aefc615695fba8ea7904f51ebf6f39974bb8e0a6a01f5e19d9105c"
 
 [[files]]
 file = "kubejs/data/cobblemon/worldgen/structure_set/ruins/gimmi_towers.json"
-hash = "aa8f2e0ef5adf92cacf54d87a41b45405f89fb3760cd3eda5fd9e3250e635265"
+hash = "cde507c3a61e7f48e3f831532d2f9048180eb096368b598d9338e0cb66137058"
 
 [[files]]
 file = "kubejs/data/cobblemon_drops/species_additions/altaria.json"
@@ -1418,75 +1418,75 @@ hash = "8cead6cca9b8a9fd741ca74035fcdc20de0727c6cae3e457174696c2ce74e7f2"
 
 [[files]]
 file = "kubejs/data/cobblemonextrastructures/worldgen/structure_set/ancient_tomb.json"
-hash = "683ba7ff35d008b29f45dab5d2496df44cda020438d08113f8e0248a93a55671"
+hash = "310cb3a9651e4d82a2acc7c4dc87a516e9313c6b770b031ce45478df146d9471"
 
 [[files]]
 file = "kubejs/data/cobblemonextrastructures/worldgen/structure_set/bell_tower.json"
-hash = "c2601a8f31671e15b98463a1a50612f8cacb0018224616eddb71107ba092324e"
+hash = "1e40d05b961784282a9bb905bad46fcc5297c7a2fdb50c64e540d4e18a638e92"
 
 [[files]]
 file = "kubejs/data/cobblemonextrastructures/worldgen/structure_set/berry_house.json"
-hash = "37948345adf5f397830b8bb36e21003daac3bf555f935af300287076b26b33bb"
+hash = "275bdac39a595c2596e08ebbb29310837107f39eb4b1ba0a470d0da898f16c89"
 
 [[files]]
 file = "kubejs/data/cobblemonextrastructures/worldgen/structure_set/burned_tower.json"
-hash = "e4ca962e1c03a99d66e17126603b540d0a2a59edb09931423215ba228db4a927"
+hash = "390d35171bc0ad75edb67fa8659a773a470f3bceea0a1e283d993ba3d28bd283"
 
 [[files]]
 file = "kubejs/data/cobblemonextrastructures/worldgen/structure_set/desert_ruins.json"
-hash = "5b0bc747aa3a0fdb6e54bf1f35cea4257f8201c61b29bf32fb3210fdaeac8320"
+hash = "63dd9f12fe58547cdcf2c772f4209c6aa3c0ed898f27c8fbf9c2f0bfae924885"
 
 [[files]]
 file = "kubejs/data/cobblemonextrastructures/worldgen/structure_set/dragons_den.json"
-hash = "af21158d84ab8f89b02810e47e3a0895e4f1ad0dd79010340ad434e49ce9a721"
+hash = "a9b135031dd05b52f32b8c5c36baebad9e90f3746cff6d196972d2a8ee3feed6"
 
 [[files]]
 file = "kubejs/data/cobblemonextrastructures/worldgen/structure_set/fishing_hut.json"
-hash = "76837f920348342182a86607f1fefcf45d97838d93560e735cb419bd4de0ddb9"
+hash = "6c9167285b3c2b408c5f30c1b519b06045dd0efd1232fc3d527e9ba9e29e4473"
 
 [[files]]
 file = "kubejs/data/cobblemonextrastructures/worldgen/structure_set/island_cave.json"
-hash = "2759737a162fed1ad79a86a5100db4d26436c3d9eefa85c7df292b7eb5223118"
+hash = "3648c3cf8732354435f0f5050948c8bc7a593fe2f4437b12a0c2308b6dc3ccab"
 
 [[files]]
 file = "kubejs/data/cobblemonextrastructures/worldgen/structure_set/kurt_house.json"
-hash = "29986fa52fda466590688e622b9eeefa8f765477f867128390361f8fcf6721a7"
+hash = "9e232de82aa7a6263d7e8d552b82549d23840df558c5f3c7d770e917bcb57f81"
 
 [[files]]
 file = "kubejs/data/cobblemonextrastructures/worldgen/structure_set/origin_cave.json"
-hash = "2133d6b4663a034475be998bbd9fe5adb674271857f874f3d769bfd111571323"
+hash = "ae2b1fe8d2dc66f02e66b546fcf331c00d2f1a58396396693f628be6daa133cb"
 
 [[files]]
 file = "kubejs/data/cobblemonextrastructures/worldgen/structure_set/origin_tomb.json"
-hash = "faf7e51be068630909f65841493c32981e99a9ada4933903d3d825d2f764c1fc"
+hash = "d2ac466cce7faa886a47d1ab4e5e7b4e48ab4165b6988aa647d5b6750e042289"
 
 [[files]]
 file = "kubejs/data/cobblemonextrastructures/worldgen/structure_set/outskirt_stand.json"
-hash = "9ed4815e2826861645abdedfc91c5eb8ed883c0532611c72f85b9193b8a51b3b"
+hash = "652e147440510d8ceba8ca91967dd7e9cea213c659725360d89242b35e023490"
 
 [[files]]
 file = "kubejs/data/cobblemonextrastructures/worldgen/structure_set/pharmacy.json"
-hash = "44555b1ba11add64c3d2852ff5eecc3a8da1b4c0ccc384fa39944d0ec65a1591"
+hash = "47059c465ad240b8ad0bb7b93082ff7d316390d085640bc69baa4b64a75340cf"
 
 [[files]]
 file = "kubejs/data/cobblemonextrastructures/worldgen/structure_set/sea_mauville.json"
-hash = "58aa14c4b41d815b6a43f6372281d606cf94acff4e2839a5b30c7d5029fcf66c"
+hash = "cdcc57ae381b4c1e29ea2b511e1b8428ea613662673f228f83b0978e07e0ba14"
 
 [[files]]
 file = "kubejs/data/cobblemonextrastructures/worldgen/structure_set/sky_pillar.json"
-hash = "be741dee5f589b40c7a38f6a18a07eb058b11d10f0e8c6660ec46aff344b1e9a"
+hash = "5fa09dcc8a83afd65c4a17b3210b3787777985ff3f3170a998cc790cf154a512"
 
 [[files]]
 file = "kubejs/data/cobblemonextrastructures/worldgen/structure_set/snowpoint_temple.json"
-hash = "66e1eb87786493592693ccc75a8ce3ada1cb05cfc9767dc19d860cdc431d5505"
+hash = "763e69641b63d84fe2729e8362a26ad8f6329714ba1e0e7ee5947917954c768d"
 
 [[files]]
 file = "kubejs/data/cobblemonextrastructures/worldgen/structure_set/sprout_tower.json"
-hash = "cd4fc5b05df397d077185daa76c6eedd3cf882e8f5445fa11e29d59d600722b4"
+hash = "a4e731e0716a6558239430995bb5b29d84d601a821b0207ac6216fd9cca1f087"
 
 [[files]]
 file = "kubejs/data/cobblemonextrastructures/worldgen/structure_set/suerebe.json"
-hash = "eed501756128ce1bbfbf193c324681c7944017c4f794656640dbef8ca38b1743"
+hash = "dad4dcbaa34f81452b3bf834802f6448261ef665180943dc4bca022b2f2c9567"
 
 [[files]]
 file = "kubejs/data/dungeons_arise/worldgen/structure_set/major_structures.json"
@@ -1498,27 +1498,47 @@ hash = "8f3ac8749db08ad89100b13ba740fadfe2238857bb27f848d174d843b9ed4b00"
 
 [[files]]
 file = "kubejs/data/legendarymonuments/worldgen/structure_set/distortion_portal.json"
-hash = "95fb4a8298164a500ee0548ab838e0ce222c8cc84802cd187c9577102e827e70"
+hash = "7f6771648922d2075f5e3b3273373a547721021cc97d178ac517e525dc2d298f"
 
 [[files]]
 file = "kubejs/data/mega_showdown/worldgen/structure_set/archaeological_site.json"
-hash = "bf1b347ed1fbda1bfa5cea7a82e1a2324ab9c27bcc9dbeb1bd58654a2806ed6e"
+hash = "d63aeb2899710dbf032d76b41e50d885bc5cd452b1d00fd60e8f007f30c9c519"
 
 [[files]]
 file = "kubejs/data/mega_showdown/worldgen/structure_set/megaroid.json"
-hash = "ab5d3e34961e9bd519788cb35147f3f0299ca89f0c3253c3535b1a591479d10d"
+hash = "f88df51fa474f2e40002b4d787594a988aaf93d4448abe2e3978a3979b9cccaf"
 
 [[files]]
 file = "kubejs/data/mega_showdown/worldgen/structure_set/observatory.json"
-hash = "7f95447bffd5912367dca9bb760afb83ef9c82c5726b3529e6c3336ca09db54f"
+hash = "cc5614a967318db0939d978853c361207714b5d359fd129a6139623fb0fabce8"
 
 [[files]]
 file = "kubejs/data/mega_showdown/worldgen/structure_set/wishing_weald.json"
-hash = "7d0360f0d9adb8cd3280f296ae97d1277a809696301bd753b59ff16546f5da8e"
+hash = "c3bc69b5a2f415b35bc89b1fe106935e4177f05171407003bf00040553d7c97c"
 
 [[files]]
 file = "kubejs/data/neoforge/loot_modifiers/global_loot_modifiers.json"
 hash = "bd51db29fe13e5d94a4c43c3864a96c06c061e126e470305686f6164f0ad3537"
+
+[[files]]
+file = "kubejs/data/rgs/tags/worldgen/biome/celadon_gym.json"
+hash = "3aeb115ded86db393859cbd65f54b4057dc8f99c890e0f901b1388df3b83f04a"
+
+[[files]]
+file = "kubejs/data/rgs/tags/worldgen/biome/fuchsia_gym.json"
+hash = "e28831cbc8684b60efe777215758757ed9b2a76d41c2098ed3e8df595e1bb2fc"
+
+[[files]]
+file = "kubejs/data/rgs/tags/worldgen/biome/pewter_gym.json"
+hash = "d30bfa8e32a6458a8e11074d2fd499c37449f94efb8df685385612a6e3e63d7a"
+
+[[files]]
+file = "kubejs/data/rgs/tags/worldgen/biome/saffron_gym.json"
+hash = "457e0902a16822649abb2839400169718e46bd9d0e214e31e0a0b324083a43f1"
+
+[[files]]
+file = "kubejs/data/rgs/tags/worldgen/biome/vermilion_gym.json"
+hash = "1ee89fb6f7ab2578aaed281f2c863f62bc5772d6c03b198c20c2b14c9a2be138"
 
 [[files]]
 file = "kubejs/data/rgs/worldgen/structure_set/celadon_gym.json"
@@ -1550,27 +1570,27 @@ hash = "57583c1a6eaadd0bf2b87945e286c6550e80d51f9a32f864cbb1063f8602d09b"
 
 [[files]]
 file = "kubejs/data/supplementaries/worldgen/structure_set/galleons.json"
-hash = "347ef4e664347910f6f8969cdf702f2859936c6bbf90d5a952802c2de4152ddf"
+hash = "eda4d28c57f90e19e1fd02ab5f1704a62110b5b06962f3ad99a777d4fcd2b318"
 
 [[files]]
 file = "kubejs/data/supplementaries/worldgen/structure_set/road_signs.json"
-hash = "f62e8af1a886a47103552729310c9990855d7549967be1921abb7f630de68fe8"
+hash = "1e3999caddedfcf306aac74e2b9d8c5ae2d3e98b95f4a6aec02e537d938eacbb"
 
 [[files]]
 file = "kubejs/data/terralith/worldgen/structure_set/mage.json"
-hash = "a5345275bb05f7208bad96e4eb8e736164f674c818c85ef771f56a2fe053f7b9"
+hash = "2666fb2d0a1d85b28dca48961e293eada9937d2fbeea21921e381639f133acf4"
 
 [[files]]
 file = "kubejs/data/terralith/worldgen/structure_set/rare_dungeon.json"
-hash = "5f4990c6ec9e802b329903762c83f963fc2c37289e7b0f484be9e263a525d4cb"
+hash = "448482f549ceefd53e61451d2b063d7db9094a74e23cf08b08d68e0ba633e149"
 
 [[files]]
 file = "kubejs/data/terralith/worldgen/structure_set/regular.json"
-hash = "b2b6c567bd0b98fc2497d3e435c1921bb4dca0dc0093f7949592ea47c63a9287"
+hash = "189450d3985f99ca088306e823c0c3bcf1a37b47b321f50e9e4c18d01ca34390"
 
 [[files]]
 file = "kubejs/data/terralith/worldgen/structure_set/rubble.json"
-hash = "43ebe057a0931751922c977041d0f0140569ed2342b8923c6dfe1a71471f925e"
+hash = "1491cb57f22c7c40a498867f397d90676b89a2a0e2e4f5f3fa967628cc37e451"
 
 [[files]]
 file = "kubejs/data/underground_villages/tags/worldgen/biome/has_structure/village_underground.json"

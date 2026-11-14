@@ -5,8 +5,8 @@
       "other_set": "minecraft:woodland_mansions"
     },
     "salt": 1628364155,
-    "separation": 22,
-    "spacing": 38,
+    "separation": 30,
+    "spacing": 50,
     "spread_type": "triangular",
     "type": "minecraft:random_spread"
   },
