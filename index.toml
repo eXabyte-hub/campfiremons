@@ -446,7 +446,7 @@ hash = "70074e17491ae047e10c5a80458bf885c4ce8957bc27681a3b9db81a9f82975e"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "65e99c434c6f449c708f97652daf7eada9e19cffd845aacae1a62dd6066f2eeb"
+hash = "4339fbebc60c4ce94a3127c104f01b60cd90af2b43d43745b15b1ef1ca413dd7"
 
 [[files]]
 file = "config/fancymenu/options.txt"
@@ -2689,13 +2689,23 @@ hash = "dbbf5a02c1abe8f8b596a23fa0cb84f169d28691c266393cce596bf6d755da5b"
 metafile = true
 
 [[files]]
-file = "resourcepacks/rct-trainer-textures-plus.pw.toml"
-hash = "8bd76c90d8c9b4d21e94bdb99ceee8e14d9a523b8e6cccf4ed64eaccdccc7852"
+file = "resourcepacks/faithful-32x-appleskin-addon.pw.toml"
+hash = "99a5bc8e812e2575e901e3c9937d19a88b1317354d913c3ca678c22d07542987"
 metafile = true
 
 [[files]]
-file = "resourcepacks/stay-true.pw.toml"
-hash = "5c98064f8e8b4d6bd97cb3230f7b5a620bae73cd0a1d45a4dc28c2864972ac4b"
+file = "resourcepacks/faithful-32x.pw.toml"
+hash = "e0a6012ba9dad43bbcc771bb65c9ed857cb959d1ac36b5d4924ad036b4ffb07a"
+metafile = true
+
+[[files]]
+file = "resourcepacks/faithful-fusion-connected-default-glass-32x-add-on.pw.toml"
+hash = "0753d5d9f2e5b0194011437dd14249d5efb31a42f5d658b5890882c9638b266a"
+metafile = true
+
+[[files]]
+file = "resourcepacks/rct-trainer-textures-plus.pw.toml"
+hash = "8bd76c90d8c9b4d21e94bdb99ceee8e14d9a523b8e6cccf4ed64eaccdccc7852"
 metafile = true
 
 [[files]]
