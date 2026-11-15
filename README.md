@@ -28,6 +28,9 @@ Ask whoever runs the server for the address and to be added to the whitelist, th
 
 - **Gyms are the progression.** Beating each Radical Red gym leader moves you to the next stage (8 gyms, then the
   Elite Four and Champion). The quest book has a chapter for every stage.
+- **Finding your next gym:** you get a map to it when you first join and after every gym win, with the distance and
+  direction in chat. Lost it? Type `/gymmap`. The last three gyms are in the Nether and the End: you get directions
+  once you're there.
 - **Level cap.** Your Pokémon stop gaining EXP at the level of your next big fight, and trainers won't battle you
   while a party Pokémon is over the cap. You can catch anything at any level; box the over-levelled ones before a
   trainer battle.
@@ -37,7 +40,10 @@ Ask whoever runs the server for the address and to be added to the whitelist, th
   once you reach their stage. Mega Bracelets, Z-Rings, Tera Orbs and other power items turn up in structure chests
   after the gym that unlocks them, and every player gets their own copy of the loot.
 - **Out in the world:** Pokécenters and PokéStops heal your team and have a PC; rare Poké Labs hold extra loot.
-  Sophisticated Backpacks can take PC and healing upgrades so you can do both on the go.
+  Sophisticated Backpacks can take PC and healing upgrades so you can do both on the go. Waystones (some in villages)
+  let you teleport between the ones you've found, and Ping Wheel marks a spot or a Pokémon for your friends.
+- **Pokémon at home:** Pokémon in a pasture produce items (wool, eggs and more), and wild Pokémon show whether
+  you've caught their species yet. Your PC has 60 boxes.
 - **Side activities:** Raid Dens open star by star as you progress, the Battle Tower opens at Stage 4, Ultra Space at
   Stage 6. The Master Ball is the Champion's reward.
 

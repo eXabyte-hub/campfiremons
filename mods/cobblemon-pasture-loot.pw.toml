@@ -1,0 +1,13 @@
+name = "Cobblemon Pasture Loot"
+filename = "PastureLoot-neoforge-2.0.0+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/XP2jcAo0/versions/uJqzdZuI/PastureLoot-neoforge-2.0.0%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "818d15919fb95e729f58690f8527f3d96cef18cfc6924070c40cdc99e898a27f07c5e64b0441bca8f9baaa1bb1b765f242dfe10c5f031a1078c3029a4d0ac277"
+
+[update]
+[update.modrinth]
+mod-id = "XP2jcAo0"
+version = "uJqzdZuI"

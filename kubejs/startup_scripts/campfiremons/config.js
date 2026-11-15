@@ -99,4 +99,22 @@ global.campfiremonsConfig = {
   heldItemLocks: {
     8: ['mega_showdown:red_orb', 'mega_showdown:blue_orb', 'mega_showdown:rusted_sword', 'mega_showdown:rusted_shield'],
   },
+
+  // Gym maps (gym_maps.js): the gym a player at each stage fights next, index = stage. `id` names the structure tag
+  // campfiremons:gym/<id> and, for overworld gyms, the loot table campfiremons:gym_map/<id> that draws the map.
+  // Gyms in another dimension get directions in chat once you're there.
+  nextGym: [
+    { id: 'pewter', leader: 'Brock', place: 'Pewter Gym' },
+    { id: 'cerulean', leader: 'Misty', place: 'Cerulean Gym' },
+    { id: 'vermilion', leader: 'Lt. Surge', place: 'Vermilion Gym' },
+    { id: 'celadon', leader: 'Erika', place: 'Celadon Gym' },
+    { id: 'saffron', leader: 'Sabrina', place: 'Saffron Gym' },
+    { id: 'fuchsia', leader: 'Koga', place: 'Fuchsia Gym' },
+    { id: 'cinnabar', leader: 'Blaine', place: 'Cinnabar Gym', dimension: 'minecraft:the_nether', where: 'the Nether' },
+    { id: 'blackthorn', leader: 'Clair', place: 'Blackthorn Gym', dimension: 'minecraft:the_end', where: 'the End' },
+    { id: 'kanto_league', leader: 'Champion Terry', place: 'the Kanto League', dimension: 'minecraft:the_end', where: 'the End' },
+  ],
+
+  // Cobblemon settings applied when the server loads (cobblemon_settings.js), instead of shipping its whole main.json
+  pcBoxes: 60, // Cobblemon 1.8.4 defaults to 40; 60 boxes = 1,800 slots, room for a living dex with forms
 }

@@ -1,0 +1,13 @@
+name = "OS Cobblemon Library"
+filename = "os-cobblemon-library-neoforge-1.5.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/8hdkMUPs/versions/MI9B7bpq/os-cobblemon-library-neoforge-1.5.2.jar"
+hash-format = "sha512"
+hash = "bc1139bfb7b6b1706e5bd8dd55d9c37134865aca7db1301b1d6d0b9addcb86ae4221ed560021db9420ac0008dde25fa21578ed777d8c2b9c6a62346d61a7602e"
+
+[update]
+[update.modrinth]
+mod-id = "8hdkMUPs"
+version = "MI9B7bpq"

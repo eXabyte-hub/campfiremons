@@ -725,6 +725,30 @@ file = "kubejs/data/campfiremons/loot_table/finds/z_ring.json"
 hash = "c2bbbea9b6d7c2d58370650c74f67603769b9dad2fea70292e3e1902e60e9245"
 
 [[files]]
+file = "kubejs/data/campfiremons/loot_table/gym_map/celadon.json"
+hash = "7452a125ce4f79d679a19b6d3960d217d60dca945aa1e74085920c08027dc986"
+
+[[files]]
+file = "kubejs/data/campfiremons/loot_table/gym_map/cerulean.json"
+hash = "39804402953d39c4731dd04f7862b3aae76624a99086e9592415b4f9113746a2"
+
+[[files]]
+file = "kubejs/data/campfiremons/loot_table/gym_map/fuchsia.json"
+hash = "fa96571b069a7fae6daf66279e26f93aff8d500a4d7bc49fe6c8b7dfd545477d"
+
+[[files]]
+file = "kubejs/data/campfiremons/loot_table/gym_map/pewter.json"
+hash = "e02debf2aaf178414a283bc09e87811f10a6da597d25b68c392fa06e75241852"
+
+[[files]]
+file = "kubejs/data/campfiremons/loot_table/gym_map/saffron.json"
+hash = "c8bf9f6d9184f07dc692c94d295eb195cd39c16b37923c6a40798efcf320788a"
+
+[[files]]
+file = "kubejs/data/campfiremons/loot_table/gym_map/vermilion.json"
+hash = "244ee7f1cf64e9cd5d2aa53cabd53271d73502a44f69b44375dbc6277e6b508e"
+
+[[files]]
 file = "kubejs/data/campfiremons/loot_table/rewards/stage_1.json"
 hash = "ee2e906e3c496c00ab1c6cb68c8a14ddcaff6c5b9585560286e58478d147cf6e"
 
@@ -799,6 +823,42 @@ hash = "f571f89f743f252e88e67ac68fabbb03dd43500a05daaba160394ef0d067b942"
 [[files]]
 file = "kubejs/data/campfiremons/species_additions/starly.json"
 hash = "d6696e1ab08581fb0139be9ff03eb8eb28b0c78433885ee3b35aaab31e53e339"
+
+[[files]]
+file = "kubejs/data/campfiremons/tags/worldgen/structure/gym/blackthorn.json"
+hash = "89898c6c474fb4e0054a04ec893c3d0b93179ae0fca937af6c0b88311d65810e"
+
+[[files]]
+file = "kubejs/data/campfiremons/tags/worldgen/structure/gym/celadon.json"
+hash = "8207f7423c7b2ec5e01a681a2d56f8e319e577ae7cd0a50b4ff08523196eb36b"
+
+[[files]]
+file = "kubejs/data/campfiremons/tags/worldgen/structure/gym/cerulean.json"
+hash = "7e93ace681400d0724b13c07b5a3af5b3ce3c9624f203b11ce51128b51cd7c3e"
+
+[[files]]
+file = "kubejs/data/campfiremons/tags/worldgen/structure/gym/cinnabar.json"
+hash = "b7b79cd28b7b56afd446560ff5ca53f19842bc3951842bf5bf237fc8e282e8cc"
+
+[[files]]
+file = "kubejs/data/campfiremons/tags/worldgen/structure/gym/fuchsia.json"
+hash = "d12aa576fe15a817647e4e6dc8076c5b6b3cfb46b0ec79600526b520e84eb1cc"
+
+[[files]]
+file = "kubejs/data/campfiremons/tags/worldgen/structure/gym/kanto_league.json"
+hash = "23896cb1b904300b5c1abc433191da3843eb449ecdcc69240bc5ebac7244d56b"
+
+[[files]]
+file = "kubejs/data/campfiremons/tags/worldgen/structure/gym/pewter.json"
+hash = "25a08c85ba468bfbfe57f1df044d3d2479b166f7bba6ec67a8cbf58b2d717124"
+
+[[files]]
+file = "kubejs/data/campfiremons/tags/worldgen/structure/gym/saffron.json"
+hash = "f0253159af74101eeee9784d0e1c890b08b21050c606e76ff485d59078e70653"
+
+[[files]]
+file = "kubejs/data/campfiremons/tags/worldgen/structure/gym/vermilion.json"
+hash = "831534a0484c9079315f5bdc94792bd54190e558eb2d3a22bc92e116074d18f4"
 
 [[files]]
 file = "kubejs/data/campfiremons/worldgen/configured_feature/empty_cell.json"
@@ -1741,8 +1801,16 @@ file = "kubejs/data/terralith/worldgen/structure_set/rubble.json"
 hash = "dda8edd0f4284a1f33d3a138190543fc771f648f91e534686191b4cfb01722e8"
 
 [[files]]
+file = "kubejs/server_scripts/campfiremons/cobblemon_settings.js"
+hash = "c51338f664ed62544c0dc0792901f5714b360326a34b1b32d9843d6568464aed"
+
+[[files]]
 file = "kubejs/server_scripts/campfiremons/gimmick_items.js"
 hash = "6d30e37b13e7f6fc3d1ffa4d67829116a5f6e2327de07fe8ec62cacccf61ce70"
+
+[[files]]
+file = "kubejs/server_scripts/campfiremons/gym_maps.js"
+hash = "9f3327dd9e5ee8fff272a4ffa83d26587eb3de53d7cc9a2f775aefbcb78ac456"
 
 [[files]]
 file = "kubejs/server_scripts/campfiremons/item_locks.js"
@@ -1762,7 +1830,7 @@ hash = "21687adb07bcb4ab7e4e1d40dc6c289621e8fa5603aa4a87248cbbc160e42aa5"
 
 [[files]]
 file = "kubejs/startup_scripts/campfiremons/config.js"
-hash = "455ea94620e27a0ccd55f006c6a0c36593c79b328b9fbb3b1ae9983871b6c0ad"
+hash = "8d84931e42181d394a5c3487fbe0a08361a9eea29af00c72276709a4790e2737"
 
 [[files]]
 file = "kubejs/startup_scripts/campfiremons/tier_locks.js"
@@ -1879,6 +1947,11 @@ hash = "2ddd7b954c4a91910405e392b07f059c010dd092e9da096f381e925595ce741f"
 metafile = true
 
 [[files]]
+file = "mods/catch-indicator.pw.toml"
+hash = "fd602d86b0b0ae9eda6142a9a7a62dac236aa7706841caf3c7acf799df78e59b"
+metafile = true
+
+[[files]]
 file = "mods/catch-rate-display.pw.toml"
 hash = "e28b4dec295a320bf019c38321fe18bc4f08bb2b25c4f1091470c549ef1ba5e8"
 metafile = true
@@ -1951,6 +2024,11 @@ metafile = true
 [[files]]
 file = "mods/cobblemon-mega-showdown.pw.toml"
 hash = "450920a4100688783500078850dde0ba777f790bdf5ac2d45c5938432ab75e50"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-pasture-loot.pw.toml"
+hash = "281e0b560eaf82c09ce38b7044b299c392c0c961617c248131669f6b0f96eee0"
 metafile = true
 
 [[files]]
@@ -2036,6 +2114,11 @@ metafile = true
 [[files]]
 file = "mods/complete-cobblemon-collection-myths-and-legends-compat.pw.toml"
 hash = "504e1c016abd88c7c2a3420aa9250476c81cbf6bec4b94accfac2eddd2dfe008"
+metafile = true
+
+[[files]]
+file = "mods/configurable.pw.toml"
+hash = "dcd40eb17aefa2335e200f44114967260f5b5bc3dbae4e426c19dabcc89a6019"
 metafile = true
 
 [[files]]
@@ -2359,6 +2442,11 @@ hash = "0f1148ea2b643d8999ba0e96b62171e4925470518d874f9f13e213affaf4e968"
 metafile = true
 
 [[files]]
+file = "mods/neruina.pw.toml"
+hash = "2dec6835297e950b5df86d8a879e97e279b5698d14c599c5a2a192918312c5c8"
+metafile = true
+
+[[files]]
 file = "mods/netherportalfix.pw.toml"
 hash = "748bdcbc7788a77881979189827f1baf3f6ef5fdaeb58b00e51e043c2c0abe39"
 metafile = true
@@ -2389,8 +2477,18 @@ hash = "dbb2a2fc538df2577ac83d9eb0d7d4a67b15b3e2f1570ac380dacd79f8ddc0a4"
 metafile = true
 
 [[files]]
+file = "mods/os-cobblemon-library.pw.toml"
+hash = "931458a4b9a139827f3f2aa8b4e4591b72dd05d2f1aeeab9239cac599a5381da"
+metafile = true
+
+[[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "6514f98b34602b789fc2dbcafe7a67468d1c94d74965a0142a79b7ab23628a9a"
+metafile = true
+
+[[files]]
+file = "mods/packet-fixer.pw.toml"
+hash = "84cb0dcad9ac46d22adba4fb7924951affa6ac5e46027a3b25fa9a0db8d91b2b"
 metafile = true
 
 [[files]]
@@ -2401,6 +2499,11 @@ metafile = true
 [[files]]
 file = "mods/particular-reforged.pw.toml"
 hash = "255d8497721c69eb8ff2473053cfa287cfe920b348c8a03f43508dd61dfb7ec7"
+metafile = true
+
+[[files]]
+file = "mods/ping-wheel.pw.toml"
+hash = "650330109d21831664d2ff597c7a90200eda69a1efaca4e9b0b6b6297ac3c364"
 metafile = true
 
 [[files]]
@@ -2611,6 +2714,11 @@ metafile = true
 [[files]]
 file = "mods/wakes-reforged.pw.toml"
 hash = "8e464c45945b7311b01d0be50a714e8a64d389dc27331f4a27d7981fd29131b9"
+metafile = true
+
+[[files]]
+file = "mods/waystones.pw.toml"
+hash = "2dad5577c5ec5e73bb3d5cec8da606e3b72e384207c9291a25e1ae96fd20bb70"
 metafile = true
 
 [[files]]

@@ -54,6 +54,11 @@ ATMons has no license, so we only study its approach (see §6).
   - The Elite Four and Champion Terry are back in the hub's **League** building.
   - The rival, Brendan/May and Team Rocket fights are RCT key trainers that spawn in the world; they raise the level cap but aren't stage gates.
 - Side chapters (not stage gates): Breeding, Raids, Legends, Create/Engineering, Economy.
+- **Gym maps** [decided, F10]: on first login, after every stage-up and with `/gymmap` (30 s cooldown), a player gets
+  directions to the gym of their next stage (`config.js` `nextGym`, `gym_maps.js`): an explorer map with a red X
+  for overworld gyms (loot tables `campfiremons:gym_map/<id>`, structure tags `campfiremons:gym/<id>`) plus distance,
+  direction and coordinates in chat. Cinnabar (Nether), Blackthorn and the League (End) get chat directions once
+  you're in that dimension. Gyms sit on their own structure grids, so the search is quick. Idea from COBBLEVERSE.
 
 ### 3.2 Parity rule [decided]
 
@@ -309,6 +314,11 @@ Additions on top of the official pack. "1.8?" shows whether the addon's latest N
 | Client QoL [F10]: Mouse Tweaks, Jade, Controlling (+ Searchables), Zume | Inventory dragging, look-at info (Cobblemon shows species/level), keybind search, zoom. Zume instead of Zoomify (no NeoForge build). Sorting comes from Sophisticated Inventory Interactions (below); Inventory Profiles Next was removed [decided, F10] | n/a |
 | Performance [F10]: ModernFix 5.27.27, ImmediatelyFast 1.6.15 | Load time, memory and rendering, which the base pack left out (picked up from Cobblemon Plus+; FerriteCore already came with the base). ModernFix runs on the server too; ImmediatelyFast is client-only | n/a |
 | Advancement Plaques 1.6.8 (+ Iceberg) + Cobblemon Advancement Plaques 1.0.2 (resource pack, on by default) | Stage-ups and stage finds (both advancements with toasts) show as a Cobblemon-styled banner across the top of the screen instead of a corner toast. Client-only | n/a |
+| Waystones 21.1.46, Ping Wheel 1.12.2 [F10] | Fast travel between waystones you've found (some generate in villages); pings to mark spots and Pokémon for the group. From COBBLEVERSE | n/a |
+| Catch Indicator 3.1.1 (+ OS Cobblemon Library) [F10] | Wild Pokémon show whether you've caught their species. Client-only. From COBBLEVERSE | ✅ |
+| Cobblemon Pasture Loot 2.0.0 [F10] | Pastured Pokémon produce species-fitting items; with no vanilla farm animals, pastures are the farms. From COBBLEVERSE | ✅ |
+| Neruina 3.3.5 (+ Configurable), Packet Fixer 3.3.1 [F10] | Server safety: a crashing entity is removed instead of making the world unloadable; no "packet too big" kicks from full PCs and backpacks. From COBBLEVERSE | n/a |
+| PC boxes [F10] | 60 per new PC (Cobblemon 1.8.4 gives 40), set on server load by `cobblemon_settings.js` from `config.js` `pcBoxes` instead of shipping Cobblemon's whole `main.json` | n/a |
 | RCT Trainer Textures Plus 2.2 (resource pack, on by default) | Skins for all 1,559 RCT trainers, replacing RCT's plain defaults | n/a |
 | E19 Cobblemon Minimap Icons 1.5.7 (resource pack, on by default) | Pokémon icons on Xaero's minimap radar, incl. Mega Showdown and CCC forms. Its model definitions only swap textures (alpha variants), never models. Needs radar icons on: the shipped `xaerominimap_entities.json` sets them to Always | n/a |
 | Faithful 32x (1.21.1 June 2026) + Faithful Fusion Connected Default Glass 32x + Faithful 32x AppleSkin add-on (resource packs, on by default) [F10] | 32x remaster of the vanilla textures (replaced Stay True). Its OptiFine folder doesn't load on NeoForge; the glass add-on connects vanilla glass through Fusion; the AppleSkin add-on matches AppleSkin's food overlay to Faithful's hunger bar (it declares 1.21.3's pack format, so the default options also list it as allowed-incompatible). Better Leaves stays above them: its leaf textures are 32x too. No current Faithful packs exist for Create, Cobblemon or our other big mods (the community Faithful32 Modded stopped in 2022), so modded blocks keep their own textures. Bushy Leaves for Faithful left out: it would fight Better Leaves' models | n/a |
