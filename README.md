@@ -42,7 +42,9 @@ Ask whoever runs the server for the address and to be added to the whitelist, th
   once you reach their stage. Mega Bracelets, Z-Rings, Tera Orbs and other power items turn up in structure chests
   after the gym that unlocks them, and every player gets their own copy of the loot.
 - **Out in the world:** Pokécenters and PokéStops heal your team and have a PC; rare Poké Labs hold extra loot.
-  Pokémon towns (Pallet, Lavender, Twinleaf and more) have their own Pokécenters, Pokémarts and Pokémon.
+  Pokémon towns (Pallet, Lavender, Twinleaf and more) have their own Pokécenters, Pokémarts and Pokémon, and the
+  Kanto cities (Pewter to Cinnabar, plus the Indigo Plateau) have landmark buildings, shops, trainers and townsfolk.
+  Their gym leaders don't battle: badges come from the Radical Red gyms.
   Sophisticated Backpacks can take PC and healing upgrades so you can do both on the go. Waystones (some in villages)
   let you teleport between the ones you've found, and Ping Wheel marks a spot or a Pokémon for your friends.
 - **Pokémon at home:** Pokémon in a pasture produce items (wool, eggs and more), and wild Pokémon show whether

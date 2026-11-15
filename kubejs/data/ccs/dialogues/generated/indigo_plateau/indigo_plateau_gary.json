@@ -1,0 +1,34 @@
+{
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();"
+    }
+  },
+  "pages": [
+    {
+      "id": "page_1",
+      "speaker": "npc",
+      "lines": [
+        "The League isn't taking challengers here. Win all eight Radical Red badges and the real Elite Four will be waiting.",
+        "Type /gymmap to see where your next gym is."
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "Got it",
+            "value": "close",
+            "action": [
+              "q.dialogue.close();"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

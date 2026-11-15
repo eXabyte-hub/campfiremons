@@ -1,0 +1,34 @@
+{
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();"
+    }
+  },
+  "pages": [
+    {
+      "id": "page_1",
+      "speaker": "npc",
+      "lines": [
+        "This gym isn't taking challenges. Badges are won at the Radical Red gyms out in the world.",
+        "Type /gymmap and you'll get directions to the gym you need next."
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "Got it",
+            "value": "close",
+            "action": [
+              "q.dialogue.close();"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

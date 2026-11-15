@@ -1102,6 +1102,66 @@ file = "kubejs/data/campfiremons/worldgen/template_pool/empty_cell.json"
 hash = "7aa1bdf95431d08c671636ac93d70bae172ed61b197d6bc26c724de30ac4a936"
 
 [[files]]
+file = "kubejs/data/ccs/dialogues/generated/celadon/celadon_erika.json"
+hash = "ed701395307bad7c00752fcecfd67ca472811255ed21e5a9871c6b385a244411"
+
+[[files]]
+file = "kubejs/data/ccs/dialogues/generated/cerulean/cerulean_misty.json"
+hash = "ed701395307bad7c00752fcecfd67ca472811255ed21e5a9871c6b385a244411"
+
+[[files]]
+file = "kubejs/data/ccs/dialogues/generated/cinnabar/cinnabar_blaine.json"
+hash = "ed701395307bad7c00752fcecfd67ca472811255ed21e5a9871c6b385a244411"
+
+[[files]]
+file = "kubejs/data/ccs/dialogues/generated/fuchsia/fuchsia_koga.json"
+hash = "ed701395307bad7c00752fcecfd67ca472811255ed21e5a9871c6b385a244411"
+
+[[files]]
+file = "kubejs/data/ccs/dialogues/generated/indigo_plateau/indigo_plateau_agatha.json"
+hash = "edbe2371d7bac02158212f5f8175bb7c94180c9b50aa4a6256c9d98bd92a4d6e"
+
+[[files]]
+file = "kubejs/data/ccs/dialogues/generated/indigo_plateau/indigo_plateau_bruno.json"
+hash = "edbe2371d7bac02158212f5f8175bb7c94180c9b50aa4a6256c9d98bd92a4d6e"
+
+[[files]]
+file = "kubejs/data/ccs/dialogues/generated/indigo_plateau/indigo_plateau_gary.json"
+hash = "edbe2371d7bac02158212f5f8175bb7c94180c9b50aa4a6256c9d98bd92a4d6e"
+
+[[files]]
+file = "kubejs/data/ccs/dialogues/generated/indigo_plateau/indigo_plateau_lance.json"
+hash = "edbe2371d7bac02158212f5f8175bb7c94180c9b50aa4a6256c9d98bd92a4d6e"
+
+[[files]]
+file = "kubejs/data/ccs/dialogues/generated/indigo_plateau/indigo_plateau_lorelei.json"
+hash = "edbe2371d7bac02158212f5f8175bb7c94180c9b50aa4a6256c9d98bd92a4d6e"
+
+[[files]]
+file = "kubejs/data/ccs/dialogues/generated/pewter/pewter_brock.json"
+hash = "ed701395307bad7c00752fcecfd67ca472811255ed21e5a9871c6b385a244411"
+
+[[files]]
+file = "kubejs/data/ccs/dialogues/generated/saffron/saffron_sabrina.json"
+hash = "ed701395307bad7c00752fcecfd67ca472811255ed21e5a9871c6b385a244411"
+
+[[files]]
+file = "kubejs/data/ccs/dialogues/generated/vermilion/vermilion_surge.json"
+hash = "ed701395307bad7c00752fcecfd67ca472811255ed21e5a9871c6b385a244411"
+
+[[files]]
+file = "kubejs/data/ccs/dialogues/generated/viridian/viridian_clair.json"
+hash = "ed701395307bad7c00752fcecfd67ca472811255ed21e5a9871c6b385a244411"
+
+[[files]]
+file = "kubejs/data/ccs/function/open_welcome.mcfunction"
+hash = "397c7f09f3273c5a1d810d4a32e5a4db99ea5360fe59f4d7db75cab41b6d1b4e"
+
+[[files]]
+file = "kubejs/data/ccs/worldgen/structure_set/towns.json"
+hash = "0553f53cc1b941eb4fe9aae47a12b2e0442710910769d61a463e2aadacc33a80"
+
+[[files]]
 file = "kubejs/data/cobblemon/spawn_detail_presets/illager_structures.json"
 hash = "b57ce74ad3d5abe98c3732510c3a231f1083011dea5c3edeb0ed884fb5db583d"
 
@@ -2279,6 +2339,11 @@ metafile = true
 [[files]]
 file = "mods/cobblemon-capture-xp.pw.toml"
 hash = "ea90ecdd3906af5a4707df5ae1ad368ffb8fb627d59bad86f5ca58f7eaa696ea"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-cities-structures.pw.toml"
+hash = "8689c5b4052bf640e74e0240c181193dacbec338411e3e09067c064e1e0ed6d3"
 metafile = true
 
 [[files]]

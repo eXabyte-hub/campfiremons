@@ -62,6 +62,10 @@ Mega Showdown or any other Pokémon model mod.
 `tools/gen_drops.py` owns every `species_additions` file under `kubejs/data/` (drop fixes for mods that replace
 Pokémon drop tables, plus egg drops). Re-run it after updating Cobblemon or any mod that ships species_additions.
 
+Cobblemon Cities & Structures is pinned (it changes fast). After updating it, check that the 13 leader dialogues in
+`kubejs/data/ccs/dialogues/generated/` and `kubejs/data/ccs/function/open_welcome.mcfunction` still match its file
+names, then re-run `tools/gen_structure_spacing.py`.
+
 Data packs from Modrinth go in `datapacks/` (`packwiz mr add`, with `datapack-folder = "datapacks"` in `pack.toml`):
 packwiz installs them into the game folder's `datapacks/`, and Open Loader loads that folder into every world, on
 clients and the server. KubeJS data still wins over them, so overrides go in `kubejs/data/` as usual.

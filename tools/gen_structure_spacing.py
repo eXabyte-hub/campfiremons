@@ -65,6 +65,7 @@ RARER = {
     "rgs:blackthorn_gym": 1.0,  # Clair (Stage 8) has to be found
     "rgs:kanto_league": 1.0,
     "legendarymonuments:distortion_portal": 2.0,
+    "ccs": 1.5,  # Cobblemon Cities & Structures: the Kanto cities, big centrepieces; one per 37 chunks after clearance
 }
 
 # Never on the shared grid and not kept clear of it: underground structures, and Supplementaries (its biomes are
@@ -83,6 +84,8 @@ OWN_GRID = {"rgs", "legendarymonuments"}
 # Switched off entirely (their set is emptied): CobbleTowns' scattered Pokécenters and Pokémarts, which duplicate
 # the Pokécenters/PokéStops on campfiremons:services. Its towns stay and join the shared grid.
 DROPPED = {"cobbletowns:pokecenter", "cobbletowns:pokemart"}
+# Single structures taken out of whatever set holds them: CCS's roadside Pokécenter (its cities keep theirs).
+DROPPED_STRUCTURES = {"ccs:pokecenter"}
 MAP_TAGS = ["minecraft:on_woodland_explorer_maps", "minecraft:on_ocean_explorer_maps",
             "minecraft:on_trial_chambers_maps", "minecraft:on_treasure_maps"]
 
@@ -237,7 +240,7 @@ def main():
         if (structure_set.get("placement", {}).get("type") != "minecraft:random_spread" or listed(NOT_POOLED, set_id)
                 or set_id in DROPPED):
             continue
-        entries = structure_set["structures"]
+        entries = [e for e in structure_set["structures"] if e["structure"] not in DROPPED_STRUCTURES]
         joins = [e for e in entries if biomes.get(e["structure"], set()) & overworld
                  and not biomes.get(e["structure"], set()) & elsewhere]
         if not joins:
@@ -293,6 +296,7 @@ def main():
         if "spacing" not in placement:
             continue
         factor = lookup(RARER, set_id, 1.0)
+        structure_set["structures"] = [e for e in structure_set["structures"] if e["structure"] not in DROPPED_STRUCTURES]
         if set_id in pooled or set_id in services:
             structure_set["structures"] = leftover[set_id]
         if set_id in DROPPED:
