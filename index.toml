@@ -553,6 +553,11 @@ file = "config/terralith.json"
 hash = "de592f6eb46c9b12150d3eb3ac704ddb816dc361fefa7a827619cb0f84e6d204"
 
 [[files]]
+file = "datapacks/cobbletowns-continued.pw.toml"
+hash = "cd4f70ef2615c4103f4ed1befc1991d209319e806dd73606fd99cd73cdbba8e3"
+metafile = true
+
+[[files]]
 file = "defaultconfigs/rctmod-server.toml"
 hash = "b40eaa776bd701e4e1538b3783bcf9e1754cfd467180689afaac86f4fc6df5fa"
 
@@ -878,7 +883,7 @@ hash = "9819b46e3bddf412ec31beda60a63aecba33bdf3748acdca0b02a87c7e88f82c"
 
 [[files]]
 file = "kubejs/data/campfiremons/worldgen/structure_set/surface_structures.json"
-hash = "b3c4087dd5fe9ed9328c07b83bdedfec40231e117b69b9290ae303ac455d2ff5"
+hash = "f17a2fedfef2442fe62d7dc577c502729d87c039f31e1982f59576afe6d89a24"
 
 [[files]]
 file = "kubejs/data/campfiremons/worldgen/template_pool/empty_cell.json"
@@ -1581,6 +1586,46 @@ file = "kubejs/data/cobblemonextrastructures/worldgen/structure_set/suerebe.json
 hash = "09ba00c4b64ff7726d9f3995551a3402c4298d042f08aab47ab898b836423f80"
 
 [[files]]
+file = "kubejs/data/cobbletowns/loot_table/lentimas_town/chest_small.json"
+hash = "c366021678eafd4524505cd5ff929a0d4dfe29499564d7acaf8e66ff5a0c88a6"
+
+[[files]]
+file = "kubejs/data/cobbletowns/worldgen/structure_set/cherrygrove_city.json"
+hash = "3e50cc7837e89b3f49d0685ffdef397dfb32102f093790095e36c6f699f4db6d"
+
+[[files]]
+file = "kubejs/data/cobbletowns/worldgen/structure_set/floaroma_town.json"
+hash = "c87a135976913e8fb657127bb83c0217804d98e69e9b8f83cf8d8b47f4920c29"
+
+[[files]]
+file = "kubejs/data/cobbletowns/worldgen/structure_set/lavender_town.json"
+hash = "896f68892ce363fb0a4cd1fbe48e57bc80a38145938fa480adc5286f23f21712"
+
+[[files]]
+file = "kubejs/data/cobbletowns/worldgen/structure_set/lentimas_town.json"
+hash = "1eefd79bc304084be7f98a109adf8ab9ca06822708aa31340d6ce9e1ba949834"
+
+[[files]]
+file = "kubejs/data/cobbletowns/worldgen/structure_set/pacifidlog_town.json"
+hash = "58e5c0fb6cdfd7a0f7e0c9e970b8688ff152ab37923358d515097ed3a791671c"
+
+[[files]]
+file = "kubejs/data/cobbletowns/worldgen/structure_set/pallet_town.json"
+hash = "2db01034a82be017c06127147289f2454cc892f33ec9faf81e95a94b8d6c6977"
+
+[[files]]
+file = "kubejs/data/cobbletowns/worldgen/structure_set/pokecenter.json"
+hash = "ca94d7814c70b0be99960444c3b29a11fdd1eece3f623917520dc34c073cca8a"
+
+[[files]]
+file = "kubejs/data/cobbletowns/worldgen/structure_set/pokemart.json"
+hash = "45adea49d2068f5cbe44b7824dc05db89f8cf12d17f34bc87cddc603b7f55e4a"
+
+[[files]]
+file = "kubejs/data/cobbletowns/worldgen/structure_set/twinleaf_town.json"
+hash = "b5bdbaf5950947c9fed3d359bbabf899f519e04a9ba97af0dad3ef4690b1f758"
+
+[[files]]
 file = "kubejs/data/dungeons_arise/worldgen/structure_set/major_structures.json"
 hash = "9d1d7daf4a1db1e7a615926c79624dd87fabe0a74a6ec9e8aead6792ea72e2f4"
 
@@ -1719,6 +1764,10 @@ hash = "ed9ea9980e7bc1cd9182c98ea48ed02c4b268b96349f3ba834d4df182089c70a"
 [[files]]
 file = "kubejs/data/minecraft/worldgen/structure_set/woodland_mansions.json"
 hash = "078a640063c61e8830d3f11d17b9130ebf9e6c4eae4f29fa71c7c3f75af85bed"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/template_pool/village/jungle/villagers.json"
+hash = "020072e09ceee9aa85710307891dc49ce192f58b5477b563b46c780337c5060e"
 
 [[files]]
 file = "kubejs/data/neoforge/loot_modifiers/global_loot_modifiers.json"

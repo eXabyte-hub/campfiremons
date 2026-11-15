@@ -1,0 +1,13 @@
+name = "CobbleTowns: Continued [Cobblemon 1.6.1]"
+filename = "CobbleTowns 1.1.3 (for 1.6).zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/FTbFC6tW/versions/yDiHetFj/CobbleTowns%201.1.3%20%28for%201.6%29.zip"
+hash-format = "sha512"
+hash = "9456bde6dfaf5dc0036315469ca8469a4e8358b6ee2b4c12666e019a7ae3d1f5fa5db0c82734c5e230a70d559e879c9c3a44280c9cb92cbc4e7607908efb44fd"
+
+[update]
+[update.modrinth]
+mod-id = "FTbFC6tW"
+version = "yDiHetFj"

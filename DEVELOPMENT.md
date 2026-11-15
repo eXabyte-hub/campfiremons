@@ -55,11 +55,15 @@ Master Ball); re-run it after updating CobbleDollars.
 `tools/gen_drops.py` owns every `species_additions` file under `kubejs/data/` (drop fixes for mods that replace
 Pokémon drop tables, plus egg drops). Re-run it after updating Cobblemon or any mod that ships species_additions.
 
+Data packs from Modrinth go in `datapacks/` (`packwiz mr add`, with `datapack-folder = "datapacks"` in `pack.toml`):
+packwiz installs them into the game folder's `datapacks/`, and Open Loader loads that folder into every world, on
+clients and the server. KubeJS data still wins over them, so overrides go in `kubejs/data/` as usual.
+
 `tools/gen_structure_spacing.py` owns the structure placement under `kubejs/data/`: the shared
 `campfiremons:surface_structures` set and its empty cell, the `campfiremons:services` set
 (`kubejs/data/campfiremons/worldgen/`), and the overrides that empty the old sets, keep looked-up structures on grids
-of their own, or spread the rest (`RARER`, `NOT_POOLED` and `OWN_GRID` at the top). It reads the jars the pack ships
-from the dev instance, so sync that first, and re-run it after adding or updating any structure mod; changes only
+of their own, or spread the rest (`RARER`, `NOT_POOLED` and `OWN_GRID` at the top). It reads the jars and data packs the
+pack ships from the dev instance, so sync that first, and re-run it after adding or updating any structure mod; changes only
 apply to chunks generated afterwards. A structure that maps or a mod look up must not be on the shared grid (finding
 it there generates every candidate cell and can stall the server): the tool finds explorer-map destinations itself,
 but add a mod that locates structures in code to `OWN_GRID`.

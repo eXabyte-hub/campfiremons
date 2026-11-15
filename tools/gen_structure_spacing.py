@@ -79,6 +79,10 @@ NOT_POOLED = {
 # On a grid of their own, kept clear of the shared one: the gyms, Legendary Monuments (its tracker finds them), and
 # (found automatically) every set holding a destination of an explorer map from loot or from these vanilla trades.
 OWN_GRID = {"rgs", "legendarymonuments"}
+
+# Switched off entirely (their set is emptied): CobbleTowns' scattered Pokécenters and Pokémarts, which duplicate
+# the Pokécenters/PokéStops on campfiremons:services. Its towns stay and join the shared grid.
+DROPPED = {"cobbletowns:pokecenter", "cobbletowns:pokemart"}
 MAP_TAGS = ["minecraft:on_woodland_explorer_maps", "minecraft:on_ocean_explorer_maps",
             "minecraft:on_trial_chambers_maps", "minecraft:on_treasure_maps"]
 
@@ -94,15 +98,22 @@ def listed(names, set_id):
 
 
 def jars(mods):
-    pack = tomllib.loads((REPO / "pack.toml").read_text())["versions"]
-    yield PRISM / f"libraries/com/mojang/minecraft/{pack['minecraft']}/minecraft-{pack['minecraft']}-client.jar"
-    yield PRISM / f"libraries/net/neoforged/neoforge/{pack['neoforge']}/neoforge-{pack['neoforge']}-universal.jar"
-    for meta in sorted((REPO / "mods").glob("*.pw.toml")):  # only the jars the pack ships
-        jar = Path(mods) / tomllib.loads(meta.read_text())["filename"]
-        if jar.suffix == ".jar":
-            if not jar.exists():
-                sys.exit(f"{jar} is missing: sync the dev instance first")
-            yield jar
+    """Vanilla, NeoForge, the mod jars the pack ships, then its data packs (Open Loader loads them over the mods)."""
+    pack = tomllib.loads((REPO / "pack.toml").read_text())
+    versions = pack["versions"]
+    yield PRISM / f"libraries/com/mojang/minecraft/{versions['minecraft']}/minecraft-{versions['minecraft']}-client.jar"
+    yield PRISM / f"libraries/net/neoforged/neoforge/{versions['neoforge']}/neoforge-{versions['neoforge']}-universal.jar"
+    folders = [("mods", Path(mods), ".jar")]
+    datapacks = pack.get("options", {}).get("datapack-folder")
+    if datapacks:
+        folders.append((datapacks, Path(mods).parent / datapacks, ".zip"))
+    for folder, installed, suffix in folders:
+        for meta in sorted((REPO / folder).glob("*.pw.toml")):  # only the files the pack ships
+            path = installed / tomllib.loads(meta.read_text())["filename"]
+            if path.suffix == suffix:
+                if not path.exists():
+                    sys.exit(f"{path} is missing: sync the dev instance first")
+                yield path
 
 
 def read_data(mods):
@@ -223,7 +234,8 @@ def main():
     # Sort every set: shared grid, services grid, own grid kept clear of the shared one, or left on its own grid.
     pooled, services, leftover, clear_of_pool = {}, {}, {}, set()
     for set_id, structure_set in sorted(sets.items()):
-        if structure_set.get("placement", {}).get("type") != "minecraft:random_spread" or listed(NOT_POOLED, set_id):
+        if (structure_set.get("placement", {}).get("type") != "minecraft:random_spread" or listed(NOT_POOLED, set_id)
+                or set_id in DROPPED):
             continue
         entries = structure_set["structures"]
         joins = [e for e in entries if biomes.get(e["structure"], set()) & overworld
@@ -248,7 +260,7 @@ def main():
     service_spacing = round(keep / math.sqrt(sum(service_weights.values())))
     service_scale = 100 / min(service_weights.values())
 
-    for ns in {s.split(":")[0] for s in sets if s in pooled or s in services or s in clear_of_pool or
+    for ns in {s.split(":")[0] for s in sets if s in pooled or s in services or s in clear_of_pool or s in DROPPED or
                lookup(RARER, s, 1.0) != 1.0}:
         shutil.rmtree(DATA / ns / "worldgen" / "structure_set", ignore_errors=True)
     shutil.rmtree(DATA / "campfiremons" / "worldgen", ignore_errors=True)
@@ -283,6 +295,8 @@ def main():
         factor = lookup(RARER, set_id, 1.0)
         if set_id in pooled or set_id in services:
             structure_set["structures"] = leftover[set_id]
+        if set_id in DROPPED:
+            structure_set["structures"] = []
         if set_id in clear_of_pool:
             factor *= keep
             placement["exclusion_zone"] = {"other_set": POOL, "chunk_count": CLEARANCE}

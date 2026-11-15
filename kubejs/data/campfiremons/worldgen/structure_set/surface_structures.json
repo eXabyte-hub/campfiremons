@@ -305,6 +305,34 @@
       "weight": 115
     },
     {
+      "structure": "cobbletowns:cherrygrove_city",
+      "weight": 997
+    },
+    {
+      "structure": "cobbletowns:floaroma_town",
+      "weight": 997
+    },
+    {
+      "structure": "cobbletowns:lavender_town",
+      "weight": 997
+    },
+    {
+      "structure": "cobbletowns:lentimas_town",
+      "weight": 997
+    },
+    {
+      "structure": "cobbletowns:pacifidlog_town",
+      "weight": 997
+    },
+    {
+      "structure": "cobbletowns:pallet_town",
+      "weight": 997
+    },
+    {
+      "structure": "cobbletowns:twinleaf_town",
+      "weight": 997
+    },
+    {
       "structure": "dungeons_arise:abandoned_temple",
       "weight": 99
     },
