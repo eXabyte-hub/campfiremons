@@ -10,7 +10,7 @@
 	images: [
 		{
 			height: 1.6d
-			id: "B40B14AF53E02783"
+			id: "340B14AF53E02783"
 			image: "campfiremons:textures/quests/stage_4.png"
 			rotation: 0.0d
 			width: 10.02d
@@ -28,7 +28,7 @@
 		}
 		{
 			height: 1.5d
-			id: "B6BA3DE2112A11EA"
+			id: "36BA3DE2112A11EA"
 			image: "mega_showdown:textures/gui/summary/tera_types/grass.png"
 			rotation: 0.0d
 			width: 1.5d
@@ -314,7 +314,7 @@
 			icon: {
 				id: "minecraft:bell"
 			}
-			id: "C01D3DC41DBDDCD0"
+			id: "401D3DC41DBDDCD0"
 			rewards: [
 				{
 					id: "3AAB6EAF55544078"
@@ -323,7 +323,7 @@
 				}
 				{
 					count: 2
-					id: "C0241241586E24A8"
+					id: "40241241586E24A8"
 					item: {
 						count: 1
 						id: "cobblemon:exp_candy_m"
@@ -334,7 +334,7 @@
 			shape: "diamond"
 			size: 1.25d
 			tasks: [{
-				id: "BA46644C763E5B3A"
+				id: "3A46644C763E5B3A"
 				type: "checkmark"
 			}]
 			x: -1.9d

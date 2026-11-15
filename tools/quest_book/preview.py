@@ -2,9 +2,9 @@ import sys, re, zipfile, glob, io, math
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 sys.path.insert(0, str(Path(__file__).parent))
-from snbt import parse
+from snbt import parse, mods_dir
 Q = Path(__file__).resolve().parents[2] / 'config' / 'ftbquests' / 'quests'
-MODS = str(Path.home() / '.local/share/PrismLauncher/instances/Campfiremons Dev/minecraft/mods')
+MODS = mods_dir()
 tex = {}
 for jar in glob.glob(MODS + '/*.jar'):
     try: z = zipfile.ZipFile(jar)
@@ -27,7 +27,7 @@ def load(key):
 font = ImageFont.truetype('/usr/share/fonts/TTF/DejaVuSans-Bold.ttf', 11)
 S = 36
 lang = {}
-for f in (Q / 'lang/en_us/chapters').glob('*.snbt'): lang.update(parse(f.read_text()))
+lang.update(parse((Q / 'lang' / 'en_us.snbt').read_text()))
 names = sys.argv[1:] or [f.stem for f in sorted((Q / 'chapters').glob('*.snbt'))]
 allq = {}
 for f in (Q / 'chapters').glob('*.snbt'):

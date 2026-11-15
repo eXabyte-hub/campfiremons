@@ -49,12 +49,18 @@ The quest book in `config/ftbquests/quests/` was generated **once** by `tools/ge
 stage). From now on it is edited in game: open the book, toggle edit mode (needs op), and FTB Quests saves straight
 into this repo through the dev-instance symlink. Re-running the script needs `--force` and discards those edits.
 In v0.1.10 the book was rebuilt by `tools/quest_book/` (see its README) into hub layouts with topic chapters,
-keeping every existing quest ID so progress carried over; that rebuild starts from the v0.1.9 book and discards
-in-game edits, so port those into the builder before re-running it. Its art (title banners, the Pokédex panel, the wormhole, Paradox tiles,
+keeping every existing quest ID so progress carried over; that rebuild starts from the v0.1.9 book, discards
+in-game edits and gives the quests it added new IDs each time (resetting progress on them), so `rebuild.sh` now
+refuses to run without `--new-ids`: extend the live book in place instead. Its art (title banners, the Pokédex panel, the wormhole, Paradox tiles,
 gold panels) comes from `tools/gen_quest_art.py` into `kubejs/assets/campfiremons/textures/quests/`; chapter
 images reference those, and type icons and big ball pictures straight from Mega Showdown's and Cobblemon's jars.
-Quest text lives in `lang/en_us/chapters/<chapter>.snbt` keyed by quest ID: if a quest gets a new ID, move its
-text too (a re-ID in 800a3cb left 21 quests untitled until v0.1.10).
+Quest text lives in one table, `lang/en_us.snbt`, keyed by object ID (`quest.<id>.title`, `chapter.<id>.title`): if a
+quest gets a new ID, move its text too (a re-ID in 800a3cb left 21 quests untitled until v0.1.10). FTB Quests 2101
+only reads `lang/<locale>.snbt` files; a `lang/en_us/` folder of per-chapter files (which the in-game editor wrote
+before) loads as an empty table, so every quest and chapter shows untitled. v0.1.10 shipped that way; v0.1.11 merged it.
+Object IDs must stay below `8000000000000000` (FTB Quests reads them as signed longs): a higher one gets a new random
+ID on every load, losing its text, links and progress. The v0.1.10 builder made half its IDs that way; v0.1.11
+cleared their top bit, and `tools/quest_book/validate.py` now flags any.
 
 `tools/gen_shop.py` owns `config/cobbledollars/default_shop.json` (the default shop minus the
 Master Ball); re-run it after updating CobbleDollars.

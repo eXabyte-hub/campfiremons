@@ -10,7 +10,7 @@
 	images: [
 		{
 			height: 1.6d
-			id: "D97EC8600854C784"
+			id: "597EC8600854C784"
 			image: "campfiremons:textures/quests/stage_9.png"
 			rotation: 0.0d
 			width: 6.64d
@@ -247,7 +247,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "B39E65BD385273B5"
+				id: "339E65BD385273B5"
 				max_level: 0
 				max_turns: 0
 				min_level: 0

@@ -6,7 +6,7 @@
 	icon: {
 		id: "artifacts:crystal_heart"
 	}
-	id: "8F4607BFEA416CAA"
+	id: "0F4607BFEA416CAA"
 	images: [
 		{
 			height: 1.8d
@@ -19,7 +19,7 @@
 		}
 		{
 			height: 1.0d
-			id: "B7D413258733B45C"
+			id: "37D413258733B45C"
 			image: "campfiremons:textures/quests/slot_head.png"
 			rotation: 0.0d
 			width: 2.66d
@@ -55,7 +55,7 @@
 		}
 		{
 			height: 1.0d
-			id: "873803923B9ED418"
+			id: "073803923B9ED418"
 			image: "campfiremons:textures/quests/slot_belt.png"
 			rotation: 0.0d
 			width: 2.16d
@@ -73,7 +73,7 @@
 		}
 		{
 			height: 1.0d
-			id: "EBCF480EBA224C06"
+			id: "6BCF480EBA224C06"
 			image: "campfiremons:textures/quests/slot_feet.png"
 			rotation: 0.0d
 			width: 2.38d
@@ -88,9 +88,9 @@
 			icon: {
 				id: "minecraft:chest"
 			}
-			id: "EFF422C805FCB966"
+			id: "6FF422C805FCB966"
 			rewards: [{
-				id: "C4A20478D52CB59A"
+				id: "44A20478D52CB59A"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -105,7 +105,7 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -121,7 +121,7 @@
 			shape: "rsquare"
 			size: 0.85d
 			tasks: [{
-				id: "AEABD869F4BE12C1"
+				id: "2EABD869F4BE12C1"
 				item: {
 					count: 1
 					id: "artifacts:plastic_drinking_hat"
@@ -133,7 +133,7 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -142,14 +142,14 @@
 			id: "62D8E02CBC225BE9"
 			optional: true
 			rewards: [{
-				id: "FB46EC92C24FB375"
+				id: "7B46EC92C24FB375"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
 			shape: "rsquare"
 			size: 0.85d
 			tasks: [{
-				id: "C09FA85CD1737465"
+				id: "409FA85CD1737465"
 				item: {
 					count: 1
 					id: "artifacts:novelty_drinking_hat"
@@ -161,16 +161,16 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "artifacts:villager_hat"
 			}
-			id: "8F7E0FEB55CDB15E"
+			id: "0F7E0FEB55CDB15E"
 			optional: true
 			rewards: [{
-				id: "E96A99402613547E"
+				id: "696A99402613547E"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
@@ -189,13 +189,13 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "artifacts:superstitious_hat"
 			}
-			id: "C90FAA38640053DE"
+			id: "490FAA38640053DE"
 			optional: true
 			rewards: [{
 				id: "3CA8A3CCDB1ADB05"
@@ -205,7 +205,7 @@
 			shape: "rsquare"
 			size: 0.85d
 			tasks: [{
-				id: "CBBAEC7D60146CD0"
+				id: "4BBAEC7D60146CD0"
 				item: {
 					count: 1
 					id: "artifacts:superstitious_hat"
@@ -217,7 +217,7 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -226,7 +226,7 @@
 			id: "27330A0348EA8201"
 			optional: true
 			rewards: [{
-				id: "8679E54501BE1B93"
+				id: "0679E54501BE1B93"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
@@ -245,16 +245,16 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "artifacts:anglers_hat"
 			}
-			id: "DB12AD6D9EDAC6C7"
+			id: "5B12AD6D9EDAC6C7"
 			optional: true
 			rewards: [{
-				id: "C5AD2D6D692B3B77"
+				id: "45AD2D6D692B3B77"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
@@ -273,13 +273,13 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "artifacts:snorkel"
 			}
-			id: "EA00086F4DFE983E"
+			id: "6A00086F4DFE983E"
 			optional: true
 			rewards: [{
 				id: "2F5728CCAE8E5CD5"
@@ -289,7 +289,7 @@
 			shape: "rsquare"
 			size: 0.85d
 			tasks: [{
-				id: "BB9EE74B1C5FA978"
+				id: "3B9EE74B1C5FA978"
 				item: {
 					count: 1
 					id: "artifacts:snorkel"
@@ -301,7 +301,7 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -317,7 +317,7 @@
 			shape: "rsquare"
 			size: 0.85d
 			tasks: [{
-				id: "FC4DA5DF77ED4F6F"
+				id: "7C4DA5DF77ED4F6F"
 				item: {
 					count: 1
 					id: "artifacts:night_vision_goggles"
@@ -329,7 +329,7 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -345,7 +345,7 @@
 			shape: "circle"
 			size: 0.85d
 			tasks: [{
-				id: "FE6CD38192342E5C"
+				id: "7E6CD38192342E5C"
 				item: {
 					count: 1
 					id: "artifacts:lucky_scarf"
@@ -357,23 +357,23 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "artifacts:scarf_of_invisibility"
 			}
-			id: "F425297BE5F36BBD"
+			id: "7425297BE5F36BBD"
 			optional: true
 			rewards: [{
-				id: "856031B652E74825"
+				id: "056031B652E74825"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
 			shape: "circle"
 			size: 0.85d
 			tasks: [{
-				id: "A02833DF3A63B059"
+				id: "202833DF3A63B059"
 				item: {
 					count: 1
 					id: "artifacts:scarf_of_invisibility"
@@ -385,16 +385,16 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "artifacts:cross_necklace"
 			}
-			id: "F471ABF6353B5E4E"
+			id: "7471ABF6353B5E4E"
 			optional: true
 			rewards: [{
-				id: "B88EB4BFA67509A9"
+				id: "388EB4BFA67509A9"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
@@ -413,13 +413,13 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "artifacts:panic_necklace"
 			}
-			id: "D234B3FF4F0A5EDA"
+			id: "5234B3FF4F0A5EDA"
 			optional: true
 			rewards: [{
 				id: "52E2322DDBA1200E"
@@ -429,7 +429,7 @@
 			shape: "circle"
 			size: 0.85d
 			tasks: [{
-				id: "FC728F70C0D8EB2E"
+				id: "7C728F70C0D8EB2E"
 				item: {
 					count: 1
 					id: "artifacts:panic_necklace"
@@ -441,13 +441,13 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "artifacts:shock_pendant"
 			}
-			id: "E6F2416BBC587ACA"
+			id: "66F2416BBC587ACA"
 			optional: true
 			rewards: [{
 				id: "63A9317EF9C8EFE6"
@@ -457,7 +457,7 @@
 			shape: "circle"
 			size: 0.85d
 			tasks: [{
-				id: "B5C9C084225DF7F7"
+				id: "35C9C084225DF7F7"
 				item: {
 					count: 1
 					id: "artifacts:shock_pendant"
@@ -469,7 +469,7 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -485,7 +485,7 @@
 			shape: "circle"
 			size: 0.85d
 			tasks: [{
-				id: "D8D9AC5B46E49294"
+				id: "58D9AC5B46E49294"
 				item: {
 					count: 1
 					id: "artifacts:flame_pendant"
@@ -497,7 +497,7 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -513,7 +513,7 @@
 			shape: "circle"
 			size: 0.85d
 			tasks: [{
-				id: "C5D15D00ADED3D23"
+				id: "45D15D00ADED3D23"
 				item: {
 					count: 1
 					id: "artifacts:thorn_pendant"
@@ -525,7 +525,7 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -534,7 +534,7 @@
 			id: "621F56455F7E2D33"
 			optional: true
 			rewards: [{
-				id: "C078D227223F35BC"
+				id: "4078D227223F35BC"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
@@ -553,7 +553,7 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -562,7 +562,7 @@
 			id: "39080E4AA58B858A"
 			optional: true
 			rewards: [{
-				id: "C79F704627212092"
+				id: "479F704627212092"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
@@ -581,7 +581,7 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -590,7 +590,7 @@
 			id: "286457793DE0FEF3"
 			optional: true
 			rewards: [{
-				id: "CCA87D2C19FF3694"
+				id: "4CA87D2C19FF3694"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
@@ -609,7 +609,7 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -618,7 +618,7 @@
 			id: "267DAD3137F5686D"
 			optional: true
 			rewards: [{
-				id: "E8A1821D882F1B82"
+				id: "68A1821D882F1B82"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
@@ -637,7 +637,7 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -646,14 +646,14 @@
 			id: "47F38C8B7D43CE26"
 			optional: true
 			rewards: [{
-				id: "B234F033C46A07A2"
+				id: "3234F033C46A07A2"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
 			shape: "diamond"
 			size: 0.85d
 			tasks: [{
-				id: "9C2173F73DC29997"
+				id: "1C2173F73DC29997"
 				item: {
 					count: 1
 					id: "artifacts:power_glove"
@@ -665,23 +665,23 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "artifacts:fire_gauntlet"
 			}
-			id: "86BCE39D9A8FF9B1"
+			id: "06BCE39D9A8FF9B1"
 			optional: true
 			rewards: [{
-				id: "E7E983664E2E6F4F"
+				id: "67E983664E2E6F4F"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
 			shape: "diamond"
 			size: 0.85d
 			tasks: [{
-				id: "8728CA3F3EFEE86A"
+				id: "0728CA3F3EFEE86A"
 				item: {
 					count: 1
 					id: "artifacts:fire_gauntlet"
@@ -693,23 +693,23 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "artifacts:pocket_piston"
 			}
-			id: "B3DC7B66085C310A"
+			id: "33DC7B66085C310A"
 			optional: true
 			rewards: [{
-				id: "C58D6943110B93A0"
+				id: "458D6943110B93A0"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
 			shape: "diamond"
 			size: 0.85d
 			tasks: [{
-				id: "DD9AF412EB8FFD57"
+				id: "5D9AF412EB8FFD57"
 				item: {
 					count: 1
 					id: "artifacts:pocket_piston"
@@ -721,7 +721,7 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -730,14 +730,14 @@
 			id: "56D3D23149CA8805"
 			optional: true
 			rewards: [{
-				id: "F3288CEB6C781687"
+				id: "73288CEB6C781687"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
 			shape: "diamond"
 			size: 0.85d
 			tasks: [{
-				id: "EE767F0C8F00A1FE"
+				id: "6E767F0C8F00A1FE"
 				item: {
 					count: 1
 					id: "artifacts:vampiric_glove"
@@ -749,7 +749,7 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -765,7 +765,7 @@
 			shape: "diamond"
 			size: 0.85d
 			tasks: [{
-				id: "E33647D8B3236043"
+				id: "633647D8B3236043"
 				item: {
 					count: 1
 					id: "artifacts:golden_hook"
@@ -777,13 +777,13 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "artifacts:onion_ring"
 			}
-			id: "DC982C8755017CC4"
+			id: "5C982C8755017CC4"
 			optional: true
 			rewards: [{
 				id: "7433AE774F640D4B"
@@ -805,7 +805,7 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -821,7 +821,7 @@
 			shape: "diamond"
 			size: 0.85d
 			tasks: [{
-				id: "803E1AA2F38DD0A3"
+				id: "003E1AA2F38DD0A3"
 				item: {
 					count: 1
 					id: "artifacts:pickaxe_heater"
@@ -833,7 +833,7 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -861,13 +861,13 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "artifacts:cloud_in_a_bottle"
 			}
-			id: "933144030E667605"
+			id: "133144030E667605"
 			optional: true
 			rewards: [{
 				id: "73D74130F5CCB91D"
@@ -877,7 +877,7 @@
 			shape: "rsquare"
 			size: 0.85d
 			tasks: [{
-				id: "95EBE7EE92124A0F"
+				id: "15EBE7EE92124A0F"
 				item: {
 					count: 1
 					id: "artifacts:cloud_in_a_bottle"
@@ -889,23 +889,23 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "artifacts:obsidian_skull"
 			}
-			id: "A19C1647C629A51D"
+			id: "219C1647C629A51D"
 			optional: true
 			rewards: [{
-				id: "9A8E0FB5832BD89B"
+				id: "1A8E0FB5832BD89B"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
 			shape: "rsquare"
 			size: 0.85d
 			tasks: [{
-				id: "E46658A9F4084ED6"
+				id: "646658A9F4084ED6"
 				item: {
 					count: 1
 					id: "artifacts:obsidian_skull"
@@ -917,16 +917,16 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "artifacts:antidote_vessel"
 			}
-			id: "F127B07131757B42"
+			id: "7127B07131757B42"
 			optional: true
 			rewards: [{
-				id: "B8826B6BB8B52128"
+				id: "38826B6BB8B52128"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
@@ -945,7 +945,7 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -973,7 +973,7 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -1001,13 +1001,13 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "artifacts:helium_flamingo"
 			}
-			id: "E0AD8E1814A35162"
+			id: "60AD8E1814A35162"
 			optional: true
 			rewards: [{
 				id: "5F0204B2B6F6DA90"
@@ -1029,7 +1029,7 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -1057,23 +1057,23 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "artifacts:warp_drive"
 			}
-			id: "E7607C97ABFCFFD1"
+			id: "67607C97ABFCFFD1"
 			optional: true
 			rewards: [{
-				id: "D265FCF36BE83F40"
+				id: "5265FCF36BE83F40"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
 			shape: "rsquare"
 			size: 0.85d
 			tasks: [{
-				id: "FFE6C7AE369B062F"
+				id: "7FE6C7AE369B062F"
 				item: {
 					count: 1
 					id: "artifacts:warp_drive"
@@ -1085,7 +1085,7 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -1101,7 +1101,7 @@
 			shape: "hexagon"
 			size: 0.85d
 			tasks: [{
-				id: "A6905A09FB10FA3B"
+				id: "26905A09FB10FA3B"
 				item: {
 					count: 1
 					id: "artifacts:aqua_dashers"
@@ -1113,7 +1113,7 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -1122,7 +1122,7 @@
 			id: "63E52300CF195EAE"
 			optional: true
 			rewards: [{
-				id: "948CFDEF4BE60D94"
+				id: "148CFDEF4BE60D94"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
@@ -1141,7 +1141,7 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -1150,7 +1150,7 @@
 			id: "571930B8BDE000B2"
 			optional: true
 			rewards: [{
-				id: "B35D5454CF669A7D"
+				id: "335D5454CF669A7D"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
@@ -1169,16 +1169,16 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "artifacts:running_shoes"
 			}
-			id: "85365CEEB3800E97"
+			id: "05365CEEB3800E97"
 			optional: true
 			rewards: [{
-				id: "9E581506EF38AC8A"
+				id: "1E581506EF38AC8A"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
@@ -1197,16 +1197,16 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "artifacts:snowshoes"
 			}
-			id: "C201AC24D1877EA8"
+			id: "4201AC24D1877EA8"
 			optional: true
 			rewards: [{
-				id: "E5F66A670C9FB409"
+				id: "65F66A670C9FB409"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
@@ -1225,23 +1225,23 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "artifacts:steadfast_spikes"
 			}
-			id: "EA8EB16151395D3F"
+			id: "6A8EB16151395D3F"
 			optional: true
 			rewards: [{
-				id: "BC8A5C38921EB5FE"
+				id: "3C8A5C38921EB5FE"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
 			shape: "hexagon"
 			size: 0.85d
 			tasks: [{
-				id: "E5F946898EDBAE92"
+				id: "65F946898EDBAE92"
 				item: {
 					count: 1
 					id: "artifacts:steadfast_spikes"
@@ -1253,16 +1253,16 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "artifacts:flippers"
 			}
-			id: "EB3A9936001DCC05"
+			id: "6B3A9936001DCC05"
 			optional: true
 			rewards: [{
-				id: "93FF09796E133C7D"
+				id: "13FF09796E133C7D"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
@@ -1281,13 +1281,13 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "artifacts:rooted_boots"
 			}
-			id: "B7BA365F941A7FB9"
+			id: "37BA365F941A7FB9"
 			optional: true
 			rewards: [{
 				id: "33BE563B52ACA298"
@@ -1309,7 +1309,7 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -1318,14 +1318,14 @@
 			id: "5127E9089E17A4FB"
 			optional: true
 			rewards: [{
-				id: "CD8358219F8C0E55"
+				id: "4D8358219F8C0E55"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
 			shape: "hexagon"
 			size: 0.85d
 			tasks: [{
-				id: "F9821FE27F023B5C"
+				id: "79821FE27F023B5C"
 				item: {
 					count: 1
 					id: "artifacts:strider_shoes"
@@ -1337,7 +1337,7 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -1346,7 +1346,7 @@
 			id: "6854CE22DD38AEB1"
 			optional: true
 			rewards: [{
-				id: "8E85EC503EAD9437"
+				id: "0E85EC503EAD9437"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
@@ -1365,23 +1365,23 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "artifacts:whoopee_cushion"
 			}
-			id: "E7560FC44276A24A"
+			id: "67560FC44276A24A"
 			optional: true
 			rewards: [{
-				id: "93967A1C31E95D39"
+				id: "13967A1C31E95D39"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
 			shape: "circle"
 			size: 0.85d
 			tasks: [{
-				id: "E0FDA0EA7D49E0B4"
+				id: "60FDA0EA7D49E0B4"
 				item: {
 					count: 1
 					id: "artifacts:whoopee_cushion"
@@ -1393,7 +1393,7 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -1421,7 +1421,7 @@
 		}
 		{
 			dependencies: [
-				"EFF422C805FCB966"
+				"6FF422C805FCB966"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -1437,7 +1437,7 @@
 			shape: "circle"
 			size: 0.85d
 			tasks: [{
-				id: "D836FDEFA0F3C01C"
+				id: "5836FDEFA0F3C01C"
 				item: {
 					count: 1
 					id: "artifacts:everlasting_beef"

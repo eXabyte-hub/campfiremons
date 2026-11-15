@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "battle_gimmicks"
-	group: "D02FAE08F3920C75"
+	group: "502FAE08F3920C75"
 	icon: {
 		id: "mega_showdown:omni_ring"
 	}
@@ -19,7 +19,7 @@
 		}
 		{
 			height: 1.0d
-			id: "B9042DE9A9B885F6"
+			id: "39042DE9A9B885F6"
 			image: "campfiremons:textures/quests/mega_evolution.png"
 			rotation: 0.0d
 			width: 6.25d
@@ -28,7 +28,7 @@
 		}
 		{
 			height: 1.0d
-			id: "CEE77A661C42B26E"
+			id: "4EE77A661C42B26E"
 			image: "campfiremons:textures/quests/z_moves.png"
 			rotation: 0.0d
 			width: 4.19d
@@ -65,7 +65,7 @@
 			y: -1.7d
 		}
 		{
-			id: "9A6DCD81D82E1069"
+			id: "1A6DCD81D82E1069"
 			linked_quest: "16CFD93FC04F16F8"
 			shape: "circle"
 			size: 1.0d
@@ -73,7 +73,7 @@
 			y: -2.9d
 		}
 		{
-			id: "A44373DF32FD451E"
+			id: "244373DF32FD451E"
 			linked_quest: "10A6D6C341C9DE6F"
 			shape: "pentagon"
 			size: 1.25d
@@ -97,7 +97,7 @@
 			y: 1.7d
 		}
 		{
-			id: "867CC035DF8A38C0"
+			id: "067CC035DF8A38C0"
 			linked_quest: "69AD611B45A6FE70"
 			shape: "circle"
 			size: 1.0d
@@ -105,7 +105,7 @@
 			y: 2.9d
 		}
 		{
-			id: "FF88CAB746D94CD2"
+			id: "7F88CAB746D94CD2"
 			linked_quest: "6E95CF8E029955B9"
 			shape: "pentagon"
 			size: 1.25d
@@ -113,7 +113,7 @@
 			y: 1.7d
 		}
 		{
-			id: "C6A26D19F00953DA"
+			id: "46A26D19F00953DA"
 			linked_quest: "21D425525C990B07"
 			shape: "circle"
 			size: 1.0d
@@ -128,14 +128,14 @@
 			}
 			id: "32908CF61A68B231"
 			rewards: [{
-				id: "D7C121CAE2F37B54"
+				id: "57C121CAE2F37B54"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
 			shape: "gear"
 			size: 2.25d
 			tasks: [{
-				id: "929B8FD7CF36833F"
+				id: "129B8FD7CF36833F"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -149,17 +149,17 @@
 			icon: {
 				id: "mega_showdown:venusaurite"
 			}
-			id: "9ECA462099151096"
+			id: "1ECA462099151096"
 			optional: true
 			rewards: [{
-				id: "E00975FD79497B59"
+				id: "600975FD79497B59"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "square"
 			size: 0.7d
 			tasks: [{
-				id: "B6B15256D18E9EDE"
+				id: "36B15256D18E9EDE"
 				item: {
 					count: 1
 					id: "mega_showdown:venusaurite"
@@ -180,7 +180,7 @@
 			id: "5E10999EC7470DB8"
 			optional: true
 			rewards: [{
-				id: "AF92AC93D87D48B8"
+				id: "2F92AC93D87D48B8"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -208,14 +208,14 @@
 			id: "3B21923081971950"
 			optional: true
 			rewards: [{
-				id: "C36CD11AD46B12F3"
+				id: "436CD11AD46B12F3"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "square"
 			size: 0.7d
 			tasks: [{
-				id: "A453CC8BCEA6BAD6"
+				id: "2453CC8BCEA6BAD6"
 				item: {
 					count: 1
 					id: "mega_showdown:blastoisinite"
@@ -233,17 +233,17 @@
 			icon: {
 				id: "mega_showdown:gengarite"
 			}
-			id: "904AD098BCC7AF82"
+			id: "104AD098BCC7AF82"
 			optional: true
 			rewards: [{
-				id: "8A7906C3FB22C030"
+				id: "0A7906C3FB22C030"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "square"
 			size: 0.7d
 			tasks: [{
-				id: "C6AC8CBC725882DA"
+				id: "46AC8CBC725882DA"
 				item: {
 					count: 1
 					id: "mega_showdown:gengarite"
@@ -289,10 +289,10 @@
 			icon: {
 				id: "mega_showdown:lucarionite"
 			}
-			id: "A70FE6F77644D38F"
+			id: "270FE6F77644D38F"
 			optional: true
 			rewards: [{
-				id: "A49D66D52B71BDE0"
+				id: "249D66D52B71BDE0"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -317,10 +317,10 @@
 			icon: {
 				id: "mega_showdown:garchompite"
 			}
-			id: "8DFD82CEF4056880"
+			id: "0DFD82CEF4056880"
 			optional: true
 			rewards: [{
-				id: "B9094E1B75AAD3D4"
+				id: "39094E1B75AAD3D4"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -345,7 +345,7 @@
 			icon: {
 				id: "mega_showdown:mewtwonite_x"
 			}
-			id: "B7882F4A78E18891"
+			id: "37882F4A78E18891"
 			optional: true
 			rewards: [{
 				id: "781A8DD41C1E2418"
@@ -376,14 +376,14 @@
 			id: "290B63DBCE2B8669"
 			optional: true
 			rewards: [{
-				id: "BC7D5489960013EE"
+				id: "3C7D5489960013EE"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "square"
 			size: 0.7d
 			tasks: [{
-				id: "999DA273C0A4C106"
+				id: "199DA273C0A4C106"
 				item: {
 					count: 1
 					id: "mega_showdown:normalium_z"
@@ -411,7 +411,7 @@
 			shape: "square"
 			size: 0.7d
 			tasks: [{
-				id: "E8A5DFF2899C6A86"
+				id: "68A5DFF2899C6A86"
 				item: {
 					count: 1
 					id: "mega_showdown:firium_z"
@@ -429,7 +429,7 @@
 			icon: {
 				id: "mega_showdown:waterium_z"
 			}
-			id: "DC2D278C1C291F33"
+			id: "5C2D278C1C291F33"
 			optional: true
 			rewards: [{
 				id: "6C4FA7754A470E75"
@@ -439,7 +439,7 @@
 			shape: "square"
 			size: 0.7d
 			tasks: [{
-				id: "F313771AB625AF55"
+				id: "7313771AB625AF55"
 				item: {
 					count: 1
 					id: "mega_showdown:waterium_z"
@@ -457,7 +457,7 @@
 			icon: {
 				id: "mega_showdown:grassium_z"
 			}
-			id: "E9C6D79BD0D52792"
+			id: "69C6D79BD0D52792"
 			optional: true
 			rewards: [{
 				id: "261D9EC6B843FFF6"
@@ -467,7 +467,7 @@
 			shape: "square"
 			size: 0.7d
 			tasks: [{
-				id: "97B51D6B89412335"
+				id: "17B51D6B89412335"
 				item: {
 					count: 1
 					id: "mega_showdown:grassium_z"
@@ -488,7 +488,7 @@
 			id: "3A28A1F03C831F5A"
 			optional: true
 			rewards: [{
-				id: "B77406C50A0F9DA4"
+				id: "377406C50A0F9DA4"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -513,10 +513,10 @@
 			icon: {
 				id: "mega_showdown:psychium_z"
 			}
-			id: "FC0E9BC8F053182C"
+			id: "7C0E9BC8F053182C"
 			optional: true
 			rewards: [{
-				id: "AF784DA8D398D9D9"
+				id: "2F784DA8D398D9D9"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -541,7 +541,7 @@
 			icon: {
 				id: "mega_showdown:dragonium_z"
 			}
-			id: "833E71B2B072201E"
+			id: "033E71B2B072201E"
 			optional: true
 			rewards: [{
 				id: "5A17E58730E6E82D"
@@ -569,7 +569,7 @@
 			icon: {
 				id: "mega_showdown:darkinium_z"
 			}
-			id: "FA3261123053DEC0"
+			id: "7A3261123053DEC0"
 			optional: true
 			rewards: [{
 				id: "30CD542D46C68BDE"
@@ -597,17 +597,17 @@
 			icon: {
 				id: "mega_showdown:fairium_z"
 			}
-			id: "9600345A7A6F924D"
+			id: "1600345A7A6F924D"
 			optional: true
 			rewards: [{
-				id: "F287A8E9FEC51280"
+				id: "7287A8E9FEC51280"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "square"
 			size: 0.7d
 			tasks: [{
-				id: "88255E70526B9FF6"
+				id: "08255E70526B9FF6"
 				item: {
 					count: 1
 					id: "mega_showdown:fairium_z"
@@ -625,17 +625,17 @@
 			icon: {
 				id: "mega_showdown:normal_tera_shard"
 			}
-			id: "D4FA0ECC5F85E7DC"
+			id: "54FA0ECC5F85E7DC"
 			optional: true
 			rewards: [{
-				id: "E15B0A2BC9B25EEE"
+				id: "615B0A2BC9B25EEE"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "square"
 			size: 0.7d
 			tasks: [{
-				id: "C1FFF0B4A4B907D2"
+				id: "41FFF0B4A4B907D2"
 				item: {
 					count: 1
 					id: "mega_showdown:normal_tera_shard"
@@ -653,10 +653,10 @@
 			icon: {
 				id: "mega_showdown:fire_tera_shard"
 			}
-			id: "C02A54D072DBAC47"
+			id: "402A54D072DBAC47"
 			optional: true
 			rewards: [{
-				id: "B1C840A4421A9888"
+				id: "31C840A4421A9888"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -684,7 +684,7 @@
 			id: "721EBBEEA552D02B"
 			optional: true
 			rewards: [{
-				id: "EA60B81845779FE0"
+				id: "6A60B81845779FE0"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -709,17 +709,17 @@
 			icon: {
 				id: "mega_showdown:grass_tera_shard"
 			}
-			id: "AC6F4ABE4F7D0090"
+			id: "2C6F4ABE4F7D0090"
 			optional: true
 			rewards: [{
-				id: "CFF17F1F1F7A8A99"
+				id: "4FF17F1F1F7A8A99"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "square"
 			size: 0.7d
 			tasks: [{
-				id: "F8B784310D1CD31F"
+				id: "78B784310D1CD31F"
 				item: {
 					count: 1
 					id: "mega_showdown:grass_tera_shard"
@@ -737,10 +737,10 @@
 			icon: {
 				id: "mega_showdown:electric_tera_shard"
 			}
-			id: "ECCFB52BAC9DAF4A"
+			id: "6CCFB52BAC9DAF4A"
 			optional: true
 			rewards: [{
-				id: "9997A6B68E9F46C8"
+				id: "1997A6B68E9F46C8"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -765,17 +765,17 @@
 			icon: {
 				id: "mega_showdown:psychic_tera_shard"
 			}
-			id: "83120E3271F3FF59"
+			id: "03120E3271F3FF59"
 			optional: true
 			rewards: [{
-				id: "9EFF0090FF915688"
+				id: "1EFF0090FF915688"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "square"
 			size: 0.7d
 			tasks: [{
-				id: "D0BAD7291245FA70"
+				id: "50BAD7291245FA70"
 				item: {
 					count: 1
 					id: "mega_showdown:psychic_tera_shard"
@@ -803,7 +803,7 @@
 			shape: "square"
 			size: 0.7d
 			tasks: [{
-				id: "915F96F4F32DE18C"
+				id: "115F96F4F32DE18C"
 				item: {
 					count: 1
 					id: "mega_showdown:dragon_tera_shard"
@@ -824,14 +824,14 @@
 			id: "4390C56DC00454A9"
 			optional: true
 			rewards: [{
-				id: "B380B28D28C74CA3"
+				id: "3380B28D28C74CA3"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "square"
 			size: 0.7d
 			tasks: [{
-				id: "8183193A435EB13F"
+				id: "0183193A435EB13F"
 				item: {
 					count: 1
 					id: "mega_showdown:dark_tera_shard"
@@ -852,7 +852,7 @@
 			id: "2CEBE717346BD96A"
 			optional: true
 			rewards: [{
-				id: "8D6A47D086ECAD70"
+				id: "0D6A47D086ECAD70"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -887,7 +887,7 @@
 			shape: "square"
 			size: 0.7d
 			tasks: [{
-				id: "80D1D01F8D746771"
+				id: "00D1D01F8D746771"
 				item: {
 					count: 1
 					id: "mega_showdown:dynamax_candy"
@@ -905,7 +905,7 @@
 			icon: {
 				id: "mega_showdown:max_mushroom"
 			}
-			id: "BE7765FE8A7C36D1"
+			id: "3E7765FE8A7C36D1"
 			optional: true
 			rewards: [{
 				id: "4CCA8B0E5D2E9D5B"
@@ -933,7 +933,7 @@
 			icon: {
 				id: "mega_showdown:max_soup"
 			}
-			id: "C26960C89C767329"
+			id: "426960C89C767329"
 			optional: true
 			rewards: [{
 				id: "10B8AFC780B1B08C"
@@ -961,7 +961,7 @@
 			icon: {
 				id: "mega_showdown:max_honey"
 			}
-			id: "9151832E95391CFA"
+			id: "1151832E95391CFA"
 			optional: true
 			rewards: [{
 				id: "59892BFAC3FF7152"
@@ -971,7 +971,7 @@
 			shape: "square"
 			size: 0.7d
 			tasks: [{
-				id: "AEDEBC09CA8437D5"
+				id: "2EDEBC09CA8437D5"
 				item: {
 					count: 1
 					id: "mega_showdown:max_honey"

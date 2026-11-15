@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "training"
-	group: "D02FAE08F3920C75"
+	group: "502FAE08F3920C75"
 	icon: {
 		id: "cobblemon:exp_candy_l"
 	}
@@ -10,7 +10,7 @@
 	images: [
 		{
 			height: 0.9d
-			id: "D54FF0F9EEBD897F"
+			id: "554FF0F9EEBD897F"
 			image: "campfiremons:textures/quests/train_candy.png"
 			rotation: 0.0d
 			width: 2.44d
@@ -19,7 +19,7 @@
 		}
 		{
 			height: 0.9d
-			id: "8AE07DF30C0D20DD"
+			id: "0AE07DF30C0D20DD"
 			image: "campfiremons:textures/quests/train_vitamins.png"
 			rotation: 0.0d
 			width: 3.84d
@@ -46,7 +46,7 @@
 		}
 		{
 			height: 0.9d
-			id: "AD870CEA97FFA7D6"
+			id: "2D870CEA97FFA7D6"
 			image: "campfiremons:textures/quests/train_power.png"
 			rotation: 0.0d
 			width: 5.42d
@@ -55,7 +55,7 @@
 		}
 		{
 			height: 0.9d
-			id: "E7F4F4F06367CEE6"
+			id: "67F4F4F06367CEE6"
 			image: "campfiremons:textures/quests/train_caps.png"
 			rotation: 0.0d
 			width: 4.27d
@@ -64,7 +64,7 @@
 		}
 		{
 			height: 0.9d
-			id: "EB5387EACFFFD091"
+			id: "6B5387EACFFFD091"
 			image: "campfiremons:textures/quests/train_tms.png"
 			rotation: 0.0d
 			width: 4.54d
@@ -88,7 +88,7 @@
 			icon: {
 				id: "cobblemon:exp_candy_l"
 			}
-			id: "E8284A4D9075EA4D"
+			id: "68284A4D9075EA4D"
 			rewards: [{
 				id: "75E0AF2517696786"
 				type: "xp_levels"
@@ -97,7 +97,7 @@
 			shape: "gear"
 			size: 2.5d
 			tasks: [{
-				id: "AED49068FBC8DBD1"
+				id: "2ED49068FBC8DBD1"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -105,12 +105,12 @@
 		}
 		{
 			dependencies: [
-				"E8284A4D9075EA4D"
+				"68284A4D9075EA4D"
 			]
 			icon: {
 				id: "cobblemon:exp_candy_xs"
 			}
-			id: "ECC49D2BEA8980A9"
+			id: "6CC49D2BEA8980A9"
 			rewards: [{
 				id: "33ECA2F22AA97D1C"
 				type: "xp_levels"
@@ -131,7 +131,7 @@
 		}
 		{
 			dependencies: [
-				"ECC49D2BEA8980A9"
+				"6CC49D2BEA8980A9"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -140,7 +140,7 @@
 			id: "2CBDC03D45890C47"
 			optional: true
 			rewards: [{
-				id: "CA61739F1C46F39E"
+				id: "4A61739F1C46F39E"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -159,7 +159,7 @@
 		}
 		{
 			dependencies: [
-				"ECC49D2BEA8980A9"
+				"6CC49D2BEA8980A9"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -168,7 +168,7 @@
 			id: "179425AB7335CF86"
 			optional: true
 			rewards: [{
-				id: "CEBB97C27B0E551C"
+				id: "4EBB97C27B0E551C"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -187,23 +187,23 @@
 		}
 		{
 			dependencies: [
-				"ECC49D2BEA8980A9"
+				"6CC49D2BEA8980A9"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "cobblemon:exp_candy_l"
 			}
-			id: "D872AD30741524E6"
+			id: "5872AD30741524E6"
 			optional: true
 			rewards: [{
-				id: "920082D0EED1FDC5"
+				id: "120082D0EED1FDC5"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "943E574BD5CA9317"
+				id: "143E574BD5CA9317"
 				item: {
 					count: 1
 					id: "cobblemon:exp_candy_l"
@@ -215,7 +215,7 @@
 		}
 		{
 			dependencies: [
-				"ECC49D2BEA8980A9"
+				"6CC49D2BEA8980A9"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -243,7 +243,7 @@
 		}
 		{
 			dependencies: [
-				"ECC49D2BEA8980A9"
+				"6CC49D2BEA8980A9"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -252,14 +252,14 @@
 			id: "118636C0506E53E8"
 			optional: true
 			rewards: [{
-				id: "889EBE29B7453A1B"
+				id: "089EBE29B7453A1B"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "FAF70A8727458166"
+				id: "7AF70A8727458166"
 				item: {
 					count: 1
 					id: "cobblemon:rare_candy"
@@ -271,7 +271,7 @@
 		}
 		{
 			dependencies: [
-				"ECC49D2BEA8980A9"
+				"6CC49D2BEA8980A9"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -280,14 +280,14 @@
 			id: "744F8BC55731825A"
 			optional: true
 			rewards: [{
-				id: "AACD2EF37F3E205C"
+				id: "2ACD2EF37F3E205C"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "B6489EB1993DC634"
+				id: "36489EB1993DC634"
 				item: {
 					count: 1
 					id: "cobblemon:ability_capsule"
@@ -299,16 +299,16 @@
 		}
 		{
 			dependencies: [
-				"ECC49D2BEA8980A9"
+				"6CC49D2BEA8980A9"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "cobblemon:ability_patch"
 			}
-			id: "FA5F60801F3A79C3"
+			id: "7A5F60801F3A79C3"
 			optional: true
 			rewards: [{
-				id: "E9FD9CA43B603D9B"
+				id: "69FD9CA43B603D9B"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -327,21 +327,21 @@
 		}
 		{
 			dependencies: [
-				"E8284A4D9075EA4D"
+				"68284A4D9075EA4D"
 			]
 			icon: {
 				id: "cobblemon:hp_up"
 			}
 			id: "76C2D2AC046F4230"
 			rewards: [{
-				id: "D4ECF0D4EF5E1958"
+				id: "54ECF0D4EF5E1958"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
 			shape: "gear"
 			size: 1.6d
 			tasks: [{
-				id: "981A4D5A3E9F587E"
+				id: "181A4D5A3E9F587E"
 				item: {
 					count: 1
 					id: "cobblemon:hp_up"
@@ -359,10 +359,10 @@
 			icon: {
 				id: "cobblemon:protein"
 			}
-			id: "8DBA08B4F04BD113"
+			id: "0DBA08B4F04BD113"
 			optional: true
 			rewards: [{
-				id: "D030E19598388089"
+				id: "5030E19598388089"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -387,7 +387,7 @@
 			icon: {
 				id: "cobblemon:iron"
 			}
-			id: "DA9572E4DE6A1D1D"
+			id: "5A9572E4DE6A1D1D"
 			optional: true
 			rewards: [{
 				id: "6FFE28912B0886EC"
@@ -415,10 +415,10 @@
 			icon: {
 				id: "cobblemon:calcium"
 			}
-			id: "A29648493DC94D40"
+			id: "229648493DC94D40"
 			optional: true
 			rewards: [{
-				id: "C6F8646CE0A13E0F"
+				id: "46F8646CE0A13E0F"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -481,7 +481,7 @@
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "874E5C4F5F1E9248"
+				id: "074E5C4F5F1E9248"
 				item: {
 					count: 1
 					id: "cobblemon:carbos"
@@ -527,17 +527,17 @@
 			icon: {
 				id: "cobblemon:pp_max"
 			}
-			id: "B4DF5A2D51817244"
+			id: "34DF5A2D51817244"
 			optional: true
 			rewards: [{
-				id: "8C16F8CDC36A6FCA"
+				id: "0C16F8CDC36A6FCA"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "DB87F90372713360"
+				id: "5B87F90372713360"
 				item: {
 					count: 1
 					id: "cobblemon:pp_max"
@@ -549,21 +549,21 @@
 		}
 		{
 			dependencies: [
-				"E8284A4D9075EA4D"
+				"68284A4D9075EA4D"
 			]
 			icon: {
 				id: "cobblemon:health_feather"
 			}
 			id: "7C5227B407C50D33"
 			rewards: [{
-				id: "E2591A4B728F32B2"
+				id: "62591A4B728F32B2"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
 			shape: "gear"
 			size: 1.6d
 			tasks: [{
-				id: "EDD2FEA8909F47D1"
+				id: "6DD2FEA8909F47D1"
 				item: {
 					count: 1
 					id: "cobblemon:health_feather"
@@ -581,7 +581,7 @@
 			icon: {
 				id: "cobblemon:muscle_feather"
 			}
-			id: "F46F29CB258F730A"
+			id: "746F29CB258F730A"
 			optional: true
 			rewards: [{
 				id: "6265576E26B84485"
@@ -591,7 +591,7 @@
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "A9AF5FDA9B19416E"
+				id: "29AF5FDA9B19416E"
 				item: {
 					count: 1
 					id: "cobblemon:muscle_feather"
@@ -609,7 +609,7 @@
 			icon: {
 				id: "cobblemon:resist_feather"
 			}
-			id: "C8779169AA1537FC"
+			id: "48779169AA1537FC"
 			optional: true
 			rewards: [{
 				id: "5D8D73A9426C89A2"
@@ -619,7 +619,7 @@
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "957100ACDD083564"
+				id: "157100ACDD083564"
 				item: {
 					count: 1
 					id: "cobblemon:resist_feather"
@@ -647,7 +647,7 @@
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "950CD9EC1387306C"
+				id: "150CD9EC1387306C"
 				item: {
 					count: 1
 					id: "cobblemon:genius_feather"
@@ -665,7 +665,7 @@
 			icon: {
 				id: "cobblemon:clever_feather"
 			}
-			id: "93C1DDB68B16C38F"
+			id: "13C1DDB68B16C38F"
 			optional: true
 			rewards: [{
 				id: "3B97627A0ED7C5B9"
@@ -675,7 +675,7 @@
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "C6D7A8128C0FBBBC"
+				id: "46D7A8128C0FBBBC"
 				item: {
 					count: 1
 					id: "cobblemon:clever_feather"
@@ -693,10 +693,10 @@
 			icon: {
 				id: "cobblemon:swift_feather"
 			}
-			id: "9E1DBDB93A38130F"
+			id: "1E1DBDB93A38130F"
 			optional: true
 			rewards: [{
-				id: "D30DDFD605C55883"
+				id: "530DDFD605C55883"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -715,21 +715,21 @@
 		}
 		{
 			dependencies: [
-				"E8284A4D9075EA4D"
+				"68284A4D9075EA4D"
 			]
 			icon: {
 				id: "cobblemon:adamant_mint"
 			}
-			id: "E52A74FAFCF7382D"
+			id: "652A74FAFCF7382D"
 			rewards: [{
-				id: "A231439882143DD0"
+				id: "2231439882143DD0"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
 			shape: "gear"
 			size: 1.6d
 			tasks: [{
-				id: "8FF0146C80BA4D85"
+				id: "0FF0146C80BA4D85"
 				item: {
 					count: 1
 					id: "cobblemon:adamant_mint"
@@ -741,13 +741,13 @@
 		}
 		{
 			dependencies: [
-				"E52A74FAFCF7382D"
+				"652A74FAFCF7382D"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "cobblemon:jolly_mint"
 			}
-			id: "F6A84961685A7EAD"
+			id: "76A84961685A7EAD"
 			optional: true
 			rewards: [{
 				id: "4AB1CCBB567C6F20"
@@ -757,7 +757,7 @@
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "AA892CB5DFA269BA"
+				id: "2A892CB5DFA269BA"
 				item: {
 					count: 1
 					id: "cobblemon:jolly_mint"
@@ -769,7 +769,7 @@
 		}
 		{
 			dependencies: [
-				"E52A74FAFCF7382D"
+				"652A74FAFCF7382D"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -778,14 +778,14 @@
 			id: "15FBCCEA76609F30"
 			optional: true
 			rewards: [{
-				id: "D7A244FD9ABA9612"
+				id: "57A244FD9ABA9612"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "B4D320D294769F65"
+				id: "34D320D294769F65"
 				item: {
 					count: 1
 					id: "cobblemon:timid_mint"
@@ -797,7 +797,7 @@
 		}
 		{
 			dependencies: [
-				"E52A74FAFCF7382D"
+				"652A74FAFCF7382D"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -825,7 +825,7 @@
 		}
 		{
 			dependencies: [
-				"E52A74FAFCF7382D"
+				"652A74FAFCF7382D"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -853,7 +853,7 @@
 		}
 		{
 			dependencies: [
-				"E52A74FAFCF7382D"
+				"652A74FAFCF7382D"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -862,7 +862,7 @@
 			id: "792649DAFC9C134E"
 			optional: true
 			rewards: [{
-				id: "BC5201A54AF9B13D"
+				id: "3C5201A54AF9B13D"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -881,16 +881,16 @@
 		}
 		{
 			dependencies: [
-				"E52A74FAFCF7382D"
+				"652A74FAFCF7382D"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "cobblemon:careful_mint"
 			}
-			id: "DD8F23AE9FE3CAB4"
+			id: "5D8F23AE9FE3CAB4"
 			optional: true
 			rewards: [{
-				id: "A136CAE2D58942CC"
+				id: "2136CAE2D58942CC"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -909,7 +909,7 @@
 		}
 		{
 			dependencies: [
-				"E52A74FAFCF7382D"
+				"652A74FAFCF7382D"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -918,14 +918,14 @@
 			id: "5CAF54F715EE69F8"
 			optional: true
 			rewards: [{
-				id: "E73186543175A2A3"
+				id: "673186543175A2A3"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "F739B8A546887066"
+				id: "7739B8A546887066"
 				item: {
 					count: 1
 					id: "cobblemon:impish_mint"
@@ -937,13 +937,13 @@
 		}
 		{
 			dependencies: [
-				"E52A74FAFCF7382D"
+				"652A74FAFCF7382D"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "cobblemon:brave_mint"
 			}
-			id: "CD460955A529D2A6"
+			id: "4D460955A529D2A6"
 			optional: true
 			rewards: [{
 				id: "7E77D6325F45171F"
@@ -953,7 +953,7 @@
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "D6CCD629E8667EF7"
+				id: "56CCD629E8667EF7"
 				item: {
 					count: 1
 					id: "cobblemon:brave_mint"
@@ -965,7 +965,7 @@
 		}
 		{
 			dependencies: [
-				"E52A74FAFCF7382D"
+				"652A74FAFCF7382D"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -974,14 +974,14 @@
 			id: "3F0E9B9C06878C03"
 			optional: true
 			rewards: [{
-				id: "EA2D496C5CFB0CF6"
+				id: "6A2D496C5CFB0CF6"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "8753F24AF4209DA2"
+				id: "0753F24AF4209DA2"
 				item: {
 					count: 1
 					id: "cobblemon:quiet_mint"
@@ -993,23 +993,23 @@
 		}
 		{
 			dependencies: [
-				"E52A74FAFCF7382D"
+				"652A74FAFCF7382D"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "cobblemon:relaxed_mint"
 			}
-			id: "F4A36C4BF5A6EE03"
+			id: "74A36C4BF5A6EE03"
 			optional: true
 			rewards: [{
-				id: "B728FFEFCBFD3582"
+				id: "3728FFEFCBFD3582"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "CB33025232BB9209"
+				id: "4B33025232BB9209"
 				item: {
 					count: 1
 					id: "cobblemon:relaxed_mint"
@@ -1021,7 +1021,7 @@
 		}
 		{
 			dependencies: [
-				"E52A74FAFCF7382D"
+				"652A74FAFCF7382D"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -1037,7 +1037,7 @@
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "B0A6B2E881F325D1"
+				id: "30A6B2E881F325D1"
 				item: {
 					count: 1
 					id: "cobblemon:sassy_mint"
@@ -1049,7 +1049,7 @@
 		}
 		{
 			dependencies: [
-				"E52A74FAFCF7382D"
+				"652A74FAFCF7382D"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -1077,7 +1077,7 @@
 		}
 		{
 			dependencies: [
-				"E52A74FAFCF7382D"
+				"652A74FAFCF7382D"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -1105,7 +1105,7 @@
 		}
 		{
 			dependencies: [
-				"E52A74FAFCF7382D"
+				"652A74FAFCF7382D"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -1114,14 +1114,14 @@
 			id: "7CF7D929AC1C4F23"
 			optional: true
 			rewards: [{
-				id: "AB0A324572985ED3"
+				id: "2B0A324572985ED3"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "C79CC559B0ACFC6E"
+				id: "479CC559B0ACFC6E"
 				item: {
 					count: 1
 					id: "cobblemon:hasty_mint"
@@ -1133,13 +1133,13 @@
 		}
 		{
 			dependencies: [
-				"E52A74FAFCF7382D"
+				"652A74FAFCF7382D"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "cobblemon:naive_mint"
 			}
-			id: "9CA115AA5A1CA195"
+			id: "1CA115AA5A1CA195"
 			optional: true
 			rewards: [{
 				id: "684175A8B5AF2374"
@@ -1149,7 +1149,7 @@
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "85368FD792092088"
+				id: "05368FD792092088"
 				item: {
 					count: 1
 					id: "cobblemon:naive_mint"
@@ -1161,13 +1161,13 @@
 		}
 		{
 			dependencies: [
-				"E52A74FAFCF7382D"
+				"652A74FAFCF7382D"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "cobblemon:mild_mint"
 			}
-			id: "9A47712FA211E432"
+			id: "1A47712FA211E432"
 			optional: true
 			rewards: [{
 				id: "3F599122EB98727E"
@@ -1177,7 +1177,7 @@
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "A4EB39C53D5ED882"
+				id: "24EB39C53D5ED882"
 				item: {
 					count: 1
 					id: "cobblemon:mild_mint"
@@ -1189,23 +1189,23 @@
 		}
 		{
 			dependencies: [
-				"E52A74FAFCF7382D"
+				"652A74FAFCF7382D"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "cobblemon:rash_mint"
 			}
-			id: "E261A6E6E6A5AA7F"
+			id: "6261A6E6E6A5AA7F"
 			optional: true
 			rewards: [{
-				id: "9272A4955A22F488"
+				id: "1272A4955A22F488"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "BCFDFCE5276C31A3"
+				id: "3CFDFCE5276C31A3"
 				item: {
 					count: 1
 					id: "cobblemon:rash_mint"
@@ -1217,13 +1217,13 @@
 		}
 		{
 			dependencies: [
-				"E52A74FAFCF7382D"
+				"652A74FAFCF7382D"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "cobblemon:gentle_mint"
 			}
-			id: "9A0A352EBAB9511F"
+			id: "1A0A352EBAB9511F"
 			optional: true
 			rewards: [{
 				id: "556A915232541DE3"
@@ -1245,7 +1245,7 @@
 		}
 		{
 			dependencies: [
-				"E52A74FAFCF7382D"
+				"652A74FAFCF7382D"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -1273,7 +1273,7 @@
 		}
 		{
 			dependencies: [
-				"E52A74FAFCF7382D"
+				"652A74FAFCF7382D"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -1301,21 +1301,21 @@
 		}
 		{
 			dependencies: [
-				"E8284A4D9075EA4D"
+				"68284A4D9075EA4D"
 			]
 			icon: {
 				id: "cobblemon:power_weight"
 			}
 			id: "4D913C51495E3D94"
 			rewards: [{
-				id: "8968338BB322E3FA"
+				id: "0968338BB322E3FA"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
 			shape: "gear"
 			size: 1.6d
 			tasks: [{
-				id: "9B54E6CF55ED9B70"
+				id: "1B54E6CF55ED9B70"
 				item: {
 					count: 1
 					id: "cobblemon:power_weight"
@@ -1333,10 +1333,10 @@
 			icon: {
 				id: "cobblemon:power_bracer"
 			}
-			id: "8F6970759AB9DF1D"
+			id: "0F6970759AB9DF1D"
 			optional: true
 			rewards: [{
-				id: "8CFAE2647BDC4BF4"
+				id: "0CFAE2647BDC4BF4"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -1361,17 +1361,17 @@
 			icon: {
 				id: "cobblemon:power_belt"
 			}
-			id: "A9B7FFD8E4A37CBD"
+			id: "29B7FFD8E4A37CBD"
 			optional: true
 			rewards: [{
-				id: "DEFCF637088D8A6F"
+				id: "5EFCF637088D8A6F"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "A1C62800A2209B5E"
+				id: "21C62800A2209B5E"
 				item: {
 					count: 1
 					id: "cobblemon:power_belt"
@@ -1392,14 +1392,14 @@
 			id: "4B82071182103A05"
 			optional: true
 			rewards: [{
-				id: "BD1E9E45F585DD0C"
+				id: "3D1E9E45F585DD0C"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "BD8DC19685D1E4DA"
+				id: "3D8DC19685D1E4DA"
 				item: {
 					count: 1
 					id: "cobblemon:power_lens"
@@ -1417,7 +1417,7 @@
 			icon: {
 				id: "cobblemon:power_band"
 			}
-			id: "95D7152C6A8E5531"
+			id: "15D7152C6A8E5531"
 			optional: true
 			rewards: [{
 				id: "2CA60BD79CD34D5E"
@@ -1445,7 +1445,7 @@
 			icon: {
 				id: "cobblemon:power_anklet"
 			}
-			id: "985FAA22D813836E"
+			id: "185FAA22D813836E"
 			optional: true
 			rewards: [{
 				id: "24CDFA5AA046C3C6"
@@ -1455,7 +1455,7 @@
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "A803B33137C45A02"
+				id: "2803B33137C45A02"
 				item: {
 					count: 1
 					id: "cobblemon:power_anklet"
@@ -1467,12 +1467,12 @@
 		}
 		{
 			dependencies: [
-				"E8284A4D9075EA4D"
+				"68284A4D9075EA4D"
 			]
 			icon: {
 				id: "obc:bottle_cap"
 			}
-			id: "AFD7AB293CEAC1C7"
+			id: "2FD7AB293CEAC1C7"
 			rewards: [{
 				id: "7945568457516BAC"
 				type: "xp_levels"
@@ -1493,16 +1493,16 @@
 		}
 		{
 			dependencies: [
-				"AFD7AB293CEAC1C7"
+				"2FD7AB293CEAC1C7"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "obc:bottle_cap_hp"
 			}
-			id: "F691687700E3D5FC"
+			id: "7691687700E3D5FC"
 			optional: true
 			rewards: [{
-				id: "E5A6D4021C23EA8C"
+				id: "65A6D4021C23EA8C"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -1521,7 +1521,7 @@
 		}
 		{
 			dependencies: [
-				"AFD7AB293CEAC1C7"
+				"2FD7AB293CEAC1C7"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -1537,7 +1537,7 @@
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "A70A2311AA967228"
+				id: "270A2311AA967228"
 				item: {
 					count: 1
 					id: "obc:bottle_cap_attack"
@@ -1549,13 +1549,13 @@
 		}
 		{
 			dependencies: [
-				"AFD7AB293CEAC1C7"
+				"2FD7AB293CEAC1C7"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "obc:bottle_cap_defence"
 			}
-			id: "E0D6BC9266C3E6D5"
+			id: "60D6BC9266C3E6D5"
 			optional: true
 			rewards: [{
 				id: "38D5D552BB8921EB"
@@ -1577,7 +1577,7 @@
 		}
 		{
 			dependencies: [
-				"AFD7AB293CEAC1C7"
+				"2FD7AB293CEAC1C7"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -1605,23 +1605,23 @@
 		}
 		{
 			dependencies: [
-				"AFD7AB293CEAC1C7"
+				"2FD7AB293CEAC1C7"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "obc:bottle_cap_special_defence"
 			}
-			id: "FF6E8DBFD3C78F00"
+			id: "7F6E8DBFD3C78F00"
 			optional: true
 			rewards: [{
-				id: "DC0FB9A190799935"
+				id: "5C0FB9A190799935"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "A7176DF1627D3BDA"
+				id: "27176DF1627D3BDA"
 				item: {
 					count: 1
 					id: "obc:bottle_cap_special_defence"
@@ -1633,7 +1633,7 @@
 		}
 		{
 			dependencies: [
-				"AFD7AB293CEAC1C7"
+				"2FD7AB293CEAC1C7"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -1649,7 +1649,7 @@
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "B503BB128BAB231D"
+				id: "3503BB128BAB231D"
 				item: {
 					count: 1
 					id: "obc:bottle_cap_speed"
@@ -1661,7 +1661,7 @@
 		}
 		{
 			dependencies: [
-				"AFD7AB293CEAC1C7"
+				"2FD7AB293CEAC1C7"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -1670,14 +1670,14 @@
 			id: "12085A455AD1F728"
 			optional: true
 			rewards: [{
-				id: "E48F33E3E8E39D9C"
+				id: "648F33E3E8E39D9C"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "D43D8D490B618C6E"
+				id: "543D8D490B618C6E"
 				item: {
 					count: 1
 					id: "obc:bottle_cap_gold"
@@ -1689,21 +1689,21 @@
 		}
 		{
 			dependencies: [
-				"E8284A4D9075EA4D"
+				"68284A4D9075EA4D"
 			]
 			icon: {
 				id: "simpletms:machine_tm"
 			}
-			id: "AA74791EB4D6FC5E"
+			id: "2A74791EB4D6FC5E"
 			rewards: [{
-				id: "E1133AF248554EB4"
+				id: "61133AF248554EB4"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
 			shape: "gear"
 			size: 1.6d
 			tasks: [{
-				id: "A8B42D9575C0D0B2"
+				id: "28B42D9575C0D0B2"
 				item: {
 					count: 1
 					id: "simpletms:machine_tm"
@@ -1715,7 +1715,7 @@
 		}
 		{
 			dependencies: [
-				"AA74791EB4D6FC5E"
+				"2A74791EB4D6FC5E"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -1724,14 +1724,14 @@
 			id: "5EFEE0B0396DC2AD"
 			optional: true
 			rewards: [{
-				id: "E65FDCC40E65CB20"
+				id: "665FDCC40E65CB20"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "939A52AE0DAE6330"
+				id: "139A52AE0DAE6330"
 				item: {
 					count: 1
 					id: "simpletms:case_tm"
@@ -1743,7 +1743,7 @@
 		}
 		{
 			dependencies: [
-				"AA74791EB4D6FC5E"
+				"2A74791EB4D6FC5E"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -1752,14 +1752,14 @@
 			id: "37BF4586E3E4A675"
 			optional: true
 			rewards: [{
-				id: "9F2B449F8395493B"
+				id: "1F2B449F8395493B"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "CEE05535685D8BF0"
+				id: "4EE05535685D8BF0"
 				item: {
 					count: 1
 					id: "simpletms:case_tr"
@@ -1771,13 +1771,13 @@
 		}
 		{
 			dependencies: [
-				"AA74791EB4D6FC5E"
+				"2A74791EB4D6FC5E"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "simpletms:tm_thunderbolt"
 			}
-			id: "D2B8D69107C7BA92"
+			id: "52B8D69107C7BA92"
 			optional: true
 			rewards: [{
 				id: "5DB1ACF387C08D4F"
@@ -1799,13 +1799,13 @@
 		}
 		{
 			dependencies: [
-				"AA74791EB4D6FC5E"
+				"2A74791EB4D6FC5E"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "simpletms:tm_flamethrower"
 			}
-			id: "CD4E4475A09C9AA9"
+			id: "4D4E4475A09C9AA9"
 			optional: true
 			rewards: [{
 				id: "33EA80F2A219501F"
@@ -1815,7 +1815,7 @@
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "9C433313A2D2F8F5"
+				id: "1C433313A2D2F8F5"
 				item: {
 					count: 1
 					id: "simpletms:tm_flamethrower"
@@ -1827,7 +1827,7 @@
 		}
 		{
 			dependencies: [
-				"AA74791EB4D6FC5E"
+				"2A74791EB4D6FC5E"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -1836,7 +1836,7 @@
 			id: "79D4A2E8B7C75890"
 			optional: true
 			rewards: [{
-				id: "DBC2715CE5C57151"
+				id: "5BC2715CE5C57151"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -1855,7 +1855,7 @@
 		}
 		{
 			dependencies: [
-				"AA74791EB4D6FC5E"
+				"2A74791EB4D6FC5E"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -1864,7 +1864,7 @@
 			id: "2A6C882D951089CF"
 			optional: true
 			rewards: [{
-				id: "E25A195423DFE22B"
+				id: "625A195423DFE22B"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -1883,7 +1883,7 @@
 		}
 		{
 			dependencies: [
-				"AA74791EB4D6FC5E"
+				"2A74791EB4D6FC5E"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -1911,7 +1911,7 @@
 		}
 		{
 			dependencies: [
-				"AA74791EB4D6FC5E"
+				"2A74791EB4D6FC5E"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -1920,7 +1920,7 @@
 			id: "2A729957ED55798C"
 			optional: true
 			rewards: [{
-				id: "FB071C6D12A64B1E"
+				id: "7B071C6D12A64B1E"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -1939,23 +1939,23 @@
 		}
 		{
 			dependencies: [
-				"AA74791EB4D6FC5E"
+				"2A74791EB4D6FC5E"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "simpletms:tm_dragonpulse"
 			}
-			id: "B579F51DF45ADCEE"
+			id: "3579F51DF45ADCEE"
 			optional: true
 			rewards: [{
-				id: "D3D845C760FE01FF"
+				id: "53D845C760FE01FF"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "B98ED5EE896EB85D"
+				id: "398ED5EE896EB85D"
 				item: {
 					count: 1
 					id: "simpletms:tm_dragonpulse"
@@ -1967,7 +1967,7 @@
 		}
 		{
 			dependencies: [
-				"AA74791EB4D6FC5E"
+				"2A74791EB4D6FC5E"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -1976,7 +1976,7 @@
 			id: "5515A2F4DEDFB1B1"
 			optional: true
 			rewards: [{
-				id: "C26ADE22AF656F77"
+				id: "426ADE22AF656F77"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -1995,23 +1995,23 @@
 		}
 		{
 			dependencies: [
-				"AA74791EB4D6FC5E"
+				"2A74791EB4D6FC5E"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "simpletms:tm_swordsdance"
 			}
-			id: "D56D5D5B31F6C2CC"
+			id: "556D5D5B31F6C2CC"
 			optional: true
 			rewards: [{
-				id: "9EF670C337BF86C5"
+				id: "1EF670C337BF86C5"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "B004657F8EA30C1F"
+				id: "3004657F8EA30C1F"
 				item: {
 					count: 1
 					id: "simpletms:tm_swordsdance"
@@ -2023,7 +2023,7 @@
 		}
 		{
 			dependencies: [
-				"AA74791EB4D6FC5E"
+				"2A74791EB4D6FC5E"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -2032,7 +2032,7 @@
 			id: "7101C6F6D8FAF4C9"
 			optional: true
 			rewards: [{
-				id: "F378429B5087E349"
+				id: "7378429B5087E349"
 				type: "xp_levels"
 				xp_levels: 1
 			}]

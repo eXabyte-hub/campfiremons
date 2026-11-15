@@ -10,7 +10,7 @@
 	images: [
 		{
 			height: 1.6d
-			id: "BC5C262BAC9C83AC"
+			id: "3C5C262BAC9C83AC"
 			image: "campfiremons:textures/quests/stage_1.png"
 			rotation: 0.0d
 			width: 9.54d
@@ -19,7 +19,7 @@
 		}
 		{
 			height: 1.5d
-			id: "A1066B28ACD9FF91"
+			id: "21066B28ACD9FF91"
 			image: "mega_showdown:textures/gui/summary/tera_types/rock.png"
 			rotation: 0.0d
 			width: 1.5d

@@ -2,11 +2,11 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "legendary"
-	group: "A4B00D10A1F005AB"
+	group: "24B00D10A1F005AB"
 	icon: {
 		id: "cobblemon:master_ball"
 	}
-	id: "F1880E9D1C82B6D7"
+	id: "71880E9D1C82B6D7"
 	images: [
 		{
 			height: 1.8d
@@ -28,7 +28,7 @@
 		}
 		{
 			height: 1.0d
-			id: "AEF42F2266BB5C63"
+			id: "2EF42F2266BB5C63"
 			image: "campfiremons:textures/quests/sub_legendary.png"
 			rotation: 0.0d
 			width: 6.12d
@@ -37,7 +37,7 @@
 		}
 		{
 			height: 7.449999999999999d
-			id: "E9F511387AB23C44"
+			id: "69F511387AB23C44"
 			image: "campfiremons:textures/quests/gold_panel.png"
 			rotation: 0.0d
 			width: 8.3d
@@ -46,7 +46,7 @@
 		}
 		{
 			height: 1.0d
-			id: "864405496D9F159F"
+			id: "064405496D9F159F"
 			image: "campfiremons:textures/quests/box_legends.png"
 			rotation: 0.0d
 			width: 5.21d
@@ -55,7 +55,7 @@
 		}
 		{
 			height: 6.4d
-			id: "B51C23DCC3E4BC3D"
+			id: "351C23DCC3E4BC3D"
 			image: "campfiremons:textures/quests/gold_panel.png"
 			rotation: 0.0d
 			width: 8.3d
@@ -75,7 +75,7 @@
 	order_index: 7
 	quest_links: [
 		{
-			id: "8BB4306DAAAEAA0C"
+			id: "0BB4306DAAAEAA0C"
 			linked_quest: "219C6B0EF7C308FF"
 			shape: "gear"
 			size: 1.0d
@@ -83,7 +83,7 @@
 			y: -3.9d
 		}
 		{
-			id: "D5FD2A737099116B"
+			id: "55FD2A737099116B"
 			linked_quest: "0612A68FC7008D19"
 			shape: "gear"
 			size: 1.0d
@@ -113,7 +113,7 @@
 			id: "23A51E02FCEB752A"
 			optional: true
 			rewards: [{
-				id: "F1BE400A2FEFC9B4"
+				id: "71BE400A2FEFC9B4"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -161,7 +161,7 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "B6CA4D90CDE2E7E5"
+			id: "36CA4D90CDE2E7E5"
 			optional: true
 			rewards: [{
 				id: "338095907792EC0C"
@@ -181,7 +181,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "E87F6E399C41F3AE"
+				id: "687F6E399C41F3AE"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -212,10 +212,10 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "8E00962D8182DEF9"
+			id: "0E00962D8182DEF9"
 			optional: true
 			rewards: [{
-				id: "B8DA58678F189E99"
+				id: "38DA58678F189E99"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -266,7 +266,7 @@
 			id: "1982A3BEEC237348"
 			optional: true
 			rewards: [{
-				id: "FFD36A2EFD3DEAC6"
+				id: "7FD36A2EFD3DEAC6"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -283,7 +283,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "8E9A85BD0BC3D0C5"
+				id: "0E9A85BD0BC3D0C5"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -314,10 +314,10 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "9B3B335146FC3EC0"
+			id: "1B3B335146FC3EC0"
 			optional: true
 			rewards: [{
-				id: "FED0C7BBFC4DFD89"
+				id: "7ED0C7BBFC4DFD89"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -334,7 +334,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "D2385828BA45C66A"
+				id: "52385828BA45C66A"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -368,7 +368,7 @@
 			id: "39EC24228977FD8B"
 			optional: true
 			rewards: [{
-				id: "B1C481292739886C"
+				id: "31C481292739886C"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -385,7 +385,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "F7AB41783597B8FB"
+				id: "77AB41783597B8FB"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -416,7 +416,7 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "C17876AE69874A80"
+			id: "417876AE69874A80"
 			optional: true
 			rewards: [{
 				id: "205EB491BE62B365"
@@ -436,7 +436,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "B0C063A686236381"
+				id: "30C063A686236381"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -467,10 +467,10 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "81D3CBCD808496EF"
+			id: "01D3CBCD808496EF"
 			optional: true
 			rewards: [{
-				id: "A4BAA727DE48BF8B"
+				id: "24BAA727DE48BF8B"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -538,7 +538,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "C074690CE113E6A8"
+				id: "4074690CE113E6A8"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -569,7 +569,7 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "D6E30189996DD746"
+			id: "56E30189996DD746"
 			optional: true
 			rewards: [{
 				id: "1CD3651631DA1335"
@@ -620,7 +620,7 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "F180CC2A1AC1A249"
+			id: "7180CC2A1AC1A249"
 			optional: true
 			rewards: [{
 				id: "4875DF4187CA7DAC"
@@ -671,10 +671,10 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "C2A92851D2ACE262"
+			id: "42A92851D2ACE262"
 			optional: true
 			rewards: [{
-				id: "D094480E1FBE4EF2"
+				id: "5094480E1FBE4EF2"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -722,7 +722,7 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "C39EE4B02BD9B8D2"
+			id: "439EE4B02BD9B8D2"
 			optional: true
 			rewards: [{
 				id: "7A05512239B35A90"
@@ -773,10 +773,10 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "A7707CA7CFA260A8"
+			id: "27707CA7CFA260A8"
 			optional: true
 			rewards: [{
-				id: "EAF63F1E9FFCA314"
+				id: "6AF63F1E9FFCA314"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -793,7 +793,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "AC59680BA65E9039"
+				id: "2C59680BA65E9039"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -824,7 +824,7 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "BF8930A874AFDEEB"
+			id: "3F8930A874AFDEEB"
 			optional: true
 			rewards: [{
 				id: "5512875EFD54B072"
@@ -844,7 +844,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "C014D44EB9109D79"
+				id: "4014D44EB9109D79"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -878,7 +878,7 @@
 			id: "7965D3158A44A247"
 			optional: true
 			rewards: [{
-				id: "8180CB27DA80D028"
+				id: "0180CB27DA80D028"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -895,7 +895,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "C22542EBF54B18FC"
+				id: "422542EBF54B18FC"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -946,7 +946,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "B1BF73E371062380"
+				id: "31BF73E371062380"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -997,7 +997,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "89C99AC92E409391"
+				id: "09C99AC92E409391"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -1031,7 +1031,7 @@
 			id: "7B4538A660D129BF"
 			optional: true
 			rewards: [{
-				id: "EFA3A2621A76CE48"
+				id: "6FA3A2621A76CE48"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -1048,7 +1048,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "D2D54BCC23B1DE49"
+				id: "52D54BCC23B1DE49"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -1082,7 +1082,7 @@
 			id: "1540D0C2EC054A1F"
 			optional: true
 			rewards: [{
-				id: "A2493B553F32CA17"
+				id: "22493B553F32CA17"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -1099,7 +1099,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "D37425107C187A30"
+				id: "537425107C187A30"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -1133,7 +1133,7 @@
 			id: "22FA13A0BFF89918"
 			optional: true
 			rewards: [{
-				id: "BD1F51F8842520CA"
+				id: "3D1F51F8842520CA"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -1181,10 +1181,10 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "EA0F68D0A6390428"
+			id: "6A0F68D0A6390428"
 			optional: true
 			rewards: [{
-				id: "F87C3CD78F3B0DC4"
+				id: "787C3CD78F3B0DC4"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -1232,10 +1232,10 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "BC8DA7A6B12BD6EE"
+			id: "3C8DA7A6B12BD6EE"
 			optional: true
 			rewards: [{
-				id: "E7695E888FF70BF3"
+				id: "67695E888FF70BF3"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -1286,7 +1286,7 @@
 			id: "11AD944950E1ABD5"
 			optional: true
 			rewards: [{
-				id: "B786C39896852169"
+				id: "3786C39896852169"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -1334,7 +1334,7 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "D26C4A7EA41DEFCE"
+			id: "526C4A7EA41DEFCE"
 			optional: true
 			rewards: [{
 				id: "784697C42F941411"
@@ -1388,7 +1388,7 @@
 			id: "52EA335159068F7E"
 			optional: true
 			rewards: [{
-				id: "C80607740E99B6A6"
+				id: "480607740E99B6A6"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -1405,7 +1405,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "FD5B3B140EEE4781"
+				id: "7D5B3B140EEE4781"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -1436,7 +1436,7 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "A083B625E0DDF2C3"
+			id: "2083B625E0DDF2C3"
 			optional: true
 			rewards: [{
 				id: "71E1FEFF8FFEEEEC"
@@ -1487,7 +1487,7 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "CC4CE5BF5A258705"
+			id: "4C4CE5BF5A258705"
 			optional: true
 			rewards: [{
 				id: "2D102981E184C54D"
@@ -1507,7 +1507,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "9DFC5EAE57B63675"
+				id: "1DFC5EAE57B63675"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -1538,10 +1538,10 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "B7A2205C85FA7927"
+			id: "37A2205C85FA7927"
 			optional: true
 			rewards: [{
-				id: "DAAE9CA543B37B20"
+				id: "5AAE9CA543B37B20"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -1558,7 +1558,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "FC79CE0AD4C8E1F9"
+				id: "7C79CE0AD4C8E1F9"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -1592,7 +1592,7 @@
 			id: "2D1227C088C42E02"
 			optional: true
 			rewards: [{
-				id: "DB6C927615DD236E"
+				id: "5B6C927615DD236E"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -1643,7 +1643,7 @@
 			id: "30CAC05235D7073E"
 			optional: true
 			rewards: [{
-				id: "A9C32AF2021C79C6"
+				id: "29C32AF2021C79C6"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -1691,10 +1691,10 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "9E94547AD252BAB1"
+			id: "1E94547AD252BAB1"
 			optional: true
 			rewards: [{
-				id: "CD55606F51F3EFF4"
+				id: "4D55606F51F3EFF4"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -1742,10 +1742,10 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "8EB6F0CD19329F73"
+			id: "0EB6F0CD19329F73"
 			optional: true
 			rewards: [{
-				id: "C63E0C5C3555A142"
+				id: "463E0C5C3555A142"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -1762,7 +1762,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "B5EB487BAD7911E1"
+				id: "35EB487BAD7911E1"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -1813,7 +1813,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "D885F8B880B8CC62"
+				id: "5885F8B880B8CC62"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -1844,10 +1844,10 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "BC1655D842A2FD03"
+			id: "3C1655D842A2FD03"
 			optional: true
 			rewards: [{
-				id: "82EC78466CF02567"
+				id: "02EC78466CF02567"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -1864,7 +1864,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "CB765AA5795BDBDA"
+				id: "4B765AA5795BDBDA"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -1898,7 +1898,7 @@
 			id: "75ED96DA1B84E807"
 			optional: true
 			rewards: [{
-				id: "86E4C7579FB8BF84"
+				id: "06E4C7579FB8BF84"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -1915,7 +1915,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "C7BDEC0DB514428C"
+				id: "47BDEC0DB514428C"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -1946,10 +1946,10 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "F2B52EC8010926E5"
+			id: "72B52EC8010926E5"
 			optional: true
 			rewards: [{
-				id: "8AD55BA46A96E757"
+				id: "0AD55BA46A96E757"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -1997,10 +1997,10 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "D02B15EE33801094"
+			id: "502B15EE33801094"
 			optional: true
 			rewards: [{
-				id: "8F6694ACFCF8B096"
+				id: "0F6694ACFCF8B096"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -2017,7 +2017,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "BB5B8A4AC58783CE"
+				id: "3B5B8A4AC58783CE"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -2048,10 +2048,10 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "E39C7589152EFD4D"
+			id: "639C7589152EFD4D"
 			optional: true
 			rewards: [{
-				id: "C6542EE2EACCDF96"
+				id: "46542EE2EACCDF96"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -2068,7 +2068,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "F607C516B555983B"
+				id: "7607C516B555983B"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -2099,10 +2099,10 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "E53D06038E79A753"
+			id: "653D06038E79A753"
 			optional: true
 			rewards: [{
-				id: "8195AC4A131F6A1A"
+				id: "0195AC4A131F6A1A"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -2119,7 +2119,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "A2A571B38ABBC401"
+				id: "22A571B38ABBC401"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -2153,7 +2153,7 @@
 			id: "7FCC99D4C7FB6631"
 			optional: true
 			rewards: [{
-				id: "D0F57CCBFF6AE359"
+				id: "50F57CCBFF6AE359"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -2204,7 +2204,7 @@
 			id: "418A079DC34CDAE8"
 			optional: true
 			rewards: [{
-				id: "8282457514AA9163"
+				id: "0282457514AA9163"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -2272,7 +2272,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "B3277390C4AC021B"
+				id: "33277390C4AC021B"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -2303,7 +2303,7 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "F6B9191A8FBC25C9"
+			id: "76B9191A8FBC25C9"
 			optional: true
 			rewards: [{
 				id: "5F6D036C18D8FCF3"
@@ -2323,7 +2323,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "D13F44A76442BEEF"
+				id: "513F44A76442BEEF"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -2354,7 +2354,7 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "86EA25DF31EBD8C4"
+			id: "06EA25DF31EBD8C4"
 			optional: true
 			rewards: [{
 				id: "48A95E9B1B83A434"
@@ -2408,7 +2408,7 @@
 			id: "30EA8B4B76D3A2D6"
 			optional: true
 			rewards: [{
-				id: "80CDE61697C68C1B"
+				id: "00CDE61697C68C1B"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -2476,7 +2476,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "B9EABDB593225825"
+				id: "39EABDB593225825"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -2527,7 +2527,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "AC5B6520E31C2392"
+				id: "2C5B6520E31C2392"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -2578,7 +2578,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "C518375799745B94"
+				id: "4518375799745B94"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -2612,7 +2612,7 @@
 			id: "6EDA6AC5A7C41CE9"
 			optional: true
 			rewards: [{
-				id: "94329813A016A55D"
+				id: "14329813A016A55D"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -2629,7 +2629,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "A36FC73E4A9044F2"
+				id: "236FC73E4A9044F2"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -2660,10 +2660,10 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "9128867DE39BBFDF"
+			id: "1128867DE39BBFDF"
 			optional: true
 			rewards: [{
-				id: "E5874CBBF9151199"
+				id: "65874CBBF9151199"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -2680,7 +2680,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "8DE0EE28585E97FD"
+				id: "0DE0EE28585E97FD"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -2762,10 +2762,10 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "CFC17B6938780316"
+			id: "4FC17B6938780316"
 			optional: true
 			rewards: [{
-				id: "89EAF685299B7AEE"
+				id: "09EAF685299B7AEE"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -2782,7 +2782,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "BFC030CB2A024F4F"
+				id: "3FC030CB2A024F4F"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -2813,7 +2813,7 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "878DEFD017DEBFB6"
+			id: "078DEFD017DEBFB6"
 			optional: true
 			rewards: [{
 				id: "2018448375FA143A"
@@ -2864,10 +2864,10 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "D6F2898E0D965B6F"
+			id: "56F2898E0D965B6F"
 			optional: true
 			rewards: [{
-				id: "F97F8455D44E5F6A"
+				id: "797F8455D44E5F6A"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -2884,7 +2884,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "C7E21A10EA465F0C"
+				id: "47E21A10EA465F0C"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -2915,7 +2915,7 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "E9ADF90FC9B7EB2A"
+			id: "69ADF90FC9B7EB2A"
 			optional: true
 			rewards: [{
 				id: "4A491B47232C588B"
@@ -2969,7 +2969,7 @@
 			id: "701D8B1A96EFABD9"
 			optional: true
 			rewards: [{
-				id: "872AAC43381D6BDA"
+				id: "072AAC43381D6BDA"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -3020,7 +3020,7 @@
 			id: "6015F3618D3F2E87"
 			optional: true
 			rewards: [{
-				id: "EFA8C098767FD75F"
+				id: "6FA8C098767FD75F"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -3068,7 +3068,7 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "8B48489079D6B139"
+			id: "0B48489079D6B139"
 			optional: true
 			rewards: [{
 				id: "112B57E64872A473"
@@ -3088,7 +3088,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "B01A0A17A3C5CA70"
+				id: "301A0A17A3C5CA70"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -3122,7 +3122,7 @@
 			id: "4719E18AF359C531"
 			optional: true
 			rewards: [{
-				id: "A94F49981D33EA74"
+				id: "294F49981D33EA74"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -3190,7 +3190,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "A06CEC071D96DB3C"
+				id: "206CEC071D96DB3C"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -3221,10 +3221,10 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "87B02D704E8C94E2"
+			id: "07B02D704E8C94E2"
 			optional: true
 			rewards: [{
-				id: "C642F997145489E3"
+				id: "4642F997145489E3"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -3241,7 +3241,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "BA9E44F72449747F"
+				id: "3A9E44F72449747F"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -3272,7 +3272,7 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "F1A3455E4D4A92EC"
+			id: "71A3455E4D4A92EC"
 			optional: true
 			rewards: [{
 				id: "2A6C524F3D88DA7A"
@@ -3292,7 +3292,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "964771F865D6A141"
+				id: "164771F865D6A141"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -3326,7 +3326,7 @@
 			id: "1FAF7A9194CEE7E9"
 			optional: true
 			rewards: [{
-				id: "9DF1EAC515688736"
+				id: "1DF1EAC515688736"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -3374,7 +3374,7 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "FE76E5ED3680028B"
+			id: "7E76E5ED3680028B"
 			optional: true
 			rewards: [{
 				id: "14978D16B34E8AA8"
@@ -3428,7 +3428,7 @@
 			id: "77F15D813AD99E91"
 			optional: true
 			rewards: [{
-				id: "95476DAF76A73B12"
+				id: "15476DAF76A73B12"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -3445,7 +3445,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "8ECEC62331B728CB"
+				id: "0ECEC62331B728CB"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -3530,7 +3530,7 @@
 			id: "390348B9C763E388"
 			optional: true
 			rewards: [{
-				id: "DDB5A800BF83C57B"
+				id: "5DB5A800BF83C57B"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -3547,7 +3547,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "DA0FE35B2EC64731"
+				id: "5A0FE35B2EC64731"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -3578,10 +3578,10 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "9A79857179BA5200"
+			id: "1A79857179BA5200"
 			optional: true
 			rewards: [{
-				id: "988B3E527C5332A3"
+				id: "188B3E527C5332A3"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -3629,10 +3629,10 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "D977F055D86950C2"
+			id: "5977F055D86950C2"
 			optional: true
 			rewards: [{
-				id: "908F4441C6B55BF6"
+				id: "108F4441C6B55BF6"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -3649,7 +3649,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "85C7F8FF40D9CD48"
+				id: "05C7F8FF40D9CD48"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -3680,7 +3680,7 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "DF4CBA80DE16F717"
+			id: "5F4CBA80DE16F717"
 			optional: true
 			rewards: [{
 				id: "13891694452A4DF8"
@@ -3734,7 +3734,7 @@
 			id: "34E29F04C0A70EC5"
 			optional: true
 			rewards: [{
-				id: "B5B2B16EC9857909"
+				id: "35B2B16EC9857909"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -3802,7 +3802,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "FC01A1EF45A798B5"
+				id: "7C01A1EF45A798B5"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -3833,10 +3833,10 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "C1B0BF5141F33EDF"
+			id: "41B0BF5141F33EDF"
 			optional: true
 			rewards: [{
-				id: "823CF03025875970"
+				id: "023CF03025875970"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -3853,7 +3853,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "938514E3DD80A5C1"
+				id: "138514E3DD80A5C1"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -3884,10 +3884,10 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "8A0F76D97C240632"
+			id: "0A0F76D97C240632"
 			optional: true
 			rewards: [{
-				id: "A03946E4C8BC297D"
+				id: "203946E4C8BC297D"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -3935,10 +3935,10 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "8261F25D5763D10F"
+			id: "0261F25D5763D10F"
 			optional: true
 			rewards: [{
-				id: "DDBC3E4675270E4F"
+				id: "5DBC3E4675270E4F"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -3986,10 +3986,10 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "D8DE955837F66062"
+			id: "58DE955837F66062"
 			optional: true
 			rewards: [{
-				id: "912146EC04EAAA29"
+				id: "112146EC04EAAA29"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -4006,7 +4006,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "F86381C862304EB3"
+				id: "786381C862304EB3"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -4040,7 +4040,7 @@
 			id: "41703DE236EB6084"
 			optional: true
 			rewards: [{
-				id: "A2C96234E08E797F"
+				id: "22C96234E08E797F"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -4088,7 +4088,7 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "AB8BD97DD72B0B3B"
+			id: "2B8BD97DD72B0B3B"
 			optional: true
 			rewards: [{
 				id: "4D6FAD40D5603FED"
@@ -4190,10 +4190,10 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "E20B9ADA922D2417"
+			id: "620B9ADA922D2417"
 			optional: true
 			rewards: [{
-				id: "CD09561EA42CF32A"
+				id: "4D09561EA42CF32A"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -4244,7 +4244,7 @@
 			id: "7AD179663D54CDEB"
 			optional: true
 			rewards: [{
-				id: "858189716DE5DF35"
+				id: "058189716DE5DF35"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -4363,7 +4363,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "F418E037947DF097"
+				id: "7418E037947DF097"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -4397,7 +4397,7 @@
 			id: "4A3A01664736D61D"
 			optional: true
 			rewards: [{
-				id: "80F008804A7A0F1E"
+				id: "00F008804A7A0F1E"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -4414,7 +4414,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "ABF78F643019ED4A"
+				id: "2BF78F643019ED4A"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -4448,7 +4448,7 @@
 			id: "3A66B65E98B7783B"
 			optional: true
 			rewards: [{
-				id: "DE38E79749BF14C6"
+				id: "5E38E79749BF14C6"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -4496,10 +4496,10 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "BC56F3316A435AF0"
+			id: "3C56F3316A435AF0"
 			optional: true
 			rewards: [{
-				id: "F5BB1093C0CBFCCA"
+				id: "75BB1093C0CBFCCA"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -4516,7 +4516,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "D83F8365F06F56A6"
+				id: "583F8365F06F56A6"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -4547,7 +4547,7 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "EC599888A6A979E4"
+			id: "6C599888A6A979E4"
 			optional: true
 			rewards: [{
 				id: "7BB03A708E85E08B"
@@ -4598,10 +4598,10 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "E19065B5BD88C434"
+			id: "619065B5BD88C434"
 			optional: true
 			rewards: [{
-				id: "A294442A72B82F23"
+				id: "2294442A72B82F23"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -4618,7 +4618,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "F992D2AEF49BECA2"
+				id: "7992D2AEF49BECA2"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -4700,10 +4700,10 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "ACC02B8A1B3CBADE"
+			id: "2CC02B8A1B3CBADE"
 			optional: true
 			rewards: [{
-				id: "D5F8853A978620F9"
+				id: "55F8853A978620F9"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -4754,7 +4754,7 @@
 			id: "3CE0B023E60765C4"
 			optional: true
 			rewards: [{
-				id: "87DEA243635F9841"
+				id: "07DEA243635F9841"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -4805,7 +4805,7 @@
 			id: "49DE0A1C55443AE5"
 			optional: true
 			rewards: [{
-				id: "DEE30111FFEBC61B"
+				id: "5EE30111FFEBC61B"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -4822,7 +4822,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "B30522BC07D3356D"
+				id: "330522BC07D3356D"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -4853,7 +4853,7 @@
 				}
 				id: "cobblemon:pokemon_model"
 			}
-			id: "E594343B6FE8AEE5"
+			id: "6594343B6FE8AEE5"
 			optional: true
 			rewards: [{
 				id: "45EA17940AF5AAD0"
@@ -4873,7 +4873,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "95291BD7D3ADDDAE"
+				id: "15291BD7D3ADDDAE"
 				max_level: 0
 				max_turns: 0
 				min_level: 0

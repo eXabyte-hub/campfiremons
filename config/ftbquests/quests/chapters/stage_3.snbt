@@ -10,7 +10,7 @@
 	images: [
 		{
 			height: 1.6d
-			id: "F324DB4579139806"
+			id: "7324DB4579139806"
 			image: "campfiremons:textures/quests/stage_3.png"
 			rotation: 0.0d
 			width: 9.88d
@@ -28,7 +28,7 @@
 		}
 		{
 			height: 1.5d
-			id: "C673C26C0111C908"
+			id: "4673C26C0111C908"
 			image: "mega_showdown:textures/gui/summary/tera_types/electric.png"
 			rotation: 0.0d
 			width: 1.5d

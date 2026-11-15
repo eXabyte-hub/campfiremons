@@ -83,3 +83,16 @@ def dump(v, indent=0):
     if isinstance(v, float): return f"{v}d"
     if isinstance(v, str): return quote(v)
     raise TypeError(type(v))
+
+
+def mods_dir():
+    """The mods folder whose jars the tools read item models and textures from: $MODS, else the Prism instance named
+    Campfiremons* with the most jars (a played instance has every mod; the dev instance is optional)."""
+    import os, glob
+    from pathlib import Path
+    if os.environ.get('MODS'):
+        return os.environ['MODS']
+    found = glob.glob(str(Path.home() / '.local/share/PrismLauncher/instances/Campfiremons*/minecraft/mods'))
+    if not found:
+        raise SystemExit('no Campfiremons Prism instance found; set MODS to a mods folder with the pack\'s jars')
+    return max(found, key=lambda d: len(glob.glob(d + '/*.jar')))

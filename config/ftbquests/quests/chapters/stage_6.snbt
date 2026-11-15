@@ -10,7 +10,7 @@
 	images: [
 		{
 			height: 1.6d
-			id: "95DE3A6B9BCD36CB"
+			id: "15DE3A6B9BCD36CB"
 			image: "campfiremons:textures/quests/stage_6.png"
 			rotation: 0.0d
 			width: 7.45d
@@ -19,7 +19,7 @@
 		}
 		{
 			height: 1.5d
-			id: "86F3F535E3D5BBAA"
+			id: "06F3F535E3D5BBAA"
 			image: "mega_showdown:textures/gui/summary/tera_types/poison.png"
 			rotation: 0.0d
 			width: 1.5d
@@ -28,7 +28,7 @@
 		}
 		{
 			height: 1.5d
-			id: "E97650C8387294D0"
+			id: "697650C8387294D0"
 			image: "mega_showdown:textures/gui/summary/tera_types/poison.png"
 			rotation: 0.0d
 			width: 1.5d
@@ -418,7 +418,7 @@
 			icon: {
 				id: "cobblemon:beast_ball"
 			}
-			id: "8647E1464D069A7C"
+			id: "0647E1464D069A7C"
 			rewards: [
 				{
 					id: "5356860950C32CFB"
@@ -438,7 +438,7 @@
 			shape: "diamond"
 			size: 1.25d
 			tasks: [{
-				id: "87DB7AD20CD401F5"
+				id: "07DB7AD20CD401F5"
 				type: "checkmark"
 			}]
 			x: -1.9d

@@ -62,7 +62,7 @@ PlayerEvents.loggedIn(event => {
 PlayerEvents.advancement(event => {
   let advancement = event.advancement
   let id = String(typeof advancement.id === 'function' ? advancement.id() : advancement.id)
-  if (id.indexOf('campfiremons:stage/') < 0) return
+  if (!/^campfiremons:stage\/\d+$/.test(id)) return // not the tree's root, which everyone gets on their first tick
   let player = event.player
   player.server.scheduleInTicks(100, () => giveGymDirections(player, true))
 })

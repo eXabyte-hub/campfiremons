@@ -21,7 +21,7 @@ def d(v):
 
 def new_id():
     while True:
-        i = secrets.token_hex(8).upper()
+        i = '%016X' % secrets.randbits(63)  # FTB Quests replaces IDs >= 8000000000000000 with random ones on load
         if i not in USED and not i.startswith('0'):
             USED.add(i)
             return i
@@ -201,6 +201,7 @@ def main():
     print('dropped items:', M.MISSING)
     groups_and_titles(b)
     b.write()
+    merge_lang()
     total = sum(len(c['quests']) for c in b.chapters.values())
     print(f"{len(b.chapters)} chapters, {total} quests")
 
@@ -781,6 +782,22 @@ def groups_and_titles(b):
                        else mods_group if name in mod_chapters else gyms)
         chapter_lang[f"chapter.{ch['id']}.title"] = titles[name]
     (Q / 'lang/en_us/chapter.snbt').write_text(dump(chapter_lang) + '\n')
+
+
+def merge_lang():
+    """FTB Quests 2101 reads one table per language, lang/<locale>.snbt; a lang/<locale>/ folder of split files loads
+    as an empty table (players see untitled quests). Merge everything into lang/en_us.snbt and drop the folder."""
+    import shutil
+    folder = Q / 'lang' / 'en_us'
+    table = {}
+    for f in sorted(folder.rglob('*.snbt')):
+        table.update(parse(f.read_text()))
+    (Q / 'lang' / 'en_us.snbt').write_text(dump(table) + '\n')
+    shutil.rmtree(folder)
+    data = parse((Q / 'data.snbt').read_text())
+    data['fallback_locale'] = 'en_us'  # players on another English (en_au, en_gb) still get the text
+    (Q / 'data.snbt').write_text(dump(data) + '\n')
+    print(f"lang/en_us.snbt: {len(table)} entries")
 
 
 if __name__ == '__main__':

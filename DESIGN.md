@@ -323,6 +323,7 @@ Additions on top of the official pack. "1.8?" shows whether the addon's latest N
 | Performance [F10]: ModernFix 5.27.27, ImmediatelyFast 1.6.15 | Load time, memory and rendering, which the base pack left out (picked up from Cobblemon Plus+; FerriteCore already came with the base). ModernFix runs on the server too; ImmediatelyFast is client-only | n/a |
 | Advancement Plaques 1.6.8 (+ Iceberg) + Cobblemon Advancement Plaques 1.0.2 (resource pack, on by default) | Stage-ups and stage finds (both advancements with toasts) show as a Cobblemon-styled banner across the top of the screen instead of a corner toast. Client-only | n/a |
 | GraveStone Mod 1.0.40 (henkelmax, All Rights Reserved, from Modrinth) [F10] | Your items go into a grave where you die instead of scattering; Jade shows whose grave it is | n/a |
+| RightClickHarvest 4.6.1 (+ JamLib, + its Supplementaries compat; MIT) [F10] | Right-click a grown crop to harvest it and replant in one go (Supplementaries' flax too). 4.6.1, not the 3-day-old 4.7.0, when added | n/a |
 | Waystones 21.1.46, Ping Wheel 1.12.2 [F10] | Fast travel between waystones you've found (some generate in villages); pings to mark spots and Pokémon for the group. From COBBLEVERSE | n/a |
 | Catch Indicator 3.1.1 (+ OS Cobblemon Library) [F10] | Wild Pokémon show whether you've caught their species. Client-only. From COBBLEVERSE | ✅ |
 | Cobblemon Pasture Loot 2.0.0 [F10] | Pastured Pokémon produce species-fitting items; with no vanilla farm animals, pastures are the farms. From COBBLEVERSE | ✅ |

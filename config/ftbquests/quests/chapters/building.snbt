@@ -19,7 +19,7 @@
 		}
 		{
 			height: 0.9d
-			id: "88F606CDA8B9C531"
+			id: "08F606CDA8B9C531"
 			image: "campfiremons:textures/quests/build_handcrafted.png"
 			rotation: 0.0d
 			width: 5.29d
@@ -28,7 +28,7 @@
 		}
 		{
 			height: 0.9d
-			id: "FB42D893E9FD8300"
+			id: "7B42D893E9FD8300"
 			image: "campfiremons:textures/quests/build_furnies.png"
 			rotation: 0.0d
 			width: 6.02d
@@ -37,7 +37,7 @@
 		}
 		{
 			height: 0.9d
-			id: "AABB14427235B478"
+			id: "2ABB14427235B478"
 			image: "campfiremons:textures/quests/build_framed.png"
 			rotation: 0.0d
 			width: 5.9d
@@ -55,7 +55,7 @@
 		}
 		{
 			height: 0.9d
-			id: "CE0143C2ADBE5284"
+			id: "4E0143C2ADBE5284"
 			image: "campfiremons:textures/quests/build_travel.png"
 			rotation: 0.0d
 			width: 4.11d
@@ -64,7 +64,7 @@
 		}
 		{
 			height: 1.8d
-			id: "C88B37F9A48A4F3A"
+			id: "488B37F9A48A4F3A"
 			image: "campfiremons:textures/quests/building.png"
 			rotation: 0.0d
 			width: 12.16d
@@ -79,9 +79,9 @@
 			icon: {
 				id: "handcrafted:oak_chair"
 			}
-			id: "EE598D9082BBF4A0"
+			id: "6E598D9082BBF4A0"
 			rewards: [{
-				id: "9018A1A3B51FC5A9"
+				id: "1018A1A3B51FC5A9"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -96,12 +96,12 @@
 		}
 		{
 			dependencies: [
-				"EE598D9082BBF4A0"
+				"6E598D9082BBF4A0"
 			]
 			icon: {
 				id: "chipped:botanist_workbench"
 			}
-			id: "85B15D8A05F0632B"
+			id: "05B15D8A05F0632B"
 			rewards: [{
 				id: "10B7152BB29B2CCC"
 				type: "xp_levels"
@@ -122,13 +122,13 @@
 		}
 		{
 			dependencies: [
-				"85B15D8A05F0632B"
+				"05B15D8A05F0632B"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "chipped:carpenters_table"
 			}
-			id: "EB961ECDA4DFCEF3"
+			id: "6B961ECDA4DFCEF3"
 			optional: true
 			rewards: [{
 				id: "3822A105A0C97BC7"
@@ -138,7 +138,7 @@
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "92CC19AD90E46AEE"
+				id: "12CC19AD90E46AEE"
 				item: {
 					count: 1
 					id: "chipped:carpenters_table"
@@ -150,7 +150,7 @@
 		}
 		{
 			dependencies: [
-				"85B15D8A05F0632B"
+				"05B15D8A05F0632B"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -166,7 +166,7 @@
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "FAE86CBE511D3B86"
+				id: "7AE86CBE511D3B86"
 				item: {
 					count: 1
 					id: "chipped:glassblower"
@@ -178,13 +178,13 @@
 		}
 		{
 			dependencies: [
-				"85B15D8A05F0632B"
+				"05B15D8A05F0632B"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "chipped:loom_table"
 			}
-			id: "8319027907B1D7B1"
+			id: "0319027907B1D7B1"
 			optional: true
 			rewards: [{
 				id: "232398355324DFBF"
@@ -206,16 +206,16 @@
 		}
 		{
 			dependencies: [
-				"85B15D8A05F0632B"
+				"05B15D8A05F0632B"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "chipped:mason_table"
 			}
-			id: "D4B864F7A6432D97"
+			id: "54B864F7A6432D97"
 			optional: true
 			rewards: [{
-				id: "81991BD63625074B"
+				id: "01991BD63625074B"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -234,13 +234,13 @@
 		}
 		{
 			dependencies: [
-				"85B15D8A05F0632B"
+				"05B15D8A05F0632B"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "chipped:alchemy_bench"
 			}
-			id: "BEFC42835D16BE6E"
+			id: "3EFC42835D16BE6E"
 			optional: true
 			rewards: [{
 				id: "20B34619A4F9DF71"
@@ -262,23 +262,23 @@
 		}
 		{
 			dependencies: [
-				"85B15D8A05F0632B"
+				"05B15D8A05F0632B"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "chipped:tinkering_table"
 			}
-			id: "8DC5BF13F9D7E3C1"
+			id: "0DC5BF13F9D7E3C1"
 			optional: true
 			rewards: [{
-				id: "91EADFE91E5ACC7A"
+				id: "11EADFE91E5ACC7A"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "B8A171CDBAE94988"
+				id: "38A171CDBAE94988"
 				item: {
 					count: 1
 					id: "chipped:tinkering_table"
@@ -290,12 +290,12 @@
 		}
 		{
 			dependencies: [
-				"EE598D9082BBF4A0"
+				"6E598D9082BBF4A0"
 			]
 			icon: {
 				id: "rechiseled:chisel"
 			}
-			id: "BB340C94340C4DAC"
+			id: "3B340C94340C4DAC"
 			rewards: [{
 				id: "38FEDEFBB50BDBAA"
 				type: "xp_levels"
@@ -316,21 +316,21 @@
 		}
 		{
 			dependencies: [
-				"EE598D9082BBF4A0"
+				"6E598D9082BBF4A0"
 			]
 			icon: {
 				id: "handcrafted:hammer"
 			}
 			id: "30A960FB60D73C4C"
 			rewards: [{
-				id: "AF95D66AD8DC8F03"
+				id: "2F95D66AD8DC8F03"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
 			shape: "gear"
 			size: 1.6d
 			tasks: [{
-				id: "DDE5A789681D50F3"
+				id: "5DE5A789681D50F3"
 				item: {
 					count: 1
 					id: "handcrafted:hammer"
@@ -348,7 +348,7 @@
 			icon: {
 				id: "handcrafted:oak_chair"
 			}
-			id: "BCB8E15932CF0256"
+			id: "3CB8E15932CF0256"
 			optional: true
 			rewards: [{
 				id: "27A487B82C05617F"
@@ -376,10 +376,10 @@
 			icon: {
 				id: "handcrafted:oak_table"
 			}
-			id: "8A52E8E6FF016A4A"
+			id: "0A52E8E6FF016A4A"
 			optional: true
 			rewards: [{
-				id: "D978F1AFC7CA7C77"
+				id: "5978F1AFC7CA7C77"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -407,14 +407,14 @@
 			id: "199A5F202F5B45A5"
 			optional: true
 			rewards: [{
-				id: "BF99727DA17C1A5A"
+				id: "3F99727DA17C1A5A"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "B576EEE85B5BB470"
+				id: "3576EEE85B5BB470"
 				item: {
 					count: 1
 					id: "handcrafted:oak_couch"
@@ -432,17 +432,17 @@
 			icon: {
 				id: "handcrafted:oak_fancy_bed"
 			}
-			id: "E16D9AC2806D330B"
+			id: "616D9AC2806D330B"
 			optional: true
 			rewards: [{
-				id: "D9F68AB69C5EAC60"
+				id: "59F68AB69C5EAC60"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "82FB726CBD27EE9B"
+				id: "02FB726CBD27EE9B"
 				item: {
 					count: 1
 					id: "handcrafted:oak_fancy_bed"
@@ -460,10 +460,10 @@
 			icon: {
 				id: "handcrafted:oak_desk"
 			}
-			id: "93B4CA0EBB0682E0"
+			id: "13B4CA0EBB0682E0"
 			optional: true
 			rewards: [{
-				id: "CBA89CF40442E7D1"
+				id: "4BA89CF40442E7D1"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -491,7 +491,7 @@
 			id: "24212E66B1E7658C"
 			optional: true
 			rewards: [{
-				id: "B7340DC2404B5CE4"
+				id: "37340DC2404B5CE4"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -526,7 +526,7 @@
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "DED96705077A83C1"
+				id: "5ED96705077A83C1"
 				item: {
 					count: 1
 					id: "handcrafted:oak_cupboard"
@@ -547,14 +547,14 @@
 			id: "29A86318C5A66A51"
 			optional: true
 			rewards: [{
-				id: "EBC672FE2C50C371"
+				id: "6BC672FE2C50C371"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "C32ADB4AE32C6B6E"
+				id: "432ADB4AE32C6B6E"
 				item: {
 					count: 1
 					id: "handcrafted:oak_drawer"
@@ -572,7 +572,7 @@
 			icon: {
 				id: "handcrafted:oak_nightstand"
 			}
-			id: "D1A6EAD857D52CF6"
+			id: "51A6EAD857D52CF6"
 			optional: true
 			rewards: [{
 				id: "18FA44CBF4B64E14"
@@ -603,14 +603,14 @@
 			id: "3AA4E8F95A7F799D"
 			optional: true
 			rewards: [{
-				id: "DAB24A2809439093"
+				id: "5AB24A2809439093"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "ABF52FECC5775EAB"
+				id: "2BF52FECC5775EAB"
 				item: {
 					count: 1
 					id: "handcrafted:oak_bench"
@@ -638,7 +638,7 @@
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "8A5CF5C389B125B1"
+				id: "0A5CF5C389B125B1"
 				item: {
 					count: 1
 					id: "handcrafted:oak_side_table"
@@ -650,14 +650,14 @@
 		}
 		{
 			dependencies: [
-				"EE598D9082BBF4A0"
+				"6E598D9082BBF4A0"
 			]
 			icon: {
 				id: "cobblefurnies:apricorn_cabinet"
 			}
 			id: "7EE634A6321E8DC7"
 			rewards: [{
-				id: "B79FE6CFE6F16F6B"
+				id: "379FE6CFE6F16F6B"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -682,7 +682,7 @@
 			icon: {
 				id: "cobblefurnies:apricorn_chair"
 			}
-			id: "C1D8B92339BCD577"
+			id: "41D8B92339BCD577"
 			optional: true
 			rewards: [{
 				id: "7231E8B338FDBCDF"
@@ -710,7 +710,7 @@
 			icon: {
 				id: "cobblefurnies:apricorn_nightstand"
 			}
-			id: "DEDA255AB305FAD4"
+			id: "5EDA255AB305FAD4"
 			optional: true
 			rewards: [{
 				id: "39097F40573D0625"
@@ -738,10 +738,10 @@
 			icon: {
 				id: "cobblefurnies:apricorn_table"
 			}
-			id: "EB7DBF71E034F331"
+			id: "6B7DBF71E034F331"
 			optional: true
 			rewards: [{
-				id: "B748D45FB9C7960A"
+				id: "3748D45FB9C7960A"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -766,7 +766,7 @@
 			icon: {
 				id: "cobblefurnies:apricorn_wall_support"
 			}
-			id: "D0C3FE7A8E607840"
+			id: "50C3FE7A8E607840"
 			optional: true
 			rewards: [{
 				id: "7E6E9DA01F03379D"
@@ -794,17 +794,17 @@
 			icon: {
 				id: "cobblefurnies:black_poke_wool"
 			}
-			id: "AB63DEBED395B874"
+			id: "2B63DEBED395B874"
 			optional: true
 			rewards: [{
-				id: "C665419EDC60E466"
+				id: "4665419EDC60E466"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "F26C359ACCAF6E31"
+				id: "726C359ACCAF6E31"
 				item: {
 					count: 1
 					id: "cobblefurnies:black_poke_wool"
@@ -822,10 +822,10 @@
 			icon: {
 				id: "cobblefurnies:black_poke_wool_carpet"
 			}
-			id: "B44648DC3C320C96"
+			id: "344648DC3C320C96"
 			optional: true
 			rewards: [{
-				id: "A454E8C9D228D77B"
+				id: "2454E8C9D228D77B"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -853,7 +853,7 @@
 			id: "5C9A39EA3FEA0227"
 			optional: true
 			rewards: [{
-				id: "AB1D1A9E4E659A83"
+				id: "2B1D1A9E4E659A83"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -881,7 +881,7 @@
 			id: "3AD5E35F92C24E6A"
 			optional: true
 			rewards: [{
-				id: "8B42DCC84E31A57E"
+				id: "0B42DCC84E31A57E"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -909,14 +909,14 @@
 			id: "5ACDCCD3A37F2694"
 			optional: true
 			rewards: [{
-				id: "C56C872C69739F77"
+				id: "456C872C69739F77"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "D3F4BD4535B67A81"
+				id: "53F4BD4535B67A81"
 				item: {
 					count: 1
 					id: "cobblefurnies:brown_poke_wool"
@@ -928,7 +928,7 @@
 		}
 		{
 			dependencies: [
-				"EE598D9082BBF4A0"
+				"6E598D9082BBF4A0"
 			]
 			icon: {
 				id: "framedblocks:framed_hammer"
@@ -942,7 +942,7 @@
 			shape: "gear"
 			size: 1.6d
 			tasks: [{
-				id: "8E41C213230B388F"
+				id: "0E41C213230B388F"
 				item: {
 					count: 1
 					id: "framedblocks:framed_hammer"
@@ -1016,10 +1016,10 @@
 			icon: {
 				id: "framedblocks:framed_slab"
 			}
-			id: "C93BD3A967F9A8C3"
+			id: "493BD3A967F9A8C3"
 			optional: true
 			rewards: [{
-				id: "B6DE622B918D513A"
+				id: "36DE622B918D513A"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -1044,17 +1044,17 @@
 			icon: {
 				id: "framedblocks:framed_stairs"
 			}
-			id: "F0103A28945857EA"
+			id: "70103A28945857EA"
 			optional: true
 			rewards: [{
-				id: "851990277C8D056B"
+				id: "051990277C8D056B"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "F4208BB64BF057C9"
+				id: "74208BB64BF057C9"
 				item: {
 					count: 1
 					id: "framedblocks:framed_stairs"
@@ -1072,10 +1072,10 @@
 			icon: {
 				id: "framedblocks:framed_door"
 			}
-			id: "F468FCF4607D7966"
+			id: "7468FCF4607D7966"
 			optional: true
 			rewards: [{
-				id: "C2FDC10FEE63A1E6"
+				id: "42FDC10FEE63A1E6"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -1103,14 +1103,14 @@
 			id: "184D0A6CEE02AA81"
 			optional: true
 			rewards: [{
-				id: "9DAEC647541BF32A"
+				id: "1DAEC647541BF32A"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "B38C321C210E2FD8"
+				id: "338C321C210E2FD8"
 				item: {
 					count: 1
 					id: "framedblocks:framed_chest"
@@ -1166,7 +1166,7 @@
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "81273E64D2F8C2F3"
+				id: "01273E64D2F8C2F3"
 				item: {
 					count: 1
 					id: "framedblocks:framed_blueprint"
@@ -1178,14 +1178,14 @@
 		}
 		{
 			dependencies: [
-				"EE598D9082BBF4A0"
+				"6E598D9082BBF4A0"
 			]
 			icon: {
 				id: "buildinggadgets2:gadget_building"
 			}
-			id: "CB3636055E887D4B"
+			id: "4B3636055E887D4B"
 			rewards: [{
-				id: "DE8BC163C7AEF2E2"
+				id: "5E8BC163C7AEF2E2"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -1204,13 +1204,13 @@
 		}
 		{
 			dependencies: [
-				"CB3636055E887D4B"
+				"4B3636055E887D4B"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "buildinggadgets2:gadget_exchanging"
 			}
-			id: "DC98ACC236E22E66"
+			id: "5C98ACC236E22E66"
 			optional: true
 			rewards: [{
 				id: "4D9D63AE626700D6"
@@ -1232,13 +1232,13 @@
 		}
 		{
 			dependencies: [
-				"CB3636055E887D4B"
+				"4B3636055E887D4B"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "buildinggadgets2:gadget_copy_paste"
 			}
-			id: "FF3A0986DBD26054"
+			id: "7F3A0986DBD26054"
 			optional: true
 			rewards: [{
 				id: "13F6B08966096F37"
@@ -1260,13 +1260,13 @@
 		}
 		{
 			dependencies: [
-				"CB3636055E887D4B"
+				"4B3636055E887D4B"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "buildinggadgets2:gadget_destruction"
 			}
-			id: "8F54CBEB1F20CE60"
+			id: "0F54CBEB1F20CE60"
 			optional: true
 			rewards: [{
 				id: "5E0C9E22A4BAACD4"
@@ -1288,7 +1288,7 @@
 		}
 		{
 			dependencies: [
-				"CB3636055E887D4B"
+				"4B3636055E887D4B"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -1297,7 +1297,7 @@
 			id: "10C793C854266F4C"
 			optional: true
 			rewards: [{
-				id: "A730DCD97A063977"
+				id: "2730DCD97A063977"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -1316,12 +1316,12 @@
 		}
 		{
 			dependencies: [
-				"EE598D9082BBF4A0"
+				"6E598D9082BBF4A0"
 			]
 			icon: {
 				id: "waystones:waystone"
 			}
-			id: "D8F1612E0E45F26E"
+			id: "58F1612E0E45F26E"
 			rewards: [{
 				id: "37E7758015821388"
 				type: "xp_levels"
@@ -1330,7 +1330,7 @@
 			shape: "gear"
 			size: 1.6d
 			tasks: [{
-				id: "B02E0E210D0E8D28"
+				id: "302E0E210D0E8D28"
 				item: {
 					count: 1
 					id: "waystones:waystone"
@@ -1342,16 +1342,16 @@
 		}
 		{
 			dependencies: [
-				"D8F1612E0E45F26E"
+				"58F1612E0E45F26E"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "waystones:sharestone"
 			}
-			id: "9FF4F260D4B78B81"
+			id: "1FF4F260D4B78B81"
 			optional: true
 			rewards: [{
-				id: "938234F8D5EFBC95"
+				id: "138234F8D5EFBC95"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -1370,13 +1370,13 @@
 		}
 		{
 			dependencies: [
-				"D8F1612E0E45F26E"
+				"58F1612E0E45F26E"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "waystones:warp_stone"
 			}
-			id: "E69A76DEA087CA63"
+			id: "669A76DEA087CA63"
 			optional: true
 			rewards: [{
 				id: "1EB28C81BF0E1330"
@@ -1386,7 +1386,7 @@
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "BBA7AFC7A975B637"
+				id: "3BA7AFC7A975B637"
 				item: {
 					count: 1
 					id: "waystones:warp_stone"
@@ -1398,13 +1398,13 @@
 		}
 		{
 			dependencies: [
-				"D8F1612E0E45F26E"
+				"58F1612E0E45F26E"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "waystones:warp_scroll"
 			}
-			id: "EB203E830A2FF698"
+			id: "6B203E830A2FF698"
 			optional: true
 			rewards: [{
 				id: "37BECA0CD9C662A0"
@@ -1426,23 +1426,23 @@
 		}
 		{
 			dependencies: [
-				"D8F1612E0E45F26E"
+				"58F1612E0E45F26E"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "waystones:return_scroll"
 			}
-			id: "8DE7A169B8269F48"
+			id: "0DE7A169B8269F48"
 			optional: true
 			rewards: [{
-				id: "D644E36D881EEB89"
+				id: "5644E36D881EEB89"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "ECFC2578C0EF8691"
+				id: "6CFC2578C0EF8691"
 				item: {
 					count: 1
 					id: "waystones:return_scroll"
@@ -1454,7 +1454,7 @@
 		}
 		{
 			dependencies: [
-				"D8F1612E0E45F26E"
+				"58F1612E0E45F26E"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -1470,7 +1470,7 @@
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "B3C2AC97B3A3A31C"
+				id: "33C2AC97B3A3A31C"
 				item: {
 					count: 1
 					id: "waystones:bound_scroll"
@@ -1482,7 +1482,7 @@
 		}
 		{
 			dependencies: [
-				"D8F1612E0E45F26E"
+				"58F1612E0E45F26E"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -1510,16 +1510,16 @@
 		}
 		{
 			dependencies: [
-				"D8F1612E0E45F26E"
+				"58F1612E0E45F26E"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "waystones:warp_plate"
 			}
-			id: "D235D23E12BF4015"
+			id: "5235D23E12BF4015"
 			optional: true
 			rewards: [{
-				id: "9BE14B54B862F118"
+				id: "1BE14B54B862F118"
 				type: "xp_levels"
 				xp_levels: 1
 			}]

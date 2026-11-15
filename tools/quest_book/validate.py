@@ -1,9 +1,9 @@
 import sys, re, zipfile, glob, collections
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
-from snbt import parse
+from snbt import parse, mods_dir
 Q = Path(__file__).resolve().parents[2] / 'config' / 'ftbquests' / 'quests'
-MODS = str(Path.home() / '.local/share/PrismLauncher/instances/Campfiremons Dev/minecraft/mods')
+MODS = mods_dir()
 items, textures = set(), set()
 for jar in glob.glob(MODS + '/*.jar'):
     try: z = zipfile.ZipFile(jar)
@@ -15,11 +15,12 @@ for jar in glob.glob(MODS + '/*.jar'):
         if m: textures.add(f'{m.group(1)}:{m.group(2)}')
 for p in (Path(__file__).resolve().parents[2] / 'kubejs' / 'assets').rglob('*.png'):
     rel = p.relative_to(str(Path(__file__).resolve().parents[2] / 'kubejs' / 'assets')); textures.add(f'{rel.parts[0]}:{"/".join(rel.parts[1:])}')
+LANG = parse((Q / 'lang' / 'en_us.snbt').read_text())
 ids, quests, problems = collections.Counter(), {}, []
 chapters = {}
 for f in sorted((Q / 'chapters').glob('*.snbt')):
     ch = parse(f.read_text()); chapters[f.stem] = ch
-    lang = parse((Q / 'lang/en_us/chapters' / f.name).read_text())
+    lang = LANG
     ids[ch['id']] += 1
     for q in ch['quests']:
         ids[q['id']] += 1; quests[q['id']] = f.stem
@@ -40,6 +41,9 @@ for name, ch in chapters.items():
     for l in ch.get('quest_links', []):
         if l['linked_quest'] not in quests: problems.append(f'{name}: link to missing {l["linked_quest"]}')
 dupes = [i for i, n in ids.items() if n > 1]
+# FTB Quests reads IDs as signed longs: one at or above 8000000000000000 gets a new random ID on every load, losing
+# its text, links and progress (half the v0.1.10 book did)
+problems += [f'id {i} is out of range (>= 8000000000000000)' for i in ids if int(i, 16) >= 1 << 63]
 print(len(chapters), 'chapters,', len(quests), 'quests; duplicate ids:', dupes[:5])
 print('\n'.join(problems[:30]) or 'no problems'); print(len(problems), 'problems')
 

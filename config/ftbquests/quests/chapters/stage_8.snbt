@@ -10,7 +10,7 @@
 	images: [
 		{
 			height: 1.6d
-			id: "E11104CA03909B58"
+			id: "611104CA03909B58"
 			image: "campfiremons:textures/quests/stage_8.png"
 			rotation: 0.0d
 			width: 8.55d
@@ -19,7 +19,7 @@
 		}
 		{
 			height: 1.5d
-			id: "AA941FE37412C3D2"
+			id: "2A941FE37412C3D2"
 			image: "mega_showdown:textures/gui/summary/tera_types/dragon.png"
 			rotation: 0.0d
 			width: 1.5d
@@ -28,7 +28,7 @@
 		}
 		{
 			height: 1.5d
-			id: "F3A4C98CC855B321"
+			id: "73A4C98CC855B321"
 			image: "mega_showdown:textures/gui/summary/tera_types/dragon.png"
 			rotation: 0.0d
 			width: 1.5d

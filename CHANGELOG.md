@@ -2,6 +2,16 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.11
+
+Already playing? Just press Play: the pack updates itself. Quests from before v0.1.10 keep their progress; quests
+in v0.1.10's new chapters may need ticking off again.
+
+- **The quest book works again.** Since v0.1.10 every quest and chapter showed up untitled, and about half of the
+  new quests lost their links and their place in the book on every server start. Names, text and links are back.
+- **One map to Brock.** New players got two maps to the first gym; now it's one.
+- **Right-click harvesting:** right-click a grown crop to pick it; it replants itself.
+
 ## v0.1.10
 
 Already playing? Just press Play: the pack updates itself. Your quest progress carries over.

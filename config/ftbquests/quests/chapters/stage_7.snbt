@@ -19,7 +19,7 @@
 		}
 		{
 			height: 1.5d
-			id: "FBE214D5C683803B"
+			id: "7BE214D5C683803B"
 			image: "mega_showdown:textures/gui/summary/tera_types/fire.png"
 			rotation: 0.0d
 			width: 1.5d
@@ -28,7 +28,7 @@
 		}
 		{
 			height: 1.5d
-			id: "A5C3332A7FF240B4"
+			id: "25C3332A7FF240B4"
 			image: "mega_showdown:textures/gui/summary/tera_types/fire.png"
 			rotation: 0.0d
 			width: 1.5d

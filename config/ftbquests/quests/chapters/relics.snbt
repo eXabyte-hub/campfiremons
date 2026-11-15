@@ -28,7 +28,7 @@
 		}
 		{
 			height: 0.9d
-			id: "C5001C35F9ED03CE"
+			id: "45001C35F9ED03CE"
 			image: "campfiremons:textures/quests/relic_head.png"
 			rotation: 0.0d
 			width: 2.4d
@@ -37,7 +37,7 @@
 		}
 		{
 			height: 0.9d
-			id: "A71E2EE08F6C6F91"
+			id: "271E2EE08F6C6F91"
 			image: "campfiremons:textures/quests/relic_necklace.png"
 			rotation: 0.0d
 			width: 5.91d
@@ -46,7 +46,7 @@
 		}
 		{
 			height: 0.9d
-			id: "E7896A74D8769D5C"
+			id: "67896A74D8769D5C"
 			image: "campfiremons:textures/quests/relic_belt.png"
 			rotation: 0.0d
 			width: 1.94d
@@ -55,7 +55,7 @@
 		}
 		{
 			height: 0.9d
-			id: "F496BBD84F5FC3A8"
+			id: "7496BBD84F5FC3A8"
 			image: "campfiremons:textures/quests/relic_feet.png"
 			rotation: 0.0d
 			width: 2.14d
@@ -64,7 +64,7 @@
 		}
 		{
 			height: 0.9d
-			id: "8EF4D5AB1EE88314"
+			id: "0EF4D5AB1EE88314"
 			image: "campfiremons:textures/quests/relic_other.png"
 			rotation: 0.0d
 			width: 3.44d
@@ -73,7 +73,7 @@
 		}
 		{
 			height: 1.8d
-			id: "801B270A1AB486DC"
+			id: "001B270A1AB486DC"
 			image: "campfiremons:textures/quests/relics.png"
 			rotation: 0.0d
 			width: 5.39d
@@ -88,16 +88,16 @@
 			icon: {
 				id: "relics:ring_of_the_seven_deadly_sins"
 			}
-			id: "A7D327B4F31D948D"
+			id: "27D327B4F31D948D"
 			rewards: [{
-				id: "E11896255284B009"
+				id: "611896255284B009"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
 			shape: "gear"
 			size: 2.5d
 			tasks: [{
-				id: "C01BCF40BE9085A3"
+				id: "401BCF40BE9085A3"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -105,14 +105,14 @@
 		}
 		{
 			dependencies: [
-				"A7D327B4F31D948D"
+				"27D327B4F31D948D"
 			]
 			icon: {
 				id: "relics:leafy_mantle"
 			}
 			id: "36E5F80DC453107B"
 			rewards: [{
-				id: "8A20E98279C9F6A2"
+				id: "0A20E98279C9F6A2"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -137,10 +137,10 @@
 			icon: {
 				id: "relics:midnight_mantle"
 			}
-			id: "91148E0D45B8AC7F"
+			id: "11148E0D45B8AC7F"
 			optional: true
 			rewards: [{
-				id: "A22678F399848A1B"
+				id: "222678F399848A1B"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -168,7 +168,7 @@
 			id: "199EE344A7E4297A"
 			optional: true
 			rewards: [{
-				id: "E15B7EE5E3245E19"
+				id: "615B7EE5E3245E19"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -193,10 +193,10 @@
 			icon: {
 				id: "relics:ghostly_mantle"
 			}
-			id: "8EC7C128C5C75BC8"
+			id: "0EC7C128C5C75BC8"
 			optional: true
 			rewards: [{
-				id: "C6DD20391ACCBAF5"
+				id: "46DD20391ACCBAF5"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -215,12 +215,12 @@
 		}
 		{
 			dependencies: [
-				"A7D327B4F31D948D"
+				"27D327B4F31D948D"
 			]
 			icon: {
 				id: "relics:piglin_mask"
 			}
-			id: "AE5B5FAF40C14296"
+			id: "2E5B5FAF40C14296"
 			rewards: [{
 				id: "7AA5FC7F66115387"
 				type: "xp_levels"
@@ -229,7 +229,7 @@
 			shape: "gear"
 			size: 1.6d
 			tasks: [{
-				id: "BEED37195E1B8825"
+				id: "3EED37195E1B8825"
 				item: {
 					count: 1
 					id: "relics:piglin_mask"
@@ -241,23 +241,23 @@
 		}
 		{
 			dependencies: [
-				"AE5B5FAF40C14296"
+				"2E5B5FAF40C14296"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "relics:chef_hat"
 			}
-			id: "AB0230FEBFC4709F"
+			id: "2B0230FEBFC4709F"
 			optional: true
 			rewards: [{
-				id: "BD40FEA39A870897"
+				id: "3D40FEA39A870897"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "B248032552FAB994"
+				id: "3248032552FAB994"
 				item: {
 					count: 1
 					id: "relics:chef_hat"
@@ -269,7 +269,7 @@
 		}
 		{
 			dependencies: [
-				"A7D327B4F31D948D"
+				"27D327B4F31D948D"
 			]
 			icon: {
 				id: "relics:reflective_necklace"
@@ -301,17 +301,17 @@
 			icon: {
 				id: "relics:jellyfish_necklace"
 			}
-			id: "888A61AACA3B6DA4"
+			id: "088A61AACA3B6DA4"
 			optional: true
 			rewards: [{
-				id: "9D67950FC1751387"
+				id: "1D67950FC1751387"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "E19B301622C68FB7"
+				id: "619B301622C68FB7"
 				item: {
 					count: 1
 					id: "relics:jellyfish_necklace"
@@ -329,10 +329,10 @@
 			icon: {
 				id: "relics:ring_of_the_seven_deadly_sins"
 			}
-			id: "BA69056E18189BD8"
+			id: "3A69056E18189BD8"
 			optional: true
 			rewards: [{
-				id: "F0AD0245F5263A7B"
+				id: "70AD0245F5263A7B"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -357,7 +357,7 @@
 			icon: {
 				id: "relics:experience_disperser"
 			}
-			id: "814601221EA8D036"
+			id: "014601221EA8D036"
 			optional: true
 			rewards: [{
 				id: "63C71D3F137BD6E8"
@@ -379,7 +379,7 @@
 		}
 		{
 			dependencies: [
-				"A7D327B4F31D948D"
+				"27D327B4F31D948D"
 			]
 			icon: {
 				id: "relics:kinetic_belt"
@@ -411,7 +411,7 @@
 			icon: {
 				id: "relics:hunting_belt"
 			}
-			id: "A3B18E2F06A88431"
+			id: "23B18E2F06A88431"
 			optional: true
 			rewards: [{
 				id: "6A77F9E201F008CF"
@@ -421,7 +421,7 @@
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "B4F51622245A4979"
+				id: "34F51622245A4979"
 				item: {
 					count: 1
 					id: "relics:hunting_belt"
@@ -433,21 +433,21 @@
 		}
 		{
 			dependencies: [
-				"A7D327B4F31D948D"
+				"27D327B4F31D948D"
 			]
 			icon: {
 				id: "relics:roller_skate"
 			}
-			id: "EC747B943B5A06CC"
+			id: "6C747B943B5A06CC"
 			rewards: [{
-				id: "C264E689BB38BA2D"
+				id: "4264E689BB38BA2D"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
 			shape: "gear"
 			size: 1.6d
 			tasks: [{
-				id: "B205B29CF3988B37"
+				id: "3205B29CF3988B37"
 				item: {
 					count: 1
 					id: "relics:roller_skate"
@@ -459,13 +459,13 @@
 		}
 		{
 			dependencies: [
-				"EC747B943B5A06CC"
+				"6C747B943B5A06CC"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "relics:springy_boot"
 			}
-			id: "B4CC354C0F693FAD"
+			id: "34CC354C0F693FAD"
 			optional: true
 			rewards: [{
 				id: "36AAA729EAD6E675"
@@ -475,7 +475,7 @@
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "DE06666CED121B51"
+				id: "5E06666CED121B51"
 				item: {
 					count: 1
 					id: "relics:springy_boot"
@@ -487,23 +487,23 @@
 		}
 		{
 			dependencies: [
-				"EC747B943B5A06CC"
+				"6C747B943B5A06CC"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "relics:cut_glass_boot"
 			}
-			id: "FA0D8B187E1EE5FE"
+			id: "7A0D8B187E1EE5FE"
 			optional: true
 			rewards: [{
-				id: "D6FF3CDBAC95B9B9"
+				id: "56FF3CDBAC95B9B9"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "A908DF502745B2DB"
+				id: "2908DF502745B2DB"
 				item: {
 					count: 1
 					id: "relics:cut_glass_boot"
@@ -515,14 +515,14 @@
 		}
 		{
 			dependencies: [
-				"A7D327B4F31D948D"
+				"27D327B4F31D948D"
 			]
 			icon: {
 				id: "relics:chorus_staff"
 			}
 			id: "239474265330219B"
 			rewards: [{
-				id: "9E3AA631FD8F9CDD"
+				id: "1E3AA631FD8F9CDD"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -550,7 +550,7 @@
 			id: "1EF42C5E567FCBF4"
 			optional: true
 			rewards: [{
-				id: "BB44ED4A7C83C8F9"
+				id: "3B44ED4A7C83C8F9"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -578,14 +578,14 @@
 			id: "1704004A295FEED3"
 			optional: true
 			rewards: [{
-				id: "ED03DE6A821BD3D8"
+				id: "6D03DE6A821BD3D8"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "DD8D7150EB1078A1"
+				id: "5D8D7150EB1078A1"
 				item: {
 					count: 1
 					id: "relics:rider_flute"
@@ -613,7 +613,7 @@
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "CBDFEB827D763108"
+				id: "4BDFEB827D763108"
 				item: {
 					count: 1
 					id: "relics:sphere_of_self_sacrifice"
@@ -631,7 +631,7 @@
 			icon: {
 				id: "relics:shield_of_retaliation"
 			}
-			id: "8FC500CA9666C918"
+			id: "0FC500CA9666C918"
 			optional: true
 			rewards: [{
 				id: "622EDD9B1668AE94"
@@ -641,7 +641,7 @@
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "BC4DEA4D26B32DBA"
+				id: "3C4DEA4D26B32DBA"
 				item: {
 					count: 1
 					id: "relics:shield_of_retaliation"
@@ -662,14 +662,14 @@
 			id: "3B7CF930BD90D072"
 			optional: true
 			rewards: [{
-				id: "B9C07E909A2B6CE3"
+				id: "39C07E909A2B6CE3"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "A3E7261DE580DC1F"
+				id: "23E7261DE580DC1F"
 				item: {
 					count: 1
 					id: "relics:golden_tooth"
@@ -697,7 +697,7 @@
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "DE53E7B0FC32C0CB"
+				id: "5E53E7B0FC32C0CB"
 				item: {
 					count: 1
 					id: "relics:pet_bone"

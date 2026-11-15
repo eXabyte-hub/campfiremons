@@ -2,15 +2,15 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "poke_balls"
-	group: "D02FAE08F3920C75"
+	group: "502FAE08F3920C75"
 	icon: {
 		id: "cobblemon:poke_ball"
 	}
-	id: "8A950A8E7D1FC1B0"
+	id: "0A950A8E7D1FC1B0"
 	images: [
 		{
 			height: 1.6d
-			id: "B91B0D4840582CBF"
+			id: "391B0D4840582CBF"
 			image: "campfiremons:textures/quests/poke_balls.png"
 			rotation: 0.0d
 			width: 7.63d
@@ -19,7 +19,7 @@
 		}
 		{
 			height: 5.6764791854227825d
-			id: "875BD9B7C502470B"
+			id: "075BD9B7C502470B"
 			image: "cobblemon:textures/item/poke_balls/poke_ball.png"
 			rotation: 0.0d
 			width: 5.6764791854227825d
@@ -79,7 +79,7 @@
 				}
 				{
 					count: 4
-					id: "CFBF4D87DFEEA476"
+					id: "4FBF4D87DFEEA476"
 					item: {
 						count: 1
 						id: "cobblemon:poke_ball"
@@ -107,17 +107,17 @@
 			icon: {
 				id: "cobblemon:premier_ball"
 			}
-			id: "DDB5D49204B46DD9"
+			id: "5DB5D49204B46DD9"
 			optional: true
 			rewards: [{
-				id: "8189DA783C2823DE"
+				id: "0189DA783C2823DE"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "circle"
 			size: 0.75d
 			tasks: [{
-				id: "A19ECC1A4F3A4C63"
+				id: "219ECC1A4F3A4C63"
 				item: {
 					count: 1
 					id: "cobblemon:premier_ball"
@@ -134,17 +134,17 @@
 			icon: {
 				id: "cobblemon:heal_ball"
 			}
-			id: "AF6B5124860E7A61"
+			id: "2F6B5124860E7A61"
 			optional: true
 			rewards: [{
-				id: "BB5A89187BB5E172"
+				id: "3B5A89187BB5E172"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "circle"
 			size: 0.75d
 			tasks: [{
-				id: "E9F686D39CC16E82"
+				id: "69F686D39CC16E82"
 				item: {
 					count: 1
 					id: "cobblemon:heal_ball"
@@ -161,10 +161,10 @@
 			icon: {
 				id: "cobblemon:safari_ball"
 			}
-			id: "BBFAEB03E3A04522"
+			id: "3BFAEB03E3A04522"
 			optional: true
 			rewards: [{
-				id: "AFB9AD3BCF122D06"
+				id: "2FB9AD3BCF122D06"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -215,7 +215,7 @@
 			icon: {
 				id: "cobblemon:verdant_ball"
 			}
-			id: "D17F6F360A1EA9EB"
+			id: "517F6F360A1EA9EB"
 			optional: true
 			rewards: [{
 				id: "2DAFECFA94DC4704"
@@ -225,7 +225,7 @@
 			shape: "circle"
 			size: 0.75d
 			tasks: [{
-				id: "B58ED62E61F1EB8C"
+				id: "358ED62E61F1EB8C"
 				item: {
 					count: 1
 					id: "cobblemon:verdant_ball"
@@ -242,17 +242,17 @@
 			icon: {
 				id: "cobblemon:azure_ball"
 			}
-			id: "E3E407B1720B555E"
+			id: "63E407B1720B555E"
 			optional: true
 			rewards: [{
-				id: "E24185C1BD4675D8"
+				id: "624185C1BD4675D8"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "circle"
 			size: 0.75d
 			tasks: [{
-				id: "E704BB34B0D421F0"
+				id: "6704BB34B0D421F0"
 				item: {
 					count: 1
 					id: "cobblemon:azure_ball"
@@ -272,7 +272,7 @@
 			id: "51DFACB6D6E9BDE3"
 			optional: true
 			rewards: [{
-				id: "D3E0B861BA149026"
+				id: "53E0B861BA149026"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -296,17 +296,17 @@
 			icon: {
 				id: "cobblemon:slate_ball"
 			}
-			id: "BAF872CAC510C9E8"
+			id: "3AF872CAC510C9E8"
 			optional: true
 			rewards: [{
-				id: "A38FC9CE624B760C"
+				id: "238FC9CE624B760C"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "circle"
 			size: 0.75d
 			tasks: [{
-				id: "ECB1D2B4E348EE8F"
+				id: "6CB1D2B4E348EE8F"
 				item: {
 					count: 1
 					id: "cobblemon:slate_ball"
@@ -323,17 +323,17 @@
 			icon: {
 				id: "cobblemon:ancient_poke_ball"
 			}
-			id: "8A716C7CCFB1C52C"
+			id: "0A716C7CCFB1C52C"
 			optional: true
 			rewards: [{
-				id: "A4AF063C8A4EB5EE"
+				id: "24AF063C8A4EB5EE"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "circle"
 			size: 0.75d
 			tasks: [{
-				id: "E162159F0E5484DA"
+				id: "6162159F0E5484DA"
 				item: {
 					count: 1
 					id: "cobblemon:ancient_poke_ball"
@@ -350,10 +350,10 @@
 			icon: {
 				id: "cobblemon:ancient_feather_ball"
 			}
-			id: "ACC4F8847A606CA1"
+			id: "2CC4F8847A606CA1"
 			optional: true
 			rewards: [{
-				id: "AE54973C3D1E89D9"
+				id: "2E54973C3D1E89D9"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -401,10 +401,10 @@
 			icon: {
 				id: "cobblemon:great_ball"
 			}
-			id: "BC654F1CCFEFE2CD"
+			id: "3C654F1CCFEFE2CD"
 			rewards: [
 				{
-					id: "F0BBEBEDABA014E6"
+					id: "70BBEBEDABA014E6"
 					type: "xp_levels"
 					xp_levels: 3
 				}
@@ -433,7 +433,7 @@
 		}
 		{
 			dependencies: [
-				"BC654F1CCFEFE2CD"
+				"3C654F1CCFEFE2CD"
 			]
 			icon: {
 				id: "cobblemon:net_ball"
@@ -441,7 +441,7 @@
 			id: "6A822D0FD898BE6C"
 			optional: true
 			rewards: [{
-				id: "AF83F8A1BE0A80FE"
+				id: "2F83F8A1BE0A80FE"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -460,12 +460,12 @@
 		}
 		{
 			dependencies: [
-				"BC654F1CCFEFE2CD"
+				"3C654F1CCFEFE2CD"
 			]
 			icon: {
 				id: "cobblemon:dive_ball"
 			}
-			id: "B8C9B33DFA880A2C"
+			id: "38C9B33DFA880A2C"
 			optional: true
 			rewards: [{
 				id: "68AA944F172C0F9D"
@@ -475,7 +475,7 @@
 			shape: "circle"
 			size: 0.75d
 			tasks: [{
-				id: "DCFE2FC4FE91BFDC"
+				id: "5CFE2FC4FE91BFDC"
 				item: {
 					count: 1
 					id: "cobblemon:dive_ball"
@@ -487,7 +487,7 @@
 		}
 		{
 			dependencies: [
-				"BC654F1CCFEFE2CD"
+				"3C654F1CCFEFE2CD"
 			]
 			icon: {
 				id: "cobblemon:nest_ball"
@@ -502,7 +502,7 @@
 			shape: "circle"
 			size: 0.75d
 			tasks: [{
-				id: "A3FCFBFEFCCBF8BF"
+				id: "23FCFBFEFCCBF8BF"
 				item: {
 					count: 1
 					id: "cobblemon:nest_ball"
@@ -514,7 +514,7 @@
 		}
 		{
 			dependencies: [
-				"BC654F1CCFEFE2CD"
+				"3C654F1CCFEFE2CD"
 			]
 			icon: {
 				id: "cobblemon:level_ball"
@@ -522,7 +522,7 @@
 			id: "2E42E8E529AEF800"
 			optional: true
 			rewards: [{
-				id: "94FF066BE290A873"
+				id: "14FF066BE290A873"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -541,22 +541,22 @@
 		}
 		{
 			dependencies: [
-				"BC654F1CCFEFE2CD"
+				"3C654F1CCFEFE2CD"
 			]
 			icon: {
 				id: "cobblemon:lure_ball"
 			}
-			id: "8E53F4CAC7BEFC33"
+			id: "0E53F4CAC7BEFC33"
 			optional: true
 			rewards: [{
-				id: "FEC645196699A27E"
+				id: "7EC645196699A27E"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "circle"
 			size: 0.75d
 			tasks: [{
-				id: "9E09F76421CD933E"
+				id: "1E09F76421CD933E"
 				item: {
 					count: 1
 					id: "cobblemon:lure_ball"
@@ -568,12 +568,12 @@
 		}
 		{
 			dependencies: [
-				"BC654F1CCFEFE2CD"
+				"3C654F1CCFEFE2CD"
 			]
 			icon: {
 				id: "cobblemon:heavy_ball"
 			}
-			id: "A89E4DF7A34B0207"
+			id: "289E4DF7A34B0207"
 			optional: true
 			rewards: [{
 				id: "243E5368FDC43B8E"
@@ -583,7 +583,7 @@
 			shape: "circle"
 			size: 0.75d
 			tasks: [{
-				id: "AAE4569E15EFFCD3"
+				id: "2AE4569E15EFFCD3"
 				item: {
 					count: 1
 					id: "cobblemon:heavy_ball"
@@ -595,7 +595,7 @@
 		}
 		{
 			dependencies: [
-				"BC654F1CCFEFE2CD"
+				"3C654F1CCFEFE2CD"
 			]
 			icon: {
 				id: "cobblemon:moon_ball"
@@ -610,7 +610,7 @@
 			shape: "circle"
 			size: 0.75d
 			tasks: [{
-				id: "D2AC7CB218BF5479"
+				id: "52AC7CB218BF5479"
 				item: {
 					count: 1
 					id: "cobblemon:moon_ball"
@@ -622,7 +622,7 @@
 		}
 		{
 			dependencies: [
-				"BC654F1CCFEFE2CD"
+				"3C654F1CCFEFE2CD"
 			]
 			icon: {
 				id: "cobblemon:friend_ball"
@@ -649,12 +649,12 @@
 		}
 		{
 			dependencies: [
-				"BC654F1CCFEFE2CD"
+				"3C654F1CCFEFE2CD"
 			]
 			icon: {
 				id: "cobblemon:fast_ball"
 			}
-			id: "EA31D550C680AAEB"
+			id: "6A31D550C680AAEB"
 			optional: true
 			rewards: [{
 				id: "3CFD81F71D108C90"
@@ -664,7 +664,7 @@
 			shape: "circle"
 			size: 0.75d
 			tasks: [{
-				id: "91A00AEB59725B2F"
+				id: "11A00AEB59725B2F"
 				item: {
 					count: 1
 					id: "cobblemon:fast_ball"
@@ -676,7 +676,7 @@
 		}
 		{
 			dependencies: [
-				"BC654F1CCFEFE2CD"
+				"3C654F1CCFEFE2CD"
 			]
 			icon: {
 				id: "cobblemon:sport_ball"
@@ -691,7 +691,7 @@
 			shape: "circle"
 			size: 0.75d
 			tasks: [{
-				id: "9525D46456E14C02"
+				id: "1525D46456E14C02"
 				item: {
 					count: 1
 					id: "cobblemon:sport_ball"
@@ -703,7 +703,7 @@
 		}
 		{
 			dependencies: [
-				"BC654F1CCFEFE2CD"
+				"3C654F1CCFEFE2CD"
 			]
 			icon: {
 				id: "cobblemon:park_ball"
@@ -730,7 +730,7 @@
 		}
 		{
 			dependencies: [
-				"BC654F1CCFEFE2CD"
+				"3C654F1CCFEFE2CD"
 			]
 			icon: {
 				id: "cobblemon:ancient_great_ball"
@@ -757,7 +757,7 @@
 		}
 		{
 			dependencies: [
-				"BC654F1CCFEFE2CD"
+				"3C654F1CCFEFE2CD"
 			]
 			icon: {
 				id: "cobblemon:ancient_wing_ball"
@@ -765,14 +765,14 @@
 			id: "1F74A4C6EDE55D6A"
 			optional: true
 			rewards: [{
-				id: "A34D9739F03B98CA"
+				id: "234D9739F03B98CA"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "circle"
 			size: 0.75d
 			tasks: [{
-				id: "869D83E06B96281A"
+				id: "069D83E06B96281A"
 				item: {
 					count: 1
 					id: "cobblemon:ancient_wing_ball"
@@ -784,12 +784,12 @@
 		}
 		{
 			dependencies: [
-				"BC654F1CCFEFE2CD"
+				"3C654F1CCFEFE2CD"
 			]
 			icon: {
 				id: "cobblemon:ancient_leaden_ball"
 			}
-			id: "9ABF2A9522D1548E"
+			id: "1ABF2A9522D1548E"
 			optional: true
 			rewards: [{
 				id: "2ED3B37356AA4F0A"
@@ -799,7 +799,7 @@
 			shape: "circle"
 			size: 0.75d
 			tasks: [{
-				id: "FF80AF9B0338832E"
+				id: "7F80AF9B0338832E"
 				item: {
 					count: 1
 					id: "cobblemon:ancient_leaden_ball"
@@ -822,7 +822,7 @@
 				}
 				{
 					count: 4
-					id: "AD25D88124CD80ED"
+					id: "2D25D88124CD80ED"
 					item: {
 						count: 1
 						id: "cobblemon:ultra_ball"
@@ -853,7 +853,7 @@
 			id: "181C0F5E33B07E20"
 			optional: true
 			rewards: [{
-				id: "E6D1424FE39ED88E"
+				id: "66D1424FE39ED88E"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -904,10 +904,10 @@
 			icon: {
 				id: "cobblemon:timer_ball"
 			}
-			id: "B50FC547755A3BE8"
+			id: "350FC547755A3BE8"
 			optional: true
 			rewards: [{
-				id: "C22EA53AC2FAC65E"
+				id: "422EA53AC2FAC65E"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -934,14 +934,14 @@
 			id: "2AE3B6A657934C77"
 			optional: true
 			rewards: [{
-				id: "E6B99C3BAEE6AAC7"
+				id: "66B99C3BAEE6AAC7"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "circle"
 			size: 0.75d
 			tasks: [{
-				id: "A71DB2A93C97ACE0"
+				id: "271DB2A93C97ACE0"
 				item: {
 					count: 1
 					id: "cobblemon:repeat_ball"
@@ -968,7 +968,7 @@
 			shape: "circle"
 			size: 0.75d
 			tasks: [{
-				id: "E9809CAE9412EF50"
+				id: "69809CAE9412EF50"
 				item: {
 					count: 1
 					id: "cobblemon:luxury_ball"
@@ -985,10 +985,10 @@
 			icon: {
 				id: "cobblemon:love_ball"
 			}
-			id: "D80A56912434AE75"
+			id: "580A56912434AE75"
 			optional: true
 			rewards: [{
-				id: "FCA2A3E708CF1B35"
+				id: "7CA2A3E708CF1B35"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -1012,7 +1012,7 @@
 			icon: {
 				id: "cobblemon:ancient_ultra_ball"
 			}
-			id: "D3B6EB8A1DD361D7"
+			id: "53B6EB8A1DD361D7"
 			optional: true
 			rewards: [{
 				id: "30E22A2370B5F4D4"
@@ -1039,7 +1039,7 @@
 			icon: {
 				id: "cobblemon:ancient_jet_ball"
 			}
-			id: "AA1701E1CEDBAB64"
+			id: "2A1701E1CEDBAB64"
 			optional: true
 			rewards: [{
 				id: "48616661E3DC2165"
@@ -1076,7 +1076,7 @@
 			shape: "circle"
 			size: 0.75d
 			tasks: [{
-				id: "ABA32DDFD8A786AA"
+				id: "2BA32DDFD8A786AA"
 				item: {
 					count: 1
 					id: "cobblemon:ancient_gigaton_ball"
@@ -1093,13 +1093,13 @@
 			id: "4FC052B3B74A92E1"
 			rewards: [
 				{
-					id: "CC5EEB538EE19B5F"
+					id: "4C5EEB538EE19B5F"
 					type: "xp_levels"
 					xp_levels: 3
 				}
 				{
 					count: 4
-					id: "C21CF40205D7B04C"
+					id: "421CF40205D7B04C"
 					item: {
 						count: 1
 						id: "cobblemon:beast_ball"
@@ -1127,7 +1127,7 @@
 			icon: {
 				id: "cobblemon:dream_ball"
 			}
-			id: "FD67374271F9A846"
+			id: "7D67374271F9A846"
 			optional: true
 			rewards: [{
 				id: "50A1E08DD9466921"
@@ -1137,7 +1137,7 @@
 			shape: "circle"
 			size: 0.75d
 			tasks: [{
-				id: "9EC18521794A799F"
+				id: "1EC18521794A799F"
 				item: {
 					count: 1
 					id: "cobblemon:dream_ball"
@@ -1151,16 +1151,16 @@
 			icon: {
 				id: "cobblemon:master_ball"
 			}
-			id: "82BBD563B3561EF4"
+			id: "02BBD563B3561EF4"
 			rewards: [
 				{
-					id: "D8D78A3D450CAEB4"
+					id: "58D78A3D450CAEB4"
 					type: "xp_levels"
 					xp_levels: 3
 				}
 				{
 					count: 4
-					id: "915643C8471E7BA3"
+					id: "115643C8471E7BA3"
 					item: {
 						count: 1
 						id: "cobblemon:master_ball"
@@ -1171,7 +1171,7 @@
 			shape: "gear"
 			size: 1.75d
 			tasks: [{
-				id: "923687920001578B"
+				id: "123687920001578B"
 				item: {
 					count: 1
 					id: "cobblemon:master_ball"
@@ -1183,7 +1183,7 @@
 		}
 		{
 			dependencies: [
-				"82BBD563B3561EF4"
+				"02BBD563B3561EF4"
 			]
 			icon: {
 				id: "cobblemon:ancient_origin_ball"
@@ -1198,7 +1198,7 @@
 			shape: "circle"
 			size: 0.75d
 			tasks: [{
-				id: "AEFE36B5FB925068"
+				id: "2EFE36B5FB925068"
 				item: {
 					count: 1
 					id: "cobblemon:ancient_origin_ball"
