@@ -1,0 +1,53 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.darumaka_galarian.battle_idle": {
+   "animation_length": 0.05,
+   "bones": {}
+  },
+  "animation.darumaka_galarian.cry": {
+   "animation_length": 0.05,
+   "bones": {}
+  },
+  "animation.darumaka_galarian.ground_idle": {
+   "animation_length": 0.05,
+   "bones": {}
+  },
+  "animation.darumaka_galarian.ground_walk": {
+   "animation_length": 0.05,
+   "bones": {}
+  },
+  "animation.darumaka_galarian.physical": {
+   "animation_length": 0.05,
+   "bones": {}
+  },
+  "animation.darumaka_galarian.pose": {
+   "animation_length": 0.05,
+   "bones": {}
+  },
+  "animation.darumaka_galarian.quirk": {
+   "animation_length": 0.05,
+   "bones": {}
+  },
+  "animation.darumaka_galarian.quirk2": {
+   "animation_length": 0.05,
+   "bones": {}
+  },
+  "animation.darumaka_galarian.recoil": {
+   "animation_length": 0.05,
+   "bones": {}
+  },
+  "animation.darumaka_galarian.sleep": {
+   "animation_length": 0.05,
+   "bones": {}
+  },
+  "animation.darumaka_galarian.special": {
+   "animation_length": 0.05,
+   "bones": {}
+  },
+  "animation.darumaka_galarian.status": {
+   "animation_length": 0.05,
+   "bones": {}
+  }
+ }
+}
