@@ -4630,6 +4630,11 @@ hash = "1af5a3356a1d4edbc9aaf92244ab8f76de5c9dfbfb7d9d2fa4a7ad660cf65215"
 metafile = true
 
 [[files]]
+file = "mods/just-enough-cobblemon.pw.toml"
+hash = "8e1d6352511456af82951445ede588e9b65c9b64e3c9550e0e26d6d945169b79"
+metafile = true
+
+[[files]]
 file = "mods/just-enough-effect-descriptions-jeed.pw.toml"
 hash = "fe1354d34df356e42dbea734d30c44b46a4484dcd68a23045927277dafefab9d"
 metafile = true

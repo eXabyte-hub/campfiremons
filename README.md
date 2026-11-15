@@ -83,11 +83,11 @@ Ask whoever runs the server for the address and to be added to the whitelist, th
 
 <!-- modlist:start -->
 <details>
-<summary>All 197 mods, plus resource packs and shaders (click to open)</summary>
+<summary>All 198 mods, plus resource packs and shaders (click to open)</summary>
 
 Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are only on players' computers, "server only" ones only on the server.
 
-### Mods (197)
+### Mods (198)
 
 | Name | Notes | From |
 | --- | --- | --- |
@@ -195,6 +195,7 @@ Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are 
 | [Iris Shaders](https://modrinth.com/project/YL57xq9U) | client only | Modrinth |
 | [Jade 🔍](https://modrinth.com/project/nvQzSEkH) |  | Modrinth |
 | [JamLib](https://modrinth.com/project/IYY9Siz8) |  | Modrinth |
+| [Just Enough Cobblemon](https://modrinth.com/project/8ZP0JLoK) |  | Modrinth |
 | [Just Enough Effect Descriptions (JEED)](https://modrinth.com/project/EO27GKs1) | client only | Modrinth |
 | [Just Enough Items (JEI)](https://modrinth.com/project/u6dRKJwZ) |  | Modrinth |
 | [Konkrete](https://modrinth.com/project/J81TRJWm) |  | Modrinth |

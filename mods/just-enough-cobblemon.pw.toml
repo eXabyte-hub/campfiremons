@@ -1,0 +1,13 @@
+name = "Just Enough Cobblemon"
+filename = "justenoughcobblemon-neoforge-1.4.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/8ZP0JLoK/versions/fsNNghuB/justenoughcobblemon-neoforge-1.4.0.jar"
+hash-format = "sha512"
+hash = "1a99cc0e71e093a789593f1af65b11565e226567223b42a3ae8fba4266cd30a7beee665933dbb15f49172f35cd304788565e45683e02e5647a23eb279199c718"
+
+[update]
+[update.modrinth]
+mod-id = "8ZP0JLoK"
+version = "fsNNghuB"

@@ -2,6 +2,14 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.17
+
+Already playing? Just press Play: the pack updates itself.
+
+- **Pokémon drops in EMI.** A new tab in EMI lists what every Pokémon drops, with the chances: press **R** on an
+  item to see which Pokémon drop it, or **U** on a Pokémon to see its drops. Your Pokédex also gets a spawn tab that
+  shows where a Pokémon lives once you've encountered it (Just Enough Cobblemon).
+
 ## v0.1.16
 
 Already playing? Just press Play: the pack updates itself.
