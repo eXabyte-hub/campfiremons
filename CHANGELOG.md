@@ -2,6 +2,13 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.19
+
+Already playing? Just press Play: the pack updates itself.
+
+- **A few more Alphas.** Alpha herds turn up twice as often as in v0.1.13 (still a third of Cobblemon's default);
+  other rare spawns are unchanged.
+
 ## v0.1.18
 
 Already playing? Just press Play: the pack updates itself.

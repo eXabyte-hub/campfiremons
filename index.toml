@@ -6,7 +6,7 @@ hash = "29a27986ac6641cf5831d7ec3f0699e6d9dbd0d4feaf498d1a6364f3ba711374"
 
 [[files]]
 file = "config/cobblemon/spawning/best-spawner-config.json"
-hash = "1517019f72643b97017fc61f4a29fb60b8256de232ace7f15f7b68db21ff708c"
+hash = "429d273f1cf683f435ab0d82a2ecf1742125b6c68340e2c3d3f5fed40803b8ee"
 
 [[files]]
 file = "config/cobblemon_battle_tower/bp_shop_items.json"
