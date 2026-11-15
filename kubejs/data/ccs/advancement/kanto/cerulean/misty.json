@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "beat_trainer": {
+      "trigger": "rctmod:defeat_count",
+      "conditions": {
+        "count": 1,
+        "entity": {
+          "type": null
+        },
+        "trainer_ids": [
+          "leader_misty_019f"
+        ],
+        "trainer_type": null
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "show_toast": false,
+    "hidden": false,
+    "icon": {
+      "id": "cobblemon:mystic_water"
+    },
+    "title": {
+      "text": "The Tomboyish Mermaid!"
+    },
+    "description": {
+      "text": "Defeat Gym Leader Misty"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "beat_trainer"
+    ]
+  ],
+  "parent": "ccs:kanto/cerulean/gary"
+}

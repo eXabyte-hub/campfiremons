@@ -1,0 +1,40 @@
+{
+  "criteria": {
+    "beat_trainer": {
+      "trigger": "rctmod:defeat_count",
+      "conditions": {
+        "count": 1,
+        "entity": {
+          "type": null
+        },
+        "trainer_ids": [
+          "champion_terry_01b8",
+          "champion_terry_01b7",
+          "champion_terry_01b6"
+        ],
+        "trainer_type": null
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "show_toast": false,
+    "hidden": true,
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": {
+      "text": "Kanto Champion"
+    },
+    "description": {
+      "text": "Defeat Kanto Elite Four and Champion"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "beat_trainer"
+    ]
+  ],
+  "parent": "ccs:kanto/indigo_plateau/badges_collected"
+}

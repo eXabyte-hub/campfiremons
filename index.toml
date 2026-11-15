@@ -1097,20 +1097,56 @@ file = "kubejs/data/campfiremons/worldgen/template_pool/empty_cell.json"
 hash = "7aa1bdf95431d08c671636ac93d70bae172ed61b197d6bc26c724de30ac4a936"
 
 [[files]]
+file = "kubejs/data/ccs/advancement/kanto/celadon/erika.json"
+hash = "03c1f5cd145fe1f30556b7d8f509793cedb775f41eec096a06225cbb10399367"
+
+[[files]]
+file = "kubejs/data/ccs/advancement/kanto/cerulean/misty.json"
+hash = "4cadf36616e94a482a4d0ea013e188fb9c37766ede3afe325009e5060ef3447f"
+
+[[files]]
+file = "kubejs/data/ccs/advancement/kanto/cinnabar/blaine.json"
+hash = "014960caf31f668811c31afae8ec13116d7240e08b0f6fff94373538c1caec9d"
+
+[[files]]
+file = "kubejs/data/ccs/advancement/kanto/fuchsia/koga.json"
+hash = "19381627dd153ffacb86efe51a927d5ed573b710c08f7adede30bffc3ced0121"
+
+[[files]]
+file = "kubejs/data/ccs/advancement/kanto/indigo_plateau/champion.json"
+hash = "a55ee99818c3adb98172fb52843a15faca267072cded67c02e1b0c8739d4ac10"
+
+[[files]]
+file = "kubejs/data/ccs/advancement/kanto/pewter/brock.json"
+hash = "4d40672e5c7b0252114fb116cc759a4b4353bd0a4176b4162b5a31f21ace23fc"
+
+[[files]]
+file = "kubejs/data/ccs/advancement/kanto/saffron/sabrina.json"
+hash = "3310344e95c761659db40086af99959e7e3e71ff5ca8ceaec6accdbdfce9a0ee"
+
+[[files]]
+file = "kubejs/data/ccs/advancement/kanto/vermilion/lt_surge.json"
+hash = "bca7eb2ecd1d5cbdbe7ff1aea847ad739bc1fe87a47c51619c666a7b73d11023"
+
+[[files]]
+file = "kubejs/data/ccs/advancement/kanto/viridian/clair.json"
+hash = "291702933732174287568804125de02b62ab50f28654070d4a4f35e2a21a071b"
+
+[[files]]
 file = "kubejs/data/ccs/dialogues/generated/celadon/celadon_erika.json"
-hash = "ed701395307bad7c00752fcecfd67ca472811255ed21e5a9871c6b385a244411"
+hash = "8f28387b7be5e762b10257a6f3d10b5ea1bf070cd68b339f6ba7072e53ba149a"
 
 [[files]]
 file = "kubejs/data/ccs/dialogues/generated/cerulean/cerulean_misty.json"
-hash = "ed701395307bad7c00752fcecfd67ca472811255ed21e5a9871c6b385a244411"
+hash = "0bc3d5e36cacc0e46b85ddeada84cd61038a1570cfa88ddd8a7f00afd9c47cb6"
 
 [[files]]
 file = "kubejs/data/ccs/dialogues/generated/cinnabar/cinnabar_blaine.json"
-hash = "ed701395307bad7c00752fcecfd67ca472811255ed21e5a9871c6b385a244411"
+hash = "81bae396e16abf3ffc6a4b0804fed5212d1386155efc36e74fb9b6bc3d0a404e"
 
 [[files]]
 file = "kubejs/data/ccs/dialogues/generated/fuchsia/fuchsia_koga.json"
-hash = "ed701395307bad7c00752fcecfd67ca472811255ed21e5a9871c6b385a244411"
+hash = "217b689acb70fbe6af289836ca12069beab1af00f56e28a268ad5d19a7d9f000"
 
 [[files]]
 file = "kubejs/data/ccs/dialogues/generated/indigo_plateau/indigo_plateau_agatha.json"
@@ -1134,23 +1170,67 @@ hash = "edbe2371d7bac02158212f5f8175bb7c94180c9b50aa4a6256c9d98bd92a4d6e"
 
 [[files]]
 file = "kubejs/data/ccs/dialogues/generated/pewter/pewter_brock.json"
-hash = "ed701395307bad7c00752fcecfd67ca472811255ed21e5a9871c6b385a244411"
+hash = "e15f3c71df2a6c0cb6b860fe7444b54b69cd268fce733b89fb01ccf53819c9f5"
 
 [[files]]
 file = "kubejs/data/ccs/dialogues/generated/saffron/saffron_sabrina.json"
-hash = "ed701395307bad7c00752fcecfd67ca472811255ed21e5a9871c6b385a244411"
+hash = "41e4d082f6a91ecfc8b0485df3a36965cb0285fc2fb6f1e2a8b412da89fddb35"
 
 [[files]]
 file = "kubejs/data/ccs/dialogues/generated/vermilion/vermilion_surge.json"
-hash = "ed701395307bad7c00752fcecfd67ca472811255ed21e5a9871c6b385a244411"
+hash = "0ee389688cad537565451fdaa9c05c0a4d95af56185d42c44a89ca08f3cf45b4"
 
 [[files]]
 file = "kubejs/data/ccs/dialogues/generated/viridian/viridian_clair.json"
-hash = "ed701395307bad7c00752fcecfd67ca472811255ed21e5a9871c6b385a244411"
+hash = "84fb6f6b4d8d3742a413f7fb6ba39d8c12d4c1a64ee7fac60c26ea6c72be4994"
+
+[[files]]
+file = "kubejs/data/ccs/function/badges/celadon.mcfunction"
+hash = "3df2094d4166875a92b2fac99429a88c463ad5a1129a1db7c1e0b543fd0ff7aa"
+
+[[files]]
+file = "kubejs/data/ccs/function/badges/cerulean.mcfunction"
+hash = "3df2094d4166875a92b2fac99429a88c463ad5a1129a1db7c1e0b543fd0ff7aa"
+
+[[files]]
+file = "kubejs/data/ccs/function/badges/cinnabar.mcfunction"
+hash = "3df2094d4166875a92b2fac99429a88c463ad5a1129a1db7c1e0b543fd0ff7aa"
+
+[[files]]
+file = "kubejs/data/ccs/function/badges/fuchsia.mcfunction"
+hash = "3df2094d4166875a92b2fac99429a88c463ad5a1129a1db7c1e0b543fd0ff7aa"
+
+[[files]]
+file = "kubejs/data/ccs/function/badges/kanto_box.mcfunction"
+hash = "3df2094d4166875a92b2fac99429a88c463ad5a1129a1db7c1e0b543fd0ff7aa"
+
+[[files]]
+file = "kubejs/data/ccs/function/badges/kanto_champion.mcfunction"
+hash = "3df2094d4166875a92b2fac99429a88c463ad5a1129a1db7c1e0b543fd0ff7aa"
+
+[[files]]
+file = "kubejs/data/ccs/function/badges/pewter.mcfunction"
+hash = "3df2094d4166875a92b2fac99429a88c463ad5a1129a1db7c1e0b543fd0ff7aa"
+
+[[files]]
+file = "kubejs/data/ccs/function/badges/saffron.mcfunction"
+hash = "3df2094d4166875a92b2fac99429a88c463ad5a1129a1db7c1e0b543fd0ff7aa"
+
+[[files]]
+file = "kubejs/data/ccs/function/badges/vermilion.mcfunction"
+hash = "3df2094d4166875a92b2fac99429a88c463ad5a1129a1db7c1e0b543fd0ff7aa"
+
+[[files]]
+file = "kubejs/data/ccs/function/badges/viridian.mcfunction"
+hash = "3df2094d4166875a92b2fac99429a88c463ad5a1129a1db7c1e0b543fd0ff7aa"
 
 [[files]]
 file = "kubejs/data/ccs/function/open_welcome.mcfunction"
 hash = "397c7f09f3273c5a1d810d4a32e5a4db99ea5360fe59f4d7db75cab41b6d1b4e"
+
+[[files]]
+file = "kubejs/data/ccs/license.txt"
+hash = "847f3a2df151aab863f1edfd4a2048ceb610d3dd35dfaf7dae93d4c84106def8"
 
 [[files]]
 file = "kubejs/data/ccs/worldgen/structure_set/towns.json"

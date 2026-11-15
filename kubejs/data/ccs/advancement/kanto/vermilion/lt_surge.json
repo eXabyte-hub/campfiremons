@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "beat_trainer": {
+      "trigger": "rctmod:defeat_count",
+      "conditions": {
+        "count": 1,
+        "entity": {
+          "type": null
+        },
+        "trainer_ids": [
+          "leader_lt_surge_01a0"
+        ],
+        "trainer_type": null
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "show_toast": false,
+    "hidden": false,
+    "icon": {
+      "id": "cobblemon:magnet"
+    },
+    "title": {
+      "text": "The Lightning American"
+    },
+    "description": {
+      "text": "Defeat Gym Leader Lt. Surge"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "beat_trainer"
+    ]
+  ],
+  "parent": "ccs:kanto/vermilion/root"
+}

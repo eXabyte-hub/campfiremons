@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "beat_trainer": {
+      "trigger": "rctmod:defeat_count",
+      "conditions": {
+        "count": 1,
+        "entity": {
+          "type": null
+        },
+        "trainer_ids": [
+          "leader_brock_019e"
+        ],
+        "trainer_type": null
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "show_toast": false,
+    "hidden": false,
+    "icon": {
+      "id": "cobblemon:hard_stone"
+    },
+    "title": {
+      "text": "The Rock Solid Pokémon Trainer!"
+    },
+    "description": {
+      "text": "Defeat Gym Leader Brock"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "beat_trainer"
+    ]
+  ],
+  "parent": "ccs:kanto/pewter/root"
+}

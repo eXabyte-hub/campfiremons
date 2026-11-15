@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "beat_trainer": {
+      "trigger": "rctmod:defeat_count",
+      "conditions": {
+        "count": 1,
+        "entity": {
+          "type": null
+        },
+        "trainer_ids": [
+          "leader_sabrina_01a4"
+        ],
+        "trainer_type": null
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "show_toast": false,
+    "hidden": false,
+    "icon": {
+      "id": "cobblemon:twisted_spoon"
+    },
+    "title": {
+      "text": "The Master of Psychic Pokémon"
+    },
+    "description": {
+      "text": "Defeat Gym Leader Sabrina"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "beat_trainer"
+    ]
+  ],
+  "parent": "ccs:kanto/saffron/giovanni"
+}

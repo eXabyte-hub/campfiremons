@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "beat_trainer": {
+      "trigger": "rctmod:defeat_count",
+      "conditions": {
+        "count": 1,
+        "entity": {
+          "type": null
+        },
+        "trainer_ids": [
+          "leader_koga_01a2"
+        ],
+        "trainer_type": null
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "show_toast": false,
+    "hidden": false,
+    "icon": {
+      "id": "cobblemon:poison_barb"
+    },
+    "title": {
+      "text": "The Poisonous Ninja Master"
+    },
+    "description": {
+      "text": "Defeat Gym Leader Koga"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "beat_trainer"
+    ]
+  ],
+  "parent": "ccs:kanto/fuchsia/root"
+}

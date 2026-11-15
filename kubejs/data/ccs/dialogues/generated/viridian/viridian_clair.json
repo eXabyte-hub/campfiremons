@@ -13,15 +13,24 @@
       "id": "page_1",
       "speaker": "npc",
       "lines": [
-        "This gym isn't taking challenges. Badges are won at the Radical Red gyms out in the world.",
-        "Type /gymmap and you'll get directions to the gym you need next."
+        "Here for a badge? Badge battles here are Radical Red rules: my real team, your level cap.",
+        "Say the word and my challenger self will step up. Talk to them to battle."
       ],
       "input": {
         "type": "option",
         "vertical": true,
         "options": [
           {
-            "text": "Got it",
+            "text": "Challenge Clair",
+            "value": "challenge",
+            "action": [
+              "q.run_command('/execute positioned ' + q.npc.x() + ' ' + q.npc.y() + ' ' + q.npc.z() + ' unless entity @e[type=rctmod:trainer,distance=..12] run rctmod trainer summon leader_clair_004a ~1 ~ ~');",
+              "q.run_command('/execute positioned ' + q.npc.x() + ' ' + q.npc.y() + ' ' + q.npc.z() + ' run effect give @e[type=rctmod:trainer,distance=..12] minecraft:slowness infinite 100 true');",
+              "q.dialogue.close();"
+            ]
+          },
+          {
+            "text": "Not now",
             "value": "close",
             "action": [
               "q.dialogue.close();"
