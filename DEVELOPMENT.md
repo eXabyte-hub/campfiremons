@@ -176,7 +176,9 @@ get the plain title screen with no FancyMenu setup prompts.
    git push origin main release vX.Y.Z && git switch main
    ```
 3. CI (`.github/workflows/release.yml`) publishes the GitHub Release with the Prism zip and the server starter.
-   Players get the update on their next Play, and the server on its next restart.
+   Players get the update on their next Play, and the server on its next restart. Wait 5 minutes after the push
+   before restarting the server: GitHub serves the pack's files from a cache that can be up to 5 minutes old
+   (`max-age=300`), so an earlier restart can sync the previous version (v0.1.12's first restart did).
    If no Release run appears under the repo's Actions tab, start it by hand: `gh workflow run release.yml --ref vX.Y.Z`.
    (Pushes didn't start any workflow for this repo's first few hours; they have since.)
 
