@@ -1250,6 +1250,10 @@ file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/weezing/weezing_galar
 hash = "cf655ed9c79eff70425f30f2ff08cde0665d49248c5ed6af954b9ebe0468fab3"
 
 [[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/posers/0058_growlithe/growlithe_hisuian.json"
+hash = "f06d334403cf14b5cd0656765e63830fb2ecaac3ef27f2078cdc98ad291e9529"
+
+[[files]]
 file = "kubejs/assets/cobblemon/bedrock/pokemon/posers/decidueye.json"
 hash = "e735d94fd7c3509fbf6b5ac5b7d67d43612e12c468d278b004aeda7078748bd3"
 

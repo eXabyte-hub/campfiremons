@@ -2,6 +2,13 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.16
+
+Already playing? Just press Play: the pack updates itself.
+
+- **Hisuian Growlithe shows up.** It had no model (Complete Cobblemon Collection ships it without the file that
+  poses it); now it stands, looks around and walks.
+
 ## v0.1.15
 
 Already playing? Just press Play: the pack updates itself.

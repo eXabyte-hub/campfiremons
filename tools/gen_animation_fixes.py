@@ -34,6 +34,24 @@ OUT = ASSETS / "cobblemon" / "bedrock" / "pokemon" / "animations"
 POSER_OUT = ASSETS / "cobblemon" / "bedrock" / "pokemon" / "posers"
 INSTANCE = Path.home() / ".local/share/PrismLauncher/instances/Campfiremons Dev/minecraft"
 POSERS, ANIMATIONS = "assets/cobblemon/bedrock/pokemon/posers/", "/animations/"
+# Posers a mod's resolver names but no source ships. CCC 1.8.4 adds Hisuian Growlithe (resolver, model, textures)
+# without its poser, so Cobblemon can't draw it ("No poser found for name: cobblemon:growlithe_hisuian"). Ours uses only
+# Cobblemon's procedural head look and four-leg walk on CCC's bone names, so it needs no animation file. Written on
+# every run, after the posers folder is cleared.
+MISSING_POSERS = {
+    "0058_growlithe/growlithe_hisuian.json": {
+        "head": "head",
+        "rootBone": "growlithe",
+        "portraitScale": 2.1, "portraitTranslation": [-0.53, -0.33, 0],
+        "profileScale": 0.9, "profileTranslation": [0, 0.4, 0],
+        "poses": {
+            "standing": {"poseTypes": ["STAND", "NONE", "FLOAT", "PORTRAIT", "PROFILE"], "animations": ["q.look('head')"]},
+            "walking": {"poseTypes": ["WALK", "SWIM"], "animations": [
+                "q.look('head')",
+                "q.quadruped_walk(0.66, 1.4, 'left_shoulder', 'right_shoulder', 'left_thigh', 'right_thigh')"]},
+        },
+    },
+}
 PLACEHOLDER = {"animation_length": 0.05, "bones": {}}
 NO_COPY = ("file/Cobblemotion",)  # resource keys (prefixes) of sources whose files we may not copy
 REFERENCE = re.compile(r"q\.bedrock(?:_quirk|_stateful|_primary)?\(\s*'([^']+)'\s*,\s*(?:q\.array\(([^)]*)\)|'([^']+)')")
@@ -225,6 +243,9 @@ def main():
     scenarios = [("all sources", stack), ("without resource packs", [s for s in stack if not s[0].startswith("file/")])]
     shutil.rmtree(OUT, ignore_errors=True)
     shutil.rmtree(POSER_OUT, ignore_errors=True)
+    for path, poser in MISSING_POSERS.items():
+        (POSER_OUT / path).parent.mkdir(parents=True, exist_ok=True)
+        (POSER_OUT / path).write_text(json.dumps(poser, indent=1) + "\n")
     revert_no_copy(stack)
     total = [0, 0, 0]
     for label, part in scenarios:
