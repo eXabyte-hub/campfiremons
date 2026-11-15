@@ -1,4 +1,10 @@
 {
+	quest.01F859EDB8C5D546.quest_desc: [
+		"It now turns up (once) in structure chests: dungeons, temples, shipwrecks, ruins, strongholds and more."
+		"Chests are per player, so check every one you pass."
+	]
+	quest.01F859EDB8C5D546.quest_subtitle: "Explore structure chests"
+	quest.01F859EDB8C5D546.title: "Find the Rusted Shield"
 	quest.056CC15916CA9B0B.quest_desc: [
 		"These key trainers stand between you and the next gym:"
 		"&e- Rival Terry (Lv81)"
@@ -18,11 +24,18 @@
 	]
 	quest.1F8AD986D9B689B8.quest_subtitle: "Explore structure chests"
 	quest.1F8AD986D9B689B8.title: "Find the Rusted Sword"
+	quest.2821F035DFC0EBD5.quest_subtitle: "Catch 80 Pokémon"
+	quest.2821F035DFC0EBD5.title: "Almost a Master"
 	quest.30AE46A577517A11.quest_desc: [
 		"The Elite Four bring Primal Kyogre and Groudon, Crowned Zacian and box legends."
 	]
 	quest.30AE46A577517A11.quest_subtitle: "Get a Pokémon to Lv80"
 	quest.30AE46A577517A11.title: "Peak Form"
+	quest.4C029B208A6F165B.quest_desc: [
+		"You beat Clair. Red and Blue Orbs, the Rusted Sword and Shield, and Ability Capsules and Patches turn up in structure chests: dungeons, temples, shipwrecks, ruins, strongholds and more."
+	]
+	quest.4C029B208A6F165B.quest_subtitle: "Stage 8 reached"
+	quest.4C029B208A6F165B.title: "Rising Badge"
 	quest.5CF63FA2C8331298.quest_desc: [
 		"It now turns up (once) in structure chests: dungeons, temples, shipwrecks, ruins, strongholds and more."
 		"Chests are per player, so check every one you pass."
@@ -30,31 +43,17 @@
 	quest.5CF63FA2C8331298.quest_subtitle: "Explore structure chests"
 	quest.5CF63FA2C8331298.title: "Find the Red Orb"
 	quest.7EC34193D0BD8315.quest_desc: [
-		"Beat the Elite Four (Agatha, Bruno, Lance, Lorelei), then find Champion Terry in rare biomes near End cities."
-		""
-		"Gym leaders are RCT key trainers: they spawn near you in those biomes once you've beaten the key trainers before them. Gyms 1-4 will also live in the hub town."
+		"Beat the Elite Four (Agatha, Bruno, Lance and Lorelei), then &eChampion Terry&r at the"
+		"&eKanto League&r in the End. Type &a/gymmap&r there for directions."
 		""
 		"Your whole party must be at or under your level cap to battle."
 	]
 	quest.7EC34193D0BD8315.quest_subtitle: "Reach Stage 9"
 	quest.7EC34193D0BD8315.title: "Become the Champion"
-	quest.8C44F8C3AB2C06FD.quest_desc: [
-		"You beat Clair. Red and Blue Orbs, the Rusted Sword and Shield, and Ability Capsules and Patches turn up in structure chests: dungeons, temples, shipwrecks, ruins, strongholds and more."
-	]
-	quest.8C44F8C3AB2C06FD.quest_subtitle: "Stage 8 reached"
-	quest.8C44F8C3AB2C06FD.title: "Rising Badge"
-	quest.A4B38243E9B5C746.quest_desc: [
+	quest.7F1D37F035F13725.quest_desc: [
 		"It now turns up (once) in structure chests: dungeons, temples, shipwrecks, ruins, strongholds and more."
 		"Chests are per player, so check every one you pass."
 	]
-	quest.A4B38243E9B5C746.quest_subtitle: "Explore structure chests"
-	quest.A4B38243E9B5C746.title: "Find the Rusted Shield"
-	quest.D607CA6A5633F780.quest_desc: [
-		"It now turns up (once) in structure chests: dungeons, temples, shipwrecks, ruins, strongholds and more."
-		"Chests are per player, so check every one you pass."
-	]
-	quest.D607CA6A5633F780.quest_subtitle: "Explore structure chests"
-	quest.D607CA6A5633F780.title: "Find the Blue Orb"
-	quest.E7B766F9C6BA1490.quest_subtitle: "Catch 80 Pokémon"
-	quest.E7B766F9C6BA1490.title: "Almost a Master"
+	quest.7F1D37F035F13725.quest_subtitle: "Explore structure chests"
+	quest.7F1D37F035F13725.title: "Find the Blue Orb"
 }

@@ -1,0 +1,985 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "battle_gimmicks"
+	group: "F2C6F302E53BE2D9"
+	icon: {
+		id: "mega_showdown:omni_ring"
+	}
+	id: "5F53F2F945286C8C"
+	images: [
+		{
+			height: 1.6d
+			id: "3DB34348764BBCF2"
+			image: "campfiremons:textures/quests/battle_gimmicks.png"
+			rotation: 0.0d
+			width: 12.16d
+			x: 0.0d
+			y: -7.2d
+		}
+		{
+			height: 1.0d
+			id: "A84303F9D4128428"
+			image: "campfiremons:textures/quests/mega_evolution.png"
+			rotation: 0.0d
+			width: 6.25d
+			x: -4.4d
+			y: -4.4d
+		}
+		{
+			height: 1.0d
+			id: "53F996549CE459EB"
+			image: "campfiremons:textures/quests/z_moves.png"
+			rotation: 0.0d
+			width: 4.19d
+			x: 4.4d
+			y: -4.4d
+		}
+		{
+			height: 1.0d
+			id: "2E2DF581B4857EFD"
+			image: "campfiremons:textures/quests/terastallizing.png"
+			rotation: 0.0d
+			width: 5.45d
+			x: -4.4d
+			y: 4.4d
+		}
+		{
+			height: 1.0d
+			id: "D91FA137C91E6DC2"
+			image: "campfiremons:textures/quests/dynamaxing.png"
+			rotation: 0.0d
+			width: 5.09d
+			x: 4.4d
+			y: 4.4d
+		}
+	]
+	order_index: 3
+	quest_links: [
+		{
+			id: "E2BE7D7969222B1C"
+			linked_quest: "5ECA8FC5E895C86C"
+			shape: "pentagon"
+			size: 1.25d
+			x: -2.0d
+			y: -1.7d
+		}
+		{
+			id: "4D5D114590839179"
+			linked_quest: "16CFD93FC04F16F8"
+			shape: "circle"
+			size: 1.0d
+			x: -3.7d
+			y: -2.9d
+		}
+		{
+			id: "DD07F2477D4A174A"
+			linked_quest: "10A6D6C341C9DE6F"
+			shape: "pentagon"
+			size: 1.25d
+			x: 2.0d
+			y: -1.7d
+		}
+		{
+			id: "681489F365DB7B23"
+			linked_quest: "7D617531A42E36ED"
+			shape: "circle"
+			size: 1.0d
+			x: 3.7d
+			y: -2.9d
+		}
+		{
+			id: "F4312EA004D9456E"
+			linked_quest: "77BDF8BC23C0AC35"
+			shape: "pentagon"
+			size: 1.25d
+			x: -2.0d
+			y: 1.7d
+		}
+		{
+			id: "8454098436E8DEE4"
+			linked_quest: "69AD611B45A6FE70"
+			shape: "circle"
+			size: 1.0d
+			x: -3.7d
+			y: 2.9d
+		}
+		{
+			id: "1FE44202FFA0606B"
+			linked_quest: "6E95CF8E029955B9"
+			shape: "pentagon"
+			size: 1.25d
+			x: 2.0d
+			y: 1.7d
+		}
+		{
+			id: "C07D461395918A78"
+			linked_quest: "21D425525C990B07"
+			shape: "circle"
+			size: 1.0d
+			x: 3.7d
+			y: 2.9d
+		}
+	]
+	quests: [
+		{
+			icon: {
+				id: "mega_showdown:omni_ring"
+			}
+			id: "D388C089D72D3722"
+			rewards: [{
+				id: "66D6BF9CCCD15A68"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "gear"
+			size: 2.25d
+			tasks: [{
+				id: "26B413DF97C41652"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"D388C089D72D3722"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mega_showdown:venusaurite"
+			}
+			id: "6B129E65D661E099"
+			optional: true
+			rewards: [{
+				id: "14C37DAFE35CF625"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "square"
+			size: 0.7d
+			tasks: [{
+				id: "515A184E0434D4B2"
+				item: {
+					count: 1
+					id: "mega_showdown:venusaurite"
+				}
+				type: "item"
+			}]
+			x: -5.6d
+			y: -0.9d
+		}
+		{
+			dependencies: [
+				"D388C089D72D3722"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mega_showdown:charizardite_x"
+			}
+			id: "5CB1AB0775EC0934"
+			optional: true
+			rewards: [{
+				id: "A70C4F4B6A26F310"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "square"
+			size: 0.7d
+			tasks: [{
+				id: "BB27435E8C87D606"
+				item: {
+					count: 1
+					id: "mega_showdown:charizardite_x"
+				}
+				type: "item"
+			}]
+			x: -6.6d
+			y: -0.9d
+		}
+		{
+			dependencies: [
+				"D388C089D72D3722"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mega_showdown:blastoisinite"
+			}
+			id: "140CBE8A14644E7A"
+			optional: true
+			rewards: [{
+				id: "55D2CC0C3320FDEC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "square"
+			size: 0.7d
+			tasks: [{
+				id: "C0CDC444DCA191B9"
+				item: {
+					count: 1
+					id: "mega_showdown:blastoisinite"
+				}
+				type: "item"
+			}]
+			x: -7.6d
+			y: -0.9d
+		}
+		{
+			dependencies: [
+				"D388C089D72D3722"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mega_showdown:gengarite"
+			}
+			id: "55C29CD3A0BDC568"
+			optional: true
+			rewards: [{
+				id: "431DAE2A8AC33620"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "square"
+			size: 0.7d
+			tasks: [{
+				id: "DC7D164D71F1BC00"
+				item: {
+					count: 1
+					id: "mega_showdown:gengarite"
+				}
+				type: "item"
+			}]
+			x: -8.6d
+			y: -0.9d
+		}
+		{
+			dependencies: [
+				"D388C089D72D3722"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mega_showdown:gyaradosite"
+			}
+			id: "5287CF50A5FD7AE6"
+			optional: true
+			rewards: [{
+				id: "B73A422F711E16AB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "square"
+			size: 0.7d
+			tasks: [{
+				id: "7BB76FA81515802C"
+				item: {
+					count: 1
+					id: "mega_showdown:gyaradosite"
+				}
+				type: "item"
+			}]
+			x: -5.6d
+			y: -1.9d
+		}
+		{
+			dependencies: [
+				"D388C089D72D3722"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mega_showdown:lucarionite"
+			}
+			id: "A9193BB43B874E29"
+			optional: true
+			rewards: [{
+				id: "CB80C7CAB68D4B49"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "square"
+			size: 0.7d
+			tasks: [{
+				id: "74E0C17B952147D6"
+				item: {
+					count: 1
+					id: "mega_showdown:lucarionite"
+				}
+				type: "item"
+			}]
+			x: -6.6d
+			y: -1.9d
+		}
+		{
+			dependencies: [
+				"D388C089D72D3722"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mega_showdown:garchompite"
+			}
+			id: "7A366221C465F12F"
+			optional: true
+			rewards: [{
+				id: "90A70B84CBECFDE8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "square"
+			size: 0.7d
+			tasks: [{
+				id: "BD584ADA805D42C1"
+				item: {
+					count: 1
+					id: "mega_showdown:garchompite"
+				}
+				type: "item"
+			}]
+			x: -7.6d
+			y: -1.9d
+		}
+		{
+			dependencies: [
+				"D388C089D72D3722"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mega_showdown:mewtwonite_x"
+			}
+			id: "8B6F348D713979DC"
+			optional: true
+			rewards: [{
+				id: "5A7442E61A4FF716"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "square"
+			size: 0.7d
+			tasks: [{
+				id: "83FA076B98EC25D7"
+				item: {
+					count: 1
+					id: "mega_showdown:mewtwonite_x"
+				}
+				type: "item"
+			}]
+			x: -8.6d
+			y: -1.9d
+		}
+		{
+			dependencies: [
+				"D388C089D72D3722"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mega_showdown:normalium_z"
+			}
+			id: "C918517C7566E2E6"
+			optional: true
+			rewards: [{
+				id: "8A35957B634BF098"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "square"
+			size: 0.7d
+			tasks: [{
+				id: "518A91CB4F237E6A"
+				item: {
+					count: 1
+					id: "mega_showdown:normalium_z"
+				}
+				type: "item"
+			}]
+			x: 5.6d
+			y: -0.9d
+		}
+		{
+			dependencies: [
+				"D388C089D72D3722"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mega_showdown:firium_z"
+			}
+			id: "C7EA302C826D6BE1"
+			optional: true
+			rewards: [{
+				id: "832A2DDB0A1A3EBC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "square"
+			size: 0.7d
+			tasks: [{
+				id: "EDE2EEE46B5542DC"
+				item: {
+					count: 1
+					id: "mega_showdown:firium_z"
+				}
+				type: "item"
+			}]
+			x: 6.6d
+			y: -0.9d
+		}
+		{
+			dependencies: [
+				"D388C089D72D3722"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mega_showdown:waterium_z"
+			}
+			id: "CD6B99D5EEA91E98"
+			optional: true
+			rewards: [{
+				id: "E88A16D76CB9A655"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "square"
+			size: 0.7d
+			tasks: [{
+				id: "1EBE74A591543032"
+				item: {
+					count: 1
+					id: "mega_showdown:waterium_z"
+				}
+				type: "item"
+			}]
+			x: 7.6d
+			y: -0.9d
+		}
+		{
+			dependencies: [
+				"D388C089D72D3722"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mega_showdown:grassium_z"
+			}
+			id: "6746EC7AA287B0DD"
+			optional: true
+			rewards: [{
+				id: "234541CC5AFA065B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "square"
+			size: 0.7d
+			tasks: [{
+				id: "E3B13C8DA5761FAA"
+				item: {
+					count: 1
+					id: "mega_showdown:grassium_z"
+				}
+				type: "item"
+			}]
+			x: 8.6d
+			y: -0.9d
+		}
+		{
+			dependencies: [
+				"D388C089D72D3722"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mega_showdown:electrium_z"
+			}
+			id: "3EEB566376D9EAD4"
+			optional: true
+			rewards: [{
+				id: "707F9F457985D851"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "square"
+			size: 0.7d
+			tasks: [{
+				id: "4BBFE34BFE1EC2E2"
+				item: {
+					count: 1
+					id: "mega_showdown:electrium_z"
+				}
+				type: "item"
+			}]
+			x: 5.6d
+			y: -1.9d
+		}
+		{
+			dependencies: [
+				"D388C089D72D3722"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mega_showdown:psychium_z"
+			}
+			id: "B7E0BFFFB10D5C97"
+			optional: true
+			rewards: [{
+				id: "9AD55E296C1C78B7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "square"
+			size: 0.7d
+			tasks: [{
+				id: "B869F8C195A94E93"
+				item: {
+					count: 1
+					id: "mega_showdown:psychium_z"
+				}
+				type: "item"
+			}]
+			x: 6.6d
+			y: -1.9d
+		}
+		{
+			dependencies: [
+				"D388C089D72D3722"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mega_showdown:dragonium_z"
+			}
+			id: "8FDBEF4F41B8C5C5"
+			optional: true
+			rewards: [{
+				id: "22A4D37FFC035C75"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "square"
+			size: 0.7d
+			tasks: [{
+				id: "2ECD24D62881A2AE"
+				item: {
+					count: 1
+					id: "mega_showdown:dragonium_z"
+				}
+				type: "item"
+			}]
+			x: 7.6d
+			y: -1.9d
+		}
+		{
+			dependencies: [
+				"D388C089D72D3722"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mega_showdown:darkinium_z"
+			}
+			id: "1258FFC8F11E403B"
+			optional: true
+			rewards: [{
+				id: "1AB52B12A3F9F11B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "square"
+			size: 0.7d
+			tasks: [{
+				id: "106389679037508B"
+				item: {
+					count: 1
+					id: "mega_showdown:darkinium_z"
+				}
+				type: "item"
+			}]
+			x: 8.6d
+			y: -1.9d
+		}
+		{
+			dependencies: [
+				"D388C089D72D3722"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mega_showdown:fairium_z"
+			}
+			id: "4171C34B7E180EA5"
+			optional: true
+			rewards: [{
+				id: "4D099091435716BC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "square"
+			size: 0.7d
+			tasks: [{
+				id: "7988A6A294618069"
+				item: {
+					count: 1
+					id: "mega_showdown:fairium_z"
+				}
+				type: "item"
+			}]
+			x: 5.6d
+			y: -2.9d
+		}
+		{
+			dependencies: [
+				"D388C089D72D3722"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mega_showdown:normal_tera_shard"
+			}
+			id: "19B29F020AFB66B5"
+			optional: true
+			rewards: [{
+				id: "8450C0F78A7C30F0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "square"
+			size: 0.7d
+			tasks: [{
+				id: "655560D726E49928"
+				item: {
+					count: 1
+					id: "mega_showdown:normal_tera_shard"
+				}
+				type: "item"
+			}]
+			x: -5.6d
+			y: 0.9d
+		}
+		{
+			dependencies: [
+				"D388C089D72D3722"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mega_showdown:fire_tera_shard"
+			}
+			id: "65D6D7A78B33D3DF"
+			optional: true
+			rewards: [{
+				id: "BB5ACDAF3BE88ED7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "square"
+			size: 0.7d
+			tasks: [{
+				id: "BA2A22DFB70EC388"
+				item: {
+					count: 1
+					id: "mega_showdown:fire_tera_shard"
+				}
+				type: "item"
+			}]
+			x: -6.6d
+			y: 0.9d
+		}
+		{
+			dependencies: [
+				"D388C089D72D3722"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mega_showdown:water_tera_shard"
+			}
+			id: "3A4A7A869E55ACA5"
+			optional: true
+			rewards: [{
+				id: "2B975A474615D3DE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "square"
+			size: 0.7d
+			tasks: [{
+				id: "4DD3E9589BE1256D"
+				item: {
+					count: 1
+					id: "mega_showdown:water_tera_shard"
+				}
+				type: "item"
+			}]
+			x: -7.6d
+			y: 0.9d
+		}
+		{
+			dependencies: [
+				"D388C089D72D3722"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mega_showdown:grass_tera_shard"
+			}
+			id: "4900F30EC0D8C20C"
+			optional: true
+			rewards: [{
+				id: "1E92CCF148645C39"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "square"
+			size: 0.7d
+			tasks: [{
+				id: "FE2C3FB8802C37D0"
+				item: {
+					count: 1
+					id: "mega_showdown:grass_tera_shard"
+				}
+				type: "item"
+			}]
+			x: -8.6d
+			y: 0.9d
+		}
+		{
+			dependencies: [
+				"D388C089D72D3722"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mega_showdown:electric_tera_shard"
+			}
+			id: "A8BF54846451AAE2"
+			optional: true
+			rewards: [{
+				id: "BC9C6A975A90576C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "square"
+			size: 0.7d
+			tasks: [{
+				id: "975A86184CEA3416"
+				item: {
+					count: 1
+					id: "mega_showdown:electric_tera_shard"
+				}
+				type: "item"
+			}]
+			x: -5.6d
+			y: 1.9d
+		}
+		{
+			dependencies: [
+				"D388C089D72D3722"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mega_showdown:psychic_tera_shard"
+			}
+			id: "499BC9642B1F38CB"
+			optional: true
+			rewards: [{
+				id: "49631D3C94EEC97B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "square"
+			size: 0.7d
+			tasks: [{
+				id: "9758F820CBC77D27"
+				item: {
+					count: 1
+					id: "mega_showdown:psychic_tera_shard"
+				}
+				type: "item"
+			}]
+			x: -6.6d
+			y: 1.9d
+		}
+		{
+			dependencies: [
+				"D388C089D72D3722"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mega_showdown:dragon_tera_shard"
+			}
+			id: "83E85DFF59C81FC1"
+			optional: true
+			rewards: [{
+				id: "F3D43F016297F57E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "square"
+			size: 0.7d
+			tasks: [{
+				id: "1F66DA5EF50AD698"
+				item: {
+					count: 1
+					id: "mega_showdown:dragon_tera_shard"
+				}
+				type: "item"
+			}]
+			x: -7.6d
+			y: 1.9d
+		}
+		{
+			dependencies: [
+				"D388C089D72D3722"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mega_showdown:dark_tera_shard"
+			}
+			id: "1A7F9303F393732F"
+			optional: true
+			rewards: [{
+				id: "6E887A3D9C9AE371"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "square"
+			size: 0.7d
+			tasks: [{
+				id: "F23A42A7FC2304FF"
+				item: {
+					count: 1
+					id: "mega_showdown:dark_tera_shard"
+				}
+				type: "item"
+			}]
+			x: -8.6d
+			y: 1.9d
+		}
+		{
+			dependencies: [
+				"D388C089D72D3722"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mega_showdown:stellar_tera_shard"
+			}
+			id: "2E9C8DEA6C69D512"
+			optional: true
+			rewards: [{
+				id: "7048FDFCCFDAB143"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "square"
+			size: 0.7d
+			tasks: [{
+				id: "F67C44D371AF7BB6"
+				item: {
+					count: 1
+					id: "mega_showdown:stellar_tera_shard"
+				}
+				type: "item"
+			}]
+			x: -5.6d
+			y: 2.9d
+		}
+		{
+			dependencies: [
+				"D388C089D72D3722"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mega_showdown:dynamax_candy"
+			}
+			id: "5140BF6690B7B38F"
+			optional: true
+			rewards: [{
+				id: "2A67BD4B9848EE3B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "square"
+			size: 0.7d
+			tasks: [{
+				id: "FA986B469903F5EA"
+				item: {
+					count: 1
+					id: "mega_showdown:dynamax_candy"
+				}
+				type: "item"
+			}]
+			x: 5.6d
+			y: 0.9d
+		}
+		{
+			dependencies: [
+				"D388C089D72D3722"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mega_showdown:max_mushroom"
+			}
+			id: "36F136A06FD62E2C"
+			optional: true
+			rewards: [{
+				id: "644C3D5024F9578B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "square"
+			size: 0.7d
+			tasks: [{
+				id: "AF3BCCE669649A64"
+				item: {
+					count: 1
+					id: "mega_showdown:max_mushroom"
+				}
+				type: "item"
+			}]
+			x: 6.6d
+			y: 0.9d
+		}
+		{
+			dependencies: [
+				"D388C089D72D3722"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mega_showdown:max_soup"
+			}
+			id: "734F2B2D339AA6EC"
+			optional: true
+			rewards: [{
+				id: "361EEA5A70F3FFDC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "square"
+			size: 0.7d
+			tasks: [{
+				id: "255612F301B1F27B"
+				item: {
+					count: 1
+					id: "mega_showdown:max_soup"
+				}
+				type: "item"
+			}]
+			x: 7.6d
+			y: 0.9d
+		}
+		{
+			dependencies: [
+				"D388C089D72D3722"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mega_showdown:max_honey"
+			}
+			id: "1D9822E026CBFFEE"
+			optional: true
+			rewards: [{
+				id: "373D6974E315A874"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "square"
+			size: 0.7d
+			tasks: [{
+				id: "D0E1D29554168F14"
+				item: {
+					count: 1
+					id: "mega_showdown:max_honey"
+				}
+				type: "item"
+			}]
+			x: 8.6d
+			y: 0.9d
+		}
+	]
+}

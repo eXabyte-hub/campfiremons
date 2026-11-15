@@ -2,17 +2,47 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "stage_8"
-	group: ""
+	group: "A878D9FAE9054E9D"
 	icon: {
 		id: "cobblemon:cherish_ball"
 	}
 	id: "5074FCAF2FDED64A"
-	images: [ ]
-	order_index: 8
+	images: [
+		{
+			height: 1.6d
+			id: "300E1923225F74ED"
+			image: "campfiremons:textures/quests/stage_8.png"
+			rotation: 0.0d
+			width: 8.55d
+			x: 0.0d
+			y: -6.2d
+		}
+		{
+			height: 1.5d
+			id: "4CF89D620A61C530"
+			image: "mega_showdown:textures/gui/summary/tera_types/dragon.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -5.375d
+			y: -6.2d
+		}
+		{
+			height: 1.5d
+			id: "78F8293AA2FA3D77"
+			image: "mega_showdown:textures/gui/summary/tera_types/dragon.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 5.375d
+			y: -6.2d
+		}
+	]
+	order_index: 16
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["1F0B4EF36C9FB5B7"]
+			dependencies: [
+				"1F0B4EF36C9FB5B7"
+			]
 			icon: {
 				id: "cobblemon:cherish_ball"
 			}
@@ -52,7 +82,7 @@
 				}
 			]
 			shape: "gear"
-			size: 2.0d
+			size: 2.5d
 			tasks: [{
 				advancement: "campfiremons:stage/8"
 				criterion: ""
@@ -63,6 +93,10 @@
 			y: 0.0d
 		}
 		{
+			dependencies: [
+				"4C029B208A6F165B"
+			]
+			hide_dependency_lines: false
 			icon: {
 				id: "mega_showdown:red_orb"
 			}
@@ -83,19 +117,22 @@
 					type: "item"
 				}
 			]
-			shape: "circle"
-			size: 1.0d
+			shape: "pentagon"
+			size: 1.25d
 			tasks: [{
 				advancement: "campfiremons:found/red_orb"
 				criterion: ""
 				id: "4A9F8A6506F6C0E2"
 				type: "advancement"
 			}]
-			x: 2.5d
-			y: -3.0d
+			x: -1.9d
+			y: -3.3d
 		}
 		{
-			dependencies: ["5CF63FA2C8331298"]
+			dependencies: [
+				"5CF63FA2C8331298"
+			]
+			hide_dependency_lines: false
 			icon: {
 				id: "mega_showdown:blue_orb"
 			}
@@ -116,7 +153,7 @@
 					type: "item"
 				}
 			]
-			shape: "circle"
+			shape: "pentagon"
 			size: 1.0d
 			tasks: [{
 				advancement: "campfiremons:found/blue_orb"
@@ -124,10 +161,14 @@
 				id: "3D957ED11DBB5E82"
 				type: "advancement"
 			}]
-			x: 3.833333333333333d
-			y: -3.0d
+			x: -4.2d
+			y: -3.3d
 		}
 		{
+			dependencies: [
+				"4C029B208A6F165B"
+			]
+			hide_dependency_lines: false
 			icon: {
 				id: "mega_showdown:rusted_sword"
 			}
@@ -148,19 +189,22 @@
 					type: "item"
 				}
 			]
-			shape: "circle"
-			size: 1.0d
+			shape: "pentagon"
+			size: 1.25d
 			tasks: [{
 				advancement: "campfiremons:found/rusted_sword"
 				criterion: ""
 				id: "7560659788D46D49"
 				type: "advancement"
 			}]
-			x: 5.166666666666666d
-			y: -3.0d
+			x: 3.0d
+			y: -2.4d
 		}
 		{
-			dependencies: ["1F8AD986D9B689B8"]
+			dependencies: [
+				"1F8AD986D9B689B8"
+			]
+			hide_dependency_lines: false
 			icon: {
 				id: "mega_showdown:rusted_shield"
 			}
@@ -181,7 +225,7 @@
 					type: "item"
 				}
 			]
-			shape: "circle"
+			shape: "pentagon"
 			size: 1.0d
 			tasks: [{
 				advancement: "campfiremons:found/rusted_shield"
@@ -189,10 +233,14 @@
 				id: "1F885DD790A1332D"
 				type: "advancement"
 			}]
-			x: 6.5d
-			y: -3.0d
+			x: 5.2d
+			y: -2.4d
 		}
 		{
+			dependencies: [
+				"4C029B208A6F165B"
+			]
+			hide_dependency_lines: false
 			icon: {
 				id: "cobblemon:rare_candy"
 			}
@@ -214,7 +262,7 @@
 				}
 			]
 			shape: "circle"
-			size: 1.0d
+			size: 1.25d
 			tasks: [{
 				abilities: ""
 				action: "level_up_to"
@@ -244,11 +292,14 @@
 				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			x: 2.5d
-			y: 0.0d
+			x: 3.0d
+			y: 2.4d
 		}
 		{
-			dependencies: ["30AE46A577517A11"]
+			dependencies: [
+				"30AE46A577517A11"
+			]
+			hide_dependency_lines: false
 			icon: {
 				id: "cobblemon:ultra_ball"
 			}
@@ -300,10 +351,14 @@
 				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			x: 4.5d
-			y: 0.0d
+			x: 5.2d
+			y: 2.4d
 		}
 		{
+			dependencies: [
+				"4C029B208A6F165B"
+			]
+			hide_dependency_lines: false
 			icon: {
 				id: "rctmod:trainer_card"
 			}
@@ -333,16 +388,19 @@
 					type: "item"
 				}
 			]
-			shape: "circle"
-			size: 1.0d
+			shape: "diamond"
+			size: 1.25d
 			tasks: [{
 				id: "1BDB10D5216CC9E1"
 				type: "checkmark"
 			}]
-			x: 4.5d
-			y: 3.0d
+			x: -3.4d
+			y: 0.0d
 		}
 		{
+			dependencies: [
+				"4C029B208A6F165B"
+			]
 			hide_dependency_lines: true
 			icon: {
 				id: "cobblemon:master_ball"
@@ -390,7 +448,7 @@
 				id: "5D054621EDCFD359"
 				type: "advancement"
 			}]
-			x: 9.0d
+			x: 8.0d
 			y: 0.0d
 		}
 	]

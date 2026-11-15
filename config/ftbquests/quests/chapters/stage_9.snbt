@@ -2,17 +2,47 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "stage_9"
-	group: ""
+	group: "A878D9FAE9054E9D"
 	icon: {
 		id: "cobblemon:master_ball"
 	}
 	id: "0F1CBEA36275A1D4"
-	images: [ ]
-	order_index: 9
+	images: [
+		{
+			height: 1.6d
+			id: "F8D886E028ACBA5C"
+			image: "campfiremons:textures/quests/stage_9.png"
+			rotation: 0.0d
+			width: 6.64d
+			x: 0.0d
+			y: -6.2d
+		}
+		{
+			height: 1.5d
+			id: "292C9B33045671FB"
+			image: "mega_showdown:textures/gui/summary/tera_types/stellar.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -4.42d
+			y: -6.2d
+		}
+		{
+			height: 1.5d
+			id: "73BF210D70B5F22B"
+			image: "mega_showdown:textures/gui/summary/tera_types/stellar.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 4.42d
+			y: -6.2d
+		}
+	]
+	order_index: 17
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["7EC34193D0BD8315"]
+			dependencies: [
+				"7EC34193D0BD8315"
+			]
 			icon: {
 				id: "cobblemon:master_ball"
 			}
@@ -52,7 +82,7 @@
 				}
 			]
 			shape: "gear"
-			size: 2.0d
+			size: 2.5d
 			tasks: [{
 				advancement: "campfiremons:stage/9"
 				criterion: ""
@@ -63,6 +93,10 @@
 			y: 0.0d
 		}
 		{
+			dependencies: [
+				"534ACB982620E7AD"
+			]
+			hide_dependency_lines: false
 			icon: {
 				id: "cobblemon:master_ball"
 			}
@@ -84,7 +118,7 @@
 				}
 			]
 			shape: "circle"
-			size: 1.0d
+			size: 1.25d
 			tasks: [{
 				abilities: ""
 				action: "catch"
@@ -114,11 +148,14 @@
 				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			x: 2.5d
-			y: 0.0d
+			x: 3.0d
+			y: -2.4d
 		}
 		{
-			dependencies: ["7F9748B62E911B11"]
+			dependencies: [
+				"7F9748B62E911B11"
+			]
+			hide_dependency_lines: false
 			icon: {
 				id: "cobblemon:luxury_ball"
 			}
@@ -170,8 +207,66 @@
 				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			x: 4.5d
-			y: 0.0d
+			x: 5.2d
+			y: -2.4d
+		}
+		{
+			dependencies: [
+				"534ACB982620E7AD"
+			]
+			icon: {
+				id: "cobblemon:pokedex_black"
+			}
+			id: "C3AB2FE3EB3044F1"
+			rewards: [
+				{
+					id: "33B236D50C42F216"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 5
+					id: "87098627325122AC"
+					item: {
+						count: 1
+						id: "cobblemon:rare_candy"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.25d
+			tasks: [{
+				abilities: ""
+				action: "have_registered"
+				amount: 300L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "1D51DD5197B1E3F1"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 3.0d
+			y: 2.4d
 		}
 	]
 }

@@ -2,17 +2,47 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "stage_6"
-	group: ""
+	group: "A878D9FAE9054E9D"
 	icon: {
 		id: "cobblemon:beast_ball"
 	}
 	id: "3BE0612417675CBC"
-	images: [ ]
-	order_index: 6
+	images: [
+		{
+			height: 1.6d
+			id: "4CCCE1F387FD69ED"
+			image: "campfiremons:textures/quests/stage_6.png"
+			rotation: 0.0d
+			width: 7.45d
+			x: 0.0d
+			y: -6.2d
+		}
+		{
+			height: 1.5d
+			id: "519D52A0C2451EA2"
+			image: "mega_showdown:textures/gui/summary/tera_types/poison.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -4.825d
+			y: -6.2d
+		}
+		{
+			height: 1.5d
+			id: "4243CC7837872313"
+			image: "mega_showdown:textures/gui/summary/tera_types/poison.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 4.825d
+			y: -6.2d
+		}
+	]
+	order_index: 14
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["080EFFF2C23BE2C4"]
+			dependencies: [
+				"080EFFF2C23BE2C4"
+			]
 			icon: {
 				id: "cobblemon:beast_ball"
 			}
@@ -52,7 +82,7 @@
 				}
 			]
 			shape: "gear"
-			size: 2.0d
+			size: 2.5d
 			tasks: [{
 				advancement: "campfiremons:stage/6"
 				criterion: ""
@@ -63,7 +93,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["21FDD3645BEC06AC"]
+			dependencies: [
+				"21FDD3645BEC06AC"
+			]
+			hide_dependency_lines: false
 			icon: {
 				id: "mega_showdown:tera_orb"
 			}
@@ -84,19 +117,22 @@
 					type: "item"
 				}
 			]
-			shape: "circle"
-			size: 1.0d
+			shape: "pentagon"
+			size: 1.25d
 			tasks: [{
 				advancement: "campfiremons:found/tera_orb"
 				criterion: ""
 				id: "0B57ACA88D03ACD6"
 				type: "advancement"
 			}]
-			x: 2.5d
-			y: -3.0d
+			x: -1.9d
+			y: -3.3d
 		}
 		{
-			dependencies: ["77BDF8BC23C0AC35"]
+			dependencies: [
+				"77BDF8BC23C0AC35"
+			]
+			hide_dependency_lines: false
 			icon: {
 				id: "mega_showdown:tera_orb"
 			}
@@ -157,11 +193,14 @@
 				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			x: 4.5d
-			y: -3.0d
+			x: -4.2d
+			y: -3.3d
 		}
 		{
-			dependencies: ["21FDD3645BEC06AC"]
+			dependencies: [
+				"21FDD3645BEC06AC"
+			]
+			hide_dependency_lines: false
 			icon: {
 				id: "cobblemon:beast_ball"
 			}
@@ -183,7 +222,7 @@
 				}
 			]
 			shape: "circle"
-			size: 1.0d
+			size: 1.25d
 			tasks: [{
 				abilities: ""
 				action: "catch"
@@ -213,10 +252,14 @@
 				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			x: 2.5d
-			y: 0.0d
+			x: 3.0d
+			y: -2.4d
 		}
 		{
+			dependencies: [
+				"21FDD3645BEC06AC"
+			]
+			hide_dependency_lines: false
 			icon: {
 				id: "cobblemon:ultra_ball"
 			}
@@ -238,7 +281,7 @@
 				}
 			]
 			shape: "circle"
-			size: 1.0d
+			size: 1.25d
 			tasks: [{
 				abilities: ""
 				action: "catch"
@@ -268,11 +311,14 @@
 				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			x: 4.5d
-			y: 0.0d
+			x: 3.0d
+			y: 2.4d
 		}
 		{
-			dependencies: ["21FDD3645BEC06AC"]
+			dependencies: [
+				"21FDD3645BEC06AC"
+			]
+			hide_dependency_lines: false
 			icon: {
 				id: "rctmod:trainer_card"
 			}
@@ -302,17 +348,19 @@
 					type: "item"
 				}
 			]
-			shape: "circle"
-			size: 1.0d
+			shape: "diamond"
+			size: 1.25d
 			tasks: [{
 				id: "253D59D95254AF76"
 				type: "checkmark"
 			}]
-			x: 4.5d
-			y: 3.0d
+			x: -3.4d
+			y: 0.0d
 		}
 		{
-			dependencies: ["21FDD3645BEC06AC"]
+			dependencies: [
+				"21FDD3645BEC06AC"
+			]
 			hide_dependency_lines: true
 			icon: {
 				id: "cobblemon:luxury_ball"
@@ -360,8 +408,41 @@
 				id: "4D8D9B81C5B66722"
 				type: "advancement"
 			}]
-			x: 9.0d
+			x: 8.0d
 			y: 0.0d
+		}
+		{
+			dependencies: [
+				"21FDD3645BEC06AC"
+			]
+			icon: {
+				id: "cobblemon:beast_ball"
+			}
+			id: "B09BC61D704436D6"
+			rewards: [
+				{
+					id: "BEBB95C22351E8BB"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "982FCD79874E3F25"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "E6D4680812AF48CF"
+				type: "checkmark"
+			}]
+			x: -1.9d
+			y: 3.3d
 		}
 	]
 }

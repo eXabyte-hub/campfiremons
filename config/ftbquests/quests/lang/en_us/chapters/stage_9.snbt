@@ -1,4 +1,9 @@
 {
+	quest.534ACB982620E7AD.quest_desc: [
+		"You beat the Elite Four and Champion Terry. Reward: a Master Ball."
+	]
+	quest.534ACB982620E7AD.quest_subtitle: "Stage 9 reached"
+	quest.534ACB982620E7AD.title: "Champion!"
 	quest.7EFFCF53AB81B423.quest_subtitle: "Catch a shiny Pokémon"
 	quest.7EFFCF53AB81B423.title: "Shiny Hunter"
 	quest.7F9748B62E911B11.quest_desc: [
@@ -6,9 +11,9 @@
 	]
 	quest.7F9748B62E911B11.quest_subtitle: "Catch 100 Pokémon"
 	quest.7F9748B62E911B11.title: "Gotta Catch 'Em All"
-	quest.B5701991E9C0EC9F.quest_desc: [
-		"You beat the Elite Four and Champion Terry. Reward: a Master Ball."
+	quest.C3AB2FE3EB3044F1.quest_desc: [
+		"A Champion's Pokédex. See &eGotta Find 'Em All!&r for the milestones on the way."
 	]
-	quest.B5701991E9C0EC9F.quest_subtitle: "Stage 9 reached"
-	quest.B5701991E9C0EC9F.title: "Champion!"
+	quest.C3AB2FE3EB3044F1.quest_subtitle: "Register 300 Pokémon"
+	quest.C3AB2FE3EB3044F1.title: "Living Legend"
 }

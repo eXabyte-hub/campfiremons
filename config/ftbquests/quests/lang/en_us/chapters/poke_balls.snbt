@@ -1,0 +1,66 @@
+{
+	quest.1B31EE57E715110C.quest_desc: [
+		"Beating Lt. Surge unlocks &eUltra Balls&r with Quick, Dusk, Timer, Repeat, Luxury and Love Balls."
+	]
+	quest.1B31EE57E715110C.quest_subtitle: "Usable from Stage 3"
+	quest.1B31EE57E715110C.title: "Ultra Balls"
+	quest.22AB4029A212ED0C.title: "Level Ball"
+	quest.25E526B306401C3C.title: "Ancient Poké Ball"
+	quest.278B83624E054905.title: "Ancient Ultra Ball"
+	quest.2D40E20884892CF9.title: "Heavy Ball"
+	quest.30236B3EDA4BAF81.title: "Luxury Ball"
+	quest.3352DB5FFF90659D.title: "Dive Ball"
+	quest.3678350157B685F8.title: "Sport Ball"
+	quest.3A619AE3C107B14D.title: "Moon Ball"
+	quest.4170896909F4A8B6.title: "Premier Ball"
+	quest.42FBBBBDCF82CD94.title: "Citrine Ball"
+	quest.44996EA7AAFF54B8.title: "Azure Ball"
+	quest.45C588A6F7917280.title: "Ancient Heavy Ball"
+	quest.46052EE21240A405.title: "Slate Ball"
+	quest.51DFE15258EF0A9B.quest_desc: [
+		"Beating Koga unlocks the &eBeast Ball&r (best on Ultra Beasts, poor on everything else) and the"
+		"Dream Ball."
+	]
+	quest.51DFE15258EF0A9B.quest_subtitle: "Usable from Stage 6"
+	quest.51DFE15258EF0A9B.title: "Beast Balls"
+	quest.5D658D0ABDC21E0E.title: "Friend Ball"
+	quest.5DB9C32287AC1B03.title: "Safari Ball"
+	quest.663200A8EC937133.title: "Ancient Great Ball"
+	quest.66A1EEBAC8755A9B.title: "Timer Ball"
+	quest.69837889FEA8C814.title: "Lure Ball"
+	quest.70DBCE96E0F37BC3.title: "Fast Ball"
+	quest.72796E0BB82FA1D7.title: "Repeat Ball"
+	quest.7517D1F691A42FF4.quest_desc: [
+		"Beating Brock unlocks &eGreat Balls&r and the specialty balls of the same tier: Net, Dive, Nest,"
+		"Level, Lure and more. Each is better in its own situation."
+	]
+	quest.7517D1F691A42FF4.quest_subtitle: "Usable from Stage 1"
+	quest.7517D1F691A42FF4.title: "Great Balls"
+	quest.76A426564C617F6F.title: "Park Ball"
+	quest.7C82E3AB5998E572.title: "Quick Ball"
+	quest.7D92BD6B3E91AD28.title: "Heal Ball"
+	quest.89AF5E8B2B794360.title: "Dusk Ball"
+	quest.93F33E75648CED0F.quest_desc: [
+		"Poké Balls and the apricorn balls work from the start. Craft them from apricorns: the recipe viewer"
+		"shows every one."
+	]
+	quest.93F33E75648CED0F.quest_subtitle: "Usable from the start"
+	quest.93F33E75648CED0F.title: "Poké Balls"
+	quest.9670C96941B03BF6.title: "Dream Ball"
+	quest.9E9D0F19A650DBA3.title: "Ancient Gigaton Ball"
+	quest.AA8CA1D0AC57C38F.title: "Love Ball"
+	quest.AE413FF39B73BA55.title: "Roseate Ball"
+	quest.B205361E18F16055.title: "Net Ball"
+	quest.BC6CDF6970C5E904.quest_desc: [
+		"The &eMaster Ball&r never misses. You get one as the Champion; there's no recipe."
+	]
+	quest.BC6CDF6970C5E904.quest_subtitle: "Usable from Stage 9"
+	quest.BC6CDF6970C5E904.title: "Master Balls"
+	quest.BE2FBFD3408DEB90.title: "Nest Ball"
+	quest.C13D64E2B769370B.title: "Ancient Feather Ball"
+	quest.C1485C9EC17B0871.title: "Ancient Jet Ball"
+	quest.C18EC92F30C08A77.title: "Ancient Wing Ball"
+	quest.EB233F53FC23A1D9.title: "Ancient Leaden Ball"
+	quest.EF9956CFA6EB59AD.title: "Ancient Origin Ball"
+	quest.F85EE6F8989A190D.title: "Verdant Ball"
+}

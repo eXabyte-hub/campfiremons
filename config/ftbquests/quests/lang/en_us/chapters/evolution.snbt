@@ -1,0 +1,95 @@
+{
+	quest.127F6690E43DA4BF.quest_subtitle: "Evolve 10 Pokémon"
+	quest.127F6690E43DA4BF.title: "Growth Spurt"
+	quest.1466127DD69B61CC.quest_desc: [
+		"Its ore turns up underground."
+		"Mining the ore drops the stone; they also turn up in chests."
+	]
+	quest.1466127DD69B61CC.quest_subtitle: "Find one"
+	quest.1466127DD69B61CC.title: "Dusk Stone"
+	quest.1AEB889CC6B87D6F.quest_subtitle: "Evolve 25 Pokémon"
+	quest.1AEB889CC6B87D6F.title: "Evolution Expert"
+	quest.1D6EFCE4FDE8F623.title: "Protector"
+	quest.2E008F1661AF9145.quest_desc: [
+		"Its ore turns up underground."
+		"Mining the ore drops the stone; they also turn up in chests."
+	]
+	quest.2E008F1661AF9145.quest_subtitle: "Find one"
+	quest.2E008F1661AF9145.title: "Thunder Stone"
+	quest.2EBBC96DF6FF7302.quest_desc: [
+		"Its ore turns up underground."
+		"Mining the ore drops the stone; they also turn up in chests."
+	]
+	quest.2EBBC96DF6FF7302.quest_subtitle: "Find one"
+	quest.2EBBC96DF6FF7302.title: "Shiny Stone"
+	quest.34B9216B0A025BB1.title: "Magmarizer"
+	quest.45939E1D8CFFD144.quest_desc: [
+		"Its ore turns up underground and in dripstone caves."
+		"Mining the ore drops the stone; they also turn up in chests."
+	]
+	quest.45939E1D8CFFD144.quest_subtitle: "Find one"
+	quest.45939E1D8CFFD144.title: "Moon Stone"
+	quest.6925B782EDD623ED.quest_desc: [
+		"Its ore turns up underground and in the Nether."
+		"Mining the ore drops the stone; they also turn up in chests."
+	]
+	quest.6925B782EDD623ED.quest_subtitle: "Find one"
+	quest.6925B782EDD623ED.title: "Fire Stone"
+	quest.7E6CB2B4666CEE22.title: "Reaper Cloth"
+	quest.7F7FE8D4C4AAB53F.title: "King's Rock"
+	quest.9A67EEA91C962952.quest_desc: [
+		"Most Pokémon evolve by levelling up. Others need something more:"
+		"&e- Evolution stones&r (around this quest): use one on the Pokémon."
+		"&e- Held items&r (below): give it the item, then level it up or trade it."
+		"&e- Friendship, time of day or a trade&r: the Pokédex entry shows how."
+		"Hold an &eEverstone&r to stop a Pokémon evolving."
+	]
+	quest.9A67EEA91C962952.quest_subtitle: "Read me"
+	quest.9A67EEA91C962952.title: "How Pokémon Evolve"
+	quest.A31182F56D39BAFF.quest_desc: [
+		"Its ore turns up underground, often near water."
+		"Mining the ore drops the stone; they also turn up in chests."
+	]
+	quest.A31182F56D39BAFF.quest_subtitle: "Find one"
+	quest.A31182F56D39BAFF.title: "Water Stone"
+	quest.C3BAAC15456874CD.quest_desc: [
+		"Some evolutions only happen in a trade. Bring the item, then swap."
+	]
+	quest.C3BAAC15456874CD.quest_subtitle: "Trade a Pokémon with a friend"
+	quest.C3BAAC15456874CD.title: "Trade Partners"
+	quest.C8394DB3520E51F9.quest_desc: [
+		"Its ore turns up underground and in badlands terracotta."
+		"Mining the ore drops the stone; they also turn up in chests."
+	]
+	quest.C8394DB3520E51F9.quest_subtitle: "Find one"
+	quest.C8394DB3520E51F9.title: "Sun Stone"
+	quest.D40FC0C008CF0EB7.title: "Up-Grade"
+	quest.D7CE430257F5A462.quest_desc: [
+		"Its ore turns up underground."
+		"Mining the ore drops the stone; they also turn up in chests."
+	]
+	quest.D7CE430257F5A462.quest_subtitle: "Find one"
+	quest.D7CE430257F5A462.title: "Leaf Stone"
+	quest.E4B6BE850150D8E5.title: "Metal Coat"
+	quest.E8E8E5E3A5405461.quest_desc: [
+		"Some Pokémon evolve while holding an item: Onix with a Metal Coat, Seadra with a Dragon"
+		"Scale, Porygon with an Up-Grade... Most of these happen when you &etrade&r the Pokémon"
+		"to a friend, so team up. The items turn up in structure chests and from some Pokémon."
+	]
+	quest.E8E8E5E3A5405461.quest_subtitle: "Give it, then level or trade"
+	quest.E8E8E5E3A5405461.title: "Held-Item Evolutions"
+	quest.ECEC21FFF200AD23.title: "Dragon Scale"
+	quest.EE9BD391322544D0.quest_desc: [
+		"Its ore turns up underground."
+		"Mining the ore drops the stone; they also turn up in chests."
+	]
+	quest.EE9BD391322544D0.quest_subtitle: "Find one"
+	quest.EE9BD391322544D0.title: "Dawn Stone"
+	quest.F4BE67B04B8C2DFC.title: "Electirizer"
+	quest.FD088AB842495876.quest_desc: [
+		"Its ore turns up underground in cold places."
+		"Mining the ore drops the stone; they also turn up in chests."
+	]
+	quest.FD088AB842495876.quest_subtitle: "Find one"
+	quest.FD088AB842495876.title: "Ice Stone"
+}

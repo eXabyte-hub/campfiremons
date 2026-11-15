@@ -27,7 +27,10 @@ Ask whoever runs the server for the address and to be added to the whitelist, th
 ## How the pack plays
 
 - **Gyms are the progression.** Beating each Radical Red gym leader moves you to the next stage (8 gyms, then the
-  Elite Four and Champion). The quest book has a chapter for every stage.
+  Elite Four and Champion). The quest book has a chapter for every stage, plus guide chapters (getting started,
+  evolution, Poké Balls, battle gimmicks, archaeology and fishing, artifacts) and a checklist of every legendary,
+  Ultra Beast and Paradox Pokémon.
+- **Dying** leaves a grave with your items where you fell: walk back and open it.
 - **You start in Pallet Town.** New worlds (and the server) put the spawn in the nearest Pallet Town, so that's
   where you begin and where you come back to without a bed.
 - **Finding your next gym:** you get a map to it when you first join and after every gym win, with the distance and

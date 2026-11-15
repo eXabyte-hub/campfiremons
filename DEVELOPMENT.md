@@ -48,6 +48,12 @@ config in the script, then run `python -I tools/gen_finds.py` and `packwiz refre
 The quest book in `config/ftbquests/quests/` was generated **once** by `tools/gen_quests.py` (one chapter per
 stage). From now on it is edited in game: open the book, toggle edit mode (needs op), and FTB Quests saves straight
 into this repo through the dev-instance symlink. Re-running the script needs `--force` and discards those edits.
+In v0.1.10 the book was rebuilt (one-off, outside the repo) into hub layouts with topic chapters, keeping every
+existing quest ID so progress carried over. Its art (title banners, the Pokédex panel, the wormhole, Paradox tiles,
+gold panels) comes from `tools/gen_quest_art.py` into `kubejs/assets/campfiremons/textures/quests/`; chapter
+images reference those, and type icons and big ball pictures straight from Mega Showdown's and Cobblemon's jars.
+Quest text lives in `lang/en_us/chapters/<chapter>.snbt` keyed by quest ID: if a quest gets a new ID, move its
+text too (a re-ID in 800a3cb left 21 quests untitled until v0.1.10).
 
 `tools/gen_shop.py` owns `config/cobbledollars/default_shop.json` (the default shop minus the
 Master Ball); re-run it after updating CobbleDollars.
@@ -189,6 +195,9 @@ JVM through NeoForged's ServerStarterJar, so the memory the host gives Java goes
      Startup Flags). The launcher then runs as a Java agent: it syncs the pack before the host's NeoForge starts,
      and stops the server if the very first sync fails, so it never starts without the mods. NeoForge is the
      host's own (PebbleHost installs 21.1.266; the pack loads cleanly on it, players stay on 21.1.264).
+   After extracting on a host that assigns the port (PebbleHost), set `server-port` in `server.properties` to the
+   panel's port (the one after the colon in the address): the zip's `server.properties` leaves it at 25565, and
+   players get "Connection refused" (this happened on the live server on 2026-11-15).
 3. Start the server. The first start installs NeoForge and downloads the mods (a few minutes), then the server stops
    to ask for the EULA: set `eula=true` in `eula.txt` and start again.
 4. In the console: `op <you>`, then `whitelist add <name>` for each player (the whitelist is on by default).

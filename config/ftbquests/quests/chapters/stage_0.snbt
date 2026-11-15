@@ -2,12 +2,184 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "stage_0"
-	group: ""
+	group: "F2C6F302E53BE2D9"
 	icon: {
 		id: "cobblemon:poke_ball"
 	}
 	id: "2C1FC7D4CD62E5E4"
-	images: [ ]
+	images: [
+		{
+			height: 1.6d
+			id: "DCF74E46B5DB5F92"
+			image: "campfiremons:textures/quests/getting_started.png"
+			rotation: 0.0d
+			width: 10.11d
+			x: 0.0d
+			y: -6.6d
+		}
+		{
+			height: 0.85d
+			id: "A09F19BC84CCBF34"
+			image: "mega_showdown:textures/gui/summary/tera_types/normal.png"
+			rotation: 0.0d
+			width: 0.85d
+			x: -4.0d
+			y: -9.0d
+		}
+		{
+			height: 0.85d
+			id: "A01F8BB4E9A7FF3F"
+			image: "mega_showdown:textures/gui/summary/tera_types/fire.png"
+			rotation: 0.0d
+			width: 0.85d
+			x: -3.0d
+			y: -9.0d
+		}
+		{
+			height: 0.85d
+			id: "DE0F40ACED20DF5C"
+			image: "mega_showdown:textures/gui/summary/tera_types/water.png"
+			rotation: 0.0d
+			width: 0.85d
+			x: -2.0d
+			y: -9.0d
+		}
+		{
+			height: 0.85d
+			id: "66512CD1E0C97707"
+			image: "mega_showdown:textures/gui/summary/tera_types/grass.png"
+			rotation: 0.0d
+			width: 0.85d
+			x: -1.0d
+			y: -9.0d
+		}
+		{
+			height: 0.85d
+			id: "39044EF2D4D9E9E0"
+			image: "mega_showdown:textures/gui/summary/tera_types/electric.png"
+			rotation: 0.0d
+			width: 0.85d
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			height: 0.85d
+			id: "81F8F4D0D6A1252C"
+			image: "mega_showdown:textures/gui/summary/tera_types/ice.png"
+			rotation: 0.0d
+			width: 0.85d
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			height: 0.85d
+			id: "EA846C2217F58A7B"
+			image: "mega_showdown:textures/gui/summary/tera_types/fighting.png"
+			rotation: 0.0d
+			width: 0.85d
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			height: 0.85d
+			id: "412C0C4F52001250"
+			image: "mega_showdown:textures/gui/summary/tera_types/poison.png"
+			rotation: 0.0d
+			width: 0.85d
+			x: 3.0d
+			y: -9.0d
+		}
+		{
+			height: 0.85d
+			id: "2B4D587477B3CF7F"
+			image: "mega_showdown:textures/gui/summary/tera_types/ground.png"
+			rotation: 0.0d
+			width: 0.85d
+			x: 4.0d
+			y: -9.0d
+		}
+		{
+			height: 0.85d
+			id: "1235B31F8E2E6CC9"
+			image: "mega_showdown:textures/gui/summary/tera_types/flying.png"
+			rotation: 0.0d
+			width: 0.85d
+			x: -4.0d
+			y: -8.0d
+		}
+		{
+			height: 0.85d
+			id: "9C7065126D66E9CC"
+			image: "mega_showdown:textures/gui/summary/tera_types/psychic.png"
+			rotation: 0.0d
+			width: 0.85d
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			height: 0.85d
+			id: "480F0BBF323178B5"
+			image: "mega_showdown:textures/gui/summary/tera_types/bug.png"
+			rotation: 0.0d
+			width: 0.85d
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			height: 0.85d
+			id: "75E594865A91E45F"
+			image: "mega_showdown:textures/gui/summary/tera_types/rock.png"
+			rotation: 0.0d
+			width: 0.85d
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			height: 0.85d
+			id: "C4F28E2059121A85"
+			image: "mega_showdown:textures/gui/summary/tera_types/ghost.png"
+			rotation: 0.0d
+			width: 0.85d
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			height: 0.85d
+			id: "6C73FA5C69B2F6CA"
+			image: "mega_showdown:textures/gui/summary/tera_types/dragon.png"
+			rotation: 0.0d
+			width: 0.85d
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			height: 0.85d
+			id: "5E39B48148AF37B8"
+			image: "mega_showdown:textures/gui/summary/tera_types/dark.png"
+			rotation: 0.0d
+			width: 0.85d
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			height: 0.85d
+			id: "5FD74D5697B9A802"
+			image: "mega_showdown:textures/gui/summary/tera_types/steel.png"
+			rotation: 0.0d
+			width: 0.85d
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			height: 0.85d
+			id: "CDC208836B075358"
+			image: "mega_showdown:textures/gui/summary/tera_types/fairy.png"
+			rotation: 0.0d
+			width: 0.85d
+			x: 4.0d
+			y: -8.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -50,7 +222,7 @@
 				}
 			]
 			shape: "gear"
-			size: 2.0d
+			size: 3.0d
 			tasks: [{
 				id: "5A96394A81C1F2F9"
 				type: "checkmark"
@@ -59,6 +231,9 @@
 			y: 0.0d
 		}
 		{
+			dependencies: [
+				"7BFE2B886541122D"
+			]
 			icon: {
 				id: "cobblemon:poke_ball"
 			}
@@ -80,7 +255,7 @@
 				}
 			]
 			shape: "circle"
-			size: 1.0d
+			size: 1.25d
 			tasks: [{
 				abilities: ""
 				action: "catch"
@@ -110,11 +285,13 @@
 				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			x: 2.5d
-			y: 0.0d
+			x: -3.25d
+			y: -0.9d
 		}
 		{
-			dependencies: ["07770E338AC86117"]
+			dependencies: [
+				"07770E338AC86117"
+			]
 			icon: {
 				id: "cobblemon:poke_ball"
 			}
@@ -166,10 +343,13 @@
 				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			x: 4.5d
-			y: 0.0d
+			x: -5.5d
+			y: -0.9d
 		}
 		{
+			dependencies: [
+				"7BFE2B886541122D"
+			]
 			icon: {
 				id: "cobblemon:exp_candy_xs"
 			}
@@ -191,7 +371,7 @@
 				}
 			]
 			shape: "circle"
-			size: 1.0d
+			size: 1.25d
 			tasks: [{
 				abilities: ""
 				action: "evolve"
@@ -221,10 +401,13 @@
 				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			x: 6.5d
-			y: 0.0d
+			x: 0.0d
+			y: 3.4d
 		}
 		{
+			dependencies: [
+				"F5D684B92728850E"
+			]
 			icon: {
 				id: "minecraft:compass"
 			}
@@ -251,10 +434,13 @@
 				id: "376D97250BF5ABB7"
 				type: "checkmark"
 			}]
-			x: 4.5d
-			y: 3.0d
+			x: 5.5d
+			y: 1.4d
 		}
 		{
+			dependencies: [
+				"7BFE2B886541122D"
+			]
 			hide_dependency_lines: true
 			icon: {
 				id: "cobblemon:poke_ball"
@@ -293,8 +479,538 @@
 				id: "36DD85086436EA76"
 				type: "advancement"
 			}]
-			x: 9.0d
+			x: 10.5d
 			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7BFE2B886541122D"
+			]
+			icon: {
+				id: "cobblemon:red_apricorn"
+			}
+			id: "B7B74EE967D8C9FE"
+			rewards: [
+				{
+					id: "4477ED6C4199BCF8"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 8
+					id: "2AC429EB9C137B24"
+					item: {
+						count: 1
+						id: "cobblemon:poke_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "12E9A48674C934DA"
+				item: {
+					count: 1
+					id: "cobblemon:red_apricorn"
+				}
+				type: "item"
+			}]
+			x: -3.25d
+			y: 1.4d
+		}
+		{
+			dependencies: [
+				"B7B74EE967D8C9FE"
+			]
+			icon: {
+				id: "cobblemon:white_apricorn"
+			}
+			id: "50888E472633067D"
+			optional: true
+			rewards: [
+				{
+					id: "F69D5B4BA3ACFFB3"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 8
+					id: "7DB5FFF4BED41C5E"
+					item: {
+						count: 1
+						id: "cobblemon:poke_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.85d
+			tasks: [
+				{
+					id: "316978C4B875ED6C"
+					item: {
+						count: 1
+						id: "cobblemon:red_apricorn"
+					}
+					type: "item"
+				}
+				{
+					id: "BE877FC0C86EA439"
+					item: {
+						count: 1
+						id: "cobblemon:yellow_apricorn"
+					}
+					type: "item"
+				}
+				{
+					id: "1FACD781B03E1E1B"
+					item: {
+						count: 1
+						id: "cobblemon:green_apricorn"
+					}
+					type: "item"
+				}
+				{
+					id: "D807012F431B1634"
+					item: {
+						count: 1
+						id: "cobblemon:blue_apricorn"
+					}
+					type: "item"
+				}
+				{
+					id: "A1312AEB4E8B0038"
+					item: {
+						count: 1
+						id: "cobblemon:pink_apricorn"
+					}
+					type: "item"
+				}
+				{
+					id: "59B253BD8FC2347E"
+					item: {
+						count: 1
+						id: "cobblemon:black_apricorn"
+					}
+					type: "item"
+				}
+				{
+					id: "16EBB16CF6117780"
+					item: {
+						count: 1
+						id: "cobblemon:white_apricorn"
+					}
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 1.4d
+		}
+		{
+			dependencies: [
+				"0440240B5085D636"
+			]
+			icon: {
+				id: "cobblemonraiddens:raid_pouch"
+			}
+			id: "AF667D45DEC030D1"
+			rewards: [
+				{
+					id: "3D15DD129215EE65"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 3
+					id: "55800FFE5DF19ECA"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_s"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				abilities: ""
+				action: "win_raid"
+				amount: 1L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "EFFE92D854F61A63"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -7.6d
+			y: -0.9d
+		}
+		{
+			dependencies: [
+				"7BFE2B886541122D"
+			]
+			icon: {
+				id: "cobblemon:healing_machine"
+			}
+			id: "F4F340C9D81C80B2"
+			rewards: [
+				{
+					id: "E81C3E55D447839B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 4
+					id: "1CEC75A4E0DAA10C"
+					item: {
+						count: 1
+						id: "cobblemon:potion"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "65A33F7D3C11D7B2"
+				item: {
+					count: 1
+					id: "cobblemon:healing_machine"
+				}
+				type: "item"
+			}]
+			x: 3.25d
+			y: -1.6d
+		}
+		{
+			dependencies: [
+				"F4F340C9D81C80B2"
+			]
+			icon: {
+				id: "cobblemon:pc"
+			}
+			id: "F82C4872BC5445D6"
+			rewards: [
+				{
+					id: "4E59D87B3AED8989"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 8
+					id: "F465415D776FEEFE"
+					item: {
+						count: 1
+						id: "cobblemon:poke_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "436561478421FE58"
+				item: {
+					count: 1
+					id: "cobblemon:pc"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.6d
+		}
+		{
+			dependencies: [
+				"F82C4872BC5445D6"
+			]
+			icon: {
+				id: "cobblemon:pasture"
+			}
+			id: "1C77880587673CBE"
+			rewards: [
+				{
+					id: "52C9E8842B015795"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 6
+					id: "7E39B1926A5C51AA"
+					item: {
+						count: 1
+						id: "cobblemon:oran_berry"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "A17FC9B7A80A50D0"
+				item: {
+					count: 1
+					id: "cobblemon:pasture"
+				}
+				type: "item"
+			}]
+			x: 7.6d
+			y: -2.6d
+		}
+		{
+			dependencies: [
+				"7BFE2B886541122D"
+			]
+			icon: {
+				id: "rctmod:trainer_card"
+			}
+			id: "F5D684B92728850E"
+			rewards: [
+				{
+					id: "50DC69F25FE31CA0"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "FC907DFD40C9848A"
+					item: {
+						count: 1
+						id: "cobblemon:potion"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.25d
+			tasks: [{
+				abilities: ""
+				action: "defeat_trainer"
+				amount: 1L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "778BED4DB320B99C"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 3.25d
+			y: 1.4d
+		}
+		{
+			dependencies: [
+				"7BFE2B886541122D"
+			]
+			icon: {
+				id: "cobblemon:pokedex_red"
+			}
+			id: "A7C16A6FC8D3F216"
+			rewards: [
+				{
+					id: "6B44A924E17A54EE"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 4
+					id: "F07994C9077F8EF8"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xs"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				abilities: ""
+				action: "scan"
+				amount: 1L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "E163BFD9AAF72947"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -2.4d
+			y: 3.4d
+		}
+		{
+			dependencies: [
+				"2CB794566D297784"
+			]
+			icon: {
+				id: "cobblemon:fire_stone"
+			}
+			id: "39090BC56BEA2A76"
+			rewards: [{
+				id: "698A893F9218DAE4"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				id: "B105C97D5848CD33"
+				type: "checkmark"
+			}]
+			x: 2.4d
+			y: 3.4d
+		}
+		{
+			dependencies: [
+				"509520097CAAFD27"
+			]
+			icon: {
+				id: "minecraft:filled_map"
+			}
+			id: "593E0BAA05CD8CB5"
+			rewards: [
+				{
+					id: "4C2172A4A3DBEDF5"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "A67E6C38B15CAE85"
+					item: {
+						count: 1
+						id: "minecraft:compass"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "F18F482CC0DACD73"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 3.4d
+		}
+		{
+			dependencies: [
+				"7BFE2B886541122D"
+			]
+			icon: {
+				id: "minecraft:campfire"
+			}
+			id: "A7762F2130849F60"
+			rewards: [{
+				id: "107B8ACAD2BA1DF2"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "641E038770EB8D94"
+				type: "checkmark"
+			}]
+			x: -2.6d
+			y: -3.3d
+		}
+		{
+			dependencies: [
+				"A7762F2130849F60"
+			]
+			icon: {
+				id: "cobblemon:master_ball"
+			}
+			id: "8F75E7250EAADE70"
+			rewards: [{
+				id: "32C670D47F0CEC29"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				id: "DBD9BC6D7F9A2108"
+				type: "checkmark"
+			}]
+			x: -4.8d
+			y: -3.3d
+		}
+		{
+			dependencies: [
+				"A7762F2130849F60"
+			]
+			icon: {
+				id: "cobblemon:great_ball"
+			}
+			id: "1246191707360186"
+			rewards: [{
+				id: "763F30926A4D0738"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				id: "39AEB080570F39F0"
+				type: "checkmark"
+			}]
+			x: -0.4d
+			y: -3.3d
 		}
 	]
 }

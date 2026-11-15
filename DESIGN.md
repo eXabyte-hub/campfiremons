@@ -277,7 +277,7 @@ Additions on top of the official pack. "1.8?" shows whether the addon's latest N
 | Mod | Why | 1.8? |
 |---|---|---|
 | KubeJS + Rhino | All our gating logic | ✅ |
-| FTB Quests / Library / Teams | Quest book, stage rewards | CurseForge-only, check packwiz download permission |
+| FTB Quests / Library / Teams | Quest book, stage rewards. Since v0.1.10 three groups [decided, F10]: **Guide** (Getting Started hub, Evolution, Poké Balls by stage, Battle Gimmicks, Gotta Find 'Em All: Pokédex milestones, archaeology and fishing, Artifacts), **Legends** (Legendary, Ultra Beasts, Paradox: one optional catch quest per species, real Pokémon icons through Cobblemon's `pokemon_model` item) and **Gym Challenge** (Stages 1–9 as hubs around each badge). Layout ideas came from screenshots of other packs; the art is our own (`tools/gen_quest_art.py`) | CurseForge-only, check packwiz download permission |
 | Cobblemon Quests Reloaded 2.0.2 | FTB Quests tasks for catch/defeat/evolve (replaces the 1.7-only "Cobblemon Quests") | ✅ |
 | Radical Cobblemon Trainers 0.19.2 + RCT API 0.16.2 | Trainers, gym leaders, League | 🟡 |
 | Radical Gyms & Structures 0.7 | World gyms 5–8 | ✅ |
@@ -322,6 +322,7 @@ Additions on top of the official pack. "1.8?" shows whether the addon's latest N
 | Client QoL [F10]: Mouse Tweaks, Jade, Controlling (+ Searchables), Zume | Inventory dragging, look-at info (Cobblemon shows species/level), keybind search, zoom. Zume instead of Zoomify (no NeoForge build). Sorting comes from Sophisticated Inventory Interactions (below); Inventory Profiles Next was removed [decided, F10] | n/a |
 | Performance [F10]: ModernFix 5.27.27, ImmediatelyFast 1.6.15 | Load time, memory and rendering, which the base pack left out (picked up from Cobblemon Plus+; FerriteCore already came with the base). ModernFix runs on the server too; ImmediatelyFast is client-only | n/a |
 | Advancement Plaques 1.6.8 (+ Iceberg) + Cobblemon Advancement Plaques 1.0.2 (resource pack, on by default) | Stage-ups and stage finds (both advancements with toasts) show as a Cobblemon-styled banner across the top of the screen instead of a corner toast. Client-only | n/a |
+| GraveStone Mod 1.0.40 (henkelmax, All Rights Reserved, from Modrinth) [F10] | Your items go into a grave where you die instead of scattering; Jade shows whose grave it is | n/a |
 | Waystones 21.1.46, Ping Wheel 1.12.2 [F10] | Fast travel between waystones you've found (some generate in villages); pings to mark spots and Pokémon for the group. From COBBLEVERSE | n/a |
 | Catch Indicator 3.1.1 (+ OS Cobblemon Library) [F10] | Wild Pokémon show whether you've caught their species. Client-only. From COBBLEVERSE | ✅ |
 | Cobblemon Pasture Loot 2.0.0 [F10] | Pastured Pokémon produce species-fitting items; with no vanilla farm animals, pastures are the farms. From COBBLEVERSE | ✅ |

@@ -2,17 +2,47 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "stage_5"
-	group: ""
+	group: "A878D9FAE9054E9D"
 	icon: {
 		id: "cobblemon:dusk_ball"
 	}
 	id: "0FC5609B33DF101F"
-	images: [ ]
-	order_index: 5
+	images: [
+		{
+			height: 1.6d
+			id: "F9BAE754492A8B0D"
+			image: "campfiremons:textures/quests/stage_5.png"
+			rotation: 0.0d
+			width: 8.54d
+			x: 0.0d
+			y: -6.2d
+		}
+		{
+			height: 1.5d
+			id: "79C322643BCA836A"
+			image: "mega_showdown:textures/gui/summary/tera_types/psychic.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -5.369999999999999d
+			y: -6.2d
+		}
+		{
+			height: 1.5d
+			id: "7CF0D41538E56339"
+			image: "mega_showdown:textures/gui/summary/tera_types/psychic.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 5.369999999999999d
+			y: -6.2d
+		}
+	]
+	order_index: 13
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["5AAE215A3FED46AB"]
+			dependencies: [
+				"5AAE215A3FED46AB"
+			]
 			icon: {
 				id: "cobblemon:dusk_ball"
 			}
@@ -52,7 +82,7 @@
 				}
 			]
 			shape: "gear"
-			size: 2.0d
+			size: 2.5d
 			tasks: [{
 				advancement: "campfiremons:stage/5"
 				criterion: ""
@@ -63,7 +93,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["3426FB3074FCED6C"]
+			dependencies: [
+				"3426FB3074FCED6C"
+			]
+			hide_dependency_lines: false
 			icon: {
 				id: "cobblemon:ultra_ball"
 			}
@@ -85,7 +118,7 @@
 				}
 			]
 			shape: "circle"
-			size: 1.0d
+			size: 1.25d
 			tasks: [{
 				abilities: ""
 				action: "catch"
@@ -115,11 +148,14 @@
 				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			x: 2.5d
-			y: 0.0d
+			x: -1.9d
+			y: -3.3d
 		}
 		{
-			dependencies: ["219C6B0EF7C308FF"]
+			dependencies: [
+				"3426FB3074FCED6C"
+			]
+			hide_dependency_lines: false
 			icon: {
 				id: "cobblemon:exp_candy_l"
 			}
@@ -141,7 +177,7 @@
 				}
 			]
 			shape: "circle"
-			size: 1.0d
+			size: 1.25d
 			tasks: [{
 				abilities: ""
 				action: "level_up_to"
@@ -171,11 +207,14 @@
 				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			x: 4.5d
-			y: 0.0d
+			x: 3.0d
+			y: 2.4d
 		}
 		{
-			dependencies: ["3426FB3074FCED6C"]
+			dependencies: [
+				"3426FB3074FCED6C"
+			]
+			hide_dependency_lines: false
 			icon: {
 				id: "rctmod:trainer_card"
 			}
@@ -205,16 +244,20 @@
 					type: "item"
 				}
 			]
-			shape: "circle"
-			size: 1.0d
+			shape: "diamond"
+			size: 1.25d
 			tasks: [{
 				id: "73570F380C761CE6"
 				type: "checkmark"
 			}]
-			x: 2.5d
-			y: 3.0d
+			x: -3.4d
+			y: 0.0d
 		}
 		{
+			dependencies: [
+				"3426FB3074FCED6C"
+			]
+			hide_dependency_lines: false
 			icon: {
 				id: "minecraft:compass"
 			}
@@ -235,17 +278,19 @@
 					type: "item"
 				}
 			]
-			shape: "circle"
-			size: 1.0d
+			shape: "diamond"
+			size: 1.25d
 			tasks: [{
 				id: "09F67FC6BC416D5E"
 				type: "checkmark"
 			}]
-			x: 4.5d
-			y: 3.0d
+			x: -1.9d
+			y: 3.3d
 		}
 		{
-			dependencies: ["3426FB3074FCED6C"]
+			dependencies: [
+				"3426FB3074FCED6C"
+			]
 			hide_dependency_lines: true
 			icon: {
 				id: "cobblemon:beast_ball"
@@ -293,7 +338,7 @@
 				id: "149535C7A92FCC69"
 				type: "advancement"
 			}]
-			x: 9.0d
+			x: 8.0d
 			y: 0.0d
 		}
 	]

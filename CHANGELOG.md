@@ -2,6 +2,20 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.10
+
+Already playing? Just press Play: the pack updates itself. Your quest progress carries over.
+
+- **A new quest book.** Every chapter is now a map around one big quest, with banners and art:
+  - **Guide:** Getting Started, Evolution (every stone and held item), Poké Balls (which balls each gym unlocks),
+    Battle Gimmicks (Mega, Z-Moves, Tera, Dynamax), Gotta Find 'Em All (Pokédex milestones, fossils, fishing) and
+    Artifacts.
+  - **Legends:** a catch checklist for every legendary, mythical, Ultra Beast and Paradox Pokémon, with their
+    models as icons.
+  - **Gym Challenge:** each stage's quests around its badge, with up-to-date directions to every gym.
+  - 21 quests that showed no title or text (the Welcome quest among them) have their text back.
+- **Graves:** when you die, your items wait in a grave where you fell.
+
 ## v0.1.9
 
 Nothing changes in game: just press Play as usual.

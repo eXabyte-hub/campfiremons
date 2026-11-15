@@ -1,13 +1,18 @@
 {
+	quest.134977A1494685F1.quest_desc: [
+		"&eBeast Balls&r and &eDream Balls&r work now."
+	]
+	quest.134977A1494685F1.quest_subtitle: "Catch an Ultra Beast or Paradox Pokémon"
+	quest.134977A1494685F1.title: "Beyond the Wormhole"
 	quest.21FDD3645BEC06AC.quest_desc: [
 		"You beat Koga. Ultra Beasts and Paradox Pokémon can be caught, and a Tera Orb turns up in structure chests: dungeons, temples, shipwrecks, ruins, strongholds and more."
 	]
 	quest.21FDD3645BEC06AC.quest_subtitle: "Stage 6 reached"
 	quest.21FDD3645BEC06AC.title: "Soul Badge"
 	quest.242F5963CF4C6819.quest_desc: [
-		"Blaine spawns in hot biomes: deserts, badlands, savannas."
-		""
-		"Gym leaders are RCT key trainers: they spawn near you in those biomes once you've beaten the key trainers before them. Gyms 1-4 will also live in the hub town."
+		"Blaine waits in the &eCinnabar Gym&r in the Nether."
+		"Type &a/gymmap&r for directions to the nearest one."
+		"You can also challenge Blaine in Cinnabar's gym in the Kanto cities: talk to them there."
 		""
 		"Your whole party must be at or under your level cap to battle."
 	]
@@ -34,9 +39,10 @@
 	]
 	quest.77BDF8BC23C0AC35.quest_subtitle: "Explore structure chests"
 	quest.77BDF8BC23C0AC35.title: "Find the Tera Orb"
-	quest.D3D6C99E71D40EC6.quest_desc: [
-		"&eBeast Balls&r and &eDream Balls&r work now."
+	quest.B09BC61D704436D6.quest_desc: [
+		"Rare wormholes lead to &eUltra Space&r, each home to one Ultra Beast. Before Stage 6 you're"
+		"sent straight back home."
 	]
-	quest.D3D6C99E71D40EC6.quest_subtitle: "Catch an Ultra Beast or Paradox Pokémon"
-	quest.D3D6C99E71D40EC6.title: "Beyond the Wormhole"
+	quest.B09BC61D704436D6.quest_subtitle: "Wormholes open from Stage 6"
+	quest.B09BC61D704436D6.title: "Ultra Space"
 }
