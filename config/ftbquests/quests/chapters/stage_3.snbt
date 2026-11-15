@@ -18,6 +18,7 @@
 			y: -6.2d
 		}
 		{
+			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Electric_(type)"
 			height: 1.5d
 			id: "492EBBD42DBAB2BC"
 			image: "mega_showdown:textures/gui/summary/tera_types/electric.png"
@@ -27,6 +28,7 @@
 			y: -6.2d
 		}
 		{
+			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Electric_(type)"
 			height: 1.5d
 			id: "4673C26C0111C908"
 			image: "mega_showdown:textures/gui/summary/tera_types/electric.png"

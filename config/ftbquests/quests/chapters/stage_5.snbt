@@ -18,6 +18,7 @@
 			y: -6.2d
 		}
 		{
+			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Psychic_(type)"
 			height: 1.5d
 			id: "067AC30B4A894238"
 			image: "mega_showdown:textures/gui/summary/tera_types/psychic.png"
@@ -27,6 +28,7 @@
 			y: -6.2d
 		}
 		{
+			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Psychic_(type)"
 			height: 1.5d
 			id: "3E341848960216D4"
 			image: "mega_showdown:textures/gui/summary/tera_types/psychic.png"

@@ -17,7 +17,7 @@ The builder still reads the original book's per-chapter `lang/en_us/` files and 
   (`dump.txt`, from a KubeJS dump on a test server) and species labels (`species_labels.json`). Refresh them after
   updating the mods involved.
 - Art: `tools/gen_quest_art.py` (banners and backgrounds).
-- `type_tooltips.py`: hover text for every type icon (`tera_types` images), from a type chart, written as `image.<id>.title` in `lang/en_us.snbt` (FTB shows an image's title as its tooltip). Re-run after adding type icons; safe to run on the live book (it only touches those keys).
+- `type_tooltips.py`: hover text for every type icon (`tera_types` images), from a type chart, written as `image.<id>.title` in `lang/en_us.snbt` (FTB shows an image's title as its tooltip), plus a Bulbapedia link as each icon's click action: FTB ignores the mouse over images without one, so their tooltips never show. Re-run after adding type icons; safe to run on the live book (it only touches those keys).
 
 New quest IDs are random on every rebuild, and in-game edits made after a rebuild are lost on the next one: port
 them into the builder first. Since v0.1.10 is live, a rebuild would also reset players' progress on every quest added

@@ -18,6 +18,7 @@
 			y: -6.6d
 		}
 		{
+			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Normal_(type)"
 			height: 0.85d
 			id: "2734EE940E3EB94B"
 			image: "mega_showdown:textures/gui/summary/tera_types/normal.png"
@@ -27,6 +28,7 @@
 			y: -9.0d
 		}
 		{
+			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Fire_(type)"
 			height: 0.85d
 			id: "22801A1CE1416EB6"
 			image: "mega_showdown:textures/gui/summary/tera_types/fire.png"
@@ -36,6 +38,7 @@
 			y: -9.0d
 		}
 		{
+			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Water_(type)"
 			height: 0.85d
 			id: "120EB0EDDD78AC0C"
 			image: "mega_showdown:textures/gui/summary/tera_types/water.png"
@@ -45,6 +48,7 @@
 			y: -9.0d
 		}
 		{
+			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Grass_(type)"
 			height: 0.85d
 			id: "201EC12C5E9271EC"
 			image: "mega_showdown:textures/gui/summary/tera_types/grass.png"
@@ -54,6 +58,7 @@
 			y: -9.0d
 		}
 		{
+			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Electric_(type)"
 			height: 0.85d
 			id: "3A8ABF33793C0E07"
 			image: "mega_showdown:textures/gui/summary/tera_types/electric.png"
@@ -63,6 +68,7 @@
 			y: -9.0d
 		}
 		{
+			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Ice_(type)"
 			height: 0.85d
 			id: "6B268F563810166E"
 			image: "mega_showdown:textures/gui/summary/tera_types/ice.png"
@@ -72,6 +78,7 @@
 			y: -9.0d
 		}
 		{
+			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Fighting_(type)"
 			height: 0.85d
 			id: "7F7C480F438A415F"
 			image: "mega_showdown:textures/gui/summary/tera_types/fighting.png"
@@ -81,6 +88,7 @@
 			y: -9.0d
 		}
 		{
+			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Poison_(type)"
 			height: 0.85d
 			id: "4A9710FB105901B6"
 			image: "mega_showdown:textures/gui/summary/tera_types/poison.png"
@@ -90,6 +98,7 @@
 			y: -9.0d
 		}
 		{
+			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Ground_(type)"
 			height: 0.85d
 			id: "0097A8BF190D33C8"
 			image: "mega_showdown:textures/gui/summary/tera_types/ground.png"
@@ -99,6 +108,7 @@
 			y: -9.0d
 		}
 		{
+			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Flying_(type)"
 			height: 0.85d
 			id: "10182CB34346C7E3"
 			image: "mega_showdown:textures/gui/summary/tera_types/flying.png"
@@ -108,6 +118,7 @@
 			y: -8.0d
 		}
 		{
+			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Psychic_(type)"
 			height: 0.85d
 			id: "41BCF4F7A5FA3C46"
 			image: "mega_showdown:textures/gui/summary/tera_types/psychic.png"
@@ -117,6 +128,7 @@
 			y: -8.0d
 		}
 		{
+			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Bug_(type)"
 			height: 0.85d
 			id: "4EFB1072DE14A081"
 			image: "mega_showdown:textures/gui/summary/tera_types/bug.png"
@@ -126,6 +138,7 @@
 			y: -8.0d
 		}
 		{
+			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Rock_(type)"
 			height: 0.85d
 			id: "544BE1A2E7AA1ED8"
 			image: "mega_showdown:textures/gui/summary/tera_types/rock.png"
@@ -135,6 +148,7 @@
 			y: -8.0d
 		}
 		{
+			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Ghost_(type)"
 			height: 0.85d
 			id: "6254DF984455225E"
 			image: "mega_showdown:textures/gui/summary/tera_types/ghost.png"
@@ -144,6 +158,7 @@
 			y: -8.0d
 		}
 		{
+			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Dragon_(type)"
 			height: 0.85d
 			id: "4AC7C2C55909D115"
 			image: "mega_showdown:textures/gui/summary/tera_types/dragon.png"
@@ -153,6 +168,7 @@
 			y: -8.0d
 		}
 		{
+			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Dark_(type)"
 			height: 0.85d
 			id: "73D9FC1A10ABAC97"
 			image: "mega_showdown:textures/gui/summary/tera_types/dark.png"
@@ -162,6 +178,7 @@
 			y: -8.0d
 		}
 		{
+			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Steel_(type)"
 			height: 0.85d
 			id: "1542FFC5D07FC831"
 			image: "mega_showdown:textures/gui/summary/tera_types/steel.png"
@@ -171,6 +188,7 @@
 			y: -8.0d
 		}
 		{
+			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Fairy_(type)"
 			height: 0.85d
 			id: "45B901903514D341"
 			image: "mega_showdown:textures/gui/summary/tera_types/fairy.png"

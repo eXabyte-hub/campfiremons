@@ -3,14 +3,16 @@
 
 FTB Quests 2101 shows an image's title as its tooltip, from `image.<id>.title` in lang/en_us.snbt. This writes one per
 type icon from the type chart below (the main-series chart since Gen 6, which Cobblemon uses), so attacking and
-defending matchups always agree. Re-run after adding type icons: `python3 tools/quest_book/type_tooltips.py`.
+defending matchups always agree. FTB only notices the mouse over an image that has a click action (unless you're
+editing the book), so each icon also opens its Bulbapedia type page when clicked; without one the tooltips never
+showed (v0.1.15). Re-run after adding type icons: `python3 tools/quest_book/type_tooltips.py`.
 """
 import re
 import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from snbt import parse  # noqa: E402
+from snbt import parse, dump  # noqa: E402
 
 Q = Path(__file__).resolve().parents[2] / 'config' / 'ftbquests' / 'quests'
 LANG = Q / 'lang' / 'en_us.snbt'
@@ -44,7 +46,8 @@ COLOR = {'normal': 'f', 'fire': 'c', 'water': '9', 'electric': 'e', 'grass': 'a'
 STELLAR = ['&d&lStellar&r &7(Terastal only)',
            'A Stellar Tera Pokémon keeps its own types when hit.',
            'The first move of each type it uses gets a one-time power boost.',
-           'Its Tera Blast is super effective on Terastallized Pokémon.']
+           'Its Tera Blast is super effective on Terastallized Pokémon.',
+           '&8Click for its Bulbapedia page']
 
 
 def names(types):
@@ -64,7 +67,14 @@ def tooltip(t):
     lines.append('&7Defending:')
     lines.append(f'&c  Weak to:&r {names(weak_to)}')
     lines.append(f'&a  Resists:&r {names(resists) or "nothing"}' + (f' &8(immune to {names(immune)})&r' if immune else ''))
-    return lines
+    return lines + CLICK
+
+
+CLICK = ['&8Click for its Bulbapedia page']
+
+
+def link(t):
+    return f'open_uri:https://bulbapedia.bulbagarden.net/wiki/{t.capitalize()}_(type)'
 
 
 def snbt_string(s):
@@ -77,10 +87,15 @@ def main():
     assert [sum(len(CHART[t][i]) for t in TYPES) for i in range(3)] == [51, 61, 8]
     titles = {}
     for f in sorted((Q / 'chapters').glob('*.snbt')):
-        for im in parse(f.read_text()).get('images', []):
+        text = f.read_text()
+        chapter = parse(text)
+        for im in chapter.get('images', []):
             m = re.search(r'tera_types/(\w+)\.png$', im['image'])
             if m:
                 titles[f'image.{im["id"]}.title'] = '\\n'.join(tooltip(m.group(1)))  # FTB splits titles on \n
+                im['click_action'] = link(m.group(1))
+        if dump(chapter) + '\n' != text:
+            f.write_text(dump(chapter) + '\n')
     text = LANG.read_text()
     lines = [l for l in text.splitlines() if not re.match(r'\timage\.[0-9A-F]{16}\.title: ', l)]
     first_quest = next(i for i, l in enumerate(lines) if l.startswith('\tquest.'))

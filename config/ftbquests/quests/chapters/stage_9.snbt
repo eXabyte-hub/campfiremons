@@ -18,6 +18,7 @@
 			y: -6.2d
 		}
 		{
+			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Stellar_(type)"
 			height: 1.5d
 			id: "56ADD2644DA4738F"
 			image: "mega_showdown:textures/gui/summary/tera_types/stellar.png"
@@ -27,6 +28,7 @@
 			y: -6.2d
 		}
 		{
+			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Stellar_(type)"
 			height: 1.5d
 			id: "765D79096A4A8813"
 			image: "mega_showdown:textures/gui/summary/tera_types/stellar.png"
