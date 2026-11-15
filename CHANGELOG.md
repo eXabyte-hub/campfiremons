@@ -6,9 +6,9 @@ Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/rel
 
 Already playing? Just press Play: the pack updates itself.
 
-- Far fewer spawn messages in chat: ultra-rare Pokémon and Alphas are no longer announced, and nothing is announced
-  when it despawns or faints. Legendaries, mythicals, Ultra Beasts, Paradox Pokémon and shinies still are. Spawn
-  rates haven't changed: they were always Cobblemon's normal ones.
+- No more spawn messages in chat: rare Pokémon spawning or despawning aren't announced any more. Catches still are:
+  everyone still sees when someone catches a legendary, a shiny, an ultra-rare, an Alpha and so on (or hatches or
+  revives one). Spawn rates haven't changed: they were always Cobblemon's normal ones.
 
 ## v0.1.7
 
