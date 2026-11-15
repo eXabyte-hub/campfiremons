@@ -2,6 +2,14 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.13
+
+Already playing? Just press Play: the pack updates itself.
+
+- **Rare Pokémon are rarer.** Rare, ultra-rare and Alpha spawns (Ditto, starters and their evolutions, Alpha herds
+  and more) turn up about a quarter as often in the wild. Fishing and Poké Snacks are unchanged.
+- **No Master Balls from loot balls.** The Master Loot Ball no longer gives Master Balls; the rest of its loot is the same.
+
 ## v0.1.12
 
 Nothing to do: just press Play as usual.

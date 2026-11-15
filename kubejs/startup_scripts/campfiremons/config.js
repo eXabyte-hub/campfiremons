@@ -54,7 +54,8 @@ global.campfiremonsConfig = {
     6: ['cobblemon:dream_ball', 'cobblemon:beast_ball'], // tier 4 balls
     // Stage 8 finds, but Cobbleloots, Raid Dens and Legendary Monuments loot can drop them earlier
     8: ['cobblemon:ability_capsule', 'cobblemon:ability_patch'],
-    // The Champion's reward; its recipe is removed, but Cobbleloots and the (post-game) Battle Tower shop have them.
+    // The Champion's reward; its recipe is removed and so is the Master Loot Ball's Master Ball
+    // (kubejs/data/cobbleloots), but the (post-game) Battle Tower shop and some chests still have them.
     // The Hisuian Origin Ball is the same guaranteed catch.
     9: ['cobblemon:master_ball', 'cobblemon:ancient_origin_ball'],
   },
