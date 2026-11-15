@@ -28,6 +28,8 @@ Ask whoever runs the server for the address and to be added to the whitelist, th
 
 - **Gyms are the progression.** Beating each Radical Red gym leader moves you to the next stage (8 gyms, then the
   Elite Four and Champion). The quest book has a chapter for every stage.
+- **You start in Pallet Town.** New worlds (and the server) put the spawn in the nearest Pallet Town, so that's
+  where you begin and where you come back to without a bed.
 - **Finding your next gym:** you get a map to it when you first join and after every gym win, with the distance and
   direction in chat. Lost it? Type `/gymmap`. The last three gyms are in the Nether and the End: you get directions
   once you're there.

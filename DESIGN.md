@@ -54,6 +54,9 @@ ATMons has no license, so we only study its approach (see §6).
   - The Elite Four and Champion Terry are back in the hub's **League** building.
   - The rival, Brendan/May and Team Rocket fights are RCT key trainers that spawn in the world; they raise the level cap but aren't stage gates.
 - Side chapters (not stage gates): Breeding, Raids, Legends, Create/Engineering, Economy.
+- **Spawn town** [decided, F10]: on a new world's first load, `spawn_town.js` moves the world spawn to the centre of
+  the nearest Pallet Town (CobbleTowns; structure tag `campfiremons:spawn_town`), so everyone starts and respawns
+  without a bed there. Runs once per world; a world over a minute old keeps its spawn, so existing worlds don't move.
 - **Gym maps** [decided, F10]: on first login, after every stage-up and with `/gymmap` (30 s cooldown), a player gets
   directions to the gym of their next stage (`config.js` `nextGym`, `gym_maps.js`): an explorer map with a red X
   for overworld gyms (loot tables `campfiremons:gym_map/<id>`, structure tags `campfiremons:gym/<id>`) plus distance,

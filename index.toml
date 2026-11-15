@@ -1074,6 +1074,10 @@ file = "kubejs/data/campfiremons/tags/worldgen/structure/gym/vermilion.json"
 hash = "831534a0484c9079315f5bdc94792bd54190e558eb2d3a22bc92e116074d18f4"
 
 [[files]]
+file = "kubejs/data/campfiremons/tags/worldgen/structure/spawn_town.json"
+hash = "4b73ca42c25b166ded3262577d7a15918fb124d2f68a1bfb296c7445cc0973e6"
+
+[[files]]
 file = "kubejs/data/campfiremons/worldgen/configured_feature/empty_cell.json"
 hash = "ea7264356b67359e9f9951341e916a724554c903a6f36b06e7da9ce7b44bbebe"
 
@@ -2076,6 +2080,10 @@ hash = "13c8df6de122fd82fc7294e1e88393b51793f65a2f2481c131c1eac499be6461"
 [[files]]
 file = "kubejs/server_scripts/campfiremons/removed_mobs.js"
 hash = "82a31e7780860d1805d84822171a350caf829035a00139f6282bf5dfc092ed7e"
+
+[[files]]
+file = "kubejs/server_scripts/campfiremons/spawn_town.js"
+hash = "b46202226ae101014d7a0f465368dac747bc400763ed4732de87f6f565d1b683"
 
 [[files]]
 file = "kubejs/server_scripts/campfiremons/ultra_space.js"
