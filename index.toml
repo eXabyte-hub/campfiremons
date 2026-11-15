@@ -4074,6 +4074,10 @@ file = "kubejs/server_scripts/campfiremons/cobblemon_settings.js"
 hash = "03bab97a5a95066d95d201bdd1bd09d484532c35ecce68d32bb64bc6c3e9e8d9"
 
 [[files]]
+file = "kubejs/server_scripts/campfiremons/creeper_explosions.js"
+hash = "a08d06669ac6dc0e48a9c69d46ec846ee76b8a9cca57f05673c645fe8022ba9f"
+
+[[files]]
 file = "kubejs/server_scripts/campfiremons/gimmick_items.js"
 hash = "6d30e37b13e7f6fc3d1ffa4d67829116a5f6e2327de07fe8ec62cacccf61ce70"
 

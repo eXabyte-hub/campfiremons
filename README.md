@@ -31,6 +31,7 @@ Ask whoever runs the server for the address and to be added to the whitelist, th
   evolution, Poké Balls, battle gimmicks, training, raids, archaeology and fishing), a checklist of every legendary,
   Ultra Beast and Paradox Pokémon, and chapters for the big mods (Create, Oritech, storage, relics, artifacts, gear).
 - **Dying** leaves a grave with your items where you fell: walk back and open it.
+- **Creepers** still explode and hurt, but don't break blocks.
 - **Farming:** right-click a grown crop to harvest it; it replants itself.
 - **You start in Pallet Town.** New worlds (and the server) put the spawn in the nearest Pallet Town, so that's
   where you begin and where you come back to without a bed.
