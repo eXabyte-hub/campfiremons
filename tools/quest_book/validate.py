@@ -16,6 +16,10 @@ for jar in glob.glob(MODS + '/*.jar'):
 for p in (Path(__file__).resolve().parents[2] / 'kubejs' / 'assets').rglob('*.png'):
     rel = p.relative_to(str(Path(__file__).resolve().parents[2] / 'kubejs' / 'assets')); textures.add(f'{rel.parts[0]}:{"/".join(rel.parts[1:])}')
 LANG = parse((Q / 'lang' / 'en_us.snbt').read_text())
+# FTB Quests reads &<code> as formatting; any other & ("Tools & Weapons") shows "Invalid formatting!" and must be \&
+for k, v in LANG.items():
+    for line in (v if isinstance(v, list) else [v]):
+        if re.search(r'(?<!\\)&(?![0-9a-fk-orA-FK-OR])', line): problems_lang = globals().setdefault('problems_lang', []); problems_lang.append(f'{k}: bare & in "{line[:60]}" (write \\&)')
 ids, quests, problems = collections.Counter(), {}, []
 chapters = {}
 for f in sorted((Q / 'chapters').glob('*.snbt')):
@@ -41,6 +45,7 @@ for name, ch in chapters.items():
     for l in ch.get('quest_links', []):
         if l['linked_quest'] not in quests: problems.append(f'{name}: link to missing {l["linked_quest"]}')
 dupes = [i for i, n in ids.items() if n > 1]
+problems += globals().get('problems_lang', [])
 # FTB Quests reads IDs as signed longs: one at or above 8000000000000000 gets a new random ID on every load, losing
 # its text, links and progress (half the v0.1.10 book did)
 problems += [f'id {i} is out of range (>= 8000000000000000)' for i in ids if int(i, 16) >= 1 << 63]

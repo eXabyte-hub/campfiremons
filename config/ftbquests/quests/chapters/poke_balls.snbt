@@ -1148,6 +1148,9 @@
 			y: 1.7d
 		}
 		{
+			dependencies: [
+				"534ACB982620E7AD"
+			]
 			icon: {
 				id: "cobblemon:master_ball"
 			}
@@ -1159,7 +1162,6 @@
 					xp_levels: 3
 				}
 				{
-					count: 4
 					id: "115643C8471E7BA3"
 					item: {
 						count: 1

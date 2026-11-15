@@ -502,7 +502,7 @@ hash = "1e76cc8c37dcdf4834977122d8ee1d112a700876b762af76676f2be93a52b4a2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/poke_balls.snbt"
-hash = "a300255ec126c1bd774aaee7f88f3ea4aba2cf13a432d7c1acb94bb97b30d933"
+hash = "764508b4ee6d78822aa4c4d1280b82e3f6a7efa696ef6afa3d4236f65590da7b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/raids.snbt"
@@ -574,7 +574,7 @@ hash = "520c41cea36c45c2c1eb854ed8d3b1c17a4c48fef620942245a88150890b0ec5"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "93bb619e61407f7d84e40bd71ecd3e35c0454f460ec12742e222342e64cd726d"
+hash = "56b56dc7d9c6c00e7c3e083206b524ba38c87859c91fd9edc0c3a2306fd965d7"
 
 [[files]]
 file = "config/spawn_notification.json"

@@ -2,6 +2,14 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.14
+
+Already playing? Just press Play: the pack updates itself.
+
+- **Quest book fixes.** "Tools & Weapons", "Home & Building", "Mods & Gear" and a few quest titles no longer show
+  "Invalid formatting!". The Master Balls quest now opens once you're Champion (holding one earlier no longer
+  completes it) and rewards one Master Ball instead of four.
+
 ## v0.1.13
 
 Already playing? Just press Play: the pack updates itself.

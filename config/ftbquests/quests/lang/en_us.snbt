@@ -12,7 +12,7 @@
 	chapter.3E835F136A14BF0D.title: "Stage 1: Boulder Badge"
 	chapter.43EFE69545BC64D2.title: "Create"
 	chapter.4924463815C0080A.title: "Stage 3: Thunder Badge"
-	chapter.4C1E395008304F19.title: "Home & Building"
+	chapter.4C1E395008304F19.title: "Home \\& Building"
 	chapter.5074FCAF2FDED64A.title: "Stage 8: Rising Badge"
 	chapter.59081332FCB85ABB.title: "Paradox"
 	chapter.71946AC2EF81681F.title: "Stage 4: Rainbow Badge"
@@ -23,11 +23,11 @@
 	chapter.0F387E05B8D30D84.title: "Evolution"
 	chapter.0F4607BFEA416CAA.title: "Artifacts"
 	chapter.1BF87B6D57D27EFA.title: "Raid Dens"
-	chapter.228F606C70C5B6E8.title: "Tools & Weapons"
+	chapter.228F606C70C5B6E8.title: "Tools \\& Weapons"
 	chapter.3CD69E0BCA31B368.title: "Gotta Find 'Em All!"
 	chapter.71880E9D1C82B6D7.title: "Legendary"
 	chapter_group.33ACE78A3A205CA0.title: "Gym Challenge"
-	chapter_group.505FA8BFD14418AE.title: "Mods & Gear"
+	chapter_group.505FA8BFD14418AE.title: "Mods \\& Gear"
 	chapter_group.24B00D10A1F005AB.title: "Legends"
 	chapter_group.502FAE08F3920C75.title: "Guide"
 	file.0000000000000001.title: "Campfiremons"
@@ -35,7 +35,7 @@
 		"These key trainers stand between you and the next gym:"
 		"&e- Boss Giovanni (Lv46)"
 		"&e- Rival Terry (Lv55)"
-		"&e- Rocket Admins Archer & Ariana (Lv55)"
+		"&e- Rocket Admins Archer \\& Ariana (Lv55)"
 		"&e- Boss Giovanni (Lv56)"
 		""
 		"Each one you beat raises your level cap. They spawn near you in their own biomes."
@@ -668,7 +668,7 @@
 	quest.68AF593FAA5AD863.quest_subtitle: "When you can catch them"
 	quest.68AF593FAA5AD863.title: "Legendaries by Stage"
 	quest.69A45FF172787957.quest_subtitle: "Around your neck"
-	quest.69A45FF172787957.title: "Necklace & Ring"
+	quest.69A45FF172787957.title: "Necklace \\& Ring"
 	quest.69AD611B45A6FE70.quest_desc: [
 		"With the &eTera Orb&r equipped, Terastallize a Pokémon in battle."
 	]
@@ -1001,7 +1001,7 @@
 	quest.289E4DF7A34B0207.title: "Heavy Ball"
 	quest.2A1701E1CEDBAB64.title: "Ancient Jet Ball"
 	quest.2A74791EB4D6FC5E.quest_subtitle: "Teach moves"
-	quest.2A74791EB4D6FC5E.title: "TMs & TRs"
+	quest.2A74791EB4D6FC5E.title: "TMs \\& TRs"
 	quest.2AD00011004159D0.quest_subtitle: "All four pieces"
 	quest.2AD00011004159D0.title: "Shiny Rayquaza Armor"
 	quest.2B4D8C7FB2F0D9F4.quest_subtitle: "Catchable from Stage 6"
@@ -1297,7 +1297,7 @@
 		"shape; &eBuilding Gadgets&r place hundreds of blocks at once. &eWaystones&r link your bases."
 	]
 	quest.6E598D9082BBF4A0.quest_subtitle: "Make your base yours"
-	quest.6E598D9082BBF4A0.title: "Home & Building"
+	quest.6E598D9082BBF4A0.title: "Home \\& Building"
 	quest.6F7120024909C17F.quest_desc: [
 		"Craft a Pokédex and scan Pokémon to fill in their entries, even the ones you haven't caught yet."
 	]
