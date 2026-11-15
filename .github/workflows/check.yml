@@ -24,6 +24,8 @@ jobs:
         run: |
           ~/go/bin/packwiz refresh
           git diff --exit-code -- index.toml pack.toml
+      - name: README mod list matches the pack
+        run: python3 tools/gen_modlist.py --check
       - name: KubeJS data and asset file names are valid resource paths
         run: |
           bad=$(find kubejs/data kubejs/assets -type f 2>/dev/null | sed 's|^kubejs/[a-z]*/||' | grep -E '[^a-z0-9_./-]' || true)

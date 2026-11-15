@@ -134,6 +134,8 @@ packwiz cf add <curseforge-slug>      # only if the mod isn't on Modrinth
 packwiz update <name>                 # bump one mod
 ```
 
+Then `python3 tools/gen_modlist.py` to refresh the mod list in README.md (CI fails while it's out of date).
+
 Resource packs we turn on by default (our `resourcepacks/` files and mods' built-in packs such as Cobblemon's
 Magikarp Jump and regional forms) are listed in `config/defaultoptions/options.txt` (`resourcePacks`, applied on a
 player's first launch; easiest to copy from the dev instance's `options.txt` after enabling them in game). After `packwiz update` renames one (e.g. the RCT trainer skins,
