@@ -550,7 +550,7 @@ hash = "e9a518d3457113955507520776f49e22e49ef5dfdcbaa228b4891942d6cd0b22"
 
 [[files]]
 file = "config/spawn_notification.json"
-hash = "a879f3d0705d82561d6f95599087ca7e82571eef440397c18d40cf5b39691f45"
+hash = "e6ac0ec7ee035c9b21a2b2657427322192b655b5d70956129cc17388fd777ed3"
 
 [[files]]
 file = "config/terralith.json"
