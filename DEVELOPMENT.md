@@ -66,9 +66,11 @@ Cobblemon Cities & Structures is pinned (it changes fast). After updating it, ch
 `kubejs/data/ccs/dialogues/generated/` and `kubejs/data/ccs/function/open_welcome.mcfunction` still match its file
 names, then re-run `tools/gen_structure_spacing.py`.
 
-Data packs from Modrinth go in `datapacks/` (`packwiz mr add`, with `datapack-folder = "datapacks"` in `pack.toml`):
-packwiz installs them into the game folder's `datapacks/`, and Open Loader loads that folder into every world, on
-clients and the server. KubeJS data still wins over them, so overrides go in `kubejs/data/` as usual.
+Data packs: Open Loader loads the game folder's `datapacks/` (packwiz puts Modrinth data packs there with
+`datapack-folder = "datapacks"` in `pack.toml`), but those packs rank **above** KubeJS data, so nothing in
+`kubejs/data/` can override them. A data pack we need to change is brought into `kubejs/data/` instead, with its
+licence notice, and its pristine zip kept in `tools/vendor/` (not shipped) so `tools/gen_structure_spacing.py` still
+sees its original structure sets. CobbleTowns: Continued is shipped this way.
 
 `tools/gen_structure_spacing.py` owns the structure placement under `kubejs/data/`: the shared
 `campfiremons:surface_structures` set and its empty cell, the `campfiremons:services` set
