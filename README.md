@@ -50,8 +50,10 @@ Ask whoever runs the server for the address and to be added to the whitelist, th
   off under **Options → Video Settings → Shader Packs**.
 - **Your own files are safe.** The updater only touches the pack's own files, so your settings, resource packs and
   shaders stay as you left them.
-- **Sorting:** hover over an inventory and press the sort key. Find or change it in Inventory Profiles Next's
-  settings (**Mods → Inventory Profiles Next → Config → Hotkeys**).
+- **Sorting and moving items:** every chest and your own inventory get search, sort and transfer buttons, and the
+  sort key sorts whatever is under your mouse (your hotbar stays as it is). Sophisticated Item Actions adds keys that
+  highlight nearby chests holding an item and deposit into or restock from them without opening anything. Find and
+  change the keys in **Options → Controls → Key Binds** (search "sophisticated").
 
 ---
 

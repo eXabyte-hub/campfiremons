@@ -549,10 +549,6 @@ file = "config/ftbquests/quests/lang/en_us/file.snbt"
 hash = "e9a518d3457113955507520776f49e22e49ef5dfdcbaa228b4891942d6cd0b22"
 
 [[files]]
-file = "config/inventoryprofilesnext/inventoryprofiles.json"
-hash = "65fa4f747c320a97b303c8c84fe1166e1fdae763431fb694e20967410e19ca1e"
-
-[[files]]
 file = "config/terralith.json"
 hash = "de592f6eb46c9b12150d3eb3ac704ddb816dc361fefa7a827619cb0f84e6d204"
 
@@ -2208,11 +2204,6 @@ hash = "391f5b0b0fcae3ce77be6ab211435228faec79cb92c50d69471c52ba36b139d6"
 metafile = true
 
 [[files]]
-file = "mods/inventory-profiles-next.pw.toml"
-hash = "ab503e89461dff879ee793253e173625b6ab868f570a371323ef725e567cf5ea"
-metafile = true
-
-[[files]]
 file = "mods/invmove.pw.toml"
 hash = "a246c345f9568f6b244d017c4201c6170b1ad54808c9c4799c146a0a794663aa"
 metafile = true
@@ -2280,11 +2271,6 @@ metafile = true
 [[files]]
 file = "mods/legendary-monuments.pw.toml"
 hash = "df45b7ccfbb50f10c9cc5e32d5ea6020346c45c5ebbc89ff5159f390bd5d7960"
-metafile = true
-
-[[files]]
-file = "mods/libipn.pw.toml"
-hash = "0d2a00252d64ed7d2d9b19994f7accb780304be61f3903d36e810714b414c6cb"
 metafile = true
 
 [[files]]
@@ -2513,13 +2499,43 @@ hash = "2a001cdb3d5ac4970d422914083c27380eba8ebd40dfd435754fe6566ba78beb"
 metafile = true
 
 [[files]]
+file = "mods/sophisticated-backpacks-create-integration.pw.toml"
+hash = "62763719713397981d04896274e48579e8d425d23bf2f1999184072aea53e193"
+metafile = true
+
+[[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
 hash = "882a37f53c24ebad93b2fcd5feb972154f9c6df42d94e4b9282edfdafe595f41"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "9232af6b6fbd3a78bdcb640168966a36be6305f24bd2058f9e46c4fc1c8cb6bc"
+hash = "37d7f4f675745426675aca481229e26706c4d9196db009070e27ce5c2db3563c"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-inventory-interactions.pw.toml"
+hash = "4656eed3663eb71d5e6970392d77511642bd239dbe7cced276c9f8687120c931"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-item-actions.pw.toml"
+hash = "76e72e29ad11d26e0e7b2377d836060b29a623504812b93b9a5b4fa48d83322f"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-storage-create-integration.pw.toml"
+hash = "3d71ac9484fbf77d941c272d87ccd7c9e87364574a167c338b7bcacd1e1063f6"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-storage-in-motion.pw.toml"
+hash = "ad8578b80fa7acd34676059f0eb1bf8b7ae30da9512bb3b24928260ea8f430b2"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-storage.pw.toml"
+hash = "0f41c917f1091923bb27756879c51da6436fa660d66857be4523cc78ef5c0833"
 metafile = true
 
 [[files]]
