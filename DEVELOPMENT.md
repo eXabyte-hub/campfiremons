@@ -228,7 +228,9 @@ JVM through NeoForged's ServerStarterJar, so the memory the host gives Java goes
    - Stop the server and set, in that file, `botToken` under `[botConfig]` and `chatChannelID` under
      `[channelsAndWebhooks.channels]` (plus `eventsChannelID` to put joins, deaths and advancements in a channel of
      their own). Start the server: SDLink encrypts the token in the file on first load and prints an invite link in
-     the console; open it to add the bot to the Discord server.
+     the console; open it to add the bot to the Discord server, then run `reloadbot` in the console (or restart).
+     A bot that logged in before it was in the Discord server never gets ready and drops messages ("Tried to
+     relay discord message before bot is ready"); this happened on the live server on 2026-11-15.
    - The token is the bot's password: never commit it or paste it anywhere else. If it leaks, Reset Token in the
      portal and put the new one in the file.
 
