@@ -285,7 +285,7 @@ Additions on top of the official pack. "1.8?" shows whether the addon's latest N
 | Navas ZA Megas 1.8.2 | Legends Z-A megas; adds Accessories, owo-lib and Architectury. Kept if it launches cleanly with Mega Showdown 1.3.3 | 🟡 |
 | PokeBadges 2.0 | Physical badges: each stage advancement hands out its Radical Red gym badge (Badge Box at Stage 1) | 🟡 |
 | Cobblemon Capture XP | EXP for catching | ✅ |
-| Cobblemon Spawn Notification | Server-wide legendary/shiny spawn broadcast | ✅ |
+| Cobblemon Spawn Notification | Server-wide broadcast of legendary, mythical, Ultra Beast, Paradox and shiny spawns, fishing, hatching and captures. Out of the box it also announced every ultra-rare and Alpha (Cobblemon 1.8.4's own odds: 0.2% and 0.3% of wild spawns, plus each member of a group spawn) and each one's despawn or faint, which flooded chat; `config/spawn_notification.json` turns those situations off [decided, F10]. Spawn odds themselves are Cobblemon's defaults (`best-spawner-config.json`, untouched) | ✅ |
 | Cobblemon: SafePastures | Pastured mons can't die (Cobbleworkers) | ✅ |
 | Catch Rate Display | Client-only catch-chance UI | ✅ |
 | Cobblemon Battle Extras | Battle UI QoL | 🟡 |

@@ -2,6 +2,14 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.8
+
+Already playing? Just press Play: the pack updates itself.
+
+- Far fewer spawn messages in chat: ultra-rare Pokémon and Alphas are no longer announced, and nothing is announced
+  when it despawns or faints. Legendaries, mythicals, Ultra Beasts, Paradox Pokémon and shinies still are. Spawn
+  rates haven't changed: they were always Cobblemon's normal ones.
+
 ## v0.1.7
 
 Nothing changes in game: just press Play as usual.

@@ -549,6 +549,10 @@ file = "config/ftbquests/quests/lang/en_us/file.snbt"
 hash = "e9a518d3457113955507520776f49e22e49ef5dfdcbaa228b4891942d6cd0b22"
 
 [[files]]
+file = "config/spawn_notification.json"
+hash = "42484a40f01be652152ce171f0b606968dc595c4097fd8387371dcc695b6638e"
+
+[[files]]
 file = "config/terralith.json"
 hash = "de592f6eb46c9b12150d3eb3ac704ddb816dc361fefa7a827619cb0f84e6d204"
 
