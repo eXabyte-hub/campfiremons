@@ -446,7 +446,7 @@ hash = "70074e17491ae047e10c5a80458bf885c4ce8957bc27681a3b9db81a9f82975e"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "50380369a091116dad52e3728b443acd3bfacb713be600c6746508fc98f9b151"
+hash = "da5e8060020ffb9afdbfe3a6a08c3b3236f6e2d286cad53be402a79ac9874e38"
 
 [[files]]
 file = "config/fancymenu/options.txt"
@@ -553,6 +553,11 @@ file = "config/terralith.json"
 hash = "de592f6eb46c9b12150d3eb3ac704ddb816dc361fefa7a827619cb0f84e6d204"
 
 [[files]]
+file = "datapacks/cobblemotion.pw.toml"
+hash = "aeee4802fdf7c4dcef05b00614f5f92299a1e1f47961d761bbde2d4d19c8e9ac"
+metafile = true
+
+[[files]]
 file = "defaultconfigs/rctmod-server.toml"
 hash = "b40eaa776bd701e4e1538b3783bcf9e1754cfd467180689afaac86f4fc6df5fa"
 
@@ -567,6 +572,10 @@ hash = "9238110186327b552334a6050ccd7374e33535c7f06182f9e92ea414f4cd35e4"
 [[files]]
 file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0059_arcanine/arcanine_hisuian.animation.json"
 hash = "10bd70204eb427bae0f171a065dfce5ff75d833daaaeb585693f4322a6cfa114"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0088_grimer/grimer_alolan.animation.json"
+hash = "1e7800333023ab8c882656cdecfbd1f9140ccea9c77173efb45efc94db37bb48"
 
 [[files]]
 file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0144_articuno/articuno.animation.json"
@@ -681,10 +690,6 @@ file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0718_zygarde/zygarde_
 hash = "6ac377259d204814a7f53c7f0d6bab82dc587f87d94fe3af1e56d42708f68311"
 
 [[files]]
-file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0724_decidueye/decidueye.animation.json"
-hash = "8f5895284241391c1757b68b8c172dad9fdfc957f81d2ba406a2981b43b24dd6"
-
-[[files]]
 file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0823_corviknight/corviknight.animation.json"
 hash = "dafbcd7f33b8ce1a78cf664b4ec074389c8172822eeeb862e36944f5f2c6a901"
 
@@ -733,14 +738,6 @@ file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/1006_ironvaliant/iron
 hash = "97032af6b98fb149e4359850a57a9d6cbec17161ac13d4376d0dac56bf96f613"
 
 [[files]]
-file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/blacephalon/blacephalon.animation.json"
-hash = "fb4b4a73ae9abe748e9d9915d73c496d6a9c347a55b22a7920bdb93192ca8f9f"
-
-[[files]]
-file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/buzzwole/buzzwole.animation.json"
-hash = "72a6a9194cb9d5d093e3ce7bc2fbcad114c05a815ad7ba1e398cf30e85a486b1"
-
-[[files]]
 file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/campfiremons_placeholders/darumaka_galarian.animation.json"
 hash = "c797e3ea6a8d4f9135c6a7171ebfb4d07459f9cc81a4f637040d3c658e6e2c27"
 
@@ -753,16 +750,56 @@ file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/campfiremons_placehol
 hash = "ffa385242f9c2f7a9f8d88aac806d3c91df34bad33ddd8934bbbc18f064a6662"
 
 [[files]]
-file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/kartana/kartana.animation.json"
-hash = "c879bcb4a0bb57d67e96617c3da9bc0fa0b58127a4dd24549e5bce033f14c6d2"
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/decidueye/decidueye.animation.json"
+hash = "8f5895284241391c1757b68b8c172dad9fdfc957f81d2ba406a2981b43b24dd6"
 
 [[files]]
-file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/pheromosa/pheromosa.animation.json"
-hash = "c6bff82446c63378e283274abb09e7b30689acee81e06f5ad9efd8cb6a667aa6"
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/decidueye/decidueye_hisuian.animation.json"
+hash = "c69237688356005cd035d93187ab6cc794e769eee0f0ccb7b9a6f8e92517c335"
 
 [[files]]
-file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/stakataka/stakataka.animation.json"
-hash = "904a6b152d1b3039b3ff45a10ced11a36bb7714778371d0eb17ea02bdc86363e"
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/emboar/emboar.animation.json"
+hash = "6ec1464ecd2f91058110b270659c84063cfee3c262e521b81e444a73a68171cf"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/kommo-o/kommo-o.animation.json"
+hash = "7a2b701e908f50343290aab70a60f91313dfcec9a5361211c5374f191fd02086"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/primarina/primarina.animation.json"
+hash = "522fb0634061e3052e1ba6150340d73ddd86cf96bd69d7133dafe9a967ec4197"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/salazzle/salazzle.animation.json"
+hash = "67709edc3f6a1ef0e3699d4a61969ea4e0e5d906abba0ba6d4c95ccc34a9c6fe"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/sceptile/sceptile.animation.json"
+hash = "8285b91acf260e4be8fd197a211f0488562b9c317394493630c69fdddc2f5e7b"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/weezing/weezing_galar.animation.json"
+hash = "cf655ed9c79eff70425f30f2ff08cde0665d49248c5ed6af954b9ebe0468fab3"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/posers/decidueye.json"
+hash = "e735d94fd7c3509fbf6b5ac5b7d67d43612e12c468d278b004aeda7078748bd3"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/posers/emboar.json"
+hash = "7455cf840e4518a8f4c70cc0f0c8953c58187150280f88a83d46fecc2d14602e"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/posers/primarina.json"
+hash = "39b2c94f9000247bad7842e9cedb3449d5bbd7e8f9d9b707f527b822f01216a9"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/posers/sceptile.json"
+hash = "a3685295542767894cb39ab6f4a7a4b2c49b38e36193251a39d9ea69c56f97c4"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/posers/weezing_galar.json"
+hash = "b394bdd2bded04b915437b1f04cc8212cf40fc40323b5a59f48ea026233ddfdc"
 
 [[files]]
 file = "kubejs/client_scripts/README.txt"
@@ -4548,6 +4585,11 @@ hash = "eb0b5f269171cd5b891d9bdf2c5da89698e21a71ffec1172ead75bc19411cbdc"
 metafile = true
 
 [[files]]
+file = "resourcepacks/cobblefolk-skin-pack.pw.toml"
+hash = "52722c0c39d09c9b45cc05d9a73f443b0229e1067daad90afc0a5a031f71cea6"
+metafile = true
+
+[[files]]
 file = "resourcepacks/cobblemon-advancement-plaques.pw.toml"
 hash = "257115bf458879898651570e4ac99e9fa9a70b1675ab8cfca7b2a01b2d296494"
 metafile = true
@@ -4555,6 +4597,11 @@ metafile = true
 [[files]]
 file = "resourcepacks/cobblemon-pasture-enhanced.pw.toml"
 hash = "1b803dd34c7686e35c73dc68feeef750bb05e4ef2582a84bb5f51b28a6c52cf1"
+metafile = true
+
+[[files]]
+file = "resourcepacks/cobblemotion.pw.toml"
+hash = "be70ee40b992071e81b9a0cdb81293c57fc2e86a0390ce1e84a47ad2b415edf1"
 metafile = true
 
 [[files]]

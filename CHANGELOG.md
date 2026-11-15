@@ -22,11 +22,14 @@ Pokémon music, below). New cities only show up in parts of the world you haven'
   asks first: leave **CobbleSounds Soundtrack** ticked to get it, or untick it to keep Minecraft's music.
 
 **Looks**
+- About 200 Pokémon have new idle, walking and attack animations (CobbleMotion), and walk at speeds that
+  match. Wigglytuff can now fly and Togepi can ride on your shoulder.
+- Villagers look like people from the Pokémon games, Nurse Joy included (CobbleFolk).
 - **Distant Horizons** draws terrain far past your render distance. On a weaker PC, turn it down or off with its
   button in **Options → Video Settings**.
 
-If you already play, turn the **CobbleSounds** packs on in **Options → Resource Packs** (new installs get them on
-automatically).
+If you already play, turn on the **CobbleSounds** packs, **CobbleFolk Skin Pack** and **Cobblemotion** in
+**Options → Resource Packs** (new installs get them on automatically).
 
 ## v0.1.4
 

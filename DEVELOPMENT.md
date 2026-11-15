@@ -55,9 +55,17 @@ Master Ball); re-run it after updating CobbleDollars.
 `tools/gen_animation_fixes.py` owns `kubejs/assets/cobblemon/bedrock/pokemon/animations/`. Mods that replace
 Cobblemon's Pokémon files (CCC's animations, Mega Showdown's poses) can leave a winning pose asking for an animation
 its group doesn't have, which crashes the client when it plays. The tool rebuilds those groups (missing animations
-restored from a lower-priority copy, or empty placeholders) and checks none are left. It reads the resource order
-from the dev instance's `logs/latest.log`, so launch the dev instance, then re-run it after updating Cobblemon, CCC,
-Mega Showdown or any other Pokémon model mod.
+restored from a lower-priority copy, or empty placeholders) and checks none are left. It reads the mods' resource
+order from the dev instance's `logs/latest.log` and the resource packs' from `config/defaultoptions/options.txt`,
+so sync the dev instance (and launch it once after adding a mod), then re-run it after updating Cobblemon, CCC,
+Mega Showdown, CobbleMotion or any other Pokémon model mod or pack. Sources in its `NO_COPY` list (CobbleMotion: All
+Rights Reserved) are never copied: a Pokémon whose broken group comes from one goes back to its previous files, and
+the tool checks that no written file carries their content.
+
+CobbleMotion is one Modrinth file used twice: `resourcepacks/cobblemotion.pw.toml` (client) and
+`datapacks/cobblemotion.pw.toml` (both sides, for its species additions); update both. `packwiz mr add` with
+`--meta-folder resourcepacks` also added its Cobblemon dependency as `resourcepacks/cobblemon.pw.toml`: check for and
+delete strays like that after adding anything with dependencies.
 
 `tools/gen_drops.py` owns every `species_additions` file under `kubejs/data/` (drop fixes for mods that replace
 Pokémon drop tables, plus egg drops). Re-run it after updating Cobblemon or any mod that ships species_additions.

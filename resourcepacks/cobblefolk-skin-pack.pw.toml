@@ -1,0 +1,13 @@
+name = "CobbleFolk Skin Pack"
+filename = "CobbleFolk Skin Pack (for 1.6).zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/FTbFC6tW/versions/sBiH6YEO/CobbleFolk%20Skin%20Pack%20%28for%201.6%29.zip"
+hash-format = "sha512"
+hash = "c7e1c9484edefbc0b9541987a4381d96006d9d4d8eb9eaf59440bdb8289716bbbfe1ab957fdf8ba7d2c63cfe360812f0442161f19e26eed6620b1c9e960b6dc0"
+
+[update]
+[update.modrinth]
+mod-id = "FTbFC6tW"
+version = "sBiH6YEO"

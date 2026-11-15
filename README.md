@@ -49,6 +49,8 @@ Ask whoever runs the server for the address and to be added to the whitelist, th
   let you teleport between the ones you've found, and Ping Wheel marks a spot or a Pokémon for your friends.
 - **Pokémon at home:** Pokémon in a pasture produce items (wool, eggs and more), and wild Pokémon show whether
   you've caught their species yet. Your PC has 60 boxes.
+- **Livelier Pokémon and towns:** about 200 Pokémon get new idle, walking and attack animations (CobbleMotion),
+  and villagers look like people from the Pokémon games, Nurse Joy included (CobbleFolk).
 - **Sounds:** Pokémon battle themes for wild, trainer and PvP battles, the games' cries, and Pokémon music for every
   biome, the title screen, the Nether and the End (CobbleSounds).
 - **Side activities:** Raid Dens open star by star as you progress, the Battle Tower opens at Stage 4, Ultra Space at
