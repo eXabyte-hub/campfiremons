@@ -1,0 +1,41 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.origindialga.blink": {
+   "animation_length": 0.05,
+   "bones": {}
+  },
+  "animation.origindialga.cry": {
+   "animation_length": 0.05,
+   "bones": {}
+  },
+  "animation.origindialga.faint": {
+   "animation_length": 0.05,
+   "bones": {}
+  },
+  "animation.origindialga.ground_idle": {
+   "animation_length": 0.05,
+   "bones": {}
+  },
+  "animation.origindialga.ground_walk": {
+   "animation_length": 0.05,
+   "bones": {}
+  },
+  "animation.origindialga.physical_attack": {
+   "animation_length": 0.05,
+   "bones": {}
+  },
+  "animation.origindialga.recoil": {
+   "animation_length": 0.05,
+   "bones": {}
+  },
+  "animation.origindialga.special_attack": {
+   "animation_length": 0.05,
+   "bones": {}
+  },
+  "animation.origindialga.status": {
+   "animation_length": 0.05,
+   "bones": {}
+  }
+ }
+}

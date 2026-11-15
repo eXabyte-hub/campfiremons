@@ -562,6 +562,214 @@ file = "defaultconfigs/rctmod-server.toml"
 hash = "b40eaa776bd701e4e1538b3783bcf9e1754cfd467180689afaac86f4fc6df5fa"
 
 [[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0018_pidgeot/pidgeot_mega.animation.json"
+hash = "958bc02325849a1e763dceb2476939ba758c788d1500b7c6d241528161089d64"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0036_clefable/clefable_mega.animation.json"
+hash = "9238110186327b552334a6050ccd7374e33535c7f06182f9e92ea414f4cd35e4"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0059_arcanine/arcanine_hisuian.animation.json"
+hash = "10bd70204eb427bae0f171a065dfce5ff75d833daaaeb585693f4322a6cfa114"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0144_articuno/articuno.animation.json"
+hash = "f4b7f203165d58bb9df7ed140029cc6913b6d1177b8f77b49728a4547885b300"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0144_articuno/articuno_galarian.animation.json"
+hash = "4edb0dc96c8a2457e26af7fb5b36c1aefb79e1ec59a1643e01289bc1610562cf"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0145_zapdos/zapdos_galarian.animation.json"
+hash = "a4636ebae46895ea0617c784baf8d105365a1ee93ec01ecb6610127bf37e5915"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0146_moltres/moltres.animation.json"
+hash = "81732ab966424788ac4f56e2f4adc0b3ab8574db61ee2c08677aa3c43323d93d"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0146_moltres/moltres_galarian.animation.json"
+hash = "3522ce033f76588a574c64b0f116ee7f963c2a8c6c17ca8a911cee4312131d3e"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0150_mewtwo/mewtwo_x.animation.json"
+hash = "4d67fd38623f98976fac15b5de320d3332d9777c8eb2fe1061059375a81f11ee"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0244_entei/entei.animation.json"
+hash = "60ba39b1edc9ec72c73842dcc2c664d4784abfdf33c7cc75874c0fd68f264fa5"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0254_sceptile/sceptile_mega.animation.json"
+hash = "698b802158e1911388ecf62a567a1c9ebc0ca892ff79de5c51623361df8b076c"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0317_swalot/swalot.animation.json"
+hash = "06f2265cbfefd4e491a33c8a790918ac80980e8a04f3e1ac5930202b45cbc20c"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0382_kyogre/kyogreprimal.animation.json"
+hash = "a8525a026f3a1673496753a4aff37450821226ebf7cf4a7e33ae7351e0552ffa"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0383_groudon/groudon.animation.json"
+hash = "5d3bd54a3d147998123e99b9087b68c03a6c9e1e062893eb293bdfb1d589a70b"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0383_groudon/groudonprimal.animation.json"
+hash = "c56c0a6d3f831c0521ef3efd527ce06aef07a57d7588e25cca3d63db9a0c57b1"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0384_rayquaza/megarayquaza.animation.json"
+hash = "05ea3673bf7eceaeea3363e44a1a8a994d85b8fbe34703f8a691dcd8a487e918"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0384_rayquaza/rayquaza.animation.json"
+hash = "eef192e4060061e3e35499889c00675ee6aacbb29ce9bea43e4c5cbe6a32bc7d"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0447_riolu/riolu.animation.json"
+hash = "b2d30efed6c0ccf8b38638d393891b6b42439b1717547e37d0293cce8ab0de49"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0448_lucario/lucario.animation.json"
+hash = "7978fbc32b124a4cd77491e29e6f8fc53538472fdadafa66be6ee1b9659bd807"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0478_froslass/froslass_mega.animation.json"
+hash = "2bca2b5350e46c5de3901baa49ff27bf6d89257a4619fd3b66bfaace6ceb2939"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0545_scolipede/scolipede_mega.animation.json"
+hash = "715e871bb64a28d0aba53d7357a0e41d741f123e87f1b63b115f8bfbf49e66d6"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0590_foongus/foongus.animation.json"
+hash = "7b5ff3eec4386bde4e3602fd59d6bdce7aa062ec118aecb0f728f5ba2e3ccd90"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0609_chandelure/chandelure_mega.animation.json"
+hash = "86cbfe8412e774463fd4914947b6d78acc7882e847531206acdaebc7d0a17611"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0641_tornadus/pokemans_tornadus.animation.json"
+hash = "d73a5909e89da97c21fa49843220dc20a05ae9386f0757ef5333788b8451d404"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0642_thundurus/pokemans_thundurus.animation.json"
+hash = "106b0eeee2e1aa1b9da229167b4f34a9c1405caffc4f5171f20b4a3ce49d41e3"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0645_landorus/pokemans_landorus.animation.json"
+hash = "b8df59d29baea7d7479cff8ec203177b2f05323514a5f150efdeaa0bf15ef11d"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0646_kyurem/kyurem.animation.json"
+hash = "185124ade9acbb67307d819160f258396082cdf41b27d4e78d35a530a5b8f23c"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0646_kyurem/kyuremblack.animation.json"
+hash = "07968e7a69b4096f823cb0164db9545de500d8142a244b9ca06f131ffc90f6ea"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0646_kyurem/kyuremwhite.animation.json"
+hash = "21fd47dd1328dc8a7fd5f5844910479346c6ff3ca0351183269a9d0b5f9cb976"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0701_hawlucha/hawluchamega.animation.json"
+hash = "0a953f53bb40ce1b4d291cc22ece91fe10bc338a578d66a5e5ffaf24c6bd5979"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0718_zygarde/zygarde_complete.animation.json"
+hash = "6ac377259d204814a7f53c7f0d6bab82dc587f87d94fe3af1e56d42708f68311"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0724_decidueye/decidueye.animation.json"
+hash = "8f5895284241391c1757b68b8c172dad9fdfc957f81d2ba406a2981b43b24dd6"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0823_corviknight/corviknight.animation.json"
+hash = "dafbcd7f33b8ce1a78cf664b4ec074389c8172822eeeb862e36944f5f2c6a901"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0859_impidimp/impidimp.animation.json"
+hash = "2b2c8760965a8d7dddabc14e1fcc030996354af822a13ecc83666923a4649e40"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0860_morgrem/morgrem.animation.json"
+hash = "35632b0e8c126918100191c32fb960372790b862849f2f3ae3160801d055dfea"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0861_grimmsnarl/grimmsnarl.animation.json"
+hash = "dc94ac4a9c9082043ee70eb0058a50194b8be5422318df5b610a341f8a5ed54e"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0892_urshifu/pokemans_urshifurs.animation.json"
+hash = "8255c41a946e764a3cba6262237a74e436c69a74849465992d6cf3bcd7acdbe0"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0901_ursaluna/ursaluna_bloodmoon.animation.json"
+hash = "86104964fbf82c1aff6c8d4abc66698934b992e5f3d706990d3e2ef7d36c411d"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0921_pawmi/pawmi.animation.json"
+hash = "a794dd5f4f50ea46a462dbf5e85916825348d59e34ecd0b9dbeb8d627a891088"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0922_pawmo/pawmo.animation.json"
+hash = "2d8381ba547420be69b2c304423502765ed9a27faa6fb7757122e82a0355abc9"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0923_pawmot/pawmot.animation.json"
+hash = "d70d5a849b26fbecfdb5f53b787a486dacf97dea13016351de133c5132cde478"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0993_ironjugulis/ironjugulis.animation.json"
+hash = "6a7d7cc062703ec87031a9f1105ab934a0e186b8efc4ce69338c0968a562fc7d"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/0995_ironthorns/ironthorns.animation.json"
+hash = "b286e8b10a3c6f59cf4ee73dfa6f787890935a0844b38ecea0d00b640ed6cdf8"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/1006_ironvaliant/ironvaliant.animation.json"
+hash = "97032af6b98fb149e4359850a57a9d6cbec17161ac13d4376d0dac56bf96f613"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/blacephalon/blacephalon.animation.json"
+hash = "fb4b4a73ae9abe748e9d9915d73c496d6a9c347a55b22a7920bdb93192ca8f9f"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/buzzwole/buzzwole.animation.json"
+hash = "72a6a9194cb9d5d093e3ce7bc2fbcad114c05a815ad7ba1e398cf30e85a486b1"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/campfiremons_placeholders/darumaka_galarian.animation.json"
+hash = "c797e3ea6a8d4f9135c6a7171ebfb4d07459f9cc81a4f637040d3c658e6e2c27"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/campfiremons_placeholders/mewtwo_mega_x.animation.json"
+hash = "9879b35d7629d27121bf81335f2de5708dd13e5a29633d9139c1d17b37048d81"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/campfiremons_placeholders/origindialga.animation.json"
+hash = "ffa385242f9c2f7a9f8d88aac806d3c91df34bad33ddd8934bbbc18f064a6662"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/kartana/kartana.animation.json"
+hash = "c879bcb4a0bb57d67e96617c3da9bc0fa0b58127a4dd24549e5bce033f14c6d2"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/pheromosa/pheromosa.animation.json"
+hash = "c6bff82446c63378e283274abb09e7b30689acee81e06f5ad9efd8cb6a667aa6"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/stakataka/stakataka.animation.json"
+hash = "904a6b152d1b3039b3ff45a10ced11a36bb7714778371d0eb17ea02bdc86363e"
+
+[[files]]
 file = "kubejs/client_scripts/README.txt"
 hash = "8ee117ea4692da8eb01d6f1819019cc775fc16c8056838d9b9bf21fbbfeeddd3"
 
