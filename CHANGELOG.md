@@ -2,6 +2,45 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.4
+
+Already playing? Just press Play: the pack updates itself. A few things below only show up in a **new world**.
+
+**Getting around**
+- New worlds start you in **Pallet Town**, and that's where you come back to without a bed.
+- **Gym maps:** you get a map to your next gym when you first join and after every gym win, with the distance and
+  direction in chat. Lost it? Type `/gymmap`.
+- **Brock's gym** (Pewter) now generates far more often and in any land biome, so the first gym is usually a short
+  trip away.
+- **Waystones** for fast travel between the ones you've found, and **Ping Wheel** to mark a spot or a Pokémon for
+  your friends.
+
+**Out in the world**
+- Seven **Pokémon towns** (Pallet, Lavender, Cherrygrove, Pacifidlog, Twinleaf, Floaroma, Lentimas) with their own
+  Pokécenters, Pokémarts and Pokémon.
+- Pokémon in a pasture now produce items (wool, eggs and more), and wild Pokémon show whether you've already caught
+  their species.
+- Your PC has 60 boxes (new PCs).
+
+**Storage and sorting**
+- Sorting now comes from the Sophisticated mods: search, sort and transfer buttons on every chest and your own
+  inventory, and the Sophisticated sort key. Inventory Profiles Next is gone.
+- **Sophisticated Storage**: tiered chests, barrels and shulker boxes with upgrades, also on minecarts, boats and
+  Create contraptions (backpacks too). New keys can highlight nearby chests that hold an item and deposit into or
+  restock from them.
+
+**Looks and performance**
+- **Faithful 32x** replaces Stay True, plus connected glass and a matching AppleSkin overlay.
+- Gym stage-ups and stage finds now show as a big Cobblemon-styled banner.
+- Faster loading and rendering (ModernFix, ImmediatelyFast), and the server is protected from a few crash and
+  disconnect bugs.
+- Fixed crashes when some Pokémon (Lucario and about 50 others) played certain animations.
+
+If you already play, update your resource packs in **Options → Resource Packs**: Stay True is gone, so turn on
+**Faithful 32x**, **FFC Default Glass**, **Faithful 32x AppleSkin** (confirm the "incompatible" prompt) and
+**Cobblemon Advancement Plaques**, keeping them below Better Leaves. Check **Options → Controls → Key Binds**
+(search "sophisticated") for the new sorting and storage keys.
+
 ## v0.1.3
 
 Nothing changes in game: just press Play as usual.
