@@ -434,6 +434,10 @@ This is studied from ATMons' `catch_restrictions.js`. The design is ours; no ATM
 - The pack maintainer is op, with a whitelist. The starter's `server.properties` turns the whitelist and `allow-flight` on (Pokémon riding and Create contraptions get kicked for flying otherwise) and spawn protection off.
 - Client-only mods (Sodium, Iris, shaders, etc.) are marked client-side in packwiz so the server never downloads them.
 - Chunky (server-only) pregenerates around spawn once the world exists (DEVELOPMENT.md, Running the server).
+- Host [decided, F10]: PebbleHost 25 GB Premium, Sydney node (AU128), bought 2026-11-15. Its NeoForge preinstall
+  launches NeoForge 21.1.266 itself through its own `forge_modpack.jar` and ignores the jar setting, so the launcher
+  runs there as a Java agent (`-javaagent:campfiremons-server.jar` in the startup flags) that syncs the pack first.
+  PebbleHost accepts the EULA itself.
 - The base pack includes **Sinytra Connector** (it runs Fabric mods on NeoForge). We keep it because the official pack depends on it, but prefer native NeoForge builds for everything we add.
 
 ## 9. Roadmap (small, testable steps)

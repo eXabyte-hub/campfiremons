@@ -184,6 +184,11 @@ JVM through NeoForged's ServerStarterJar, so the memory the host gives Java goes
    - **Custom jar** (most panels): set the server jar to `campfiremons-server.jar`, Java to 21, and the memory
      1–2 GB below the plan's RAM.
    - **Startup command** (or a VPS): `MEMORY=10G sh start.sh`.
+   - **The host starts its own NeoForge** and ignores the jar setting (PebbleHost's NeoForge 1.21.1 preinstall does):
+     add `-javaagent:campfiremons-server.jar` to the host's JVM startup flags (PebbleHost: Loader Settings →
+     Startup Flags). The launcher then runs as a Java agent: it syncs the pack before the host's NeoForge starts,
+     and stops the server if the very first sync fails, so it never starts without the mods. NeoForge is the
+     host's own (PebbleHost installs 21.1.266; the pack loads cleanly on it, players stay on 21.1.264).
 3. Start the server. The first start installs NeoForge and downloads the mods (a few minutes), then the server stops
    to ask for the EULA: set `eula=true` in `eula.txt` and start again.
 4. In the console: `op <you>`, then `whitelist add <name>` for each player (the whitelist is on by default).

@@ -2,6 +2,14 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.9
+
+Nothing changes in game: just press Play as usual.
+
+- For whoever runs the server: the server starter also works on hosts that start NeoForge themselves (PebbleHost):
+  add `-javaagent:campfiremons-server.jar` to the host's startup flags, and it pulls the latest pack before every
+  start.
+
 ## v0.1.8
 
 Already playing? Just press Play: the pack updates itself.

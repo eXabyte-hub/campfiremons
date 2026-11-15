@@ -45,15 +45,28 @@ public final class Launcher {
         instrumentation = inst;
     }
 
-    public static void premain(String args, Instrumentation inst) {
+    /**
+     * Agent mode, for hosts that start their own NeoForge and won't run another jar (PebbleHost's NeoForge preinstall):
+     * add {@code -javaagent:campfiremons-server.jar} to the host's JVM startup flags and the pack syncs before their
+     * NeoForge starts. NeoForge is then the host's own install. A failed first sync throws, which stops the JVM, so the
+     * server never starts (and generates a world) without the pack's mods.
+     */
+    public static void premain(String args, Instrumentation inst) throws Exception {
         agentmain(args, inst);
+        log("Agent mode: syncing the pack before the host's server starts");
+        sync(Path.of("").toAbsolutePath(), config());
     }
 
-    public static void main(String[] args) throws Throwable {
+    private static Properties config() throws IOException {
         Properties config = new Properties();
         try (InputStream in = Launcher.class.getResourceAsStream("/campfiremons/launcher.properties")) {
             config.load(in);
         }
+        return config;
+    }
+
+    public static void main(String[] args) throws Throwable {
+        Properties config = config();
         List<String> serverArgs = new ArrayList<>(Arrays.asList(args));
         boolean syncOnly = serverArgs.remove("--sync-only");
         Path dir = Path.of("").toAbsolutePath();
