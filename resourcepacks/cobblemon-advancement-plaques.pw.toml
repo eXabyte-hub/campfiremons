@@ -1,0 +1,13 @@
+name = "Cobblemon Advancement Plaques"
+filename = "CobblemonAdvancementPlaques-[1.0.2].zip"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "44e15d4cc13f00f26cdf1320dbdf0d5856692e1c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7253285
+project-id = 862925
