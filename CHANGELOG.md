@@ -2,6 +2,13 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.12
+
+Nothing to do: just press Play as usual.
+
+- **Discord link:** the server can now share its chat with our Discord: messages both ways, plus joins, deaths and
+  advancements. It's all on the server, so there's nothing to install.
+
 ## v0.1.11
 
 Already playing? Just press Play: the pack updates itself. Quests from before v0.1.10 keep their progress; quests

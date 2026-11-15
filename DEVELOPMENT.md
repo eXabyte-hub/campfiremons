@@ -211,9 +211,24 @@ JVM through NeoForged's ServerStarterJar, so the memory the host gives Java goes
 5. Pregenerate the land around spawn once (Chunky, server-only), so the first days of exploring don't make the
    server lag while the pack's heavy worldgen catches up. In the console: `chunky spawn` (centres on the world spawn,
    which is in Pallet Town), `chunky radius 3000`, `chunky start`. It works through it in the background while the
-   server runs; `chunky progress` shows how far it is, `chunky pause` stops it, and after a restart `chunky continue`
-   picks it up again. Run it while nobody's playing. A bigger radius takes longer and fills more disk, so keep an eye
-   on the plan's storage.
+   server runs; `chunky progress` shows how far it is and `chunky pause` stops it. With `continueOnRestart: true` in
+   `config/chunky/config.json` (set on the live server) a restart resumes it, paused or not: `chunky cancel` drops it
+   for good, and `chunky continue` resumes by hand otherwise. Run it while nobody's playing. A bigger radius takes
+   longer and fills more disk, so keep an eye on the plan's storage.
+6. Optional: link the chat with Discord (Simple Discord Link, server-only). Its first start writes
+   `config/simple-discord-link/simple-discord-link.toml` and logs "Missing bot token. Mod will be disabled" until it
+   has one; the server runs normally meanwhile. That file isn't part of the pack, so syncs never overwrite it.
+   - Make a bot ([SDLink's guide](https://sdlink.fdd-docs.com/installation/bot-creation/)): in the Discord Developer
+     Portal, New Application → Bot → Reset Token and copy the token; on the same page turn on the Server Members and
+     Message Content intents.
+   - In Discord (with Developer Mode on under Settings → Advanced), right-click the channel for the game chat → Copy
+     Channel ID.
+   - Stop the server and set, in that file, `botToken` under `[botConfig]` and `chatChannelID` under
+     `[channelsAndWebhooks.channels]` (plus `eventsChannelID` to put joins, deaths and advancements in a channel of
+     their own). Start the server: SDLink encrypts the token in the file on first load and prints an invite link in
+     the console; open it to add the bot to the Discord server.
+   - The token is the bot's password: never commit it or paste it anywhere else. If it leaks, Reset Token in the
+     portal and put the new one in the file.
 
 Every restart pulls the latest release; if the sync fails (GitHub down), the server starts with the files it already
 has. The jar is a launcher: it runs the NeoForge installer and packwiz-installer as short child processes (1 GB heap
