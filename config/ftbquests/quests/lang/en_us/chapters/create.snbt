@@ -1,0 +1,26 @@
+{
+	quest.38F13386C5E3EAA6.quest_subtitle: "Electricity, deco and copycats"
+	quest.38F13386C5E3EAA6.title: "Addons"
+	quest.6BB2C14D753BE3F4.quest_subtitle: "Things that move"
+	quest.6BB2C14D753BE3F4.title: "Contraptions"
+	quest.85B3CDDFF68E177A.quest_subtitle: "Make things spin"
+	quest.85B3CDDFF68E177A.title: "Rotational Power"
+	quest.9FAFEAE69ADE9B51.quest_subtitle: "Belts, funnels and packages"
+	quest.9FAFEAE69ADE9B51.title: "Item Logistics"
+	quest.A1366BA4C97B3FA0.quest_subtitle: "Pipes and tanks"
+	quest.A1366BA4C97B3FA0.title: "Fluid Logistics"
+	quest.C291EEB31E14130F.quest_subtitle: "The engineer’s kit"
+	quest.C291EEB31E14130F.title: "Tools"
+	quest.DCFE06CD1C32106F.quest_subtitle: "Rail networks"
+	quest.DCFE06CD1C32106F.title: "Trains"
+	quest.E6931ADE1E2A7474.quest_subtitle: "Process anything"
+	quest.E6931ADE1E2A7474.title: "Machines"
+	quest.F7A32519300AF862.quest_desc: [
+		"Create is mechanical engineering: spin shafts with water wheels, windmills or engines, and"
+		"use that rotation to drive presses, mixers, belts and moving contraptions."
+		"Start with &eandesite alloy&r. Hold &aW&r over any Create item to &ePonder&r it: an animated"
+		"guide shows exactly how it works. Cobblemon: Create Industries adds ball production lines."
+	]
+	quest.F7A32519300AF862.quest_subtitle: "Engineering with Pokémon in mind"
+	quest.F7A32519300AF862.title: "Create"
+}

@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "stage_4"
-	group: "A878D9FAE9054E9D"
+	group: "33ACE78A3A205CA0"
 	icon: {
 		id: "cobblemon:quick_ball"
 	}
@@ -10,7 +10,7 @@
 	images: [
 		{
 			height: 1.6d
-			id: "A5B700D8E58EA67A"
+			id: "B40B14AF53E02783"
 			image: "campfiremons:textures/quests/stage_4.png"
 			rotation: 0.0d
 			width: 10.02d
@@ -19,7 +19,7 @@
 		}
 		{
 			height: 1.5d
-			id: "FA911CCA64D136E4"
+			id: "4C8308B4D28EAFF3"
 			image: "mega_showdown:textures/gui/summary/tera_types/grass.png"
 			rotation: 0.0d
 			width: 1.5d
@@ -28,7 +28,7 @@
 		}
 		{
 			height: 1.5d
-			id: "C029D729EF27F7CE"
+			id: "B6BA3DE2112A11EA"
 			image: "mega_showdown:textures/gui/summary/tera_types/grass.png"
 			rotation: 0.0d
 			width: 1.5d
@@ -36,7 +36,7 @@
 			y: -6.2d
 		}
 	]
-	order_index: 12
+	order_index: 13
 	quest_links: [ ]
 	quests: [
 		{
@@ -314,16 +314,16 @@
 			icon: {
 				id: "minecraft:bell"
 			}
-			id: "DE7ACAAE991B7ACE"
+			id: "C01D3DC41DBDDCD0"
 			rewards: [
 				{
-					id: "F842CF0C6BE7E114"
+					id: "3AAB6EAF55544078"
 					type: "xp_levels"
 					xp_levels: 3
 				}
 				{
 					count: 2
-					id: "2F4F9D80C2502334"
+					id: "C0241241586E24A8"
 					item: {
 						count: 1
 						id: "cobblemon:exp_candy_m"
@@ -334,7 +334,7 @@
 			shape: "diamond"
 			size: 1.25d
 			tasks: [{
-				id: "3CDCC7C9849B5EC0"
+				id: "BA46644C763E5B3A"
 				type: "checkmark"
 			}]
 			x: -1.9d

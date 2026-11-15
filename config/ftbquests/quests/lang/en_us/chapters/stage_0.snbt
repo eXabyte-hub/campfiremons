@@ -9,19 +9,16 @@
 	]
 	quest.07770E338AC86117.quest_subtitle: "Catch any Pokémon"
 	quest.07770E338AC86117.title: "First Catch"
-	quest.1246191707360186.quest_desc: [
-		"Better balls, Bottle Caps, TMs and the PokéNav can be crafted any time but only used once you"
-		"reach their stage. Mega Bracelets, Z-Rings and other power items turn up in structure chests after"
-		"the gym that unlocks them, and every player gets their own copy of the loot."
+	quest.1024104E87D76C98.quest_desc: [
+		"Your boxes, from any PC: 60 boxes per PC, plenty of room for a living Pokédex."
 	]
-	quest.1246191707360186.quest_subtitle: "Locked items"
-	quest.1246191707360186.title: "Gear by Stage"
-	quest.1C77880587673CBE.quest_desc: [
-		"Pokémon in a pasture wander nearby and produce items that suit them: wool, eggs, honey and more."
-		"With no farm animals in the pack, pastures are your farms."
+	quest.1024104E87D76C98.quest_subtitle: "Get a PC"
+	quest.1024104E87D76C98.title: "PC"
+	quest.1A09912968158BC9.quest_desc: [
+		"Seven colours, seven trees. A full apricorn orchard keeps you in balls for the whole run."
 	]
-	quest.1C77880587673CBE.quest_subtitle: "Get a Pasture"
-	quest.1C77880587673CBE.title: "Pasture"
+	quest.1A09912968158BC9.quest_subtitle: "Collect all seven apricorns"
+	quest.1A09912968158BC9.title: "Every Colour"
 	quest.1D77FC3C44DE2076.quest_desc: [
 		"Brock waits in the &ePewter Gym&r."
 		"Type &a/gymmap&r for directions to the nearest one, with a map."
@@ -36,28 +33,56 @@
 	]
 	quest.2CB794566D297784.quest_subtitle: "Evolve a Pokémon"
 	quest.2CB794566D297784.title: "Growing Up"
-	quest.39090BC56BEA2A76.quest_desc: [
+	quest.46A4E2E03B6786A9.quest_desc: [
+		"Glowing crystals out in the world are &eRaid Dens&r. Beat the boss with friends (or alone) and"
+		"you get a chance to catch it."
+		"&e★1&r dens are open now; each gym opens the next star tier."
+	]
+	quest.46A4E2E03B6786A9.quest_subtitle: "Win a raid"
+	quest.46A4E2E03B6786A9.title: "Raid Den"
+	quest.49D75BE2D9DF4145.quest_desc: [
 		"Stones, held items and trades: the &eEvolution&r chapter shows every way Pokémon evolve."
 	]
-	quest.39090BC56BEA2A76.quest_subtitle: "See the Evolution chapter"
-	quest.39090BC56BEA2A76.title: "More Evolution"
-	quest.50888E472633067D.quest_desc: [
-		"Seven colours, seven trees. A full apricorn orchard keeps you in balls for the whole run."
-	]
-	quest.50888E472633067D.quest_subtitle: "Collect all seven apricorns"
-	quest.50888E472633067D.title: "Every Colour"
+	quest.49D75BE2D9DF4145.quest_subtitle: "See the Evolution chapter"
+	quest.49D75BE2D9DF4145.title: "More Evolution"
 	quest.509520097CAAFD27.quest_desc: [
 		"Cobblemon ruins and shipwreck coves hide gilded chests; every structure chest is rolled for you alone."
 	]
 	quest.509520097CAAFD27.quest_subtitle: "A hint"
 	quest.509520097CAAFD27.title: "Out Exploring"
-	quest.593E0BAA05CD8CB5.quest_desc: [
-		"Type &a/gymmap&r for a map to your next gym, with the distance and direction in chat."
-		"Pokémon towns and the Kanto cities have Pokécenters, shops and trainers; Pokécenters and"
-		"PokéStops along the way heal your team. Waystones let you teleport between the ones you've found."
+	quest.531C693D90F8EE33.quest_desc: [
+		"Trainers roam the world. Walk up and talk to them to battle."
+		"Beating the &ekey trainers&r raises your level cap; your Trainer Card lists who's next."
 	]
-	quest.593E0BAA05CD8CB5.quest_subtitle: "Gyms, towns and Pokécenters"
-	quest.593E0BAA05CD8CB5.title: "Finding Your Way"
+	quest.531C693D90F8EE33.quest_subtitle: "Beat any trainer"
+	quest.531C693D90F8EE33.title: "First Trainer Battle"
+	quest.60D795DB1BD39484.quest_desc: [
+		"Pokémon in a pasture wander nearby and produce items that suit them: wool, eggs, honey and more."
+		"With no farm animals in the pack, pastures are your farms."
+	]
+	quest.60D795DB1BD39484.quest_subtitle: "Get a Pasture"
+	quest.60D795DB1BD39484.title: "Pasture"
+	quest.61A1015ED4285043.quest_desc: [
+		"Progress is measured in &6stages&r: beat a gym leader to reach the next one."
+		"Your Pokémon can't gain EXP past your &elevel cap&r: the ace level of your next unbeaten key"
+		"trainer. Trainers won't battle you while a party Pokémon is over it. You can still catch"
+		"anything at any level; box the over-levelled ones before a trainer battle."
+	]
+	quest.61A1015ED4285043.quest_subtitle: "How progress works"
+	quest.61A1015ED4285043.title: "Stages and the Level Cap"
+	quest.68093A10839B530B.quest_desc: [
+		"Better balls, Bottle Caps, TMs and the PokéNav can be crafted any time but only used once you"
+		"reach their stage. Mega Bracelets, Z-Rings and other power items turn up in structure chests after"
+		"the gym that unlocks them, and every player gets their own copy of the loot."
+	]
+	quest.68093A10839B530B.quest_subtitle: "Locked items"
+	quest.68093A10839B530B.title: "Gear by Stage"
+	quest.68AF593FAA5AD863.quest_desc: [
+		"&eStage 5&r: sub-legendaries. &eStage 6&r: Ultra Beasts and Paradox Pokémon."
+		"&eStage 7&r: mythicals and box legends. Before that you can't battle or catch them."
+	]
+	quest.68AF593FAA5AD863.quest_subtitle: "When you can catch them"
+	quest.68AF593FAA5AD863.title: "Legendaries by Stage"
 	quest.7BFE2B886541122D.quest_desc: [
 		"Campfiremons is a gym run: beat a leader to reach the next &6stage&r, and each stage opens up more."
 		""
@@ -69,54 +94,29 @@
 	]
 	quest.7BFE2B886541122D.quest_subtitle: "Read me first"
 	quest.7BFE2B886541122D.title: "Welcome to Campfiremons"
-	quest.8F75E7250EAADE70.quest_desc: [
-		"&eStage 5&r: sub-legendaries. &eStage 6&r: Ultra Beasts and Paradox Pokémon."
-		"&eStage 7&r: mythicals and box legends. Before that you can't battle or catch them."
+	quest.8321DC5E49C26100.quest_desc: [
+		"Type &a/gymmap&r for a map to your next gym, with the distance and direction in chat."
+		"Pokémon towns and the Kanto cities have Pokécenters, shops and trainers; Pokécenters and"
+		"PokéStops along the way heal your team. Waystones let you teleport between the ones you've found."
 	]
-	quest.8F75E7250EAADE70.quest_subtitle: "When you can catch them"
-	quest.8F75E7250EAADE70.title: "Legendaries by Stage"
-	quest.A7762F2130849F60.quest_desc: [
-		"Progress is measured in &6stages&r: beat a gym leader to reach the next one."
-		"Your Pokémon can't gain EXP past your &elevel cap&r: the ace level of your next unbeaten key"
-		"trainer. Trainers won't battle you while a party Pokémon is over it. You can still catch"
-		"anything at any level; box the over-levelled ones before a trainer battle."
-	]
-	quest.A7762F2130849F60.quest_subtitle: "How progress works"
-	quest.A7762F2130849F60.title: "Stages and the Level Cap"
-	quest.A7C16A6FC8D3F216.quest_desc: [
-		"Craft a Pokédex and scan Pokémon to fill in their entries, even the ones you haven't caught yet."
-	]
-	quest.A7C16A6FC8D3F216.quest_subtitle: "Scan a Pokémon"
-	quest.A7C16A6FC8D3F216.title: "Pokédex"
-	quest.AF667D45DEC030D1.quest_desc: [
-		"Glowing crystals out in the world are &eRaid Dens&r. Beat the boss with friends (or alone) and"
-		"you get a chance to catch it."
-		"&e★1&r dens are open now; each gym opens the next star tier."
-	]
-	quest.AF667D45DEC030D1.quest_subtitle: "Win a raid"
-	quest.AF667D45DEC030D1.title: "Raid Den"
-	quest.B7B74EE967D8C9FE.quest_desc: [
+	quest.8321DC5E49C26100.quest_subtitle: "Gyms, towns and Pokécenters"
+	quest.8321DC5E49C26100.title: "Finding Your Way"
+	quest.9B1204444158B0BC.quest_desc: [
 		"Apricorn trees grow wild in most biomes; each colour of apricorn crafts different balls."
 		"Red ones make Poké Balls. Plant the seeds to grow your own tree."
 		"Better balls only work once you reach their stage."
 	]
-	quest.B7B74EE967D8C9FE.quest_subtitle: "Pick a Red Apricorn"
-	quest.B7B74EE967D8C9FE.title: "Apricorn Picking"
-	quest.F4F340C9D81C80B2.quest_desc: [
+	quest.9B1204444158B0BC.quest_subtitle: "Pick a Red Apricorn"
+	quest.9B1204444158B0BC.title: "Apricorn Picking"
+	quest.B96B4C76D1C9B2DA.quest_desc: [
 		"Put your party's balls in it to heal them. Pokécenters out in the world have one too,"
 		"and Sophisticated Backpacks can take a healing upgrade."
 	]
-	quest.F4F340C9D81C80B2.quest_subtitle: "Get a Healing Machine"
-	quest.F4F340C9D81C80B2.title: "Healing Machine"
-	quest.F5D684B92728850E.quest_desc: [
-		"Trainers roam the world. Walk up and talk to them to battle."
-		"Beating the &ekey trainers&r raises your level cap; your Trainer Card lists who's next."
+	quest.B96B4C76D1C9B2DA.quest_subtitle: "Get a Healing Machine"
+	quest.B96B4C76D1C9B2DA.title: "Healing Machine"
+	quest.EF7120024909C17F.quest_desc: [
+		"Craft a Pokédex and scan Pokémon to fill in their entries, even the ones you haven't caught yet."
 	]
-	quest.F5D684B92728850E.quest_subtitle: "Beat any trainer"
-	quest.F5D684B92728850E.title: "First Trainer Battle"
-	quest.F82C4872BC5445D6.quest_desc: [
-		"Your boxes, from any PC: 60 boxes per PC, plenty of room for a living Pokédex."
-	]
-	quest.F82C4872BC5445D6.quest_subtitle: "Get a PC"
-	quest.F82C4872BC5445D6.title: "PC"
+	quest.EF7120024909C17F.quest_subtitle: "Scan a Pokémon"
+	quest.EF7120024909C17F.title: "Pokédex"
 }

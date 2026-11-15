@@ -1,53 +1,53 @@
 {
-	quest.1A86DBF7A31F222B.title: "Claw Fossil"
-	quest.1D22DD30582E5CB7.title: "Plume Fossil"
-	quest.28FBB7EA1C750316.title: "Skull Fossil"
-	quest.30723FE530326C83.quest_desc: [
-		"Place it next to the Fossil Analyzer with a Monitor on top; the recipe viewer shows the parts."
-	]
-	quest.30723FE530326C83.quest_subtitle: "Craft one"
-	quest.30723FE530326C83.title: "Restoration Tank"
-	quest.3B9506A65500A466.quest_subtitle: "Register 300 Pokémon"
-	quest.3B9506A65500A466.title: "Living Pokédex"
-	quest.42653F82EA914613.quest_desc: [
-		"Every Pokémon you catch is registered in your Pokédex."
-	]
-	quest.42653F82EA914613.quest_subtitle: "Register 50 Pokémon"
-	quest.42653F82EA914613.title: "Researcher"
-	quest.4C4FEE45EC73AD24.title: "Cover Fossil"
-	quest.5B421454EBC2CE5B.quest_desc: [
+	quest.15917847BB550E92.title: "Sail Fossil"
+	quest.167355427626FE6F.title: "Helix Fossil"
+	quest.1889DB85ACC7FD23.title: "Root Fossil"
+	quest.28F2CB042CB48B8B.title: "Plume Fossil"
+	quest.2DFEB04EBCAF5A6B.quest_desc: [
 		"Feed a fossil into the machine and wait: an ancient Pokémon wakes up."
 	]
-	quest.5B421454EBC2CE5B.quest_subtitle: "Revive a fossil"
-	quest.5B421454EBC2CE5B.title: "Back to Life"
-	quest.6049FEB4E24EA665.quest_subtitle: "Fish up a Pokémon"
-	quest.6049FEB4E24EA665.title: "Something Bit!"
-	quest.69C1976B1EFF76CB.title: "Root Fossil"
-	quest.6EA3C01DB0403B8E.quest_desc: [
+	quest.2DFEB04EBCAF5A6B.quest_subtitle: "Revive a fossil"
+	quest.2DFEB04EBCAF5A6B.title: "Back to Life"
+	quest.35AB6630D867D962.title: "Armor Fossil"
+	quest.4A5D3D07B804E4A8.quest_desc: [
+		"Place it next to the Fossil Analyzer with a Monitor on top; the recipe viewer shows the parts."
+	]
+	quest.4A5D3D07B804E4A8.quest_subtitle: "Craft one"
+	quest.4A5D3D07B804E4A8.title: "Restoration Tank"
+	quest.56D965285A63780B.quest_subtitle: "Register 150 Pokémon"
+	quest.56D965285A63780B.title: "Collector"
+	quest.614D0565290ADA09.quest_desc: [
 		"Bait on the rod changes what bites: try berries and other treats."
 	]
-	quest.6EA3C01DB0403B8E.quest_subtitle: "Make some bait"
-	quest.6EA3C01DB0403B8E.title: "Poké Bait"
-	quest.8DF45D6F07078478.title: "Armor Fossil"
-	quest.9B4A010D8EC0E1E5.title: "Sail Fossil"
-	quest.A1287D61D6D884CF.quest_desc: [
+	quest.614D0565290ADA09.quest_subtitle: "Make some bait"
+	quest.614D0565290ADA09.title: "Poké Bait"
+	quest.66847E040CB3926A.quest_subtitle: "Register 300 Pokémon"
+	quest.66847E040CB3926A.title: "Living Pokédex"
+	quest.7503E4BAC744E5CF.quest_desc: [
+		"Every Pokémon you catch is registered in your Pokédex."
+	]
+	quest.7503E4BAC744E5CF.quest_subtitle: "Register 50 Pokémon"
+	quest.7503E4BAC744E5CF.title: "Researcher"
+	quest.86E6645F17465BFA.title: "Old Amber Fossil"
+	quest.9843C52C745283F0.title: "Claw Fossil"
+	quest.9D3B09F80AA4CE9F.quest_subtitle: "Craft one"
+	quest.9D3B09F80AA4CE9F.title: "Fossil Analyzer"
+	quest.A6493474107B74C8.title: "Cover Fossil"
+	quest.B4D7B132CFE38600.quest_subtitle: "Fish up 25 Pokémon"
+	quest.B4D7B132CFE38600.title: "Master Angler"
+	quest.BCAAD67960130D79.quest_desc: [
 		"A Poké Rod fishes up Pokémon instead of fish. Better balls make better rods."
 	]
-	quest.A1287D61D6D884CF.quest_subtitle: "Craft one"
-	quest.A1287D61D6D884CF.title: "Poké Rod"
-	quest.ADCB42C7936E2757.title: "Helix Fossil"
-	quest.B0D846D71A34569E.title: "Old Amber Fossil"
-	quest.C5FCD3089FBB8404.quest_subtitle: "Craft one"
-	quest.C5FCD3089FBB8404.title: "Fossil Analyzer"
-	quest.C9CF9FF43FFE661F.quest_desc: [
+	quest.BCAAD67960130D79.quest_subtitle: "Craft one"
+	quest.BCAAD67960130D79.title: "Poké Rod"
+	quest.DBABB2B36E6C18CA.title: "Skull Fossil"
+	quest.E4B22D10B4DE71D8.quest_subtitle: "Fish up a Pokémon"
+	quest.E4B22D10B4DE71D8.title: "Something Bit!"
+	quest.E63F3F491C0CA64A.quest_desc: [
 		"Brush &esuspicious sand and gravel&r at ruins and dig sites to uncover fossils."
 	]
-	quest.C9CF9FF43FFE661F.quest_subtitle: "Craft a brush"
-	quest.C9CF9FF43FFE661F.title: "Brush"
-	quest.E257094066660BAF.title: "Jaw Fossil"
-	quest.E93183171A8A9826.quest_subtitle: "Fish up 25 Pokémon"
-	quest.E93183171A8A9826.title: "Master Angler"
-	quest.EB8125DC370393B8.title: "Dome Fossil"
-	quest.FDB2331BD496613D.quest_subtitle: "Register 150 Pokémon"
-	quest.FDB2331BD496613D.title: "Collector"
+	quest.E63F3F491C0CA64A.quest_subtitle: "Craft a brush"
+	quest.E63F3F491C0CA64A.title: "Brush"
+	quest.EC7C4555591B218A.title: "Jaw Fossil"
+	quest.FFA016939BEBF7B3.title: "Dome Fossil"
 }

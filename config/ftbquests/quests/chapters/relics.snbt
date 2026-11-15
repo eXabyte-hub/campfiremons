@@ -1,0 +1,711 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "relics"
+	group: "505FA8BFD14418AE"
+	icon: {
+		id: "relics:ring_of_the_seven_deadly_sins"
+	}
+	id: "327BC66E9D7D4D2D"
+	images: [
+		{
+			height: 2.9d
+			id: "21323141A2D4AACC"
+			image: "campfiremons:textures/quests/gold_panel.png"
+			rotation: 0.0d
+			width: 3.4d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 0.9d
+			id: "18C72AD9910A83BE"
+			image: "campfiremons:textures/quests/relic_back.png"
+			rotation: 0.0d
+			width: 2.27d
+			x: 6.28d
+			y: -4.87d
+		}
+		{
+			height: 0.9d
+			id: "C5001C35F9ED03CE"
+			image: "campfiremons:textures/quests/relic_head.png"
+			rotation: 0.0d
+			width: 2.4d
+			x: 0.0d
+			y: -7.45d
+		}
+		{
+			height: 0.9d
+			id: "A71E2EE08F6C6F91"
+			image: "campfiremons:textures/quests/relic_necklace.png"
+			rotation: 0.0d
+			width: 5.91d
+			x: -6.28d
+			y: -4.87d
+		}
+		{
+			height: 0.9d
+			id: "E7896A74D8769D5C"
+			image: "campfiremons:textures/quests/relic_belt.png"
+			rotation: 0.0d
+			width: 1.94d
+			x: -5.53d
+			y: 4.44d
+		}
+		{
+			height: 0.9d
+			id: "F496BBD84F5FC3A8"
+			image: "campfiremons:textures/quests/relic_feet.png"
+			rotation: 0.0d
+			width: 2.14d
+			x: 0.0d
+			y: 7.45d
+		}
+		{
+			height: 0.9d
+			id: "8EF4D5AB1EE88314"
+			image: "campfiremons:textures/quests/relic_other.png"
+			rotation: 0.0d
+			width: 3.44d
+			x: 6.87d
+			y: 5.72d
+		}
+		{
+			height: 1.8d
+			id: "801B270A1AB486DC"
+			image: "campfiremons:textures/quests/relics.png"
+			rotation: 0.0d
+			width: 5.39d
+			x: 0.0d
+			y: -9.2d
+		}
+	]
+	order_index: 22
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "relics:ring_of_the_seven_deadly_sins"
+			}
+			id: "A7D327B4F31D948D"
+			rewards: [{
+				id: "E11896255284B009"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				id: "C01BCF40BE9085A3"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"A7D327B4F31D948D"
+			]
+			icon: {
+				id: "relics:leafy_mantle"
+			}
+			id: "36E5F80DC453107B"
+			rewards: [{
+				id: "8A20E98279C9F6A2"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "gear"
+			size: 1.6d
+			tasks: [{
+				id: "2BEA3EEEF32887D0"
+				item: {
+					count: 1
+					id: "relics:leafy_mantle"
+				}
+				type: "item"
+			}]
+			x: 3.64d
+			y: -2.1d
+		}
+		{
+			dependencies: [
+				"36E5F80DC453107B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "relics:midnight_mantle"
+			}
+			id: "91148E0D45B8AC7F"
+			optional: true
+			rewards: [{
+				id: "A22678F399848A1B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "5F44B8857E4A2FDC"
+				item: {
+					count: 1
+					id: "relics:midnight_mantle"
+				}
+				type: "item"
+			}]
+			x: 5.28d
+			y: -3.62d
+		}
+		{
+			dependencies: [
+				"36E5F80DC453107B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "relics:glitchy_mantle"
+			}
+			id: "199EE344A7E4297A"
+			optional: true
+			rewards: [{
+				id: "E15B7EE5E3245E19"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "733E096A24E5A6A8"
+				item: {
+					count: 1
+					id: "relics:glitchy_mantle"
+				}
+				type: "item"
+			}]
+			x: 6.28d
+			y: -3.62d
+		}
+		{
+			dependencies: [
+				"36E5F80DC453107B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "relics:ghostly_mantle"
+			}
+			id: "8EC7C128C5C75BC8"
+			optional: true
+			rewards: [{
+				id: "C6DD20391ACCBAF5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "1AE74B41F4E62F10"
+				item: {
+					count: 1
+					id: "relics:ghostly_mantle"
+				}
+				type: "item"
+			}]
+			x: 7.28d
+			y: -3.62d
+		}
+		{
+			dependencies: [
+				"A7D327B4F31D948D"
+			]
+			icon: {
+				id: "relics:piglin_mask"
+			}
+			id: "AE5B5FAF40C14296"
+			rewards: [{
+				id: "7AA5FC7F66115387"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "gear"
+			size: 1.6d
+			tasks: [{
+				id: "BEED37195E1B8825"
+				item: {
+					count: 1
+					id: "relics:piglin_mask"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.2d
+		}
+		{
+			dependencies: [
+				"AE5B5FAF40C14296"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "relics:chef_hat"
+			}
+			id: "AB0230FEBFC4709F"
+			optional: true
+			rewards: [{
+				id: "BD40FEA39A870897"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "B248032552FAB994"
+				item: {
+					count: 1
+					id: "relics:chef_hat"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.2d
+		}
+		{
+			dependencies: [
+				"A7D327B4F31D948D"
+			]
+			icon: {
+				id: "relics:reflective_necklace"
+			}
+			id: "69A45FF172787957"
+			rewards: [{
+				id: "1FF9F745DDFF0897"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "gear"
+			size: 1.6d
+			tasks: [{
+				id: "682C20DE28F3D13A"
+				item: {
+					count: 1
+					id: "relics:reflective_necklace"
+				}
+				type: "item"
+			}]
+			x: -3.64d
+			y: -2.1d
+		}
+		{
+			dependencies: [
+				"69A45FF172787957"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "relics:jellyfish_necklace"
+			}
+			id: "888A61AACA3B6DA4"
+			optional: true
+			rewards: [{
+				id: "9D67950FC1751387"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "E19B301622C68FB7"
+				item: {
+					count: 1
+					id: "relics:jellyfish_necklace"
+				}
+				type: "item"
+			}]
+			x: -7.28d
+			y: -3.62d
+		}
+		{
+			dependencies: [
+				"69A45FF172787957"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "relics:ring_of_the_seven_deadly_sins"
+			}
+			id: "BA69056E18189BD8"
+			optional: true
+			rewards: [{
+				id: "F0AD0245F5263A7B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "5C347496041877D5"
+				item: {
+					count: 1
+					id: "relics:ring_of_the_seven_deadly_sins"
+				}
+				type: "item"
+			}]
+			x: -6.28d
+			y: -3.62d
+		}
+		{
+			dependencies: [
+				"69A45FF172787957"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "relics:experience_disperser"
+			}
+			id: "814601221EA8D036"
+			optional: true
+			rewards: [{
+				id: "63C71D3F137BD6E8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "53D93853823F76F8"
+				item: {
+					count: 1
+					id: "relics:experience_disperser"
+				}
+				type: "item"
+			}]
+			x: -5.28d
+			y: -3.62d
+		}
+		{
+			dependencies: [
+				"A7D327B4F31D948D"
+			]
+			icon: {
+				id: "relics:kinetic_belt"
+			}
+			id: "52E5B20F16830E9A"
+			rewards: [{
+				id: "71DDF75F7DC4B8C3"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "gear"
+			size: 1.6d
+			tasks: [{
+				id: "44A2FC2095EF40A5"
+				item: {
+					count: 1
+					id: "relics:kinetic_belt"
+				}
+				type: "item"
+			}]
+			x: -3.64d
+			y: 2.1d
+		}
+		{
+			dependencies: [
+				"52E5B20F16830E9A"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "relics:hunting_belt"
+			}
+			id: "A3B18E2F06A88431"
+			optional: true
+			rewards: [{
+				id: "6A77F9E201F008CF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "B4F51622245A4979"
+				item: {
+					count: 1
+					id: "relics:hunting_belt"
+				}
+				type: "item"
+			}]
+			x: -5.53d
+			y: 3.19d
+		}
+		{
+			dependencies: [
+				"A7D327B4F31D948D"
+			]
+			icon: {
+				id: "relics:roller_skate"
+			}
+			id: "EC747B943B5A06CC"
+			rewards: [{
+				id: "C264E689BB38BA2D"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "gear"
+			size: 1.6d
+			tasks: [{
+				id: "B205B29CF3988B37"
+				item: {
+					count: 1
+					id: "relics:roller_skate"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.2d
+		}
+		{
+			dependencies: [
+				"EC747B943B5A06CC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "relics:springy_boot"
+			}
+			id: "B4CC354C0F693FAD"
+			optional: true
+			rewards: [{
+				id: "36AAA729EAD6E675"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "DE06666CED121B51"
+				item: {
+					count: 1
+					id: "relics:springy_boot"
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.2d
+		}
+		{
+			dependencies: [
+				"EC747B943B5A06CC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "relics:cut_glass_boot"
+			}
+			id: "FA0D8B187E1EE5FE"
+			optional: true
+			rewards: [{
+				id: "D6FF3CDBAC95B9B9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "A908DF502745B2DB"
+				item: {
+					count: 1
+					id: "relics:cut_glass_boot"
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.2d
+		}
+		{
+			dependencies: [
+				"A7D327B4F31D948D"
+			]
+			icon: {
+				id: "relics:chorus_staff"
+			}
+			id: "239474265330219B"
+			rewards: [{
+				id: "9E3AA631FD8F9CDD"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "gear"
+			size: 1.6d
+			tasks: [{
+				id: "4C3E58A5A40D8990"
+				item: {
+					count: 1
+					id: "relics:chorus_staff"
+				}
+				type: "item"
+			}]
+			x: 3.64d
+			y: 2.1d
+		}
+		{
+			dependencies: [
+				"239474265330219B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "relics:clot_of_time"
+			}
+			id: "1EF42C5E567FCBF4"
+			optional: true
+			rewards: [{
+				id: "BB44ED4A7C83C8F9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "369EE9D2EA927ED8"
+				item: {
+					count: 1
+					id: "relics:clot_of_time"
+				}
+				type: "item"
+			}]
+			x: 5.37d
+			y: 3.47d
+		}
+		{
+			dependencies: [
+				"239474265330219B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "relics:rider_flute"
+			}
+			id: "1704004A295FEED3"
+			optional: true
+			rewards: [{
+				id: "ED03DE6A821BD3D8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "DD8D7150EB1078A1"
+				item: {
+					count: 1
+					id: "relics:rider_flute"
+				}
+				type: "item"
+			}]
+			x: 6.37d
+			y: 3.47d
+		}
+		{
+			dependencies: [
+				"239474265330219B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "relics:sphere_of_self_sacrifice"
+			}
+			id: "23E2947218E77C98"
+			optional: true
+			rewards: [{
+				id: "717E5C42FA5D41F1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "CBDFEB827D763108"
+				item: {
+					count: 1
+					id: "relics:sphere_of_self_sacrifice"
+				}
+				type: "item"
+			}]
+			x: 7.37d
+			y: 3.47d
+		}
+		{
+			dependencies: [
+				"239474265330219B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "relics:shield_of_retaliation"
+			}
+			id: "8FC500CA9666C918"
+			optional: true
+			rewards: [{
+				id: "622EDD9B1668AE94"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "BC4DEA4D26B32DBA"
+				item: {
+					count: 1
+					id: "relics:shield_of_retaliation"
+				}
+				type: "item"
+			}]
+			x: 8.37d
+			y: 3.47d
+		}
+		{
+			dependencies: [
+				"239474265330219B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "relics:golden_tooth"
+			}
+			id: "3B7CF930BD90D072"
+			optional: true
+			rewards: [{
+				id: "B9C07E909A2B6CE3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "A3E7261DE580DC1F"
+				item: {
+					count: 1
+					id: "relics:golden_tooth"
+				}
+				type: "item"
+			}]
+			x: 6.37d
+			y: 4.47d
+		}
+		{
+			dependencies: [
+				"239474265330219B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "relics:pet_bone"
+			}
+			id: "21D853A828967222"
+			optional: true
+			rewards: [{
+				id: "1E019D4FA69FBDC2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "DE53E7B0FC32C0CB"
+				item: {
+					count: 1
+					id: "relics:pet_bone"
+				}
+				type: "item"
+			}]
+			x: 7.37d
+			y: 4.47d
+		}
+	]
+}

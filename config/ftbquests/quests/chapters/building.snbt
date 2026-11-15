@@ -1,0 +1,1540 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "building"
+	group: "505FA8BFD14418AE"
+	icon: {
+		id: "handcrafted:oak_chair"
+	}
+	id: "4C1E395008304F19"
+	images: [
+		{
+			height: 0.9d
+			id: "2FA334AA0361A5B1"
+			image: "campfiremons:textures/quests/build_chipped.png"
+			rotation: 0.0d
+			width: 3.13d
+			x: 8.1d
+			y: -1.75d
+		}
+		{
+			height: 0.9d
+			id: "88F606CDA8B9C531"
+			image: "campfiremons:textures/quests/build_handcrafted.png"
+			rotation: 0.0d
+			width: 5.29d
+			x: -4.32d
+			y: -9.74d
+		}
+		{
+			height: 0.9d
+			id: "FB42D893E9FD8300"
+			image: "campfiremons:textures/quests/build_furnies.png"
+			rotation: 0.0d
+			width: 6.02d
+			x: -8.6d
+			y: -1.75d
+		}
+		{
+			height: 0.9d
+			id: "AABB14427235B478"
+			image: "campfiremons:textures/quests/build_framed.png"
+			rotation: 0.0d
+			width: 5.9d
+			x: -3.98d
+			y: 8.65d
+		}
+		{
+			height: 0.9d
+			id: "2D699F56D519A36B"
+			image: "campfiremons:textures/quests/build_gadgets.png"
+			rotation: 0.0d
+			width: 6.21d
+			x: 3.86d
+			y: 8.43d
+		}
+		{
+			height: 0.9d
+			id: "CE0143C2ADBE5284"
+			image: "campfiremons:textures/quests/build_travel.png"
+			rotation: 0.0d
+			width: 4.11d
+			x: 3.98d
+			y: -8.65d
+		}
+		{
+			height: 1.8d
+			id: "C88B37F9A48A4F3A"
+			image: "campfiremons:textures/quests/building.png"
+			rotation: 0.0d
+			width: 12.16d
+			x: 0.0d
+			y: -11.49d
+		}
+	]
+	order_index: 24
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "handcrafted:oak_chair"
+			}
+			id: "EE598D9082BBF4A0"
+			rewards: [{
+				id: "9018A1A3B51FC5A9"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				id: "6DD0ACEBFD58894C"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"EE598D9082BBF4A0"
+			]
+			icon: {
+				id: "chipped:botanist_workbench"
+			}
+			id: "85B15D8A05F0632B"
+			rewards: [{
+				id: "10B7152BB29B2CCC"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "gear"
+			size: 1.6d
+			tasks: [{
+				id: "1F0D26F37F1A047C"
+				item: {
+					count: 1
+					id: "chipped:botanist_workbench"
+				}
+				type: "item"
+			}]
+			x: 4.6d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"85B15D8A05F0632B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "chipped:carpenters_table"
+			}
+			id: "EB961ECDA4DFCEF3"
+			optional: true
+			rewards: [{
+				id: "3822A105A0C97BC7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "92CC19AD90E46AEE"
+				item: {
+					count: 1
+					id: "chipped:carpenters_table"
+				}
+				type: "item"
+			}]
+			x: 6.6d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"85B15D8A05F0632B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "chipped:glassblower"
+			}
+			id: "5E891159A8D74021"
+			optional: true
+			rewards: [{
+				id: "2857CE08DE093B50"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "FAE86CBE511D3B86"
+				item: {
+					count: 1
+					id: "chipped:glassblower"
+				}
+				type: "item"
+			}]
+			x: 7.6d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"85B15D8A05F0632B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "chipped:loom_table"
+			}
+			id: "8319027907B1D7B1"
+			optional: true
+			rewards: [{
+				id: "232398355324DFBF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "7900F0AEB9A77944"
+				item: {
+					count: 1
+					id: "chipped:loom_table"
+				}
+				type: "item"
+			}]
+			x: 8.6d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"85B15D8A05F0632B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "chipped:mason_table"
+			}
+			id: "D4B864F7A6432D97"
+			optional: true
+			rewards: [{
+				id: "81991BD63625074B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "79F63CAF9D84BABC"
+				item: {
+					count: 1
+					id: "chipped:mason_table"
+				}
+				type: "item"
+			}]
+			x: 9.6d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"85B15D8A05F0632B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "chipped:alchemy_bench"
+			}
+			id: "BEFC42835D16BE6E"
+			optional: true
+			rewards: [{
+				id: "20B34619A4F9DF71"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "1E2EABD460E3288D"
+				item: {
+					count: 1
+					id: "chipped:alchemy_bench"
+				}
+				type: "item"
+			}]
+			x: 7.6d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"85B15D8A05F0632B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "chipped:tinkering_table"
+			}
+			id: "8DC5BF13F9D7E3C1"
+			optional: true
+			rewards: [{
+				id: "91EADFE91E5ACC7A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "B8A171CDBAE94988"
+				item: {
+					count: 1
+					id: "chipped:tinkering_table"
+				}
+				type: "item"
+			}]
+			x: 8.6d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"EE598D9082BBF4A0"
+			]
+			icon: {
+				id: "rechiseled:chisel"
+			}
+			id: "BB340C94340C4DAC"
+			rewards: [{
+				id: "38FEDEFBB50BDBAA"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "gear"
+			size: 1.6d
+			tasks: [{
+				id: "49869398B40EE840"
+				item: {
+					count: 1
+					id: "rechiseled:chisel"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.6d
+		}
+		{
+			dependencies: [
+				"EE598D9082BBF4A0"
+			]
+			icon: {
+				id: "handcrafted:hammer"
+			}
+			id: "30A960FB60D73C4C"
+			rewards: [{
+				id: "AF95D66AD8DC8F03"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "gear"
+			size: 1.6d
+			tasks: [{
+				id: "DDE5A789681D50F3"
+				item: {
+					count: 1
+					id: "handcrafted:hammer"
+				}
+				type: "item"
+			}]
+			x: -2.3d
+			y: -3.98d
+		}
+		{
+			dependencies: [
+				"30A960FB60D73C4C"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "handcrafted:oak_chair"
+			}
+			id: "BCB8E15932CF0256"
+			optional: true
+			rewards: [{
+				id: "27A487B82C05617F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "61ADEF16D19C89EF"
+				item: {
+					count: 1
+					id: "handcrafted:oak_chair"
+				}
+				type: "item"
+			}]
+			x: -6.32d
+			y: -8.49d
+		}
+		{
+			dependencies: [
+				"30A960FB60D73C4C"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "handcrafted:oak_table"
+			}
+			id: "8A52E8E6FF016A4A"
+			optional: true
+			rewards: [{
+				id: "D978F1AFC7CA7C77"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "4DF11D25537077D7"
+				item: {
+					count: 1
+					id: "handcrafted:oak_table"
+				}
+				type: "item"
+			}]
+			x: -5.32d
+			y: -8.49d
+		}
+		{
+			dependencies: [
+				"30A960FB60D73C4C"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "handcrafted:oak_couch"
+			}
+			id: "199A5F202F5B45A5"
+			optional: true
+			rewards: [{
+				id: "BF99727DA17C1A5A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "B576EEE85B5BB470"
+				item: {
+					count: 1
+					id: "handcrafted:oak_couch"
+				}
+				type: "item"
+			}]
+			x: -4.32d
+			y: -8.49d
+		}
+		{
+			dependencies: [
+				"30A960FB60D73C4C"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "handcrafted:oak_fancy_bed"
+			}
+			id: "E16D9AC2806D330B"
+			optional: true
+			rewards: [{
+				id: "D9F68AB69C5EAC60"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "82FB726CBD27EE9B"
+				item: {
+					count: 1
+					id: "handcrafted:oak_fancy_bed"
+				}
+				type: "item"
+			}]
+			x: -3.32d
+			y: -8.49d
+		}
+		{
+			dependencies: [
+				"30A960FB60D73C4C"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "handcrafted:oak_desk"
+			}
+			id: "93B4CA0EBB0682E0"
+			optional: true
+			rewards: [{
+				id: "CBA89CF40442E7D1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "4D11DFA7A580D788"
+				item: {
+					count: 1
+					id: "handcrafted:oak_desk"
+				}
+				type: "item"
+			}]
+			x: -2.32d
+			y: -8.49d
+		}
+		{
+			dependencies: [
+				"30A960FB60D73C4C"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "handcrafted:oak_shelf"
+			}
+			id: "24212E66B1E7658C"
+			optional: true
+			rewards: [{
+				id: "B7340DC2404B5CE4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "213814C5B6774538"
+				item: {
+					count: 1
+					id: "handcrafted:oak_shelf"
+				}
+				type: "item"
+			}]
+			x: -6.32d
+			y: -7.49d
+		}
+		{
+			dependencies: [
+				"30A960FB60D73C4C"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "handcrafted:oak_cupboard"
+			}
+			id: "14C95DA835453EBD"
+			optional: true
+			rewards: [{
+				id: "25F228219522DB5E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "DED96705077A83C1"
+				item: {
+					count: 1
+					id: "handcrafted:oak_cupboard"
+				}
+				type: "item"
+			}]
+			x: -5.32d
+			y: -7.49d
+		}
+		{
+			dependencies: [
+				"30A960FB60D73C4C"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "handcrafted:oak_drawer"
+			}
+			id: "29A86318C5A66A51"
+			optional: true
+			rewards: [{
+				id: "EBC672FE2C50C371"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "C32ADB4AE32C6B6E"
+				item: {
+					count: 1
+					id: "handcrafted:oak_drawer"
+				}
+				type: "item"
+			}]
+			x: -4.32d
+			y: -7.49d
+		}
+		{
+			dependencies: [
+				"30A960FB60D73C4C"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "handcrafted:oak_nightstand"
+			}
+			id: "D1A6EAD857D52CF6"
+			optional: true
+			rewards: [{
+				id: "18FA44CBF4B64E14"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "18C3EBD62ED5D07A"
+				item: {
+					count: 1
+					id: "handcrafted:oak_nightstand"
+				}
+				type: "item"
+			}]
+			x: -3.32d
+			y: -7.49d
+		}
+		{
+			dependencies: [
+				"30A960FB60D73C4C"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "handcrafted:oak_bench"
+			}
+			id: "3AA4E8F95A7F799D"
+			optional: true
+			rewards: [{
+				id: "DAB24A2809439093"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "ABF52FECC5775EAB"
+				item: {
+					count: 1
+					id: "handcrafted:oak_bench"
+				}
+				type: "item"
+			}]
+			x: -2.32d
+			y: -7.49d
+		}
+		{
+			dependencies: [
+				"30A960FB60D73C4C"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "handcrafted:oak_side_table"
+			}
+			id: "5873F23773E7A0F1"
+			optional: true
+			rewards: [{
+				id: "7D345E1B0EB0A2D3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "8A5CF5C389B125B1"
+				item: {
+					count: 1
+					id: "handcrafted:oak_side_table"
+				}
+				type: "item"
+			}]
+			x: -4.32d
+			y: -6.49d
+		}
+		{
+			dependencies: [
+				"EE598D9082BBF4A0"
+			]
+			icon: {
+				id: "cobblefurnies:apricorn_cabinet"
+			}
+			id: "7EE634A6321E8DC7"
+			rewards: [{
+				id: "B79FE6CFE6F16F6B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "gear"
+			size: 1.6d
+			tasks: [{
+				id: "77D5945D22C26EC1"
+				item: {
+					count: 1
+					id: "cobblefurnies:apricorn_cabinet"
+				}
+				type: "item"
+			}]
+			x: -4.6d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7EE634A6321E8DC7"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblefurnies:apricorn_chair"
+			}
+			id: "C1D8B92339BCD577"
+			optional: true
+			rewards: [{
+				id: "7231E8B338FDBCDF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "49A5447D546B0D6D"
+				item: {
+					count: 1
+					id: "cobblefurnies:apricorn_chair"
+				}
+				type: "item"
+			}]
+			x: -10.6d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"7EE634A6321E8DC7"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblefurnies:apricorn_nightstand"
+			}
+			id: "DEDA255AB305FAD4"
+			optional: true
+			rewards: [{
+				id: "39097F40573D0625"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "4AD289565C180059"
+				item: {
+					count: 1
+					id: "cobblefurnies:apricorn_nightstand"
+				}
+				type: "item"
+			}]
+			x: -9.6d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"7EE634A6321E8DC7"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblefurnies:apricorn_table"
+			}
+			id: "EB7DBF71E034F331"
+			optional: true
+			rewards: [{
+				id: "B748D45FB9C7960A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "67C23C518D63F8CD"
+				item: {
+					count: 1
+					id: "cobblefurnies:apricorn_table"
+				}
+				type: "item"
+			}]
+			x: -8.6d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"7EE634A6321E8DC7"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblefurnies:apricorn_wall_support"
+			}
+			id: "D0C3FE7A8E607840"
+			optional: true
+			rewards: [{
+				id: "7E6E9DA01F03379D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "76CEFCA5DC595CF2"
+				item: {
+					count: 1
+					id: "cobblefurnies:apricorn_wall_support"
+				}
+				type: "item"
+			}]
+			x: -7.6d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"7EE634A6321E8DC7"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblefurnies:black_poke_wool"
+			}
+			id: "AB63DEBED395B874"
+			optional: true
+			rewards: [{
+				id: "C665419EDC60E466"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "F26C359ACCAF6E31"
+				item: {
+					count: 1
+					id: "cobblefurnies:black_poke_wool"
+				}
+				type: "item"
+			}]
+			x: -6.6d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"7EE634A6321E8DC7"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblefurnies:black_poke_wool_carpet"
+			}
+			id: "B44648DC3C320C96"
+			optional: true
+			rewards: [{
+				id: "A454E8C9D228D77B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "1B4AB6B278767B54"
+				item: {
+					count: 1
+					id: "cobblefurnies:black_poke_wool_carpet"
+				}
+				type: "item"
+			}]
+			x: -10.1d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"7EE634A6321E8DC7"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblefurnies:blue_poke_wool"
+			}
+			id: "5C9A39EA3FEA0227"
+			optional: true
+			rewards: [{
+				id: "AB1D1A9E4E659A83"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "5EE36824E0CA09F7"
+				item: {
+					count: 1
+					id: "cobblefurnies:blue_poke_wool"
+				}
+				type: "item"
+			}]
+			x: -9.1d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"7EE634A6321E8DC7"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblefurnies:blue_poke_wool_carpet"
+			}
+			id: "3AD5E35F92C24E6A"
+			optional: true
+			rewards: [{
+				id: "8B42DCC84E31A57E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "157FB7A9E7DD9613"
+				item: {
+					count: 1
+					id: "cobblefurnies:blue_poke_wool_carpet"
+				}
+				type: "item"
+			}]
+			x: -8.1d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"7EE634A6321E8DC7"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblefurnies:brown_poke_wool"
+			}
+			id: "5ACDCCD3A37F2694"
+			optional: true
+			rewards: [{
+				id: "C56C872C69739F77"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "D3F4BD4535B67A81"
+				item: {
+					count: 1
+					id: "cobblefurnies:brown_poke_wool"
+				}
+				type: "item"
+			}]
+			x: -7.1d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"EE598D9082BBF4A0"
+			]
+			icon: {
+				id: "framedblocks:framed_hammer"
+			}
+			id: "23E7F3115BAAFD9E"
+			rewards: [{
+				id: "26F22E69CD3D27BD"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "gear"
+			size: 1.6d
+			tasks: [{
+				id: "8E41C213230B388F"
+				item: {
+					count: 1
+					id: "framedblocks:framed_hammer"
+				}
+				type: "item"
+			}]
+			x: -2.3d
+			y: 3.98d
+		}
+		{
+			dependencies: [
+				"23E7F3115BAAFD9E"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "framedblocks:framed_cube"
+			}
+			id: "32A1DDE38A48B8C8"
+			optional: true
+			rewards: [{
+				id: "38B50A9F1525A181"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "165A2728578A62FB"
+				item: {
+					count: 1
+					id: "framedblocks:framed_cube"
+				}
+				type: "item"
+			}]
+			x: -5.48d
+			y: 6.4d
+		}
+		{
+			dependencies: [
+				"23E7F3115BAAFD9E"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "framedblocks:framed_slope"
+			}
+			id: "3F222A77411F4518"
+			optional: true
+			rewards: [{
+				id: "29C538A711146186"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "52C5DA843C232FBC"
+				item: {
+					count: 1
+					id: "framedblocks:framed_slope"
+				}
+				type: "item"
+			}]
+			x: -4.48d
+			y: 6.4d
+		}
+		{
+			dependencies: [
+				"23E7F3115BAAFD9E"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "framedblocks:framed_slab"
+			}
+			id: "C93BD3A967F9A8C3"
+			optional: true
+			rewards: [{
+				id: "B6DE622B918D513A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "63A91BE78DB589B8"
+				item: {
+					count: 1
+					id: "framedblocks:framed_slab"
+				}
+				type: "item"
+			}]
+			x: -3.48d
+			y: 6.4d
+		}
+		{
+			dependencies: [
+				"23E7F3115BAAFD9E"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "framedblocks:framed_stairs"
+			}
+			id: "F0103A28945857EA"
+			optional: true
+			rewards: [{
+				id: "851990277C8D056B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "F4208BB64BF057C9"
+				item: {
+					count: 1
+					id: "framedblocks:framed_stairs"
+				}
+				type: "item"
+			}]
+			x: -2.48d
+			y: 6.4d
+		}
+		{
+			dependencies: [
+				"23E7F3115BAAFD9E"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "framedblocks:framed_door"
+			}
+			id: "F468FCF4607D7966"
+			optional: true
+			rewards: [{
+				id: "C2FDC10FEE63A1E6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "7B5A76B69255924B"
+				item: {
+					count: 1
+					id: "framedblocks:framed_door"
+				}
+				type: "item"
+			}]
+			x: -5.48d
+			y: 7.4d
+		}
+		{
+			dependencies: [
+				"23E7F3115BAAFD9E"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "framedblocks:framed_chest"
+			}
+			id: "184D0A6CEE02AA81"
+			optional: true
+			rewards: [{
+				id: "9DAEC647541BF32A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "B38C321C210E2FD8"
+				item: {
+					count: 1
+					id: "framedblocks:framed_chest"
+				}
+				type: "item"
+			}]
+			x: -4.48d
+			y: 7.4d
+		}
+		{
+			dependencies: [
+				"23E7F3115BAAFD9E"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "framedblocks:framed_wrench"
+			}
+			id: "62C4A1151D66587B"
+			optional: true
+			rewards: [{
+				id: "6804FC40E34500E3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "755440CCC63ACBFD"
+				item: {
+					count: 1
+					id: "framedblocks:framed_wrench"
+				}
+				type: "item"
+			}]
+			x: -3.48d
+			y: 7.4d
+		}
+		{
+			dependencies: [
+				"23E7F3115BAAFD9E"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "framedblocks:framed_blueprint"
+			}
+			id: "4012EAE3E83E4640"
+			optional: true
+			rewards: [{
+				id: "2D7F0894C8583332"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "81273E64D2F8C2F3"
+				item: {
+					count: 1
+					id: "framedblocks:framed_blueprint"
+				}
+				type: "item"
+			}]
+			x: -2.48d
+			y: 7.4d
+		}
+		{
+			dependencies: [
+				"EE598D9082BBF4A0"
+			]
+			icon: {
+				id: "buildinggadgets2:gadget_building"
+			}
+			id: "CB3636055E887D4B"
+			rewards: [{
+				id: "DE8BC163C7AEF2E2"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "gear"
+			size: 1.6d
+			tasks: [{
+				id: "590AF0FA5FAE69CA"
+				item: {
+					count: 1
+					id: "buildinggadgets2:gadget_building"
+				}
+				type: "item"
+			}]
+			x: 2.3d
+			y: 3.98d
+		}
+		{
+			dependencies: [
+				"CB3636055E887D4B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "buildinggadgets2:gadget_exchanging"
+			}
+			id: "DC98ACC236E22E66"
+			optional: true
+			rewards: [{
+				id: "4D9D63AE626700D6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "2FAFB4B1A13A1263"
+				item: {
+					count: 1
+					id: "buildinggadgets2:gadget_exchanging"
+				}
+				type: "item"
+			}]
+			x: 2.86d
+			y: 6.18d
+		}
+		{
+			dependencies: [
+				"CB3636055E887D4B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "buildinggadgets2:gadget_copy_paste"
+			}
+			id: "FF3A0986DBD26054"
+			optional: true
+			rewards: [{
+				id: "13F6B08966096F37"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "63608AF15BE96179"
+				item: {
+					count: 1
+					id: "buildinggadgets2:gadget_copy_paste"
+				}
+				type: "item"
+			}]
+			x: 3.86d
+			y: 6.18d
+		}
+		{
+			dependencies: [
+				"CB3636055E887D4B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "buildinggadgets2:gadget_destruction"
+			}
+			id: "8F54CBEB1F20CE60"
+			optional: true
+			rewards: [{
+				id: "5E0C9E22A4BAACD4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "3051F70B545B2F3A"
+				item: {
+					count: 1
+					id: "buildinggadgets2:gadget_destruction"
+				}
+				type: "item"
+			}]
+			x: 4.86d
+			y: 6.18d
+		}
+		{
+			dependencies: [
+				"CB3636055E887D4B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "buildinggadgets2:template_manager"
+			}
+			id: "10C793C854266F4C"
+			optional: true
+			rewards: [{
+				id: "A730DCD97A063977"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "3FAE167A8174C8E3"
+				item: {
+					count: 1
+					id: "buildinggadgets2:template_manager"
+				}
+				type: "item"
+			}]
+			x: 3.86d
+			y: 7.18d
+		}
+		{
+			dependencies: [
+				"EE598D9082BBF4A0"
+			]
+			icon: {
+				id: "waystones:waystone"
+			}
+			id: "D8F1612E0E45F26E"
+			rewards: [{
+				id: "37E7758015821388"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "gear"
+			size: 1.6d
+			tasks: [{
+				id: "B02E0E210D0E8D28"
+				item: {
+					count: 1
+					id: "waystones:waystone"
+				}
+				type: "item"
+			}]
+			x: 2.3d
+			y: -3.98d
+		}
+		{
+			dependencies: [
+				"D8F1612E0E45F26E"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "waystones:sharestone"
+			}
+			id: "9FF4F260D4B78B81"
+			optional: true
+			rewards: [{
+				id: "938234F8D5EFBC95"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "2AD53F0950A18E70"
+				item: {
+					count: 1
+					id: "waystones:sharestone"
+				}
+				type: "item"
+			}]
+			x: 2.48d
+			y: -7.4d
+		}
+		{
+			dependencies: [
+				"D8F1612E0E45F26E"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "waystones:warp_stone"
+			}
+			id: "E69A76DEA087CA63"
+			optional: true
+			rewards: [{
+				id: "1EB28C81BF0E1330"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "BBA7AFC7A975B637"
+				item: {
+					count: 1
+					id: "waystones:warp_stone"
+				}
+				type: "item"
+			}]
+			x: 3.48d
+			y: -7.4d
+		}
+		{
+			dependencies: [
+				"D8F1612E0E45F26E"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "waystones:warp_scroll"
+			}
+			id: "EB203E830A2FF698"
+			optional: true
+			rewards: [{
+				id: "37BECA0CD9C662A0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "46490E0B3C63EE25"
+				item: {
+					count: 1
+					id: "waystones:warp_scroll"
+				}
+				type: "item"
+			}]
+			x: 4.48d
+			y: -7.4d
+		}
+		{
+			dependencies: [
+				"D8F1612E0E45F26E"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "waystones:return_scroll"
+			}
+			id: "8DE7A169B8269F48"
+			optional: true
+			rewards: [{
+				id: "D644E36D881EEB89"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "ECFC2578C0EF8691"
+				item: {
+					count: 1
+					id: "waystones:return_scroll"
+				}
+				type: "item"
+			}]
+			x: 5.48d
+			y: -7.4d
+		}
+		{
+			dependencies: [
+				"D8F1612E0E45F26E"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "waystones:bound_scroll"
+			}
+			id: "23479467C63A8DDA"
+			optional: true
+			rewards: [{
+				id: "61CE3BEB68D974C1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "B3C2AC97B3A3A31C"
+				item: {
+					count: 1
+					id: "waystones:bound_scroll"
+				}
+				type: "item"
+			}]
+			x: 2.98d
+			y: -6.4d
+		}
+		{
+			dependencies: [
+				"D8F1612E0E45F26E"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "waystones:portstone"
+			}
+			id: "2E97C5C5A775090F"
+			optional: true
+			rewards: [{
+				id: "4D56C362678D6CEF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "1D34FB411156034C"
+				item: {
+					count: 1
+					id: "waystones:portstone"
+				}
+				type: "item"
+			}]
+			x: 3.98d
+			y: -6.4d
+		}
+		{
+			dependencies: [
+				"D8F1612E0E45F26E"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "waystones:warp_plate"
+			}
+			id: "D235D23E12BF4015"
+			optional: true
+			rewards: [{
+				id: "9BE14B54B862F118"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "59B12EF45C0FECE2"
+				item: {
+					count: 1
+					id: "waystones:warp_plate"
+				}
+				type: "item"
+			}]
+			x: 4.98d
+			y: -6.4d
+		}
+	]
+}

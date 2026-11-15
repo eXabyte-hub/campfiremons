@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "stage_6"
-	group: "A878D9FAE9054E9D"
+	group: "33ACE78A3A205CA0"
 	icon: {
 		id: "cobblemon:beast_ball"
 	}
@@ -10,7 +10,7 @@
 	images: [
 		{
 			height: 1.6d
-			id: "4CCCE1F387FD69ED"
+			id: "95DE3A6B9BCD36CB"
 			image: "campfiremons:textures/quests/stage_6.png"
 			rotation: 0.0d
 			width: 7.45d
@@ -19,7 +19,7 @@
 		}
 		{
 			height: 1.5d
-			id: "519D52A0C2451EA2"
+			id: "86F3F535E3D5BBAA"
 			image: "mega_showdown:textures/gui/summary/tera_types/poison.png"
 			rotation: 0.0d
 			width: 1.5d
@@ -28,7 +28,7 @@
 		}
 		{
 			height: 1.5d
-			id: "4243CC7837872313"
+			id: "E97650C8387294D0"
 			image: "mega_showdown:textures/gui/summary/tera_types/poison.png"
 			rotation: 0.0d
 			width: 1.5d
@@ -36,7 +36,7 @@
 			y: -6.2d
 		}
 	]
-	order_index: 14
+	order_index: 15
 	quest_links: [ ]
 	quests: [
 		{
@@ -418,16 +418,16 @@
 			icon: {
 				id: "cobblemon:beast_ball"
 			}
-			id: "B09BC61D704436D6"
+			id: "8647E1464D069A7C"
 			rewards: [
 				{
-					id: "BEBB95C22351E8BB"
+					id: "5356860950C32CFB"
 					type: "xp_levels"
 					xp_levels: 3
 				}
 				{
 					count: 2
-					id: "982FCD79874E3F25"
+					id: "4253B64DCFF8BC7A"
 					item: {
 						count: 1
 						id: "cobblemon:exp_candy_l"
@@ -438,7 +438,7 @@
 			shape: "diamond"
 			size: 1.25d
 			tasks: [{
-				id: "E6D4680812AF48CF"
+				id: "87DB7AD20CD401F5"
 				type: "checkmark"
 			}]
 			x: -1.9d

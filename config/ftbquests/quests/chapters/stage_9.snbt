@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "stage_9"
-	group: "A878D9FAE9054E9D"
+	group: "33ACE78A3A205CA0"
 	icon: {
 		id: "cobblemon:master_ball"
 	}
@@ -10,7 +10,7 @@
 	images: [
 		{
 			height: 1.6d
-			id: "F8D886E028ACBA5C"
+			id: "D97EC8600854C784"
 			image: "campfiremons:textures/quests/stage_9.png"
 			rotation: 0.0d
 			width: 6.64d
@@ -19,7 +19,7 @@
 		}
 		{
 			height: 1.5d
-			id: "292C9B33045671FB"
+			id: "56ADD2644DA4738F"
 			image: "mega_showdown:textures/gui/summary/tera_types/stellar.png"
 			rotation: 0.0d
 			width: 1.5d
@@ -28,7 +28,7 @@
 		}
 		{
 			height: 1.5d
-			id: "73BF210D70B5F22B"
+			id: "765D79096A4A8813"
 			image: "mega_showdown:textures/gui/summary/tera_types/stellar.png"
 			rotation: 0.0d
 			width: 1.5d
@@ -36,7 +36,7 @@
 			y: -6.2d
 		}
 	]
-	order_index: 17
+	order_index: 18
 	quest_links: [ ]
 	quests: [
 		{
@@ -217,16 +217,16 @@
 			icon: {
 				id: "cobblemon:pokedex_black"
 			}
-			id: "C3AB2FE3EB3044F1"
+			id: "547BC123117C532F"
 			rewards: [
 				{
-					id: "33B236D50C42F216"
+					id: "3D14ACEB6F2BFD7D"
 					type: "xp_levels"
 					xp_levels: 10
 				}
 				{
 					count: 5
-					id: "87098627325122AC"
+					id: "349BC2FD3802002E"
 					item: {
 						count: 1
 						id: "cobblemon:rare_candy"
@@ -247,7 +247,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "1D51DD5197B1E3F1"
+				id: "B39E65BD385273B5"
 				max_level: 0
 				max_turns: 0
 				min_level: 0

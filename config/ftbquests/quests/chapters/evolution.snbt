@@ -2,15 +2,15 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "evolution"
-	group: "F2C6F302E53BE2D9"
+	group: "D02FAE08F3920C75"
 	icon: {
 		id: "cobblemon:fire_stone"
 	}
-	id: "E5EB1FB0360738C2"
+	id: "8F387E05B8D30D84"
 	images: [
 		{
 			height: 0.9d
-			id: "3FFF7F5E8FF8A874"
+			id: "62CB7FAEF055C27A"
 			image: "cobblemon:textures/block/evolution/nether_fire_stone_ore.png"
 			rotation: 0.0d
 			width: 0.9d
@@ -19,7 +19,7 @@
 		}
 		{
 			height: 0.9d
-			id: "5DBF7FDC9778A7E7"
+			id: "35A5EE1F9ED9580E"
 			image: "cobblemon:textures/block/evolution/water_stone_ore.png"
 			rotation: 0.0d
 			width: 0.9d
@@ -28,7 +28,7 @@
 		}
 		{
 			height: 0.9d
-			id: "728CA4CF7A7982DF"
+			id: "A1E6515B2FC00A24"
 			image: "cobblemon:textures/block/evolution/thunder_stone_ore.png"
 			rotation: 0.0d
 			width: 0.9d
@@ -37,7 +37,7 @@
 		}
 		{
 			height: 0.9d
-			id: "3E42A7528F507B20"
+			id: "F0ACBBEA4276457C"
 			image: "cobblemon:textures/block/evolution/leaf_stone_ore.png"
 			rotation: 0.0d
 			width: 0.9d
@@ -46,7 +46,7 @@
 		}
 		{
 			height: 0.9d
-			id: "40290C406B68AAC0"
+			id: "A66A8555E594C48D"
 			image: "cobblemon:textures/block/evolution/dripstone_moon_stone_ore.png"
 			rotation: 0.0d
 			width: 0.9d
@@ -55,7 +55,7 @@
 		}
 		{
 			height: 0.9d
-			id: "63BE37A320488738"
+			id: "F0A13268EE9BFB5F"
 			image: "cobblemon:textures/block/evolution/terracotta_sun_stone_ore.png"
 			rotation: 0.0d
 			width: 0.9d
@@ -64,7 +64,7 @@
 		}
 		{
 			height: 0.9d
-			id: "1EE872B01288AEC0"
+			id: "D23211682D0D9EA2"
 			image: "cobblemon:textures/block/evolution/shiny_stone_ore.png"
 			rotation: 0.0d
 			width: 0.9d
@@ -73,7 +73,7 @@
 		}
 		{
 			height: 0.9d
-			id: "FF92B7FD44ACDA15"
+			id: "7520919A263926EB"
 			image: "cobblemon:textures/block/evolution/dusk_stone_ore.png"
 			rotation: 0.0d
 			width: 0.9d
@@ -82,7 +82,7 @@
 		}
 		{
 			height: 0.9d
-			id: "1912ED6C73642843"
+			id: "A46020AEFBA78622"
 			image: "cobblemon:textures/block/evolution/dawn_stone_ore.png"
 			rotation: 0.0d
 			width: 0.9d
@@ -91,7 +91,7 @@
 		}
 		{
 			height: 0.9d
-			id: "2D813A72C172E4A7"
+			id: "71168157B5E590AD"
 			image: "cobblemon:textures/block/evolution/ice_stone_ore.png"
 			rotation: 0.0d
 			width: 0.9d
@@ -100,7 +100,7 @@
 		}
 		{
 			height: 1.6d
-			id: "D55EA8746C54951D"
+			id: "2329EDE4D3B92D26"
 			image: "campfiremons:textures/quests/evolution.png"
 			rotation: 0.0d
 			width: 7.26d
@@ -115,16 +115,16 @@
 			icon: {
 				id: "cobblemon:shiny_stone"
 			}
-			id: "9A67EEA91C962952"
+			id: "D1E771BB4540FBAA"
 			rewards: [
 				{
-					id: "C3B9F5C9A7F2C74E"
+					id: "10E3723989B40C6B"
 					type: "xp_levels"
 					xp_levels: 3
 				}
 				{
 					count: 4
-					id: "28AE08F8F3067D4D"
+					id: "78C3C887336C59FD"
 					item: {
 						count: 1
 						id: "cobblemon:exp_candy_s"
@@ -135,7 +135,7 @@
 			shape: "gear"
 			size: 2.5d
 			tasks: [{
-				id: "C0DC6974E68E6619"
+				id: "D7207EFBEBF652DE"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -143,21 +143,21 @@
 		}
 		{
 			dependencies: [
-				"9A67EEA91C962952"
+				"D1E771BB4540FBAA"
 			]
 			icon: {
 				id: "cobblemon:exp_candy_m"
 			}
-			id: "127F6690E43DA4BF"
+			id: "712EE15BF3D09D3C"
 			rewards: [
 				{
-					id: "A12D90B11EEDD732"
+					id: "D1ECF10CCF219CAE"
 					type: "xp_levels"
 					xp_levels: 4
 				}
 				{
 					count: 4
-					id: "1DE87F3DECC976F0"
+					id: "A02E7B4A826257CF"
 					item: {
 						count: 1
 						id: "cobblemon:exp_candy_m"
@@ -178,7 +178,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "7E548F03CEA8580B"
+				id: "DEC961491C9C163A"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -201,21 +201,21 @@
 		}
 		{
 			dependencies: [
-				"127F6690E43DA4BF"
+				"712EE15BF3D09D3C"
 			]
 			icon: {
 				id: "cobblemon:exp_candy_l"
 			}
-			id: "1AEB889CC6B87D6F"
+			id: "BEB45FE7AB59718F"
 			rewards: [
 				{
-					id: "211FF34A33C7659C"
+					id: "FAB4B1C187FB2810"
 					type: "xp_levels"
 					xp_levels: 6
 				}
 				{
 					count: 4
-					id: "BD8B24AE5494DA2C"
+					id: "16ED8A621E97B18C"
 					item: {
 						count: 1
 						id: "cobblemon:exp_candy_l"
@@ -236,7 +236,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "6C657EA61A213EC8"
+				id: "8CE7CA915EAC13C4"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -259,22 +259,22 @@
 		}
 		{
 			dependencies: [
-				"9A67EEA91C962952"
+				"D1E771BB4540FBAA"
 			]
 			icon: {
 				id: "cobblemon:fire_stone"
 			}
-			id: "6925B782EDD623ED"
+			id: "D9FA17BE794A89EC"
 			optional: true
 			rewards: [{
-				id: "1F270777ECBE4D11"
+				id: "D0F2E6CB095AF024"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
-				id: "1257891EB64848A4"
+				id: "890A813EE117A969"
 				item: {
 					count: 1
 					id: "cobblemon:fire_stone"
@@ -286,22 +286,22 @@
 		}
 		{
 			dependencies: [
-				"9A67EEA91C962952"
+				"D1E771BB4540FBAA"
 			]
 			icon: {
 				id: "cobblemon:water_stone"
 			}
-			id: "A31182F56D39BAFF"
+			id: "AED9DA4E135D0EE2"
 			optional: true
 			rewards: [{
-				id: "ECC2F46CBCAFC671"
+				id: "2A31D23285F13932"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
-				id: "C6FBAAFDF5D72807"
+				id: "431FFBFCDAA447A9"
 				item: {
 					count: 1
 					id: "cobblemon:water_stone"
@@ -313,22 +313,22 @@
 		}
 		{
 			dependencies: [
-				"9A67EEA91C962952"
+				"D1E771BB4540FBAA"
 			]
 			icon: {
 				id: "cobblemon:thunder_stone"
 			}
-			id: "2E008F1661AF9145"
+			id: "75EDB5921F43D233"
 			optional: true
 			rewards: [{
-				id: "24C94621D6B7B031"
+				id: "4D34C50431A6B31F"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
-				id: "4408AB635BA98F12"
+				id: "88D0293F224FA572"
 				item: {
 					count: 1
 					id: "cobblemon:thunder_stone"
@@ -340,22 +340,22 @@
 		}
 		{
 			dependencies: [
-				"9A67EEA91C962952"
+				"D1E771BB4540FBAA"
 			]
 			icon: {
 				id: "cobblemon:leaf_stone"
 			}
-			id: "D7CE430257F5A462"
+			id: "F2E21929F3E23141"
 			optional: true
 			rewards: [{
-				id: "B126701CEB53A1A6"
+				id: "7EC4A5BE3A04722D"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
-				id: "1CE119A8E9985EEC"
+				id: "C35F6284AC29604E"
 				item: {
 					count: 1
 					id: "cobblemon:leaf_stone"
@@ -367,22 +367,22 @@
 		}
 		{
 			dependencies: [
-				"9A67EEA91C962952"
+				"D1E771BB4540FBAA"
 			]
 			icon: {
 				id: "cobblemon:moon_stone"
 			}
-			id: "45939E1D8CFFD144"
+			id: "EBC70378F39842EB"
 			optional: true
 			rewards: [{
-				id: "FDD2D3C4B454774B"
+				id: "BFB97B374D0F9635"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
-				id: "DCE87EFBD767957B"
+				id: "BBADE4F758CF0D5A"
 				item: {
 					count: 1
 					id: "cobblemon:moon_stone"
@@ -394,22 +394,22 @@
 		}
 		{
 			dependencies: [
-				"9A67EEA91C962952"
+				"D1E771BB4540FBAA"
 			]
 			icon: {
 				id: "cobblemon:sun_stone"
 			}
-			id: "C8394DB3520E51F9"
+			id: "C1CA4B26E03A68D3"
 			optional: true
 			rewards: [{
-				id: "D3EBBFF56B8646EE"
+				id: "F24D7265E38B289B"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
-				id: "9AB966483D78CA56"
+				id: "721F97B71DBBBD72"
 				item: {
 					count: 1
 					id: "cobblemon:sun_stone"
@@ -421,22 +421,22 @@
 		}
 		{
 			dependencies: [
-				"9A67EEA91C962952"
+				"D1E771BB4540FBAA"
 			]
 			icon: {
 				id: "cobblemon:shiny_stone"
 			}
-			id: "2EBBC96DF6FF7302"
+			id: "FC0F550AF2094E79"
 			optional: true
 			rewards: [{
-				id: "2C53475FDC7179C7"
+				id: "98FA7808FB1771DE"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
-				id: "D1C004164B4D2227"
+				id: "90896E9C6077A391"
 				item: {
 					count: 1
 					id: "cobblemon:shiny_stone"
@@ -448,22 +448,22 @@
 		}
 		{
 			dependencies: [
-				"9A67EEA91C962952"
+				"D1E771BB4540FBAA"
 			]
 			icon: {
 				id: "cobblemon:dusk_stone"
 			}
-			id: "1466127DD69B61CC"
+			id: "CBE0256C558362B7"
 			optional: true
 			rewards: [{
-				id: "E7D9528A5718DF7B"
+				id: "3307B28EB9C44A07"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
-				id: "1DB260D93E92B329"
+				id: "3B7F59EE20E820A9"
 				item: {
 					count: 1
 					id: "cobblemon:dusk_stone"
@@ -475,22 +475,22 @@
 		}
 		{
 			dependencies: [
-				"9A67EEA91C962952"
+				"D1E771BB4540FBAA"
 			]
 			icon: {
 				id: "cobblemon:dawn_stone"
 			}
-			id: "EE9BD391322544D0"
+			id: "6B5B76F80676F1CB"
 			optional: true
 			rewards: [{
-				id: "5A481805597574E3"
+				id: "5FEFE25812E06F11"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
-				id: "51980260EBF5C506"
+				id: "319A2F4373FAFC8B"
 				item: {
 					count: 1
 					id: "cobblemon:dawn_stone"
@@ -502,22 +502,22 @@
 		}
 		{
 			dependencies: [
-				"9A67EEA91C962952"
+				"D1E771BB4540FBAA"
 			]
 			icon: {
 				id: "cobblemon:ice_stone"
 			}
-			id: "FD088AB842495876"
+			id: "8DF228075ED6A609"
 			optional: true
 			rewards: [{
-				id: "3B549E3A38DAC529"
+				id: "24F6B0580AB8A563"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
-				id: "836C6B4C65992304"
+				id: "82F1433640C9ABF5"
 				item: {
 					count: 1
 					id: "cobblemon:ice_stone"
@@ -529,21 +529,21 @@
 		}
 		{
 			dependencies: [
-				"9A67EEA91C962952"
+				"D1E771BB4540FBAA"
 			]
 			icon: {
 				id: "cobblemon:metal_coat"
 			}
-			id: "E8E8E5E3A5405461"
+			id: "978BD3B40A1492AA"
 			rewards: [{
-				id: "7D7466E2BB9C11BC"
+				id: "1F4E948D404997AE"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
 			shape: "diamond"
 			size: 1.25d
 			tasks: [{
-				id: "F8FA71C9E8CD7939"
+				id: "DCE91B6D61A25D5E"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -551,22 +551,22 @@
 		}
 		{
 			dependencies: [
-				"E8E8E5E3A5405461"
+				"978BD3B40A1492AA"
 			]
 			icon: {
 				id: "cobblemon:kings_rock"
 			}
-			id: "7F7FE8D4C4AAB53F"
+			id: "79C2DF1051BB7747"
 			optional: true
 			rewards: [{
-				id: "6052EDDB3C6E73A3"
+				id: "EA758240ED2B7EB2"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "square"
 			size: 0.8d
 			tasks: [{
-				id: "E052B66AA3CC8C68"
+				id: "B8DF13E6C4F00481"
 				item: {
 					count: 1
 					id: "cobblemon:kings_rock"
@@ -578,22 +578,22 @@
 		}
 		{
 			dependencies: [
-				"E8E8E5E3A5405461"
+				"978BD3B40A1492AA"
 			]
 			icon: {
 				id: "cobblemon:metal_coat"
 			}
-			id: "E4B6BE850150D8E5"
+			id: "D46BDEB665CD180E"
 			optional: true
 			rewards: [{
-				id: "8DCA4D162B769E8A"
+				id: "87A8932DDC93E47A"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "square"
 			size: 0.8d
 			tasks: [{
-				id: "28D08ECF0AB16573"
+				id: "7681B9949AF0AD1D"
 				item: {
 					count: 1
 					id: "cobblemon:metal_coat"
@@ -605,22 +605,22 @@
 		}
 		{
 			dependencies: [
-				"E8E8E5E3A5405461"
+				"978BD3B40A1492AA"
 			]
 			icon: {
 				id: "cobblemon:dragon_scale"
 			}
-			id: "ECEC21FFF200AD23"
+			id: "5A6690D6C6CD6A94"
 			optional: true
 			rewards: [{
-				id: "197FC93872A9926D"
+				id: "90CEE30B56FA69D4"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "square"
 			size: 0.8d
 			tasks: [{
-				id: "4817F892C7ED6E0C"
+				id: "E99B5DE8BBFBEF78"
 				item: {
 					count: 1
 					id: "cobblemon:dragon_scale"
@@ -632,22 +632,22 @@
 		}
 		{
 			dependencies: [
-				"E8E8E5E3A5405461"
+				"978BD3B40A1492AA"
 			]
 			icon: {
 				id: "cobblemon:upgrade"
 			}
-			id: "D40FC0C008CF0EB7"
+			id: "414582D2A84B0CDC"
 			optional: true
 			rewards: [{
-				id: "91EDB1B1A8C4AB8E"
+				id: "2A76C8FB3ABCF5A1"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "square"
 			size: 0.8d
 			tasks: [{
-				id: "55D315A47ACEA31B"
+				id: "B60807CB2212211E"
 				item: {
 					count: 1
 					id: "cobblemon:upgrade"
@@ -659,22 +659,22 @@
 		}
 		{
 			dependencies: [
-				"E8E8E5E3A5405461"
+				"978BD3B40A1492AA"
 			]
 			icon: {
 				id: "cobblemon:protector"
 			}
-			id: "1D6EFCE4FDE8F623"
+			id: "993BB1AC62EC7CEA"
 			optional: true
 			rewards: [{
-				id: "5DAFD034ACAD2980"
+				id: "13DB10A94799BF92"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "square"
 			size: 0.8d
 			tasks: [{
-				id: "AD42C859FCEC38C1"
+				id: "6BC17A50F66FC7F8"
 				item: {
 					count: 1
 					id: "cobblemon:protector"
@@ -686,22 +686,22 @@
 		}
 		{
 			dependencies: [
-				"E8E8E5E3A5405461"
+				"978BD3B40A1492AA"
 			]
 			icon: {
 				id: "cobblemon:electirizer"
 			}
-			id: "F4BE67B04B8C2DFC"
+			id: "5FC9732AEBF8EE91"
 			optional: true
 			rewards: [{
-				id: "27584AB839D35BA3"
+				id: "B230DF426CC46171"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "square"
 			size: 0.8d
 			tasks: [{
-				id: "7EBAE60F34E90EAE"
+				id: "501AD60373F19622"
 				item: {
 					count: 1
 					id: "cobblemon:electirizer"
@@ -713,22 +713,22 @@
 		}
 		{
 			dependencies: [
-				"E8E8E5E3A5405461"
+				"978BD3B40A1492AA"
 			]
 			icon: {
 				id: "cobblemon:magmarizer"
 			}
-			id: "34B9216B0A025BB1"
+			id: "4DAF8D44049195AA"
 			optional: true
 			rewards: [{
-				id: "3740B7031DC6D7A3"
+				id: "C69D43E0BBAEE6BD"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "square"
 			size: 0.8d
 			tasks: [{
-				id: "6F799AC809BF93BB"
+				id: "2DCC7B2821B7C892"
 				item: {
 					count: 1
 					id: "cobblemon:magmarizer"
@@ -740,22 +740,22 @@
 		}
 		{
 			dependencies: [
-				"E8E8E5E3A5405461"
+				"978BD3B40A1492AA"
 			]
 			icon: {
 				id: "cobblemon:reaper_cloth"
 			}
-			id: "7E6CB2B4666CEE22"
+			id: "ED8B4789794414B4"
 			optional: true
 			rewards: [{
-				id: "64CA44ECBD8CFE8B"
+				id: "158905F2D9D11AB1"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "square"
 			size: 0.8d
 			tasks: [{
-				id: "B69FB6E4977EF77C"
+				id: "C74C7398BC9F8849"
 				item: {
 					count: 1
 					id: "cobblemon:reaper_cloth"
@@ -767,14 +767,14 @@
 		}
 		{
 			dependencies: [
-				"E8E8E5E3A5405461"
+				"978BD3B40A1492AA"
 			]
 			icon: {
 				id: "cobblemon:exp_candy_m"
 			}
-			id: "C3BAAC15456874CD"
+			id: "A04CCC6F1867B96C"
 			rewards: [{
-				id: "ED3FAAB03FBED55A"
+				id: "A22018D5B511680C"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -791,7 +791,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "9CB7B7F70F62E718"
+				id: "FE4C8D287E30F3B0"
 				max_level: 0
 				max_turns: 0
 				min_level: 0

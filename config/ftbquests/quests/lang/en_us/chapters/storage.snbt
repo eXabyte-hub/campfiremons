@@ -1,0 +1,20 @@
+{
+	quest.3FCD2C0BAA19AB69.quest_subtitle: "For chests and backpacks"
+	quest.3FCD2C0BAA19AB69.title: "Upgrades"
+	quest.4649BEB0975F290A.quest_subtitle: "Upgradeable chests and barrels"
+	quest.4649BEB0975F290A.title: "Sophisticated Storage"
+	quest.6A6EED89B1FB0321.quest_desc: [
+		"&eSophisticated Storage&r: chests and barrels you upgrade in place, with sorting and pickup"
+		"upgrades. &eBackpacks&r carry the same upgrades on your back."
+		"&eTom's Simple Storage&r links your chests to one terminal; &eRefined Storage&r goes fully digital,"
+		"with disks and autocrafting."
+	]
+	quest.6A6EED89B1FB0321.quest_subtitle: "Never run out of room"
+	quest.6A6EED89B1FB0321.title: "Storage"
+	quest.A3FACD0EE462EF55.quest_subtitle: "One terminal, every chest"
+	quest.A3FACD0EE462EF55.title: "Tom's Storage"
+	quest.C31AA05C065CB389.quest_subtitle: "Storage on your back"
+	quest.C31AA05C065CB389.title: "Backpacks"
+	quest.CE3DC6E86E8FFBD1.quest_subtitle: "Digital storage"
+	quest.CE3DC6E86E8FFBD1.title: "Refined Storage"
+}

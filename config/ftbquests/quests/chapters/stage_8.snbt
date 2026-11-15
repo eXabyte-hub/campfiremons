@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "stage_8"
-	group: "A878D9FAE9054E9D"
+	group: "33ACE78A3A205CA0"
 	icon: {
 		id: "cobblemon:cherish_ball"
 	}
@@ -10,7 +10,7 @@
 	images: [
 		{
 			height: 1.6d
-			id: "300E1923225F74ED"
+			id: "E11104CA03909B58"
 			image: "campfiremons:textures/quests/stage_8.png"
 			rotation: 0.0d
 			width: 8.55d
@@ -19,7 +19,7 @@
 		}
 		{
 			height: 1.5d
-			id: "4CF89D620A61C530"
+			id: "AA941FE37412C3D2"
 			image: "mega_showdown:textures/gui/summary/tera_types/dragon.png"
 			rotation: 0.0d
 			width: 1.5d
@@ -28,7 +28,7 @@
 		}
 		{
 			height: 1.5d
-			id: "78F8293AA2FA3D77"
+			id: "F3A4C98CC855B321"
 			image: "mega_showdown:textures/gui/summary/tera_types/dragon.png"
 			rotation: 0.0d
 			width: 1.5d
@@ -36,7 +36,7 @@
 			y: -6.2d
 		}
 	]
-	order_index: 16
+	order_index: 17
 	quest_links: [ ]
 	quests: [
 		{

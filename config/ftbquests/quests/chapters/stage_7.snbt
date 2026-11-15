@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "stage_7"
-	group: "A878D9FAE9054E9D"
+	group: "33ACE78A3A205CA0"
 	icon: {
 		id: "cobblemon:luxury_ball"
 	}
@@ -10,7 +10,7 @@
 	images: [
 		{
 			height: 1.6d
-			id: "74A4CF262CCA0656"
+			id: "7AE37B4727179751"
 			image: "campfiremons:textures/quests/stage_7.png"
 			rotation: 0.0d
 			width: 9.57d
@@ -19,7 +19,7 @@
 		}
 		{
 			height: 1.5d
-			id: "CED79412B5FFA7B3"
+			id: "FBE214D5C683803B"
 			image: "mega_showdown:textures/gui/summary/tera_types/fire.png"
 			rotation: 0.0d
 			width: 1.5d
@@ -28,7 +28,7 @@
 		}
 		{
 			height: 1.5d
-			id: "D520449723576494"
+			id: "A5C3332A7FF240B4"
 			image: "mega_showdown:textures/gui/summary/tera_types/fire.png"
 			rotation: 0.0d
 			width: 1.5d
@@ -36,7 +36,7 @@
 			y: -6.2d
 		}
 	]
-	order_index: 15
+	order_index: 16
 	quest_links: [ ]
 	quests: [
 		{

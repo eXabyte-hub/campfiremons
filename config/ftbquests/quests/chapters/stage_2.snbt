@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "stage_2"
-	group: "A878D9FAE9054E9D"
+	group: "33ACE78A3A205CA0"
 	icon: {
 		id: "cobblemon:great_ball"
 	}
@@ -10,7 +10,7 @@
 	images: [
 		{
 			height: 1.6d
-			id: "A03421C8E49863E9"
+			id: "49C6A32425E416AF"
 			image: "campfiremons:textures/quests/stage_2.png"
 			rotation: 0.0d
 			width: 9.84d
@@ -19,7 +19,7 @@
 		}
 		{
 			height: 1.5d
-			id: "BCBA61F2C15CC9B8"
+			id: "17ECE896DD098DAA"
 			image: "mega_showdown:textures/gui/summary/tera_types/water.png"
 			rotation: 0.0d
 			width: 1.5d
@@ -28,7 +28,7 @@
 		}
 		{
 			height: 1.5d
-			id: "4BECED16041D5123"
+			id: "87754A7C5ED3C2F2"
 			image: "mega_showdown:textures/gui/summary/tera_types/water.png"
 			rotation: 0.0d
 			width: 1.5d
@@ -36,7 +36,7 @@
 			y: -6.2d
 		}
 	]
-	order_index: 10
+	order_index: 11
 	quest_links: [ ]
 	quests: [
 		{

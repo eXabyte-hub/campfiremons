@@ -1,0 +1,49 @@
+{
+	quest.16420C4B0E0C987D.quest_subtitle: "Win 1 raid"
+	quest.16420C4B0E0C987D.title: "Raid Rookie"
+	quest.331DD876752FAFAD.quest_desc: [
+		"★2 dens need you to be at Stage 1 or later to host or join."
+	]
+	quest.331DD876752FAFAD.quest_subtitle: "Open from Stage 1"
+	quest.331DD876752FAFAD.title: "★★ Raids"
+	quest.4EB0F7C0EFC36E86.quest_desc: [
+		"★4 dens need you to be at Stage 4 or later to host or join."
+	]
+	quest.4EB0F7C0EFC36E86.quest_subtitle: "Open from Stage 4"
+	quest.4EB0F7C0EFC36E86.title: "★★★★ Raids"
+	quest.5341F2B7D71CDAEB.quest_subtitle: "Win 50 raids"
+	quest.5341F2B7D71CDAEB.title: "Raid Legend"
+	quest.71B03768CBBFD215.quest_subtitle: "Open a Raid Pouch"
+	quest.71B03768CBBFD215.title: "Spoils"
+	quest.7613F601AF71036D.quest_desc: [
+		"★3 dens need you to be at Stage 3 or later to host or join."
+	]
+	quest.7613F601AF71036D.quest_subtitle: "Open from Stage 3"
+	quest.7613F601AF71036D.title: "★★★ Raids"
+	quest.89AD47EBBC3C11DD.quest_desc: [
+		"★5 dens need you to be at Stage 6 or later to host or join."
+	]
+	quest.89AD47EBBC3C11DD.quest_subtitle: "Open from Stage 6"
+	quest.89AD47EBBC3C11DD.title: "★★★★★ Raids"
+	quest.CF654947ACB6C726.quest_desc: [
+		"★1 dens are open to everyone."
+	]
+	quest.CF654947ACB6C726.quest_subtitle: "Open from the start"
+	quest.CF654947ACB6C726.title: "★ Raids"
+	quest.D0FF4B696DBD13FA.quest_desc: [
+		"Raises your chance to catch the boss after a win."
+	]
+	quest.E100EFA4F4860E8B.quest_desc: [
+		"Raid crystals glow across the world. Start a raid to fight a powerful boss with up to three"
+		"friends; beat it and you get a chance to catch it, plus rewards in a Raid Pouch."
+		"Higher star tiers open as you progress: ★1 from the start, ★2 at Stage 1, ★3 at Stage 3, ★4 at Stage 4, ★5 at Stage 6."
+	]
+	quest.E100EFA4F4860E8B.quest_subtitle: "Team up against bosses"
+	quest.E100EFA4F4860E8B.title: "Raid Dens"
+	quest.E357D792449B5284.quest_subtitle: "Win 25 raids"
+	quest.E357D792449B5284.title: "Raid Expert"
+	quest.E36596C1E00F447F.quest_subtitle: "Win 10 raids"
+	quest.E36596C1E00F447F.title: "Raid Veteran"
+	quest.F1496DA5C5C20219.quest_subtitle: "Win 5 raids"
+	quest.F1496DA5C5C20219.title: "Raid Regular"
+}

@@ -48,8 +48,9 @@ config in the script, then run `python -I tools/gen_finds.py` and `packwiz refre
 The quest book in `config/ftbquests/quests/` was generated **once** by `tools/gen_quests.py` (one chapter per
 stage). From now on it is edited in game: open the book, toggle edit mode (needs op), and FTB Quests saves straight
 into this repo through the dev-instance symlink. Re-running the script needs `--force` and discards those edits.
-In v0.1.10 the book was rebuilt (one-off, outside the repo) into hub layouts with topic chapters, keeping every
-existing quest ID so progress carried over. Its art (title banners, the Pokédex panel, the wormhole, Paradox tiles,
+In v0.1.10 the book was rebuilt by `tools/quest_book/` (see its README) into hub layouts with topic chapters,
+keeping every existing quest ID so progress carried over; that rebuild starts from the v0.1.9 book and discards
+in-game edits, so port those into the builder before re-running it. Its art (title banners, the Pokédex panel, the wormhole, Paradox tiles,
 gold panels) comes from `tools/gen_quest_art.py` into `kubejs/assets/campfiremons/textures/quests/`; chapter
 images reference those, and type icons and big ball pictures straight from Mega Showdown's and Cobblemon's jars.
 Quest text lives in `lang/en_us/chapters/<chapter>.snbt` keyed by quest ID: if a quest gets a new ID, move its

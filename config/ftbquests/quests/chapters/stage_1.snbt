@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "stage_1"
-	group: "A878D9FAE9054E9D"
+	group: "33ACE78A3A205CA0"
 	icon: {
 		id: "cobblemon:poke_ball"
 	}
@@ -10,7 +10,7 @@
 	images: [
 		{
 			height: 1.6d
-			id: "42401B7DC32ECB6B"
+			id: "BC5C262BAC9C83AC"
 			image: "campfiremons:textures/quests/stage_1.png"
 			rotation: 0.0d
 			width: 9.54d
@@ -19,7 +19,7 @@
 		}
 		{
 			height: 1.5d
-			id: "34576E25E1AF08E2"
+			id: "A1066B28ACD9FF91"
 			image: "mega_showdown:textures/gui/summary/tera_types/rock.png"
 			rotation: 0.0d
 			width: 1.5d
@@ -28,7 +28,7 @@
 		}
 		{
 			height: 1.5d
-			id: "8D832E7ED03F6293"
+			id: "56A465783BA356CA"
 			image: "mega_showdown:textures/gui/summary/tera_types/rock.png"
 			rotation: 0.0d
 			width: 1.5d
@@ -36,7 +36,7 @@
 			y: -6.2d
 		}
 	]
-	order_index: 9
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{

@@ -1,0 +1,2890 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "armor"
+	group: "505FA8BFD14418AE"
+	icon: {
+		id: "minecraft:iron_chestplate"
+	}
+	id: "74CFA7816BCE4A07"
+	images: [
+		{
+			height: 1.8d
+			id: "130789C291DC7C66"
+			image: "campfiremons:textures/quests/armor.png"
+			rotation: 0.0d
+			width: 5.75d
+			x: 0.0d
+			y: -6.6d
+		}
+		{
+			height: 0.62d
+			id: "E58D8A8EBC517ED7"
+			image: "campfiremons:textures/quests/armor_7.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: -8.4d
+			y: -4.6d
+		}
+		{
+			height: 0.62d
+			id: "5313DF0CDD932D2F"
+			image: "campfiremons:textures/quests/armor_11.png"
+			rotation: 0.0d
+			width: 2.84d
+			x: -4.2d
+			y: -4.6d
+		}
+		{
+			height: 0.62d
+			id: "F80676DCDB7E7885"
+			image: "campfiremons:textures/quests/armor_12.png"
+			rotation: 0.0d
+			width: 2.8d
+			x: 0.0d
+			y: -4.6d
+		}
+		{
+			height: 0.62d
+			id: "179BAED3AE0E0421"
+			image: "campfiremons:textures/quests/armor_15.png"
+			rotation: 0.0d
+			width: 2.84d
+			x: 4.200000000000001d
+			y: -4.6d
+		}
+		{
+			height: 0.62d
+			id: "6E226DAAB09B8FAB"
+			image: "campfiremons:textures/quests/armor_20.png"
+			rotation: 0.0d
+			width: 2.8d
+			x: 8.4d
+			y: -4.6d
+		}
+		{
+			height: 1.0d
+			id: "938F87011037CC83"
+			image: "campfiremons:textures/quests/pokemon_armor.png"
+			rotation: 0.0d
+			width: 7.2d
+			x: -5.2d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			id: "F2752885E60AC6C5"
+			image: "campfiremons:textures/quests/shiny_armor.png"
+			rotation: 0.0d
+			width: 4.38d
+			x: 5.2d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			id: "5860FE5E69D87CF6"
+			image: "campfiremons:textures/quests/trainer_hats.png"
+			rotation: 0.0d
+			width: 5.8d
+			x: 0.0d
+			y: 7.2d
+		}
+	]
+	order_index: 20
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:iron_chestplate"
+			}
+			id: "9E57DC8E238DA8EC"
+			rewards: [{
+				id: "13C7B78CC257FC45"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "gear"
+			size: 2.25d
+			tasks: [{
+				id: "E1D278037EE0A437"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "oritech:jetpack_elytra"
+			}
+			id: "B71C3EEB2A50EFAE"
+			optional: true
+			rewards: [{
+				id: "AA909583846C1468"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4384002951BDDDEA"
+					item: {
+						count: 1
+						id: "minecraft:leather_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "4DD4BBA68A84DA01"
+					item: {
+						count: 1
+						id: "oritech:jetpack_elytra"
+					}
+					type: "item"
+				}
+				{
+					id: "7EBBA9A3972F62B6"
+					item: {
+						count: 1
+						id: "minecraft:leather_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "7844B01DD8DA9106"
+					item: {
+						count: 1
+						id: "minecraft:leather_boots"
+					}
+					type: "item"
+				}
+			]
+			x: -8.4d
+			y: -3.3d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:golden_chestplate"
+			}
+			id: "6CA0DDEDB517A4CA"
+			optional: true
+			rewards: [{
+				id: "8D106AE1A54D8E27"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "5EDA0D084D8DF222"
+					item: {
+						count: 1
+						id: "minecraft:golden_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "CB6CE3363754E7AB"
+					item: {
+						count: 1
+						id: "minecraft:golden_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "AB5BB7C2F1D1BB18"
+					item: {
+						count: 1
+						id: "minecraft:golden_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "EE94BFABA96C312F"
+					item: {
+						count: 1
+						id: "minecraft:golden_boots"
+					}
+					type: "item"
+				}
+			]
+			x: -4.2d
+			y: -3.3d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:chainmail_chestplate"
+			}
+			id: "823FA5C37D3492A4"
+			optional: true
+			rewards: [{
+				id: "BA6ADA79481BF8A4"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "5F54B2A28FDE1984"
+					item: {
+						count: 1
+						id: "minecraft:chainmail_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "F36CCD8237203983"
+					item: {
+						count: 1
+						id: "minecraft:chainmail_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "556E91E07234025C"
+					item: {
+						count: 1
+						id: "minecraft:chainmail_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "1BEE981A5840F781"
+					item: {
+						count: 1
+						id: "minecraft:chainmail_boots"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -3.3d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "oritech:jetpack_exo_elytra"
+			}
+			id: "D36015D07F7B33AB"
+			optional: true
+			rewards: [{
+				id: "7E5E422BFFB66687"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "CA4D73CEF9CDC615"
+					item: {
+						count: 1
+						id: "oritech:exo_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "F9947394C642013B"
+					item: {
+						count: 1
+						id: "oritech:jetpack_exo_elytra"
+					}
+					type: "item"
+				}
+				{
+					id: "60D6E45197FD1497"
+					item: {
+						count: 1
+						id: "oritech:exo_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "4D0EB80552A0306C"
+					item: {
+						count: 1
+						id: "oritech:exo_boots"
+					}
+					type: "item"
+				}
+			]
+			x: 4.2d
+			y: -3.3d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:diamond_chestplate"
+			}
+			id: "F96DBD259DCDC00C"
+			optional: true
+			rewards: [{
+				id: "C34D642AD6E2323A"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "40D7CBD75D4EC343"
+					item: {
+						count: 1
+						id: "minecraft:diamond_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "4B4B2F7A68E348C4"
+					item: {
+						count: 1
+						id: "minecraft:diamond_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "600B29513AB72813"
+					item: {
+						count: 1
+						id: "minecraft:diamond_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "660ED52B5DDE8485"
+					item: {
+						count: 1
+						id: "minecraft:diamond_boots"
+					}
+					type: "item"
+				}
+			]
+			x: 7.75d
+			y: -3.3d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "create:netherite_backtank"
+			}
+			id: "C01C64A8717317A1"
+			optional: true
+			rewards: [{
+				id: "62127D133E5D716B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "FDD340188513BFBA"
+					item: {
+						count: 1
+						id: "create:netherite_diving_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "52596BE4F71FB624"
+					item: {
+						count: 1
+						id: "create:netherite_backtank"
+					}
+					type: "item"
+				}
+				{
+					id: "2DEB7295C7467DC7"
+					item: {
+						count: 1
+						id: "minecraft:netherite_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "FB81DD0B610A43BE"
+					item: {
+						count: 1
+						id: "create:netherite_diving_boots"
+					}
+					type: "item"
+				}
+			]
+			x: 9.05d
+			y: -3.3d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:armarouge_armor_chestplate"
+			}
+			id: "19AF52EB0E952510"
+			optional: true
+			rewards: [{
+				id: "50E1983E379C21EE"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [
+				{
+					id: "299D6D39DC06E03B"
+					item: {
+						count: 1
+						id: "cobblemonarmory:armarouge_armor_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "DF1C2E1B55CDEDE0"
+					item: {
+						count: 1
+						id: "cobblemonarmory:armarouge_armor_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "C1A12C0F83876212"
+					item: {
+						count: 1
+						id: "cobblemonarmory:armarouge_armor_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "C57881869CCC5148"
+					item: {
+						count: 1
+						id: "cobblemonarmory:armarouge_armor_boots"
+					}
+					type: "item"
+				}
+			]
+			x: -8.07d
+			y: 3.4d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:dp_chestplate"
+			}
+			id: "33D09C7F51FFF476"
+			optional: true
+			rewards: [{
+				id: "AFBF7595F04360F9"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [
+				{
+					id: "45150AC85D50CAF9"
+					item: {
+						count: 1
+						id: "cobblemonarmory:dp_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "7E1EB2F0FB3B1CDF"
+					item: {
+						count: 1
+						id: "cobblemonarmory:dp_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "720111F32B3E6026"
+					item: {
+						count: 1
+						id: "cobblemonarmory:dp_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "55648CCE78E1DAAE"
+					item: {
+						count: 1
+						id: "cobblemonarmory:dp_boots"
+					}
+					type: "item"
+				}
+			]
+			x: -6.92d
+			y: 3.4d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:blaziken_armor_chestplate"
+			}
+			id: "EB1F612662B8439E"
+			optional: true
+			rewards: [{
+				id: "9125537B2656D3B5"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [
+				{
+					id: "8A6F5A7A928EFA52"
+					item: {
+						count: 1
+						id: "cobblemonarmory:blaziken_armor_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "85EF54B1F471F37E"
+					item: {
+						count: 1
+						id: "cobblemonarmory:blaziken_armor_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "D8140B346E358AEB"
+					item: {
+						count: 1
+						id: "cobblemonarmory:blaziken_armor_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "F84E919554548B5A"
+					item: {
+						count: 1
+						id: "cobblemonarmory:blaziken_armor_boots"
+					}
+					type: "item"
+				}
+			]
+			x: -5.78d
+			y: 3.4d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:ceruledge_armor_chestplate"
+			}
+			id: "2F8EFFB4C029F46B"
+			optional: true
+			rewards: [{
+				id: "418D979B597431C6"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [
+				{
+					id: "B6F39A3C99D30ABA"
+					item: {
+						count: 1
+						id: "cobblemonarmory:ceruledge_armor_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "B340AD6F71E9A551"
+					item: {
+						count: 1
+						id: "cobblemonarmory:ceruledge_armor_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "153F21CFBA047450"
+					item: {
+						count: 1
+						id: "cobblemonarmory:ceruledge_armor_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "CD3956C4146A462F"
+					item: {
+						count: 1
+						id: "cobblemonarmory:ceruledge_armor_boots"
+					}
+					type: "item"
+				}
+			]
+			x: -4.62d
+			y: 3.4d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:charizard_armor_chestplate"
+			}
+			id: "E83015A55A0B136B"
+			optional: true
+			rewards: [{
+				id: "9B610EEF4DEFF5DE"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [
+				{
+					id: "A9664200FE13CD14"
+					item: {
+						count: 1
+						id: "cobblemonarmory:charizard_armor_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "B8CE4324BFA881CA"
+					item: {
+						count: 1
+						id: "cobblemonarmory:charizard_armor_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "CD77549146949A05"
+					item: {
+						count: 1
+						id: "cobblemonarmory:charizard_armor_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "EF437E1BD3BA7425"
+					item: {
+						count: 1
+						id: "cobblemonarmory:charizard_armor_boots"
+					}
+					type: "item"
+				}
+			]
+			x: -3.48d
+			y: 3.4d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:corviknight_armor_chestplate"
+			}
+			id: "7CE2CEA8B0DF5ECD"
+			optional: true
+			rewards: [{
+				id: "B112074681B75CD7"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [
+				{
+					id: "5107F70309E8B0A4"
+					item: {
+						count: 1
+						id: "cobblemonarmory:corviknight_armor_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "2FCD6A29A947880E"
+					item: {
+						count: 1
+						id: "cobblemonarmory:corviknight_armor_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "E0707D94AA68446F"
+					item: {
+						count: 1
+						id: "cobblemonarmory:corviknight_armor_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "FB23FC505C7FE6A3"
+					item: {
+						count: 1
+						id: "cobblemonarmory:corviknight_armor_boots"
+					}
+					type: "item"
+				}
+			]
+			x: -2.33d
+			y: 3.4d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:eevee_armor_chestplate"
+			}
+			id: "1D926FD5D9442C58"
+			optional: true
+			rewards: [{
+				id: "250D987A40C966E9"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [
+				{
+					id: "844347DBB074572A"
+					item: {
+						count: 1
+						id: "cobblemonarmory:eevee_armor_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "7E2713D5B498AF58"
+					item: {
+						count: 1
+						id: "cobblemonarmory:eevee_armor_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "20ED34AFF41B479F"
+					item: {
+						count: 1
+						id: "cobblemonarmory:eevee_armor_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "3F9BCA22707D95D6"
+					item: {
+						count: 1
+						id: "cobblemonarmory:eevee_armor_boots"
+					}
+					type: "item"
+				}
+			]
+			x: -8.07d
+			y: 4.55d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:espeon_armor_chestplate"
+			}
+			id: "2B53289286A8F307"
+			optional: true
+			rewards: [{
+				id: "2B6FE42C8046FF03"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [
+				{
+					id: "1B4803EF67EE4D4C"
+					item: {
+						count: 1
+						id: "cobblemonarmory:espeon_armor_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "49856E002D2C0603"
+					item: {
+						count: 1
+						id: "cobblemonarmory:espeon_armor_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "4079605B12AC02A9"
+					item: {
+						count: 1
+						id: "cobblemonarmory:espeon_armor_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "24C7AA293A6D2E5D"
+					item: {
+						count: 1
+						id: "cobblemonarmory:espeon_armor_boots"
+					}
+					type: "item"
+				}
+			]
+			x: -6.92d
+			y: 4.55d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:flareon_armor_chestplate"
+			}
+			id: "6B42D82B46581C28"
+			optional: true
+			rewards: [{
+				id: "DD2ED23E125E88E2"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [
+				{
+					id: "82360F4C31E66B1C"
+					item: {
+						count: 1
+						id: "cobblemonarmory:flareon_armor_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "A33DE9E63E57A736"
+					item: {
+						count: 1
+						id: "cobblemonarmory:flareon_armor_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "7C9E4AA914BFCDAC"
+					item: {
+						count: 1
+						id: "cobblemonarmory:flareon_armor_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "717D20990F70233E"
+					item: {
+						count: 1
+						id: "cobblemonarmory:flareon_armor_boots"
+					}
+					type: "item"
+				}
+			]
+			x: -5.78d
+			y: 4.55d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:glaceon_armor_chestplate"
+			}
+			id: "7499F393BCBC7444"
+			optional: true
+			rewards: [{
+				id: "13420382A5F4FDC9"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [
+				{
+					id: "292ACC8A3B130F88"
+					item: {
+						count: 1
+						id: "cobblemonarmory:glaceon_armor_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "8A158D9E3F8DA16F"
+					item: {
+						count: 1
+						id: "cobblemonarmory:glaceon_armor_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "B63B9087C7E0DC97"
+					item: {
+						count: 1
+						id: "cobblemonarmory:glaceon_armor_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "C255260E6EF353D7"
+					item: {
+						count: 1
+						id: "cobblemonarmory:glaceon_armor_boots"
+					}
+					type: "item"
+				}
+			]
+			x: -4.62d
+			y: 4.55d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:haxorus_armor_chestplate"
+			}
+			id: "9E05AFCF5DF3252C"
+			optional: true
+			rewards: [{
+				id: "D2897E9FE7A91AC7"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [
+				{
+					id: "119BBD4728818659"
+					item: {
+						count: 1
+						id: "cobblemonarmory:haxorus_armor_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "F5D073528B6943F8"
+					item: {
+						count: 1
+						id: "cobblemonarmory:haxorus_armor_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "9853606CA84C0ECD"
+					item: {
+						count: 1
+						id: "cobblemonarmory:haxorus_armor_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "C28CB87DACC29CED"
+					item: {
+						count: 1
+						id: "cobblemonarmory:haxorus_armor_boots"
+					}
+					type: "item"
+				}
+			]
+			x: -3.48d
+			y: 4.55d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:jolteon_armor_chestplate"
+			}
+			id: "A6E5012F75B9D0A1"
+			optional: true
+			rewards: [{
+				id: "ABFF8D4DAA29D4F9"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [
+				{
+					id: "A8CA1C088A69D34F"
+					item: {
+						count: 1
+						id: "cobblemonarmory:jolteon_armor_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "3AD528CC493D1723"
+					item: {
+						count: 1
+						id: "cobblemonarmory:jolteon_armor_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "CE92C9397F9F92D9"
+					item: {
+						count: 1
+						id: "cobblemonarmory:jolteon_armor_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "56FE94B4289A5B37"
+					item: {
+						count: 1
+						id: "cobblemonarmory:jolteon_armor_boots"
+					}
+					type: "item"
+				}
+			]
+			x: -2.33d
+			y: 4.55d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:leafeon_armor_chestplate"
+			}
+			id: "93011EA84BCEECB0"
+			optional: true
+			rewards: [{
+				id: "3C9142C627A2B3B4"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [
+				{
+					id: "C689051B4DD5D2EA"
+					item: {
+						count: 1
+						id: "cobblemonarmory:leafeon_armor_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "F41C65A365930AEE"
+					item: {
+						count: 1
+						id: "cobblemonarmory:leafeon_armor_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "A0B6071ACC4F46B9"
+					item: {
+						count: 1
+						id: "cobblemonarmory:leafeon_armor_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "5145BCCDD14FB91F"
+					item: {
+						count: 1
+						id: "cobblemonarmory:leafeon_armor_boots"
+					}
+					type: "item"
+				}
+			]
+			x: -8.07d
+			y: 5.7d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:metagross_armor_chestplate"
+			}
+			id: "B72AF170CD6925A0"
+			optional: true
+			rewards: [{
+				id: "7EC0D9652E190AD6"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [
+				{
+					id: "68FE22BFD092D12F"
+					item: {
+						count: 1
+						id: "cobblemonarmory:metagross_armor_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "8FCA9ECE31725F8D"
+					item: {
+						count: 1
+						id: "cobblemonarmory:metagross_armor_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "A2A4657575E4AF2A"
+					item: {
+						count: 1
+						id: "cobblemonarmory:metagross_armor_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "2E0A9A42CC85024C"
+					item: {
+						count: 1
+						id: "cobblemonarmory:metagross_armor_boots"
+					}
+					type: "item"
+				}
+			]
+			x: -6.92d
+			y: 5.7d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:rayquaza_armor_chestplate"
+			}
+			id: "21D7A05D65F4B93B"
+			optional: true
+			rewards: [{
+				id: "386BAAA159B664EC"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [
+				{
+					id: "746604BACFEEE22E"
+					item: {
+						count: 1
+						id: "cobblemonarmory:rayquaza_armor_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "E413B7D86A665F0B"
+					item: {
+						count: 1
+						id: "cobblemonarmory:rayquaza_armor_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "7A6416CC188CB25B"
+					item: {
+						count: 1
+						id: "cobblemonarmory:rayquaza_armor_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "8318F49D11D8BDD5"
+					item: {
+						count: 1
+						id: "cobblemonarmory:rayquaza_armor_boots"
+					}
+					type: "item"
+				}
+			]
+			x: -5.78d
+			y: 5.7d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:sylveon_armor_chestplate"
+			}
+			id: "E0C84ED4B70FBAC6"
+			optional: true
+			rewards: [{
+				id: "FC65AF533B71F05B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [
+				{
+					id: "C57656012484F481"
+					item: {
+						count: 1
+						id: "cobblemonarmory:sylveon_armor_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "F44B9812E513C99C"
+					item: {
+						count: 1
+						id: "cobblemonarmory:sylveon_armor_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "BFA893C01542D41A"
+					item: {
+						count: 1
+						id: "cobblemonarmory:sylveon_armor_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "5AB02FC7A36CA216"
+					item: {
+						count: 1
+						id: "cobblemonarmory:sylveon_armor_boots"
+					}
+					type: "item"
+				}
+			]
+			x: -4.62d
+			y: 5.7d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:torterra_armor_chestplate"
+			}
+			id: "DD770A708BAEBCD9"
+			optional: true
+			rewards: [{
+				id: "35A6A71CF5F17683"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [
+				{
+					id: "93BA235AA89633BD"
+					item: {
+						count: 1
+						id: "cobblemonarmory:torterra_armor_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "7EA896F2374D43C1"
+					item: {
+						count: 1
+						id: "cobblemonarmory:torterra_armor_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "BAA9B687F4CCEEA3"
+					item: {
+						count: 1
+						id: "cobblemonarmory:torterra_armor_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "667D1AAEE731826A"
+					item: {
+						count: 1
+						id: "cobblemonarmory:torterra_armor_boots"
+					}
+					type: "item"
+				}
+			]
+			x: -3.48d
+			y: 5.7d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:umbreon_armor_chestplate"
+			}
+			id: "F4EB07196896D7A6"
+			optional: true
+			rewards: [{
+				id: "D725015DE7AE667C"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [
+				{
+					id: "6F79A63DC9A03F7F"
+					item: {
+						count: 1
+						id: "cobblemonarmory:umbreon_armor_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "2CD594BF14FF6075"
+					item: {
+						count: 1
+						id: "cobblemonarmory:umbreon_armor_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "64DCC70C61BE716C"
+					item: {
+						count: 1
+						id: "cobblemonarmory:umbreon_armor_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "92D45B56F15793C2"
+					item: {
+						count: 1
+						id: "cobblemonarmory:umbreon_armor_boots"
+					}
+					type: "item"
+				}
+			]
+			x: -2.33d
+			y: 5.7d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:vaporeon_armor_chestplate"
+			}
+			id: "6CD7434739DE1CE8"
+			optional: true
+			rewards: [{
+				id: "2BCF3E1D9747E12F"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [
+				{
+					id: "9D536F61A6F9C6DE"
+					item: {
+						count: 1
+						id: "cobblemonarmory:vaporeon_armor_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "732061EDDB9F3062"
+					item: {
+						count: 1
+						id: "cobblemonarmory:vaporeon_armor_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "4A8B25513B998C98"
+					item: {
+						count: 1
+						id: "cobblemonarmory:vaporeon_armor_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "73875DA1BB6B4FAB"
+					item: {
+						count: 1
+						id: "cobblemonarmory:vaporeon_armor_boots"
+					}
+					type: "item"
+				}
+			]
+			x: -8.07d
+			y: 6.85d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:shiny_blaziken_armor_chestplate"
+			}
+			id: "9E999C2D6790B140"
+			optional: true
+			rewards: [{
+				id: "52A7FF3713B26AEE"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [
+				{
+					id: "E54C31B31F1044CA"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_blaziken_armor_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "EECC8E46D8FEA046"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_blaziken_armor_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "19023507089DFF82"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_blaziken_armor_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "D7F0FE6BBD2607CB"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_blaziken_armor_boots"
+					}
+					type: "item"
+				}
+			]
+			x: 2.33d
+			y: 3.4d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:shiny_charizard_armor_chestplate"
+			}
+			id: "5B7F1EF2F68D3E56"
+			optional: true
+			rewards: [{
+				id: "3DAFD0F359B8A6BE"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [
+				{
+					id: "D9B73E3CE844D28B"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_charizard_armor_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "162C3D57D6B21AA9"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_charizard_armor_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "E79588D326745EB9"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_charizard_armor_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "8D7F43AF7B4CD8DB"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_charizard_armor_boots"
+					}
+					type: "item"
+				}
+			]
+			x: 3.48d
+			y: 3.4d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:shiny_corviknight_armor_chestplate"
+			}
+			id: "E81F5F2FE15DAB2D"
+			optional: true
+			rewards: [{
+				id: "43E2C4E888251D91"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [
+				{
+					id: "25CD014A88550254"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_corviknight_armor_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "5873C8B915756452"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_corviknight_armor_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "2BFC20B032B16CBD"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_corviknight_armor_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "B2ACC96D5D861C21"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_corviknight_armor_boots"
+					}
+					type: "item"
+				}
+			]
+			x: 4.62d
+			y: 3.4d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:shiny_eevee_armor_chestplate"
+			}
+			id: "4BB0A7AB70BBF5ED"
+			optional: true
+			rewards: [{
+				id: "8068841FD8FE27FF"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [
+				{
+					id: "B15C3B05375A2D0B"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_eevee_armor_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "DCA749745E91FD83"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_eevee_armor_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "FB62DFCB73BB9C40"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_eevee_armor_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "A30DF5A040764165"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_eevee_armor_boots"
+					}
+					type: "item"
+				}
+			]
+			x: 5.78d
+			y: 3.4d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:shiny_espeon_armor_chestplate"
+			}
+			id: "446AB77EE10DC9B4"
+			optional: true
+			rewards: [{
+				id: "E005116515C2EC36"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [
+				{
+					id: "E7D29942BBC9BB06"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_espeon_armor_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "D71EEE1BC85325BC"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_espeon_armor_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "DC5D44C5A354FEC0"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_espeon_armor_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "1FFC00DD4A216562"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_espeon_armor_boots"
+					}
+					type: "item"
+				}
+			]
+			x: 6.92d
+			y: 3.4d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:shiny_flareon_armor_chestplate"
+			}
+			id: "148178E905BD69A8"
+			optional: true
+			rewards: [{
+				id: "3EA32ECBE2D4859C"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [
+				{
+					id: "952DF034AA008A24"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_flareon_armor_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "65D9BBBD0A13A44C"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_flareon_armor_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "E7ACD5E50B25996C"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_flareon_armor_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "230246D959D4EAAF"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_flareon_armor_boots"
+					}
+					type: "item"
+				}
+			]
+			x: 8.07d
+			y: 3.4d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:shiny_glaceon_armor_chestplate"
+			}
+			id: "1EAA0A237429A1BD"
+			optional: true
+			rewards: [{
+				id: "3B161CA35A2E9E28"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [
+				{
+					id: "3971AA6B5AD4AC12"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_glaceon_armor_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "D25433DD27A9409E"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_glaceon_armor_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "28F7299B92328CFD"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_glaceon_armor_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "EE37F17095967758"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_glaceon_armor_boots"
+					}
+					type: "item"
+				}
+			]
+			x: 2.33d
+			y: 4.55d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:shiny_haxorus_armor_chestplate"
+			}
+			id: "7C06E648111EF74B"
+			optional: true
+			rewards: [{
+				id: "F2EBB7C29233C826"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [
+				{
+					id: "99CDE5F466814579"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_haxorus_armor_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "B932030012074715"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_haxorus_armor_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "527735F9A1CACFBF"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_haxorus_armor_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "4CFBA25B4CC03970"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_haxorus_armor_boots"
+					}
+					type: "item"
+				}
+			]
+			x: 3.48d
+			y: 4.55d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:shiny_jolteon_armor_chestplate"
+			}
+			id: "A220892374520AA8"
+			optional: true
+			rewards: [{
+				id: "DE0BF67E172CFEAD"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [
+				{
+					id: "243A12501A2BB331"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_jolteon_armor_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "5393B9284B9DF933"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_jolteon_armor_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "8FC3D841A104DA8C"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_jolteon_armor_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "F4BEFAA16F14A8B5"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_jolteon_armor_boots"
+					}
+					type: "item"
+				}
+			]
+			x: 4.62d
+			y: 4.55d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:shiny_leafeon_armor_chestplate"
+			}
+			id: "631E2A48ADD395C4"
+			optional: true
+			rewards: [{
+				id: "E2599D59F88ECBBE"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [
+				{
+					id: "DD65CF43B58F399A"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_leafeon_armor_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "DDC6C40C5475DE48"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_leafeon_armor_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "8F06CF1C4FBCF36C"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_leafeon_armor_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "E5C23B00585B8C1A"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_leafeon_armor_boots"
+					}
+					type: "item"
+				}
+			]
+			x: 5.78d
+			y: 4.55d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:shiny_metagross_armor_chestplate"
+			}
+			id: "611A3678EAF84A53"
+			optional: true
+			rewards: [{
+				id: "CD3422A683E2B393"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [
+				{
+					id: "C1F88A0340BDBAC3"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_metagross_armor_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "6907BAE44E5D69B6"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_metagross_armor_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "E6535723835C92E6"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_metagross_armor_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "73E2E8D98ED9C2BF"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_metagross_armor_boots"
+					}
+					type: "item"
+				}
+			]
+			x: 6.92d
+			y: 4.55d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:shiny_rayquaza_armor_chestplate"
+			}
+			id: "AAD00011004159D0"
+			optional: true
+			rewards: [{
+				id: "E59EC87308762B40"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [
+				{
+					id: "1C9A1A4E8337B83B"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_rayquaza_armor_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "28A20483B84173B6"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_rayquaza_armor_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "62EC8F4287048BFF"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_rayquaza_armor_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "7D2A71E9BD6C3EAC"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_rayquaza_armor_boots"
+					}
+					type: "item"
+				}
+			]
+			x: 8.07d
+			y: 4.55d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:shiny_sylveon_armor_chestplate"
+			}
+			id: "B1BEE78E0E6B6229"
+			optional: true
+			rewards: [{
+				id: "2B6B50AFAE67F5E8"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [
+				{
+					id: "ADAC29BC965491FE"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_sylveon_armor_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "3B414CC3524BE1BF"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_sylveon_armor_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "ADA8BBDA112FC77D"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_sylveon_armor_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "DB103513EE0ECD7E"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_sylveon_armor_boots"
+					}
+					type: "item"
+				}
+			]
+			x: 2.33d
+			y: 5.7d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:shiny_torterra_armor_chestplate"
+			}
+			id: "CDB0702500799233"
+			optional: true
+			rewards: [{
+				id: "D10C676B8D5E060F"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [
+				{
+					id: "A28DB5598C09E218"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_torterra_armor_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "750E0659E91FF7E9"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_torterra_armor_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "3711B2DAB3ABDC5C"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_torterra_armor_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "56B5046A743A7006"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_torterra_armor_boots"
+					}
+					type: "item"
+				}
+			]
+			x: 3.48d
+			y: 5.7d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:shiny_umbreon_armor_chestplate"
+			}
+			id: "4FD237F458EE4E8C"
+			optional: true
+			rewards: [{
+				id: "2EA65C1C80C15E34"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [
+				{
+					id: "A3AFE7F42ED75268"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_umbreon_armor_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "262D132F6EFBB8E7"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_umbreon_armor_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "92601B694BC91A7C"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_umbreon_armor_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "3C5C1AA45309CC6B"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_umbreon_armor_boots"
+					}
+					type: "item"
+				}
+			]
+			x: 4.62d
+			y: 5.7d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:shiny_vaporeon_armor_chestplate"
+			}
+			id: "FDA292ABE86A80BD"
+			optional: true
+			rewards: [{
+				id: "4B78FFEC77A657B3"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [
+				{
+					id: "A21B6DC92F97F9C3"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_vaporeon_armor_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "C4EDE56AE86D5E19"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_vaporeon_armor_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "99B7E069A4201458"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_vaporeon_armor_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "4AF94E61DE9E5CE7"
+					item: {
+						count: 1
+						id: "cobblemonarmory:shiny_vaporeon_armor_boots"
+					}
+					type: "item"
+				}
+			]
+			x: 5.78d
+			y: 5.7d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:brendans_hat"
+			}
+			id: "A8385241BECD2EA1"
+			optional: true
+			rewards: [{
+				id: "9D1DF21AA5D63CE2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "7015E8646DCDAB06"
+				item: {
+					count: 1
+					id: "cobblemonarmory:brendans_hat"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.4d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:calems_hat"
+			}
+			id: "C0F5B7C8A6328D27"
+			optional: true
+			rewards: [{
+				id: "75848BD6B53B1568"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "523147B69129C53C"
+				item: {
+					count: 1
+					id: "cobblemonarmory:calems_hat"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 8.4d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:dawns_hat"
+			}
+			id: "C82C7C7AAEC80F40"
+			optional: true
+			rewards: [{
+				id: "1599781BD4F8A15A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "AF6005B2194E0B17"
+				item: {
+					count: 1
+					id: "cobblemonarmory:dawns_hat"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.4d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:elios_hat"
+			}
+			id: "9E8E6C5C1A9F29CE"
+			optional: true
+			rewards: [{
+				id: "F87334C1FE3BDE1F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "74180BA8A16D97D5"
+				item: {
+					count: 1
+					id: "cobblemonarmory:elios_hat"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.4d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:ethans_hat"
+			}
+			id: "7581980378AF164D"
+			optional: true
+			rewards: [{
+				id: "E05FD09457D63DAB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "8D82CBF2AEAD883B"
+				item: {
+					count: 1
+					id: "cobblemonarmory:ethans_hat"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.4d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:galarian_weezing_hat"
+			}
+			id: "1A151234403C08CD"
+			optional: true
+			rewards: [{
+				id: "92453FCF6C09977A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "96A526E04438FA7E"
+				item: {
+					count: 1
+					id: "cobblemonarmory:galarian_weezing_hat"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.4d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:glorias_hat"
+			}
+			id: "9F8AA35AACB8F689"
+			optional: true
+			rewards: [{
+				id: "ADD681FEF79406DD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "8E6A8E305BD0F8AF"
+				item: {
+					count: 1
+					id: "cobblemonarmory:glorias_hat"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.4d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:hilberts_hat"
+			}
+			id: "7795554C868F0457"
+			optional: true
+			rewards: [{
+				id: "B76C1C82C025FC68"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "8559F688C951CE2B"
+				item: {
+					count: 1
+					id: "cobblemonarmory:hilberts_hat"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.4d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:hildas_hat"
+			}
+			id: "C98E49B07C3DA8EF"
+			optional: true
+			rewards: [{
+				id: "DDDF2A796E9796C3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "2BD93D8E50775E12"
+				item: {
+					count: 1
+					id: "cobblemonarmory:hildas_hat"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.4d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:kriss_hat"
+			}
+			id: "2AA82E5EA558F2C3"
+			optional: true
+			rewards: [{
+				id: "F3F34A3ADB462F7A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "E01D1A5FB13B0BCD"
+				item: {
+					count: 1
+					id: "cobblemonarmory:kriss_hat"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 9.4d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:leafs_hat"
+			}
+			id: "B91BEA798A3F3BBC"
+			optional: true
+			rewards: [{
+				id: "A929DBD8A9CBC49E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "3C1AD2D953D1FC65"
+				item: {
+					count: 1
+					id: "cobblemonarmory:leafs_hat"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.4d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:lucass_hat"
+			}
+			id: "B4FA967F87D916DA"
+			optional: true
+			rewards: [{
+				id: "D96C5C86AD2CF565"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "36738401DEC93677"
+				item: {
+					count: 1
+					id: "cobblemonarmory:lucass_hat"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.4d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:lyras_hat"
+			}
+			id: "4FB10BA1264F3778"
+			optional: true
+			rewards: [{
+				id: "52426587ADB2C8FF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "77DD9DD56836A2BB"
+				item: {
+					count: 1
+					id: "cobblemonarmory:lyras_hat"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.4d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:mays_hat"
+			}
+			id: "146BDAB9CA1406C4"
+			optional: true
+			rewards: [{
+				id: "8DE5D346C23151FF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "535EF120144D1902"
+				item: {
+					count: 1
+					id: "cobblemonarmory:mays_hat"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.4d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:nates_hat"
+			}
+			id: "1AA7533E05718187"
+			optional: true
+			rewards: [{
+				id: "43E4A0A80755160E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "A72D129F67EAB509"
+				item: {
+					count: 1
+					id: "cobblemonarmory:nates_hat"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.4d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:reds_hat"
+			}
+			id: "3F35B9B4D4DAEF50"
+			optional: true
+			rewards: [{
+				id: "8DBE2F36E7AE4D9B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "2B621C939843E490"
+				item: {
+					count: 1
+					id: "cobblemonarmory:reds_hat"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.4d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:rosas_hat"
+			}
+			id: "FD3510B7290D3C73"
+			optional: true
+			rewards: [{
+				id: "30E7B52D93C5232A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "A16AF6FEA147581E"
+				item: {
+					count: 1
+					id: "cobblemonarmory:rosas_hat"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.4d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:selenes_hat"
+			}
+			id: "DC9B55CF90D19BA4"
+			optional: true
+			rewards: [{
+				id: "5339550830AB32F5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "323984F8A0F6AA8A"
+				item: {
+					count: 1
+					id: "cobblemonarmory:selenes_hat"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.4d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:serenas_hat"
+			}
+			id: "60641E9E887F5398"
+			optional: true
+			rewards: [{
+				id: "1754E3FE5E241048"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "8470328AE4C87D24"
+				item: {
+					count: 1
+					id: "cobblemonarmory:serenas_hat"
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 10.4d
+		}
+		{
+			dependencies: [
+				"9E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:victors_hat"
+			}
+			id: "88C918E7D619C947"
+			optional: true
+			rewards: [{
+				id: "AFBC225ED7A96A82"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "C2C6462FE4793782"
+				item: {
+					count: 1
+					id: "cobblemonarmory:victors_hat"
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 10.4d
+		}
+	]
+}

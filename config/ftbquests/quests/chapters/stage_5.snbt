@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "stage_5"
-	group: "A878D9FAE9054E9D"
+	group: "33ACE78A3A205CA0"
 	icon: {
 		id: "cobblemon:dusk_ball"
 	}
@@ -10,7 +10,7 @@
 	images: [
 		{
 			height: 1.6d
-			id: "F9BAE754492A8B0D"
+			id: "6FC5E45D5477D026"
 			image: "campfiremons:textures/quests/stage_5.png"
 			rotation: 0.0d
 			width: 8.54d
@@ -19,7 +19,7 @@
 		}
 		{
 			height: 1.5d
-			id: "79C322643BCA836A"
+			id: "867AC30B4A894238"
 			image: "mega_showdown:textures/gui/summary/tera_types/psychic.png"
 			rotation: 0.0d
 			width: 1.5d
@@ -28,7 +28,7 @@
 		}
 		{
 			height: 1.5d
-			id: "7CF0D41538E56339"
+			id: "BE341848960216D4"
 			image: "mega_showdown:textures/gui/summary/tera_types/psychic.png"
 			rotation: 0.0d
 			width: 1.5d
@@ -36,7 +36,7 @@
 			y: -6.2d
 		}
 	]
-	order_index: 13
+	order_index: 14
 	quest_links: [ ]
 	quests: [
 		{

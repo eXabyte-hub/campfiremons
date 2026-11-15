@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "stage_3"
-	group: "A878D9FAE9054E9D"
+	group: "33ACE78A3A205CA0"
 	icon: {
 		id: "cobblemon:ultra_ball"
 	}
@@ -10,7 +10,7 @@
 	images: [
 		{
 			height: 1.6d
-			id: "A5829D370BBCA4AE"
+			id: "F324DB4579139806"
 			image: "campfiremons:textures/quests/stage_3.png"
 			rotation: 0.0d
 			width: 9.88d
@@ -19,7 +19,7 @@
 		}
 		{
 			height: 1.5d
-			id: "C2837EE93568E835"
+			id: "492EBBD42DBAB2BC"
 			image: "mega_showdown:textures/gui/summary/tera_types/electric.png"
 			rotation: 0.0d
 			width: 1.5d
@@ -28,7 +28,7 @@
 		}
 		{
 			height: 1.5d
-			id: "BCBB4394160E9676"
+			id: "C673C26C0111C908"
 			image: "mega_showdown:textures/gui/summary/tera_types/electric.png"
 			rotation: 0.0d
 			width: 1.5d
@@ -36,7 +36,7 @@
 			y: -6.2d
 		}
 	]
-	order_index: 11
+	order_index: 12
 	quest_links: [ ]
 	quests: [
 		{

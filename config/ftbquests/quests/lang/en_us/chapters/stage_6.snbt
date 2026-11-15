@@ -39,10 +39,10 @@
 	]
 	quest.77BDF8BC23C0AC35.quest_subtitle: "Explore structure chests"
 	quest.77BDF8BC23C0AC35.title: "Find the Tera Orb"
-	quest.B09BC61D704436D6.quest_desc: [
+	quest.8647E1464D069A7C.quest_desc: [
 		"Rare wormholes lead to &eUltra Space&r, each home to one Ultra Beast. Before Stage 6 you're"
 		"sent straight back home."
 	]
-	quest.B09BC61D704436D6.quest_subtitle: "Wormholes open from Stage 6"
-	quest.B09BC61D704436D6.title: "Ultra Space"
+	quest.8647E1464D069A7C.quest_subtitle: "Wormholes open from Stage 6"
+	quest.8647E1464D069A7C.title: "Ultra Space"
 }

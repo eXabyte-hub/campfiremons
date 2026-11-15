@@ -1,0 +1,21 @@
+{
+	quest.239474265330219B.quest_subtitle: "Held relics"
+	quest.239474265330219B.title: "In Hand"
+	quest.36E5F80DC453107B.quest_subtitle: "Mantles"
+	quest.36E5F80DC453107B.title: "Back"
+	quest.52E5B20F16830E9A.quest_subtitle: "Belts"
+	quest.52E5B20F16830E9A.title: "Belt"
+	quest.69A45FF172787957.quest_subtitle: "Around your neck"
+	quest.69A45FF172787957.title: "Necklace & Ring"
+	quest.A7D327B4F31D948D.quest_desc: [
+		"Relics are powerful trinkets with abilities that grow the more you use them."
+		"They turn up in structure chests across the Overworld, the Nether and the End."
+		"Reliquified Artifacts lets the Artifacts level up the same way."
+	]
+	quest.A7D327B4F31D948D.quest_subtitle: "Trinkets that level up"
+	quest.A7D327B4F31D948D.title: "Relics"
+	quest.AE5B5FAF40C14296.quest_subtitle: "Masks and hats"
+	quest.AE5B5FAF40C14296.title: "Head"
+	quest.EC747B943B5A06CC.quest_subtitle: "Boots and skates"
+	quest.EC747B943B5A06CC.title: "Feet"
+}

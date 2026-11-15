@@ -31,10 +31,10 @@
 	]
 	quest.6B3BF4CF69AB6063.quest_subtitle: "Get a Pokémon to Lv50"
 	quest.6B3BF4CF69AB6063.title: "Veteran"
-	quest.DE7ACAAE991B7ACE.quest_desc: [
+	quest.C01D3DC41DBDDCD0.quest_desc: [
 		"The &eBattle Tower&r takes challengers from now on: win streaks earn Battle Points to spend"
 		"in its shop."
 	]
-	quest.DE7ACAAE991B7ACE.quest_subtitle: "Open from Stage 4"
-	quest.DE7ACAAE991B7ACE.title: "Battle Tower"
+	quest.C01D3DC41DBDDCD0.quest_subtitle: "Open from Stage 4"
+	quest.C01D3DC41DBDDCD0.title: "Battle Tower"
 }

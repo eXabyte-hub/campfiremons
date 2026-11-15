@@ -2,15 +2,15 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "gotta_find_em_all"
-	group: "F2C6F302E53BE2D9"
+	group: "D02FAE08F3920C75"
 	icon: {
 		id: "cobblemon:pokedex_red"
 	}
-	id: "D5043032251F9BED"
+	id: "BCD69E0BCA31B368"
 	images: [
 		{
 			height: 12.8d
-			id: "CA175C9AA6AEC867"
+			id: "3FE3E52FCB8E312C"
 			image: "campfiremons:textures/quests/pokedex_panel.png"
 			rotation: 0.0d
 			width: 19.0d
@@ -19,7 +19,7 @@
 		}
 		{
 			height: 1.7d
-			id: "8B640B2C773B64CD"
+			id: "C56932C6819A543A"
 			image: "campfiremons:textures/quests/gotta_find_em_all.png"
 			rotation: 0.0d
 			width: 14.75d
@@ -28,7 +28,7 @@
 		}
 		{
 			height: 1.1d
-			id: "667190407A01F91B"
+			id: "142827DA8F099450"
 			image: "campfiremons:textures/quests/archaeology.png"
 			rotation: 0.0d
 			width: 5.61d
@@ -37,7 +37,7 @@
 		}
 		{
 			height: 1.1d
-			id: "FA86A5CA2C37882A"
+			id: "31A2BCBCA9D6AB4E"
 			image: "campfiremons:textures/quests/fishing.png"
 			rotation: 0.0d
 			width: 3.44d
@@ -45,23 +45,23 @@
 			y: -5.6d
 		}
 	]
-	order_index: 4
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
 			icon: {
 				id: "cobblemon:pokedex_red"
 			}
-			id: "42653F82EA914613"
+			id: "7503E4BAC744E5CF"
 			rewards: [
 				{
-					id: "C56745361022C5B9"
+					id: "4B477EC4C2CCEB37"
 					type: "xp_levels"
 					xp_levels: 4
 				}
 				{
 					count: 3
-					id: "C5567E00851BE0B5"
+					id: "58143ED2C2916B51"
 					item: {
 						count: 1
 						id: "cobblemon:exp_candy_m"
@@ -82,7 +82,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "E1265CAFACEAD190"
+				id: "D2E39235D23EF9B2"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -105,21 +105,21 @@
 		}
 		{
 			dependencies: [
-				"42653F82EA914613"
+				"7503E4BAC744E5CF"
 			]
 			icon: {
 				id: "cobblemon:pokedex_red"
 			}
-			id: "FDB2331BD496613D"
+			id: "56D965285A63780B"
 			rewards: [
 				{
-					id: "727668F0A55CDBCE"
+					id: "980831EC7CD67D0F"
 					type: "xp_levels"
 					xp_levels: 7
 				}
 				{
 					count: 3
-					id: "734058E07A70C0F7"
+					id: "EC4E95319A555ADC"
 					item: {
 						count: 1
 						id: "cobblemon:exp_candy_l"
@@ -140,7 +140,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "5A0359213AFD8BC7"
+				id: "6C9E90D4D4B3CC9C"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -163,21 +163,21 @@
 		}
 		{
 			dependencies: [
-				"FDB2331BD496613D"
+				"56D965285A63780B"
 			]
 			icon: {
 				id: "cobblemon:pokedex_red"
 			}
-			id: "3B9506A65500A466"
+			id: "66847E040CB3926A"
 			rewards: [
 				{
-					id: "426EF7F205CA423C"
+					id: "781E8E991B42288F"
 					type: "xp_levels"
 					xp_levels: 10
 				}
 				{
 					count: 3
-					id: "711E8C4A77174530"
+					id: "FD73D71F144EB8FE"
 					item: {
 						count: 1
 						id: "cobblemon:rare_candy"
@@ -198,7 +198,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "48D58FA1ADE496DF"
+				id: "D226F72687D217D7"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -223,16 +223,16 @@
 			icon: {
 				id: "minecraft:brush"
 			}
-			id: "C9CF9FF43FFE661F"
+			id: "E63F3F491C0CA64A"
 			rewards: [{
-				id: "80FD5C6C1180C4BB"
+				id: "8719B1DDB87DE3F1"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
-				id: "516AE6C9D2DD193B"
+				id: "712D3BB31EA86862"
 				item: {
 					count: 1
 					id: "minecraft:brush"
@@ -244,21 +244,21 @@
 		}
 		{
 			dependencies: [
-				"C9CF9FF43FFE661F"
+				"E63F3F491C0CA64A"
 			]
 			icon: {
 				id: "cobblemon:fossil_analyzer"
 			}
-			id: "C5FCD3089FBB8404"
+			id: "9D3B09F80AA4CE9F"
 			rewards: [{
-				id: "99853EDB96E67C1D"
+				id: "561031AE6081409D"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
-				id: "85CA2D6EFA2F95B3"
+				id: "4297E379D8FF8935"
 				item: {
 					count: 1
 					id: "cobblemon:fossil_analyzer"
@@ -270,21 +270,21 @@
 		}
 		{
 			dependencies: [
-				"C5FCD3089FBB8404"
+				"9D3B09F80AA4CE9F"
 			]
 			icon: {
 				id: "cobblemon:restoration_tank"
 			}
-			id: "30723FE530326C83"
+			id: "4A5D3D07B804E4A8"
 			rewards: [{
-				id: "87121EE1F881B829"
+				id: "AD6EDF469F8CB2B9"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
-				id: "75E4DACF781778A3"
+				id: "40209B5B1E8787B2"
 				item: {
 					count: 1
 					id: "cobblemon:restoration_tank"
@@ -296,21 +296,21 @@
 		}
 		{
 			dependencies: [
-				"30723FE530326C83"
+				"4A5D3D07B804E4A8"
 			]
 			icon: {
 				id: "cobblemon:helix_fossil"
 			}
-			id: "5B421454EBC2CE5B"
+			id: "2DFEB04EBCAF5A6B"
 			rewards: [
 				{
-					id: "2EED73EDFAFAD8E5"
+					id: "3EFA676CF6D7DD8F"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
 					count: 3
-					id: "9197D3A0D104B8D7"
+					id: "3D0543D450EEC210"
 					item: {
 						count: 1
 						id: "cobblemon:exp_candy_m"
@@ -331,7 +331,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "CA66D4F11640E496"
+				id: "3D789D18BEFA0E83"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -354,22 +354,22 @@
 		}
 		{
 			dependencies: [
-				"5B421454EBC2CE5B"
+				"2DFEB04EBCAF5A6B"
 			]
 			icon: {
 				id: "cobblemon:helix_fossil"
 			}
-			id: "ADCB42C7936E2757"
+			id: "167355427626FE6F"
 			optional: true
 			rewards: [{
-				id: "9CEFEEE5A92C0310"
+				id: "957101718DA4BFF8"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "square"
 			size: 0.8d
 			tasks: [{
-				id: "FE5E884611B2E507"
+				id: "AE9013909CE6A828"
 				item: {
 					count: 1
 					id: "cobblemon:helix_fossil"
@@ -381,22 +381,22 @@
 		}
 		{
 			dependencies: [
-				"5B421454EBC2CE5B"
+				"2DFEB04EBCAF5A6B"
 			]
 			icon: {
 				id: "cobblemon:dome_fossil"
 			}
-			id: "EB8125DC370393B8"
+			id: "FFA016939BEBF7B3"
 			optional: true
 			rewards: [{
-				id: "65268546A74458D3"
+				id: "288D734348AB736F"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "square"
 			size: 0.8d
 			tasks: [{
-				id: "2D021097FE2A1E8E"
+				id: "B78C0FE648FD331F"
 				item: {
 					count: 1
 					id: "cobblemon:dome_fossil"
@@ -408,22 +408,22 @@
 		}
 		{
 			dependencies: [
-				"5B421454EBC2CE5B"
+				"2DFEB04EBCAF5A6B"
 			]
 			icon: {
 				id: "cobblemon:old_amber_fossil"
 			}
-			id: "B0D846D71A34569E"
+			id: "86E6645F17465BFA"
 			optional: true
 			rewards: [{
-				id: "DEE53182A82EC7A9"
+				id: "5AC8DBA7B85C0D57"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "square"
 			size: 0.8d
 			tasks: [{
-				id: "B54B51A966E4952E"
+				id: "5AD5FC1EB75FAD22"
 				item: {
 					count: 1
 					id: "cobblemon:old_amber_fossil"
@@ -435,22 +435,22 @@
 		}
 		{
 			dependencies: [
-				"5B421454EBC2CE5B"
+				"2DFEB04EBCAF5A6B"
 			]
 			icon: {
 				id: "cobblemon:root_fossil"
 			}
-			id: "69C1976B1EFF76CB"
+			id: "1889DB85ACC7FD23"
 			optional: true
 			rewards: [{
-				id: "A99513AC568FC805"
+				id: "5AE5C76DB23AE6DC"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "square"
 			size: 0.8d
 			tasks: [{
-				id: "CD58A6A26626ABF8"
+				id: "1C76FDFCD4966318"
 				item: {
 					count: 1
 					id: "cobblemon:root_fossil"
@@ -462,22 +462,22 @@
 		}
 		{
 			dependencies: [
-				"5B421454EBC2CE5B"
+				"2DFEB04EBCAF5A6B"
 			]
 			icon: {
 				id: "cobblemon:claw_fossil"
 			}
-			id: "1A86DBF7A31F222B"
+			id: "9843C52C745283F0"
 			optional: true
 			rewards: [{
-				id: "76A46A40AF535875"
+				id: "14598E9077C1CB9A"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "square"
 			size: 0.8d
 			tasks: [{
-				id: "E473272501C4C1CE"
+				id: "2C64AF0CE4C74FA9"
 				item: {
 					count: 1
 					id: "cobblemon:claw_fossil"
@@ -489,22 +489,22 @@
 		}
 		{
 			dependencies: [
-				"5B421454EBC2CE5B"
+				"2DFEB04EBCAF5A6B"
 			]
 			icon: {
 				id: "cobblemon:skull_fossil"
 			}
-			id: "28FBB7EA1C750316"
+			id: "DBABB2B36E6C18CA"
 			optional: true
 			rewards: [{
-				id: "732016D895D717A3"
+				id: "85F48C19A207F2E2"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "square"
 			size: 0.8d
 			tasks: [{
-				id: "8200C05CB5B773D4"
+				id: "D186A734808FC8E0"
 				item: {
 					count: 1
 					id: "cobblemon:skull_fossil"
@@ -516,22 +516,22 @@
 		}
 		{
 			dependencies: [
-				"5B421454EBC2CE5B"
+				"2DFEB04EBCAF5A6B"
 			]
 			icon: {
 				id: "cobblemon:armor_fossil"
 			}
-			id: "8DF45D6F07078478"
+			id: "35AB6630D867D962"
 			optional: true
 			rewards: [{
-				id: "2381A59009D2CD52"
+				id: "8DC2E84EEC91190D"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "square"
 			size: 0.8d
 			tasks: [{
-				id: "9EBBBB73F9DC7C5A"
+				id: "DB4696605EFC3531"
 				item: {
 					count: 1
 					id: "cobblemon:armor_fossil"
@@ -543,22 +543,22 @@
 		}
 		{
 			dependencies: [
-				"5B421454EBC2CE5B"
+				"2DFEB04EBCAF5A6B"
 			]
 			icon: {
 				id: "cobblemon:cover_fossil"
 			}
-			id: "4C4FEE45EC73AD24"
+			id: "A6493474107B74C8"
 			optional: true
 			rewards: [{
-				id: "EFC5BA01D2E6A9A9"
+				id: "8BC1B371A6753CC4"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "square"
 			size: 0.8d
 			tasks: [{
-				id: "A6E5A9A70E2AD7D2"
+				id: "9A912764795A0BF7"
 				item: {
 					count: 1
 					id: "cobblemon:cover_fossil"
@@ -570,22 +570,22 @@
 		}
 		{
 			dependencies: [
-				"5B421454EBC2CE5B"
+				"2DFEB04EBCAF5A6B"
 			]
 			icon: {
 				id: "cobblemon:plume_fossil"
 			}
-			id: "1D22DD30582E5CB7"
+			id: "28F2CB042CB48B8B"
 			optional: true
 			rewards: [{
-				id: "DFE2F4CCC41CFA04"
+				id: "FCA34E80349036B7"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "square"
 			size: 0.8d
 			tasks: [{
-				id: "ACBCE0B09D24C8D3"
+				id: "34FF2EC07810FD7C"
 				item: {
 					count: 1
 					id: "cobblemon:plume_fossil"
@@ -597,22 +597,22 @@
 		}
 		{
 			dependencies: [
-				"5B421454EBC2CE5B"
+				"2DFEB04EBCAF5A6B"
 			]
 			icon: {
 				id: "cobblemon:jaw_fossil"
 			}
-			id: "E257094066660BAF"
+			id: "EC7C4555591B218A"
 			optional: true
 			rewards: [{
-				id: "ACE65A5C3FDEBC33"
+				id: "30D98DDE48EEC6B1"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "square"
 			size: 0.8d
 			tasks: [{
-				id: "7E9514709672F965"
+				id: "2F305C51AE51FF5A"
 				item: {
 					count: 1
 					id: "cobblemon:jaw_fossil"
@@ -624,22 +624,22 @@
 		}
 		{
 			dependencies: [
-				"5B421454EBC2CE5B"
+				"2DFEB04EBCAF5A6B"
 			]
 			icon: {
 				id: "cobblemon:sail_fossil"
 			}
-			id: "9B4A010D8EC0E1E5"
+			id: "15917847BB550E92"
 			optional: true
 			rewards: [{
-				id: "F9E418CE3DE6A89A"
+				id: "6087D8D58AAA8DC1"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "square"
 			size: 0.8d
 			tasks: [{
-				id: "6841258E8A8DDD02"
+				id: "AEBA8A2994EEFC6D"
 				item: {
 					count: 1
 					id: "cobblemon:sail_fossil"
@@ -653,16 +653,16 @@
 			icon: {
 				id: "cobblemon:poke_rod"
 			}
-			id: "A1287D61D6D884CF"
+			id: "BCAAD67960130D79"
 			rewards: [{
-				id: "FC8259697CF00CF3"
+				id: "18BD3188BC474155"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
-				id: "4E90EAFE6FF30646"
+				id: "C32C1661BC359C51"
 				item: {
 					count: 1
 					id: "cobblemon:poke_rod"
@@ -674,21 +674,21 @@
 		}
 		{
 			dependencies: [
-				"A1287D61D6D884CF"
+				"BCAAD67960130D79"
 			]
 			icon: {
 				id: "cobblemon:poke_bait"
 			}
-			id: "6EA3C01DB0403B8E"
+			id: "614D0565290ADA09"
 			rewards: [{
-				id: "A36E6807E6F23641"
+				id: "1AA3491BF7221154"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
-				id: "EE38B43D3204407A"
+				id: "A5677160F8391AA8"
 				item: {
 					count: 1
 					id: "cobblemon:poke_bait"
@@ -700,21 +700,21 @@
 		}
 		{
 			dependencies: [
-				"6EA3C01DB0403B8E"
+				"614D0565290ADA09"
 			]
 			icon: {
 				id: "cobblemon:poke_rod"
 			}
-			id: "6049FEB4E24EA665"
+			id: "E4B22D10B4DE71D8"
 			rewards: [
 				{
-					id: "4407E39C299F2787"
+					id: "D8045A4FD6883C86"
 					type: "xp_levels"
 					xp_levels: 3
 				}
 				{
 					count: 8
-					id: "6A37221B051A1152"
+					id: "F41BC525A214770F"
 					item: {
 						count: 1
 						id: "cobblemon:poke_ball"
@@ -735,7 +735,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "FE8A446AFB25BDE3"
+				id: "F3FA311A3CACEEA6"
 				max_level: 0
 				max_turns: 0
 				min_level: 0
@@ -758,21 +758,21 @@
 		}
 		{
 			dependencies: [
-				"6049FEB4E24EA665"
+				"E4B22D10B4DE71D8"
 			]
 			icon: {
 				id: "cobblemon:dive_ball"
 			}
-			id: "E93183171A8A9826"
+			id: "B4D7B132CFE38600"
 			rewards: [
 				{
-					id: "9711E68D9704E9EF"
+					id: "4AA1B05F74C69699"
 					type: "xp_levels"
 					xp_levels: 6
 				}
 				{
 					count: 4
-					id: "189CE4071BA65C81"
+					id: "B7B5DE3FE81DC389"
 					item: {
 						count: 1
 						id: "cobblemon:exp_candy_m"
@@ -793,7 +793,7 @@
 				form: ""
 				gender: ""
 				held_items: ""
-				id: "898AF666584C6BA6"
+				id: "4F9ED9DB5D6DB5DF"
 				max_level: 0
 				max_turns: 0
 				min_level: 0

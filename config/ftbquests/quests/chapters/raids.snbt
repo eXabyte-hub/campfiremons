@@ -1,0 +1,608 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "raids"
+	group: "D02FAE08F3920C75"
+	icon: {
+		id: "cobblemonraiddens:raid_crystal_block"
+	}
+	id: "9BF87B6D57D27EFA"
+	images: [
+		{
+			height: 3.6d
+			id: "C3E7C1A977FAC7B8"
+			image: "campfiremons:textures/quests/wormhole.png"
+			rotation: 0.0d
+			width: 3.6d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 1.8d
+			id: "51D337106E900762"
+			image: "campfiremons:textures/quests/raids.png"
+			rotation: 0.0d
+			width: 8.7d
+			x: 0.0d
+			y: -5.0d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "cobblemonraiddens:raid_crystal_block"
+			}
+			id: "E100EFA4F4860E8B"
+			rewards: [{
+				id: "F0C7BA374160BF26"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				id: "EED10B75DAD1EC74"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"E100EFA4F4860E8B"
+			]
+			icon: {
+				id: "cobblemonraiddens:raid_shard"
+			}
+			id: "16420C4B0E0C987D"
+			rewards: [
+				{
+					id: "488A19F230B987EC"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "99930AB5678108D0"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				abilities: ""
+				action: "win_raid"
+				amount: 1L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "8C75F315E4D11706"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 3.2d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"16420C4B0E0C987D"
+			]
+			icon: {
+				id: "cobblemonraiddens:raid_shard"
+			}
+			id: "F1496DA5C5C20219"
+			rewards: [
+				{
+					id: "C9834D3F8472ABF9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "EC8905515CF34838"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				abilities: ""
+				action: "win_raid"
+				amount: 5L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "237D267BC7D63C49"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 5.1d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"F1496DA5C5C20219"
+			]
+			icon: {
+				id: "cobblemonraiddens:raid_shard"
+			}
+			id: "E36596C1E00F447F"
+			rewards: [
+				{
+					id: "B40A56AA645B7640"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					count: 4
+					id: "EC45B4CC9B1395EE"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				abilities: ""
+				action: "win_raid"
+				amount: 10L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "7F71670A306AC31D"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"E36596C1E00F447F"
+			]
+			icon: {
+				id: "cobblemonraiddens:raid_shard"
+			}
+			id: "E357D792449B5284"
+			rewards: [
+				{
+					id: "5D539DCB0CA32EB9"
+					type: "xp_levels"
+					xp_levels: 9
+				}
+				{
+					count: 5
+					id: "DC7C2E6B7023E4CA"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				abilities: ""
+				action: "win_raid"
+				amount: 25L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "A3484C715A0D2AA3"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 8.899999999999999d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"E357D792449B5284"
+			]
+			icon: {
+				id: "cobblemonraiddens:raid_shard"
+			}
+			id: "5341F2B7D71CDAEB"
+			rewards: [
+				{
+					id: "94DD754CC4E4D3B9"
+					type: "xp_levels"
+					xp_levels: 11
+				}
+				{
+					count: 6
+					id: "A689D7A8181C1F44"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.4d
+			tasks: [{
+				abilities: ""
+				action: "win_raid"
+				amount: 50L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "261A55901A304CCC"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 10.8d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"E100EFA4F4860E8B"
+			]
+			icon: {
+				id: "cobblemonraiddens:raid_pouch"
+			}
+			id: "71B03768CBBFD215"
+			rewards: [{
+				id: "199E018B1922E2AA"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				abilities: ""
+				action: "open_raid_pouch"
+				amount: 1L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "CBC00212CD33D3EA"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -3.2d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"E100EFA4F4860E8B"
+			]
+			icon: {
+				id: "cobblemonraiddens:catching_charm"
+			}
+			id: "D0FF4B696DBD13FA"
+			optional: true
+			rewards: [{
+				id: "EC81358E08AD6D07"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "rsquare"
+			size: 0.85d
+			tasks: [{
+				id: "B395A3DF0E231B8F"
+				item: {
+					count: 1
+					id: "cobblemonraiddens:catching_charm"
+				}
+				type: "item"
+			}]
+			x: -5.1d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"E100EFA4F4860E8B"
+			]
+			icon: {
+				id: "cobblemonraiddens:cheer_attack"
+			}
+			id: "E2766307C1B2B7C8"
+			optional: true
+			rewards: [{
+				id: "6DA67B415982932D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "F4003D0D41E2A4BA"
+				item: {
+					count: 1
+					id: "cobblemonraiddens:cheer_attack"
+				}
+				type: "item"
+			}]
+			x: -3.2d
+			y: 1.2d
+		}
+		{
+			dependencies: [
+				"E100EFA4F4860E8B"
+			]
+			icon: {
+				id: "cobblemonraiddens:cheer_defense"
+			}
+			id: "53945AA086F2751D"
+			optional: true
+			rewards: [{
+				id: "75CE53BFEF5C1969"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "70E900D310986241"
+				item: {
+					count: 1
+					id: "cobblemonraiddens:cheer_defense"
+				}
+				type: "item"
+			}]
+			x: -4.2d
+			y: 1.2d
+		}
+		{
+			dependencies: [
+				"E100EFA4F4860E8B"
+			]
+			icon: {
+				id: "cobblemonraiddens:cheer_heal"
+			}
+			id: "E5E9C4BD6D8952D2"
+			optional: true
+			rewards: [{
+				id: "60F1D11C28D3E4AF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "B39A8CC78D5A98F4"
+				item: {
+					count: 1
+					id: "cobblemonraiddens:cheer_heal"
+				}
+				type: "item"
+			}]
+			x: -5.2d
+			y: 1.2d
+		}
+		{
+			dependencies: [
+				"E100EFA4F4860E8B"
+			]
+			icon: {
+				id: "cobblemonraiddens:raid_crystal_block"
+			}
+			id: "CF654947ACB6C726"
+			rewards: [{
+				id: "3E9291E9EBF21387"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				id: "DBD64E578B14C5A6"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 3.6d
+		}
+		{
+			dependencies: [
+				"E100EFA4F4860E8B"
+			]
+			icon: {
+				id: "cobblemonraiddens:raid_crystal_block"
+			}
+			id: "331DD876752FAFAD"
+			rewards: [{
+				id: "83A5D678D5071107"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 1.1d
+			tasks: [{
+				id: "A4F499BE06224F9A"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 3.6d
+		}
+		{
+			dependencies: [
+				"E100EFA4F4860E8B"
+			]
+			icon: {
+				id: "cobblemonraiddens:raid_crystal_block"
+			}
+			id: "7613F601AF71036D"
+			rewards: [{
+				id: "E958CA4954C5FD12"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "7A37183B247E8B51"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.6d
+		}
+		{
+			dependencies: [
+				"E100EFA4F4860E8B"
+			]
+			icon: {
+				id: "cobblemonraiddens:raid_crystal_block"
+			}
+			id: "4EB0F7C0EFC36E86"
+			rewards: [{
+				id: "D6458146373EAF51"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "BAFC35F247C828A3"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 3.6d
+		}
+		{
+			dependencies: [
+				"E100EFA4F4860E8B"
+			]
+			icon: {
+				id: "cobblemonraiddens:raid_crystal_block"
+			}
+			id: "89AD47EBBC3C11DD"
+			rewards: [{
+				id: "2F74FF3A4159CB8F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 1.4d
+			tasks: [{
+				id: "EDEAF401583CBDF5"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 3.6d
+		}
+	]
+}

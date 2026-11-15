@@ -1,0 +1,1196 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tools_weapons"
+	group: "505FA8BFD14418AE"
+	icon: {
+		id: "minecraft:diamond_pickaxe"
+	}
+	id: "A28F606C70C5B6E8"
+	images: [
+		{
+			height: 2.4d
+			id: "93CA7F65982567C4"
+			image: "minecraft:textures/item/diamond_sword.png"
+			rotation: 0.0d
+			width: 2.4d
+			x: -3.3d
+			y: 0.0d
+		}
+		{
+			height: 2.4d
+			id: "A333259317BE204E"
+			image: "minecraft:textures/item/diamond_pickaxe.png"
+			rotation: 0.0d
+			width: 2.4d
+			x: 3.3d
+			y: 0.0d
+		}
+		{
+			height: 1.8d
+			id: "657A1A4D0D38E02C"
+			image: "campfiremons:textures/quests/tools_weapons.png"
+			rotation: 0.0d
+			width: 12.29d
+			x: 0.0d
+			y: -10.4d
+		}
+		{
+			height: 1.1d
+			id: "13B3889120EB0D38"
+			image: "campfiremons:textures/quests/pickaxes.png"
+			rotation: 0.0d
+			width: 4.68d
+			x: 0.0d
+			y: -8.6d
+		}
+		{
+			height: 1.1d
+			id: "2649B4BB92D29773"
+			image: "campfiremons:textures/quests/swords.png"
+			rotation: 0.0d
+			width: 3.99d
+			x: 0.0d
+			y: 2.3d
+		}
+		{
+			height: 0.62d
+			id: "8C64FFA0A8DFC9FA"
+			image: "campfiremons:textures/quests/tier_wood.png"
+			rotation: 0.0d
+			width: 3.79d
+			x: -8.4d
+			y: -7.3d
+		}
+		{
+			height: 0.62d
+			id: "E2145897BF6ABE96"
+			image: "campfiremons:textures/quests/tier_stone.png"
+			rotation: 0.0d
+			width: 1.85d
+			x: -4.2d
+			y: -7.3d
+		}
+		{
+			height: 0.62d
+			id: "F943D6FF0ADF1415"
+			image: "campfiremons:textures/quests/tier_iron.png"
+			rotation: 0.0d
+			width: 1.37d
+			x: 0.0d
+			y: -7.3d
+		}
+		{
+			height: 0.62d
+			id: "83142C0251C83D95"
+			image: "campfiremons:textures/quests/tier_diamond.png"
+			rotation: 0.0d
+			width: 2.68d
+			x: 4.200000000000001d
+			y: -7.3d
+		}
+		{
+			height: 0.62d
+			id: "3A5CA021281CEC8A"
+			image: "campfiremons:textures/quests/tier_netherite.png"
+			rotation: 0.0d
+			width: 2.85d
+			x: 8.4d
+			y: -7.3d
+		}
+		{
+			height: 0.75d
+			id: "6D4D49C90F6654D6"
+			image: "campfiremons:textures/quests/dmg_4.png"
+			rotation: 0.0d
+			width: 3.19d
+			x: -4.6d
+			y: 3.7d
+		}
+		{
+			height: 0.75d
+			id: "E8569E60D61A228E"
+			image: "campfiremons:textures/quests/dmg_5.png"
+			rotation: 0.0d
+			width: 3.19d
+			x: -4.6d
+			y: 4.800000000000001d
+		}
+		{
+			height: 0.75d
+			id: "5A36403C8532E6FC"
+			image: "campfiremons:textures/quests/dmg_6.png"
+			rotation: 0.0d
+			width: 3.16d
+			x: -4.6d
+			y: 5.9d
+		}
+		{
+			height: 0.75d
+			id: "4B6AFC10ACCE2AD9"
+			image: "campfiremons:textures/quests/dmg_7.png"
+			rotation: 0.0d
+			width: 3.19d
+			x: -4.6d
+			y: 7.0d
+		}
+		{
+			height: 0.75d
+			id: "2FB23B4A186AB9D0"
+			image: "campfiremons:textures/quests/dmg_8.png"
+			rotation: 0.0d
+			width: 3.16d
+			x: -4.6d
+			y: 8.1d
+		}
+		{
+			height: 0.75d
+			id: "7219FF40F9E46322"
+			image: "campfiremons:textures/quests/dmg_9.png"
+			rotation: 0.0d
+			width: 3.16d
+			x: -4.6d
+			y: 9.2d
+		}
+		{
+			height: 0.75d
+			id: "7F948F4369B46946"
+			image: "campfiremons:textures/quests/pokemon_weapons.png"
+			rotation: 0.0d
+			width: 5.51d
+			x: -4.6d
+			y: 10.7d
+		}
+	]
+	order_index: 19
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:stick"
+			}
+			id: "46153370B503D293"
+			rewards: [{
+				id: "E7C1E1A9C0B94ECD"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "gear"
+			size: 2.25d
+			tasks: [{
+				id: "F891120B4C025AFD"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"46153370B503D293"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:wooden_pickaxe"
+			}
+			id: "7D530DE0A486CCE1"
+			optional: true
+			rewards: [{
+				id: "C1C84DB6C3DF23FB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "1761117F86179380"
+				item: {
+					count: 1
+					id: "minecraft:wooden_pickaxe"
+				}
+				type: "item"
+			}]
+			x: -8.9d
+			y: -5.6d
+		}
+		{
+			dependencies: [
+				"46153370B503D293"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:golden_pickaxe"
+			}
+			id: "C59723D72687FC56"
+			optional: true
+			rewards: [{
+				id: "A51EF59A2CD62404"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "502A53C2F1E2C25F"
+				item: {
+					count: 1
+					id: "minecraft:golden_pickaxe"
+				}
+				type: "item"
+			}]
+			x: -7.9d
+			y: -5.6d
+		}
+		{
+			dependencies: [
+				"46153370B503D293"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:stone_pickaxe"
+			}
+			id: "3F4A3EDFF5E2EF2A"
+			optional: true
+			rewards: [{
+				id: "15411B6333D5C01E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "37EF1BE9E6C36C35"
+				item: {
+					count: 1
+					id: "minecraft:stone_pickaxe"
+				}
+				type: "item"
+			}]
+			x: -4.2d
+			y: -5.6d
+		}
+		{
+			dependencies: [
+				"46153370B503D293"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:iron_pickaxe"
+			}
+			id: "FA009ED165860D70"
+			optional: true
+			rewards: [{
+				id: "5373365D3267B8E2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "DCC818BFDD9E8389"
+				item: {
+					count: 1
+					id: "minecraft:iron_pickaxe"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.6d
+		}
+		{
+			dependencies: [
+				"46153370B503D293"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:diamond_pickaxe"
+			}
+			id: "8E1856CF775696CE"
+			optional: true
+			rewards: [{
+				id: "A011BCC48B74EF80"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "4C55EB305B020802"
+				item: {
+					count: 1
+					id: "minecraft:diamond_pickaxe"
+				}
+				type: "item"
+			}]
+			x: 4.2d
+			y: -5.6d
+		}
+		{
+			dependencies: [
+				"46153370B503D293"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:netherite_pickaxe"
+			}
+			id: "9A6034C4FACFD193"
+			optional: true
+			rewards: [{
+				id: "7BE1E5BFC447A9F8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "E66E3BAB22A47130"
+				item: {
+					count: 1
+					id: "minecraft:netherite_pickaxe"
+				}
+				type: "item"
+			}]
+			x: 7.4d
+			y: -6.1d
+		}
+		{
+			dependencies: [
+				"46153370B503D293"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mythicupgrades:ametrine_pickaxe"
+			}
+			id: "3DB4BEF5FB833383"
+			optional: true
+			rewards: [{
+				id: "967123994ED3E874"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "50F28BAAA703921A"
+				item: {
+					count: 1
+					id: "mythicupgrades:ametrine_pickaxe"
+				}
+				type: "item"
+			}]
+			x: 8.4d
+			y: -6.1d
+		}
+		{
+			dependencies: [
+				"46153370B503D293"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mythicupgrades:aquamarine_pickaxe"
+			}
+			id: "CD3AE70867EDBB9A"
+			optional: true
+			rewards: [{
+				id: "A831C39A455003C8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "1BE93B67F073A77C"
+				item: {
+					count: 1
+					id: "mythicupgrades:aquamarine_pickaxe"
+				}
+				type: "item"
+			}]
+			x: 9.4d
+			y: -6.1d
+		}
+		{
+			dependencies: [
+				"46153370B503D293"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mythicupgrades:citrine_pickaxe"
+			}
+			id: "3E99598EF7E6F67D"
+			optional: true
+			rewards: [{
+				id: "FB2A1D83B1CF0C62"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "7AADF7CDDBE5CB0B"
+				item: {
+					count: 1
+					id: "mythicupgrades:citrine_pickaxe"
+				}
+				type: "item"
+			}]
+			x: 7.4d
+			y: -5.1d
+		}
+		{
+			dependencies: [
+				"46153370B503D293"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mythicupgrades:jade_pickaxe"
+			}
+			id: "53F18BF5AAE3FE94"
+			optional: true
+			rewards: [{
+				id: "A6B8356C6ABB67D5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "6B130B5FFD057545"
+				item: {
+					count: 1
+					id: "mythicupgrades:jade_pickaxe"
+				}
+				type: "item"
+			}]
+			x: 8.4d
+			y: -5.1d
+		}
+		{
+			dependencies: [
+				"46153370B503D293"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mythicupgrades:peridot_pickaxe"
+			}
+			id: "55259C2C493D08FF"
+			optional: true
+			rewards: [{
+				id: "F6135258DA81901C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "CA5A3886AD8E5EFB"
+				item: {
+					count: 1
+					id: "mythicupgrades:peridot_pickaxe"
+				}
+				type: "item"
+			}]
+			x: 9.4d
+			y: -5.1d
+		}
+		{
+			dependencies: [
+				"46153370B503D293"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mythicupgrades:ruby_pickaxe"
+			}
+			id: "2AA7793B8C27B61A"
+			optional: true
+			rewards: [{
+				id: "6DECCCBA0928F172"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "2080C4662CD50CA4"
+				item: {
+					count: 1
+					id: "mythicupgrades:ruby_pickaxe"
+				}
+				type: "item"
+			}]
+			x: 7.4d
+			y: -4.1d
+		}
+		{
+			dependencies: [
+				"46153370B503D293"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mythicupgrades:sapphire_pickaxe"
+			}
+			id: "1FD667D863B808D5"
+			optional: true
+			rewards: [{
+				id: "A29AF61C183E989F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "FCAE824A4540744E"
+				item: {
+					count: 1
+					id: "mythicupgrades:sapphire_pickaxe"
+				}
+				type: "item"
+			}]
+			x: 8.4d
+			y: -4.1d
+		}
+		{
+			dependencies: [
+				"46153370B503D293"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mythicupgrades:topaz_pickaxe"
+			}
+			id: "B4202C8AA2E3B322"
+			optional: true
+			rewards: [{
+				id: "6625722B45E2E1CC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "A804AA1AF6F7E626"
+				item: {
+					count: 1
+					id: "mythicupgrades:topaz_pickaxe"
+				}
+				type: "item"
+			}]
+			x: 9.4d
+			y: -4.1d
+		}
+		{
+			dependencies: [
+				"46153370B503D293"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:golden_sword"
+			}
+			id: "A2C7B844AB26CA4B"
+			optional: true
+			rewards: [{
+				id: "14791B55C0FE8D21"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 0.8d
+			tasks: [{
+				id: "E754DE0E783B3084"
+				item: {
+					count: 1
+					id: "minecraft:golden_sword"
+				}
+				type: "item"
+			}]
+			x: -2.3d
+			y: 3.7d
+		}
+		{
+			dependencies: [
+				"46153370B503D293"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:wooden_sword"
+			}
+			id: "CDEC62444FA31C5E"
+			optional: true
+			rewards: [{
+				id: "AB229B792FB8E7F9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 0.8d
+			tasks: [{
+				id: "FED55D298C65E5D4"
+				item: {
+					count: 1
+					id: "minecraft:wooden_sword"
+				}
+				type: "item"
+			}]
+			x: -1.3d
+			y: 3.7d
+		}
+		{
+			dependencies: [
+				"46153370B503D293"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:stone_sword"
+			}
+			id: "828EA4BA88DB8C3F"
+			optional: true
+			rewards: [{
+				id: "970E45FA7F0B4FD8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 0.8d
+			tasks: [{
+				id: "9FDA039508881602"
+				item: {
+					count: 1
+					id: "minecraft:stone_sword"
+				}
+				type: "item"
+			}]
+			x: -2.3d
+			y: 4.8d
+		}
+		{
+			dependencies: [
+				"46153370B503D293"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "create:cardboard_sword"
+			}
+			id: "2A7C16A7DDA6F6B5"
+			optional: true
+			rewards: [{
+				id: "F6BEF806FFEC185B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 0.8d
+			tasks: [{
+				id: "3947E205BF3A8995"
+				item: {
+					count: 1
+					id: "create:cardboard_sword"
+				}
+				type: "item"
+			}]
+			x: -2.3d
+			y: 5.9d
+		}
+		{
+			dependencies: [
+				"46153370B503D293"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "E228714D6D8A88D0"
+			optional: true
+			rewards: [{
+				id: "DF3880DE491DB8FD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 0.8d
+			tasks: [{
+				id: "B9F3D8A0A6BE57F9"
+				item: {
+					count: 1
+					id: "minecraft:iron_sword"
+				}
+				type: "item"
+			}]
+			x: -1.3d
+			y: 5.9d
+		}
+		{
+			dependencies: [
+				"46153370B503D293"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:diamond_sword"
+			}
+			id: "30A57EDA6CD8A15C"
+			optional: true
+			rewards: [{
+				id: "BEB52B15B25F85E5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 0.8d
+			tasks: [{
+				id: "55246F89A216F4E6"
+				item: {
+					count: 1
+					id: "minecraft:diamond_sword"
+				}
+				type: "item"
+			}]
+			x: -2.3d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"46153370B503D293"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:netherite_sword"
+			}
+			id: "8A3579B51B3FC569"
+			optional: true
+			rewards: [{
+				id: "42800BAC28E88340"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 0.8d
+			tasks: [{
+				id: "100A139C185AE8FB"
+				item: {
+					count: 1
+					id: "minecraft:netherite_sword"
+				}
+				type: "item"
+			}]
+			x: -2.3d
+			y: 8.1d
+		}
+		{
+			dependencies: [
+				"46153370B503D293"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mythicupgrades:ametrine_sword"
+			}
+			id: "7C928749B6D8F117"
+			optional: true
+			rewards: [{
+				id: "199731467A0D82B9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 0.8d
+			tasks: [{
+				id: "FD435CB22E13DC02"
+				item: {
+					count: 1
+					id: "mythicupgrades:ametrine_sword"
+				}
+				type: "item"
+			}]
+			x: -1.3d
+			y: 8.1d
+		}
+		{
+			dependencies: [
+				"46153370B503D293"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mythicupgrades:aquamarine_sword"
+			}
+			id: "EC42B6947146C7D2"
+			optional: true
+			rewards: [{
+				id: "B83AA42E7368E92F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 0.8d
+			tasks: [{
+				id: "86F4B0A8223307F6"
+				item: {
+					count: 1
+					id: "mythicupgrades:aquamarine_sword"
+				}
+				type: "item"
+			}]
+			x: -0.3d
+			y: 8.1d
+		}
+		{
+			dependencies: [
+				"46153370B503D293"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mythicupgrades:citrine_sword"
+			}
+			id: "D79CF7F5898A3BC1"
+			optional: true
+			rewards: [{
+				id: "FA77BB8F649065B0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 0.8d
+			tasks: [{
+				id: "7AA67BDB8F6CCC1F"
+				item: {
+					count: 1
+					id: "mythicupgrades:citrine_sword"
+				}
+				type: "item"
+			}]
+			x: 0.7d
+			y: 8.1d
+		}
+		{
+			dependencies: [
+				"46153370B503D293"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mythicupgrades:jade_sword"
+			}
+			id: "9E73C8AE5551CBFA"
+			optional: true
+			rewards: [{
+				id: "7BA533A95A985080"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 0.8d
+			tasks: [{
+				id: "CFF45BAC6216E7C4"
+				item: {
+					count: 1
+					id: "mythicupgrades:jade_sword"
+				}
+				type: "item"
+			}]
+			x: 1.7d
+			y: 8.1d
+		}
+		{
+			dependencies: [
+				"46153370B503D293"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mythicupgrades:peridot_sword"
+			}
+			id: "854BD6553838808F"
+			optional: true
+			rewards: [{
+				id: "9E589E2B73D8977F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 0.8d
+			tasks: [{
+				id: "52CD6468779AD572"
+				item: {
+					count: 1
+					id: "mythicupgrades:peridot_sword"
+				}
+				type: "item"
+			}]
+			x: 2.7d
+			y: 8.1d
+		}
+		{
+			dependencies: [
+				"46153370B503D293"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mythicupgrades:ruby_sword"
+			}
+			id: "EBCB5FBACFB6645A"
+			optional: true
+			rewards: [{
+				id: "2333ADFDC1DC9F01"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 0.8d
+			tasks: [{
+				id: "8D379C84FE7D255F"
+				item: {
+					count: 1
+					id: "mythicupgrades:ruby_sword"
+				}
+				type: "item"
+			}]
+			x: 3.7d
+			y: 8.1d
+		}
+		{
+			dependencies: [
+				"46153370B503D293"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mythicupgrades:topaz_sword"
+			}
+			id: "9699AC773ACE921C"
+			optional: true
+			rewards: [{
+				id: "E6C56A8B033BEBFA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 0.8d
+			tasks: [{
+				id: "9AF344C12F277435"
+				item: {
+					count: 1
+					id: "mythicupgrades:topaz_sword"
+				}
+				type: "item"
+			}]
+			x: 4.7d
+			y: 8.1d
+		}
+		{
+			dependencies: [
+				"46153370B503D293"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mythicupgrades:sapphire_sword"
+			}
+			id: "73E442BE611C2381"
+			optional: true
+			rewards: [{
+				id: "D047EDDF6829C2A6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 0.8d
+			tasks: [{
+				id: "DA84FA003E4FDA6B"
+				item: {
+					count: 1
+					id: "mythicupgrades:sapphire_sword"
+				}
+				type: "item"
+			}]
+			x: -2.3d
+			y: 9.2d
+		}
+		{
+			dependencies: [
+				"46153370B503D293"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:ceruledge_sword"
+			}
+			id: "F6978AC4AF8E2E94"
+			optional: true
+			rewards: [{
+				id: "BFAF4B825D98CE76"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "pentagon"
+			size: 0.85d
+			tasks: [{
+				id: "50FD50A3BBE8B7F3"
+				item: {
+					count: 1
+					id: "cobblemonarmory:ceruledge_sword"
+				}
+				type: "item"
+			}]
+			x: -1.4d
+			y: 10.7d
+		}
+		{
+			dependencies: [
+				"46153370B503D293"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:metagross_hammer"
+			}
+			id: "B6A1A9D49B1DE7B0"
+			optional: true
+			rewards: [{
+				id: "486ED090ED863B78"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "pentagon"
+			size: 0.85d
+			tasks: [{
+				id: "432BD8A07748075C"
+				item: {
+					count: 1
+					id: "cobblemonarmory:metagross_hammer"
+				}
+				type: "item"
+			}]
+			x: -0.4d
+			y: 10.7d
+		}
+		{
+			dependencies: [
+				"46153370B503D293"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:primeape_gloves"
+			}
+			id: "CACB7B61F65F847E"
+			optional: true
+			rewards: [{
+				id: "679DDD69E560E78D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "pentagon"
+			size: 0.85d
+			tasks: [{
+				id: "B300A5466FA8974D"
+				item: {
+					count: 1
+					id: "cobblemonarmory:primeape_gloves"
+				}
+				type: "item"
+			}]
+			x: 0.6d
+			y: 10.7d
+		}
+		{
+			dependencies: [
+				"46153370B503D293"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:sirfetchd_sword"
+			}
+			id: "7309360C9DEAFFEF"
+			optional: true
+			rewards: [{
+				id: "A421F5103411B7CE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "pentagon"
+			size: 0.85d
+			tasks: [{
+				id: "E38889DAC433FCC3"
+				item: {
+					count: 1
+					id: "cobblemonarmory:sirfetchd_sword"
+				}
+				type: "item"
+			}]
+			x: 1.6d
+			y: 10.7d
+		}
+		{
+			dependencies: [
+				"46153370B503D293"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:starmie_sword"
+			}
+			id: "4499F5E1928F1167"
+			optional: true
+			rewards: [{
+				id: "E86D7B2757175ABE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "pentagon"
+			size: 0.85d
+			tasks: [{
+				id: "6A38260F7727A7A8"
+				item: {
+					count: 1
+					id: "cobblemonarmory:starmie_sword"
+				}
+				type: "item"
+			}]
+			x: 2.6d
+			y: 10.7d
+		}
+		{
+			dependencies: [
+				"46153370B503D293"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:tinkaton_hammer"
+			}
+			id: "FBB626A0141294A0"
+			optional: true
+			rewards: [{
+				id: "FE2E6E32911C2D27"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "pentagon"
+			size: 0.85d
+			tasks: [{
+				id: "BF7D279D8EAAE86A"
+				item: {
+					count: 1
+					id: "cobblemonarmory:tinkaton_hammer"
+				}
+				type: "item"
+			}]
+			x: 3.6d
+			y: 10.7d
+		}
+		{
+			dependencies: [
+				"46153370B503D293"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobblemonarmory:zacian_sword"
+			}
+			id: "6B5267CAFC415885"
+			optional: true
+			rewards: [{
+				id: "72573F53719781C3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "pentagon"
+			size: 0.85d
+			tasks: [{
+				id: "79961F3531B7AE1B"
+				item: {
+					count: 1
+					id: "cobblemonarmory:zacian_sword"
+				}
+				type: "item"
+			}]
+			x: 4.6d
+			y: 10.7d
+		}
+	]
+}

@@ -454,79 +454,115 @@ hash = "7d344bc0e4b17014290c3e7570a7505099de513f28b51cf6319919d75b465b3f"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "ea2f45c1d9acc9a07f34301bf71f2c581623b58a44ddf7f4ce9feb4344f18467"
+hash = "cee0e0071fb14a5a08521b117c760f8f8801990d4ca21e6b7040de89de4894fb"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/armor.snbt"
+hash = "8654411b5b86182593eeb559213896028f9d84988937544d656823d1aa327108"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/artifacts.snbt"
-hash = "fd19f9d599be55df029c4919b81097567255e7712ea6187e9108e159efece801"
+hash = "ede783a56c07352b5dd4fb761a92bdba780542cf267fe5ba13df83532c348eec"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/battle_gimmicks.snbt"
-hash = "d2fc10a316e3729bca47f3967e257d3e3e93a98db1763ae09a54534ac95467c9"
+hash = "0823cc6090c7c1f2ef27878167731923891dfb549d75b52366144ade0817e43c"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/building.snbt"
+hash = "806cc6173aec97f656c40a95a3ac2220aecf6f87a8b0f0a17b00e49627c613a7"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/create.snbt"
+hash = "193493ef7403f2b92c172dee26721f6f1555ed54bb12ed8f38fa272abf4c5957"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/evolution.snbt"
-hash = "f947864f6d8a547e83076ee83354b5658e4a4db522714bd4163225cb45fcb5f8"
+hash = "9e365b0d616e09e50e968c201f53b5551e3283b62eced76820cc7619362fa5a4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gotta_find_em_all.snbt"
-hash = "372a5276921f289cd80a90de322be5cc0b64fa44ccbcefdd6a21c07dd361fbda"
+hash = "b5ba2875663f875b21f0f1d71a657ffbe0e20b3288318255d27607be8603803b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/legendary.snbt"
-hash = "ef9f8acaadf916d797b7c04c5e2eb8f48857720238716d8d58cbbba4746c306b"
+hash = "6aaeff29a145f5f98cadd7e2e7ba42a0dae1501cc19698ea51e0518817ea3ebe"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/oritech.snbt"
+hash = "9c48f740cd63f476112b42c4c7452e34be272ff8a07a55443ce20858e899bc67"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/paradox.snbt"
-hash = "c4e57a8c3c8063917e44584fc22a5ab584fc75920c29a1ffe4a2ca509f1e5123"
+hash = "71deedbb986d9a4bb5ddfac8afd6dee9e7bead7a9e42f910abf69bc01de05892"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/poke_balls.snbt"
-hash = "1950da3a924f46758681b461dc7b01f6f3ba7383b596d9a1df5bbd7171672a89"
+hash = "d1392bccced4e60eae6763fe722b8d3753fbd245b6c9a1aff26afcd01e3bd1ce"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/raids.snbt"
+hash = "4f404be9cdc42fde95dcb8844f92365828db075f6f09911353579cc8e365f97c"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/relics.snbt"
+hash = "67a5e7031fb1236954c7941045113955cc782ae64970c12ed8bcf88888f70325"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stage_0.snbt"
-hash = "06cb013131bb9eb8337e6109fb701136859303e4ee0cc231130e7df6377997e3"
+hash = "f3d37cb7f60fba4fe4bdca865f9883e67bd2538a27bc366ebcd5130df28f4c57"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stage_1.snbt"
-hash = "fac6feaba0649b7fc9698d60f12a53c85116f7b0334767f84b9490b403db1027"
+hash = "43c17961bdde1eac67a24eba42c1663e6f1ff1d287a1d1c3354111b51969053d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stage_2.snbt"
-hash = "6d617c438982dd2d3284af95478b84d7b7921676c8ff2232604242ae5518fe12"
+hash = "8196fea58c7bdaf6b4f4b7c098eaf01b6769c94724c11303f7c980b0b36182b0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stage_3.snbt"
-hash = "4e00b731bd8c586a659dc9f23b248342bde68e9b692f976e90495128a31daf24"
+hash = "24e159ac71f634deb0cd20ee54a43368facfe02564a78ab1b52966f16278f50f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stage_4.snbt"
-hash = "0ea0179ec8636bba03a153506b815b387a79199bd73b90f2c5bb4356f048c41f"
+hash = "d7004c92b4f06447d5a45b2da9ba2e6a6accc7878fca0a6fc8989dde675d75fb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stage_5.snbt"
-hash = "15a3de137e62101b1e041db3e31fc1dcff2ea35bb3909cfe435977da1dc71801"
+hash = "287ef95eaf29165078d7ae589f7f05cfde62e638290329ae37b11e574cf11068"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stage_6.snbt"
-hash = "d8c4d8ff7012f6c92f18cf4e595570f2bde94ceecc7007162b7572a455d8a207"
+hash = "d7f1d6f1d0dc2dd9879a31bf41361f9c3200c6d36cb7f824ceeb3677cd7551de"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stage_7.snbt"
-hash = "25665c81f0643a3f5447920b737172b49b006fff9a9692dc12c28a9d32d98261"
+hash = "4f78513a404fad44a2bcafa72fbb06057e79007f03960b6420d0661c0942f5fa"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stage_8.snbt"
-hash = "edf9fff0e614e0e3497fa88cb91eda1596954e1f07989b6c6f4cb2a55f5ac572"
+hash = "85f459e3b45e3425b558cbefa03c774a51ed5c93a41554a1611e9b7ceec2750d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stage_9.snbt"
-hash = "516f47570db105f7f6031436aa5b04c7c0672edea1fc30b95f518d2f0ced93dc"
+hash = "d3a588634b6d67c54c444aef15285e5621ad1487645f2e1fc0d02d458a0f4b36"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/storage.snbt"
+hash = "6cf79c5af93ba59e21063b951506a72d747b1f14d9b8572a2cf1650a33b3069a"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/tools_weapons.snbt"
+hash = "a02a861af1a530c2831f93c58420addd72d942dcfee0e3f291a6fac53e796285"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/training.snbt"
+hash = "1dc52d287757e61fcb0802d8dd151663feefe97f2b92277819ee1d9144e0542d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ultra_beasts.snbt"
-hash = "c6d0c600a56d88a7ec47626a0fbdce867f9d15b879d94d27896298613bdb2e63"
+hash = "2452b2337b4b63eb45bfbbe3c200f02d023b4e53667633a77b72dc17c2986356"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -534,43 +570,67 @@ hash = "16801efca45525e1a36f98b959e0bdcc961a950915e8b4a91a62209f8aa56002"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapter.snbt"
-hash = "8d5e3b608d26d296be7f58e2de06f13925a7b41b26255379618a0836283120c4"
+hash = "8dfb70a898cdb448cd02c68397e94bbfc20198827a4bd3bb8ea7359d86019676"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapter_group.snbt"
-hash = "b29a9df7487297ba0e0ee115b365626e306c74e52085b2497e73fddc18014760"
+hash = "9a99bc16685ad0347de950f5aab6de1e29a894f5492af30bf3dfd82ad4a2c70f"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/armor.snbt"
+hash = "16060ebca8dc54926143f48de3cedb33288c570c2a89f4c0fbd8793407925df3"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/artifacts.snbt"
-hash = "86e3d947ffac53a04dcc7dd341ab80d6155e32f882afb8934814f0b83b9e60b9"
+hash = "88fff0c69f5d63018591fe077c2d85085bf2d8248d0c9473e89268b5f986cbf2"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/battle_gimmicks.snbt"
-hash = "aaadfe422749c93581fe1655317400320911636e06b826d491a134aee2341cca"
+hash = "d94f0d2084a1eb98c6dac9d4ec0b8cd4d0f224af76531d67936cf5d9c91404cd"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/building.snbt"
+hash = "c3f7275268441d403a31baa16909144a03346b89a190a260c8b373762d7c36ed"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/create.snbt"
+hash = "427f9637b500f1e32cafb2dbe05165c764274202b2ef9d97afc30002df20b902"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/evolution.snbt"
-hash = "f36e6067ab65ed7e0603434c9f965573b9aac09f9f239622530efaf9b4b17e2b"
+hash = "0b34601f0df1e91d710cfeaab011e9a0ce6bf3bc56e582c61fa9caa9abd86919"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/gotta_find_em_all.snbt"
-hash = "b9eaa43057cb876e8ab63184794942651a4dcbbcff057bff45f700585e939ebc"
+hash = "73d244df5f3837ae932f2d2e6b57968de1d42d3539cfd2091300269fd2550e36"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/legendary.snbt"
-hash = "bea3c22a06a056612498c454b0d7d66113722d7a01fb4fe94093667ebb3b799c"
+hash = "c0eade29af7d129f1f0278c645e747257533e0e1a9e543a4df98991ef55532a4"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/oritech.snbt"
+hash = "7f32aebe336ed94812926e02c835d1c73e8e96fbc49c552b3703e72009572fd9"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/paradox.snbt"
-hash = "9c93471479bc015fcade4030b57e9e52b1410ecd79a8766e2cb38f86c31e4f28"
+hash = "846c2c725fc26197c256c4421a070b520bccd7796aceb2e227bafa1a984c2e7d"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/poke_balls.snbt"
-hash = "242f189da201496ab56db518fb1a40e4c0eeb08b29f428fb9ebca15537e34ec7"
+hash = "86817049901d484cf66ec813ce46c9e531b8ece337bfa20dae55ddfbf1aa098e"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/raids.snbt"
+hash = "c2d77c85bb3d40f269541d529190e1099f4aaaa2bac2f3f5953c85fc7803f7db"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/relics.snbt"
+hash = "87f313a9b997dd712032559ff3a1f38f66a295650833004c925e0e7fbaeecec0"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/stage_0.snbt"
-hash = "8e6c9096aba13bc486d5ea825e51caa10ac88759e7dbc5001cf3575e15b61734"
+hash = "7ebc436087aa5d8ee510f458a2bb0f530b93e02be8f48babcea516c4e092030d"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/stage_1.snbt"
@@ -586,7 +646,7 @@ hash = "c9cc7d8fa78df7d8cb1cbf1c5eea44d9b7e88d0dbd7c54f92ef863b7869db1c9"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/stage_4.snbt"
-hash = "c399942b1ddfba03a461bbaff6f9331cca206a7d264a22163a00209c3561a3db"
+hash = "f1fe0497ac86274386a3564e37147865cf5e2a5a3d6037303f21ab7ecbfd3b0d"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/stage_5.snbt"
@@ -594,7 +654,7 @@ hash = "dd249b8488956a55797a6c1a633998e3cfebb4b43312fefe5f50ecfa26229c02"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/stage_6.snbt"
-hash = "7193760ae01322e5fe7ee1220f94d8fcca56251775326f8b0226837ce26ba524"
+hash = "5efacf312211b4f5852ca7c5d25bb32023e0f041f826ddece7ee67ccd0ad6e4d"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/stage_7.snbt"
@@ -606,11 +666,23 @@ hash = "49a4eb79ebfc393f8994c856afdcec55832f9d98d8f170d6672954145863171e"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/stage_9.snbt"
-hash = "5e838be1806496df2d91c7a5eb26696b7d23cb673c473273b6a50c6094e81991"
+hash = "c24b2c7499dee6dcf14e1dff2829dc9b12738df50eff779be4b9c026a1a7c21c"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/storage.snbt"
+hash = "4eb9c80255750ba2a3227a4ca716c69e30619d7970f78f48bab8528ca22ad9aa"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/tools_weapons.snbt"
+hash = "1ca65658805066880f33cb0ac2eca670b464af0b03f6199d200817a25f43386b"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/training.snbt"
+hash = "a921121271c50a583b4e6a3d21c27b26bee9967399b21188a63fbb9ea3c93c22"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/ultra_beasts.snbt"
-hash = "39342f4504f0756619a0f90a9fd19908ec94f8ab60d17e56cfb7777dbcee3c3d"
+hash = "0b32174345b0f4751097d3e36f3d3967ea722c97af0bb32d2321888ad558eaac"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/file.snbt"
@@ -638,6 +710,30 @@ file = "kubejs/assets/campfiremons/textures/quests/archaeology.png"
 hash = "1733367057e3a8e51ea2256d1bf00d48ecca0a5252a8e3ffd120dc8fd0c7f0d2"
 
 [[files]]
+file = "kubejs/assets/campfiremons/textures/quests/armor.png"
+hash = "e1355c3483d589f31512a6a9fd191914f9448b11e93f407af0a0d846f63073b8"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/armor_11.png"
+hash = "ecd0bb2541cae1031d3c784feb1e8b8195a4c84bdb26b3922ffcaf5c394590b6"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/armor_12.png"
+hash = "447b9857c23914540e4a0a5a5147df3c03f0c574c399504c01db3eb732d062e5"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/armor_15.png"
+hash = "517c54ad86aa3845137be64e3679927b4ad4f0642461f99aaf8bfe7b172aae94"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/armor_20.png"
+hash = "8bbd61a7a25268d227c4f28d4e8587888ce89dea886d53d31a9ca26f3b7ada11"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/armor_7.png"
+hash = "3b6d724a2edf121dfcbf08b566e03257093f05544a3fdf06eb63e7325a22e27e"
+
+[[files]]
 file = "kubejs/assets/campfiremons/textures/quests/artifacts.png"
 hash = "2950e6bafa764bd16b67cecc578266bfcf1bde698ebe61fd8182717a1b6545ae"
 
@@ -648,6 +744,98 @@ hash = "087eaa437ac3b9558613d7cbf6ec8337f9884692642ae20b23c48ea201877a05"
 [[files]]
 file = "kubejs/assets/campfiremons/textures/quests/box_legends.png"
 hash = "65add61cfbb9d7194983cc181a370c5168cac6cc683cb19d7534b7dfa12e3bd2"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/build_chipped.png"
+hash = "52816252b3c5bc4f404981c6988b456cd8cc2db43967cb942b80f01db9bdf563"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/build_framed.png"
+hash = "186d8833467d8591ca5a5deeb287fc701fbcb691fdb696a89db8e75f59eea919"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/build_furnies.png"
+hash = "04e1d0392774d2e999ba1fbb5a6ad90a70d451215c5c6bba9188d7cfe6197b5a"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/build_gadgets.png"
+hash = "71a029381e7f88f7c52278a32ae20b25ba6ba248a3b4405d147ee73c0f0b6074"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/build_handcrafted.png"
+hash = "b793bb6f34639398a36e405df31805bf74952b313f2559a59590d8f0001e1bba"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/build_rechiseled.png"
+hash = "1ba5cf322585a200c88e0690b51680e7d996bd027df6cf0f4d6b79c87f4aee46"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/build_travel.png"
+hash = "b00e2e7bbbae010f182a7609fb602875c7ab5b178f601ece13a81a9fc4f7a038"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/building.png"
+hash = "b92e2eff4dcebd159d18904d02178060c1c0d5758b749aeee0108115ce4e3d17"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/create.png"
+hash = "830d45875d6612ab6920ae4bc2f3f8631e22648ccad2bcc7243e85e67e34e520"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/create_addons.png"
+hash = "61745e1cf1320dd045cf4a1e537f4ff459c787ddb59b13b7df2cc14db5b819a2"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/create_contraptions.png"
+hash = "6c761a5eb372890501e63ed902b6bb937b19ddeef7476a04af34adce61f79a40"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/create_fluids.png"
+hash = "4d848b33a08d7d3d092a2249ab361efcda5e9ce57ae739aeb37f41ad3c4fa8d7"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/create_items.png"
+hash = "cbed925b5a26bb62b62abccc20084146e095565962230153204053339a5689af"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/create_machines.png"
+hash = "ac4e18011a62706d0bd4f0ff8b9d3e24d8cf22fccd737b539fa6b8f39ef95e3f"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/create_power.png"
+hash = "b1e249c70fd2fbe6afd200dc222185344a700e7d301077b77f765a6699234401"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/create_tools.png"
+hash = "1ea2d4011cd332ea57a85f21bbdeaa0963bc9c253fd3b898709b64f8d3e3dbbb"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/create_trains.png"
+hash = "48962230695203e18fc9a266adea4389bee9dec0652bb5a103185d1a84f2461f"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/dmg_4.png"
+hash = "4cf4deb27bb43998634f8239e1a3b9b9932b0290495aa6cd3bb8734dc3608801"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/dmg_5.png"
+hash = "8003fd2b50dc83dd8d063dfb9c9840436eefefb2effec94c0493599d19a00d67"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/dmg_6.png"
+hash = "89c97b57bb8be07e8f3c443d68b3284bed152b5ea92a4f67f890c7b139a8e2b1"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/dmg_7.png"
+hash = "acbd45e5a4f5705b0f684e68fd85ab47116a203fca0ed501381061178666462f"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/dmg_8.png"
+hash = "a3617a362c4199b2c6d03aaff3638eb468db0442224812c268e77bd78be699e9"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/dmg_9.png"
+hash = "8b7fca051b8a33f52423cacba547c316b643b455b7a1da40fd56c6fed6524ac2"
 
 [[files]]
 file = "kubejs/assets/campfiremons/textures/quests/dynamaxing.png"
@@ -694,6 +882,34 @@ file = "kubejs/assets/campfiremons/textures/quests/mythical.png"
 hash = "69507e89e99c814160daff4ed8fc237dd24b3b952aa66b9c104a65d36610d736"
 
 [[files]]
+file = "kubejs/assets/campfiremons/textures/quests/oritech.png"
+hash = "7af50400cb6d34fdea3d6f86c0e1fff021466ab7e5c954bf9f720a029e3cc975"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/oritech_addons.png"
+hash = "47aabf0e9b66494d42c0ab7a3cf07c9726be5774afb9b2dcce654d14a5d6a3a4"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/oritech_energy.png"
+hash = "57b79a81087fb99eee84395bee4b4b9b44e90fdef4d141f6740bc07af9f6dd17"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/oritech_gear.png"
+hash = "d6ba658e6c8a6930376b73b2f27422ee5d07d24ef9a9326c0e5c4dc776351f10"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/oritech_logistics.png"
+hash = "00991413c97e406bc3c445209d1d272c48eeaa86dadfa9724ca0b0ad4c90cfda"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/oritech_machines.png"
+hash = "395000dd49d9543cf2143877205c895639891b38ff6000fa81639616c5acd910"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/oritech_reactor.png"
+hash = "ba8a8e421bf169624c59b42eeb1b255e872584afb7160a0ddde8846e2984f0cb"
+
+[[files]]
 file = "kubejs/assets/campfiremons/textures/quests/paradox.png"
 hash = "ab02ca1a555e2243b41f155976c4279bb4d0c48bf23cc6742b4a05ea75ace2ba"
 
@@ -706,12 +922,60 @@ file = "kubejs/assets/campfiremons/textures/quests/past_tiles.png"
 hash = "0a1474b5d55327d3b2c9c0d8bdb573b59f627904aa69fbddcc5216a62cb08aea"
 
 [[files]]
+file = "kubejs/assets/campfiremons/textures/quests/pickaxes.png"
+hash = "1dca3ab3479a4a48a4c5ce6c1dfeae202f6014870fa7917a3bb46d400b9a5d85"
+
+[[files]]
 file = "kubejs/assets/campfiremons/textures/quests/poke_balls.png"
 hash = "f457ff86df7d95bd03c81ccc95e21f1945df7fa4400f0401c3ddc028e753e6d5"
 
 [[files]]
 file = "kubejs/assets/campfiremons/textures/quests/pokedex_panel.png"
 hash = "2169a88f202e7e1ca4a8a78f514fb06fea9ab6b7805578fb89c04ad6a35c1b86"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/pokemon_armor.png"
+hash = "379f302389b53ed7953cf59118decb82d12f3d70d8fe67e25906c3d63aa3ca72"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/pokemon_weapons.png"
+hash = "80e9cd77fddda3ff1161410b30ae53ed7393603a09553d825c935e8dba9f1a85"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/raids.png"
+hash = "a03177a033095838b0ce133386dc7eb3ce38ac8f6c73c144b6ccf5b45f1d36e4"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/relic_back.png"
+hash = "09777fc4ba0e5693ad3d638dfe1a33c1faf24079e24944bae52a538744da05c0"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/relic_belt.png"
+hash = "319076dcc242e0085a5327173e0e771a24cdae02ec958bd91c327875b52a8b5e"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/relic_feet.png"
+hash = "e3f3176d774eea16ed5885295f9ea2d9d990f6973238a61c8235b9c74f469c32"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/relic_head.png"
+hash = "0d4b93c018a7bb2a1cbe371f88488bf5ea091a805ab40c6e9611895932d4f120"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/relic_necklace.png"
+hash = "c4880f148d5265690446d5894f4a7a47f2cee49a8daa216f064ff27cf6567b15"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/relic_other.png"
+hash = "5bae4f28ebb7610a00b5e1eb905a1110e98a675d643238f06b096647f5bb52e7"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/relics.png"
+hash = "c6890ab5dac6ae293a2e62c3afd7b85cfc523dbe7127fb16a5f6b35fab29d4af"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/shiny_armor.png"
+hash = "f1bb8f74922c106ff3009b8810f382124b3f50ef03f477187635c4c14eda55c9"
 
 [[files]]
 file = "kubejs/assets/campfiremons/textures/quests/slot_belt.png"
@@ -770,12 +1034,100 @@ file = "kubejs/assets/campfiremons/textures/quests/stage_9.png"
 hash = "b4c28b6e6cb7a08230401264ccca7a102d9e5bc4f124844ae88910c05ea01fec"
 
 [[files]]
+file = "kubejs/assets/campfiremons/textures/quests/storage.png"
+hash = "c17c496501d6bbc8e4c216257033ac8e5448145cb8acaf4240db1d0e8983eb6d"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/storage_packs.png"
+hash = "7f075fa77400e9063f15609546f3876339d3e76f7cf088e7558c75eae8931f4d"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/storage_rs.png"
+hash = "f1ae4ce5ee3db7e143981b64a195e960f94f7f17ae39bd5cbf28def559165062"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/storage_soph.png"
+hash = "ba85a7ed4a4c2ddae14401acc13da5632ca959bdb2efdff24e80b7e93971552e"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/storage_toms.png"
+hash = "fa8dd8bdf393d177cb5caed77c253bb76ad3ecb23ea7d692b640a49317e6e060"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/storage_upgrades.png"
+hash = "ad6c6d28e4f686d0068338cde57a464e2e4d2da51dcde982bfd0eaba0033d889"
+
+[[files]]
 file = "kubejs/assets/campfiremons/textures/quests/sub_legendary.png"
 hash = "5866f07d644715855fec57b2e9aafa241f31a7d0d3d99fa76d8d77f22ab386b0"
 
 [[files]]
+file = "kubejs/assets/campfiremons/textures/quests/swords.png"
+hash = "f3c9ead7331b01fa46a85962fce70a2fc004538179694ea1868f9b57364dddc1"
+
+[[files]]
 file = "kubejs/assets/campfiremons/textures/quests/terastallizing.png"
 hash = "2ae2626f8e58f33e44621e94831e8744862a20bcbeb236f31d49852234ad337c"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/tier_diamond.png"
+hash = "39480ad4c7f8afe3143b5bd389d8935de8f61219f330d188792a070d2a86604e"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/tier_iron.png"
+hash = "bf6308b11f3122c1da56fc26c73d808d7dd1d79eb201ba263f5d7f495574aec1"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/tier_netherite.png"
+hash = "c18c56a610450a1f5927dd3df495b5453b5faed0bb05e678bc74a5f6be4a30e1"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/tier_stone.png"
+hash = "e5102bcf3035d89d3d712d06d810f30df9ebbe33803f7969f14bc44899a91d02"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/tier_wood.png"
+hash = "8ae79c94ef8fbd5c3fd58d2485b4bbce6ed0c62e14618026f66a372dac489240"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/tools_weapons.png"
+hash = "32d9eea098f42ec16317cc909983abd4b3e675e118e2def4135c011099aa3e30"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/train_candy.png"
+hash = "8d33b81576a4d63223c031ce993a70352acdbdebbc3a1ea88a3f40c8f8bfa7e7"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/train_caps.png"
+hash = "acf65c406fb35ba306e04a0cbde46482c064b8dfb713f88c18364fdb1e257067"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/train_feathers.png"
+hash = "d6e88d8ecfdb68665526b0ca86109c8aa44394595431d92e7f4af9ba7b873c70"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/train_mints.png"
+hash = "264eb9c42db7806aac4778b62bab8801a22076854378974cf428ae1c235e05d5"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/train_power.png"
+hash = "bd2f95e8141d09938dca19fd7770ca20650300c54f6ff223124a19410d930c3a"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/train_tms.png"
+hash = "bab7855962c62305e163d74e093f10c60d730e6f1fcea5db8455f6c261c95532"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/train_vitamins.png"
+hash = "608103f90170a1f8348d9e83e66d528474c6380cafeba2c1519e7f6e9c687229"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/trainer_hats.png"
+hash = "53683ca4a13aa31418c8be9c18fc241681db90995801f84f6133c3dd56d73f06"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/training.png"
+hash = "1110769f08b30f3bbb89048bb99073e8973820ef58d1e8ca71598a73bfab77ee"
 
 [[files]]
 file = "kubejs/assets/campfiremons/textures/quests/ultra_beasts.png"
