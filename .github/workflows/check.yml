@@ -1,5 +1,7 @@
 # Fails when index.toml is out of date: players and the server would hit hash mismatches when they sync.
 # Fix locally with `packwiz refresh` and commit index.toml + pack.toml.
+# Also fails on a file name KubeJS rejects under kubejs/data or kubejs/assets (only a-z 0-9 _ - . / are allowed):
+# KubeJS treats one as a startup error and the game doesn't load.
 name: Check
 
 on:
@@ -22,3 +24,7 @@ jobs:
         run: |
           ~/go/bin/packwiz refresh
           git diff --exit-code -- index.toml pack.toml
+      - name: KubeJS data and asset file names are valid resource paths
+        run: |
+          bad=$(find kubejs/data kubejs/assets -type f 2>/dev/null | sed 's|^kubejs/[a-z]*/||' | grep -E '[^a-z0-9_./-]' || true)
+          if [ -n "$bad" ]; then echo "Invalid file names (KubeJS won't load):"; echo "$bad"; exit 1; fi

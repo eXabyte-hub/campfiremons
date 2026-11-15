@@ -114,6 +114,9 @@ def jars(mods):
                 if not path.exists():
                     sys.exit(f"{path} is missing: sync the dev instance first")
                 yield path
+    # Data packs we ship inside kubejs/data instead (Open Loader packs outrank KubeJS data, so our overrides of them
+    # wouldn't apply): their pristine copies, so the original structure sets are still known
+    yield from sorted((REPO / "tools" / "vendor").glob("*.zip"))
 
 
 def read_data(mods):
