@@ -2,6 +2,13 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.15
+
+Already playing? Just press Play: the pack updates itself.
+
+- **Type matchups in the quest book.** Hover over a type icon (the row in Getting Started, or the gym type in each
+  gym chapter) to see what that type is strong and weak against, attacking and defending.
+
 ## v0.1.14
 
 Already playing? Just press Play: the pack updates itself.

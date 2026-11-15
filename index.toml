@@ -574,7 +574,7 @@ hash = "520c41cea36c45c2c1eb854ed8d3b1c17a4c48fef620942245a88150890b0ec5"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "56b56dc7d9c6c00e7c3e083206b524ba38c87859c91fd9edc0c3a2306fd965d7"
+hash = "6555fccf7bb9b83ec34b49d22e8fff00e819016290d9ac7a6539e895a2b6955b"
 
 [[files]]
 file = "config/spawn_notification.json"
