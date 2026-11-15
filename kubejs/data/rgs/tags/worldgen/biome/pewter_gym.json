@@ -1,6 +1,20 @@
 {
   "replace": false,
   "values": [
-    "#cobblemon:is_peak"
+    "#cobblemon:is_peak",
+    "#cobblemon:is_mountain",
+    "#cobblemon:is_hills",
+    "#cobblemon:is_highlands",
+    "#cobblemon:is_plateau",
+    "#cobblemon:is_plains",
+    "#cobblemon:is_grassland",
+    "#cobblemon:is_shrubland",
+    "#cobblemon:is_forest",
+    "#cobblemon:is_taiga",
+    "#cobblemon:is_savanna",
+    "#cobblemon:is_tundra",
+    "#cobblemon:is_desert",
+    "#cobblemon:is_badlands",
+    "#cobblemon:is_jungle"
   ]
 }

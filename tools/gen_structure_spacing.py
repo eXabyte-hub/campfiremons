@@ -61,6 +61,7 @@ RARER = {
     "mega_showdown:mega_site": 1.0,  # underground
     "supplementaries": 2.0,  # galleons and road signs
     "rgs": 1.5,  # the 7 Kanto gyms, each every 32 chunks; gym buildings contain their leader
+    "rgs:pewter_gym": 1.2,  # Brock, the first gym: one cell per 32 chunks after clearance, any land biome (tag)
     "rgs:blackthorn_gym": 1.0,  # Clair (Stage 8) has to be found
     "rgs:kanto_league": 1.0,
     "legendarymonuments:distortion_portal": 2.0,

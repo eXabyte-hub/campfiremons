@@ -1734,7 +1734,7 @@ hash = "e28831cbc8684b60efe777215758757ed9b2a76d41c2098ed3e8df595e1bb2fc"
 
 [[files]]
 file = "kubejs/data/rgs/tags/worldgen/biome/pewter_gym.json"
-hash = "d30bfa8e32a6458a8e11074d2fd499c37449f94efb8df685385612a6e3e63d7a"
+hash = "64fce1c613fb10b9c58e2b40b94f509864e282e6c0f6521a83e79bbf478931de"
 
 [[files]]
 file = "kubejs/data/rgs/tags/worldgen/biome/saffron_gym.json"
@@ -1762,7 +1762,7 @@ hash = "c6348b20d2a09e6b0dd7c6a5687d278c4efaabc74b0766807a990ac86a83319d"
 
 [[files]]
 file = "kubejs/data/rgs/worldgen/structure_set/pewter_gym.json"
-hash = "11087ec66ef746c4084195383911f2517b226abc4f725e183b934a3945e7f3a7"
+hash = "7670b513dedf2e56592968566f0c581f23fa4ab8448625903d17b0b595f0acfd"
 
 [[files]]
 file = "kubejs/data/rgs/worldgen/structure_set/saffron_gym.json"
