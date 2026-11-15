@@ -233,6 +233,10 @@ JVM through NeoForged's ServerStarterJar, so the memory the host gives Java goes
      the console; open it to add the bot to the Discord server, then run `reloadbot` in the console (or restart).
      A bot that logged in before it was in the Discord server never gets ready and drops messages ("Tried to
      relay discord message before bot is ready"); this happened on the live server on 2026-11-15.
+   - In the same file set `broadcastCommands = false` and `relayTellRaw = false` under `[chat]`: our scripts and
+     mods run commands all the time (gym leader swaps, gym maps) and SDLink posted every one to Discord.
+     `/say` (`sendSayCommand`) stays on for restart warnings. A "Missing Bot Permission: Manage Roles" error
+     at startup is harmless: that's only for SDLink's Discord-role features, which we don't use.
    - The token is the bot's password: never commit it or paste it anywhere else. If it leaks, Reset Token in the
      portal and put the new one in the file.
 
