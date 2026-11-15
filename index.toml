@@ -3759,6 +3759,11 @@ hash = "24c6c3fe917ffbcef04e788dec3e003d0ed03433bc00f9cf4f23fe9b85636aa7"
 metafile = true
 
 [[files]]
+file = "mods/chunky.pw.toml"
+hash = "68cc51e721e993a8b7a2cbaf45369933b22b07a9c82327ab14757ee10684aa81"
+metafile = true
+
+[[files]]
 file = "mods/cit-resewn-neopatcher.pw.toml"
 hash = "9db88301dcd70ebccafc9b5240384e4eb13bf0554c73f5d99b2176832954872e"
 metafile = true

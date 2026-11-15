@@ -187,6 +187,12 @@ JVM through NeoForged's ServerStarterJar, so the memory the host gives Java goes
 3. Start the server. The first start installs NeoForge and downloads the mods (a few minutes), then the server stops
    to ask for the EULA: set `eula=true` in `eula.txt` and start again.
 4. In the console: `op <you>`, then `whitelist add <name>` for each player (the whitelist is on by default).
+5. Pregenerate the land around spawn once (Chunky, server-only), so the first days of exploring don't make the
+   server lag while the pack's heavy worldgen catches up. In the console: `chunky spawn` (centres on the world spawn,
+   which is in Pallet Town), `chunky radius 3000`, `chunky start`. It works through it in the background while the
+   server runs; `chunky progress` shows how far it is, `chunky pause` stops it, and after a restart `chunky continue`
+   picks it up again. Run it while nobody's playing. A bigger radius takes longer and fills more disk, so keep an eye
+   on the plan's storage.
 
 Every restart pulls the latest release; if the sync fails (GitHub down), the server starts with the files it already
 has. The jar is a launcher: it runs the NeoForge installer and packwiz-installer as short child processes (1 GB heap

@@ -2,6 +2,14 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.7
+
+Nothing changes in game: just press Play as usual.
+
+- For whoever runs the server: **Chunky** is on the server now, to generate the land around spawn ahead of time so
+  exploring doesn't lag. In the console: `chunky spawn`, `chunky radius 3000`, `chunky start` (`chunky progress`
+  to check, `chunky continue` after a restart). Best run while nobody's on.
+
 ## v0.1.6
 
 Already playing? Just press Play: the pack updates itself.
