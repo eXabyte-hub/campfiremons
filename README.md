@@ -49,6 +49,8 @@ Ask whoever runs the server for the address and to be added to the whitelist, th
   let you teleport between the ones you've found, and Ping Wheel marks a spot or a Pokémon for your friends.
 - **Pokémon at home:** Pokémon in a pasture produce items (wool, eggs and more), and wild Pokémon show whether
   you've caught their species yet. Your PC has 60 boxes.
+- **Sounds:** Pokémon battle themes for wild, trainer and PvP battles, the games' cries, and Pokémon music for every
+  biome, the title screen, the Nether and the End (CobbleSounds).
 - **Side activities:** Raid Dens open star by star as you progress, the Battle Tower opens at Stage 4, Ultra Space at
   Stage 6. The Master Ball is the Champion's reward.
 
@@ -59,6 +61,11 @@ Ask whoever runs the server for the address and to be added to the whitelist, th
   **Edit → Settings → Java**.
 - **Shaders** (Complementary Reimagined) are on by default. On a weaker PC, press **K** to toggle them, or turn them
   off under **Options → Video Settings → Shader Packs**.
+- **Distant Horizons** draws terrain far past your render distance. On a weaker PC, turn it down or off with its
+  button in **Options → Video Settings**. On the server it shows terrain you've already been near.
+- **The Pokémon music is a 418 MB download.** The updater asks once which optional files you want: untick
+  **CobbleSounds Soundtrack** to skip it and keep Minecraft's music. To change your mind later, press **Optional
+  mods...** in the update window that shows when you press Play.
 - **Your own files are safe.** The updater only touches the pack's own files, so your settings, resource packs and
   shaders stay as you left them.
 - **Sorting and moving items:** every chest and your own inventory get search, sort and transfer buttons, and the

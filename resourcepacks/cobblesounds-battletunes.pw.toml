@@ -1,0 +1,13 @@
+name = "CobbleSounds BattleTunes"
+filename = "CobbleSounds[Redux]_v1.4.1_BattleTunes.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/yIgJQt6H/versions/ryII9cwu/CobbleSounds%5BRedux%5D_v1.4.1_BattleTunes.zip"
+hash-format = "sha512"
+hash = "6ecb3fac9c89071d238ce50a4d9d60c8e90cb6664fe97a8796a844630d3d3399ddfdd2e77d4cb44b23e5de8ece75c84292f5f61e2c4ac3930f54b581ca863d34"
+
+[update]
+[update.modrinth]
+mod-id = "yIgJQt6H"
+version = "ryII9cwu"

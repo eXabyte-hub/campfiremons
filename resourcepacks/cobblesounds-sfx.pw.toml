@@ -1,0 +1,13 @@
+name = "CobbleSounds SFX"
+filename = "CobbleSounds[Redux]_v1.4_SFX.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/yIgJQt6H/versions/ryII9cwu/CobbleSounds%5BRedux%5D_v1.4_SFX.zip"
+hash-format = "sha512"
+hash = "6047c588e7e9a997f8935d6475164b44ada4e9b47e53ff619d179ea68132e6c3ca8c6b0ac9a793a65649a58ed8da22783d855d1d54e0243ed1841ab0e57f71dc"
+
+[update]
+[update.modrinth]
+mod-id = "yIgJQt6H"
+version = "ryII9cwu"

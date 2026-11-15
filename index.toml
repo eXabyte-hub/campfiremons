@@ -446,7 +446,7 @@ hash = "70074e17491ae047e10c5a80458bf885c4ce8957bc27681a3b9db81a9f82975e"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "4339fbebc60c4ce94a3127c104f01b60cd90af2b43d43745b15b1ef1ca413dd7"
+hash = "50380369a091116dad52e3728b443acd3bfacb713be600c6746508fc98f9b151"
 
 [[files]]
 file = "config/fancymenu/options.txt"
@@ -3943,6 +3943,11 @@ hash = "a6967d761dde867ccc1af53dc9f4e530eb9917a9cb21d0fc15708e8cd2c0f2ba"
 metafile = true
 
 [[files]]
+file = "mods/distanthorizons.pw.toml"
+hash = "6d37de7b436e094a7834d51b5d9d803653ab445e1041853f32a61599b054c7bf"
+metafile = true
+
+[[files]]
 file = "mods/dynamiccrosshair.pw.toml"
 hash = "41ddb2dfcf6b2d87bd52d0fb8dc9c8c3a7e3e83f9f1cbf9c495ab195333dfbd9"
 metafile = true
@@ -4550,6 +4555,26 @@ metafile = true
 [[files]]
 file = "resourcepacks/cobblemon-pasture-enhanced.pw.toml"
 hash = "1b803dd34c7686e35c73dc68feeef750bb05e4ef2582a84bb5f51b28a6c52cf1"
+metafile = true
+
+[[files]]
+file = "resourcepacks/cobblesounds-battletunes.pw.toml"
+hash = "f5c224ab32ca767a800a5e5d552ce888f39f51b67d5a320bf43dd6c4bc362278"
+metafile = true
+
+[[files]]
+file = "resourcepacks/cobblesounds-pokecries.pw.toml"
+hash = "81cd33217926be578392383771512ebaba73a372f915e5f3bc467957c401dd22"
+metafile = true
+
+[[files]]
+file = "resourcepacks/cobblesounds-sfx.pw.toml"
+hash = "146be613c1b9e741ce280f08989d5339d511e1dcc222a83fc5000b15cb6314ff"
+metafile = true
+
+[[files]]
+file = "resourcepacks/cobblesounds-soundtrack.pw.toml"
+hash = "f1c3322531f0376ba2390235249487569bfba7f7bde2e21ec2e37927128c9c10"
 metafile = true
 
 [[files]]

@@ -2,6 +2,32 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.5
+
+Already playing? Just press Play: the pack updates itself. This update asks once about an optional download (the
+Pokémon music, below). New cities only show up in parts of the world you haven't explored yet.
+
+**Out in the world**
+- **Kanto cities:** Pallet, Viridian, Pewter, Cerulean, Vermilion, Lavender, Celadon, Saffron, Fuchsia, Cinnabar and
+  the Indigo Plateau, with landmark buildings, shops, trainers and townsfolk.
+- Talk to a city's gym leader to challenge them. It's the same badge battle as at the Radical Red gyms, so you can
+  win each badge at whichever gym you find first. The city's Kanto advancements tick off with your badges.
+- Fixed the Pokémon towns from v0.1.4: their Pokécenters and Pokémarts no longer turn up on their own outside a town,
+  towns no longer generate twice, and a Lentimas chest has its loot again.
+
+**Sounds**
+- Pokémon battle themes for wild, trainer and PvP battles, the games' cries, and Pokémon jingles for advancements and
+  level-ups (CobbleSounds).
+- Pokémon music for every biome, the title screen, the Nether and the End. It's a 418 MB download, so the updater
+  asks first: leave **CobbleSounds Soundtrack** ticked to get it, or untick it to keep Minecraft's music.
+
+**Looks**
+- **Distant Horizons** draws terrain far past your render distance. On a weaker PC, turn it down or off with its
+  button in **Options → Video Settings**.
+
+If you already play, turn the **CobbleSounds** packs on in **Options → Resource Packs** (new installs get them on
+automatically).
+
 ## v0.1.4
 
 Already playing? Just press Play: the pack updates itself. A few things below only show up in a **new world**.

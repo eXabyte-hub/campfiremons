@@ -1,0 +1,18 @@
+name = "CobbleSounds Soundtrack"
+filename = "CobbleSounds[Redux]_v1.4.1_Soundtrack.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/yIgJQt6H/versions/ryII9cwu/CobbleSounds%5BRedux%5D_v1.4.1_Soundtrack.zip"
+hash-format = "sha512"
+hash = "6337ffb78531ccd21f6acb3babab6985ef5fa7734ea7d0b2826ad9c9c4ea1918d6eff6f6b27540eea276819619e4fd1a076ef832626f699f2c3881b20f3ae365"
+
+[update]
+[update.modrinth]
+mod-id = "yIgJQt6H"
+version = "ryII9cwu"
+
+[option]
+optional = true
+default = true
+description = "Pokémon music for every biome, the title screen, the Nether and the End (418 MB download). Untick it to keep Minecraft's own music."

@@ -115,7 +115,10 @@ packwiz update <name>                 # bump one mod
 Resource packs we turn on by default (our `resourcepacks/` files and mods' built-in packs such as Cobblemon's
 Magikarp Jump and regional forms) are listed in `config/defaultoptions/options.txt` (`resourcePacks`, applied on a
 player's first launch; easiest to copy from the dev instance's `options.txt` after enabling them in game). After `packwiz update` renames one (e.g. the RCT trainer skins,
-`RCT Trainers+ [1.7] v2.2.zip`), update that entry too. The default shader pack works the same way: `shaderPack` in
+`RCT Trainers+ [1.7] v2.2.zip`), update that entry too. CobbleSounds ships several files from one Modrinth project,
+so each has its own `.pw.toml` (`packwiz mr add --version-filename <file>`, then rename the `cobblesounds.pw.toml` it
+writes before adding the next); `packwiz update` may not keep each one on its own file, so update them the same way and check the filenames.
+The Soundtrack is an `[option] optional = true, default = true` file: the installer asks players once. The default shader pack works the same way: `shaderPack` in
 `config/defaultoptions/extra/config/iris.properties` (currently `ComplementaryReimagined_r5.9.3.zip`).
 
 Modrinth/CurseForge dependency lists can be incomplete (Chipped needs Resourceful Lib and Athena but doesn't say so).

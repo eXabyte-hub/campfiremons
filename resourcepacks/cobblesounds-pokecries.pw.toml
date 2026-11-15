@@ -1,0 +1,13 @@
+name = "CobbleSounds PokeCries"
+filename = "CobbleSounds[PokeCries]_v1.4.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/yIgJQt6H/versions/ryII9cwu/CobbleSounds%5BPokeCries%5D_v1.4.zip"
+hash-format = "sha512"
+hash = "f42e484aefb75145440a66d8ef69a0d9cb073fecc7d74dc5c9cace9c530d0938fae1e0158817814758c7f8622721d2a03c874438362fda22f2524bbf3fc6c2e7"
+
+[update]
+[update.modrinth]
+mod-id = "yIgJQt6H"
+version = "ryII9cwu"
