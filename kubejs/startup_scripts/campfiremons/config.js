@@ -115,6 +115,20 @@ global.campfiremonsConfig = {
     { id: 'kanto_league', leader: 'Champion Terry', place: 'the Kanto League', dimension: 'minecraft:the_end', where: 'the End' },
   ],
 
+  // Kanto city gyms (Cobblemon Cities & Structures, ccs_leaders.js): when a CCS gym leader NPC loads, it's swapped for
+  // this RCT trainer (key = the NPC's ForcedResourceIdentifier), so the city gym's leader is the Radical Red one.
+  // Its Elite Four and Champion aren't swapped: RCT's Champion Terry depends on your starter.
+  ccsLeaders: {
+    'ccs:leaders/brock': 'leader_brock_019e',
+    'ccs:leaders/misty': 'leader_misty_019f',
+    'ccs:leaders/lt_surge': 'leader_lt_surge_01a0',
+    'ccs:leaders/erika': 'leader_erika_01a1',
+    'ccs:leaders/sabrina': 'leader_sabrina_01a4',
+    'ccs:leaders/koga': 'leader_koga_01a2',
+    'ccs:leaders/blaine': 'leader_blaine_01a3',
+    'ccs:leaders/clair': 'leader_clair_004a',
+  },
+
   // Cobblemon settings applied when the server loads (cobblemon_settings.js), instead of shipping its whole main.json
   pcBoxes: 60, // Cobblemon 1.8.4 defaults to 40; 60 boxes = 1,800 slots, room for a living dex with forms
 }

@@ -2,6 +2,14 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.6
+
+Already playing? Just press Play: the pack updates itself.
+
+- The Kanto cities' gym leaders are now the Radical Red ones: talk to Brock in Pewter (or any city gym leader) and
+  you're straight into the badge challenge, with no second Brock appearing next to him. Cities you've already
+  visited get the change the next time you go there.
+
 ## v0.1.5
 
 Already playing? Just press Play: the pack updates itself. This update asks once about an optional download (the

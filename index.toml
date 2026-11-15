@@ -3590,6 +3590,10 @@ file = "kubejs/data/terralith/worldgen/structure_set/rubble.json"
 hash = "dda8edd0f4284a1f33d3a138190543fc771f648f91e534686191b4cfb01722e8"
 
 [[files]]
+file = "kubejs/server_scripts/campfiremons/ccs_leaders.js"
+hash = "92406140437bdab552c7f6836173c76c91ae74c13bc63068f3cbd470b6a37b5d"
+
+[[files]]
 file = "kubejs/server_scripts/campfiremons/cobblemon_settings.js"
 hash = "c51338f664ed62544c0dc0792901f5714b360326a34b1b32d9843d6568464aed"
 
@@ -3623,7 +3627,7 @@ hash = "21687adb07bcb4ab7e4e1d40dc6c289621e8fa5603aa4a87248cbbc160e42aa5"
 
 [[files]]
 file = "kubejs/startup_scripts/campfiremons/config.js"
-hash = "8d84931e42181d394a5c3487fbe0a08361a9eea29af00c72276709a4790e2737"
+hash = "9ac2391a53b16603416f7bd8b6020bbb5c2e3139163ea88535dc5b6e9793fe86"
 
 [[files]]
 file = "kubejs/startup_scripts/campfiremons/tier_locks.js"

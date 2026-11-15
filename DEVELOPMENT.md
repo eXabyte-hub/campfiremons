@@ -73,7 +73,8 @@ Pokémon drop tables, plus egg drops). Re-run it after updating Cobblemon or any
 Cobblemon Cities & Structures is pinned (it changes fast). After updating it, check that the 13 leader dialogues in
 `kubejs/data/ccs/dialogues/generated/`, the leader advancements in `kubejs/data/ccs/advancement/kanto/`, and the
 emptied functions in `kubejs/data/ccs/function/` still match its file names, then re-run
-`tools/gen_structure_spacing.py`. The gym leader dialogues summon RCT trainers by id: if RCT renames a leader, update them with `config.js`.
+`tools/gen_structure_spacing.py`. `ccs_leaders.js` swaps the CCS gym leaders for RCT trainers by id (`config.js` `ccsLeaders`), and the leader dialogues
+summon the same ids as a fallback: if RCT renames a leader, update both.
 
 Data packs: Open Loader loads the game folder's `datapacks/` (packwiz puts Modrinth data packs there with
 `datapack-folder = "datapacks"` in `pack.toml`), but those packs rank **above** KubeJS data, so nothing in
