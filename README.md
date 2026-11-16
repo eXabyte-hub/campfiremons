@@ -87,11 +87,11 @@ Ask whoever runs the server for the address and to be added to the whitelist, th
 
 <!-- modlist:start -->
 <details>
-<summary>All 199 mods, plus resource packs and shaders (click to open)</summary>
+<summary>All 201 mods, plus resource packs and shaders (click to open)</summary>
 
 Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are only on players' computers, "server only" ones only on the server.
 
-### Mods (199)
+### Mods (201)
 
 | Name | Notes | From |
 | --- | --- | --- |
@@ -102,6 +102,7 @@ Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are 
 | [Advanced Loot Info (ALI)](https://modrinth.com/project/PEPVViac) |  | Modrinth |
 | [Advancement Plaques](https://modrinth.com/project/9NM0dXub) | client only | Modrinth |
 | [Almanac](https://modrinth.com/project/Gi02250Z) |  | Modrinth |
+| [Almost Unified](https://modrinth.com/project/sdaSaQEz) |  | Modrinth |
 | [Ambient Environment](https://modrinth.com/project/DyTvM1dv) | client only | Modrinth |
 | [Amendments](https://modrinth.com/project/6iTJugQR) |  | Modrinth |
 | [AppleSkin](https://modrinth.com/project/EsAfCjCV) |  | Modrinth |
@@ -237,6 +238,7 @@ Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are 
 | [Particular ✨ Reforged](https://modrinth.com/project/pYFUU6cq) | client only | Modrinth |
 | [Ping Wheel](https://modrinth.com/project/QQXAdCzh) |  | Modrinth |
 | [PokeBadges [Cobblemon & Pixelmon Addon]](https://modrinth.com/project/XoK0D7K2) |  | Modrinth |
+| [Polymorph](https://modrinth.com/project/tagwiZkJ) |  | Modrinth |
 | [Presence Footsteps](https://modrinth.com/project/rcTfTZr3) | client only | Modrinth |
 | [Prickle](https://modrinth.com/project/aaRl8GiW) |  | Modrinth |
 | [Radical Cobblemon Trainers](https://modrinth.com/project/lRwTUnD7) |  | Modrinth |

@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/almostunified/unification/materials.json"
+hash = "122f411100a8cf89139ac0021d0ea08d181d86115e0286a04bddc8189a49d437"
+
+[[files]]
 file = "config/cobbledollars/default_shop.json"
 hash = "29a27986ac6641cf5831d7ec3f0699e6d9dbd0d4feaf498d1a6364f3ba711374"
 
@@ -4199,6 +4203,11 @@ hash = "42413941c5bab46833498305fd78892cf6af8cb0fa3f2599619acf3b26f1a0aa"
 metafile = true
 
 [[files]]
+file = "mods/almostunified.pw.toml"
+hash = "3805fe2877cffdae5e7bf74d85069a2535daa39a0f3ed766755be49294a07680"
+metafile = true
+
+[[files]]
 file = "mods/ambient-environment.pw.toml"
 hash = "92a2077fb3d27df20550d579d14c43b1feaa605796b217efb7a9d4bdd727f3bf"
 metafile = true
@@ -4886,6 +4895,11 @@ metafile = true
 [[files]]
 file = "mods/pokebadges.pw.toml"
 hash = "466105c6b968cc86d9db8031a434f65080c418600d23facb950db15ed9638767"
+metafile = true
+
+[[files]]
+file = "mods/polymorph.pw.toml"
+hash = "d935e4ce118d15c88b10809df85e801f0e9577855f870f3c28e5a0bd5e7fecf6"
 metafile = true
 
 [[files]]

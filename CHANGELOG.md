@@ -2,6 +2,15 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.22
+
+Already playing? Just press Play: the pack updates itself.
+
+- **One of each metal.** Where two mods added the same material (electrum, silicon, zinc sheets, copper nuggets),
+  every recipe now makes and accepts one version, and EMI shows just that one (Almost Unified).
+- **Recipe clashes.** If two recipes share the same crafting pattern, a button next to the result lets you pick which
+  one you get (Polymorph).
+
 ## v0.1.21
 
 Already playing? Just press Play: the pack updates itself.
