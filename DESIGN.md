@@ -201,6 +201,12 @@ Verified in the RCT 0.19.2-beta source: RCT already does both halves, so we conf
   - As built (F6 batch 2): CobbleDollars' default shop is kept (balls, healing, EXP items) because use-locks already stop players *using* above-stage balls/caps, the same as crafting. Only the Master Ball and Hisuian Origin Ball are removed: `tools/gen_shop.py` writes `config/cobbledollars/default_shop.json` (CobbleDollars reads that file, not its datapack template).
   - The Battle Tower's BP shop keeps its Master Ball and Origin Ball [decided], raised to 200 BP each: a long-term goal, usable from S9 (use-locked).
   - Hisuian "ancient" balls are use-locked by their tier too (Great/Wing/Leaden S1, Ultra/Jet/Gigaton S3, Origin S9).
+- **Poké Balls only from shops and Create** [decided 2026-11-16, v0.1.22]: `poke_ball_recipes.js` removes every crafting
+  recipe whose result is in `#cobblemon:poke_balls` (Cobblemon's 47, and Legendary Monuments' Origin Ball). Every ball
+  but the two guaranteed catches is in the CobbleDollars shop, and Cobblemon Create Industries and Create: Klinks 'n'
+  Klangs make every ball by sequenced assembly or a spout (74 recipes; Industries makes the lids from apricorns). Mechanical
+  Crafters, the vanilla Crafter and crafting upgrades use the removed recipes, so they can't make balls. The Light, Smoke
+  and Iron Balls are held items outside the tag and keep their recipes.
 
 ### 4.6 Battle mechanics & side systems
 

@@ -6,6 +6,8 @@ Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/rel
 
 Already playing? Just press Play: the pack updates itself.
 
+- **Poké Balls come from shops and Create.** The crafting-table recipes are gone: buy balls with CobbleDollars, or build
+  them with Create (apricorns make the lids). The Origin Ball's crafting recipe is gone too.
 - **One of each metal.** Where two mods added the same material (electrum, silicon, zinc sheets, copper nuggets),
   every recipe now makes and accepts one version, and EMI shows just that one (Almost Unified).
 - **Recipe clashes.** If two recipes share the same crafting pattern, a button next to the result lets you pick which

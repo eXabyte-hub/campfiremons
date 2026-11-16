@@ -46,7 +46,9 @@ Ask whoever runs the server for the address and to be added to the whitelist, th
   trainer battle.
 - **Legendaries unlock by stage:** sub-legendaries at Stage 5, Ultra Beasts and Paradox Pokémon at 6, mythicals and
   box legends at 7. Before that you can't battle or catch them.
-- **Gear unlocks by stage.** Better balls, Bottle Caps, TMs and the PokéNav can be crafted any time but only used
+- **Poké Balls come from shops and Create.** Buy them with CobbleDollars, or build them with Create from
+  apricorn lids; there is no crafting-table recipe.
+- **Gear unlocks by stage.** Better balls, Bottle Caps, TMs and the PokéNav can be bought or made any time but only used
   once you reach their stage. Mega Bracelets, Z-Rings, Tera Orbs and other power items turn up in structure chests
   after the gym that unlocks them, and every player gets their own copy of the loot.
 - **Out in the world:** Pokécenters and PokéStops heal your team and have a PC; rare Poké Labs hold extra loot.

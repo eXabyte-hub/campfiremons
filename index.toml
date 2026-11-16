@@ -578,7 +578,7 @@ hash = "520c41cea36c45c2c1eb854ed8d3b1c17a4c48fef620942245a88150890b0ec5"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "9b634a719c8056e30016656284967684df0f43ba6ed036c19b1c356653670531"
+hash = "b6badbaffebcb6b469f6ba7edf0409e248191438b2e7458ff16a0a87fb8b0bb3"
 
 [[files]]
 file = "config/spawn_notification.json"
@@ -4154,6 +4154,10 @@ file = "kubejs/server_scripts/campfiremons/leather.js"
 hash = "3f2ae44d9d76497868cccd96e4a68ce66b9ccded6c5b717b5552ca9a77fb9921"
 
 [[files]]
+file = "kubejs/server_scripts/campfiremons/poke_ball_recipes.js"
+hash = "5fad2ef470f61f400d451dab97d08c57d1becc83b88d55feb5bda41ef076ebcc"
+
+[[files]]
 file = "kubejs/server_scripts/campfiremons/removed_mobs.js"
 hash = "82a31e7780860d1805d84822171a350caf829035a00139f6282bf5dfc092ed7e"
 
@@ -4171,7 +4175,7 @@ hash = "21687adb07bcb4ab7e4e1d40dc6c289621e8fa5603aa4a87248cbbc160e42aa5"
 
 [[files]]
 file = "kubejs/startup_scripts/campfiremons/config.js"
-hash = "007113d9957f0bea8d4d98614fecf9639b02ec564acc592e2ccc8187cf6cbabf"
+hash = "aa3aa8752c37ae8593abc64098b2f7038f746633d70c524c6a1edeee2c6619d2"
 
 [[files]]
 file = "kubejs/startup_scripts/campfiremons/tier_locks.js"

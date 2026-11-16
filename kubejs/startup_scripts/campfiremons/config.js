@@ -30,7 +30,7 @@ global.campfiremonsConfig = {
     arceus: 'restricted', // labelled mythical, but it belongs with the box legends
   },
 
-  // Use-locks (DESIGN.md §4.3, server_scripts/campfiremons/item_locks.js): crafting stays free, but throwing or using
+  // Use-locks (DESIGN.md §4.3, server_scripts/campfiremons/item_locks.js): getting an item stays free, but throwing or using
   // one of these below its stage is refused. Balls follow Cobblemon's own material tiers (tier_N_poke_ball_materials);
   // tier 1 balls (Poké, Premier, Heal, Safari, apricorn colour balls) are never locked.
   itemLocks: {

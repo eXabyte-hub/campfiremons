@@ -208,7 +208,7 @@
 	quest.19AF52EB0E952510.quest_subtitle: "All four pieces"
 	quest.19AF52EB0E952510.title: "Armarouge Armor"
 	quest.1A09912968158BC9.quest_desc: [
-		"Seven colours, seven trees. A full apricorn orchard keeps you in balls for the whole run."
+		"Seven colours, seven trees. A full apricorn orchard keeps a Create ball line in lids for the whole run."
 	]
 	quest.1A09912968158BC9.quest_subtitle: "Collect all seven apricorns"
 	quest.1A09912968158BC9.title: "Every Colour"
@@ -340,8 +340,8 @@
 	quest.30EA8B4B76D3A2D6.quest_subtitle: "Catchable from Stage 7"
 	quest.30EA8B4B76D3A2D6.title: "Lugia"
 	quest.315C34B82B5E6AFA.quest_desc: [
-		"Poké Balls and the apricorn balls work from the start. Craft them from apricorns: the recipe viewer"
-		"shows every one."
+		"Poké Balls and the apricorn balls work from the start. Buy them with CobbleDollars from a shop, or"
+		"build them with Create from apricorn lids: the recipe viewer shows how. There's no crafting recipe."
 	]
 	quest.315C34B82B5E6AFA.quest_subtitle: "Usable from the start"
 	quest.315C34B82B5E6AFA.title: "Poké Balls"
@@ -990,8 +990,8 @@
 	quest.1A79857179BA5200.title: "Koraidon"
 	quest.1ABF2A9522D1548E.title: "Ancient Leaden Ball"
 	quest.1B1204444158B0BC.quest_desc: [
-		"Apricorn trees grow wild in most biomes; each colour of apricorn crafts different balls."
-		"Red ones make Poké Balls. Plant the seeds to grow your own tree."
+		"Apricorn trees grow wild in most biomes. Apricorns make ball lids for Create's ball assembly,"
+		"Aprijuice in a cooking pot, and dyes. Red ones make Poké Ball lids. Plant the seeds to grow your own tree."
 		"Better balls only work once you reach their stage."
 	]
 	quest.1B1204444158B0BC.quest_subtitle: "Pick a Red Apricorn"
