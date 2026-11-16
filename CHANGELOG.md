@@ -2,6 +2,14 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.23
+
+Already playing? Just press Play: the pack updates itself.
+
+- **Eggs show what's inside.** The red "unable to read egg data" warning is gone: an egg's tooltip now shows its
+  nature, IVs and the rest (Cobbreeding's egg encryption is off). Right-click an egg you already have once to unlock
+  its details.
+
 ## v0.1.22
 
 Already playing? Just press Play: the pack updates itself.

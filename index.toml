@@ -17,6 +17,10 @@ file = "config/cobblemon_battle_tower/bp_shop_items.json"
 hash = "490c6610c8ed3bcc8e3005ba5bc0a4688e2891b6b3f92f672917130d4a4f0f5f"
 
 [[files]]
+file = "config/cobbreeding/main.json"
+hash = "13add079e4dc30c3b283e8632a9777d3d0e7128b8a16fb4b484b5274a0d050cb"
+
+[[files]]
 file = "config/defaultoptions/extra/config/ali/ali_common.json"
 hash = "5dd273c8c6244036694498c3046cff8a0a4da2d1d1156382401d8923bd47ea4b"
 

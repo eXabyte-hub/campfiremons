@@ -317,7 +317,7 @@ Additions on top of the official pack. "1.8?" shows whether the addon's latest N
 | Cobblenav 2.4.2 | Pokénav / spawn finder | 🟡 |
 | MoreCobblemonTweaks | QoL | 🟡 |
 | Only Bottle Caps 1.5.0 | Bottle Caps (IV maxing), use-locked to Stage 2 | ✅ |
-| Cobbreeding 2.4.1 | Breeding | ✅ (needs ≥ 1.8.2) |
+| Cobbreeding 2.4.1 | Breeding. `config/cobbreeding/main.json` is its defaults with `eggEncryptionEnabled: false` [decided 2026-11-16]: encryption hides an egg's nature, IVs and shininess from clients until it hatches, and the tooltip then shows a red "unable to read egg data" warning players took for a bug. Its `encryption/` keys stay server-side, not shipped. Eggs laid while it was on need one right-click to decrypt | ✅ (needs ≥ 1.8.2) |
 | CobbleDollars 2.0.0-beta | Economy | ⚠️ (last build July 2026) |
 | Create 6.0.10 | Tech backbone | n/a |
 | Refined Storage 2.0.9 | Storage (not gated) | n/a |
