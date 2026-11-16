@@ -8,6 +8,8 @@ Already playing? Just press Play: the pack updates itself.
 
 - **Mythic Upgrades armour in the quest book.** The Armor chapter now has the eight gem sets (ametrine, aquamarine,
   citrine, jade, peridot, ruby, sapphire, topaz) at the bottom, under their own banner.
+- **Vein mining (FTB Ultimine).** Hold ` (the key left of 1, change it in Controls) while mining to break a whole
+  ore vein or tree at once.
 - **Rotten flesh into leather.** Cook rotten flesh in a furnace, smoker or on a campfire to get leather (one for one).
 
 ## v0.1.19

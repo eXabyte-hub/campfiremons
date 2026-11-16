@@ -33,6 +33,8 @@ Ask whoever runs the server for the address and to be added to the whitelist, th
 - **Dying** leaves a grave with your items where you fell: walk back and open it.
 - **Creepers** still explode and hurt, but don't break blocks.
 - **Farming:** right-click a grown crop to harvest it; it replants itself.
+- **Vein mining:** hold the Ultimine key (` by default, change it in Controls) while you mine to break a whole
+  ore vein or tree at once.
 - **You start in Pallet Town.** New worlds (and the server) put the spawn in the nearest Pallet Town, so that's
   where you begin and where you come back to without a bed.
 - **Finding your next gym:** you get a map to it when you first join and after every gym win, with the distance and
@@ -84,11 +86,11 @@ Ask whoever runs the server for the address and to be added to the whitelist, th
 
 <!-- modlist:start -->
 <details>
-<summary>All 198 mods, plus resource packs and shaders (click to open)</summary>
+<summary>All 199 mods, plus resource packs and shaders (click to open)</summary>
 
 Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are only on players' computers, "server only" ones only on the server.
 
-### Mods (198)
+### Mods (199)
 
 | Name | Notes | From |
 | --- | --- | --- |
@@ -184,6 +186,7 @@ Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are 
 | [FTB Library (NeoForge)](https://www.curseforge.com/projects/404465) |  | CurseForge |
 | [FTB Quests (NeoForge)](https://www.curseforge.com/projects/289412) |  | CurseForge |
 | [FTB Teams (NeoForge)](https://www.curseforge.com/projects/404468) |  | CurseForge |
+| [FTB Ultimine (NeoForge)](https://www.curseforge.com/projects/386134) |  | CurseForge |
 | [Fusion (Connected Textures)](https://modrinth.com/project/p19vrgc2) | client only | Modrinth |
 | [Geckolib](https://modrinth.com/project/8BmcQJ2H) |  | Modrinth |
 | [GraveStone Mod](https://modrinth.com/project/RYtXKJPr) |  | Modrinth |
