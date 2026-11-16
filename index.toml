@@ -6,7 +6,7 @@ hash = "122f411100a8cf89139ac0021d0ea08d181d86115e0286a04bddc8189a49d437"
 
 [[files]]
 file = "config/cobbledollars/default_shop.json"
-hash = "29a27986ac6641cf5831d7ec3f0699e6d9dbd0d4feaf498d1a6364f3ba711374"
+hash = "baa0afa9686ff8acf9dd67291052d2abb3b5ae3880593b04955a51712612418a"
 
 [[files]]
 file = "config/cobblemon/spawning/best-spawner-config.json"
@@ -4616,6 +4616,11 @@ hash = "26975365054fadd972780c02ec9c5e7b394abcf3fc9f75d59ed3f7e5ead8f3e7"
 metafile = true
 
 [[files]]
+file = "mods/farmers-delight.pw.toml"
+hash = "97347efd9e808841d72fe3599da8a11add8422e97f89ae1c85cdfc0acfa18f96"
+metafile = true
+
+[[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "73360e397134d238ee8fd21d33fd7f9275e9441f74f8f1b6ed92278877c0b9f1"
 metafile = true
@@ -5016,6 +5021,11 @@ hash = "307a39080394cbe930be57e67fb8dae37601e8f0842da10da10977d261dac07d"
 metafile = true
 
 [[files]]
+file = "mods/slice-and-dice.pw.toml"
+hash = "3c24accda8011a6a5e04c49c40e39617bb04ab3a549d8f2e8180d3246fddac39"
+metafile = true
+
+[[files]]
 file = "mods/snow-imprints.pw.toml"
 hash = "5e263b6eedad21a622e270bb63255fc79bad7158f203fd023e6498d38ff979cd"
 metafile = true
@@ -5113,6 +5123,11 @@ metafile = true
 [[files]]
 file = "mods/toms-storage.pw.toml"
 hash = "a303683e4c74640f419c31db329e9afc3ee8f388abc5c6a536dc6169c274b5c6"
+metafile = true
+
+[[files]]
+file = "mods/tomtarus-cobblemon-and-farmers-delight-tweaks.pw.toml"
+hash = "1efe654d51ff746bfa87e577706564a4ec6ba0ec46d887d5c1fdb25bc0152831"
 metafile = true
 
 [[files]]

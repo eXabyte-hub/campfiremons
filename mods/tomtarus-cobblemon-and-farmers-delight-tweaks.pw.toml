@@ -1,0 +1,13 @@
+name = "Tomtaru's Cobblemon and Farmer's Delight Tweaks"
+filename = "TMTCF-NF-1.21.1-2.0.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/LSnXhPa7/versions/F9ho6FHG/TMTCF-NF-1.21.1-2.0.4.jar"
+hash-format = "sha512"
+hash = "659caade9aa072e01760139542723c941bb1e42a0913d2fbffe7ee3295deefc2d8e77ec7b32a4421d7456659b2daebe6e4caec1ed1951edcca362d0a06fc4d47"
+
+[update]
+[update.modrinth]
+mod-id = "LSnXhPa7"
+version = "F9ho6FHG"

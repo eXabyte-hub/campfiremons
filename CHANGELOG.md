@@ -2,6 +2,22 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.24
+
+Already playing? Just press Play: the pack updates itself.
+
+- **Cooking (Farmer's Delight).** More than bread: a cooking pot and skillet for your campfire or stove, a cutting
+  board and knives, and new crops (cabbage, tomatoes, onions, rice). Meals fill you up for longer, and the best ones
+  heal you over time (Comfort) or stop your hunger draining (Nourishment). EMI shows every recipe.
+- **Seeds in the shop.** The Poké Mart has a new Seeds tab with cabbage seeds, tomato seeds, onions and rice
+  (500 each). Wild patches of them only grow in land nobody has visited yet, and village, shipwreck and mineshaft
+  chests have some too.
+- **Create in the kitchen (Create Slice & Dice).** A Slicer holding a knife cuts ingredients off a belt or depot,
+  every cooking-pot meal can be made in a heated Mixer, and Sprinklers can water crops or bonemeal them with liquid
+  fertilizer.
+- **Cobblemon's Campfire Pot on a stove.** Put your Campfire Pot on a Farmer's Delight stove to cook on it, and plant
+  berries in rich soil.
+
 ## v0.1.23
 
 Already playing? Just press Play: the pack updates itself.

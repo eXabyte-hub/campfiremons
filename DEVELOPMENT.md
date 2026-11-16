@@ -63,7 +63,10 @@ ID on every load, losing its text, links and progress. The v0.1.10 builder made 
 cleared their top bit, and `tools/quest_book/validate.py` now flags any.
 
 `tools/gen_shop.py` owns `config/cobbledollars/default_shop.json` (the default shop minus the
-Master Ball); re-run it after updating CobbleDollars.
+Master Ball, plus our Seeds tab in its `EXTRA` list); re-run it after updating CobbleDollars.
+
+`packwiz update` on Tomtaru's Cobblemon and Farmer's Delight Tweaks warns that its version numbers and dates
+disagree (an old `R.1.10` vs the newer `2.0.4`): packwiz goes by date, so it keeps 2.0.x, which is right.
 
 `tools/gen_animation_fixes.py` owns `kubejs/assets/cobblemon/bedrock/pokemon/animations/`. Mods that replace
 Cobblemon's Pokémon files (CCC's animations, Mega Showdown's poses) can leave a winning pose asking for an animation

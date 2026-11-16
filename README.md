@@ -89,11 +89,11 @@ Ask whoever runs the server for the address and to be added to the whitelist, th
 
 <!-- modlist:start -->
 <details>
-<summary>All 201 mods, plus resource packs and shaders (click to open)</summary>
+<summary>All 204 mods, plus resource packs and shaders (click to open)</summary>
 
 Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are only on players' computers, "server only" ones only on the server.
 
-### Mods (201)
+### Mods (204)
 
 | Name | Notes | From |
 | --- | --- | --- |
@@ -169,6 +169,7 @@ Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are 
 | [Create Contraption Terminals](https://modrinth.com/project/gOPAFzp0) |  | Modrinth |
 | [Create Crafts & Additions](https://modrinth.com/project/kU1G12Nn) |  | Modrinth |
 | [Create Deco](https://modrinth.com/project/sMvUb4Rb) |  | Modrinth |
+| [Create Slice & Dice](https://modrinth.com/project/GmjmRQ0A) |  | Modrinth |
 | [Create: Copycats+](https://modrinth.com/project/UT2M39wf) |  | Modrinth |
 | [Create: Klinks n' Klangs](https://modrinth.com/project/AS2XNT4R) |  | Modrinth |
 | [Curios API](https://modrinth.com/project/vvuO3ImH) |  | Modrinth |
@@ -184,6 +185,7 @@ Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are 
 | [Entity Culling](https://modrinth.com/project/NNAgCjsB) | client only | Modrinth |
 | [Falling Leaves (NeoForge/Forge)](https://modrinth.com/project/2JAUNCL4) | client only | Modrinth |
 | [FancyMenu](https://modrinth.com/project/Wq5SjeWM) |  | Modrinth |
+| [Farmer's Delight](https://modrinth.com/project/R2OftAxM) |  | Modrinth |
 | [FerriteCore](https://modrinth.com/project/uXXizFIs) |  | Modrinth |
 | [Forgified Fabric API](https://modrinth.com/project/Aqlf1Shp) |  | Modrinth |
 | [FramedBlocks](https://modrinth.com/project/wbgfS34j) |  | Modrinth |
@@ -283,6 +285,7 @@ Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are 
 | [Terralith](https://modrinth.com/project/8oi3bsk5) |  | Modrinth |
 | [Tips](https://modrinth.com/project/AMCbgyVw) |  | Modrinth |
 | [Tom's Simple Storage Mod](https://modrinth.com/project/XZNI4Cpy) |  | Modrinth |
+| [Tomtaru's Cobblemon and Farmer's Delight Tweaks](https://modrinth.com/project/LSnXhPa7) |  | Modrinth |
 | [UniLib](https://modrinth.com/project/nT86WUER) | client only | Modrinth |
 | [Visuality: Reforged](https://modrinth.com/project/z13R7Et1) | client only | Modrinth |
 | [Wakes Reforged](https://modrinth.com/project/E0SdeAoH) |  | Modrinth |

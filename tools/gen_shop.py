@@ -6,6 +6,9 @@ first launch (the copy under data/ in its jar is only that template), so we ship
 Everything else stays for sale: use-locks (config.js itemLocks) already stop players *using* a ball or cap above
 their stage, the same as crafting. The Master Ball (and the Hisuian Origin Ball) is the exception: one per player, from the Champion.
 
+We add a Seeds tab (EXTRA) with Farmer's Delight's four crops: its wild crops only generate in new chunks, and the
+server's world around spawn was pregenerated before it was added, so without the shop they'd be chest loot only.
+
     python -I tools/gen_shop.py [path/to/mods]
 Re-run after updating CobbleDollars.
 """
@@ -20,6 +23,10 @@ SHOP = "data/cobbledollars/cobbledollars/shop/default.json"
 OUT = Path(__file__).resolve().parent.parent / "config" / "cobbledollars" / "default_shop.json"
 DEFAULT_MODS = os.path.expanduser("~/.local/share/PrismLauncher/instances/Campfiremons Dev/minecraft/mods")
 NOT_FOR_SALE = {"cobblemon:master_ball", "cobblemon:ancient_origin_ball"}  # both guaranteed catches
+EXTRA = [  # our own tabs, after CobbleDollars' (prices as strings, like its own)
+    {"name": "Seeds", "offers": [{"item": f"farmersdelight:{i}", "price": "500"}
+                                 for i in ("cabbage_seeds", "tomato_seeds", "onion", "rice")]},
+]
 
 
 def main():
@@ -31,6 +38,7 @@ def main():
         before = len(category["offers"])
         category["offers"] = [o for o in category["offers"] if o["item"] not in NOT_FOR_SALE]
         removed += before - len(category["offers"])
+    shop += EXTRA
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(shop, indent=2, ensure_ascii=False) + "\n")
     print(f"wrote {OUT.relative_to(OUT.parents[2])}: {sum(len(c['offers']) for c in shop)} offers, {removed} removed")
