@@ -9,6 +9,9 @@ Already playing? Just press Play: the pack updates itself.
 - **Fixed a server crash when you beat a trainer.** Winning against a Radical Red trainer (gym leaders included)
   could crash the server because of a bug in Legendary Monuments' NPC reward scripts. Legendary Monuments' NPCs
   (Archie, Maxie, Zinnia, Mustard and the dojo trainers) still give their rewards.
+- **City gym leaders fixed.** The Kanto city gyms (Cobblemon Cities) could end up with two leaders, or the city's own
+  leader instead of the Radical Red one, if you walked past before going in. Now each city gym gets its Radical Red
+  leader, and any extra copies are cleared the next time the gym loads.
 - **A few more Alphas.** Alpha herds turn up twice as often as in v0.1.13 (still a third of Cobblemon's default);
   other rare spawns are unchanged.
 

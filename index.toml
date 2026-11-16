@@ -4119,7 +4119,7 @@ hash = "dda8edd0f4284a1f33d3a138190543fc771f648f91e534686191b4cfb01722e8"
 
 [[files]]
 file = "kubejs/server_scripts/campfiremons/ccs_leaders.js"
-hash = "92406140437bdab552c7f6836173c76c91ae74c13bc63068f3cbd470b6a37b5d"
+hash = "f92089d56a223cffa1365dbb2a6a81b2c36c056402596e04cce7164952e58b7e"
 
 [[files]]
 file = "kubejs/server_scripts/campfiremons/cobblemon_settings.js"
