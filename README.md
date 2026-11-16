@@ -30,7 +30,8 @@ Ask whoever runs the server for the address and to be added to the whitelist, th
   Elite Four and Champion). The quest book has a chapter for every stage, plus guide chapters (getting started,
   evolution, Poké Balls, battle gimmicks, training, raids, archaeology and fishing), a checklist of every legendary,
   Ultra Beast and Paradox Pokémon, and chapters for the big mods (Create, Oritech, storage, relics, artifacts, gear).
-- **Dying** leaves a grave with your items where you fell: walk back and open it.
+- **Dying** leaves a grave with your items where you fell: walk back and open it. The minimap marks the spot with a
+  death waypoint (if yours doesn't, press **Y**, open the waypoint settings and turn **Deathpoints** on).
 - **Creepers** still explode and hurt, but don't break blocks.
 - **Farming:** right-click a grown crop to harvest it; it replants itself.
 - **Vein mining:** hold the Ultimine key (` by default, change it in Controls) while you mine to break a whole

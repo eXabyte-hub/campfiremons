@@ -398,7 +398,7 @@ hash = "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd"
 
 [[files]]
 file = "config/defaultoptions/extra/config/xaero/minimap/profiles/default.cfg"
-hash = "60eaf3508e4002e2fee11c7472420b4ce0aedbbe7eed71b9878a6de32e140342"
+hash = "527bef139bcd1ab2118ddf637fbd4b53c6a3cb76e48c5512b25f418cbd374613"
 
 [[files]]
 file = "config/defaultoptions/extra/config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
@@ -430,7 +430,7 @@ hash = "3aca1d4ac683cd92c2ca683d939a197a4f326e08a58f5b7546f9f82a59293180"
 
 [[files]]
 file = "config/defaultoptions/extra/config/xaerominimap.txt"
-hash = "83135065e7eb9129f251c9af2267497dbda6488af34a5dbbd3325255632fb61d"
+hash = "ada80b47a6e902d152ad637885d76029470bdb33af9599f54b39165a1b6a30d1"
 
 [[files]]
 file = "config/defaultoptions/extra/config/xaerominimap_entities.json"

@@ -2,6 +2,13 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.21
+
+Already playing? Just press Play: the pack updates itself.
+
+- **Death waypoints.** The minimap now marks where you died, so you can find your grave. This is on for new installs;
+  if you already play, press **Y** for the minimap settings, open the waypoint settings and turn **Deathpoints** on.
+
 ## v0.1.20
 
 Already playing? Just press Play: the pack updates itself.
