@@ -1,0 +1,1 @@
+'Campfiremons: replaced by campfiremons_npc_battle_end.molang. Legendary Monuments 8.2 ran this for every NPC a player beat, and it crashed the server when that NPC was an RCT trainer (see DESIGN.md).';

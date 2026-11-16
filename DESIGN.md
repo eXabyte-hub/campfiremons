@@ -300,7 +300,7 @@ Additions on top of the official pack. "1.8?" shows whether the addon's latest N
 | Cobblemon Raid Dens 0.13.5 | Co-op raids, ★1–5 bosses (no legendaries) | 🟡 |
 | SimpleTMs 2.3.3 | TMs/TRs | ⚠️ |
 | Cobblemon Battle Tower 1.11 | Endgame | 🟡 |
-| Legendary Monuments 8.2 | Shrines/summoning | ✅ (says 1.8.1) |
+| Legendary Monuments 8.2 | Shrines/summoning. Its 12 `battle_victory` callbacks (Archie, Maxie, Zinnia, Mustard, Calyrex, the dojo trainers, legendary battles) run for every NPC a player beats and call `q.player.set_npc_variable(t.loser.npc, …)`. RCT trainers are `npc_losers` too (actor type NPC) but not Cobblemon NPCs, so `t.loser.npc` is 0, the call throws, and Cobblemon's recovery (stopping a battle Showdown already closed) crashed the server: beating an RCT trainer, gym leaders included, took it down on 2026-11-16 [F10, v0.1.19]. `kubejs/data/cobblemon/callbacks/battle_victory/` blanks LM's 12 files (ARR, so nothing of theirs is copied) and `campfiremons_npc_battle_end.molang` does what they did (quest update, defeated or cooldown flag, each NPC's reward) once per win, only when `t.loser.npc.is_npc`. Recheck after updating LM: new callbacks there need the same treatment | ✅ (says 1.8.1) |
 | Cobbleloots 2.5.0-alpha | Loot balls (we retune) | 🟡 |
 | Cobblemon Extra Structures 1.3.0 | Exploration | ⚠️ |
 | Cobblemon Ultra-Beasts 4.2 (CurseForge) | T2 source: Ultra Space wormholes; replaced Ultra Wormholes (1.7-era). Stage 6+ entry (`ultra_space.js`) | ✅ (1.8.4) |

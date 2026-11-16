@@ -1750,6 +1750,58 @@ file = "kubejs/data/cobbleloots/loot_table/loot_ball/master.json"
 hash = "a870b955811c9db7bd8758eedf4936dfa416fbd8c151f012283625730a24d00f"
 
 [[files]]
+file = "kubejs/data/cobblemon/callbacks/battle_victory/archie_battle_end.molang"
+hash = "62d03dd059f873d17d6ad13122ba48eb07c604ffd8a5f34880088b4e0f0e3032"
+
+[[files]]
+file = "kubejs/data/cobblemon/callbacks/battle_victory/calyrex_battle_end.molang"
+hash = "62d03dd059f873d17d6ad13122ba48eb07c604ffd8a5f34880088b4e0f0e3032"
+
+[[files]]
+file = "kubejs/data/cobblemon/callbacks/battle_victory/campfiremons_npc_battle_end.molang"
+hash = "771e22059ac8e9a461ff16b67fa65bd10849f7a6241bfae627bdd4ad45a2be5c"
+
+[[files]]
+file = "kubejs/data/cobblemon/callbacks/battle_victory/darkness_kouhai_battle_end.molang"
+hash = "62d03dd059f873d17d6ad13122ba48eb07c604ffd8a5f34880088b4e0f0e3032"
+
+[[files]]
+file = "kubejs/data/cobblemon/callbacks/battle_victory/darkness_senpai_battle_end.molang"
+hash = "62d03dd059f873d17d6ad13122ba48eb07c604ffd8a5f34880088b4e0f0e3032"
+
+[[files]]
+file = "kubejs/data/cobblemon/callbacks/battle_victory/darkness_shihandai_battle_end.molang"
+hash = "62d03dd059f873d17d6ad13122ba48eb07c604ffd8a5f34880088b4e0f0e3032"
+
+[[files]]
+file = "kubejs/data/cobblemon/callbacks/battle_victory/legendary_battle_end.molang"
+hash = "62d03dd059f873d17d6ad13122ba48eb07c604ffd8a5f34880088b4e0f0e3032"
+
+[[files]]
+file = "kubejs/data/cobblemon/callbacks/battle_victory/maxie_battle_end.molang"
+hash = "62d03dd059f873d17d6ad13122ba48eb07c604ffd8a5f34880088b4e0f0e3032"
+
+[[files]]
+file = "kubejs/data/cobblemon/callbacks/battle_victory/mustard_battle_end.molang"
+hash = "62d03dd059f873d17d6ad13122ba48eb07c604ffd8a5f34880088b4e0f0e3032"
+
+[[files]]
+file = "kubejs/data/cobblemon/callbacks/battle_victory/water_kouhai_battle_end.molang"
+hash = "62d03dd059f873d17d6ad13122ba48eb07c604ffd8a5f34880088b4e0f0e3032"
+
+[[files]]
+file = "kubejs/data/cobblemon/callbacks/battle_victory/water_senpai_battle_end.molang"
+hash = "62d03dd059f873d17d6ad13122ba48eb07c604ffd8a5f34880088b4e0f0e3032"
+
+[[files]]
+file = "kubejs/data/cobblemon/callbacks/battle_victory/water_shihandai_battle_end.molang"
+hash = "62d03dd059f873d17d6ad13122ba48eb07c604ffd8a5f34880088b4e0f0e3032"
+
+[[files]]
+file = "kubejs/data/cobblemon/callbacks/battle_victory/zinnia_battle_end.molang"
+hash = "62d03dd059f873d17d6ad13122ba48eb07c604ffd8a5f34880088b4e0f0e3032"
+
+[[files]]
 file = "kubejs/data/cobblemon/spawn_detail_presets/illager_structures.json"
 hash = "b57ce74ad3d5abe98c3732510c3a231f1083011dea5c3edeb0ed884fb5db583d"
 

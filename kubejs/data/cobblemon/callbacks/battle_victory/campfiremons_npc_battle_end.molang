@@ -1,0 +1,49 @@
+'Campfiremons: what Legendary Monuments 8.2 did when a player beats one of its NPCs (quest updates, defeated or cooldown flags, rewards), once per win and only for real Cobblemon NPCs. RCT trainers are npc_losers too but not Cobblemon NPCs: t.loser.npc is 0 for them, and LMs own scripts, which this replaces, crashed the server there. DESIGN.md, Legendary Monuments row.';
+
+for_each(t.loser, c.npc_losers, {
+  t.loser.npc.is_npc ? {
+    for_each(t.player_winner, c.player_winners, {
+      v.player = t.player_winner.player;
+      v.npc = t.loser.npc;
+      q.set_query('player', t.player_winner.player);
+      q.set_query('npc', t.loser.npc);
+
+      !q.is_blank(t.loser.npc.config.quest_update_on_player_wins) ? {
+        q.run_molang(t.loser.npc.config.quest_update_on_player_wins);
+      };
+      !t.loser.npc.config.toggle_battle_repeat ? {
+        q.player.set_npc_variable(t.loser.npc, 'defeated', 1.0);
+      };
+      t.loser.npc.config.toggle_battle_cooldown && !q.is_blank(t.loser.npc.config.battle_cooldown_time) ? {
+        t.cooldown_until = q.system_time_millis + 3600000 * t.loser.npc.config.battle_cooldown_time;
+        q.player.set_npc_variable(t.loser.npc, 'cooldown_time', t.cooldown_until);
+      };
+      q.player.save_data();
+
+      t.give = 'loot give ' + q.player.username + ' loot legendarymonuments:';
+      t.loser.npc.config.toggle_lm_archie_battle_reward ? { q.run_command(t.give + 'archie_rewards'); };
+      t.loser.npc.config.toggle_lm_maxie_battle_reward ? { q.run_command(t.give + 'maxie_rewards'); };
+      t.loser.npc.config.toggle_lm_zinnia_battle_reward ? {
+        q.run_command('clear ' + q.player.username + ' legendarymonuments:green_orb_inactive 1');
+        q.run_command(t.give + 'zinnia_rewards');
+      };
+      t.loser.npc.config.toggle_lm_darkness_kouhai_battle_reward ? { q.run_command(t.give + 'npc_rewards/darkness_kouhai_rewards'); };
+      t.loser.npc.config.toggle_lm_darkness_senpai_battle_reward ? { q.run_command(t.give + 'npc_rewards/darkness_senpai_rewards'); };
+      t.loser.npc.config.toggle_lm_darkness_shihandai_battle_reward ? { q.run_command(t.give + 'npc_rewards/darkness_shihandai_rewards'); };
+      t.loser.npc.config.toggle_lm_water_kouhai_battle_reward ? { q.run_command(t.give + 'npc_rewards/water_kouhai_rewards'); };
+      t.loser.npc.config.toggle_lm_water_senpai_battle_reward ? { q.run_command(t.give + 'npc_rewards/water_senpai_rewards'); };
+      t.loser.npc.config.toggle_lm_water_shihandai_battle_reward ? { q.run_command(t.give + 'npc_rewards/water_shihandai_rewards'); };
+
+      t.kubfu = 'pokegiveother ' + q.player.username + ' kubfu level=15 shiny=';
+      t.loser.npc.config.toggle_lm_mustard_battle_reward ? {
+        math.random_integer(1, 50) == 1 ? { q.run_command(t.kubfu + 'yes'); } : { q.run_command(t.kubfu + 'no'); };
+        q.run_command(t.give + 'mustard_rewards');
+      };
+      t.loser.npc.config.toggle_lm_battle_reward ? {
+        math.random_integer(1, 50) == 1 ? { q.run_command(t.kubfu + 'yes'); } : { q.run_command(t.kubfu + 'no'); };
+        q.run_command('give ' + q.player.username + ' minecraft:netherite_block 1');
+        q.run_command('clear ' + q.player.username + ' minecraft:nether_star 1');
+      };
+    });
+  };
+});

@@ -6,6 +6,9 @@ Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/rel
 
 Already playing? Just press Play: the pack updates itself.
 
+- **Fixed a server crash when you beat a trainer.** Winning against a Radical Red trainer (gym leaders included)
+  could crash the server because of a bug in Legendary Monuments' NPC reward scripts. Legendary Monuments' NPCs
+  (Archie, Maxie, Zinnia, Mustard and the dojo trainers) still give their rewards.
 - **A few more Alphas.** Alpha herds turn up twice as often as in v0.1.13 (still a third of Cobblemon's default);
   other rare spawns are unchanged.
 
