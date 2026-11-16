@@ -89,6 +89,15 @@
 			x: 0.0d
 			y: 7.2d
 		}
+		{
+			height: 1.0d
+			id: "4878F05F164C00C6"
+			image: "campfiremons:textures/quests/mythic_armor.png"
+			rotation: 0.0d
+			width: 6.8d
+			x: 0.0d
+			y: 12.1d
+		}
 	]
 	order_index: 20
 	quest_links: [ ]
@@ -2885,6 +2894,438 @@
 			}]
 			x: 0.5d
 			y: 10.4d
+		}
+		{
+			dependencies: [
+				"1E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mythicupgrades:ametrine_chestplate"
+			}
+			id: "546ECBC3A98A93F7"
+			optional: true
+			rewards: [{
+				id: "3737F5CFAD253C9E"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "72C32D6605DD2E5D"
+					item: {
+						count: 1
+						id: "mythicupgrades:ametrine_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "6AAC2380C6EC25E4"
+					item: {
+						count: 1
+						id: "mythicupgrades:ametrine_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "476F1F3E7CE3C3A9"
+					item: {
+						count: 1
+						id: "mythicupgrades:ametrine_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "3ED116DB9C5C5C34"
+					item: {
+						count: 1
+						id: "mythicupgrades:ametrine_boots"
+					}
+					type: "item"
+				}
+			]
+			x: -4.55d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"1E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mythicupgrades:aquamarine_chestplate"
+			}
+			id: "17054473EC6F3B06"
+			optional: true
+			rewards: [{
+				id: "19DC8018515C06A2"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "638B2CBCFB6EABFC"
+					item: {
+						count: 1
+						id: "mythicupgrades:aquamarine_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "528D05797EB59B8E"
+					item: {
+						count: 1
+						id: "mythicupgrades:aquamarine_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "7375485BF4625C92"
+					item: {
+						count: 1
+						id: "mythicupgrades:aquamarine_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "3FB9EB93BFCA4448"
+					item: {
+						count: 1
+						id: "mythicupgrades:aquamarine_boots"
+					}
+					type: "item"
+				}
+			]
+			x: -3.25d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"1E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mythicupgrades:citrine_chestplate"
+			}
+			id: "232DEE40066FAEAF"
+			optional: true
+			rewards: [{
+				id: "447DA8639FB316A6"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "3F028E2226CF3571"
+					item: {
+						count: 1
+						id: "mythicupgrades:citrine_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "3E4D57AEEA9918D4"
+					item: {
+						count: 1
+						id: "mythicupgrades:citrine_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "6691B64E7952D24C"
+					item: {
+						count: 1
+						id: "mythicupgrades:citrine_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "279E402516374530"
+					item: {
+						count: 1
+						id: "mythicupgrades:citrine_boots"
+					}
+					type: "item"
+				}
+			]
+			x: -1.95d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"1E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mythicupgrades:jade_chestplate"
+			}
+			id: "25D22D69F34E2AD7"
+			optional: true
+			rewards: [{
+				id: "43923D8C1E2B393B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "35088C87AF70CA5B"
+					item: {
+						count: 1
+						id: "mythicupgrades:jade_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "558D9D42EC2FC9AD"
+					item: {
+						count: 1
+						id: "mythicupgrades:jade_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "5EE992E6284D65FE"
+					item: {
+						count: 1
+						id: "mythicupgrades:jade_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "5753FFC9FA49F25A"
+					item: {
+						count: 1
+						id: "mythicupgrades:jade_boots"
+					}
+					type: "item"
+				}
+			]
+			x: -0.65d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"1E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mythicupgrades:peridot_chestplate"
+			}
+			id: "66C6B7D58A1B4ECA"
+			optional: true
+			rewards: [{
+				id: "3813F6A2E5956205"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "2660B0D5ED86981D"
+					item: {
+						count: 1
+						id: "mythicupgrades:peridot_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "673E5CCABFC79722"
+					item: {
+						count: 1
+						id: "mythicupgrades:peridot_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "4467108454975096"
+					item: {
+						count: 1
+						id: "mythicupgrades:peridot_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "6F19FB6088770E57"
+					item: {
+						count: 1
+						id: "mythicupgrades:peridot_boots"
+					}
+					type: "item"
+				}
+			]
+			x: 0.65d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"1E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mythicupgrades:ruby_chestplate"
+			}
+			id: "6120DA685E3606C7"
+			optional: true
+			rewards: [{
+				id: "7F4E5FCC39C136F3"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "64B73B5F9220FAEA"
+					item: {
+						count: 1
+						id: "mythicupgrades:ruby_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "156BBD8C2891FE8B"
+					item: {
+						count: 1
+						id: "mythicupgrades:ruby_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "48FAACACDD65A38E"
+					item: {
+						count: 1
+						id: "mythicupgrades:ruby_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "3993C40C143B8F1E"
+					item: {
+						count: 1
+						id: "mythicupgrades:ruby_boots"
+					}
+					type: "item"
+				}
+			]
+			x: 1.95d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"1E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mythicupgrades:sapphire_chestplate"
+			}
+			id: "485A36CEE175F8E8"
+			optional: true
+			rewards: [{
+				id: "377D44537C922921"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "68DF46EC5BAB707B"
+					item: {
+						count: 1
+						id: "mythicupgrades:sapphire_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "71FB118F01C88A69"
+					item: {
+						count: 1
+						id: "mythicupgrades:sapphire_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "230CC0C02144E328"
+					item: {
+						count: 1
+						id: "mythicupgrades:sapphire_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "54B40389F5B47F98"
+					item: {
+						count: 1
+						id: "mythicupgrades:sapphire_boots"
+					}
+					type: "item"
+				}
+			]
+			x: 3.25d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"1E57DC8E238DA8EC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mythicupgrades:topaz_chestplate"
+			}
+			id: "1D93F6922DE04567"
+			optional: true
+			rewards: [{
+				id: "4133DAE6F5ADB503"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "1AFAB1E70902E522"
+					item: {
+						count: 1
+						id: "mythicupgrades:topaz_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "6AFE4A26389F48F3"
+					item: {
+						count: 1
+						id: "mythicupgrades:topaz_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "588E588D28D8D4A6"
+					item: {
+						count: 1
+						id: "mythicupgrades:topaz_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "47A640F26426849C"
+					item: {
+						count: 1
+						id: "mythicupgrades:topaz_boots"
+					}
+					type: "item"
+				}
+			]
+			x: 4.55d
+			y: 13.5d
 		}
 	]
 }

@@ -252,6 +252,8 @@ Verified in the RCT 0.19.2-beta source: RCT already does both halves, so we conf
 - **No vanilla passive animals** except frogs (Froglights) and bees (pollination): farm animals, mounts and pets,
   water life and misc wildlife are gone. Pokémon cover their drops (feathers/chicken ~60 species, leather 15,
   porkchop, mutton, rabbit, wool + shearing, milking, ink, scutes, honey). Villagers and traders stay.
+  Rotten flesh also cooks into leather (furnace, smoker, campfire; `leather.js`, asked for on 2026-11-16), since
+  leather otherwise means beating Tauros, Miltank, Ponyta and the like.
   - Natural spawns: NeoForge biome modifier `remove_passive_mobs.json`. Everything else (structure pens, village
     cats, trader llamas, spawn eggs): KubeJS cancels them joining the world (`config.js` `removedMobs`).
 - **Pokémon drop fixes** (`tools/gen_drops.py`): Cobblemon's `species_additions` *replace* drop tables, so Cobblemon

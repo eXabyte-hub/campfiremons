@@ -462,7 +462,7 @@ hash = "041806a6bf31a86d45e2fa354ddd202e19aa8d7b1baff029f0cefe1c018c23a8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/armor.snbt"
-hash = "f6ce9f5f1028cb897dbfa76dc09a82a3a4f816bfba71ffb1f4e50736b6a18d8e"
+hash = "fa71bd36e7140ccd0aae99fece8789b06aefe3414a83dd210e3ed39a06054a17"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/artifacts.snbt"
@@ -574,7 +574,7 @@ hash = "520c41cea36c45c2c1eb854ed8d3b1c17a4c48fef620942245a88150890b0ec5"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "7fc6f3765a5e571e5b93d218a0ca879f5f70da1bfd764cd44d0e2b2617f28e25"
+hash = "9b634a719c8056e30016656284967684df0f43ba6ed036c19b1c356653670531"
 
 [[files]]
 file = "config/spawn_notification.json"
@@ -764,6 +764,10 @@ hash = "4326d3fbfcbfd81e88108216a1cec72580f3cc5fad6a9b334a238b86e93c1894"
 [[files]]
 file = "kubejs/assets/campfiremons/textures/quests/mega_evolution.png"
 hash = "27993d9bd97ebf75ab5af9853e551558b3e6675aec84dc7c7e15cb7f0fa53a6b"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/mythic_armor.png"
+hash = "3713532e3f936cfca2b518b8ecf42dcfcaae55d121d2419880cfea536edccb34"
 
 [[files]]
 file = "kubejs/assets/campfiremons/textures/quests/mythical.png"
@@ -4140,6 +4144,10 @@ hash = "05b351e8b7a1bc82296c74fb2c4af6c7a0aaac4b00bb10d411498cf3987f2935"
 [[files]]
 file = "kubejs/server_scripts/campfiremons/item_locks.js"
 hash = "13c8df6de122fd82fc7294e1e88393b51793f65a2f2481c131c1eac499be6461"
+
+[[files]]
+file = "kubejs/server_scripts/campfiremons/leather.js"
+hash = "3f2ae44d9d76497868cccd96e4a68ce66b9ccded6c5b717b5552ca9a77fb9921"
 
 [[files]]
 file = "kubejs/server_scripts/campfiremons/removed_mobs.js"

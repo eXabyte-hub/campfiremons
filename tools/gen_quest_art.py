@@ -91,6 +91,7 @@ BANNERS = {
     "pokemon_armor": ('Pokémon Armor', "#eef3f8", "#5f7186"),
     "shiny_armor": ('Shiny Sets', "#eef3f8", "#5f7186"),
     "trainer_hats": ('Trainer Hats', "#eef3f8", "#5f7186"),
+    "mythic_armor": ('Mythic Upgrades', "#eef3f8", "#5f7186"),
     "raids": ('Raid Dens', "#e3a3ff", "#7a2fc4"),
     "training": ('Training', "#ffb3a3", "#d6403a"),
     "train_tms": ('TMs & TRs', "#ffb3a3", "#d6403a"),

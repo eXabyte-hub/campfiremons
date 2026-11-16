@@ -2,6 +2,14 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.20
+
+Already playing? Just press Play: the pack updates itself.
+
+- **Mythic Upgrades armour in the quest book.** The Armor chapter now has the eight gem sets (ametrine, aquamarine,
+  citrine, jade, peridot, ruby, sapphire, topaz) at the bottom, under their own banner.
+- **Rotten flesh into leather.** Cook rotten flesh in a furnace, smoker or on a campfire to get leather (one for one).
+
 ## v0.1.19
 
 Already playing? Just press Play: the pack updates itself.
