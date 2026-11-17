@@ -65,6 +65,12 @@ cleared their top bit, and `tools/quest_book/validate.py` now flags any.
 `tools/gen_shop.py` owns `config/cobbledollars/default_shop.json` (the default shop minus the
 Master Ball, plus our Seeds tab in its `EXTRA` list); re-run it after updating CobbleDollars.
 
+`config/tectonic.json` is ours: Tectonic's defaults except `ocean_offset` -0.6 (DESIGN.md §5). Worldgen settings
+(Tectonic, Terralith) only reach chunks generated after the change, so on the live world every change leaves seams
+where new land meets old. To preview one, a scratch server with the live seed (`seed` in the console) can sample the
+biome source on a grid (`getChunkSource().getGenerator().getBiomeSource().getNoiseBiome(x >> 2, 16, z >> 2,
+getChunkSource().randomState().sampler())` in a KubeJS `ServerEvents.loaded`) without generating any chunks.
+
 `packwiz update` on Tomtaru's Cobblemon and Farmer's Delight Tweaks warns that its version numbers and dates
 disagree (an old `R.1.10` vs the newer `2.0.4`): packwiz goes by date, so it keeps 2.0.x, which is right.
 

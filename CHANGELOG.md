@@ -2,6 +2,15 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.25
+
+Already playing? Just press Play: the pack updates itself.
+
+- **Less ocean in new land.** Land nobody has visited yet now has about a sixth less ocean (just over half the map
+  instead of nearly two thirds), so there are bigger continents and shorter crossings. Places you've already been don't
+  change, so where new land meets old the coastline can end in a cliff or a straight edge.
+- **Map leads to water?** A gym nobody has reached yet may now be somewhere else. Type `/gymmap` for a fresh map.
+
 ## v0.1.24
 
 Already playing? Just press Play: the pack updates itself.

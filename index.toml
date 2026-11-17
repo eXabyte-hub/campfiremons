@@ -589,6 +589,10 @@ file = "config/spawn_notification.json"
 hash = "e6ac0ec7ee035c9b21a2b2657427322192b655b5d70956129cc17388fd777ed3"
 
 [[files]]
+file = "config/tectonic.json"
+hash = "23a6f12565d22c94774e3b7e4e9deb910bdb03e27bf204791653ced5733beb3c"
+
+[[files]]
 file = "config/terralith.json"
 hash = "de592f6eb46c9b12150d3eb3ac704ddb816dc361fefa7a827619cb0f84e6d204"
 
