@@ -1291,7 +1291,11 @@ hash = "b394bdd2bded04b915437b1f04cc8212cf40fc40323b5a59f48ea026233ddfdc"
 
 [[files]]
 file = "kubejs/client_scripts/README.txt"
-hash = "8ee117ea4692da8eb01d6f1819019cc775fc16c8056838d9b9bf21fbbfeeddd3"
+hash = "65028c3f47ea808ca32cd1a025e53a70fdb1267dd6b7392c8b40fdced7bfbaa8"
+
+[[files]]
+file = "kubejs/client_scripts/campfiremons/disconnect_screen.js"
+hash = "5dc708ae6c60c752a2f4216a36540cdf9431553f506de8a414ce6e9c3d3dc25a"
 
 [[files]]
 file = "kubejs/config/client.json"

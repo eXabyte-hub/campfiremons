@@ -2,6 +2,14 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.26
+
+Already playing? Just press Play: the pack updates itself.
+
+- **No more getting stuck on a wall of code.** Sometimes Microsoft's sign-in service has a hiccup when you join, and
+  the game showed its whole error web page, pushing the Back button off the screen. Now you get a short message and
+  the Back button stays where you can click it. Wait a few seconds and join again.
+
 ## v0.1.25
 
 Already playing? Just press Play: the pack updates itself.
