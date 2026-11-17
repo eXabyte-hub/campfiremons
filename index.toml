@@ -4151,7 +4151,7 @@ hash = "a08d06669ac6dc0e48a9c69d46ec846ee76b8a9cca57f05673c645fe8022ba9f"
 
 [[files]]
 file = "kubejs/server_scripts/campfiremons/gimmick_items.js"
-hash = "6d30e37b13e7f6fc3d1ffa4d67829116a5f6e2327de07fe8ec62cacccf61ce70"
+hash = "f05141b205380556c1c5fb1bfd87cbfacfda77c2aed472b61c5622f8c108f771"
 
 [[files]]
 file = "kubejs/server_scripts/campfiremons/gym_maps.js"
@@ -4529,6 +4529,26 @@ hash = "810e0b130095f09c0a2a488316e5f7d89a4038a25c704c78b6d6f1fe42090c8a"
 metafile = true
 
 [[files]]
+file = "mods/create-central-kitchen.pw.toml"
+hash = "3752b1dcdfebbb1e79c97c847095153155d64636576a9c0ac11ffa6506c62922"
+metafile = true
+
+[[files]]
+file = "mods/create-cobblemon-integrations.pw.toml"
+hash = "9b547126ae96b26aeab2bf753cc57f927722df67a8a8bc90926493eb8973ed5a"
+metafile = true
+
+[[files]]
+file = "mods/create-cobblestone.pw.toml"
+hash = "265c47a67d9e22610bcad5418fcdf0d08fc0f051822d8a744947c97fe451ea53"
+metafile = true
+
+[[files]]
+file = "mods/create-connected.pw.toml"
+hash = "6ac362d60bc8b13e03a5b6b9cdf9c7676f65d3e89e87c66f18514e7ee164cdb0"
+metafile = true
+
+[[files]]
 file = "mods/create-contraption-terminals.pw.toml"
 hash = "0eaabd71feeb13bb51455fc6528adf953639fe70b17d9bb90d54bacd8f6377a8"
 metafile = true
@@ -4536,6 +4556,16 @@ metafile = true
 [[files]]
 file = "mods/create-deco.pw.toml"
 hash = "67a405e6307f900d168deaa954a4309c3b44a6025e4efd7b8e774b6f9d3a69cd"
+metafile = true
+
+[[files]]
+file = "mods/create-dragons-plus.pw.toml"
+hash = "dcbb37e828a2f915e64a2ef839a742761a553a2e3b923b000ffba95db7503ac3"
+metafile = true
+
+[[files]]
+file = "mods/create-enchantment-industry.pw.toml"
+hash = "5f76bdf0fe120e62cc3ae298e911727fa45c70dd191fd9c2b213029c7601576c"
 metafile = true
 
 [[files]]
@@ -4696,6 +4726,11 @@ metafile = true
 [[files]]
 file = "mods/incendium.pw.toml"
 hash = "391f5b0b0fcae3ce77be6ab211435228faec79cb92c50d69471c52ba36b139d6"
+metafile = true
+
+[[files]]
+file = "mods/interiors.pw.toml"
+hash = "e7e6b3effe3022cf1fdb900c857111fdcbfd6b385c2d5bd28c914efaed436ecb"
 metafile = true
 
 [[files]]

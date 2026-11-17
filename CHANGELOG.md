@@ -2,6 +2,23 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.27
+
+Already playing? Just press Play: the pack updates itself.
+
+New Create add-ons:
+
+- **Create: Connected.** Handy blocks Create is missing: clutches, extra gearboxes, a kinetic battery that stores
+  rotation, inventory bridges and more.
+- **Create Cobblestone.** A cobblestone generator block powered by rotation, so drills don't wear out your
+  generator frames.
+- **Create: Enchantment Industry.** Automatic enchanting, and experience you can pipe around as a liquid.
+- **Create: Central Kitchen.** More ways to automate Farmer's Delight cooking with Create.
+- **Create: Interiors.** Chairs, sofas and other furniture to sit on and decorate with.
+- **Create: Cobblemon Integrations.** Catch a Slugma or Magcargo in an empty Blaze Burner and it heats your machines.
+  It also adds Create production lines for Poké Balls, medicine, battle items, mochi and vitamins. The Master Ball
+  still only comes from the Champion.
+
 ## v0.1.26
 
 Already playing? Just press Play: the pack updates itself.

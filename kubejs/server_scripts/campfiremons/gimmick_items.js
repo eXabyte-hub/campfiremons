@@ -33,6 +33,10 @@ ServerEvents.recipes(event => {
   event.remove({ output: 'cobblemon:master_ball' })
   // Create Industries assembles one on a Create line; by id too, as KubeJS may not read Create recipe outputs
   event.remove({ id: 'cobblemon_industries:sequenced_assembly/standard_balls/master_ball_rec' })
+  // Create: Cobblemon Integrations deploys one from a Nether Star bottom and a superheated top; its parts make nothing else
+  ;['master_ball_from_masterwork_ball_bottom_and_master_ball_top', 'masterwork_ball_bottom_from_minecraft_nether_star',
+    'master_ball_top_from_master_ball_sheet', 'master_ball_sheet_from_superheated_materials']
+    .forEach(id => event.remove({ id: `createcobblemonintegrations:${id}` }))
 
   // Cosmetic swaps: any bracelet/ring look from the base one and back, at a stonecutter
   let lookSets = [MEGA_BRACELETS, Z_RINGS]

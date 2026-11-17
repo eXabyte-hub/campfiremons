@@ -72,7 +72,8 @@ biome source on a grid (`getChunkSource().getGenerator().getBiomeSource().getNoi
 getChunkSource().randomState().sampler())` in a KubeJS `ServerEvents.loaded`) without generating any chunks.
 
 `packwiz update` on Tomtaru's Cobblemon and Farmer's Delight Tweaks warns that its version numbers and dates
-disagree (an old `R.1.10` vs the newer `2.0.4`): packwiz goes by date, so it keeps 2.0.x, which is right.
+disagree (an old `R.1.10` vs the newer `2.0.4`): packwiz goes by date, so it keeps 2.0.x, which is right. Create:
+Interiors warns the same way (`1.21.1-neoforge-0.6.0` vs the newer `0.6.1`).
 
 `tools/gen_animation_fixes.py` owns `kubejs/assets/cobblemon/bedrock/pokemon/animations/`. Mods that replace
 Cobblemon's Pokémon files (CCC's animations, Mega Showdown's poses) can leave a winning pose asking for an animation
