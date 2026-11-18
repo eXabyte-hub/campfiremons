@@ -89,11 +89,11 @@ Ask whoever runs the server for the address and to be added to the whitelist, th
 
 <!-- modlist:start -->
 <details>
-<summary>All 216 mods, plus resource packs and shaders (click to open)</summary>
+<summary>All 218 mods, plus resource packs and shaders (click to open)</summary>
 
 Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are only on players' computers, "server only" ones only on the server.
 
-### Mods (216)
+### Mods (218)
 
 | Name | Notes | From |
 | --- | --- | --- |
@@ -112,6 +112,7 @@ Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are 
 | [Artifacts](https://modrinth.com/project/P0Mu4wcQ) |  | Modrinth |
 | [Athena](https://modrinth.com/project/b1ZV3DIJ) | client only | Modrinth |
 | [Bad Wither No Cookie - Reloaded](https://modrinth.com/project/lL2MtE37) | client only | Modrinth |
+| [BaguetteLib](https://modrinth.com/project/OfKzpbRU) | server only | Modrinth |
 | [Balm](https://modrinth.com/project/MBAkmtvl) |  | Modrinth |
 | [Berry Harvester](https://modrinth.com/project/wZks2uy6) |  | Modrinth |
 | [Better Advanced Tooltips](https://modrinth.com/project/iHLDc0eo) |  | Modrinth |
@@ -207,6 +208,7 @@ Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are 
 | [Fusion (Connected Textures)](https://modrinth.com/project/p19vrgc2) | client only | Modrinth |
 | [Geckolib](https://modrinth.com/project/8BmcQJ2H) |  | Modrinth |
 | [GraveStone Mod](https://modrinth.com/project/RYtXKJPr) |  | Modrinth |
+| [Gravestone x Curios API Compat](https://modrinth.com/project/NaiL8bPN) | server only | Modrinth |
 | [Handcrafted](https://modrinth.com/project/pJmCFF0p) |  | Modrinth |
 | [Iceberg](https://modrinth.com/project/5faXoLqX) | client only | Modrinth |
 | [ImmediatelyFast](https://modrinth.com/project/5ZwdcRci) | client only | Modrinth |

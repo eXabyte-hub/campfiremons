@@ -261,3 +261,8 @@ Every restart pulls the latest release; if the sync fails (GitHub down), the ser
 has. The jar is a launcher: it runs the NeoForge installer and packwiz-installer as short child processes (1 GB heap
 each), then the server. Some hosts want to know that before you use one; ask them if their terms are unclear.
 `java -jar campfiremons-server.jar --sync-only` stops after the sync.
+
+Game rules live in the world, not in the pack, so a new world needs them set again in the console. The live world
+has: `playersSleepingPercentage 30`, `doFireTick false` (no fire spread) and `accessories.keepAccessoryInventory true`
+(Accessories slots, which hold Mega Showdown's gimmick items and Legendary Monuments' items, are kept on death;
+Curios items go to the grave and back into their slots through Gravestone x Curios API Compat).

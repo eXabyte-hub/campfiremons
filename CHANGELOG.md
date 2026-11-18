@@ -9,6 +9,9 @@ Already playing? Just press Play: the pack updates itself.
 - **Waystones are free.** Teleporting between waystones no longer costs experience levels.
 - **Biodiesel superheats.** Diesel Generators' Biodiesel now superheats a Blaze Burner with a Straw, like Oritech's
   Biofuel and Crafts & Additions' Bioethanol do (20 minutes a bucket). Oritech's Refinery takes it too.
+- **Accessories go back where they were.** When you break your grave, accessories like artifacts, relics and your
+  backpack now go straight back into their slots instead of into your inventory. Mega Bracelets, Z-Rings, Tera Orbs
+  and Dynamax Bands aren't dropped at all when you die: you keep them on.
 
 ## v0.1.28
 
