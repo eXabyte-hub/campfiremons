@@ -2,6 +2,12 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.29
+
+Already playing? Just press Play: the pack updates itself.
+
+- **Waystones are free.** Teleporting between waystones no longer costs experience levels.
+
 ## v0.1.28
 
 Already playing? Just press Play: the pack updates itself.

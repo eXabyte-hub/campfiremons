@@ -601,6 +601,10 @@ file = "config/terralith.json"
 hash = "de592f6eb46c9b12150d3eb3ac704ddb816dc361fefa7a827619cb0f84e6d204"
 
 [[files]]
+file = "config/waystones-common.toml"
+hash = "b2546b3967999a59a5598602a356bfb1c774c6a17a6943b03ae6cb42d73ed316"
+
+[[files]]
 file = "datapacks/cobblemotion.pw.toml"
 hash = "aeee4802fdf7c4dcef05b00614f5f92299a1e1f47961d761bbde2d4d19c8e9ac"
 metafile = true
