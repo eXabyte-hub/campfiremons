@@ -89,11 +89,11 @@ Ask whoever runs the server for the address and to be added to the whitelist, th
 
 <!-- modlist:start -->
 <details>
-<summary>All 212 mods, plus resource packs and shaders (click to open)</summary>
+<summary>All 213 mods, plus resource packs and shaders (click to open)</summary>
 
 Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are only on players' computers, "server only" ones only on the server.
 
-### Mods (212)
+### Mods (213)
 
 | Name | Notes | From |
 | --- | --- | --- |
@@ -175,6 +175,7 @@ Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are 
 | [Create: Central Kitchen](https://modrinth.com/project/btq68HMO) |  | Modrinth |
 | [Create: Connected](https://modrinth.com/project/Vg5TIO6d) |  | Modrinth |
 | [Create: Copycats+](https://modrinth.com/project/UT2M39wf) |  | Modrinth |
+| [Create: Diesel Generators](https://modrinth.com/project/ZM3tt6p1) |  | Modrinth |
 | [Create: Dragons Plus](https://modrinth.com/project/dzb1a5WV) |  | Modrinth |
 | [Create: Enchantment Industry](https://modrinth.com/project/JWGBpFUP) |  | Modrinth |
 | [Create: Interiors](https://modrinth.com/project/r4Knci2k) |  | Modrinth |

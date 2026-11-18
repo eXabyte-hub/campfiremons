@@ -9,6 +9,9 @@ Already playing? Just press Play: the pack updates itself.
 - **Better caves in new land (YUNG's Better Caves).** Land nobody has visited yet gets bigger, more varied caves:
   winding cave systems, underground lakes and rivers, flooded caverns, and some deep regions full of lava. Places
   you've already explored don't change, so a cave can stop where new land meets old.
+- **Diesel and oil (Create: Diesel Generators).** Pump crude oil with a pumpjack, refine it into diesel and gasoline,
+  and burn fuel in compact engines for lots of rotational power. Oil is under deserts, savannas, badlands, plains and
+  oceans (use the Oil Scanner to find a good spot), and that works in land you've already explored too.
 
 ## v0.1.27
 

@@ -3866,6 +3866,10 @@ file = "kubejs/data/cobbletowns/worldgen/template_pool/villagers/shopkeeper_seco
 hash = "f96c28e7e347232d721a698c4f8d5c699738be049677fa549d147cc2a4edbb93"
 
 [[files]]
+file = "kubejs/data/createdieselgenerators/tags/worldgen/biome/oil_biomes.json"
+hash = "fc5a6b287c9b8722c0e6b5110b39506187ecaf68ce044b171b66bd8f8061efe0"
+
+[[files]]
 file = "kubejs/data/dungeons_arise/worldgen/structure_set/major_structures.json"
 hash = "9d1d7daf4a1db1e7a615926c79624dd87fabe0a74a6ec9e8aead6792ea72e2f4"
 
@@ -4556,6 +4560,11 @@ metafile = true
 [[files]]
 file = "mods/create-deco.pw.toml"
 hash = "67a405e6307f900d168deaa954a4309c3b44a6025e4efd7b8e774b6f9d3a69cd"
+metafile = true
+
+[[files]]
+file = "mods/create-diesel-generators.pw.toml"
+hash = "456f66abd180b3f5765473cda5e8acb1a6ea8b15b7ee34442be9a7af414cfc63"
 metafile = true
 
 [[files]]
