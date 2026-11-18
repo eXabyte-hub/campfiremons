@@ -7,6 +7,8 @@ Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/rel
 Already playing? Just press Play: the pack updates itself.
 
 - **Waystones are free.** Teleporting between waystones no longer costs experience levels.
+- **Biodiesel superheats.** Diesel Generators' Biodiesel now superheats a Blaze Burner with a Straw, like Oritech's
+  Biofuel and Crafts & Additions' Bioethanol do (20 minutes a bucket). Oritech's Refinery takes it too.
 
 ## v0.1.28
 

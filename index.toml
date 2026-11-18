@@ -1314,6 +1314,10 @@ file = "kubejs/config/common.json"
 hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
 
 [[files]]
+file = "kubejs/data/c/tags/fluid/biofuel.json"
+hash = "06b958943fac8ce102d5bb9f2d64f4a1b91eaf31b8d7d0132f1c9a8e492c86fb"
+
+[[files]]
 file = "kubejs/data/c/tags/fluid/crude_oil.json"
 hash = "fc1ab74013b07a20732e3522458dedd9a89ebb706b1d07ad1f212af2b0b7b577"
 

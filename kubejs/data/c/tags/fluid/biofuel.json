@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "createdieselgenerators:biodiesel", "required": false },
+    { "id": "createdieselgenerators:flowing_biodiesel", "required": false }
+  ]
+}
