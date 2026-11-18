@@ -89,11 +89,11 @@ Ask whoever runs the server for the address and to be added to the whitelist, th
 
 <!-- modlist:start -->
 <details>
-<summary>All 211 mods, plus resource packs and shaders (click to open)</summary>
+<summary>All 212 mods, plus resource packs and shaders (click to open)</summary>
 
 Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are only on players' computers, "server only" ones only on the server.
 
-### Mods (211)
+### Mods (212)
 
 | Name | Notes | From |
 | --- | --- | --- |
@@ -303,6 +303,7 @@ Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are 
 | [Xaero's World Map](https://modrinth.com/project/NcUtCpym) |  | Modrinth |
 | [YetAnotherConfigLib (YACL)](https://modrinth.com/project/1eAoo2KR) |  | Modrinth |
 | [YUNG's API](https://modrinth.com/project/Ua7DFN59) |  | Modrinth |
+| [YUNG's Better Caves](https://modrinth.com/project/Dfu00ggU) | server only | Modrinth |
 | [YUNG's Better Dungeons](https://modrinth.com/project/o1C1Dkj5) |  | Modrinth |
 | [YUNG's Better Mineshafts](https://modrinth.com/project/HjmxVlSr) |  | Modrinth |
 | [YUNG's Better Nether Fortresses](https://modrinth.com/project/Z2mXHnxP) |  | Modrinth |

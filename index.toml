@@ -5224,6 +5224,11 @@ hash = "dde31f05114c72cb2f58e522417487730b872e456f77fdd02c032c9235791f6c"
 metafile = true
 
 [[files]]
+file = "mods/yungs-better-caves.pw.toml"
+hash = "708cefdfa8d7c0683f87ed2934d99cef254c0601ee99250c6de7b292e4ff1f6b"
+metafile = true
+
+[[files]]
 file = "mods/yungs-better-dungeons.pw.toml"
 hash = "1496ffa30020676979e65921b91e583a2fdc77e50001e2ed55f99edf1a0ae880"
 metafile = true

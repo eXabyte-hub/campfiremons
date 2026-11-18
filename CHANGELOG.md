@@ -2,6 +2,14 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.28
+
+Already playing? Just press Play: the pack updates itself.
+
+- **Better caves in new land (YUNG's Better Caves).** Land nobody has visited yet gets bigger, more varied caves:
+  winding cave systems, underground lakes and rivers, flooded caverns, and some deep regions full of lava. Places
+  you've already explored don't change, so a cave can stop where new land meets old.
+
 ## v0.1.27
 
 Already playing? Just press Play: the pack updates itself.
