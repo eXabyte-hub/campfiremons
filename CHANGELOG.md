@@ -20,6 +20,8 @@ Already playing? Just press Play: the pack updates itself.
   friend, `/back` to return to where you died or last teleported from, `/spawn`, and `/rtp` for a random spot within
   2,500 blocks of spawn. Teleports take 3 seconds to charge. Also `/enderchest`, `/crafting`, `/trashcan`, `/hat`,
   `/nick` and a few more.
+- **Create Utilities.** Void Motors send rotation to another Void Motor anywhere, Void Chests and Void Tanks share
+  items and fluids across any distance, and the Gearcube splits rotation in every direction.
 
 ## v0.1.27
 

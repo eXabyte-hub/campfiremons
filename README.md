@@ -89,11 +89,11 @@ Ask whoever runs the server for the address and to be added to the whitelist, th
 
 <!-- modlist:start -->
 <details>
-<summary>All 215 mods, plus resource packs and shaders (click to open)</summary>
+<summary>All 216 mods, plus resource packs and shaders (click to open)</summary>
 
 Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are only on players' computers, "server only" ones only on the server.
 
-### Mods (215)
+### Mods (216)
 
 | Name | Notes | From |
 | --- | --- | --- |
@@ -173,6 +173,7 @@ Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are 
 | [Create Crafts & Additions](https://modrinth.com/project/kU1G12Nn) |  | Modrinth |
 | [Create Deco](https://modrinth.com/project/sMvUb4Rb) |  | Modrinth |
 | [Create Slice & Dice](https://modrinth.com/project/GmjmRQ0A) |  | Modrinth |
+| [Create Utilities (Unofficial Port)](https://modrinth.com/project/8gamiD8q) |  | Modrinth |
 | [Create: Central Kitchen](https://modrinth.com/project/btq68HMO) |  | Modrinth |
 | [Create: Connected](https://modrinth.com/project/Vg5TIO6d) |  | Modrinth |
 | [Create: Copycats+](https://modrinth.com/project/UT2M39wf) |  | Modrinth |
