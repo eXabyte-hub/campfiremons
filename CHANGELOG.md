@@ -16,6 +16,10 @@ Already playing? Just press Play: the pack updates itself.
   Oritech's Fuel Generator. Their diesel and biodiesel already worked in both.
 - **Ultimine for berries and apricorns.** Hold the Ultimine key (` by default) and right-click a ripe berry bush or
   apricorn to pick the whole patch at once.
+- **Handy commands (FTB Essentials).** `/sethome` and `/home` (up to 3 homes), `/tpa <name>` to ask to teleport to a
+  friend, `/back` to return to where you died or last teleported from, `/spawn`, and `/rtp` for a random spot within
+  2,500 blocks of spawn. Teleports take 3 seconds to charge. Also `/enderchest`, `/crafting`, `/trashcan`, `/hat`,
+  `/nick` and a few more.
 
 ## v0.1.27
 

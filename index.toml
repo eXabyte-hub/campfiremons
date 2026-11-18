@@ -465,6 +465,10 @@ file = "config/fancymenu/options.txt"
 hash = "7d344bc0e4b17014290c3e7570a7505099de513f28b51cf6319919d75b465b3f"
 
 [[files]]
+file = "config/ftbessentials.snbt"
+hash = "45dd6982685840ee139725a720f0c079b28152284e8640109754a0e694b2a531"
+
+[[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "041806a6bf31a86d45e2fa354ddd202e19aa8d7b1baff029f0cefe1c018c23a8"
 
@@ -4692,6 +4696,11 @@ metafile = true
 [[files]]
 file = "mods/framedblocks.pw.toml"
 hash = "6d937e4bbf525c3d446fb1fc37cc9909a5a5cbecbd4f4451872bf94dbc06d986"
+metafile = true
+
+[[files]]
+file = "mods/ftb-essentials.pw.toml"
+hash = "6fa984dc1b5905ae909b417ed1cd92d6b536ba4832ed8c8d95aa9d424ad789df"
 metafile = true
 
 [[files]]

@@ -89,11 +89,11 @@ Ask whoever runs the server for the address and to be added to the whitelist, th
 
 <!-- modlist:start -->
 <details>
-<summary>All 214 mods, plus resource packs and shaders (click to open)</summary>
+<summary>All 215 mods, plus resource packs and shaders (click to open)</summary>
 
 Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are only on players' computers, "server only" ones only on the server.
 
-### Mods (214)
+### Mods (215)
 
 | Name | Notes | From |
 | --- | --- | --- |
@@ -198,6 +198,7 @@ Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are 
 | [FerriteCore](https://modrinth.com/project/uXXizFIs) |  | Modrinth |
 | [Forgified Fabric API](https://modrinth.com/project/Aqlf1Shp) |  | Modrinth |
 | [FramedBlocks](https://modrinth.com/project/wbgfS34j) |  | Modrinth |
+| [FTB Essentials (Forge & Fabric)](https://www.curseforge.com/projects/410811) |  | CurseForge |
 | [FTB Library (NeoForge)](https://www.curseforge.com/projects/404465) |  | CurseForge |
 | [FTB Quests (NeoForge)](https://www.curseforge.com/projects/289412) |  | CurseForge |
 | [FTB Teams (NeoForge)](https://www.curseforge.com/projects/404468) |  | CurseForge |
