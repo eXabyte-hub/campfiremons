@@ -75,6 +75,13 @@ getChunkSource().randomState().sampler())` in a KubeJS `ServerEvents.loaded`) wi
 disagree (an old `R.1.10` vs the newer `2.0.4`): packwiz goes by date, so it keeps 2.0.x, which is right. Create:
 Interiors warns the same way (`1.21.1-neoforge-0.6.0` vs the newer `0.6.1`).
 
+Some CurseForge authors turn off third-party downloads; packwiz-installer then stops with "This mod is excluded
+from the CurseForge API and must be downloaded manually", which breaks every player's and the server's sync. Only
+if the licence allows redistribution (MIT and the like, never All Rights Reserved) the pack serves the jar itself:
+the unmodified jar in `mods/`, its licence and source in `licenses/`, and an entry in `HOSTED` in
+`tools/gen_modlist.py`. `packwiz update` doesn't see these jars, so update them by hand. Served this way:
+Cobblemon Ultimine Harvest. Turned down for this reason: Who's That Pokémon (All Rights Reserved).
+
 `tools/gen_animation_fixes.py` owns `kubejs/assets/cobblemon/bedrock/pokemon/animations/`. Mods that replace
 Cobblemon's Pokémon files (CCC's animations, Mega Showdown's poses) can leave a winning pose asking for an animation
 its group doesn't have, which crashes the client when it plays. The tool rebuilds those groups (missing animations

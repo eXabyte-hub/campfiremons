@@ -4206,6 +4206,10 @@ file = "kubejs/startup_scripts/campfiremons/tier_locks.js"
 hash = "a2118e9488c23e059beabcaaf2d3c1161ada2fe83fe2006a56d624b508463e21"
 
 [[files]]
+file = "licenses/ultimine_cobblemon_harvest-1.0.0-MIT.txt"
+hash = "d14c006c243a20122d179ec0f424ad42045a0180746be8f8bd4a08e85572dffa"
+
+[[files]]
 file = "mods/accessories.pw.toml"
 hash = "2017362c793d95887d38b3353abb7c77f212175e82ed848296575ea0e466b7d7"
 metafile = true
@@ -5189,6 +5193,10 @@ metafile = true
 file = "mods/tomtarus-cobblemon-and-farmers-delight-tweaks.pw.toml"
 hash = "1efe654d51ff746bfa87e577706564a4ec6ba0ec46d887d5c1fdb25bc0152831"
 metafile = true
+
+[[files]]
+file = "mods/ultimine_cobblemon_harvest-1.0.0.jar"
+hash = "f19f6087deb9de548cddaf40d7c9187023b5ea24aa96f57266ef88afada17ad3"
 
 [[files]]
 file = "mods/unilib.pw.toml"

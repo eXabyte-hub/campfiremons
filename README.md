@@ -89,11 +89,11 @@ Ask whoever runs the server for the address and to be added to the whitelist, th
 
 <!-- modlist:start -->
 <details>
-<summary>All 213 mods, plus resource packs and shaders (click to open)</summary>
+<summary>All 214 mods, plus resource packs and shaders (click to open)</summary>
 
 Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are only on players' computers, "server only" ones only on the server.
 
-### Mods (213)
+### Mods (214)
 
 | Name | Notes | From |
 | --- | --- | --- |
@@ -146,6 +146,7 @@ Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are 
 | [Cobblemon Raid Dens](https://modrinth.com/project/GebWh45l) |  | Modrinth |
 | [Cobblemon Spawn Notification](https://modrinth.com/project/LPuJjiQz) |  | Modrinth |
 | [Cobblemon Tim Core](https://modrinth.com/project/lVP9aUaY) |  | Modrinth |
+| [Cobblemon Ultimine Harvest](https://www.curseforge.com/minecraft/mc-mods/cobblemon-ultimine-harvest) | hosted in this repo (MIT) | CurseForge |
 | [Cobblemon Ultra-Beasts](https://www.curseforge.com/projects/1333072) |  | CurseForge |
 | [Cobblemon: Armory](https://modrinth.com/project/2GSJkNsi) |  | Modrinth |
 | [Cobblemon: Create Industries (3D Production Models)](https://modrinth.com/project/7BX9lbH9) |  | Modrinth |

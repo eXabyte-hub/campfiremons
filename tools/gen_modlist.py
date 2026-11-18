@@ -13,6 +13,11 @@ README = ROOT / 'README.md'
 START, END = '<!-- modlist:start -->', '<!-- modlist:end -->'
 SECTIONS = [('mods', 'Mods'), ('resourcepacks', 'Resource packs'), ('shaderpacks', 'Shaders'), ('datapacks', 'Data packs')]
 SIDES = {'both': '', 'client': 'client only', 'server': 'server only'}
+# Jars the pack serves itself (their authors turned off third-party downloads; licences in licenses/): file -> page
+HOSTED = {
+    'ultimine_cobblemon_harvest-1.0.0.jar': ('Cobblemon Ultimine Harvest',
+                                             'https://www.curseforge.com/minecraft/mc-mods/cobblemon-ultimine-harvest'),
+}
 
 
 def entry(path):
@@ -34,7 +39,13 @@ def entry(path):
 def render():
     parts, total = [], 0
     for folder, title in SECTIONS:
-        rows = sorted(entry(p) for p in (ROOT / folder).glob('*.pw.toml'))
+        rows = [entry(p) for p in (ROOT / folder).glob('*.pw.toml')]
+        for jar in (ROOT / folder).glob('*.jar'):
+            if jar.name not in HOSTED:
+                sys.exit(f'{folder}/{jar.name} is served from the repo: add it to HOSTED in tools/gen_modlist.py')
+            name, url = HOSTED[jar.name]
+            rows.append((name.lower(), f'| [{name}]({url}) | hosted in this repo (MIT) | CurseForge |'))
+        rows.sort()
         if not rows:
             continue
         total += len(rows) if folder == 'mods' else 0

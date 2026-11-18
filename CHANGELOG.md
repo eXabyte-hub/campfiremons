@@ -14,6 +14,8 @@ Already playing? Just press Play: the pack updates itself.
   oceans (use the Oil Scanner to find a good spot), and that works in land you've already explored too.
 - **Oritech and Diesel Generators share oil.** Either mod's crude oil now works in either mod's refinery and in
   Oritech's Fuel Generator. Their diesel and biodiesel already worked in both.
+- **Ultimine for berries and apricorns.** Hold the Ultimine key (` by default) and right-click a ripe berry bush or
+  apricorn to pick the whole patch at once.
 
 ## v0.1.27
 
