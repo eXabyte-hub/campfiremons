@@ -1306,6 +1306,14 @@ file = "kubejs/config/common.json"
 hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
 
 [[files]]
+file = "kubejs/data/c/tags/fluid/crude_oil.json"
+hash = "fc1ab74013b07a20732e3522458dedd9a89ebb706b1d07ad1f212af2b0b7b577"
+
+[[files]]
+file = "kubejs/data/c/tags/fluid/oil.json"
+hash = "4c95e3bade6cb07b2508432ed4ff74b532f99c25ab94ccc1ca3e437f6076b4bc"
+
+[[files]]
 file = "kubejs/data/campfiremons/advancement/bypass.json"
 hash = "e3ed6810058adbc00e47fd593f3d868118aa24ab4dfab8d8d793648977b107de"
 

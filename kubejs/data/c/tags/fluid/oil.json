@@ -1,0 +1,6 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "createdieselgenerators:crude_oil", "required": false }
+  ]
+}

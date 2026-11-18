@@ -12,6 +12,8 @@ Already playing? Just press Play: the pack updates itself.
 - **Diesel and oil (Create: Diesel Generators).** Pump crude oil with a pumpjack, refine it into diesel and gasoline,
   and burn fuel in compact engines for lots of rotational power. Oil is under deserts, savannas, badlands, plains and
   oceans (use the Oil Scanner to find a good spot), and that works in land you've already explored too.
+- **Oritech and Diesel Generators share oil.** Either mod's crude oil now works in either mod's refinery and in
+  Oritech's Fuel Generator. Their diesel and biodiesel already worked in both.
 
 ## v0.1.27
 
