@@ -602,7 +602,7 @@ hash = "de592f6eb46c9b12150d3eb3ac704ddb816dc361fefa7a827619cb0f84e6d204"
 
 [[files]]
 file = "config/waystones-common.toml"
-hash = "b2546b3967999a59a5598602a356bfb1c774c6a17a6943b03ae6cb42d73ed316"
+hash = "3f222751aca279c7fb317470a2cdb90479608aad62ca801ebc2fef8c4a3bd555"
 
 [[files]]
 file = "datapacks/cobblemotion.pw.toml"

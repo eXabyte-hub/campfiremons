@@ -7,6 +7,8 @@ Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/rel
 Already playing? Just press Play: the pack updates itself.
 
 - **Waystones are free.** Teleporting between waystones no longer costs experience levels.
+- **Waystones are shared.** New waystones (ones you place, and ones in land nobody has explored yet) show up for
+  everyone straight away, without each player visiting them first. Waystones you've already found stay as they are.
 - **Biodiesel superheats.** Diesel Generators' Biodiesel now superheats a Blaze Burner with a Straw, like Oritech's
   Biofuel and Crafts & Additions' Bioethanol do (20 minutes a bucket). Oritech's Refinery takes it too.
 - **Accessories go back where they were.** When you break your grave, accessories like artifacts, relics and your
