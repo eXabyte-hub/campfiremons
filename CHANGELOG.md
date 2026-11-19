@@ -2,6 +2,16 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.30
+
+Already playing? Just press Play: the pack updates itself.
+
+- **Lapis stays in the enchanting table (Easy Magic).** Your lapis and item stay in the table when you close it, and
+  a re-roll button gives you new enchantment offers for a little lapis and XP. Torches and grass no longer block
+  bookshelves. Already have an enchanting table? Break it and place it again to switch this on.
+- **Pick your enchantment (Enchanting Infuser).** A new table where you choose exactly which enchantment you want and
+  pay XP for it, with no luck involved.
+
 ## v0.1.29
 
 Already playing? Just press Play: the pack updates itself.
