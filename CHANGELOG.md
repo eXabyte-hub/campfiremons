@@ -2,6 +2,14 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.31
+
+Already playing? Just press Play: the pack updates itself.
+
+- **Magnum Torches.** Place a Diamond Magnum Torch to stop monsters spawning naturally in a big area around your
+  base. Emerald and Amethyst torches do the same for wandering traders and for fish, squid and bats. None of them
+  stop Pokémon spawning.
+
 ## v0.1.30
 
 Already playing? Just press Play: the pack updates itself.

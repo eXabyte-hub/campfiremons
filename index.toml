@@ -589,6 +589,10 @@ file = "config/ftbquests/quests/lang/en_us.snbt"
 hash = "b6badbaffebcb6b469f6ba7edf0409e248191438b2e7458ff16a0a87fb8b0bb3"
 
 [[files]]
+file = "config/magnumtorch-server.toml"
+hash = "fd9a5337362f7bb3b4a681ec8080719c1ec791439f77b38b0fba40a4fa399907"
+
+[[files]]
 file = "config/spawn_notification.json"
 hash = "e6ac0ec7ee035c9b21a2b2657427322192b655b5d70956129cc17388fd777ed3"
 
@@ -4904,6 +4908,11 @@ metafile = true
 [[files]]
 file = "mods/lootrmon.pw.toml"
 hash = "4fc73c53deeb29e98ee31b7cb534f80ed3635afc54f7c37460cfba92718ce74a"
+metafile = true
+
+[[files]]
+file = "mods/magnum-torch.pw.toml"
+hash = "e0eb9856cfbcefd70a853efd4e5ab8deb6a3add9f97f927860ed19b8055f8b88"
 metafile = true
 
 [[files]]
