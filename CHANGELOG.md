@@ -2,6 +2,15 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.32
+
+Already playing? Just press Play: the pack updates itself.
+
+- **More stone generators.** Create Cobblestone's Mechanical Generator can now make granite, diorite, andesite, tuff,
+  calcite, dripstone, cobbled deepslate and blackstone, as well as Create's ore stones asurine, crimsite, ochrum,
+  veridium and scorchia. Right-click the generator with the stone you want. The ore stones (crush them for zinc,
+  iron, gold and copper) generate more slowly and need more power.
+
 ## v0.1.31
 
 Already playing? Just press Play: the pack updates itself.

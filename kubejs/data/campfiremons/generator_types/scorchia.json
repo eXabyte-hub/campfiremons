@@ -1,0 +1,5 @@
+{
+  "block": "create:scorchia",
+  "stress": 24,
+  "outputPerSecondPerRpm": 0.5
+}

@@ -1406,6 +1406,58 @@ file = "kubejs/data/campfiremons/advancement/stage/root.json"
 hash = "2c19a47656b2d228974b735df5debf191d512af00b360d1b0e932598eb134446"
 
 [[files]]
+file = "kubejs/data/campfiremons/generator_types/andesite.json"
+hash = "0a1af02d9a7c313234ce3406038bd699a9f5b0efe4885c9451258f855dc81bac"
+
+[[files]]
+file = "kubejs/data/campfiremons/generator_types/asurine.json"
+hash = "ec7812990149c3bb38d4cfa8dcb2e9766f49e2b78e97e611ff75c31e4e7eec47"
+
+[[files]]
+file = "kubejs/data/campfiremons/generator_types/blackstone.json"
+hash = "2fdeef8ba4ec85520c579d7a1693d3a1e63b52ab8e12d0c3d008585897d64b09"
+
+[[files]]
+file = "kubejs/data/campfiremons/generator_types/calcite.json"
+hash = "5c6783c057f0f9e5ebd5b27e1e6b28c389f86d5d4c0de1404d619326163be9cd"
+
+[[files]]
+file = "kubejs/data/campfiremons/generator_types/cobbled_deepslate.json"
+hash = "650861bdedc61ca37738db5e62a2637a5e980d465bd36fb65e085b419e559200"
+
+[[files]]
+file = "kubejs/data/campfiremons/generator_types/crimsite.json"
+hash = "9ac02c6fd0010a84cf77aaf12080313ecc0f14521039cdf82a273694ce116128"
+
+[[files]]
+file = "kubejs/data/campfiremons/generator_types/diorite.json"
+hash = "269331839b542f8c17a6be57e1cb13627d6e541304b59885d7d8f7f4786b4cf7"
+
+[[files]]
+file = "kubejs/data/campfiremons/generator_types/dripstone.json"
+hash = "93d126d3f95f1abc9527ed32268878a3cf8af74fe4fea01e455763d01b97eead"
+
+[[files]]
+file = "kubejs/data/campfiremons/generator_types/granite.json"
+hash = "a4f6e1c02fda011a447cd46e8117c42a6bd3ca55807ec8441b8de75ff9074421"
+
+[[files]]
+file = "kubejs/data/campfiremons/generator_types/ochrum.json"
+hash = "df9643a2280c4b564eea8bcd294a23381478b50a7ea852263ec2bee293bd9954"
+
+[[files]]
+file = "kubejs/data/campfiremons/generator_types/scorchia.json"
+hash = "60c6d8f41866f6d8e4d6b7f1baf5203b4c54e6ff3ed079a4bd16589c1f264d52"
+
+[[files]]
+file = "kubejs/data/campfiremons/generator_types/tuff.json"
+hash = "781c402011f64a8d0ee66f776aef4a75b187ae2f563293ca55cb31f99574fa0c"
+
+[[files]]
+file = "kubejs/data/campfiremons/generator_types/veridium.json"
+hash = "40507a5dce431a6a81b2391ef6ae8416a6b9c8baa53d908234acc8f45f82123d"
+
+[[files]]
 file = "kubejs/data/campfiremons/loot_modifiers/finds/ability_capsule.json"
 hash = "4315196fa679e692f26e585cebcb844c872466905934be5178514a1b13cf44c8"
 

@@ -1,0 +1,5 @@
+{
+  "block": "create:crimsite",
+  "stress": 24,
+  "outputPerSecondPerRpm": 0.5
+}
