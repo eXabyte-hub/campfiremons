@@ -1,0 +1,13 @@
+name = "Sprinkler"
+filename = "sprinkler-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qrrTz82Z/versions/r0D31z1x/sprinkler-1.0.0.jar"
+hash-format = "sha512"
+hash = "d46c812390a37b27714706e161e9fee2c378ec7eb1fcc242d85ec4243572ed93eef3fbd2917a05a15c6b7096e5043525df7cfe43c7fd2b016d9cea53976f9863"
+
+[update]
+[update.modrinth]
+mod-id = "qrrTz82Z"
+version = "r0D31z1x"

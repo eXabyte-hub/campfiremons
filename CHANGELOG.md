@@ -2,6 +2,13 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.33
+
+Already playing? Just press Play: the pack updates itself.
+
+- **Sprinklers.** Craft one from 4 copper ingots around a water bucket. Fill it with water (up to 4 buckets, by hand
+  or through a pipe) and it keeps farmland wet within 4 blocks and makes crops around it grow faster.
+
 ## v0.1.32
 
 Already playing? Just press Play: the pack updates itself.

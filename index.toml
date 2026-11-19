@@ -5273,6 +5273,11 @@ hash = "0f41c917f1091923bb27756879c51da6436fa660d66857be4523cc78ef5c0833"
 metafile = true
 
 [[files]]
+file = "mods/sprinkler.pw.toml"
+hash = "982c97e4188b7a6472615f0594f6f2a92d9f518940955096e3dc32a9defe11d7"
+metafile = true
+
+[[files]]
 file = "mods/supermartijn642s-config-lib.pw.toml"
 hash = "62bd7012826fdcccf17a089055be67f87fb7335c88e73efc52bc9e51a1bf3188"
 metafile = true
