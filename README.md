@@ -89,11 +89,11 @@ Ask whoever runs the server for the address and to be added to the whitelist, th
 
 <!-- modlist:start -->
 <details>
-<summary>All 222 mods, plus resource packs and shaders (click to open)</summary>
+<summary>All 224 mods, plus resource packs and shaders (click to open)</summary>
 
 Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are only on players' computers, "server only" ones only on the server.
 
-### Mods (222)
+### Mods (224)
 
 | Name | Notes | From |
 | --- | --- | --- |
@@ -236,9 +236,11 @@ Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are 
 | [Lootr](https://modrinth.com/project/EltpO5cN) |  | Modrinth |
 | [Lootrmon: Lootr & Cobblemon Gilded Chest Compatibility](https://modrinth.com/project/ywwXJDli) |  | Modrinth |
 | [Melody](https://modrinth.com/project/CVT4pFB2) |  | Modrinth |
+| [MES - Moog's End Structures](https://modrinth.com/project/r4PuRGfV) | server only | Modrinth |
 | [MezzConfig](https://modrinth.com/project/7tEfOcA7) |  | Modrinth |
 | [ModernFix](https://modrinth.com/project/nmDcB62a) |  | Modrinth |
 | [Monsters in the Closet](https://modrinth.com/project/GMA8jFBD) |  | Modrinth |
+| [Moog's Structure Lib (moogs_structures)](https://modrinth.com/project/1oUDhxuy) | server only | Modrinth |
 | [Moonlight Lib](https://modrinth.com/project/twkfQtEc) |  | Modrinth |
 | [MoreCobblemonTweaks](https://modrinth.com/project/5KWlJ2HC) | client only | Modrinth |
 | [Mouse Tweaks](https://modrinth.com/project/aC3cM3Vq) | client only | Modrinth |

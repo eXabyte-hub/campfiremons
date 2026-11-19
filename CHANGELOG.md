@@ -14,6 +14,9 @@ Already playing? Just press Play: the pack updates itself.
 - **Friendlier anvils (Easy Anvils).** Items stay in the anvil when you close it, repairing and combining get much
   cheaper the more you do it, renaming is free (and supports colour codes), and you can fix a damaged anvil with an
   iron block.
+- **A busier End (Moog's End Structures).** 25 new structures out on the End islands: spires, watchtowers, citadels,
+  meteorites, End forests and huge crashed ships. Nobody had been to the End yet, so it has been reset to generate
+  with them everywhere. Clair's gym and the Kanto League are still where they were.
 
 ## v0.1.29
 

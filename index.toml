@@ -4912,6 +4912,11 @@ hash = "d7ff27bf5e0c0bd5ede8303d5a41cec193f700292c78c86ad6812a5193f013d9"
 metafile = true
 
 [[files]]
+file = "mods/mes-moogs-end-structures.pw.toml"
+hash = "5191512f2f06987b3a76a474ee834e37f05be0f121d68c6b62166e608b35a754"
+metafile = true
+
+[[files]]
 file = "mods/mezzconfig.pw.toml"
 hash = "8691a6080607f512d7adbbc1c17911ba83db273a5b5f113711fd8408b8d6a9df"
 metafile = true
@@ -4924,6 +4929,11 @@ metafile = true
 [[files]]
 file = "mods/monsters-in-the-closet.pw.toml"
 hash = "6afce08213c05a33240e980e2b92032a6a3ad25d2a54ff8e9f56b5f00d46d45d"
+metafile = true
+
+[[files]]
+file = "mods/moogs-structure-lib.pw.toml"
+hash = "71c04c6883f50d7050df7b122ae23bd470fc551435b35eb5856028da60caef62"
 metafile = true
 
 [[files]]

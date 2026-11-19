@@ -266,3 +266,8 @@ Game rules live in the world, not in the pack, so a new world needs them set aga
 has: `playersSleepingPercentage 30`, `doFireTick false` (no fire spread) and `accessories.keepAccessoryInventory true`
 (Accessories slots, which hold Mega Showdown's gimmick items and Legendary Monuments' items, are kept on death;
 Curios items go to the grave and back into their slots through Gravestone x Curios API Compat).
+
+Resetting a dimension (done to the End with v0.1.30, when no player had been there): stop the server, delete the
+dimension's folder in the world (`DIM1` for the End, `DIM-1` for the Nether), start it again. Check first that no
+player has been there (their `advancements/<uuid>.json` has no `minecraft:story/enter_the_end` or `enter_the_nether`),
+since builds and items there go with it. Seed-placed structures, gyms included, come back in the same places.
