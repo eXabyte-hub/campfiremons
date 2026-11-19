@@ -89,11 +89,11 @@ Ask whoever runs the server for the address and to be added to the whitelist, th
 
 <!-- modlist:start -->
 <details>
-<summary>All 224 mods, plus resource packs and shaders (click to open)</summary>
+<summary>All 226 mods, plus resource packs and shaders (click to open)</summary>
 
 Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are only on players' computers, "server only" ones only on the server.
 
-### Mods (224)
+### Mods (226)
 
 | Name | Notes | From |
 | --- | --- | --- |
@@ -306,6 +306,8 @@ Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are 
 | [Tom's Simple Storage Mod](https://modrinth.com/project/XZNI4Cpy) |  | Modrinth |
 | [Tomtaru's Cobblemon and Farmer's Delight Tweaks](https://modrinth.com/project/LSnXhPa7) |  | Modrinth |
 | [UniLib](https://modrinth.com/project/nT86WUER) | client only | Modrinth |
+| [Universal Bone Meal](https://modrinth.com/project/66VIiT1y) |  | Modrinth |
+| [Universal Enchants](https://modrinth.com/project/DT56YDir) |  | Modrinth |
 | [Visuality: Reforged](https://modrinth.com/project/z13R7Et1) | client only | Modrinth |
 | [Wakes Reforged](https://modrinth.com/project/E0SdeAoH) |  | Modrinth |
 | [Waystones](https://modrinth.com/project/LOpKHB2A) |  | Modrinth |

@@ -17,6 +17,11 @@ Already playing? Just press Play: the pack updates itself.
 - **A busier End (Moog's End Structures).** 25 new structures out on the End islands: spires, watchtowers, citadels,
   meteorites, End forests and huge crashed ships. Nobody had been to the End yet, so it has been reset to generate
   with them everywhere. Clair's gym and the Kanto League are still where they were.
+- **More enchantment combos (Universal Enchants).** Enchantments work on more gear: Infinity on crossbows, Looting
+  and Sharpness on tridents, Sharpness on axes and more. Infinity and Mending now go together, and so do Multishot
+  and Piercing.
+- **Bone meal on everything (Universal Bone Meal).** Grow sugar cane, cactus, vines, nether wart, coral and other
+  plants vanilla bone meal ignores, by hand or from a dispenser.
 
 ## v0.1.29
 

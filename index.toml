@@ -5266,6 +5266,16 @@ hash = "0e5570f1933bf7a3872c3bee2cdb550300e02a0d0914f009ad18e926a86693d0"
 metafile = true
 
 [[files]]
+file = "mods/universal-bone-meal.pw.toml"
+hash = "36451170388b68c89ba69f5f2bd4fd283d1811a3d9b5e31281a424f9ca6f61a7"
+metafile = true
+
+[[files]]
+file = "mods/universal-enchants.pw.toml"
+hash = "6c1ffd38e28c0eaeb004b04495aa02977518a7b7dc04423f5fdfee0ccfa2940d"
+metafile = true
+
+[[files]]
 file = "mods/visuality-forge.pw.toml"
 hash = "3d907a6ec6e27ba52d9f8f062216b56aef39e586a4e673cfbb70dbe12671ec61"
 metafile = true
