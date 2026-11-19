@@ -89,11 +89,11 @@ Ask whoever runs the server for the address and to be added to the whitelist, th
 
 <!-- modlist:start -->
 <details>
-<summary>All 221 mods, plus resource packs and shaders (click to open)</summary>
+<summary>All 222 mods, plus resource packs and shaders (click to open)</summary>
 
 Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are only on players' computers, "server only" ones only on the server.
 
-### Mods (221)
+### Mods (222)
 
 | Name | Notes | From |
 | --- | --- | --- |
@@ -187,6 +187,7 @@ Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are 
 | [Default Options](https://modrinth.com/project/WEg59z5b) | client only | Modrinth |
 | [Distant Horizons](https://modrinth.com/project/uCdwusMi) | client only | Modrinth |
 | [Dynamic Crosshair](https://modrinth.com/project/ZcR9weSm) | client only | Modrinth |
+| [Easy Anvils](https://modrinth.com/project/OZBR5JT5) |  | Modrinth |
 | [Easy Magic](https://modrinth.com/project/9hx3AbJM) |  | Modrinth |
 | [EMI](https://modrinth.com/project/fRiHVvU7) |  | Modrinth |
 | [EMI Enchanting](https://modrinth.com/project/wbWoo11W) | client only | Modrinth |

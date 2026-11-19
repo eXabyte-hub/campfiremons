@@ -11,6 +11,9 @@ Already playing? Just press Play: the pack updates itself.
   bookshelves. Already have an enchanting table? Break it and place it again to switch this on.
 - **Pick your enchantment (Enchanting Infuser).** A new table where you choose exactly which enchantment you want and
   pay XP for it, with no luck involved.
+- **Friendlier anvils (Easy Anvils).** Items stay in the anvil when you close it, repairing and combining get much
+  cheaper the more you do it, renaming is free (and supports colour codes), and you can fix a damaged anvil with an
+  iron block.
 
 ## v0.1.29
 
