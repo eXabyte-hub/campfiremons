@@ -2,6 +2,15 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.36
+
+Already playing? Just press Play: the pack updates itself.
+
+- **Create schematics: Alt + scroll works.** Relics' Active Abilities key used Left Alt too, which took the mouse
+  wheel away from Create's schematic tools. It now defaults to J. That only changes the default for new installs: if
+  Alt + scroll doesn't switch schematic tools for you, open Options → Controls, search "Active Abilities" and set it
+  to J (or press Reset).
+
 ## v0.1.35
 
 Already playing? Just press Play: the pack updates itself.
