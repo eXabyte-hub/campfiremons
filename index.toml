@@ -9,6 +9,10 @@ file = "config/cobbledollars/default_shop.json"
 hash = "baa0afa9686ff8acf9dd67291052d2abb3b5ae3880593b04955a51712612418a"
 
 [[files]]
+file = "config/cobblemon/spawning/best-spawner-config.json"
+hash = "4a59d96b687e8db932660b5fd7856601750fd08e28b5c7fb41048a82ec749bd6"
+
+[[files]]
 file = "config/cobblemon_battle_tower/bp_shop_items.json"
 hash = "490c6610c8ed3bcc8e3005ba5bc0a4688e2891b6b3f92f672917130d4a4f0f5f"
 
@@ -4347,7 +4351,7 @@ hash = "f92089d56a223cffa1365dbb2a6a81b2c36c056402596e04cce7164952e58b7e"
 
 [[files]]
 file = "kubejs/server_scripts/campfiremons/cobblemon_settings.js"
-hash = "6b565b9c87a3262a6e1e1c8c835289d8fcc5b29e905e3cd3dfec875d0d291164"
+hash = "03bab97a5a95066d95d201bdd1bd09d484532c35ecce68d32bb64bc6c3e9e8d9"
 
 [[files]]
 file = "kubejs/server_scripts/campfiremons/creeper_explosions.js"

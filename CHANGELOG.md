@@ -2,6 +2,13 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.37
+
+Already playing? Just press Play: the pack updates itself.
+
+- **Rare Pokémon a little rarer.** Rare, ultra-rare and Alpha spawns now turn up about a quarter to a third less
+  often than Cobblemon's defaults from v0.1.36, but still much more often than before v0.1.36.
+
 ## v0.1.36
 
 Already playing? Just press Play: the pack updates itself.
