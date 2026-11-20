@@ -1,0 +1,15 @@
+{
+  "offerId": "hayley_mew",
+  "tags": [],
+  "given": "mew level=50 originaltrainertype=npc originaltrainer=Hayley",
+  "givenMarks": [
+    "cobblesafari:ribbon_safari"
+  ],
+  "givenActiveMark": "cobblesafari:ribbon_safari",
+  "wish": {
+    "species": "mew",
+    "levelBucket": -1,
+    "gender": "any",
+    "shiny": "any"
+  }
+}

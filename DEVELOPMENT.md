@@ -100,6 +100,11 @@ delete strays like that after adding anything with dependencies.
 `tools/gen_drops.py` owns every `species_additions` file under `kubejs/data/` (drop fixes for mods that replace
 Pokémon drop tables, plus egg drops). Re-run it after updating Cobblemon or any mod that ships species_additions.
 
+`tools/cobblesafari_trades.py` owns `kubejs/data/cobblesafari/wonder_trade/` and `kubejs/data/cobblesafari/gts/`:
+CobbleSafari's Wonder Trade pools and GTS NPC offers, kept inside the tier locks. Re-run it after updating CobbleSafari
+or Cobblemon (it takes both jars), and check that its two hand-made loot table fixes in `kubejs/data/cobblesafari/`
+(see `license.txt` there) still match the new version.
+
 Cobblemon Cities & Structures is pinned (it changes fast). After updating it, check that the 13 leader dialogues in
 `kubejs/data/ccs/dialogues/generated/`, the leader advancements in `kubejs/data/ccs/advancement/kanto/`, and the
 emptied functions in `kubejs/data/ccs/function/` still match its file names, then re-run

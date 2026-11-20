@@ -89,11 +89,11 @@ Ask whoever runs the server for the address and to be added to the whitelist, th
 
 <!-- modlist:start -->
 <details>
-<summary>All 229 mods, plus resource packs and shaders (click to open)</summary>
+<summary>All 230 mods, plus resource packs and shaders (click to open)</summary>
 
 Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are only on players' computers, "server only" ones only on the server.
 
-### Mods (229)
+### Mods (230)
 
 | Name | Notes | From |
 | --- | --- | --- |
@@ -159,6 +159,7 @@ Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are 
 | [Cobblemon: SafePastures](https://modrinth.com/project/qpe01spE) |  | Modrinth |
 | [Cobblemon: Trainers Backpack](https://modrinth.com/project/7m9uI5ma) |  | Modrinth |
 | [Cobblemore Lib](https://modrinth.com/project/VYP2vmDS) |  | Modrinth |
+| [CobbleSafari](https://modrinth.com/project/zj3GsKts) |  | Modrinth |
 | [Cobbleworkers](https://modrinth.com/project/i3XVG2gn) |  | Modrinth |
 | [Cobbreeding](https://modrinth.com/project/ItmVb4zY) |  | Modrinth |
 | [Complete Cobblemon Collection](https://modrinth.com/project/qoL4kNxC) |  | Modrinth |

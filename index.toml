@@ -2594,6 +2594,134 @@ file = "kubejs/data/cobblemonextrastructures/worldgen/structure_set/suerebe.json
 hash = "09ba00c4b64ff7726d9f3995551a3402c4298d042f08aab47ab898b836423f80"
 
 [[files]]
+file = "kubejs/data/cobblesafari/gts/unique_offers/hayley_mew.json"
+hash = "f67fd5cb09a615df3b471da8c4921aeab41c77402db7a864a1df24a988d27cd0"
+
+[[files]]
+file = "kubejs/data/cobblesafari/gts/unique_offers/hayley_phione.json"
+hash = "1d7c8b413ddad40bbe4fce892befe270f53aac9a02d0018fda4e93ea7b3b2f2b"
+
+[[files]]
+file = "kubejs/data/cobblesafari/license.txt"
+hash = "fbaa184b5775cb5731729d147a57ffacf05f9c9d0a177cba96d28cd80f920c1c"
+
+[[files]]
+file = "kubejs/data/cobblesafari/loot_table/blocks/buzzwole_plant.json"
+hash = "ccba06479284753983a1e69762a768d1c1e752d1df258bf40972309813127093"
+
+[[files]]
+file = "kubejs/data/cobblesafari/loot_table/blocks/pheromosa_plant.json"
+hash = "64021293485e4d367f1b557699b1a2b0937c37ed421b7b6f472d90b2c3b99b6f"
+
+[[files]]
+file = "kubejs/data/cobblesafari/loot_table/entities/balloon.json"
+hash = "56844de3424edcee6f0291341e701beeba5e58acc79d7ab5fbf3f073aeaf039c"
+
+[[files]]
+file = "kubejs/data/cobblesafari/loot_table/underground_ominous_oasis.json"
+hash = "a8b958cf4a56963da6c4e8484f01ff6c524f59df3790f1c5a479d84621e10da3"
+
+[[files]]
+file = "kubejs/data/cobblesafari/wonder_trade/pokemon_groups/bug.json"
+hash = "8d3f6f98b0978027cb08aa4f9cb0bac9869e045ab8c816d8a5971d750e697f33"
+
+[[files]]
+file = "kubejs/data/cobblesafari/wonder_trade/pokemon_groups/dark.json"
+hash = "159ff9459acb3e557aacf999086a7bd3c7e0eec2de6771c67d8d3a4b3ae6f0e8"
+
+[[files]]
+file = "kubejs/data/cobblesafari/wonder_trade/pokemon_groups/dragon.json"
+hash = "f4230d697d0cfc9998f20048790aede5e80f8c9a2234d683beae45736c920730"
+
+[[files]]
+file = "kubejs/data/cobblesafari/wonder_trade/pokemon_groups/electric.json"
+hash = "e757fbff12123eb3a20f934ce84a6606c8742f9801bfb690b122ce2b9632ef67"
+
+[[files]]
+file = "kubejs/data/cobblesafari/wonder_trade/pokemon_groups/fairy.json"
+hash = "6ea9f6cf96ead483d1e58294153c11dbc7eed66ed0dae1e13eac8ae974658776"
+
+[[files]]
+file = "kubejs/data/cobblesafari/wonder_trade/pokemon_groups/fighting.json"
+hash = "e5ab3c2f5412e22c6f20f59184d201f1a8cdbbfffe521e03596bd176f61e2d69"
+
+[[files]]
+file = "kubejs/data/cobblesafari/wonder_trade/pokemon_groups/fire.json"
+hash = "cd5fd4c9ef46aefef0ac3e8463d26652ac3e25ec91921e1a75401ca26fdebcb6"
+
+[[files]]
+file = "kubejs/data/cobblesafari/wonder_trade/pokemon_groups/flying.json"
+hash = "b3f83204c05a9b93d557cc5ae2bd4b95a533dbaca6824171325e89154b4db4fa"
+
+[[files]]
+file = "kubejs/data/cobblesafari/wonder_trade/pokemon_groups/ghost.json"
+hash = "2816df2b8177ce453df8844413c151bce8af27087b261d06d982746aefd6bad9"
+
+[[files]]
+file = "kubejs/data/cobblesafari/wonder_trade/pokemon_groups/grass.json"
+hash = "ff08812fe0e67d7b8837f6864efdf14b17b5d3fd955247da48479f2254e627ad"
+
+[[files]]
+file = "kubejs/data/cobblesafari/wonder_trade/pokemon_groups/ground.json"
+hash = "f8229b95047febbb63e6acd9e375cb23529e474b405c462485788893502dbc65"
+
+[[files]]
+file = "kubejs/data/cobblesafari/wonder_trade/pokemon_groups/ice.json"
+hash = "c455d5cbbd31bc92e7a8462b551e146e502edc52b96865a6eb3af1f93e099c21"
+
+[[files]]
+file = "kubejs/data/cobblesafari/wonder_trade/pokemon_groups/legendaries.json"
+hash = "e06f4cc2bee632763016f9a9ce8005f5639b4076d52e7ba29f4d246376a31c52"
+
+[[files]]
+file = "kubejs/data/cobblesafari/wonder_trade/pokemon_groups/legendaries_vanilla.json"
+hash = "8a1c431c237ad54b183edd223ef38a5de1b950ebb381c34d7942a91835d1c215"
+
+[[files]]
+file = "kubejs/data/cobblesafari/wonder_trade/pokemon_groups/mythical.json"
+hash = "70cf55220774111e78f21f84b7eff837e000ab27259e924d61336987ceaff73b"
+
+[[files]]
+file = "kubejs/data/cobblesafari/wonder_trade/pokemon_groups/mythical_vanilla.json"
+hash = "a949cd6c224489b5b52c8fc74b611fb45c920c1e6d5da5445549608575f56305"
+
+[[files]]
+file = "kubejs/data/cobblesafari/wonder_trade/pokemon_groups/normal.json"
+hash = "2369e6d583eec324032ce7e30f44cc7261be03db9011a7ac1ace958ae6081f61"
+
+[[files]]
+file = "kubejs/data/cobblesafari/wonder_trade/pokemon_groups/paradox.json"
+hash = "d3b08d5ae3e459a931fe634a1cbbc18798cfcd20872bab3e3a45b030dca6254b"
+
+[[files]]
+file = "kubejs/data/cobblesafari/wonder_trade/pokemon_groups/poison.json"
+hash = "7341d3fe3e8d5b1da1d7cd0a910f7f8ff282f7afb6716ddc958939853c725783"
+
+[[files]]
+file = "kubejs/data/cobblesafari/wonder_trade/pokemon_groups/psychic.json"
+hash = "f621528ffb0ee9b706884bba6a61587f7fefa6aa34209fae850a14d00f52acc4"
+
+[[files]]
+file = "kubejs/data/cobblesafari/wonder_trade/pokemon_groups/rock.json"
+hash = "7a23784d76ddccb51c5d5ac46f96d8bbed450f52430758fb0b4a6bd5983c1836"
+
+[[files]]
+file = "kubejs/data/cobblesafari/wonder_trade/pokemon_groups/steel.json"
+hash = "940ca42bb532cbaf2a7e779b19d233668555596669828e541a9f259077813801"
+
+[[files]]
+file = "kubejs/data/cobblesafari/wonder_trade/pokemon_groups/ultrabeast.json"
+hash = "a74b6425781f84c11f1d736dc685b6cf3958228253b4f5f54e8bf3f8a94b54b4"
+
+[[files]]
+file = "kubejs/data/cobblesafari/wonder_trade/pokemon_groups/ultrabeast_vanilla.json"
+hash = "502bff5e3fbdd8127575906f65c912a696d42fde7e91449777779a186df303d1"
+
+[[files]]
+file = "kubejs/data/cobblesafari/wonder_trade/pokemon_groups/water.json"
+hash = "8815e5156d56c975b813a848730317d757dc2bee7539f51f0bce669af1abcab8"
+
+[[files]]
 file = "kubejs/data/cobbletowns/function/load.mcfunction"
 hash = "344e361b557910e95a005089d07f3fd816f8d9e7c9ea3f1f2debcd54ae782313"
 
@@ -4565,6 +4693,11 @@ metafile = true
 [[files]]
 file = "mods/cobblemore-library.pw.toml"
 hash = "b65f2b09d07b8db21de571c3353a8a2d3386aa0ee8b3f5abb00d736c3286910b"
+metafile = true
+
+[[files]]
+file = "mods/cobblesafari.pw.toml"
+hash = "cfc4f7e4f3f94337ae35e8fe8f7673b6e89f7dd2cc19ac92ccffee9c054a9f97"
 metafile = true
 
 [[files]]

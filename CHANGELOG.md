@@ -12,6 +12,10 @@ Already playing? Just press Play: the pack updates itself.
   CobbleDollars (500, 2,000 or 5,000), and the gym and stage rewards are doubled.
 - **Claim them again.** All rewards are new, so quests you've already finished now have their new rewards waiting.
   Open the quest book to collect them. Your quest progress is unchanged.
+- **CobbleSafari.** A Safari Zone, the Sinnoh Underground, Distortion World and Ultra Space adventures with bosses,
+  hot-air balloons with loot, egg nests, secret bases and a Rotom Phone with the GTS and Wonder Trade. Legendaries
+  still follow the stage locks: Wonder Trade doesn't hand them out, and the GTS's NPC trades for one ask for a
+  Pokémon of the same kind.
 
 ## v0.1.34
 

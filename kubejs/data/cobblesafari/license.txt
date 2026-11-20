@@ -1,0 +1,15 @@
+Files under kubejs/data/cobblesafari are modified copies of data files from CobbleSafari by Maxigregrze
+(https://modrinth.com/mod/cobblesafari), used under its licence, Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International (https://creativecommons.org/licenses/by-nc-sa/4.0/).
+These modified files are shared under the same licence. No warranties are given.
+
+Changes, made for the Campfiremons modpack (from CobbleSafari 0.4.1):
+- loot_table/entities/balloon.json, loot_table/underground_ominous_oasis.json: the Master Ball entry is removed.
+- loot_table/blocks/buzzwole_plant.json, loot_table/blocks/pheromosa_plant.json: the block-state ranges are
+  written as strings, so Minecraft 1.21.1 can load these tables (the originals fail to parse and drop nothing).
+- wonder_trade/pokemon_groups/: the legendary, mythical, paradox and Ultra Beast species are removed from the
+  type pools; the legendaries, mythical, paradox and ultrabeast pools (and their _vanilla twins) list other
+  species instead.
+- gts/unique_offers/hayley_mew.json, gts/unique_offers/hayley_phione.json: the offer asks for the same species it
+  gives (a Mew or a Phione) instead of a Glaceon or a Leafeon.
+The wonder_trade and gts files are written by tools/cobblesafari_trades.py.
