@@ -127,11 +127,42 @@
 				id: "mega_showdown:omni_ring"
 			}
 			id: "32908CF61A68B231"
-			rewards: [{
-				id: "57C121CAE2F37B54"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "30FA77771ECB7629"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 3
+					id: "4DFDA0093ACBBABA"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_s"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "67A75AC0550142B2"
+					item: {
+						count: 1
+						id: "cobblemon:great_ball"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "66EC104C90833ACA"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 2.25d
 			tasks: [{
@@ -151,11 +182,22 @@
 			}
 			id: "1ECA462099151096"
 			optional: true
-			rewards: [{
-				id: "600975FD79497B59"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "29B765F9D047187B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "1067D3AEF74AC4A2"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xs"
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.7d
 			tasks: [{
@@ -179,11 +221,22 @@
 			}
 			id: "5E10999EC7470DB8"
 			optional: true
-			rewards: [{
-				id: "2F92AC93D87D48B8"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "4AF3707F29239FD7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 5
+					id: "19D8E8C8D10BC4EF"
+					item: {
+						count: 1
+						id: "cobblemon:poke_ball"
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.7d
 			tasks: [{
@@ -207,11 +260,22 @@
 			}
 			id: "3B21923081971950"
 			optional: true
-			rewards: [{
-				id: "436CD11AD46B12F3"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6846D5932F23019D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "5342E4104D7B11B2"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xs"
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.7d
 			tasks: [{
@@ -235,11 +299,22 @@
 			}
 			id: "104AD098BCC7AF82"
 			optional: true
-			rewards: [{
-				id: "0A7906C3FB22C030"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "2A19A4C0FBBDE24D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "47DC4D58E581F8F3"
+					item: {
+						count: 1
+						id: "cobblemon:potion"
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.7d
 			tasks: [{
@@ -263,11 +338,22 @@
 			}
 			id: "1B1D250FFB0BCA2D"
 			optional: true
-			rewards: [{
-				id: "7F662F4384117A04"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "74C6C27E750B2223"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 5
+					id: "1E4E342251EDBCAD"
+					item: {
+						count: 1
+						id: "cobblemon:poke_ball"
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.7d
 			tasks: [{
@@ -291,11 +377,22 @@
 			}
 			id: "270FE6F77644D38F"
 			optional: true
-			rewards: [{
-				id: "249D66D52B71BDE0"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "320134BC24E9150F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "5ACDB38DE1A15856"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xs"
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.7d
 			tasks: [{
@@ -319,11 +416,22 @@
 			}
 			id: "0DFD82CEF4056880"
 			optional: true
-			rewards: [{
-				id: "39094E1B75AAD3D4"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "1984FFC2D43D2BFC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "7E76B318F99BFB8C"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xs"
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.7d
 			tasks: [{
@@ -347,11 +455,22 @@
 			}
 			id: "37882F4A78E18891"
 			optional: true
-			rewards: [{
-				id: "781A8DD41C1E2418"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "699C2F49AF16F3E9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "1E10B60965DDAD70"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xs"
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.7d
 			tasks: [{
@@ -375,11 +494,22 @@
 			}
 			id: "290B63DBCE2B8669"
 			optional: true
-			rewards: [{
-				id: "3C7D5489960013EE"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "2FE30A453C0C448E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "71FE31023E119D72"
+					item: {
+						count: 1
+						id: "cobblemon:potion"
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.7d
 			tasks: [{
@@ -403,11 +533,22 @@
 			}
 			id: "2CACDC8C794CE86E"
 			optional: true
-			rewards: [{
-				id: "7D0E98C43BFAF830"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "1160A161CDCEF999"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "48A74289ABF08D9F"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xs"
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.7d
 			tasks: [{
@@ -431,11 +572,22 @@
 			}
 			id: "5C2D278C1C291F33"
 			optional: true
-			rewards: [{
-				id: "6C4FA7754A470E75"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "7495FE31EAB1A8AB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "5F8EC584EB8DA78F"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xs"
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.7d
 			tasks: [{
@@ -459,11 +611,22 @@
 			}
 			id: "69C6D79BD0D52792"
 			optional: true
-			rewards: [{
-				id: "261D9EC6B843FFF6"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "638F4E4D2C0C7B14"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "76389A90049A75E7"
+					item: {
+						count: 1
+						id: "cobblemon:potion"
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.7d
 			tasks: [{
@@ -487,11 +650,22 @@
 			}
 			id: "3A28A1F03C831F5A"
 			optional: true
-			rewards: [{
-				id: "377406C50A0F9DA4"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "3B7B98B036ED430E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 5
+					id: "7FA589F35168B584"
+					item: {
+						count: 1
+						id: "cobblemon:poke_ball"
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.7d
 			tasks: [{
@@ -515,11 +689,22 @@
 			}
 			id: "7C0E9BC8F053182C"
 			optional: true
-			rewards: [{
-				id: "2F784DA8D398D9D9"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6DFDEF8273388853"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "2243C5B01B3B56CD"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xs"
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.7d
 			tasks: [{
@@ -543,11 +728,22 @@
 			}
 			id: "033E71B2B072201E"
 			optional: true
-			rewards: [{
-				id: "5A17E58730E6E82D"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "2097E5A88F331DB7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "3BA4065DD159956C"
+					item: {
+						count: 1
+						id: "cobblemon:potion"
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.7d
 			tasks: [{
@@ -571,11 +767,22 @@
 			}
 			id: "7A3261123053DEC0"
 			optional: true
-			rewards: [{
-				id: "30CD542D46C68BDE"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "652B9F859D8362A3"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 5
+					id: "3BDA609350EE04E1"
+					item: {
+						count: 1
+						id: "cobblemon:poke_ball"
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.7d
 			tasks: [{
@@ -599,11 +806,22 @@
 			}
 			id: "1600345A7A6F924D"
 			optional: true
-			rewards: [{
-				id: "7287A8E9FEC51280"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "3056B14568EAD614"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "1913F8FB5337A4D6"
+					item: {
+						count: 1
+						id: "cobblemon:potion"
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.7d
 			tasks: [{
@@ -627,11 +845,22 @@
 			}
 			id: "54FA0ECC5F85E7DC"
 			optional: true
-			rewards: [{
-				id: "615B0A2BC9B25EEE"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "3AB0727278D3ECC0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 5
+					id: "531D56A3C8985671"
+					item: {
+						count: 1
+						id: "cobblemon:poke_ball"
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.7d
 			tasks: [{
@@ -655,11 +884,22 @@
 			}
 			id: "402A54D072DBAC47"
 			optional: true
-			rewards: [{
-				id: "31C840A4421A9888"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "5EB661698289CA89"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "32942D84EEBDB522"
+					item: {
+						count: 1
+						id: "cobblemon:potion"
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.7d
 			tasks: [{
@@ -683,11 +923,22 @@
 			}
 			id: "721EBBEEA552D02B"
 			optional: true
-			rewards: [{
-				id: "6A60B81845779FE0"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "1F4A2B04E6FD6EF4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 5
+					id: "293E9BB7485DF1CB"
+					item: {
+						count: 1
+						id: "cobblemon:poke_ball"
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.7d
 			tasks: [{
@@ -711,11 +962,22 @@
 			}
 			id: "2C6F4ABE4F7D0090"
 			optional: true
-			rewards: [{
-				id: "4FF17F1F1F7A8A99"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "2BF5EEA175B730EC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "41C973AA28999B78"
+					item: {
+						count: 1
+						id: "cobblemon:potion"
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.7d
 			tasks: [{
@@ -739,11 +1001,22 @@
 			}
 			id: "6CCFB52BAC9DAF4A"
 			optional: true
-			rewards: [{
-				id: "1997A6B68E9F46C8"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "61A957F585D91D79"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "4938BEE56416D6B2"
+					item: {
+						count: 1
+						id: "cobblemon:potion"
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.7d
 			tasks: [{
@@ -767,11 +1040,22 @@
 			}
 			id: "03120E3271F3FF59"
 			optional: true
-			rewards: [{
-				id: "1EFF0090FF915688"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "62173C364E80DB60"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "3C402A5698B9871A"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xs"
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.7d
 			tasks: [{
@@ -795,11 +1079,22 @@
 			}
 			id: "77D47695EDE9AF23"
 			optional: true
-			rewards: [{
-				id: "7B89C1DD194FBB29"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "178849031784CC1A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 5
+					id: "3604D68218FF2842"
+					item: {
+						count: 1
+						id: "cobblemon:poke_ball"
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.7d
 			tasks: [{
@@ -823,11 +1118,22 @@
 			}
 			id: "4390C56DC00454A9"
 			optional: true
-			rewards: [{
-				id: "3380B28D28C74CA3"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "4E3DD7E352EFA359"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 5
+					id: "53A084CE5E27D4C2"
+					item: {
+						count: 1
+						id: "cobblemon:poke_ball"
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.7d
 			tasks: [{
@@ -851,11 +1157,22 @@
 			}
 			id: "2CEBE717346BD96A"
 			optional: true
-			rewards: [{
-				id: "0D6A47D086ECAD70"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "45C5BBDE1E537464"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "1A339F901BF443BD"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xs"
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.7d
 			tasks: [{
@@ -879,11 +1196,22 @@
 			}
 			id: "502C4D2DF5C8E6CD"
 			optional: true
-			rewards: [{
-				id: "5274F98B46CF3553"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "7705D92144B947E8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "4E8BDCD8423A97A4"
+					item: {
+						count: 1
+						id: "cobblemon:potion"
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.7d
 			tasks: [{
@@ -907,11 +1235,22 @@
 			}
 			id: "3E7765FE8A7C36D1"
 			optional: true
-			rewards: [{
-				id: "4CCA8B0E5D2E9D5B"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "70F5777F207C63DA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "7D81FF520470692C"
+					item: {
+						count: 1
+						id: "cobblemon:potion"
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.7d
 			tasks: [{
@@ -935,11 +1274,22 @@
 			}
 			id: "426960C89C767329"
 			optional: true
-			rewards: [{
-				id: "10B8AFC780B1B08C"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "760817635125C037"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "30C8B1B65B556DDA"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xs"
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.7d
 			tasks: [{
@@ -963,11 +1313,22 @@
 			}
 			id: "1151832E95391CFA"
 			optional: true
-			rewards: [{
-				id: "59892BFAC3FF7152"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "176468EB28D5DDDA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "3CCE3EE1D3033318"
+					item: {
+						count: 1
+						id: "cobblemon:potion"
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.7d
 			tasks: [{

@@ -80,11 +80,42 @@
 				id: "oritech:pulverizer_block"
 			}
 			id: "549F98A959267515"
-			rewards: [{
-				id: "3995B76C9ABC33CB"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "650C00B0A4B3C1C2"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "7C6CD1FECFDDAE28"
+					item: {
+						count: 1
+						id: "oritech:magnetic_coil"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "16D40A12B4294AF9"
+					item: {
+						count: 1
+						id: "oritech:steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "3D9065342812BA14"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 2.5d
 			tasks: [{
@@ -102,11 +133,42 @@
 				id: "oritech:pulverizer_block"
 			}
 			id: "2E6280292D38AA5A"
-			rewards: [{
-				id: "79A40D2BC2E3B55C"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "26074509F04AFE18"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 8
+					id: "6B328F419060DA45"
+					item: {
+						count: 1
+						id: "oritech:electrum_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7D6EB8D39252DA56"
+					item: {
+						count: 1
+						id: "oritech:plastic_sheet"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "3E6C19E7D0219B89"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 1.6d
 			tasks: [{
@@ -130,11 +192,22 @@
 			}
 			id: "2D0F83E6C562B5DE"
 			optional: true
-			rewards: [{
-				id: "18F5710EDA0E1C94"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "4BAAB27A7F404BE1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "5A6EAF3D1A8DA01E"
+					item: {
+						count: 1
+						id: "oritech:raw_platinum"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -158,11 +231,22 @@
 			}
 			id: "5E877AC3ABB23B33"
 			optional: true
-			rewards: [{
-				id: "09CF62DAD581ED3E"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "625786A8103B4963"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "3667E1967C7A34BE"
+					item: {
+						count: 1
+						id: "oritech:silicon"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -186,11 +270,22 @@
 			}
 			id: "2B6303111C2F19B0"
 			optional: true
-			rewards: [{
-				id: "0C33F08583DEBE86"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "143AA7A32F1944ED"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "2A20DA52F813F4B4"
+					item: {
+						count: 1
+						id: "oritech:raw_platinum"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -214,11 +309,22 @@
 			}
 			id: "73E03CFC0D9767ED"
 			optional: true
-			rewards: [{
-				id: "0D0E453375C65701"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "24294702A76A8CC9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "418C0B79C2F41F0A"
+					item: {
+						count: 1
+						id: "oritech:silicon"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -242,11 +348,22 @@
 			}
 			id: "51CD0E04C4D38A80"
 			optional: true
-			rewards: [{
-				id: "48B4B958BDFC22D9"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "219C7537CC08DCB6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "3345C2870120DE0B"
+					item: {
+						count: 1
+						id: "oritech:raw_nickel"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -270,11 +387,22 @@
 			}
 			id: "1729D5FA1669DC81"
 			optional: true
-			rewards: [{
-				id: "235B062C96945528"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "588CD2C78F564FA8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "69B1205FBC9F2174"
+					item: {
+						count: 1
+						id: "oritech:nickel_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -298,11 +426,22 @@
 			}
 			id: "3280D1F4AE9A7DA3"
 			optional: true
-			rewards: [{
-				id: "7DB7439CD7783A4F"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "47EAC523922043B1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "5D88777500A2569C"
+					item: {
+						count: 1
+						id: "oritech:raw_nickel"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -326,11 +465,22 @@
 			}
 			id: "73923D869637CB1F"
 			optional: true
-			rewards: [{
-				id: "73365900C2D82107"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "5F60C0544B12AB7C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "2DE57C9C2206B77F"
+					item: {
+						count: 1
+						id: "oritech:raw_nickel"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -354,11 +504,22 @@
 			}
 			id: "13D5335ABB610064"
 			optional: true
-			rewards: [{
-				id: "5CE011479A095E2E"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "53BB7F122A0D9A4E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "6C3D5683E2B12F66"
+					item: {
+						count: 1
+						id: "oritech:nickel_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -382,11 +543,22 @@
 			}
 			id: "3BDA1EF00DC97C76"
 			optional: true
-			rewards: [{
-				id: "720B8EA12EC6F511"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6DAFA4A1E072C08E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "3BB0AC2392BF1756"
+					item: {
+						count: 1
+						id: "oritech:nickel_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -410,11 +582,22 @@
 			}
 			id: "4DB499E644F95DE7"
 			optional: true
-			rewards: [{
-				id: "035FA712CC7931FF"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "35B157DD4F983557"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "4E42618233E6DAD7"
+					item: {
+						count: 1
+						id: "oritech:raw_nickel"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -438,11 +621,22 @@
 			}
 			id: "4A10FC883515F62E"
 			optional: true
-			rewards: [{
-				id: "5D8BF53522ED9A77"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "51DA9BFA97427E80"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "12F8B0E6568F8C60"
+					item: {
+						count: 1
+						id: "oritech:nickel_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -466,11 +660,22 @@
 			}
 			id: "3071D109F6B406EB"
 			optional: true
-			rewards: [{
-				id: "721BE75CB3E244C8"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "2DBD9553083FAF8A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "4DB3C490A3FFB049"
+					item: {
+						count: 1
+						id: "oritech:raw_nickel"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -494,11 +699,22 @@
 			}
 			id: "5029B5052EC2D3B9"
 			optional: true
-			rewards: [{
-				id: "49010DDDC873C81B"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "737363544AD59F5E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "566B7A220912047B"
+					item: {
+						count: 1
+						id: "oritech:raw_nickel"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -522,11 +738,22 @@
 			}
 			id: "50D5DD7916C5ABAF"
 			optional: true
-			rewards: [{
-				id: "7FF5CE3852089493"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "383E18797C508131"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "6E9CC02391EA8E28"
+					item: {
+						count: 1
+						id: "oritech:nickel_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -550,11 +777,22 @@
 			}
 			id: "6C214174820FFC4F"
 			optional: true
-			rewards: [{
-				id: "58DFF58110469E16"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "4A1D2C8E840C7631"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "1755BD0B9ED7E114"
+					item: {
+						count: 1
+						id: "oritech:raw_platinum"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -578,11 +816,22 @@
 			}
 			id: "4DB640E464F9F6D9"
 			optional: true
-			rewards: [{
-				id: "4A1A4FBE0DD432F2"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "149231D41A5BA73C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "7A773C2364327F66"
+					item: {
+						count: 1
+						id: "oritech:nickel_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -606,11 +855,22 @@
 			}
 			id: "36ABE6CF73EC2E23"
 			optional: true
-			rewards: [{
-				id: "3C1888CD1D931BE7"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6EFECFF905978564"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "3F852EAD2CDED108"
+					item: {
+						count: 1
+						id: "oritech:raw_nickel"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -632,11 +892,42 @@
 				id: "oritech:basic_generator_block"
 			}
 			id: "78F672A4F2FE1810"
-			rewards: [{
-				id: "21400028A3B4C1EA"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "4AAF48245D21F0A6"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 8
+					id: "6F837659F5DEF2DA"
+					item: {
+						count: 1
+						id: "oritech:plastic_sheet"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4E8B9706B4BBBA54"
+					item: {
+						count: 1
+						id: "oritech:steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "690089E6C705E177"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 1.6d
 			tasks: [{
@@ -660,11 +951,22 @@
 			}
 			id: "673BEB11E7F2D860"
 			optional: true
-			rewards: [{
-				id: "55345D2FBEA720AD"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "77C1AA641A32D632"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "6230DB67971EB42A"
+					item: {
+						count: 1
+						id: "oritech:raw_nickel"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -688,11 +990,22 @@
 			}
 			id: "11114BB4ADC1C335"
 			optional: true
-			rewards: [{
-				id: "4AE113BC9A063146"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "172B8DD4AC1C20F1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "50932C2592A89B91"
+					item: {
+						count: 1
+						id: "oritech:nickel_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -716,11 +1029,22 @@
 			}
 			id: "1EC46BA25DBB746D"
 			optional: true
-			rewards: [{
-				id: "79FAC96A5B1C1D44"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "4F7EEBE5FB237DE2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "3E0F4B7D442D70F8"
+					item: {
+						count: 1
+						id: "oritech:nickel_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -744,11 +1068,22 @@
 			}
 			id: "1ECE4C10FC05BA6F"
 			optional: true
-			rewards: [{
-				id: "29C343B4836BE8CF"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "7B147FAED527F35B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "30C89E2E2AECDD9F"
+					item: {
+						count: 1
+						id: "oritech:raw_nickel"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -772,11 +1107,22 @@
 			}
 			id: "2ECB043494BDF0B0"
 			optional: true
-			rewards: [{
-				id: "60F36DF51C90B8C9"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "454898D8B2792FC0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "195B224344B1EAD2"
+					item: {
+						count: 1
+						id: "oritech:silicon"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -800,11 +1146,22 @@
 			}
 			id: "440E1BB0F3499527"
 			optional: true
-			rewards: [{
-				id: "2212E8212A0D1F3D"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6AB515ECB904D9C1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "7382AC3727C61EF4"
+					item: {
+						count: 1
+						id: "oritech:nickel_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -828,11 +1185,22 @@
 			}
 			id: "4B43BECB670989C6"
 			optional: true
-			rewards: [{
-				id: "3036CEC8DE46EBA5"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "35E0AA91D11BA31D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "6173546CA018A9AB"
+					item: {
+						count: 1
+						id: "oritech:nickel_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -856,11 +1224,22 @@
 			}
 			id: "3164C4246E94B4F9"
 			optional: true
-			rewards: [{
-				id: "21ED11CA289D730C"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "182A560503F34CF1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "109219758B64C7EF"
+					item: {
+						count: 1
+						id: "oritech:raw_nickel"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -884,11 +1263,22 @@
 			}
 			id: "7E89CFE930F16052"
 			optional: true
-			rewards: [{
-				id: "230AAEA7E40F16BF"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6E2B237EB63731C1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "3BD0F3BA1BD354D6"
+					item: {
+						count: 1
+						id: "oritech:silicon"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -912,11 +1302,22 @@
 			}
 			id: "528C34503BE89AAF"
 			optional: true
-			rewards: [{
-				id: "1E325D79FEFFD98B"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "5308387A81839146"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "7992BDD6FD3E77A9"
+					item: {
+						count: 1
+						id: "oritech:nickel_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -938,11 +1339,42 @@
 				id: "oritech:item_pipe"
 			}
 			id: "04FD448E22023B92"
-			rewards: [{
-				id: "632495D6CC328B06"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "57B2C1162CC33790"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 8
+					id: "390242D3B126D0AF"
+					item: {
+						count: 1
+						id: "oritech:plastic_sheet"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3765864654322108"
+					item: {
+						count: 1
+						id: "oritech:steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "7EA2CBD0CFB75613"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 1.6d
 			tasks: [{
@@ -966,11 +1398,22 @@
 			}
 			id: "48001AA1FE807EBB"
 			optional: true
-			rewards: [{
-				id: "561BBF613F2B5BFB"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "721A7ABA1FA51F4E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "139C5C9D9BF293D5"
+					item: {
+						count: 1
+						id: "oritech:silicon"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -994,11 +1437,22 @@
 			}
 			id: "64E19E4BB5902ECD"
 			optional: true
-			rewards: [{
-				id: "3AC9B2F4DEE4225D"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "714AC57A5189441F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "33F17513B6E0C41A"
+					item: {
+						count: 1
+						id: "oritech:nickel_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1022,11 +1476,22 @@
 			}
 			id: "529906178B5FD598"
 			optional: true
-			rewards: [{
-				id: "435163AD56AA2FCB"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "7ED19E15E2EEBFB2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "798BEC4C34C73AE0"
+					item: {
+						count: 1
+						id: "oritech:nickel_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1050,11 +1515,22 @@
 			}
 			id: "6D4195E52132011D"
 			optional: true
-			rewards: [{
-				id: "6FE031F3358B95C2"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "4B7618D31BD4B22D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "6F7E7EC16DA32A37"
+					item: {
+						count: 1
+						id: "oritech:raw_nickel"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1078,11 +1554,22 @@
 			}
 			id: "61E0E02C8467C4B9"
 			optional: true
-			rewards: [{
-				id: "5BBE8FF0D938C435"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "30E17C59CCD6919E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "57E9C4EEA894CA49"
+					item: {
+						count: 1
+						id: "oritech:raw_nickel"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1104,11 +1591,42 @@
 				id: "oritech:reactor_controller"
 			}
 			id: "05CE373CDB656C52"
-			rewards: [{
-				id: "4B992887775F77B1"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "11E7D0318E141419"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "2C089555053DA0B3"
+					item: {
+						count: 1
+						id: "oritech:magnetic_coil"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "28D1FA72A793991C"
+					item: {
+						count: 1
+						id: "oritech:steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "42851642BC908801"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 1.6d
 			tasks: [{
@@ -1132,11 +1650,22 @@
 			}
 			id: "0B40A5101AAEB9C2"
 			optional: true
-			rewards: [{
-				id: "5299511CB02948F0"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "647F8EFF1D205D2A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "1ADD2433E9E241D3"
+					item: {
+						count: 1
+						id: "oritech:raw_platinum"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1160,11 +1689,22 @@
 			}
 			id: "1C39D0D200FFCB4B"
 			optional: true
-			rewards: [{
-				id: "31E18587E778380A"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "42E6259420685451"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "4A6022CC84556893"
+					item: {
+						count: 1
+						id: "oritech:nickel_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1188,11 +1728,22 @@
 			}
 			id: "636BE94163100A85"
 			optional: true
-			rewards: [{
-				id: "217072934AAD56A7"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "79578A8D99E0C87B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "2903AC5586DBDD84"
+					item: {
+						count: 1
+						id: "oritech:raw_nickel"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1216,11 +1767,22 @@
 			}
 			id: "3C4B189F47F09FE4"
 			optional: true
-			rewards: [{
-				id: "2DCE46CF69721A26"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6B12CD87DF04CCCE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "32E20F2BE2C19EF7"
+					item: {
+						count: 1
+						id: "oritech:raw_platinum"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1244,11 +1806,22 @@
 			}
 			id: "6E88C1F37E3B8891"
 			optional: true
-			rewards: [{
-				id: "6F2CCD271224B5A4"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "49DECA18C9678FEF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "15DAF087F2F66959"
+					item: {
+						count: 1
+						id: "oritech:raw_nickel"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1272,11 +1845,22 @@
 			}
 			id: "6499D56E58F1C9A0"
 			optional: true
-			rewards: [{
-				id: "6C55BD1D328405FB"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "233693BD50036DBB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "7E8C93A6B5BA9C46"
+					item: {
+						count: 1
+						id: "oritech:raw_nickel"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1298,11 +1882,42 @@
 				id: "oritech:wrench"
 			}
 			id: "6A10E610B5E70ACB"
-			rewards: [{
-				id: "60D9655930B8EA6E"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "48E3F5F97647D75F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 8
+					id: "4781DCA58C2791B8"
+					item: {
+						count: 1
+						id: "oritech:electrum_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "79BB7684311A8A02"
+					item: {
+						count: 1
+						id: "oritech:magnetic_coil"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "1A200C58CB05B3BC"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 1.6d
 			tasks: [{
@@ -1326,11 +1941,22 @@
 			}
 			id: "4A7A7ED85FAC8C77"
 			optional: true
-			rewards: [{
-				id: "3EBFE5CA6D0D650C"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "64B3521F4EA9973A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "348BEB2AE0FE68A8"
+					item: {
+						count: 1
+						id: "oritech:raw_platinum"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1354,11 +1980,22 @@
 			}
 			id: "72C20C9C383AEDB6"
 			optional: true
-			rewards: [{
-				id: "038C5E1044CA16CC"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "70D47894E544B7E9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "2FE23FA319159DA7"
+					item: {
+						count: 1
+						id: "oritech:raw_nickel"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1382,11 +2019,22 @@
 			}
 			id: "4849C4C7C4BEC65A"
 			optional: true
-			rewards: [{
-				id: "274CB7EA0CF38DDA"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "617FD99618DE4A21"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "151E8F6AAD3CA5B6"
+					item: {
+						count: 1
+						id: "oritech:silicon"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1410,11 +2058,22 @@
 			}
 			id: "167ADE8C43C9EB54"
 			optional: true
-			rewards: [{
-				id: "3A94927B3CA598F1"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "7DF3E923BD5B43EA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "3DDB0BBD25E608C6"
+					item: {
+						count: 1
+						id: "oritech:raw_nickel"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1438,11 +2097,22 @@
 			}
 			id: "00FA0EFC17858FF1"
 			optional: true
-			rewards: [{
-				id: "43008E70467ACF91"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "69F19A393BCF5DEB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "5B37ACD1D7749FEC"
+					item: {
+						count: 1
+						id: "oritech:raw_nickel"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1466,11 +2136,22 @@
 			}
 			id: "2B33F51E6B3E2936"
 			optional: true
-			rewards: [{
-				id: "2AA8076D715AC337"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6D6AC24897C12804"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "2CD04B0DC2E63F31"
+					item: {
+						count: 1
+						id: "oritech:silicon"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1494,11 +2175,22 @@
 			}
 			id: "45FCD88A083A6110"
 			optional: true
-			rewards: [{
-				id: "194D70EFC23C2E77"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "2402A5B82A7D6274"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "1E552C45E3D161A5"
+					item: {
+						count: 1
+						id: "oritech:raw_platinum"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1522,11 +2214,22 @@
 			}
 			id: "533AA519ACB02F61"
 			optional: true
-			rewards: [{
-				id: "4ED70DA16B41DAE6"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "7F29DF0F9EF50493"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "76455DFBE5CC2DE6"
+					item: {
+						count: 1
+						id: "oritech:silicon"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1550,11 +2253,22 @@
 			}
 			id: "3920AD6C04D0DFA8"
 			optional: true
-			rewards: [{
-				id: "7CF63022704A8935"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "7A9D0AA03A7F7AA1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "49B5CF8252DCE599"
+					item: {
+						count: 1
+						id: "oritech:silicon"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1578,11 +2292,22 @@
 			}
 			id: "2F8D8AABCAA1D15E"
 			optional: true
-			rewards: [{
-				id: "7866C891248506CC"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "2CBF2A5E240405EA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "2BC10A8487EC9533"
+					item: {
+						count: 1
+						id: "oritech:nickel_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1606,11 +2331,22 @@
 			}
 			id: "28B6600E94E157E3"
 			optional: true
-			rewards: [{
-				id: "75C44ED57D0651FD"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "27392948C715F59B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "21987AC56473799F"
+					item: {
+						count: 1
+						id: "oritech:raw_platinum"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1634,11 +2370,22 @@
 			}
 			id: "3287C6CCA62C8BB9"
 			optional: true
-			rewards: [{
-				id: "4E8ABA5651C44FBE"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "11776D63EAA8E6A7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "764127A1933C7AFB"
+					item: {
+						count: 1
+						id: "oritech:raw_nickel"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1660,11 +2407,42 @@
 				id: "oritech:machine_speed_addon"
 			}
 			id: "51B32D0994C01F1C"
-			rewards: [{
-				id: "7CBD34A1F2EDD374"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "1B9997E2D424DA69"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 8
+					id: "603208927F0F5E92"
+					item: {
+						count: 1
+						id: "oritech:steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "61EC039D812C3434"
+					item: {
+						count: 1
+						id: "oritech:magnetic_coil"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "4C4B7AB706D9129F"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 1.6d
 			tasks: [{
@@ -1688,11 +2466,22 @@
 			}
 			id: "2706F25A2312509C"
 			optional: true
-			rewards: [{
-				id: "195F61414D47DDF0"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "79BFB3695C9FA5BB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "6DE76100849DCF18"
+					item: {
+						count: 1
+						id: "oritech:raw_platinum"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1716,11 +2505,22 @@
 			}
 			id: "20D6360F9EE05B7B"
 			optional: true
-			rewards: [{
-				id: "1D13ADAAEFED58AB"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "486DC8E376F1D8D8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "459FAAF463BFAA05"
+					item: {
+						count: 1
+						id: "oritech:silicon"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1744,11 +2544,22 @@
 			}
 			id: "03D84B769F8E2D87"
 			optional: true
-			rewards: [{
-				id: "7635A50D62159E19"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "619065E6201A88E8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "70D9FBD43EBF3D5F"
+					item: {
+						count: 1
+						id: "oritech:raw_platinum"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1772,11 +2583,22 @@
 			}
 			id: "705BA9E7D837924F"
 			optional: true
-			rewards: [{
-				id: "46EB047E7FA975D1"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "2F4944D1988348B9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "39EBDAEEA6FB387A"
+					item: {
+						count: 1
+						id: "oritech:raw_nickel"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1800,11 +2622,22 @@
 			}
 			id: "2F9888A2AA12E673"
 			optional: true
-			rewards: [{
-				id: "5285B7DAD3F4A247"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6B857031F4515FFD"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "35EF6278031C4EE6"
+					item: {
+						count: 1
+						id: "oritech:silicon"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1828,11 +2661,22 @@
 			}
 			id: "5B1016C8BA14BC2A"
 			optional: true
-			rewards: [{
-				id: "30770FF3D50F355E"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "4CDC8A4DE46DDBAD"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "32E1DA6E5AEE6164"
+					item: {
+						count: 1
+						id: "oritech:raw_nickel"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1856,11 +2700,22 @@
 			}
 			id: "7BA6E2A2B6E195FB"
 			optional: true
-			rewards: [{
-				id: "4874633A2C95C84F"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "45FF913201B08BCE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "37210A257A4B023D"
+					item: {
+						count: 1
+						id: "oritech:raw_nickel"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1884,11 +2739,22 @@
 			}
 			id: "0B280CE716CCDBE0"
 			optional: true
-			rewards: [{
-				id: "41264C3144A9D9D4"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6123244551AE840E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "34003C136D7B195F"
+					item: {
+						count: 1
+						id: "oritech:raw_nickel"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1912,11 +2778,22 @@
 			}
 			id: "187FCC5C280B9BCF"
 			optional: true
-			rewards: [{
-				id: "2777CD945B9D34ED"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "563C8CD4DC5F4519"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "12A23A6832263C67"
+					item: {
+						count: 1
+						id: "oritech:raw_platinum"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1940,11 +2817,22 @@
 			}
 			id: "1F9ADED023223209"
 			optional: true
-			rewards: [{
-				id: "4DC4D0021B9B9EEA"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "58F411740FDEED65"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "670DDE85734C250F"
+					item: {
+						count: 1
+						id: "oritech:silicon"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1968,11 +2856,22 @@
 			}
 			id: "313623C51CE21323"
 			optional: true
-			rewards: [{
-				id: "0A02B5B364777004"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "232B63D041006638"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "238D5FDE965836EF"
+					item: {
+						count: 1
+						id: "oritech:raw_platinum"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1996,11 +2895,22 @@
 			}
 			id: "427D6E0B57798033"
 			optional: true
-			rewards: [{
-				id: "77AF286C68B22C8C"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "3FF71CF9A03CAA81"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "46EC05341C116ED7"
+					item: {
+						count: 1
+						id: "oritech:raw_nickel"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -2024,11 +2934,22 @@
 			}
 			id: "60DE96BEBA1743EA"
 			optional: true
-			rewards: [{
-				id: "11396819A9BDD049"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "15371BFA11B4BF05"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "64CA662F6E29752E"
+					item: {
+						count: 1
+						id: "oritech:silicon"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -2052,11 +2973,22 @@
 			}
 			id: "5C823BE998B855F5"
 			optional: true
-			rewards: [{
-				id: "2258C77EEEFAA7D7"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "650F2D24F7B587EE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "7360B349148B394B"
+					item: {
+						count: 1
+						id: "oritech:nickel_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -2080,11 +3012,22 @@
 			}
 			id: "1711DBC86792924A"
 			optional: true
-			rewards: [{
-				id: "324FB023F51934AE"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "1E25290D4D5EF60C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "14DDFD1FF1E63E31"
+					item: {
+						count: 1
+						id: "oritech:silicon"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -2108,11 +3051,22 @@
 			}
 			id: "74538E2E4E9B4C29"
 			optional: true
-			rewards: [{
-				id: "2838ABBB47F5BCEE"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "49A3A75D58C2E925"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "786EB92AD41B6F1D"
+					item: {
+						count: 1
+						id: "oritech:raw_nickel"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{

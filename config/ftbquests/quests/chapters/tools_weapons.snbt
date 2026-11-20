@@ -170,11 +170,42 @@
 				id: "minecraft:stick"
 			}
 			id: "46153370B503D293"
-			rewards: [{
-				id: "67C1E1A9C0B94ECD"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
+			rewards: [
+				{
+					id: "74C800AABC7203CD"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "56E27B36A1955DDF"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2A0C627F1A0E2392"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "3FF0EB023ACDC935"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 2.25d
 			tasks: [{
@@ -194,11 +225,22 @@
 			}
 			id: "7D530DE0A486CCE1"
 			optional: true
-			rewards: [{
-				id: "41C84DB6C3DF23FB"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "4EFBB1872A2ABDCC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "3C09824CBA51C260"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 0.8d
 			tasks: [{
@@ -222,11 +264,22 @@
 			}
 			id: "459723D72687FC56"
 			optional: true
-			rewards: [{
-				id: "251EF59A2CD62404"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "59641F0806A758F6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "184B500B9967F304"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 0.8d
 			tasks: [{
@@ -250,11 +303,22 @@
 			}
 			id: "3F4A3EDFF5E2EF2A"
 			optional: true
-			rewards: [{
-				id: "15411B6333D5C01E"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "3F26942D0F21AC53"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "388F65805B5502E4"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 0.8d
 			tasks: [{
@@ -278,11 +342,22 @@
 			}
 			id: "7A009ED165860D70"
 			optional: true
-			rewards: [{
-				id: "5373365D3267B8E2"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "276368C982C3657D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "1E51D8EFFF0D8BE7"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 0.8d
 			tasks: [{
@@ -306,11 +381,22 @@
 			}
 			id: "0E1856CF775696CE"
 			optional: true
-			rewards: [{
-				id: "2011BCC48B74EF80"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "4E02136825050590"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "116C226FB6785A09"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 0.8d
 			tasks: [{
@@ -334,11 +420,22 @@
 			}
 			id: "1A6034C4FACFD193"
 			optional: true
-			rewards: [{
-				id: "7BE1E5BFC447A9F8"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "24B36726A2469559"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "4BD7D23FC410D901"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 0.8d
 			tasks: [{
@@ -362,11 +459,22 @@
 			}
 			id: "3DB4BEF5FB833383"
 			optional: true
-			rewards: [{
-				id: "167123994ED3E874"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "75EA98E6011EE86B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "1D62C62FF4BCF0FB"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 0.8d
 			tasks: [{
@@ -390,11 +498,22 @@
 			}
 			id: "4D3AE70867EDBB9A"
 			optional: true
-			rewards: [{
-				id: "2831C39A455003C8"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "451432C67711C9D2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "79311C5BFCA9F9CA"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 0.8d
 			tasks: [{
@@ -418,11 +537,22 @@
 			}
 			id: "3E99598EF7E6F67D"
 			optional: true
-			rewards: [{
-				id: "7B2A1D83B1CF0C62"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "58426FF0D35EBB42"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "23FB698032877691"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 0.8d
 			tasks: [{
@@ -446,11 +576,22 @@
 			}
 			id: "53F18BF5AAE3FE94"
 			optional: true
-			rewards: [{
-				id: "26B8356C6ABB67D5"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "1836EF410F097284"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "1E9845A5950CA33B"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 0.8d
 			tasks: [{
@@ -474,11 +615,22 @@
 			}
 			id: "55259C2C493D08FF"
 			optional: true
-			rewards: [{
-				id: "76135258DA81901C"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "5FAB1348C8A41CF5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "201A741B6A3FE3F2"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 0.8d
 			tasks: [{
@@ -502,11 +654,22 @@
 			}
 			id: "2AA7793B8C27B61A"
 			optional: true
-			rewards: [{
-				id: "6DECCCBA0928F172"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "4531BFF92954F5D8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "5B5E8A650F641762"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 0.8d
 			tasks: [{
@@ -530,11 +693,22 @@
 			}
 			id: "1FD667D863B808D5"
 			optional: true
-			rewards: [{
-				id: "229AF61C183E989F"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "48B63ACF43C90027"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "52F4468BDE7DB049"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 0.8d
 			tasks: [{
@@ -558,11 +732,22 @@
 			}
 			id: "34202C8AA2E3B322"
 			optional: true
-			rewards: [{
-				id: "6625722B45E2E1CC"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "1DB4D060DFDAE771"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "609B3C81FBF7E10D"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 0.8d
 			tasks: [{
@@ -586,11 +771,22 @@
 			}
 			id: "22C7B844AB26CA4B"
 			optional: true
-			rewards: [{
-				id: "14791B55C0FE8D21"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "18B2B50645213116"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "6FA475C8B5ADE952"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 0.8d
 			tasks: [{
@@ -614,11 +810,22 @@
 			}
 			id: "4DEC62444FA31C5E"
 			optional: true
-			rewards: [{
-				id: "2B229B792FB8E7F9"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6E3636254E34CD4E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "4B703A05DB2F5D14"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 0.8d
 			tasks: [{
@@ -642,11 +849,22 @@
 			}
 			id: "028EA4BA88DB8C3F"
 			optional: true
-			rewards: [{
-				id: "170E45FA7F0B4FD8"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "51CFB4D8D493D998"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "2D627426B01943D8"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 0.8d
 			tasks: [{
@@ -670,11 +888,22 @@
 			}
 			id: "2A7C16A7DDA6F6B5"
 			optional: true
-			rewards: [{
-				id: "76BEF806FFEC185B"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "4C3F9B7B7E3052E5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "128CBCB6AE0BE316"
+					item: {
+						count: 1
+						id: "create:zinc_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 0.8d
 			tasks: [{
@@ -698,11 +927,22 @@
 			}
 			id: "6228714D6D8A88D0"
 			optional: true
-			rewards: [{
-				id: "5F3880DE491DB8FD"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "7720B9AF442505D8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "4C3BBCE63BD8250F"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 0.8d
 			tasks: [{
@@ -726,11 +966,22 @@
 			}
 			id: "30A57EDA6CD8A15C"
 			optional: true
-			rewards: [{
-				id: "3EB52B15B25F85E5"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "25D51E5C4B0A2AC8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "517A345A2D316E7A"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 0.8d
 			tasks: [{
@@ -754,11 +1005,22 @@
 			}
 			id: "0A3579B51B3FC569"
 			optional: true
-			rewards: [{
-				id: "42800BAC28E88340"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "214B04922293B46B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "4C047DE2DEA79F2C"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 0.8d
 			tasks: [{
@@ -782,11 +1044,22 @@
 			}
 			id: "7C928749B6D8F117"
 			optional: true
-			rewards: [{
-				id: "199731467A0D82B9"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "30A114B132A2AF95"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "1BF2330462472500"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 0.8d
 			tasks: [{
@@ -810,11 +1083,22 @@
 			}
 			id: "6C42B6947146C7D2"
 			optional: true
-			rewards: [{
-				id: "383AA42E7368E92F"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "14586C711D9DEDF6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "6A74F426F82EF908"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 0.8d
 			tasks: [{
@@ -838,11 +1122,22 @@
 			}
 			id: "579CF7F5898A3BC1"
 			optional: true
-			rewards: [{
-				id: "7A77BB8F649065B0"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6EABB54AD13E93A0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "33BE5C1AE95474D9"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 0.8d
 			tasks: [{
@@ -866,11 +1161,22 @@
 			}
 			id: "1E73C8AE5551CBFA"
 			optional: true
-			rewards: [{
-				id: "7BA533A95A985080"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "20929734FB2E940B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "65D373B233A6EE27"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 0.8d
 			tasks: [{
@@ -894,11 +1200,22 @@
 			}
 			id: "054BD6553838808F"
 			optional: true
-			rewards: [{
-				id: "1E589E2B73D8977F"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "40D9FDA979D67663"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "46621421E971CB91"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 0.8d
 			tasks: [{
@@ -922,11 +1239,22 @@
 			}
 			id: "6BCB5FBACFB6645A"
 			optional: true
-			rewards: [{
-				id: "2333ADFDC1DC9F01"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "583C606C060DBC9E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "4BE0781637DE5FC4"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 0.8d
 			tasks: [{
@@ -950,11 +1278,22 @@
 			}
 			id: "1699AC773ACE921C"
 			optional: true
-			rewards: [{
-				id: "66C56A8B033BEBFA"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "751A427EBDB87BFD"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "68E8920E00A38B7B"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 0.8d
 			tasks: [{
@@ -978,11 +1317,22 @@
 			}
 			id: "73E442BE611C2381"
 			optional: true
-			rewards: [{
-				id: "5047EDDF6829C2A6"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "7EDA4B214644ADE8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "24457A51DACC95C3"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 0.8d
 			tasks: [{
@@ -1006,11 +1356,22 @@
 			}
 			id: "76978AC4AF8E2E94"
 			optional: true
-			rewards: [{
-				id: "3FAF4B825D98CE76"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "7BE7FB4CA13F8432"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "456C2DD4B7150BCE"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			size: 0.85d
 			tasks: [{
@@ -1034,11 +1395,22 @@
 			}
 			id: "36A1A9D49B1DE7B0"
 			optional: true
-			rewards: [{
-				id: "486ED090ED863B78"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6F659F6BABA3F8D1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "7995D106ADAF549F"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			size: 0.85d
 			tasks: [{
@@ -1062,11 +1434,22 @@
 			}
 			id: "4ACB7B61F65F847E"
 			optional: true
-			rewards: [{
-				id: "679DDD69E560E78D"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "3AE5DDA318113ABB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "1815769B1E04A93A"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			size: 0.85d
 			tasks: [{
@@ -1090,11 +1473,22 @@
 			}
 			id: "7309360C9DEAFFEF"
 			optional: true
-			rewards: [{
-				id: "2421F5103411B7CE"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "585BA1B5793F987B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "73E407F1BB9BD9FC"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			size: 0.85d
 			tasks: [{
@@ -1118,11 +1512,22 @@
 			}
 			id: "4499F5E1928F1167"
 			optional: true
-			rewards: [{
-				id: "686D7B2757175ABE"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "7242A969D1DFDD2E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "7430938E0FC5538D"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			size: 0.85d
 			tasks: [{
@@ -1146,11 +1551,22 @@
 			}
 			id: "7BB626A0141294A0"
 			optional: true
-			rewards: [{
-				id: "7E2E6E32911C2D27"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "12898F3F938FE60F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "1D1AE714ACEAB9C7"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			size: 0.85d
 			tasks: [{
@@ -1174,11 +1590,22 @@
 			}
 			id: "6B5267CAFC415885"
 			optional: true
-			rewards: [{
-				id: "72573F53719781C3"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "44A9BB0905BEBC6C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "3AF38B47A7986A0E"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			size: 0.85d
 			tasks: [{

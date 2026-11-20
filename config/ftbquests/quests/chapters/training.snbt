@@ -89,11 +89,41 @@
 				id: "cobblemon:exp_candy_l"
 			}
 			id: "68284A4D9075EA4D"
-			rewards: [{
-				id: "75E0AF2517696786"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "184D94B3A24E1583"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "1C2F6F45C6643C41"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+				{
+					id: "38090EBEB8BC89B2"
+					item: {
+						count: 1
+						id: "cobblemon:pp_up"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "3AE9B08320C5D03B"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 2.5d
 			tasks: [{
@@ -111,11 +141,41 @@
 				id: "cobblemon:exp_candy_xs"
 			}
 			id: "6CC49D2BEA8980A9"
-			rewards: [{
-				id: "33ECA2F22AA97D1C"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "7A6CE27CE41FC110"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "7BBB44805A07EC9D"
+					item: {
+						count: 1
+						id: "cobblemon:pp_up"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "694A4BE39474C58D"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "3D2E3B55F42A659B"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 1.6d
 			tasks: [{
@@ -139,11 +199,21 @@
 			}
 			id: "2CBDC03D45890C47"
 			optional: true
-			rewards: [{
-				id: "4A61739F1C46F39E"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "5607F80A58B0A715"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "2116A0CC2E972571"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -167,11 +237,22 @@
 			}
 			id: "179425AB7335CF86"
 			optional: true
-			rewards: [{
-				id: "4EBB97C27B0E551C"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "5183171592A40CDB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "2B582B3D1774C842"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xs"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -195,11 +276,21 @@
 			}
 			id: "5872AD30741524E6"
 			optional: true
-			rewards: [{
-				id: "120082D0EED1FDC5"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "56D17C3522B5EE58"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7DCA8B24381CCDF2"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -223,11 +314,22 @@
 			}
 			id: "7FAA88ACC0EF5D24"
 			optional: true
-			rewards: [{
-				id: "67C58572D43F828F"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "14322C26F8898950"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "51C8B1794189B73B"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xs"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -251,11 +353,21 @@
 			}
 			id: "118636C0506E53E8"
 			optional: true
-			rewards: [{
-				id: "089EBE29B7453A1B"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "2E996B7789CE487E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7EA5D9B7725C972A"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -279,11 +391,22 @@
 			}
 			id: "744F8BC55731825A"
 			optional: true
-			rewards: [{
-				id: "2ACD2EF37F3E205C"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "2614ECAFDBA01C92"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "24CDF1181841D131"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xs"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -307,11 +430,22 @@
 			}
 			id: "7A5F60801F3A79C3"
 			optional: true
-			rewards: [{
-				id: "69FD9CA43B603D9B"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "40B9C11A2BD7ACD6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "76888CB5BD6C4BE4"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xs"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -333,11 +467,41 @@
 				id: "cobblemon:hp_up"
 			}
 			id: "76C2D2AC046F4230"
-			rewards: [{
-				id: "54ECF0D4EF5E1958"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "6F5FEB4B895DD796"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "1B0B7FBAAB1D4F06"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+				{
+					id: "25F373D501F7A0B3"
+					item: {
+						count: 1
+						id: "cobblemon:pp_up"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "2B5A2F6F8BE99323"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 1.6d
 			tasks: [{
@@ -361,11 +525,21 @@
 			}
 			id: "0DBA08B4F04BD113"
 			optional: true
-			rewards: [{
-				id: "5030E19598388089"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "5637CB1DE3FF07DC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5B16AA387396C2F7"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -389,11 +563,21 @@
 			}
 			id: "5A9572E4DE6A1D1D"
 			optional: true
-			rewards: [{
-				id: "6FFE28912B0886EC"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "793403E27B14EA04"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "38388F03A9819C25"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -417,11 +601,21 @@
 			}
 			id: "229648493DC94D40"
 			optional: true
-			rewards: [{
-				id: "46F8646CE0A13E0F"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6C007881EAFD637F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "525138F4F33E7DE3"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -445,11 +639,22 @@
 			}
 			id: "5935B34FBA6EFD4B"
 			optional: true
-			rewards: [{
-				id: "63EFD0EE3214C15C"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "578D2F1ECF662896"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "47AEDEFEA19C332B"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xs"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -473,11 +678,22 @@
 			}
 			id: "483536FFC8172E0E"
 			optional: true
-			rewards: [{
-				id: "7B9EC90A84E62E3E"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "787C3FBB29293541"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "7329A750CC91E564"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xs"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -501,11 +717,21 @@
 			}
 			id: "3EFE08083FCE450D"
 			optional: true
-			rewards: [{
-				id: "7091D564DF16528C"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "39ADC9B5037CBB82"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "4FE71809C880D397"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -529,11 +755,22 @@
 			}
 			id: "34DF5A2D51817244"
 			optional: true
-			rewards: [{
-				id: "0C16F8CDC36A6FCA"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "3441C048D73EB70E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "5A6623E50331CEF2"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xs"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -555,11 +792,42 @@
 				id: "cobblemon:health_feather"
 			}
 			id: "7C5227B407C50D33"
-			rewards: [{
-				id: "62591A4B728F32B2"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "557EB5F3C409A2EC"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "322826BDDB52B271"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4266365F2B817A8B"
+					item: {
+						count: 1
+						id: "cobblemon:hp_up"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "25126899F4B46977"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 1.6d
 			tasks: [{
@@ -583,11 +851,21 @@
 			}
 			id: "746F29CB258F730A"
 			optional: true
-			rewards: [{
-				id: "6265576E26B84485"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "5284A1918F36217C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "32CDEBA7A4F9D541"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -611,11 +889,21 @@
 			}
 			id: "48779169AA1537FC"
 			optional: true
-			rewards: [{
-				id: "5D8D73A9426C89A2"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "10116A2AC87FA855"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "139B735426EEA93F"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -639,11 +927,21 @@
 			}
 			id: "67AA006535343E04"
 			optional: true
-			rewards: [{
-				id: "7554643466A08992"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6DEB4A49F8712540"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7C8A84D45F1AAC78"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -667,11 +965,22 @@
 			}
 			id: "13C1DDB68B16C38F"
 			optional: true
-			rewards: [{
-				id: "3B97627A0ED7C5B9"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "5AEE3FDFFBE9B495"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "1C65908FC1AB7F18"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xs"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -695,11 +1004,21 @@
 			}
 			id: "1E1DBDB93A38130F"
 			optional: true
-			rewards: [{
-				id: "530DDFD605C55883"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "1F6D510BC61486B8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "2D4F9911F6E0019E"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -721,11 +1040,41 @@
 				id: "cobblemon:adamant_mint"
 			}
 			id: "652A74FAFCF7382D"
-			rewards: [{
-				id: "2231439882143DD0"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "77AEEB8A40551E22"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "48C67C1EBFF79BDB"
+					item: {
+						count: 1
+						id: "cobblemon:pp_up"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7FCE7A79262450B1"
+					item: {
+						count: 1
+						id: "cobblemon:carbos"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "55C50C7B1AA0AEFA"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 1.6d
 			tasks: [{
@@ -749,11 +1098,21 @@
 			}
 			id: "76A84961685A7EAD"
 			optional: true
-			rewards: [{
-				id: "4AB1CCBB567C6F20"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "43675347780F7575"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5B26A0027C725A96"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -777,11 +1136,21 @@
 			}
 			id: "15FBCCEA76609F30"
 			optional: true
-			rewards: [{
-				id: "57A244FD9ABA9612"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "36DEE8FF434B4E01"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6BFA1E022111A6B4"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -805,11 +1174,22 @@
 			}
 			id: "5AD6F6F39D3A0306"
 			optional: true
-			rewards: [{
-				id: "1F9F8BC3BCC5300A"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "34A3341229CFB6B8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "704D609DC003B5C4"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xs"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -833,11 +1213,21 @@
 			}
 			id: "3042609E78157728"
 			optional: true
-			rewards: [{
-				id: "381ECB811941C7F9"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "4D7317F639DEB4F8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7D177D4AF76B947C"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -861,11 +1251,22 @@
 			}
 			id: "792649DAFC9C134E"
 			optional: true
-			rewards: [{
-				id: "3C5201A54AF9B13D"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "50242BAFBDFC78EF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "66035E9DA2361971"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xs"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -889,11 +1290,21 @@
 			}
 			id: "5D8F23AE9FE3CAB4"
 			optional: true
-			rewards: [{
-				id: "2136CAE2D58942CC"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "657B38D56A7DB084"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "4CA935BAE1870E94"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -917,11 +1328,21 @@
 			}
 			id: "5CAF54F715EE69F8"
 			optional: true
-			rewards: [{
-				id: "673186543175A2A3"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "2989276D02C5D13F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7344B98D01AABE2A"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -945,11 +1366,22 @@
 			}
 			id: "4D460955A529D2A6"
 			optional: true
-			rewards: [{
-				id: "7E77D6325F45171F"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "2A0818F28710CACE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "5FB41A39C4A210FE"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xs"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -973,11 +1405,21 @@
 			}
 			id: "3F0E9B9C06878C03"
 			optional: true
-			rewards: [{
-				id: "6A2D496C5CFB0CF6"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "4EE37006D596A080"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "28C9F632DC431B04"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1001,11 +1443,21 @@
 			}
 			id: "74A36C4BF5A6EE03"
 			optional: true
-			rewards: [{
-				id: "3728FFEFCBFD3582"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "1700130E79059F28"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "48EBB5B75D0667DF"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1029,11 +1481,22 @@
 			}
 			id: "3178ED8C4FB9F7F8"
 			optional: true
-			rewards: [{
-				id: "522A99FB9BE0E2EB"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "5B25069012821A9D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "496D25DBA501CD9F"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xs"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1057,11 +1520,21 @@
 			}
 			id: "1E364DD3C2447043"
 			optional: true
-			rewards: [{
-				id: "2E5F66C9EDA4029A"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "1AA2DAE4EDFA807D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "61C08D0CA43C392E"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1085,11 +1558,21 @@
 			}
 			id: "5F7B39DF964AA722"
 			optional: true
-			rewards: [{
-				id: "7D5B6624F86650DB"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "5F6FA118D5509A2C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "13463F91D1956327"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1113,11 +1596,21 @@
 			}
 			id: "7CF7D929AC1C4F23"
 			optional: true
-			rewards: [{
-				id: "2B0A324572985ED3"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "62A3A5D26132639E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "77D8984C4D689E5D"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1141,11 +1634,21 @@
 			}
 			id: "1CA115AA5A1CA195"
 			optional: true
-			rewards: [{
-				id: "684175A8B5AF2374"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6EB8E8A071666C6A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "669F566320FB1251"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1169,11 +1672,21 @@
 			}
 			id: "1A47712FA211E432"
 			optional: true
-			rewards: [{
-				id: "3F599122EB98727E"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "760D70F3B1DD62DB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "436272C807EFE76A"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1197,11 +1710,21 @@
 			}
 			id: "6261A6E6E6A5AA7F"
 			optional: true
-			rewards: [{
-				id: "1272A4955A22F488"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "15DFE8BEE94FD251"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "18D93AB55255C20C"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1225,11 +1748,21 @@
 			}
 			id: "1A0A352EBAB9511F"
 			optional: true
-			rewards: [{
-				id: "556A915232541DE3"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "39DA734883367121"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "3404BF09E5A266CF"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1253,11 +1786,22 @@
 			}
 			id: "3838E488651EAB6F"
 			optional: true
-			rewards: [{
-				id: "2FBB9F9CE6499279"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "3A4E518E000E9602"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "2F4A552D6EA02765"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xs"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1281,11 +1825,22 @@
 			}
 			id: "6B0080154435BB2E"
 			optional: true
-			rewards: [{
-				id: "6F225A16A0C525F6"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "39B090BB15E81A64"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "41A1F2012AA6DF20"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xs"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1307,11 +1862,41 @@
 				id: "cobblemon:power_weight"
 			}
 			id: "4D913C51495E3D94"
-			rewards: [{
-				id: "0968338BB322E3FA"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "412B1BF04B3601B3"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "239679CAE1FCCFD7"
+					item: {
+						count: 1
+						id: "cobblemon:pp_up"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "54539008BDE77C7E"
+					item: {
+						count: 1
+						id: "cobblemon:hp_up"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "6033ADA4D83905C8"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 1.6d
 			tasks: [{
@@ -1335,11 +1920,22 @@
 			}
 			id: "0F6970759AB9DF1D"
 			optional: true
-			rewards: [{
-				id: "0CFAE2647BDC4BF4"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "5AD19B924B428757"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "75E4AD974C741264"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xs"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1363,11 +1959,22 @@
 			}
 			id: "29B7FFD8E4A37CBD"
 			optional: true
-			rewards: [{
-				id: "5EFCF637088D8A6F"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "2E618117709DCA93"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "60F9913DF8C6C433"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xs"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1391,11 +1998,22 @@
 			}
 			id: "4B82071182103A05"
 			optional: true
-			rewards: [{
-				id: "3D1E9E45F585DD0C"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "4DACB00FB9F25AF2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "52ECAD8641444A5E"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xs"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1419,11 +2037,21 @@
 			}
 			id: "15D7152C6A8E5531"
 			optional: true
-			rewards: [{
-				id: "2CA60BD79CD34D5E"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "246299DB0AB9536D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "341361BFB6BC6B1D"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1447,11 +2075,22 @@
 			}
 			id: "185FAA22D813836E"
 			optional: true
-			rewards: [{
-				id: "24CDFA5AA046C3C6"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "112B12A9A753D2C6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "431F4D5309DDD29D"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xs"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1473,11 +2112,42 @@
 				id: "obc:bottle_cap"
 			}
 			id: "2FD7AB293CEAC1C7"
-			rewards: [{
-				id: "7945568457516BAC"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "3C82C15DFF556596"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "163831EC7DF00A70"
+					item: {
+						count: 1
+						id: "cobblemon:iron"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7521294C72A0AD29"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "749356C757A0ACEF"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 1.6d
 			tasks: [{
@@ -1501,11 +2171,22 @@
 			}
 			id: "7691687700E3D5FC"
 			optional: true
-			rewards: [{
-				id: "65A6D4021C23EA8C"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "2444F683C621F62F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "6B939F3BAA605691"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xs"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1529,11 +2210,21 @@
 			}
 			id: "37A094196ACAC804"
 			optional: true
-			rewards: [{
-				id: "4E346FD858DF15D0"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "49E3ACBFB087E79A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7628740E9F52ECF8"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1557,11 +2248,21 @@
 			}
 			id: "60D6BC9266C3E6D5"
 			optional: true
-			rewards: [{
-				id: "38D5D552BB8921EB"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "39BB9F1431A63547"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7AE214DE9E1A539F"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1585,11 +2286,22 @@
 			}
 			id: "42CA4FE2976E3E7E"
 			optional: true
-			rewards: [{
-				id: "656D8AB002AD55DE"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "1CE5E620B41A8CB8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "2C984E6FE5611C01"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xs"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1613,11 +2325,21 @@
 			}
 			id: "7F6E8DBFD3C78F00"
 			optional: true
-			rewards: [{
-				id: "5C0FB9A190799935"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "1304EC795043E504"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "75710130C014996C"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1641,11 +2363,21 @@
 			}
 			id: "2E0C68B790D05748"
 			optional: true
-			rewards: [{
-				id: "6E263C906B37AE28"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "2DA3EAB406B61524"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7E952DDBA4FB23CD"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1669,11 +2401,21 @@
 			}
 			id: "12085A455AD1F728"
 			optional: true
-			rewards: [{
-				id: "648F33E3E8E39D9C"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "27449DE8C3F344DF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "24A12E6FE1D8FBBC"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1695,11 +2437,41 @@
 				id: "simpletms:machine_tm"
 			}
 			id: "2A74791EB4D6FC5E"
-			rewards: [{
-				id: "61133AF248554EB4"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "5CBDAD39774574E7"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "62143D7F45519A8A"
+					item: {
+						count: 1
+						id: "cobblemon:pp_up"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "20AE7E27600C8995"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "1E070054F4968173"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 1.6d
 			tasks: [{
@@ -1723,11 +2495,21 @@
 			}
 			id: "5EFEE0B0396DC2AD"
 			optional: true
-			rewards: [{
-				id: "665FDCC40E65CB20"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "16AD37A2A3D6E14D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "3848273165FBBB5C"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1751,11 +2533,22 @@
 			}
 			id: "37BF4586E3E4A675"
 			optional: true
-			rewards: [{
-				id: "1F2B449F8395493B"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "7E224788373501AE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "36DF4E321B7B1C05"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xs"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1779,11 +2572,22 @@
 			}
 			id: "52B8D69107C7BA92"
 			optional: true
-			rewards: [{
-				id: "5DB1ACF387C08D4F"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "5812DCB887CEDD3E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "26E3044DAE12EDC7"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xs"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1807,11 +2611,22 @@
 			}
 			id: "4D4E4475A09C9AA9"
 			optional: true
-			rewards: [{
-				id: "33EA80F2A219501F"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "7D52E2617F00C376"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "74B83DE8C5ABC354"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xs"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1835,11 +2650,21 @@
 			}
 			id: "79D4A2E8B7C75890"
 			optional: true
-			rewards: [{
-				id: "5BC2715CE5C57151"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "2248473A7890F6D8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "1270F237198B31EF"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1863,11 +2688,21 @@
 			}
 			id: "2A6C882D951089CF"
 			optional: true
-			rewards: [{
-				id: "625A195423DFE22B"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "40A6E3EF70637ED8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "17A8D98EF1F4385F"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1891,11 +2726,22 @@
 			}
 			id: "28FD111B59E1BAB9"
 			optional: true
-			rewards: [{
-				id: "3AFC7385E135ECE0"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "322FC9E0969246C8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "649C016FE01EA127"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xs"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1919,11 +2765,21 @@
 			}
 			id: "2A729957ED55798C"
 			optional: true
-			rewards: [{
-				id: "7B071C6D12A64B1E"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "240565B979CEDFEB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "4E702D17C03E8752"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1947,11 +2803,21 @@
 			}
 			id: "3579F51DF45ADCEE"
 			optional: true
-			rewards: [{
-				id: "53D845C760FE01FF"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "68A7C13791004A18"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "4895886B3339AE3E"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1975,11 +2841,21 @@
 			}
 			id: "5515A2F4DEDFB1B1"
 			optional: true
-			rewards: [{
-				id: "426ADE22AF656F77"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "5AF23DCFFC598C06"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6DD1427563D1F310"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -2003,11 +2879,21 @@
 			}
 			id: "556D5D5B31F6C2CC"
 			optional: true
-			rewards: [{
-				id: "1EF670C337BF86C5"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "4AB5758B9C93D632"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "24E0D17ACE4215B4"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -2031,11 +2917,21 @@
 			}
 			id: "7101C6F6D8FAF4C9"
 			optional: true
-			rewards: [{
-				id: "7378429B5087E349"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "7DC64219AC198B14"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "2DB4D44427072294"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{

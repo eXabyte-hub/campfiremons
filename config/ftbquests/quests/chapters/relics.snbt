@@ -89,11 +89,42 @@
 				id: "relics:ring_of_the_seven_deadly_sins"
 			}
 			id: "27D327B4F31D948D"
-			rewards: [{
-				id: "611896255284B009"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "52CB9084C51C66C1"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "2AB2BFFCCE7395A8"
+					item: {
+						count: 1
+						id: "relics:relic_experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "485273D833B091DA"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "4D8F6B5C04B9D2E2"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 2.5d
 			tasks: [{
@@ -111,11 +142,42 @@
 				id: "relics:leafy_mantle"
 			}
 			id: "36E5F80DC453107B"
-			rewards: [{
-				id: "0A20E98279C9F6A2"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "29300C40046696E6"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "2D36BAE939BEBB1B"
+					item: {
+						count: 1
+						id: "relics:relic_experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3F60026D50C35740"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "70565BB79DB3B05C"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 1.6d
 			tasks: [{
@@ -139,11 +201,22 @@
 			}
 			id: "11148E0D45B8AC7F"
 			optional: true
-			rewards: [{
-				id: "222678F399848A1B"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "74152186E879B3BB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "24B9477D646BD41F"
+					item: {
+						count: 1
+						id: "relics:relic_experience_bottle"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -167,11 +240,22 @@
 			}
 			id: "199EE344A7E4297A"
 			optional: true
-			rewards: [{
-				id: "615B7EE5E3245E19"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "7CED62A42DC2BD47"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "7CFD49B2A00D9BBF"
+					item: {
+						count: 1
+						id: "relics:relic_experience_bottle"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -195,11 +279,22 @@
 			}
 			id: "0EC7C128C5C75BC8"
 			optional: true
-			rewards: [{
-				id: "46DD20391ACCBAF5"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "7C6C0C80E429DBF3"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "51556F15B6AC8F88"
+					item: {
+						count: 1
+						id: "relics:relic_experience_bottle"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -221,11 +316,42 @@
 				id: "relics:piglin_mask"
 			}
 			id: "2E5B5FAF40C14296"
-			rewards: [{
-				id: "7AA5FC7F66115387"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "1B83539CB0ACB5D4"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "3F7D370DF239EBBA"
+					item: {
+						count: 1
+						id: "relics:relic_experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "64838A7BAB63E834"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "73AB063681D4ECAF"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 1.6d
 			tasks: [{
@@ -249,11 +375,22 @@
 			}
 			id: "2B0230FEBFC4709F"
 			optional: true
-			rewards: [{
-				id: "3D40FEA39A870897"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "26D826778EBDD6A7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "4EE3DF566373DF07"
+					item: {
+						count: 1
+						id: "relics:relic_experience_bottle"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -275,11 +412,42 @@
 				id: "relics:reflective_necklace"
 			}
 			id: "69A45FF172787957"
-			rewards: [{
-				id: "1FF9F745DDFF0897"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "73AD7D6FF46B693C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "24D190DB903B4ED6"
+					item: {
+						count: 1
+						id: "relics:relic_experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "23DEFD61D9279D6D"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "6A6E4508C4C23175"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 1.6d
 			tasks: [{
@@ -303,11 +471,22 @@
 			}
 			id: "088A61AACA3B6DA4"
 			optional: true
-			rewards: [{
-				id: "1D67950FC1751387"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "4F2C1B801C33A2E3"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "40E87E459D532374"
+					item: {
+						count: 1
+						id: "relics:relic_experience_bottle"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -331,11 +510,22 @@
 			}
 			id: "3A69056E18189BD8"
 			optional: true
-			rewards: [{
-				id: "70AD0245F5263A7B"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "519CEA6A6662588B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "18FEE885640426EA"
+					item: {
+						count: 1
+						id: "relics:relic_experience_bottle"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -359,11 +549,22 @@
 			}
 			id: "014601221EA8D036"
 			optional: true
-			rewards: [{
-				id: "63C71D3F137BD6E8"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "60BE863AA97E58D5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "12BE2606323118E4"
+					item: {
+						count: 1
+						id: "relics:relic_experience_bottle"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -385,11 +586,42 @@
 				id: "relics:kinetic_belt"
 			}
 			id: "52E5B20F16830E9A"
-			rewards: [{
-				id: "71DDF75F7DC4B8C3"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "55C6FA0E6163B68F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "5B8D8480A762EE17"
+					item: {
+						count: 1
+						id: "relics:relic_experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "16DD680684343332"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "3F63386A87B195DC"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 1.6d
 			tasks: [{
@@ -413,11 +645,22 @@
 			}
 			id: "23B18E2F06A88431"
 			optional: true
-			rewards: [{
-				id: "6A77F9E201F008CF"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "562409A37F2CB492"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "24E987EF62E74F99"
+					item: {
+						count: 1
+						id: "relics:relic_experience_bottle"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -439,11 +682,42 @@
 				id: "relics:roller_skate"
 			}
 			id: "6C747B943B5A06CC"
-			rewards: [{
-				id: "4264E689BB38BA2D"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "5C974522B908B3AD"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 8
+					id: "21A75244D7DB8822"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "45127770B0C14EA7"
+					item: {
+						count: 1
+						id: "relics:relic_experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "7635268D8C45801E"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 1.6d
 			tasks: [{
@@ -467,11 +741,22 @@
 			}
 			id: "34CC354C0F693FAD"
 			optional: true
-			rewards: [{
-				id: "36AAA729EAD6E675"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "523BD6331D605BD7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "2BDFF9895FB34F14"
+					item: {
+						count: 1
+						id: "relics:relic_experience_bottle"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -495,11 +780,22 @@
 			}
 			id: "7A0D8B187E1EE5FE"
 			optional: true
-			rewards: [{
-				id: "56FF3CDBAC95B9B9"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "58286A99018109EE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "1E73BA8C4344FB83"
+					item: {
+						count: 1
+						id: "relics:relic_experience_bottle"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -521,11 +817,42 @@
 				id: "relics:chorus_staff"
 			}
 			id: "239474265330219B"
-			rewards: [{
-				id: "1E3AA631FD8F9CDD"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "29195AC407C46F64"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 8
+					id: "39C200A74ABA6394"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2FEEF628A491EEB7"
+					item: {
+						count: 1
+						id: "relics:relic_experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "5E112AA1FA617ED2"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 1.6d
 			tasks: [{
@@ -549,11 +876,22 @@
 			}
 			id: "1EF42C5E567FCBF4"
 			optional: true
-			rewards: [{
-				id: "3B44ED4A7C83C8F9"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "707A981AF694F1CB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "3CBDBBB4ACBC68AF"
+					item: {
+						count: 1
+						id: "relics:relic_experience_bottle"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -577,11 +915,22 @@
 			}
 			id: "1704004A295FEED3"
 			optional: true
-			rewards: [{
-				id: "6D03DE6A821BD3D8"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "5E4852FE78366AC5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "2102D76B9A904A65"
+					item: {
+						count: 1
+						id: "relics:relic_experience_bottle"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -605,11 +954,22 @@
 			}
 			id: "23E2947218E77C98"
 			optional: true
-			rewards: [{
-				id: "717E5C42FA5D41F1"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "40C6366B9C194C57"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "4FE9BE647A52982A"
+					item: {
+						count: 1
+						id: "relics:relic_experience_bottle"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -633,11 +993,22 @@
 			}
 			id: "0FC500CA9666C918"
 			optional: true
-			rewards: [{
-				id: "622EDD9B1668AE94"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "3AE0DC9D441F2ADA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "52B4B8416C3065D8"
+					item: {
+						count: 1
+						id: "relics:relic_experience_bottle"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -661,11 +1032,22 @@
 			}
 			id: "3B7CF930BD90D072"
 			optional: true
-			rewards: [{
-				id: "39C07E909A2B6CE3"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "496542A16338F846"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "413BA24D23C769C8"
+					item: {
+						count: 1
+						id: "relics:relic_experience_bottle"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -689,11 +1071,22 @@
 			}
 			id: "21D853A828967222"
 			optional: true
-			rewards: [{
-				id: "1E019D4FA69FBDC2"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "23F0D6A750767F58"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "152B4EA866FDD3CD"
+					item: {
+						count: 1
+						id: "relics:relic_experience_bottle"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{

@@ -474,111 +474,111 @@ hash = "041806a6bf31a86d45e2fa354ddd202e19aa8d7b1baff029f0cefe1c018c23a8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/armor.snbt"
-hash = "fa71bd36e7140ccd0aae99fece8789b06aefe3414a83dd210e3ed39a06054a17"
+hash = "da4ce354a9353feb388dda2e836961da345708420c11d49c92970135561929da"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/artifacts.snbt"
-hash = "e607394c60412d3737e52bbddf39e3ca3d6d3c4d17317f1835526d169c84d306"
+hash = "3802ebaf156acc94dcb1b302116e987a3196c8245f24f7e2f3db1ae56edbf912"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/battle_gimmicks.snbt"
-hash = "b1901e8d31764177814361026f67ff54336786692c57c3469cc221a51ed92f1f"
+hash = "60c78d2d04ce75c87cd455e1b91a7f6570ef1a5fca32684a577b5ea05d80b4a8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/building.snbt"
-hash = "197d5e29c327dc0295f3cf0601c30215ddc3fc80ef46b3c933cbf97b68af0401"
+hash = "515fdeb7b6fa361e4be10398df3ac33da1e0d9972bca5b7eafac9a46ac55b2bc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "b7d1a67c12a702e9f2004e79450b1a2f271c53a602f2e8e71d4d16c457c2cb92"
+hash = "121921a4f783ecb5bc17f526a4b932c13fe48b14380164aad59453e0f1755b01"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/evolution.snbt"
-hash = "3f117175a7f559008a57b076170fdf38fa2ffee57c2501fdf69dcef55df08133"
+hash = "c8068fe591c157333e76fa885fe9d0f5cd511ac5e582bb4988657214f3171ea1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gotta_find_em_all.snbt"
-hash = "e27f20e589b5a4ec10f02354d3819eab7e7eff819f9783c92588bdd25a7edcbe"
+hash = "84d22ff8c195be695cc75ec9c175cf0aed482f01e30624e243291450726c8aec"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/legendary.snbt"
-hash = "3ac392d5ee3f8eab536edea412e6a1899c64741964e74bcd300b1b326cd7b81b"
+hash = "d389140161e5961a5fe0afc1348a2b705a183d39e82ca93e708585791b0cb264"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/oritech.snbt"
-hash = "e683a9ce931d093f4c59659cc3f83db6d6e4d21f2a2e08bba76811236095bdf4"
+hash = "aa3f349fea5cc51c2f54e55ae10f79d4c5cd9f06899f95b45fe329dee44e9589"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/paradox.snbt"
-hash = "1e76cc8c37dcdf4834977122d8ee1d112a700876b762af76676f2be93a52b4a2"
+hash = "84f2808f2bab671d9069409231236286f6e1f5cfac6974909e0f2c74cf575891"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/poke_balls.snbt"
-hash = "764508b4ee6d78822aa4c4d1280b82e3f6a7efa696ef6afa3d4236f65590da7b"
+hash = "d8f28a17c481ef5049308298064a9d7af0628406cc3e8609bb69c4cc3fb31332"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/raids.snbt"
-hash = "55cd1d947d0dbac9d1851af2ee8f7004bbb240f844cf0bb2c03444506642930a"
+hash = "828f4279152fb9573e09a90c6b7699c03876731739e84d80379c7d8405a6bcfc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/relics.snbt"
-hash = "b3924f9bae420bf06d1c59fb2daedeb3d95b0b0abfc15b5334b8b646980ae1e7"
+hash = "4881482b45da05f5f3aba3833e575b84e48afdbd5e70b0a5cf9f2f66174a2da9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stage_0.snbt"
-hash = "14790add4615552fdd4e7e7cd3c0b482dbc1bd5fa1c2eaf028cfb000811b40c2"
+hash = "16e3ca8b0b5a81a3cc414ea38e6cfadf8e17c2aacdc8f6264baaadbd62e6f12d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stage_1.snbt"
-hash = "531ed4c5a0abdbd19b5705ac540acb6404b562d49adb2b93c14c9eb02e3b5ecb"
+hash = "6d008691f4990f5a124b16d78fcc4634f36b7692eeeff0dafb1cafefc74d4746"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stage_2.snbt"
-hash = "4432a4cbec6099c6318584de417f3f3c29c5dcf0751ae6d37e20bda289a9f957"
+hash = "ce20b8949d916874ae7876da0bbcbfb16c29add1a079b36f32811c8771ba55a4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stage_3.snbt"
-hash = "8ac2ef1277fcc21a92ffb1360d386fc379e9fa08cbced09803ec1517398e2946"
+hash = "d5fdad48af7a5ba261eb7641db13a7d296c0002e7413cc5c34c91bdc63797d79"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stage_4.snbt"
-hash = "77d3631d9ba324d35efe0e31bd648e9126016eca8bbc45877d6d5932e7d89f6b"
+hash = "80b9a63a05863037933238053743ea53cb43acc613361f464a1aae88fac64eda"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stage_5.snbt"
-hash = "4aa43a1cbd75ef9b6160866afdaf17f1c1b2ee3c8e4a730c71ac01f50d384625"
+hash = "436b27ae729670ac23d4b4d1bc0b07afa7e2788c64145ab3d2e13c88a0d55b5c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stage_6.snbt"
-hash = "b3a4c23dea602e1ace14a5159d0aeb95d4f6a9be6a958139adb60a4581ce9674"
+hash = "8ab5cea75c9eaf8acbbb1c55b2c7cd637585758ec11a3c9603ce3dd9145dc5ec"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stage_7.snbt"
-hash = "2f2dc676d780d475376cba3495d16077d63992f5c8e6bb26d5232967f6462599"
+hash = "3783d40df9da18aef2a1fba0f00ac1947f5424fe87abd1f940f5d31a7701c5fd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stage_8.snbt"
-hash = "95a299ff6ab01b5eb1f5735a37870b266b8ef8672459189918c2fd22eaf2584b"
+hash = "47538f338c48ac0f0dd12958927b7162c652e512cc40f6815edf198b49ecc43e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stage_9.snbt"
-hash = "e9fa0a7a9159fc60fc9d89c64b1d2c87743b62cdc5d8da8fdc691adf67905ba9"
+hash = "b8181f95794c0d229dfad8fb3222bb089ef13c1bea890f0787726b368f9db00e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/storage.snbt"
-hash = "7a729cf2dc674b0d69f0337e15fd8ea6ada889a6051645b9fcc00bc6e5d9d624"
+hash = "18a8f3b53d661a1fa45a3a696708c123cc367c75496d37b0ac329efdabaef9b6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tools_weapons.snbt"
-hash = "fcaf255d953f850badb8815385e45de3d941a76b9aee2aecf60f92905e6d3b55"
+hash = "9cc582e5b9ea0a6aad33108a0c37e865a5e46f936c9fd0072eb63001066d75ee"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/training.snbt"
-hash = "be5fd94e33ff43f7c47676cfb57c5b7ced7e21bd4ed8ea4f4130b1a708188239"
+hash = "e758992d7248cb9a4ffe1d5fe4ebfcb6832a7ea7b1fd02d4e7d876143e2dfde5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ultra_beasts.snbt"
-hash = "9206dc2acfbcf3b312bb9fb050dc7dac0c1c6bdc248fec2e08a79ffea8038d57"
+hash = "686c6b354f5b43d5e13fac2160cf23a26f972478bb18661ed52bae1125cd8c11"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -586,7 +586,7 @@ hash = "520c41cea36c45c2c1eb854ed8d3b1c17a4c48fef620942245a88150890b0ec5"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "b6badbaffebcb6b469f6ba7edf0409e248191438b2e7458ff16a0a87fb8b0bb3"
+hash = "f895a1b02e10931bef3d7877de1a4c002484834664ccbea16fbdaf733ae64802"
 
 [[files]]
 file = "config/magnumtorch-server.toml"

@@ -107,11 +107,42 @@
 				id: "minecraft:iron_chestplate"
 			}
 			id: "1E57DC8E238DA8EC"
-			rewards: [{
-				id: "13C7B78CC257FC45"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
+			rewards: [
+				{
+					id: "162F0A230AA2E222"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 16
+					id: "617D394FC557386C"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3233080CAC650E55"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "761F2CBD9BF2CD49"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 2.25d
 			tasks: [{
@@ -131,11 +162,42 @@
 			}
 			id: "371C3EEB2A50EFAE"
 			optional: true
-			rewards: [{
-				id: "2A909583846C1468"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "27BDE7C19EFDEC4C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 8
+					id: "3945288E95D50786"
+					item: {
+						count: 1
+						id: "oritech:plastic_sheet"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "65484BDD186A5792"
+					item: {
+						count: 1
+						id: "oritech:electrum_ingot"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "737AC3C84B928D34"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [
@@ -185,11 +247,42 @@
 			}
 			id: "6CA0DDEDB517A4CA"
 			optional: true
-			rewards: [{
-				id: "0D106AE1A54D8E27"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "6BCE1B4BC4686AAA"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 16
+					id: "59540D26C74AA348"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2CC0C792A3A9C35A"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "479D9FBFFB223D43"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [
@@ -239,11 +332,42 @@
 			}
 			id: "023FA5C37D3492A4"
 			optional: true
-			rewards: [{
-				id: "3A6ADA79481BF8A4"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "1F2A672B794AD7F4"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 16
+					id: "5FE541114999B0A2"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1277B853A7453C50"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "62E573AC745512E9"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [
@@ -293,11 +417,42 @@
 			}
 			id: "536015D07F7B33AB"
 			optional: true
-			rewards: [{
-				id: "7E5E422BFFB66687"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "46441F72590A0E34"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 8
+					id: "2AAE8A51DE75F9CD"
+					item: {
+						count: 1
+						id: "oritech:electrum_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "52EC0DB0E7AB1F1F"
+					item: {
+						count: 1
+						id: "oritech:magnetic_coil"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "40B50B6A38B4022B"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [
@@ -347,11 +502,42 @@
 			}
 			id: "796DBD259DCDC00C"
 			optional: true
-			rewards: [{
-				id: "434D642AD6E2323A"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "6867B607FD652F1D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 16
+					id: "50A66A25A4C3473F"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6682C3DA0CB2ACAA"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "189FA24A15A9A52C"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [
@@ -401,11 +587,42 @@
 			}
 			id: "401C64A8717317A1"
 			optional: true
-			rewards: [{
-				id: "62127D133E5D716B"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "31C67E61198411E1"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 8
+					id: "60FD0EB8B54DB5BC"
+					item: {
+						count: 1
+						id: "create:brass_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "78A009E248BF45C3"
+					item: {
+						count: 1
+						id: "create:belt_connector"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "7F60ECBF9869C525"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [
@@ -455,11 +672,42 @@
 			}
 			id: "19AF52EB0E952510"
 			optional: true
-			rewards: [{
-				id: "50E1983E379C21EE"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "47ABA228001B016B"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 16
+					id: "119C7AF0629F6F18"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "54F24CA51BE1AF69"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "5BDD42D173B0460C"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 0.9d
 			tasks: [
@@ -509,11 +757,42 @@
 			}
 			id: "33D09C7F51FFF476"
 			optional: true
-			rewards: [{
-				id: "2FBF7595F04360F9"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "3A80AB39B149EB26"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 16
+					id: "118DB0DBA1ACEBD5"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "486EC0BFE14328AC"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "296445075CA76081"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 0.9d
 			tasks: [
@@ -563,11 +842,42 @@
 			}
 			id: "6B1F612662B8439E"
 			optional: true
-			rewards: [{
-				id: "1125537B2656D3B5"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "5F17974B1C8CE9A4"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 16
+					id: "6CFF074DAEFAF0E9"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3B18E6545A01BE48"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "466763F03BDEB6E4"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 0.9d
 			tasks: [
@@ -617,11 +927,42 @@
 			}
 			id: "2F8EFFB4C029F46B"
 			optional: true
-			rewards: [{
-				id: "418D979B597431C6"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "44FE83784094520C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "51F277564EE0E7EC"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5258E595C53AA84E"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "19B73DBCE9AAC5E2"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 0.9d
 			tasks: [
@@ -671,11 +1012,42 @@
 			}
 			id: "683015A55A0B136B"
 			optional: true
-			rewards: [{
-				id: "1B610EEF4DEFF5DE"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "3678DE58D5686DE5"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 16
+					id: "295B3668010F82E2"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "50B60E247B540F35"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "348F80A2A903AEF3"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 0.9d
 			tasks: [
@@ -725,11 +1097,42 @@
 			}
 			id: "7CE2CEA8B0DF5ECD"
 			optional: true
-			rewards: [{
-				id: "3112074681B75CD7"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "4AF5888D53B4AF56"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 16
+					id: "3E4A9A9B94296107"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "41A6FF4D727BFA3C"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "17F12C6D7FF04334"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 0.9d
 			tasks: [
@@ -779,11 +1182,42 @@
 			}
 			id: "1D926FD5D9442C58"
 			optional: true
-			rewards: [{
-				id: "250D987A40C966E9"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "3446AE4E5F2A6307"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 16
+					id: "33FE70D8B6270F03"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1620273461E72F0C"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "4964D550F7DF1299"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 0.9d
 			tasks: [
@@ -833,11 +1267,42 @@
 			}
 			id: "2B53289286A8F307"
 			optional: true
-			rewards: [{
-				id: "2B6FE42C8046FF03"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "3CE117ABAC1206CE"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 16
+					id: "296CEFDC0BC59E13"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "75CD76B95EA16193"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "45B9D91D2E608E3C"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 0.9d
 			tasks: [
@@ -887,11 +1352,42 @@
 			}
 			id: "6B42D82B46581C28"
 			optional: true
-			rewards: [{
-				id: "5D2ED23E125E88E2"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "384D16AADE7DAE4D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 16
+					id: "546A3C8ADE536296"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "255DDAD497F097F9"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "42AFCC64750B8CC5"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 0.9d
 			tasks: [
@@ -941,11 +1437,42 @@
 			}
 			id: "7499F393BCBC7444"
 			optional: true
-			rewards: [{
-				id: "13420382A5F4FDC9"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "4EDE1B71BEC00DD3"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 16
+					id: "7D2D02EBE843C8A1"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "664B06F9A21FD1B7"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "537380E8E6191021"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 0.9d
 			tasks: [
@@ -995,11 +1522,42 @@
 			}
 			id: "1E05AFCF5DF3252C"
 			optional: true
-			rewards: [{
-				id: "52897E9FE7A91AC7"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "1FC778A7FF517AE7"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 16
+					id: "543FC10F0DE1022A"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "69FC244CB38DA432"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "2EEF4502DA822EDF"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 0.9d
 			tasks: [
@@ -1049,11 +1607,42 @@
 			}
 			id: "26E5012F75B9D0A1"
 			optional: true
-			rewards: [{
-				id: "2BFF8D4DAA29D4F9"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "642E3EC03E1B2AB4"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "408666D147570489"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "442F407849B7F297"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "417B965B7476DF56"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 0.9d
 			tasks: [
@@ -1103,11 +1692,42 @@
 			}
 			id: "13011EA84BCEECB0"
 			optional: true
-			rewards: [{
-				id: "3C9142C627A2B3B4"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "3F5876D626D11EFE"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 16
+					id: "71A3596220518A1D"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4767F2AEF2AC0463"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "5CBF21AF96EC7AB1"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 0.9d
 			tasks: [
@@ -1157,11 +1777,42 @@
 			}
 			id: "372AF170CD6925A0"
 			optional: true
-			rewards: [{
-				id: "7EC0D9652E190AD6"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "687A271A3408FA83"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 16
+					id: "4430BCE1911CED73"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2FC614A56CC36C9D"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "33C08C7A21A770F5"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 0.9d
 			tasks: [
@@ -1211,11 +1862,42 @@
 			}
 			id: "21D7A05D65F4B93B"
 			optional: true
-			rewards: [{
-				id: "386BAAA159B664EC"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "2F6EA8DFD7F90E52"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 16
+					id: "2B4E3936D556CD2D"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6C0A058C5B71ABC7"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "626B0CEEF7A1CAA9"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 0.9d
 			tasks: [
@@ -1265,11 +1947,42 @@
 			}
 			id: "60C84ED4B70FBAC6"
 			optional: true
-			rewards: [{
-				id: "7C65AF533B71F05B"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "59BD4176FDD17A9A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 16
+					id: "35E560C987B23191"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4FAC573BC0B99144"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "2498D116D0C72870"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 0.9d
 			tasks: [
@@ -1319,11 +2032,42 @@
 			}
 			id: "5D770A708BAEBCD9"
 			optional: true
-			rewards: [{
-				id: "35A6A71CF5F17683"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "34EF26D4E7FEFCC6"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "6DA4870143927AB4"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "796947DBB1F96E8A"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "232C09B99EE6E29C"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 0.9d
 			tasks: [
@@ -1373,11 +2117,42 @@
 			}
 			id: "74EB07196896D7A6"
 			optional: true
-			rewards: [{
-				id: "5725015DE7AE667C"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "3F39CB33B95AB55B"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 16
+					id: "61FB0144F76BA6D3"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "51D136A09DB75637"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "685BB0C5C9C7430A"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 0.9d
 			tasks: [
@@ -1427,11 +2202,42 @@
 			}
 			id: "6CD7434739DE1CE8"
 			optional: true
-			rewards: [{
-				id: "2BCF3E1D9747E12F"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "1176DD41858D9580"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 16
+					id: "1CE371BCE961B528"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4D2550F4C8637E3E"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "42B65489569880D0"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 0.9d
 			tasks: [
@@ -1481,11 +2287,42 @@
 			}
 			id: "1E999C2D6790B140"
 			optional: true
-			rewards: [{
-				id: "52A7FF3713B26AEE"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "2801C135B33107E4"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 16
+					id: "2BC85E243341957D"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "35B35A80B136F515"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "5E92F377D978A811"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 0.9d
 			tasks: [
@@ -1535,11 +2372,42 @@
 			}
 			id: "5B7F1EF2F68D3E56"
 			optional: true
-			rewards: [{
-				id: "3DAFD0F359B8A6BE"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "52D0286EF6EEDA02"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 16
+					id: "7807BD12588E6F54"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5C7FDF9F5349382B"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "4C1BD02AC2A146A8"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 0.9d
 			tasks: [
@@ -1589,11 +2457,42 @@
 			}
 			id: "681F5F2FE15DAB2D"
 			optional: true
-			rewards: [{
-				id: "43E2C4E888251D91"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "36D187FA804BC21E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 16
+					id: "38F44C758C58E96E"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2D9BD3D5B515DEBC"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "55223604A9B852B1"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 0.9d
 			tasks: [
@@ -1643,11 +2542,42 @@
 			}
 			id: "4BB0A7AB70BBF5ED"
 			optional: true
-			rewards: [{
-				id: "0068841FD8FE27FF"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "5F183F01B342E53A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "14AF1CDFB47EDC79"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "586CB3D8483D8A14"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "7D4F2F81A26CF8AC"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 0.9d
 			tasks: [
@@ -1697,11 +2627,42 @@
 			}
 			id: "446AB77EE10DC9B4"
 			optional: true
-			rewards: [{
-				id: "6005116515C2EC36"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "46A672F46EA6A8EF"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "12A5BDF71ED4EA53"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4E68DA4B03ED1DE6"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "425E5EA6678BC69F"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 0.9d
 			tasks: [
@@ -1751,11 +2712,42 @@
 			}
 			id: "148178E905BD69A8"
 			optional: true
-			rewards: [{
-				id: "3EA32ECBE2D4859C"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "5669F20123BBFB46"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 16
+					id: "5B1CB7DEA4B3FB8E"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "56CBBFDBDAEA7A70"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "2B13A96403B6C470"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 0.9d
 			tasks: [
@@ -1805,11 +2797,42 @@
 			}
 			id: "1EAA0A237429A1BD"
 			optional: true
-			rewards: [{
-				id: "3B161CA35A2E9E28"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "681707B4C56C1E0C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 16
+					id: "700C189647A235FD"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "126D8DC6BACE4042"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "4EFA3F4F539818C0"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 0.9d
 			tasks: [
@@ -1859,11 +2882,42 @@
 			}
 			id: "7C06E648111EF74B"
 			optional: true
-			rewards: [{
-				id: "72EBB7C29233C826"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "5D2E14D2667B7EE2"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 16
+					id: "3017A2BF719CD9F8"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1111AD6FDC2E1B5F"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "6264A5690AC7E099"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 0.9d
 			tasks: [
@@ -1913,11 +2967,42 @@
 			}
 			id: "2220892374520AA8"
 			optional: true
-			rewards: [{
-				id: "5E0BF67E172CFEAD"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "128359A9CD4F6FC2"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "125CED4F8906435A"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "41F309D5A2F94D10"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "7C25B624A4455512"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 0.9d
 			tasks: [
@@ -1967,11 +3052,42 @@
 			}
 			id: "631E2A48ADD395C4"
 			optional: true
-			rewards: [{
-				id: "62599D59F88ECBBE"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "778C7D08F68774E0"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 16
+					id: "622422DD366575F9"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3D18A7CFC328A156"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "55DA4F61AC151280"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 0.9d
 			tasks: [
@@ -2021,11 +3137,42 @@
 			}
 			id: "611A3678EAF84A53"
 			optional: true
-			rewards: [{
-				id: "4D3422A683E2B393"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "3F32C70758389739"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 16
+					id: "1CFF6AB82A90C413"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "44585A89F983C2CC"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "4A87FEE8427B16F2"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 0.9d
 			tasks: [
@@ -2075,11 +3222,42 @@
 			}
 			id: "2AD00011004159D0"
 			optional: true
-			rewards: [{
-				id: "659EC87308762B40"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "1ED16123D1DF906C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "4E3BF59BD2623710"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1DEF3C07CA335435"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "3BE0B58CE9261863"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 0.9d
 			tasks: [
@@ -2129,11 +3307,42 @@
 			}
 			id: "31BEE78E0E6B6229"
 			optional: true
-			rewards: [{
-				id: "2B6B50AFAE67F5E8"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "183DC1E8BC9E1618"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 16
+					id: "7476790DE5D6F675"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3924614967A42095"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "3A4C883BBB4E1C8F"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 0.9d
 			tasks: [
@@ -2183,11 +3392,42 @@
 			}
 			id: "4DB0702500799233"
 			optional: true
-			rewards: [{
-				id: "510C676B8D5E060F"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "1FF39C3F2C03C828"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "6CE3B48481E1BC62"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "78B45622FBA804A6"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "45541915E1E9AADA"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 0.9d
 			tasks: [
@@ -2237,11 +3477,42 @@
 			}
 			id: "4FD237F458EE4E8C"
 			optional: true
-			rewards: [{
-				id: "2EA65C1C80C15E34"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "217092BD540E72D8"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 16
+					id: "6088EDC550B86921"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5BB5C27B1F2920A3"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "7B8AD4E6C01D9DC0"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 0.9d
 			tasks: [
@@ -2291,11 +3562,42 @@
 			}
 			id: "7DA292ABE86A80BD"
 			optional: true
-			rewards: [{
-				id: "4B78FFEC77A657B3"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "3E5E567E46F311BF"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 16
+					id: "1C2BB77F0BC5B603"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2DE66BF08958EC4B"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "2994620EABD0885C"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 0.9d
 			tasks: [
@@ -2345,11 +3647,22 @@
 			}
 			id: "28385241BECD2EA1"
 			optional: true
-			rewards: [{
-				id: "1D1DF21AA5D63CE2"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "3A94EC5D8AF052DB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "7E7C653B44F77844"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 0.8d
 			tasks: [{
@@ -2373,11 +3686,22 @@
 			}
 			id: "40F5B7C8A6328D27"
 			optional: true
-			rewards: [{
-				id: "75848BD6B53B1568"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "7CCA14EFFA04FC87"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "467ECF13D7EA9786"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 0.8d
 			tasks: [{
@@ -2401,11 +3725,22 @@
 			}
 			id: "482C7C7AAEC80F40"
 			optional: true
-			rewards: [{
-				id: "1599781BD4F8A15A"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "661803DB4022B33A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "6F17EB801A363C65"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 0.8d
 			tasks: [{
@@ -2429,11 +3764,22 @@
 			}
 			id: "1E8E6C5C1A9F29CE"
 			optional: true
-			rewards: [{
-				id: "787334C1FE3BDE1F"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "5658C82D1557FBB7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "2CA3D3336E5AB5C8"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 0.8d
 			tasks: [{
@@ -2457,11 +3803,22 @@
 			}
 			id: "7581980378AF164D"
 			optional: true
-			rewards: [{
-				id: "605FD09457D63DAB"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "27130A20E2F9A041"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "142EEA073CDCC296"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 0.8d
 			tasks: [{
@@ -2485,11 +3842,22 @@
 			}
 			id: "1A151234403C08CD"
 			optional: true
-			rewards: [{
-				id: "12453FCF6C09977A"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "3B33DF33ADB65596"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "421EF3945D27E555"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 0.8d
 			tasks: [{
@@ -2513,11 +3881,22 @@
 			}
 			id: "1F8AA35AACB8F689"
 			optional: true
-			rewards: [{
-				id: "2DD681FEF79406DD"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "463F4DFB4C795ED0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "4EC7D049C3FB135A"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 0.8d
 			tasks: [{
@@ -2541,11 +3920,22 @@
 			}
 			id: "7795554C868F0457"
 			optional: true
-			rewards: [{
-				id: "376C1C82C025FC68"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "37D5D7C1DF8A1467"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "7F485FAFE6C19BA6"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 0.8d
 			tasks: [{
@@ -2569,11 +3959,22 @@
 			}
 			id: "498E49B07C3DA8EF"
 			optional: true
-			rewards: [{
-				id: "5DDF2A796E9796C3"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "5A79247FC371BCB9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "4943C8F6B5688CDC"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 0.8d
 			tasks: [{
@@ -2597,11 +3998,22 @@
 			}
 			id: "2AA82E5EA558F2C3"
 			optional: true
-			rewards: [{
-				id: "73F34A3ADB462F7A"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "490FF7DD702C6187"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "29A04104A3721A0F"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 0.8d
 			tasks: [{
@@ -2625,11 +4037,22 @@
 			}
 			id: "391BEA798A3F3BBC"
 			optional: true
-			rewards: [{
-				id: "2929DBD8A9CBC49E"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "5E57764EC66E1CB5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "27BD857946A7CD46"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 0.8d
 			tasks: [{
@@ -2653,11 +4076,22 @@
 			}
 			id: "34FA967F87D916DA"
 			optional: true
-			rewards: [{
-				id: "596C5C86AD2CF565"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "17C7E5C8A66B4FF0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "5A9B41AF00B85DA7"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 0.8d
 			tasks: [{
@@ -2681,11 +4115,22 @@
 			}
 			id: "4FB10BA1264F3778"
 			optional: true
-			rewards: [{
-				id: "52426587ADB2C8FF"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6AAD56E72B5E1E7F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "5129D9D692CC25F6"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 0.8d
 			tasks: [{
@@ -2709,11 +4154,22 @@
 			}
 			id: "146BDAB9CA1406C4"
 			optional: true
-			rewards: [{
-				id: "0DE5D346C23151FF"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "26A2CAB7C4A03565"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "4665958849E8D043"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 0.8d
 			tasks: [{
@@ -2737,11 +4193,22 @@
 			}
 			id: "1AA7533E05718187"
 			optional: true
-			rewards: [{
-				id: "43E4A0A80755160E"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6F84D4D5EA3F494E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "790D7BF89C4272C2"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 0.8d
 			tasks: [{
@@ -2765,11 +4232,22 @@
 			}
 			id: "3F35B9B4D4DAEF50"
 			optional: true
-			rewards: [{
-				id: "0DBE2F36E7AE4D9B"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "4F615B489F35C690"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "75D42B414B4BB900"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 0.8d
 			tasks: [{
@@ -2793,11 +4271,22 @@
 			}
 			id: "7D3510B7290D3C73"
 			optional: true
-			rewards: [{
-				id: "30E7B52D93C5232A"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "7756E9D2D26A2E83"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "4EF7D9B0700E18B3"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 0.8d
 			tasks: [{
@@ -2821,11 +4310,22 @@
 			}
 			id: "5C9B55CF90D19BA4"
 			optional: true
-			rewards: [{
-				id: "5339550830AB32F5"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "342339D0AB171CEC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "518C27D008AA0584"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 0.8d
 			tasks: [{
@@ -2849,11 +4349,22 @@
 			}
 			id: "60641E9E887F5398"
 			optional: true
-			rewards: [{
-				id: "1754E3FE5E241048"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "102F24F911A5C919"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "50771683AA6D1881"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 0.8d
 			tasks: [{
@@ -2877,11 +4388,22 @@
 			}
 			id: "08C918E7D619C947"
 			optional: true
-			rewards: [{
-				id: "2FBC225ED7A96A82"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "53207761EE5A5ABF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "3645197EA1338EE4"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 0.8d
 			tasks: [{
@@ -2905,11 +4427,42 @@
 			}
 			id: "546ECBC3A98A93F7"
 			optional: true
-			rewards: [{
-				id: "3737F5CFAD253C9E"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "2B5846AD0A91B3D6"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 16
+					id: "744753EB8D45054B"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7C0234F0B99BE9A3"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "4E4F7B5BE60D9284"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [
@@ -2959,11 +4512,42 @@
 			}
 			id: "17054473EC6F3B06"
 			optional: true
-			rewards: [{
-				id: "19DC8018515C06A2"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "700CF732512A38B3"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 16
+					id: "582DDE7F57746B84"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "78FD2EE5F0D4BBF7"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "4DA01A57C79E752C"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [
@@ -3013,11 +4597,42 @@
 			}
 			id: "232DEE40066FAEAF"
 			optional: true
-			rewards: [{
-				id: "447DA8639FB316A6"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "432072C9A0731138"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "1CBBF57C762D065B"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2D76FF26D9314354"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "4B72C910E7AD0BD4"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [
@@ -3067,11 +4682,42 @@
 			}
 			id: "25D22D69F34E2AD7"
 			optional: true
-			rewards: [{
-				id: "43923D8C1E2B393B"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "32BC7E7ED220E99C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "4D4FCF03BBD10603"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "45B423594349AB1D"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "6CDB7BC56B31B20E"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [
@@ -3121,11 +4767,42 @@
 			}
 			id: "66C6B7D58A1B4ECA"
 			optional: true
-			rewards: [{
-				id: "3813F6A2E5956205"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "4A613EAF61A308C5"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "1203DDE97E3B0DF2"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5A489E4BCB974ACB"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "786F37720B3E42EE"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [
@@ -3175,11 +4852,42 @@
 			}
 			id: "6120DA685E3606C7"
 			optional: true
-			rewards: [{
-				id: "7F4E5FCC39C136F3"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "6662C538DBD68B77"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 16
+					id: "5EE57509EA2CF187"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "43EBD47991AA3513"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "1A12C3F663EF8B09"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [
@@ -3229,11 +4937,42 @@
 			}
 			id: "485A36CEE175F8E8"
 			optional: true
-			rewards: [{
-				id: "377D44537C922921"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "3BC709323C514FFC"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "7E387278B84C7341"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "68366BFCBD4D8087"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "311F7CC9AB7F1E3F"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [
@@ -3283,11 +5022,42 @@
 			}
 			id: "1D93F6922DE04567"
 			optional: true
-			rewards: [{
-				id: "4133DAE6F5ADB503"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "7583AB96120B7602"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 16
+					id: "78B6C7D1FCF0C4EB"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "606D22F8855C99E1"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "6BDBA8A13C54E97D"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [

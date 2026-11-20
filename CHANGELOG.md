@@ -2,6 +2,17 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.35
+
+Already playing? Just press Play: the pack updates itself.
+
+- **Much better quest rewards.** Every quest now gives items from its own mod on top of its XP: Create parts for
+  Create quests, Oritech materials for Oritech, storage upgrades for storage, Poké Balls, candies, potions and
+  evolution stones for Pokémon quests, and so on, scaled to how big the quest is. Bigger quests also pay
+  CobbleDollars (500, 2,000 or 5,000), and the gym and stage rewards are doubled.
+- **Claim them again.** All rewards are new, so quests you've already finished now have their new rewards waiting.
+  Open the quest book to collect them. Your quest progress is unchanged.
+
 ## v0.1.34
 
 Already playing? Just press Play: the pack updates itself.

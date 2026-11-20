@@ -42,11 +42,41 @@
 				id: "cobblemon:beast_ball"
 			}
 			id: "5FC7514FC49B77D2"
-			rewards: [{
-				id: "46200A4D14D4F01A"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "293D23894FE4176A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 3
+					id: "363C07BDD83858B5"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
+					type: "item"
+				}
+				{
+					id: "2CF366A6F8F79D58"
+					item: {
+						count: 1
+						id: "cobblemon:max_revive"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 2000"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "24E0D8202B8B0BD3"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 2.25d
 			tasks: [{
@@ -68,11 +98,41 @@
 			}
 			id: "67FCAC0447FE1CC3"
 			optional: true
-			rewards: [{
-				id: "3019E2B4DA5403A5"
-				type: "xp_levels"
-				xp_levels: 4
-			}]
+			rewards: [
+				{
+					id: "120FE2749E8C3CAE"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					id: "30CF1DD8F7A41791"
+					item: {
+						count: 1
+						id: "cobblemon:max_revive"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5D27C2D78519BBE8"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 2000"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "41FABA39C3581F1C"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 1.1d
 			tasks: [{
@@ -119,11 +179,42 @@
 			}
 			id: "5DD361ACFAB94FEB"
 			optional: true
-			rewards: [{
-				id: "7661E0BEA71EB9C5"
-				type: "xp_levels"
-				xp_levels: 4
-			}]
+			rewards: [
+				{
+					id: "48BC2890A0C36F09"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 3
+					id: "65103A7759419679"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "1C9C40DE8DA69D74"
+					item: {
+						count: 1
+						id: "cobblemon:beast_ball"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 2000"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "70EC9E194BC5F3BF"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 1.1d
 			tasks: [{
@@ -170,11 +261,41 @@
 			}
 			id: "206964BDCFDBA42E"
 			optional: true
-			rewards: [{
-				id: "1200CD6ACB8ECEFE"
-				type: "xp_levels"
-				xp_levels: 4
-			}]
+			rewards: [
+				{
+					id: "5FC8A8E907AD058E"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					id: "1BE80C157B102B03"
+					item: {
+						count: 1
+						id: "cobblemon:max_revive"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "1F6C500ED3239768"
+					item: {
+						count: 1
+						id: "cobblemon:beast_ball"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 2000"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "3F8FDA06BD9B6E44"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 1.1d
 			tasks: [{
@@ -221,11 +342,41 @@
 			}
 			id: "59A85AB40C4ABE42"
 			optional: true
-			rewards: [{
-				id: "2F12241A6ABE2FFD"
-				type: "xp_levels"
-				xp_levels: 4
-			}]
+			rewards: [
+				{
+					id: "46E5C1D9E072EEED"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 5
+					id: "2DE0AA50BD0DA0E6"
+					item: {
+						count: 1
+						id: "cobblemon:beast_ball"
+					}
+					type: "item"
+				}
+				{
+					id: "1482B65002809AE3"
+					item: {
+						count: 1
+						id: "cobblemon:max_revive"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 2000"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "5FF89A6E7D44184B"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 1.1d
 			tasks: [{
@@ -272,11 +423,41 @@
 			}
 			id: "586F834BC649F8AB"
 			optional: true
-			rewards: [{
-				id: "1248DC84B342CB63"
-				type: "xp_levels"
-				xp_levels: 4
-			}]
+			rewards: [
+				{
+					id: "2F14798E637F8B5D"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					id: "6FE58E9398C8403A"
+					item: {
+						count: 1
+						id: "cobblemon:max_revive"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "42F7DD5748B3A51D"
+					item: {
+						count: 1
+						id: "cobblemon:beast_ball"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 2000"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "38699778C6E3BA3A"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 1.1d
 			tasks: [{
@@ -323,11 +504,41 @@
 			}
 			id: "3A60171A148B3181"
 			optional: true
-			rewards: [{
-				id: "03BB901C119FFEFF"
-				type: "xp_levels"
-				xp_levels: 4
-			}]
+			rewards: [
+				{
+					id: "2E19A41A28163F8E"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					id: "77E916A9E508EE2F"
+					item: {
+						count: 1
+						id: "cobblemon:max_revive"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "4EDF47949688BDE2"
+					item: {
+						count: 1
+						id: "cobblemon:beast_ball"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 2000"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "6F8BC4176BA2DAC2"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 1.1d
 			tasks: [{
@@ -374,11 +585,42 @@
 			}
 			id: "22323A03EA46254E"
 			optional: true
-			rewards: [{
-				id: "76322E8C6AB65DFF"
-				type: "xp_levels"
-				xp_levels: 4
-			}]
+			rewards: [
+				{
+					id: "5EC63DE5E1F79C53"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 3
+					id: "1DFB244C9A99CFE7"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "74F14026774DEDF3"
+					item: {
+						count: 1
+						id: "cobblemon:beast_ball"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 2000"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "426B77A44DB7642D"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 1.1d
 			tasks: [{
@@ -425,11 +667,42 @@
 			}
 			id: "5FD1565753F78B9A"
 			optional: true
-			rewards: [{
-				id: "4D6A743560C2FB97"
-				type: "xp_levels"
-				xp_levels: 4
-			}]
+			rewards: [
+				{
+					id: "43D273F087FCADB7"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 3
+					id: "221FE60DBD081AEF"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "3BA6AE2EA2FE8136"
+					item: {
+						count: 1
+						id: "cobblemon:beast_ball"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 2000"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "6E65C87FF81B6593"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 1.1d
 			tasks: [{
@@ -476,11 +749,41 @@
 			}
 			id: "259BF8C46F629E68"
 			optional: true
-			rewards: [{
-				id: "028E25D8335F90B5"
-				type: "xp_levels"
-				xp_levels: 4
-			}]
+			rewards: [
+				{
+					id: "252F5A10E3C09872"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 3
+					id: "74221E73638CB8C0"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
+					type: "item"
+				}
+				{
+					id: "5E0FB6E3DE8FE2BB"
+					item: {
+						count: 1
+						id: "cobblemon:max_revive"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 2000"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "2A8610EDFFD5E7A0"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 1.1d
 			tasks: [{
@@ -527,11 +830,41 @@
 			}
 			id: "6125359B960EC3C4"
 			optional: true
-			rewards: [{
-				id: "424632DDD3073FA8"
-				type: "xp_levels"
-				xp_levels: 4
-			}]
+			rewards: [
+				{
+					id: "6CE84676A6AF078C"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 5
+					id: "4428DE98E8D3F3AC"
+					item: {
+						count: 1
+						id: "cobblemon:beast_ball"
+					}
+					type: "item"
+				}
+				{
+					id: "7784C8772E6157B5"
+					item: {
+						count: 1
+						id: "cobblemon:max_revive"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 2000"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "1FFAB4E86D739DAA"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 1.1d
 			tasks: [{
@@ -578,11 +911,41 @@
 			}
 			id: "56E6DF2E41DEB7FC"
 			optional: true
-			rewards: [{
-				id: "7ADD28C74FCC3EB4"
-				type: "xp_levels"
-				xp_levels: 4
-			}]
+			rewards: [
+				{
+					id: "18ECE44F88413A7D"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 5
+					id: "132B16AA20D4DB48"
+					item: {
+						count: 1
+						id: "cobblemon:beast_ball"
+					}
+					type: "item"
+				}
+				{
+					id: "21C344F65B083B68"
+					item: {
+						count: 1
+						id: "cobblemon:max_revive"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 2000"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "1E0D28996E71914C"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 1.1d
 			tasks: [{

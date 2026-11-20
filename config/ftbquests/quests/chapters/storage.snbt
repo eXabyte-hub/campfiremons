@@ -71,11 +71,41 @@
 				id: "minecraft:chest"
 			}
 			id: "6A6EED89B1FB0321"
-			rewards: [{
-				id: "1B7664A64B0DE98E"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "16649BA4B0846058"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "529226FA71FA358F"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1137DD8D77D24B69"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:upgrade_base"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "50E26424B5BC958B"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 2.5d
 			tasks: [{
@@ -93,11 +123,41 @@
 				id: "sophisticatedstorage:chest"
 			}
 			id: "4649BEB0975F290A"
-			rewards: [{
-				id: "7A0F4487EE310D4A"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "1235BC45701FC2B3"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "11B4E67069169275"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1606F95B1D01F758"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:upgrade_base"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "1E2F94EB9F516AAC"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 1.6d
 			tasks: [{
@@ -121,11 +181,22 @@
 			}
 			id: "708DA36C869E85AC"
 			optional: true
-			rewards: [{
-				id: "6A20F28817713D4C"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "10A8F0C553E65611"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "4F1D7B02E8EDF6FD"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:upgrade_base"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -149,11 +220,22 @@
 			}
 			id: "52995F366982BE5A"
 			optional: true
-			rewards: [{
-				id: "0C36A7F0A873C8B5"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "63FF04CBD169AD92"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "3A361FDF5D20379C"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:upgrade_base"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -177,11 +259,22 @@
 			}
 			id: "43A1929B0B775B39"
 			optional: true
-			rewards: [{
-				id: "715D9BBF3E4FFFC8"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "7A0BB8234049525D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "3986E5DAC1A52BD6"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:upgrade_base"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -205,11 +298,22 @@
 			}
 			id: "1B22B807392404D0"
 			optional: true
-			rewards: [{
-				id: "1C1F6AC42C43023D"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "70856D81BD7F4584"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "7D315111593CC30E"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:upgrade_base"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -233,11 +337,22 @@
 			}
 			id: "6AC046C25263C896"
 			optional: true
-			rewards: [{
-				id: "3B166D57C3D95B1C"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "4AF0B14747D57CBB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "1EC8FE3D7DBB76BD"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:upgrade_base"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -261,11 +376,22 @@
 			}
 			id: "27F6ECC5F33026DB"
 			optional: true
-			rewards: [{
-				id: "73D26E8953FE165E"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "2F38992561EA486D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "70F3790E54BB8623"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:upgrade_base"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -289,11 +415,22 @@
 			}
 			id: "258892260787A6AC"
 			optional: true
-			rewards: [{
-				id: "2099EBB3E4D64D63"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6F5B8C9493F8853D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "22FA046E471B1C60"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:upgrade_base"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -317,11 +454,22 @@
 			}
 			id: "1527203E1F332D1E"
 			optional: true
-			rewards: [{
-				id: "79C2136AE24C4813"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6191A5759112D34C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "2021E52B9DEF90DC"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:upgrade_base"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -345,11 +493,22 @@
 			}
 			id: "4957672AE7A7E98C"
 			optional: true
-			rewards: [{
-				id: "60985AC6BFB79BCC"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "5949CDD90E83599A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "5446ED364D08F0C6"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:upgrade_base"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -373,11 +532,22 @@
 			}
 			id: "3FF97C19D90DEC0E"
 			optional: true
-			rewards: [{
-				id: "2A82A514CC929093"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "25975B3B66B684ED"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "1F58288B84930901"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:upgrade_base"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -401,11 +571,22 @@
 			}
 			id: "4ED0C85D89FFC9C9"
 			optional: true
-			rewards: [{
-				id: "33C6E0D72BE90C37"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "51F9FD348BFDEE9F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "27CA90035D72D9BC"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:upgrade_base"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -429,11 +610,22 @@
 			}
 			id: "6B7F0C1A67947852"
 			optional: true
-			rewards: [{
-				id: "2BA9C15D72B1DA94"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "62D2A969DC5AAA86"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "1773FC084489C580"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:upgrade_base"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -457,11 +649,22 @@
 			}
 			id: "21A70868FC917894"
 			optional: true
-			rewards: [{
-				id: "047534EAB9014EBD"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "27A8B53268E33DA8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "284EB0E0C7CF09DF"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:upgrade_base"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -485,11 +688,22 @@
 			}
 			id: "5ECF18A2817CFC8F"
 			optional: true
-			rewards: [{
-				id: "6B717972E6BE237F"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "36F7A1012346EE5D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "158084A35B4F7066"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:upgrade_base"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -513,11 +727,22 @@
 			}
 			id: "2485E2F9618C6D45"
 			optional: true
-			rewards: [{
-				id: "64BC92E288D8EBD9"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "2A47358125F504EE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "1E3C22D370D36AC5"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:upgrade_base"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -541,11 +766,22 @@
 			}
 			id: "5A5346572C0A078D"
 			optional: true
-			rewards: [{
-				id: "2931B3C32D71D494"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "71DE29FF0A3E7BE6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "1D499C26FC152C66"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:upgrade_base"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -569,11 +805,22 @@
 			}
 			id: "39E50416093CB6F2"
 			optional: true
-			rewards: [{
-				id: "74CD674A90B7FC61"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "686E049718DF0A62"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "5C385BEC7D558BB8"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:upgrade_base"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -597,11 +844,22 @@
 			}
 			id: "2836CE8206832AB2"
 			optional: true
-			rewards: [{
-				id: "48589A97DDA22492"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "2900A27593944B25"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "3105B43D61980E31"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:upgrade_base"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -625,11 +883,22 @@
 			}
 			id: "65C0AFC136735565"
 			optional: true
-			rewards: [{
-				id: "53792608FC0559AB"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "74DAC89558C8DE58"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "521C947EF6925869"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:upgrade_base"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -653,11 +922,22 @@
 			}
 			id: "0F1CAF7C6C9AB25A"
 			optional: true
-			rewards: [{
-				id: "47432345DBF1F6D4"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6EF10F0BC2E0DFB3"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "15FC949CF0E3F0B8"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:upgrade_base"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -679,11 +959,41 @@
 				id: "sophisticatedbackpacks:backpack"
 			}
 			id: "431AA05C065CB389"
-			rewards: [{
-				id: "3823C9CA4EF9D2B4"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "20E1358A9B395E41"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "1C405BAFDBD63958"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:pickup_upgrade"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "34A6E562D4E517DF"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:upgrade_base"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "4B282922156C69FD"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 1.6d
 			tasks: [{
@@ -707,11 +1017,22 @@
 			}
 			id: "40EEB7D2628529BA"
 			optional: true
-			rewards: [{
-				id: "24D44B55AB869544"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "57489E2F6DED944C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "690E8ADED7073B97"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:upgrade_base"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -735,11 +1056,22 @@
 			}
 			id: "35C9437B9ED2404D"
 			optional: true
-			rewards: [{
-				id: "5B8EF910D9CC7B9B"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "1401AAE5D68D0F03"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "707D2B7D0CD115AE"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:upgrade_base"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -763,11 +1095,22 @@
 			}
 			id: "0A4A48D03317D6D4"
 			optional: true
-			rewards: [{
-				id: "1A74D37C393C37B7"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6C6FB34C5886EF25"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "4B0AF2CBF7167183"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:upgrade_base"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -791,11 +1134,22 @@
 			}
 			id: "22992D62DE5DCAFB"
 			optional: true
-			rewards: [{
-				id: "341E9EB5CE3165F3"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "553FB291D3332E42"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "6631EC39508ABBFC"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:upgrade_base"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -819,11 +1173,22 @@
 			}
 			id: "3372BA5A246FCCFE"
 			optional: true
-			rewards: [{
-				id: "690EFC6CAD159107"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6E6DD22E0FEB2CDE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "58382A9F160EB29A"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:upgrade_base"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -845,11 +1210,41 @@
 				id: "sophisticatedbackpacks:upgrade_base"
 			}
 			id: "3FCD2C0BAA19AB69"
-			rewards: [{
-				id: "6E55E8836FDADC00"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "1B1197515834847B"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "229622A02EC7C122"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:pickup_upgrade"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "37465416E443368B"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:upgrade_base"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "1D027966BC6FFE61"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 1.6d
 			tasks: [{
@@ -873,11 +1268,22 @@
 			}
 			id: "4BA847ED977381F2"
 			optional: true
-			rewards: [{
-				id: "5CDF35D07056EC9D"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "5A19A9E41982A868"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "624D4E8DE447B3E9"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:upgrade_base"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -901,11 +1307,22 @@
 			}
 			id: "1CB3D4A7C13F3C9A"
 			optional: true
-			rewards: [{
-				id: "5F3A23B969511C5D"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "533C0B044B5683A9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "18002B8E2707E3FA"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:upgrade_base"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -929,11 +1346,22 @@
 			}
 			id: "39152CA8F6D04793"
 			optional: true
-			rewards: [{
-				id: "14D0BFFD81436ADF"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "1CA065A9F7757279"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "672557E02E6B897A"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:upgrade_base"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -957,11 +1385,22 @@
 			}
 			id: "1403F7377510210D"
 			optional: true
-			rewards: [{
-				id: "4EF9B401407855E5"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "75D89F2C1672193C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "7643C0B2E1B14E38"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:upgrade_base"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -985,11 +1424,22 @@
 			}
 			id: "6D3B683B41E1BBBA"
 			optional: true
-			rewards: [{
-				id: "2F98009489A9E404"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "5547AC4D8BA23FC8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "760BFC2482A7BC54"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:upgrade_base"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1013,11 +1463,22 @@
 			}
 			id: "7B4B2A05BF053E10"
 			optional: true
-			rewards: [{
-				id: "3FBCE3D4DC99290C"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "58E5F186454ED4BB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "2F2DF4F49FA65A1C"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:upgrade_base"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1041,11 +1502,22 @@
 			}
 			id: "576F693126C8C528"
 			optional: true
-			rewards: [{
-				id: "012B03BE18EAF5C6"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "76CD5A31C88DD899"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "2AFF11BD6C465C14"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:upgrade_base"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1069,11 +1541,22 @@
 			}
 			id: "072C985EA5E47807"
 			optional: true
-			rewards: [{
-				id: "72B1DED321E916CB"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "692AC2F389615DBF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "69FE072E94794851"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:upgrade_base"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1097,11 +1580,22 @@
 			}
 			id: "1C4CC1D2007BB430"
 			optional: true
-			rewards: [{
-				id: "20F10232344409C2"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "173DA92C2F76FE61"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "51E081DE9ECFC786"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:upgrade_base"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1125,11 +1619,22 @@
 			}
 			id: "6BC05D5738E2C964"
 			optional: true
-			rewards: [{
-				id: "05FC37824A49DE6C"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "4E9000EF5522E7BD"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "1381D6CC0463C9CD"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:upgrade_base"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1153,11 +1658,22 @@
 			}
 			id: "18EE72D7ABC59C79"
 			optional: true
-			rewards: [{
-				id: "2B7A06477D982326"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "57A3E613436D10FB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "5CC63FE30ED9C91A"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:upgrade_base"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1181,11 +1697,22 @@
 			}
 			id: "38780FB1D577AAA5"
 			optional: true
-			rewards: [{
-				id: "25A8330797BA0945"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "42F8CD10CDCB50BB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "75C3AAAE67C7E60D"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:upgrade_base"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1209,11 +1736,22 @@
 			}
 			id: "079AADDE232BDF65"
 			optional: true
-			rewards: [{
-				id: "57E365166F79772E"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "33FF471578814921"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "1085EADFE9905667"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:upgrade_base"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1237,11 +1775,22 @@
 			}
 			id: "617AA6E3FFCB63E1"
 			optional: true
-			rewards: [{
-				id: "7B52A5CE660BE82A"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "3ED28005ABA1EC58"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "7FFFE85BC26CA799"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:upgrade_base"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1265,11 +1814,22 @@
 			}
 			id: "7A36E17A7C003BB9"
 			optional: true
-			rewards: [{
-				id: "7ACD82CD716A3F0C"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "5D2E47CDFD7DD167"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "4A0F266306A0B643"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:upgrade_base"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1293,11 +1853,22 @@
 			}
 			id: "58BA63CF824846A8"
 			optional: true
-			rewards: [{
-				id: "5DF5D802BE7EB037"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "759B8849434CE806"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "7C97244A4E8309A5"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:upgrade_base"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1321,11 +1892,22 @@
 			}
 			id: "527E5D3128A1AD7C"
 			optional: true
-			rewards: [{
-				id: "63526317F06AE53B"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "151D2959DDB4B00B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "404435FDBA9D222B"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:upgrade_base"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1349,11 +1931,22 @@
 			}
 			id: "6D8963792A79F879"
 			optional: true
-			rewards: [{
-				id: "0D48D00897B23718"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "5B183E5EE521F920"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "6CBB8AF54495CC22"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:upgrade_base"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1375,11 +1968,42 @@
 				id: "toms_storage:storage_terminal"
 			}
 			id: "23FACD0EE462EF55"
-			rewards: [{
-				id: "7FC61DA8A4412FC8"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "3A958DAD53B6EC13"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "7A0772F4C2A7537B"
+					item: {
+						count: 1
+						id: "toms_storage:item_filter"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1F83F85736092112"
+					item: {
+						count: 1
+						id: "toms_storage:inventory_cable_connector"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "2A602AD0FB4FB6B4"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 1.6d
 			tasks: [{
@@ -1403,11 +2027,22 @@
 			}
 			id: "6F6DBB5EF8FE1431"
 			optional: true
-			rewards: [{
-				id: "66F3DED7F507201F"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "60E819A30331795D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "7543F42695856288"
+					item: {
+						count: 1
+						id: "toms_storage:inventory_cable"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1431,11 +2066,22 @@
 			}
 			id: "74053553922E2D53"
 			optional: true
-			rewards: [{
-				id: "38A9796700E0CCEC"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "13137ACD6E2ECD07"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "188B2B661057D9AC"
+					item: {
+						count: 1
+						id: "toms_storage:inventory_cable"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1459,11 +2105,22 @@
 			}
 			id: "79FBC2E1AE39228E"
 			optional: true
-			rewards: [{
-				id: "48198F65EB09F656"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6B47AAA79A6727D3"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "247CB18C9E70B63B"
+					item: {
+						count: 1
+						id: "toms_storage:inventory_cable"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1487,11 +2144,22 @@
 			}
 			id: "41FCB2158204CE55"
 			optional: true
-			rewards: [{
-				id: "540412F374816AA8"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "74E2CDD50FCE78B0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "2870511D5F96982D"
+					item: {
+						count: 1
+						id: "toms_storage:inventory_cable"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1515,11 +2183,22 @@
 			}
 			id: "11415D060F5AFDE7"
 			optional: true
-			rewards: [{
-				id: "41007001B8F409E7"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "2F6FE7328231436D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "60A838BDF0D3D38F"
+					item: {
+						count: 1
+						id: "toms_storage:inventory_cable"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1543,11 +2222,22 @@
 			}
 			id: "3BA26DB09C520291"
 			optional: true
-			rewards: [{
-				id: "65113A8AA5D8D746"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "180703EF56670F51"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "34A1A757DC0D7868"
+					item: {
+						count: 1
+						id: "toms_storage:inventory_cable"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1571,11 +2261,22 @@
 			}
 			id: "62D1E06BD412698E"
 			optional: true
-			rewards: [{
-				id: "4D095B7678633F77"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "144CA3EEFAB0E2D0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "2123025E98DCBA2A"
+					item: {
+						count: 1
+						id: "toms_storage:inventory_cable"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1599,11 +2300,22 @@
 			}
 			id: "19F5E19097EC9C08"
 			optional: true
-			rewards: [{
-				id: "7F0E750A93670F7F"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6E88F3648F168831"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "52874EC24CA1B3AF"
+					item: {
+						count: 1
+						id: "toms_storage:inventory_cable"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1627,11 +2339,22 @@
 			}
 			id: "42E105500BEF811F"
 			optional: true
-			rewards: [{
-				id: "2CA07B7278D52D0C"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "1E20107AACEC0B9A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "634FEA4DD59051BF"
+					item: {
+						count: 1
+						id: "toms_storage:inventory_cable"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1655,11 +2378,22 @@
 			}
 			id: "443D9D88C0B5E7A9"
 			optional: true
-			rewards: [{
-				id: "027704F01DEC837F"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "35459803434E790C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "1DA171135578B260"
+					item: {
+						count: 1
+						id: "toms_storage:inventory_cable"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1683,11 +2417,22 @@
 			}
 			id: "44D6E92C4032F760"
 			optional: true
-			rewards: [{
-				id: "14189528613E14F7"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "7B99B90273B92D7B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "405920B80F0F6675"
+					item: {
+						count: 1
+						id: "toms_storage:inventory_cable"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1709,11 +2454,42 @@
 				id: "refinedstorage:controller"
 			}
 			id: "4E3DC6E86E8FFBD1"
-			rewards: [{
-				id: "51F5E484A8E1FCDA"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "6808A7CC06AB04D7"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 8
+					id: "10B83F74C435A618"
+					item: {
+						count: 1
+						id: "refinedstorage:quartz_enriched_copper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6D7CD9896F1F29A6"
+					item: {
+						count: 1
+						id: "refinedstorage:basic_processor"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "26B6E7F07FAA731F"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 1.6d
 			tasks: [{
@@ -1737,11 +2513,22 @@
 			}
 			id: "29190138C259B61C"
 			optional: true
-			rewards: [{
-				id: "448FAAF5CA123610"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6F8890EDE95E25BF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "6D96F32EFD884F6F"
+					item: {
+						count: 1
+						id: "refinedstorage:quartz_enriched_iron"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1765,11 +2552,22 @@
 			}
 			id: "2E5066AEF2123724"
 			optional: true
-			rewards: [{
-				id: "306281F72E6FBCCB"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "654BB4AD7D2E0F30"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "43ADD8796D40BF06"
+					item: {
+						count: 1
+						id: "refinedstorage:silicon"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1793,11 +2591,22 @@
 			}
 			id: "55F8ACD9EADA7981"
 			optional: true
-			rewards: [{
-				id: "3517BBA32409393C"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "42E674C61E2A5A47"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "1D149C5A01153F5B"
+					item: {
+						count: 1
+						id: "refinedstorage:quartz_enriched_iron"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1821,11 +2630,22 @@
 			}
 			id: "75AB94AFEFA36DDF"
 			optional: true
-			rewards: [{
-				id: "073CE129A8BB338F"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "325F9755B92675DB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "375F3C0B0483FB68"
+					item: {
+						count: 1
+						id: "refinedstorage:quartz_enriched_iron"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1849,11 +2669,22 @@
 			}
 			id: "41D491B99EDEA248"
 			optional: true
-			rewards: [{
-				id: "5E2BEB2A57F9E45B"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "65483FD58BC13D8B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "548D3930922EE98B"
+					item: {
+						count: 1
+						id: "refinedstorage:silicon"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1877,11 +2708,22 @@
 			}
 			id: "550E45C04B012B99"
 			optional: true
-			rewards: [{
-				id: "3722206288AC00C9"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "1977FB94DC7A34C0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "383C259DCBE61299"
+					item: {
+						count: 1
+						id: "refinedstorage:silicon"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1905,11 +2747,22 @@
 			}
 			id: "642CBE08096CA189"
 			optional: true
-			rewards: [{
-				id: "24CADE3159A2AF66"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "436E6E5B184624E4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "48CC4FEBD92D10BA"
+					item: {
+						count: 1
+						id: "refinedstorage:quartz_enriched_iron"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1933,11 +2786,22 @@
 			}
 			id: "087F0C3545FCCC47"
 			optional: true
-			rewards: [{
-				id: "48F8609B30CEC208"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "3FC4C6BBF71C53D4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "41DE979720355E14"
+					item: {
+						count: 1
+						id: "refinedstorage:quartz_enriched_iron"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1961,11 +2825,22 @@
 			}
 			id: "7595E0703E23602F"
 			optional: true
-			rewards: [{
-				id: "3969DC1F8AE8661A"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "760A7DD3CAD01AFD"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "7F6AD8CB81AD8BA7"
+					item: {
+						count: 1
+						id: "refinedstorage:silicon"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1989,11 +2864,22 @@
 			}
 			id: "364EEA7F540AD036"
 			optional: true
-			rewards: [{
-				id: "2E9718CBE18CD5EB"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "3C96C7C2241A2E1A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "5CAFA59C9F56A3B7"
+					item: {
+						count: 1
+						id: "refinedstorage:quartz_enriched_iron"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -2017,11 +2903,22 @@
 			}
 			id: "664D764CD1FE8BC9"
 			optional: true
-			rewards: [{
-				id: "1D6C712B1A4F50FC"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "2F654EF74286D131"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "66180464C28AEADA"
+					item: {
+						count: 1
+						id: "refinedstorage:quartz_enriched_iron"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -2045,11 +2942,22 @@
 			}
 			id: "1AE7B1E76C96B746"
 			optional: true
-			rewards: [{
-				id: "42CDB8CFBD9B7B11"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "4DDC005F8120100B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "799506B3FC6101F7"
+					item: {
+						count: 1
+						id: "refinedstorage:silicon"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -2073,11 +2981,22 @@
 			}
 			id: "44179F2520A95ABE"
 			optional: true
-			rewards: [{
-				id: "00C500876A37EEF8"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "1BA32DF2652DE8AC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "5B61A42C57074A88"
+					item: {
+						count: 1
+						id: "refinedstorage:silicon"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -2101,11 +3020,22 @@
 			}
 			id: "505145F00D3CF075"
 			optional: true
-			rewards: [{
-				id: "5C69BFD2D8DB9C00"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6CF5E961A0D72EE2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "64D4B18F0C932211"
+					item: {
+						count: 1
+						id: "refinedstorage:quartz_enriched_iron"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -2129,11 +3059,22 @@
 			}
 			id: "32ECC775B5CE4872"
 			optional: true
-			rewards: [{
-				id: "68288B338BA82430"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "4B552E2E5A2E3A4B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "191521BD600FEFF4"
+					item: {
+						count: 1
+						id: "refinedstorage:silicon"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{

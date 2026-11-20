@@ -80,11 +80,42 @@
 				id: "handcrafted:oak_chair"
 			}
 			id: "6E598D9082BBF4A0"
-			rewards: [{
-				id: "1018A1A3B51FC5A9"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "27DE196207BFEB1D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 32
+					id: "184CAC11F6CD97C8"
+					item: {
+						count: 1
+						id: "framedblocks:framed_cube"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7A4B8A59E41A4DFE"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "7DF6E27ABDF8E54A"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 2.5d
 			tasks: [{
@@ -102,11 +133,42 @@
 				id: "chipped:botanist_workbench"
 			}
 			id: "05B15D8A05F0632B"
-			rewards: [{
-				id: "10B7152BB29B2CCC"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "56ABEF1DB295C663"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 32
+					id: "112ACC07591F90A6"
+					item: {
+						count: 1
+						id: "framedblocks:framed_cube"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "466A43C4D2ECBC6E"
+					item: {
+						count: 1
+						id: "minecraft:quartz_block"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "2008586D79BC7993"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 1.6d
 			tasks: [{
@@ -130,11 +192,22 @@
 			}
 			id: "6B961ECDA4DFCEF3"
 			optional: true
-			rewards: [{
-				id: "3822A105A0C97BC7"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "33ABBB7ED75F8916"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 32
+					id: "21A4B011B92B39B1"
+					item: {
+						count: 1
+						id: "minecraft:bricks"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -158,11 +231,22 @@
 			}
 			id: "5E891159A8D74021"
 			optional: true
-			rewards: [{
-				id: "2857CE08DE093B50"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "34D4CF8BAD0F3768"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "309F44C927AFF984"
+					item: {
+						count: 1
+						id: "framedblocks:framed_cube"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -186,11 +270,22 @@
 			}
 			id: "0319027907B1D7B1"
 			optional: true
-			rewards: [{
-				id: "232398355324DFBF"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "1E4921578BACAA1B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 32
+					id: "2F5C66B832BBFDDF"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -214,11 +309,22 @@
 			}
 			id: "54B864F7A6432D97"
 			optional: true
-			rewards: [{
-				id: "01991BD63625074B"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "4DC76DF1BFB655C4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 32
+					id: "6AF13689C47082AD"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -242,11 +348,22 @@
 			}
 			id: "3EFC42835D16BE6E"
 			optional: true
-			rewards: [{
-				id: "20B34619A4F9DF71"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "4CABE904556CAEF1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "5D0CE14CD6ACA6E3"
+					item: {
+						count: 1
+						id: "minecraft:lantern"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -270,11 +387,22 @@
 			}
 			id: "0DC5BF13F9D7E3C1"
 			optional: true
-			rewards: [{
-				id: "11EADFE91E5ACC7A"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "662142FA2635BEE1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "3C19DCC4569F4D24"
+					item: {
+						count: 1
+						id: "framedblocks:framed_cube"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -296,11 +424,42 @@
 				id: "rechiseled:chisel"
 			}
 			id: "3B340C94340C4DAC"
-			rewards: [{
-				id: "38FEDEFBB50BDBAA"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "39E36840CBD15E4E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 64
+					id: "798F789ADDFCA4CD"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "12751E7460E12635"
+					item: {
+						count: 1
+						id: "minecraft:quartz_block"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "24C6B09590D0E664"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 1.6d
 			tasks: [{
@@ -322,11 +481,42 @@
 				id: "handcrafted:hammer"
 			}
 			id: "30A960FB60D73C4C"
-			rewards: [{
-				id: "2F95D66AD8DC8F03"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "30EF04E6FE1D2BF6"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 16
+					id: "2C419A173B68E9EC"
+					item: {
+						count: 1
+						id: "minecraft:quartz_block"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "67C325D00329A268"
+					item: {
+						count: 1
+						id: "waystones:warp_dust"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "1FEB024E1F539896"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 1.6d
 			tasks: [{
@@ -350,11 +540,22 @@
 			}
 			id: "3CB8E15932CF0256"
 			optional: true
-			rewards: [{
-				id: "27A487B82C05617F"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "5D9A7C004A78C2C1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "3D47999DBBBB64A4"
+					item: {
+						count: 1
+						id: "minecraft:lantern"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -378,11 +579,22 @@
 			}
 			id: "0A52E8E6FF016A4A"
 			optional: true
-			rewards: [{
-				id: "5978F1AFC7CA7C77"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "41F54645337FECE5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "54993E4A96CE01F5"
+					item: {
+						count: 1
+						id: "minecraft:lantern"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -406,11 +618,22 @@
 			}
 			id: "199A5F202F5B45A5"
 			optional: true
-			rewards: [{
-				id: "3F99727DA17C1A5A"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6760C975C58642F1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "704A34EFCCF0B30D"
+					item: {
+						count: 1
+						id: "minecraft:lantern"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -434,11 +657,22 @@
 			}
 			id: "616D9AC2806D330B"
 			optional: true
-			rewards: [{
-				id: "59F68AB69C5EAC60"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "3640FD1C6ECB44C2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "7C5207A8C90A7817"
+					item: {
+						count: 1
+						id: "minecraft:lantern"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -462,11 +696,22 @@
 			}
 			id: "13B4CA0EBB0682E0"
 			optional: true
-			rewards: [{
-				id: "4BA89CF40442E7D1"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "59EC019EEF032FF7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "6EC040CF5BD9E2CC"
+					item: {
+						count: 1
+						id: "framedblocks:framed_cube"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -490,11 +735,22 @@
 			}
 			id: "24212E66B1E7658C"
 			optional: true
-			rewards: [{
-				id: "37340DC2404B5CE4"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "366B446095DDB7F2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 32
+					id: "654033B087991772"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -518,11 +774,22 @@
 			}
 			id: "14C95DA835453EBD"
 			optional: true
-			rewards: [{
-				id: "25F228219522DB5E"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "2D715BFC24D57DF6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "25939D91B6E0A34B"
+					item: {
+						count: 1
+						id: "framedblocks:framed_cube"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -546,11 +813,22 @@
 			}
 			id: "29A86318C5A66A51"
 			optional: true
-			rewards: [{
-				id: "6BC672FE2C50C371"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "4514FED15272F0EA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "27D0C95511AF629B"
+					item: {
+						count: 1
+						id: "framedblocks:framed_cube"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -574,11 +852,22 @@
 			}
 			id: "51A6EAD857D52CF6"
 			optional: true
-			rewards: [{
-				id: "18FA44CBF4B64E14"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "3E3B5E9C85928F85"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 32
+					id: "452236B87A153FEB"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -602,11 +891,22 @@
 			}
 			id: "3AA4E8F95A7F799D"
 			optional: true
-			rewards: [{
-				id: "5AB24A2809439093"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "78A393A441B586AE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 32
+					id: "157E76CF01E25A56"
+					item: {
+						count: 1
+						id: "minecraft:bricks"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -630,11 +930,22 @@
 			}
 			id: "5873F23773E7A0F1"
 			optional: true
-			rewards: [{
-				id: "7D345E1B0EB0A2D3"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "3D2B2104D88068DC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 32
+					id: "3A8CFC9CAED0F0C8"
+					item: {
+						count: 1
+						id: "minecraft:bricks"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -656,11 +967,42 @@
 				id: "cobblefurnies:apricorn_cabinet"
 			}
 			id: "7EE634A6321E8DC7"
-			rewards: [{
-				id: "379FE6CFE6F16F6B"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "5038F64F4058C95C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 16
+					id: "4F73D5C4465D8A29"
+					item: {
+						count: 1
+						id: "minecraft:quartz_block"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5E537BB8DB2B7AFA"
+					item: {
+						count: 1
+						id: "framedblocks:framed_cube"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "79C29200F0705303"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 1.6d
 			tasks: [{
@@ -684,11 +1026,22 @@
 			}
 			id: "41D8B92339BCD577"
 			optional: true
-			rewards: [{
-				id: "7231E8B338FDBCDF"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "3386EB802EDF0A37"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "490E02816D56B205"
+					item: {
+						count: 1
+						id: "minecraft:lantern"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -712,11 +1065,22 @@
 			}
 			id: "5EDA255AB305FAD4"
 			optional: true
-			rewards: [{
-				id: "39097F40573D0625"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "37D85083AA9DE479"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 32
+					id: "176FE6A12E677919"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -740,11 +1104,22 @@
 			}
 			id: "6B7DBF71E034F331"
 			optional: true
-			rewards: [{
-				id: "3748D45FB9C7960A"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "58273B7E74B996BD"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 32
+					id: "7A93BD22DAA8B463"
+					item: {
+						count: 1
+						id: "minecraft:bricks"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -768,11 +1143,22 @@
 			}
 			id: "50C3FE7A8E607840"
 			optional: true
-			rewards: [{
-				id: "7E6E9DA01F03379D"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "5A789B0797187A3F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "33DD006C9D6D0B8A"
+					item: {
+						count: 1
+						id: "framedblocks:framed_cube"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -796,11 +1182,22 @@
 			}
 			id: "2B63DEBED395B874"
 			optional: true
-			rewards: [{
-				id: "4665419EDC60E466"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "1FACCEBFDFAD0A2A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 32
+					id: "6DAFE362F147F3B3"
+					item: {
+						count: 1
+						id: "minecraft:bricks"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -824,11 +1221,22 @@
 			}
 			id: "344648DC3C320C96"
 			optional: true
-			rewards: [{
-				id: "2454E8C9D228D77B"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "5B0F746B9E2EADF1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 32
+					id: "32DF705584259E1C"
+					item: {
+						count: 1
+						id: "minecraft:bricks"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -852,11 +1260,22 @@
 			}
 			id: "5C9A39EA3FEA0227"
 			optional: true
-			rewards: [{
-				id: "2B1D1A9E4E659A83"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "1E511E6A0107DD2B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "5CFE12CAA1AA47D2"
+					item: {
+						count: 1
+						id: "framedblocks:framed_cube"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -880,11 +1299,22 @@
 			}
 			id: "3AD5E35F92C24E6A"
 			optional: true
-			rewards: [{
-				id: "0B42DCC84E31A57E"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6E85B691AD8AC698"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 32
+					id: "7C2031AFF02D1D97"
+					item: {
+						count: 1
+						id: "minecraft:bricks"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -908,11 +1338,22 @@
 			}
 			id: "5ACDCCD3A37F2694"
 			optional: true
-			rewards: [{
-				id: "456C872C69739F77"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "5A7EF0AC9838A854"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "41CF590F814F66E9"
+					item: {
+						count: 1
+						id: "minecraft:lantern"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -934,11 +1375,42 @@
 				id: "framedblocks:framed_hammer"
 			}
 			id: "23E7F3115BAAFD9E"
-			rewards: [{
-				id: "26F22E69CD3D27BD"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "11C7CD3810772B57"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 64
+					id: "6CED79736FC822B8"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5FFF223C14A395A3"
+					item: {
+						count: 1
+						id: "minecraft:quartz_block"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "381E8E0C65B785AB"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 1.6d
 			tasks: [{
@@ -962,11 +1434,22 @@
 			}
 			id: "32A1DDE38A48B8C8"
 			optional: true
-			rewards: [{
-				id: "38B50A9F1525A181"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "5CC29374AFA84495"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "30CF5C66AA071D2F"
+					item: {
+						count: 1
+						id: "framedblocks:framed_cube"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -990,11 +1473,22 @@
 			}
 			id: "3F222A77411F4518"
 			optional: true
-			rewards: [{
-				id: "29C538A711146186"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "18D59E1C3C1B8A6D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "53A0719848067416"
+					item: {
+						count: 1
+						id: "minecraft:lantern"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1018,11 +1512,22 @@
 			}
 			id: "493BD3A967F9A8C3"
 			optional: true
-			rewards: [{
-				id: "36DE622B918D513A"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "1721D64B7B3832ED"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "1EE356067E3EC026"
+					item: {
+						count: 1
+						id: "minecraft:lantern"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1046,11 +1551,22 @@
 			}
 			id: "70103A28945857EA"
 			optional: true
-			rewards: [{
-				id: "051990277C8D056B"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6B44EB8F928A46A0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "7C75E691096F253C"
+					item: {
+						count: 1
+						id: "minecraft:lantern"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1074,11 +1590,22 @@
 			}
 			id: "7468FCF4607D7966"
 			optional: true
-			rewards: [{
-				id: "42FDC10FEE63A1E6"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "1D6752D49DBDFFBA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "57F1B14B3DFA392A"
+					item: {
+						count: 1
+						id: "framedblocks:framed_cube"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1102,11 +1629,22 @@
 			}
 			id: "184D0A6CEE02AA81"
 			optional: true
-			rewards: [{
-				id: "1DAEC647541BF32A"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "5253BA7808DA2323"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 32
+					id: "6CEA6FDA38D91F77"
+					item: {
+						count: 1
+						id: "minecraft:bricks"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1130,11 +1668,22 @@
 			}
 			id: "62C4A1151D66587B"
 			optional: true
-			rewards: [{
-				id: "6804FC40E34500E3"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "1E167F59861EC521"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 32
+					id: "1C2A29976B0F17B3"
+					item: {
+						count: 1
+						id: "minecraft:bricks"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1158,11 +1707,22 @@
 			}
 			id: "4012EAE3E83E4640"
 			optional: true
-			rewards: [{
-				id: "2D7F0894C8583332"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "628A37388DF99CD4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 32
+					id: "46EA159AFF62EE1A"
+					item: {
+						count: 1
+						id: "minecraft:bricks"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1184,11 +1744,42 @@
 				id: "buildinggadgets2:gadget_building"
 			}
 			id: "4B3636055E887D4B"
-			rewards: [{
-				id: "5E8BC163C7AEF2E2"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "480BAD9C4E122857"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 64
+					id: "741462AB30740867"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2B8E4748BA296915"
+					item: {
+						count: 1
+						id: "minecraft:quartz_block"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "6811FF189CEE157A"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 1.6d
 			tasks: [{
@@ -1212,11 +1803,22 @@
 			}
 			id: "5C98ACC236E22E66"
 			optional: true
-			rewards: [{
-				id: "4D9D63AE626700D6"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "5973B4270115F823"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "46B811412291F89E"
+					item: {
+						count: 1
+						id: "framedblocks:framed_cube"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1240,11 +1842,22 @@
 			}
 			id: "7F3A0986DBD26054"
 			optional: true
-			rewards: [{
-				id: "13F6B08966096F37"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "71B8DB354B3113EC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "38450B9EC563F2EA"
+					item: {
+						count: 1
+						id: "minecraft:lantern"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1268,11 +1881,22 @@
 			}
 			id: "0F54CBEB1F20CE60"
 			optional: true
-			rewards: [{
-				id: "5E0C9E22A4BAACD4"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "4D0A8C1E359FC378"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 32
+					id: "7E335BFF54CE08B0"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1296,11 +1920,22 @@
 			}
 			id: "10C793C854266F4C"
 			optional: true
-			rewards: [{
-				id: "2730DCD97A063977"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "309E64893A7D2CBD"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 32
+					id: "4363968A7DFD8D36"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1322,11 +1957,42 @@
 				id: "waystones:waystone"
 			}
 			id: "58F1612E0E45F26E"
-			rewards: [{
-				id: "37E7758015821388"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "72746A035513AA57"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 64
+					id: "72F516F7C7954AB5"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "34C29E44355B05B9"
+					item: {
+						count: 1
+						id: "framedblocks:framed_cube"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "5546055EAAFB93A9"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 1.6d
 			tasks: [{
@@ -1350,11 +2016,22 @@
 			}
 			id: "1FF4F260D4B78B81"
 			optional: true
-			rewards: [{
-				id: "138234F8D5EFBC95"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "69C308165A260882"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "611E5B40B43BD40D"
+					item: {
+						count: 1
+						id: "framedblocks:framed_cube"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1378,11 +2055,22 @@
 			}
 			id: "669A76DEA087CA63"
 			optional: true
-			rewards: [{
-				id: "1EB28C81BF0E1330"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "39E02D87BCFDCAB7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 32
+					id: "74790A7678A15DD4"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1406,11 +2094,22 @@
 			}
 			id: "6B203E830A2FF698"
 			optional: true
-			rewards: [{
-				id: "37BECA0CD9C662A0"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6095C7D6684BF264"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "2D64B84F75C111A6"
+					item: {
+						count: 1
+						id: "minecraft:lantern"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1434,11 +2133,22 @@
 			}
 			id: "0DE7A169B8269F48"
 			optional: true
-			rewards: [{
-				id: "5644E36D881EEB89"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "58A6846A157F587E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 32
+					id: "18B5E4A783772B78"
+					item: {
+						count: 1
+						id: "minecraft:bricks"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1462,11 +2172,22 @@
 			}
 			id: "23479467C63A8DDA"
 			optional: true
-			rewards: [{
-				id: "61CE3BEB68D974C1"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "1FA15163BF6DAAB6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 32
+					id: "2885A1A7C4619C4A"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1490,11 +2211,22 @@
 			}
 			id: "2E97C5C5A775090F"
 			optional: true
-			rewards: [{
-				id: "4D56C362678D6CEF"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "66A1CA86FE64A830"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 32
+					id: "1344E4809903CB20"
+					item: {
+						count: 1
+						id: "minecraft:bricks"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
@@ -1518,11 +2250,22 @@
 			}
 			id: "5235D23E12BF4015"
 			optional: true
-			rewards: [{
-				id: "1BE14B54B862F118"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "4419F3E01EC50FE2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "7F9E2D2D850FD69A"
+					item: {
+						count: 1
+						id: "framedblocks:framed_cube"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{

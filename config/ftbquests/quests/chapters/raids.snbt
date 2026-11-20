@@ -35,11 +35,40 @@
 				id: "cobblemonraiddens:raid_crystal_block"
 			}
 			id: "6100EFA4F4860E8B"
-			rewards: [{
-				id: "70C7BA374160BF26"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "3578C9F68DAC4DCB"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "6912BD4052ED5B89"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:cheer_defense"
+					}
+					type: "item"
+				}
+				{
+					id: "62774F06B0E08DF2"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:cheer_heal"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "3F84F14D3EA70FA1"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 2.5d
 			tasks: [{
@@ -59,18 +88,45 @@
 			id: "16420C4B0E0C987D"
 			rewards: [
 				{
-					id: "488A19F230B987EC"
+					id: "38A438083E45ADEE"
 					type: "xp_levels"
 					xp_levels: 3
 				}
 				{
-					count: 2
-					id: "19930AB5678108D0"
+					count: 4
+					id: "3ED0433A4BDC9283"
 					item: {
 						count: 1
 						id: "cobblemon:exp_candy_m"
 					}
 					type: "item"
+				}
+				{
+					id: "4D2DDEDDEEB1735B"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:cheer_defense"
+					}
+					type: "item"
+				}
+				{
+					id: "100B97293546ED1B"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:cheer_heal"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "539C730B3282D40A"
+					permission_level: 2
+					silent: true
+					type: "command"
 				}
 			]
 			shape: "circle"
@@ -117,18 +173,46 @@
 			id: "71496DA5C5C20219"
 			rewards: [
 				{
-					id: "49834D3F8472ABF9"
+					id: "2A5DB5E8406AD5BE"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
-					count: 3
-					id: "6C8905515CF34838"
+					count: 6
+					id: "377F6A8332F41BF7"
 					item: {
 						count: 1
 						id: "cobblemon:exp_candy_m"
 					}
 					type: "item"
+				}
+				{
+					id: "70D02FD5C79B9972"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:raid_pouch"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4E7B29B2340AAA3A"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:raid_shard"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 2000"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "16F1E363033C6794"
+					permission_level: 2
+					silent: true
+					type: "command"
 				}
 			]
 			shape: "circle"
@@ -175,18 +259,47 @@
 			id: "636596C1E00F447F"
 			rewards: [
 				{
-					id: "340A56AA645B7640"
+					id: "2FF7B55D74233B91"
 					type: "xp_levels"
 					xp_levels: 7
 				}
 				{
-					count: 4
-					id: "6C45B4CC9B1395EE"
+					count: 8
+					id: "3A58C94EB2EF47C7"
 					item: {
 						count: 1
 						id: "cobblemon:exp_candy_m"
 					}
 					type: "item"
+				}
+				{
+					count: 32
+					id: "10A285D8F5C87977"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:raid_shard"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1475A304491B9001"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:raid_pouch"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 5000"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "4EB88E1EDD73EC5F"
+					permission_level: 2
+					silent: true
+					type: "command"
 				}
 			]
 			shape: "circle"
@@ -233,18 +346,47 @@
 			id: "6357D792449B5284"
 			rewards: [
 				{
-					id: "5D539DCB0CA32EB9"
+					id: "29DDFB0A912FB4D1"
 					type: "xp_levels"
 					xp_levels: 9
 				}
 				{
-					count: 5
-					id: "5C7C2E6B7023E4CA"
+					count: 10
+					id: "1CE6E4939072A684"
 					item: {
 						count: 1
 						id: "cobblemon:exp_candy_l"
 					}
 					type: "item"
+				}
+				{
+					count: 32
+					id: "2D93A40059B96AB1"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:raid_shard"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1F46A333E5BEFDEE"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:raid_pouch"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 5000"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "14FED5908CC1E867"
+					permission_level: 2
+					silent: true
+					type: "command"
 				}
 			]
 			shape: "circle"
@@ -291,18 +433,47 @@
 			id: "5341F2B7D71CDAEB"
 			rewards: [
 				{
-					id: "14DD754CC4E4D3B9"
+					id: "6BB4891A80E16F8F"
 					type: "xp_levels"
 					xp_levels: 11
 				}
 				{
-					count: 6
-					id: "2689D7A8181C1F44"
+					count: 12
+					id: "1BAF2E1083FA0292"
 					item: {
 						count: 1
 						id: "cobblemon:exp_candy_l"
 					}
 					type: "item"
+				}
+				{
+					count: 2
+					id: "6C86DEF9ECE68E20"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:raid_pouch"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "478CCAC7FD077C3E"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:raid_shard"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 5000"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "7D3348433AA27FF0"
+					permission_level: 2
+					silent: true
+					type: "command"
 				}
 			]
 			shape: "gear"
@@ -347,11 +518,40 @@
 				id: "cobblemonraiddens:raid_pouch"
 			}
 			id: "71B03768CBBFD215"
-			rewards: [{
-				id: "199E018B1922E2AA"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
+			rewards: [
+				{
+					id: "50FCD856EB01F9D7"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "5E3CB20DE38B36C4"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:cheer_defense"
+					}
+					type: "item"
+				}
+				{
+					id: "7D1A51FBD8FFEAF6"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:cheer_heal"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "5CB630BCB03B1BD2"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
@@ -395,11 +595,41 @@
 			}
 			id: "50FF4B696DBD13FA"
 			optional: true
-			rewards: [{
-				id: "6C81358E08AD6D07"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
+			rewards: [
+				{
+					id: "24FD5D3692E91C52"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 8
+					id: "1DBEE5F066376465"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:raid_shard"
+					}
+					type: "item"
+				}
+				{
+					id: "387EDA74F2835A93"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:cheer_defense"
+					}
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give @s 500"
+					feedback_message: ""
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "238790818CF99C98"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 0.85d
 			tasks: [{
@@ -422,11 +652,21 @@
 			}
 			id: "62766307C1B2B7C8"
 			optional: true
-			rewards: [{
-				id: "6DA67B415982932D"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "233622517EA35EAC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7C11604068F7EC0E"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:cheer_attack"
+					}
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 0.8d
 			tasks: [{
@@ -449,11 +689,21 @@
 			}
 			id: "53945AA086F2751D"
 			optional: true
-			rewards: [{
-				id: "75CE53BFEF5C1969"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6CC808E25CAFC094"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "407F3A0437E4EB17"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:cheer_attack"
+					}
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 0.8d
 			tasks: [{
@@ -476,11 +726,21 @@
 			}
 			id: "65E9C4BD6D8952D2"
 			optional: true
-			rewards: [{
-				id: "60F1D11C28D3E4AF"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "5FE91CBBCBAA9C1C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "429BC45B4723E188"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:cheer_attack"
+					}
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 0.8d
 			tasks: [{
@@ -502,11 +762,21 @@
 				id: "cobblemonraiddens:raid_crystal_block"
 			}
 			id: "4F654947ACB6C726"
-			rewards: [{
-				id: "3E9291E9EBF21387"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "4F074D5105201A9A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7E21D8D08A970195"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:cheer_attack"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 1.0d
 			tasks: [{
@@ -524,11 +794,21 @@
 				id: "cobblemonraiddens:raid_crystal_block"
 			}
 			id: "331DD876752FAFAD"
-			rewards: [{
-				id: "03A5D678D5071107"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "120A3B4F3CC4EF76"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "13DF29C6824DB405"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:cheer_attack"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 1.1d
 			tasks: [{
@@ -546,11 +826,22 @@
 				id: "cobblemonraiddens:raid_crystal_block"
 			}
 			id: "7613F601AF71036D"
-			rewards: [{
-				id: "6958CA4954C5FD12"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "65A21C3E13283FCE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "1261DD483DE0E6B6"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:raid_shard"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 1.2d
 			tasks: [{
@@ -568,11 +859,21 @@
 				id: "cobblemonraiddens:raid_crystal_block"
 			}
 			id: "4EB0F7C0EFC36E86"
-			rewards: [{
-				id: "56458146373EAF51"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "727B1F79A0B847DF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7A91D5389926F3F3"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:cheer_attack"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 1.3d
 			tasks: [{
@@ -590,11 +891,22 @@
 				id: "cobblemonraiddens:raid_crystal_block"
 			}
 			id: "09AD47EBBC3C11DD"
-			rewards: [{
-				id: "2F74FF3A4159CB8F"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "73D505170E91CE25"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "1BF7F1A025A1DA9B"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:raid_shard"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 1.4d
 			tasks: [{
