@@ -89,11 +89,11 @@ Ask whoever runs the server for the address and to be added to the whitelist, th
 
 <!-- modlist:start -->
 <details>
-<summary>All 230 mods, plus resource packs and shaders (click to open)</summary>
+<summary>All 231 mods, plus resource packs and shaders (click to open)</summary>
 
 Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are only on players' computers, "server only" ones only on the server.
 
-### Mods (230)
+### Mods (231)
 
 | Name | Notes | From |
 | --- | --- | --- |
@@ -245,6 +245,7 @@ Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are 
 | [Monsters in the Closet](https://modrinth.com/project/GMA8jFBD) |  | Modrinth |
 | [Moog's Structure Lib (moogs_structures)](https://modrinth.com/project/1oUDhxuy) | server only | Modrinth |
 | [Moonlight Lib](https://modrinth.com/project/twkfQtEc) |  | Modrinth |
+| [More Overlays Updated](https://modrinth.com/project/Thy5Pqut) | client only | Modrinth |
 | [MoreCobblemonTweaks](https://modrinth.com/project/5KWlJ2HC) | client only | Modrinth |
 | [Mouse Tweaks](https://modrinth.com/project/aC3cM3Vq) | client only | Modrinth |
 | [Mythic Upgrades](https://modrinth.com/project/ERH7cFoy) |  | Modrinth |

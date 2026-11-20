@@ -130,3 +130,5 @@ key_key.craftpresence.config_keycode.name:key.keyboard.0:
 key_keybind.invmove.toggleMove:key.keyboard.unknown:
 key_key.entityculling.toggle:key.keyboard.unknown:
 key_key.relics.active_abilities_list:key.keyboard.j:
+key_key.moreoverlays.lightoverlay.desc:key.keyboard.f7:
+key_key.moreoverlays.chunkbounds.desc:key.keyboard.f8:

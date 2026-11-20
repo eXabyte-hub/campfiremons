@@ -2,6 +2,14 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.38
+
+Already playing? Just press Play: the pack updates itself.
+
+- **Light level and chunk border overlays (More Overlays Updated).** Press F7 to show where mobs can spawn
+  (blocks too dark to be safe) and F8 to show chunk borders. If those keys don't work for you, set "Toggle Light
+  Overlay" and "Toggle Chunk Boundaries" in Options → Controls.
+
 ## v0.1.37
 
 Already playing? Just press Play: the pack updates itself.

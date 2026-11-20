@@ -454,7 +454,7 @@ hash = "121b93764159be6fb7dab523b29a844e2bb78400ce8c48f52135a097e9b0006e"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "2bf7b4e93c7a710bbba0c6d79e13c19c1020d87ad575e70220aea0aebd568530"
+hash = "c76e1a595470d318f63177114b0bf859bfd105565667ad6e655e36b741b19fd8"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
@@ -5143,6 +5143,11 @@ metafile = true
 [[files]]
 file = "mods/more-cobblemon-tweaks.pw.toml"
 hash = "43ae00dbd444da61f5846fd96c9da0a715b7244652e26a20a268c78dd046fd16"
+metafile = true
+
+[[files]]
+file = "mods/more-overlays-updated.pw.toml"
+hash = "a9b5d9fb791c757bcc59b20d0cf3b1fc42f026feb7514c7ce59ee43726f3366d"
 metafile = true
 
 [[files]]
