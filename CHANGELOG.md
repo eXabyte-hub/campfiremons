@@ -2,6 +2,13 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.34
+
+Already playing? Just press Play: the pack updates itself.
+
+- **Charging Station (Charging Gadgets).** Burn coal or other fuel to charge your Building Gadgets and other
+  powered items, no power setup needed.
+
 ## v0.1.33
 
 Already playing? Just press Play: the pack updates itself.
