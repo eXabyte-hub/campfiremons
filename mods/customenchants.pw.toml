@@ -1,0 +1,13 @@
+name = "Marshlaw's Custom Enchants"
+filename = "marshlaws_custom_enchantments-1.11-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/eNPxkBuX/versions/PRqoxgpo/marshlaws_custom_enchantments-1.11-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "97226817635ddc72911a98c69f1a6d02dd3cbbebfcafcacd0ee17f10ac2350ca00a93be73a2b363a1e64cf4f573ea41c11e91475787b550e244f76ee302f0440"
+
+[update]
+[update.modrinth]
+mod-id = "eNPxkBuX"
+version = "PRqoxgpo"

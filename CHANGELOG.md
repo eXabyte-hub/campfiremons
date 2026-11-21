@@ -10,6 +10,11 @@ Already playing? Just press Play: the pack updates itself.
   (plus Supplementaries' Stasis and the Bumblezone's Hive Lifeline) can now be picked in the Advanced Enchanting
   Infuser. Curses stay out.
 - **Enchant books in the Enchanting Infuser.** The normal infuser takes books now, like the advanced one already did.
+- **38 new enchantments (Marshlaw's Custom Enchants).** Vein Miner, Hammer, Tree Chopper, Smelter and Magnet on
+  tools and leggings, Lifesteal, Lightning, Poison and Wisdom on swords, Explosive Shot and Venom on bows, Speed and
+  Night Vision on armour, and more. Most come from the enchanting table and both infusers; the strongest (Lifesteal,
+  Lightning, Explosion and others) only from the Advanced Infuser. All of them can also turn up in chests and
+  librarian trades. They go on vanilla tools and armour. Careful: Explosion and Explosive Shot break blocks like TNT.
 
 ## v0.1.39
 

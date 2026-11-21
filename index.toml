@@ -4901,6 +4901,11 @@ hash = "36debf7653e95a855b4fedacc19027cf2e01960fc0b6d55ef2ffbffbcb455690"
 metafile = true
 
 [[files]]
+file = "mods/customenchants.pw.toml"
+hash = "4b417f3f01c154ee41acb33768c933551995f34bc61f61448d49ba0540a32d65"
+metafile = true
+
+[[files]]
 file = "mods/default-options.pw.toml"
 hash = "a6967d761dde867ccc1af53dc9f4e530eb9917a9cb21d0fc15708e8cd2c0f2ba"
 metafile = true
