@@ -5451,8 +5451,18 @@ hash = "81c5c05f9ed4c07b9f027ff6c421939bb04e476075091f135d34aaa05af1f950"
 metafile = true
 
 [[files]]
+file = "mods/the-bumblezone.pw.toml"
+hash = "60d30d899cd3458711edee88783bd5fc6a201d2bc6692968957b3d6396e4b310"
+metafile = true
+
+[[files]]
 file = "mods/tips.pw.toml"
 hash = "75ae1758ad2f9e85fc4c54767e41b872142d39b86c07b015e212f8097d56995d"
+metafile = true
+
+[[files]]
+file = "mods/titanium.pw.toml"
+hash = "8eaa1a0c007e003170d2b660a3be1a8e9597005109e3024dcdbc95933fdb0f7c"
 metafile = true
 
 [[files]]
@@ -5463,6 +5473,11 @@ metafile = true
 [[files]]
 file = "mods/tomtarus-cobblemon-and-farmers-delight-tweaks.pw.toml"
 hash = "1efe654d51ff746bfa87e577706564a4ec6ba0ec46d887d5c1fdb25bc0152831"
+metafile = true
+
+[[files]]
+file = "mods/transfer-labels.pw.toml"
+hash = "beb8364d853969e742b6b2aa44d4a3a807c990f068638a250c324b44a143f4d6"
 metafile = true
 
 [[files]]

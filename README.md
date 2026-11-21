@@ -89,11 +89,11 @@ Ask whoever runs the server for the address and to be added to the whitelist, th
 
 <!-- modlist:start -->
 <details>
-<summary>All 231 mods, plus resource packs and shaders (click to open)</summary>
+<summary>All 234 mods, plus resource packs and shaders (click to open)</summary>
 
 Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are only on players' computers, "server only" ones only on the server.
 
-### Mods (231)
+### Mods (234)
 
 | Name | Notes | From |
 | --- | --- | --- |
@@ -307,9 +307,12 @@ Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are 
 | [SwingThrough](https://modrinth.com/project/JyKlunuD) | client only | Modrinth |
 | [Tectonic](https://modrinth.com/project/lWDHr9jE) |  | Modrinth |
 | [Terralith](https://modrinth.com/project/8oi3bsk5) |  | Modrinth |
+| [The Bumblezone - NeoForge/Forge](https://modrinth.com/project/38tpSycf) |  | Modrinth |
 | [Tips](https://modrinth.com/project/AMCbgyVw) |  | Modrinth |
+| [Titanium](https://modrinth.com/project/1Ro7m06l) |  | Modrinth |
 | [Tom's Simple Storage Mod](https://modrinth.com/project/XZNI4Cpy) |  | Modrinth |
 | [Tomtaru's Cobblemon and Farmer's Delight Tweaks](https://modrinth.com/project/LSnXhPa7) |  | Modrinth |
+| [Transfer Labels](https://modrinth.com/project/hRrzpz5p) |  | Modrinth |
 | [UniLib](https://modrinth.com/project/nT86WUER) | client only | Modrinth |
 | [Universal Bone Meal](https://modrinth.com/project/66VIiT1y) |  | Modrinth |
 | [Universal Enchants](https://modrinth.com/project/DT56YDir) |  | Modrinth |

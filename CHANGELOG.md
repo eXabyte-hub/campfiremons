@@ -9,6 +9,12 @@ Already playing? Just press Play: the pack updates itself.
 - **Light level and chunk border overlays (More Overlays Updated).** Press F7 to show where mobs can spawn
   (blocks too dark to be safe) and F8 to show chunk borders. If those keys don't work for you, set "Toggle Light
   Overlay" and "Toggle Chunk Boundaries" in Options → Controls.
+- **The Bumblezone.** A new dimension full of bees. Throw an Ender Pearl at a bee nest or beehive to get in, and go
+  past the bottom or top to get out. It has its own Pokémon (Combee, Cutiefly, flower and bug Pokémon, Unown,
+  Beldum, Spiritomb and more), structures to explore, bee armour and the Bee Queen's trades. Careful: take their
+  honey and the bees come after you.
+- **Transfer Labels.** Sneak-right-click a label onto a block to move items or fluids into or out of the block next
+  to it, with filters. Made from a hopper, redstone and a chest (a bucket for fluid labels).
 
 ## v0.1.37
 
