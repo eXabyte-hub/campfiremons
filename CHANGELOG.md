@@ -2,6 +2,15 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.40
+
+Already playing? Just press Play: the pack updates itself.
+
+- **Treasure enchantments in the Advanced Infuser.** Mending, Frost Walker, Soul Speed, Swift Sneak and Wind Burst
+  (plus Supplementaries' Stasis and the Bumblezone's Hive Lifeline) can now be picked in the Advanced Enchanting
+  Infuser. Curses stay out.
+- **Enchant books in the Enchanting Infuser.** The normal infuser takes books now, like the advanced one already did.
+
 ## v0.1.39
 
 Already playing? Just press Play: the pack updates itself.

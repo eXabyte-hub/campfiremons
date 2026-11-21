@@ -1,0 +1,11 @@
+{
+  "values": [
+    {
+      "id": "#minecraft:treasure",
+      "required": false
+    }
+  ],
+  "remove": [
+    "#minecraft:curse"
+  ]
+}

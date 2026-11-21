@@ -461,6 +461,10 @@ file = "config/defaultoptions/options.txt"
 hash = "da5e8060020ffb9afdbfe3a6a08c3b3236f6e2d286cad53be402a79ac9874e38"
 
 [[files]]
+file = "config/enchantinginfuser-server.toml"
+hash = "0efe92d7d2e7d7ff6019a14c990f43ed852b1f36aacdd348056a85e6d61be2fa"
+
+[[files]]
 file = "config/fancymenu/options.txt"
 hash = "7d344bc0e4b17014290c3e7570a7505099de513f28b51cf6319919d75b465b3f"
 
@@ -4152,6 +4156,10 @@ hash = "9d1d7daf4a1db1e7a615926c79624dd87fabe0a74a6ec9e8aead6792ea72e2f4"
 [[files]]
 file = "kubejs/data/dungeons_arise/worldgen/structure_set/minor_structures.json"
 hash = "9657f8c7352471872000e3fa3392244b33306dd53601cef230dc3476fe49f504"
+
+[[files]]
+file = "kubejs/data/enchantinginfuser/tags/enchantment/in_advanced_enchanting_infuser.json"
+hash = "b7b508c319d4e8f7a1f67f1bea88d6f8d7d64811938c0f58785e58e240a1490c"
 
 [[files]]
 file = "kubejs/data/legendarymonuments/worldgen/structure_set/amphitheater.json"
