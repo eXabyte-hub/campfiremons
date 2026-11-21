@@ -2,6 +2,15 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.39
+
+Already playing? Just press Play: the pack updates itself.
+
+- **More accessory slots.** One extra of every accessory slot that has items to wear, in both accessory screens:
+  Curios (relics: head, necklace, back, belt, hands, feet, ring, bracelet, charm) and Accessories (Artifacts and
+  backpacks: hat, face, necklace, back, hands, belt, shoes). The Mega Bracelet, Z-Ring, Tera Orb, Dynamax Band, badge
+  box and Rotom Phone keep their single slot.
+
 ## v0.1.38
 
 Already playing? Just press Play: the pack updates itself.

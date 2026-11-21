@@ -1330,6 +1330,34 @@ file = "kubejs/data/c/tags/fluid/oil.json"
 hash = "4c95e3bade6cb07b2508432ed4ff74b532f99c25ab94ccc1ca3e437f6076b4bc"
 
 [[files]]
+file = "kubejs/data/campfiremons/accessories/slot/back.json"
+hash = "42cfbb3274758f020f8df62210d92d4d8ae1dee65ddf4430c97b18c3d20479be"
+
+[[files]]
+file = "kubejs/data/campfiremons/accessories/slot/belt.json"
+hash = "42cfbb3274758f020f8df62210d92d4d8ae1dee65ddf4430c97b18c3d20479be"
+
+[[files]]
+file = "kubejs/data/campfiremons/accessories/slot/face.json"
+hash = "42cfbb3274758f020f8df62210d92d4d8ae1dee65ddf4430c97b18c3d20479be"
+
+[[files]]
+file = "kubejs/data/campfiremons/accessories/slot/hand.json"
+hash = "42cfbb3274758f020f8df62210d92d4d8ae1dee65ddf4430c97b18c3d20479be"
+
+[[files]]
+file = "kubejs/data/campfiremons/accessories/slot/hat.json"
+hash = "42cfbb3274758f020f8df62210d92d4d8ae1dee65ddf4430c97b18c3d20479be"
+
+[[files]]
+file = "kubejs/data/campfiremons/accessories/slot/necklace.json"
+hash = "42cfbb3274758f020f8df62210d92d4d8ae1dee65ddf4430c97b18c3d20479be"
+
+[[files]]
+file = "kubejs/data/campfiremons/accessories/slot/shoes.json"
+hash = "42cfbb3274758f020f8df62210d92d4d8ae1dee65ddf4430c97b18c3d20479be"
+
+[[files]]
 file = "kubejs/data/campfiremons/advancement/bypass.json"
 hash = "e3ed6810058adbc00e47fd593f3d868118aa24ab4dfab8d8d793648977b107de"
 
@@ -1404,6 +1432,42 @@ hash = "d392e26fb1858decd87c05d34200a5d0568e4a680412b2e8a5dde568d1484d31"
 [[files]]
 file = "kubejs/data/campfiremons/advancement/stage/root.json"
 hash = "2c19a47656b2d228974b735df5debf191d512af00b360d1b0e932598eb134446"
+
+[[files]]
+file = "kubejs/data/campfiremons/curios/slots/back.json"
+hash = "e2bf14329bb33c9fc9a3dd35350b69cb40c9b94b8cb2a2f91f7d173c04003c5f"
+
+[[files]]
+file = "kubejs/data/campfiremons/curios/slots/belt.json"
+hash = "e2bf14329bb33c9fc9a3dd35350b69cb40c9b94b8cb2a2f91f7d173c04003c5f"
+
+[[files]]
+file = "kubejs/data/campfiremons/curios/slots/bracelet.json"
+hash = "e2bf14329bb33c9fc9a3dd35350b69cb40c9b94b8cb2a2f91f7d173c04003c5f"
+
+[[files]]
+file = "kubejs/data/campfiremons/curios/slots/charm.json"
+hash = "e2bf14329bb33c9fc9a3dd35350b69cb40c9b94b8cb2a2f91f7d173c04003c5f"
+
+[[files]]
+file = "kubejs/data/campfiremons/curios/slots/feet.json"
+hash = "e2bf14329bb33c9fc9a3dd35350b69cb40c9b94b8cb2a2f91f7d173c04003c5f"
+
+[[files]]
+file = "kubejs/data/campfiremons/curios/slots/hands.json"
+hash = "e2bf14329bb33c9fc9a3dd35350b69cb40c9b94b8cb2a2f91f7d173c04003c5f"
+
+[[files]]
+file = "kubejs/data/campfiremons/curios/slots/head.json"
+hash = "e2bf14329bb33c9fc9a3dd35350b69cb40c9b94b8cb2a2f91f7d173c04003c5f"
+
+[[files]]
+file = "kubejs/data/campfiremons/curios/slots/necklace.json"
+hash = "e2bf14329bb33c9fc9a3dd35350b69cb40c9b94b8cb2a2f91f7d173c04003c5f"
+
+[[files]]
+file = "kubejs/data/campfiremons/curios/slots/ring.json"
+hash = "e2bf14329bb33c9fc9a3dd35350b69cb40c9b94b8cb2a2f91f7d173c04003c5f"
 
 [[files]]
 file = "kubejs/data/campfiremons/generator_types/andesite.json"
