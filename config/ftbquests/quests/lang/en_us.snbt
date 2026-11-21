@@ -1053,6 +1053,10 @@
 	quest.60D795DB1BD39484.quest_desc: [
 		"Pokémon in a pasture wander nearby and produce items that suit them: wool, eggs, honey and more."
 		"With no farm animals in the pack, pastures are your farms."
+		""
+		"They also work the blocks around the pasture (crops, berries, apricorns, beehives, water for fishing)"
+		"and put what they make in a chest nearby. A Pokémon that knows &eTeleport&r fetches an &eEnder Pearl&r"
+		"from an &eEnder Chest&r every two or three minutes."
 	]
 	quest.60D795DB1BD39484.quest_subtitle: "Get a Pasture"
 	quest.60D795DB1BD39484.title: "Pasture"

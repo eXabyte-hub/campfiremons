@@ -1,0 +1,22 @@
+{
+  "id": "campfiremons:teleporter",
+  "cooldown": 120,
+  "cooldown_scope": "PER_ENTITY",
+  "requirements": {
+    "moves": ["teleport"]
+  },
+  "components": [
+    {
+      "type": "cobbleworkers:navigation",
+      "target": {
+        "block": "minecraft:ender_chest"
+      }
+    },
+    {
+      "type": "cobbleworkers:loot_generation",
+      "loot_tables": [
+        "campfiremons:cobbleworkers/teleporter"
+      ]
+    }
+  ]
+}

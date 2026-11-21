@@ -15,6 +15,13 @@ Already playing? Just press Play: the pack updates itself.
   honey and the bees come after you.
 - **Transfer Labels.** Sneak-right-click a label onto a block to move items or fluids into or out of the block next
   to it, with filters. Made from a hopper, redstone and a chest (a bucket for fluid labels).
+- **Ender Pearls from Pokémon.** Put a Pokémon that knows Teleport (Abra, Ralts, Natu, Elgyem…) in a
+  pasture with an Ender Chest and a chest nearby. Every two or three minutes it fetches an Ender Pearl from the Ender
+  Chest and puts it in the chest. Teleport has to be one of its four moves, and walkers like Natu and Ralts work more
+  steadily than floaty Abra.
+- **One kind of sprinkler.** The separate copper Sprinkler from v0.1.33 is gone: any you still have disappears when
+  you update. Use the Create Slice & Dice sprinkler instead: pipe water into it to keep farmland wet, or liquid
+  fertilizer (mix Tree Fertilizer or Organic Compost with water) to make crops under it grow.
 
 ## v0.1.37
 

@@ -89,11 +89,11 @@ Ask whoever runs the server for the address and to be added to the whitelist, th
 
 <!-- modlist:start -->
 <details>
-<summary>All 234 mods, plus resource packs and shaders (click to open)</summary>
+<summary>All 233 mods, plus resource packs and shaders (click to open)</summary>
 
 Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are only on players' computers, "server only" ones only on the server.
 
-### Mods (234)
+### Mods (233)
 
 | Name | Notes | From |
 | --- | --- | --- |
@@ -300,7 +300,6 @@ Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are 
 | [Sophisticated Storage](https://modrinth.com/project/hMlaZH8f) |  | Modrinth |
 | [Sophisticated Storage Create Integration](https://modrinth.com/project/MJ0hdevs) |  | Modrinth |
 | [Sophisticated Storage in Motion](https://modrinth.com/project/6vtFbyaJ) |  | Modrinth |
-| [Sprinkler](https://modrinth.com/project/qrrTz82Z) |  | Modrinth |
 | [SuperMartijn642's Config Lib](https://modrinth.com/project/LN9BxssP) |  | Modrinth |
 | [SuperMartijn642's Core Lib](https://modrinth.com/project/rOUBggPv) |  | Modrinth |
 | [Supplementaries](https://modrinth.com/project/fFEIiSDQ) |  | Modrinth |

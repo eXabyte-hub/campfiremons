@@ -586,7 +586,7 @@ hash = "520c41cea36c45c2c1eb854ed8d3b1c17a4c48fef620942245a88150890b0ec5"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "f895a1b02e10931bef3d7877de1a4c002484834664ccbea16fbdaf733ae64802"
+hash = "c4283cb22636a363ae5fb2f8e3838bb2daa6c493506b866258b0e2931ebf5860"
 
 [[files]]
 file = "config/magnumtorch-server.toml"
@@ -1458,6 +1458,10 @@ file = "kubejs/data/campfiremons/generator_types/veridium.json"
 hash = "40507a5dce431a6a81b2391ef6ae8416a6b9c8baa53d908234acc8f45f82123d"
 
 [[files]]
+file = "kubejs/data/campfiremons/jobs/teleporter.json"
+hash = "199e700c32773b4191ef9a4e5e32ef495b91cd307d2f267dbd0a89d70e0946c2"
+
+[[files]]
 file = "kubejs/data/campfiremons/loot_modifiers/finds/ability_capsule.json"
 hash = "4315196fa679e692f26e585cebcb844c872466905934be5178514a1b13cf44c8"
 
@@ -1496,6 +1500,10 @@ hash = "4a7e88d1b9ef0668373054f98e90b436697b748a0ff9f27dfcefc7de651d79d8"
 [[files]]
 file = "kubejs/data/campfiremons/loot_modifiers/finds/z_ring.json"
 hash = "66887528c95b8dd4d9595940c9a33d00e02d1db8cf95232b84c003089564e686"
+
+[[files]]
+file = "kubejs/data/campfiremons/loot_table/cobbleworkers/teleporter.json"
+hash = "21ad02bf28653024e570f7fb1f4edfa2eef5aad719b62796e58846bfae4dbb1e"
 
 [[files]]
 file = "kubejs/data/campfiremons/loot_table/finds/ability_capsule.json"
@@ -5413,11 +5421,6 @@ metafile = true
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
 hash = "0f41c917f1091923bb27756879c51da6436fa660d66857be4523cc78ef5c0833"
-metafile = true
-
-[[files]]
-file = "mods/sprinkler.pw.toml"
-hash = "982c97e4188b7a6472615f0594f6f2a92d9f518940955096e3dc32a9defe11d7"
 metafile = true
 
 [[files]]
