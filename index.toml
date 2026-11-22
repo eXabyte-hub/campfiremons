@@ -4470,6 +4470,10 @@ file = "kubejs/server_scripts/campfiremons/ultra_space.js"
 hash = "2395ecddbc2710f39b7048ee37a0ae85ce65f7a4a49c87f835edb001377a1d5b"
 
 [[files]]
+file = "kubejs/server_scripts/campfiremons/warden_digging.js"
+hash = "d1df73e85d77a2e76d01f40fdf22bad19d34cf9db08adeb3204528ed8dba780f"
+
+[[files]]
 file = "kubejs/startup_scripts/campfiremons/cobblemon_hooks.js"
 hash = "21687adb07bcb4ab7e4e1d40dc6c289621e8fa5603aa4a87248cbbc160e42aa5"
 

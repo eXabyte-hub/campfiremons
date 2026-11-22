@@ -2,6 +2,13 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.41
+
+Already playing? Just press Play: the pack updates itself.
+
+- **Wardens go home.** A Warden now digs back down once no player has been near it for a minute. Before, wild
+  Pokémon wandering through the deep dark kept it busy, so Wardens never left.
+
 ## v0.1.40
 
 Already playing? Just press Play: the pack updates itself.

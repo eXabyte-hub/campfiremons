@@ -269,6 +269,15 @@ Verified in the RCT 0.19.2-beta source: RCT already does both halves, so we conf
 - **Hostile mobs stay.** For the harder structures: Cobblemon Armory (Pokémon-themed weapons/armour),
   Artifacts (accessories found in dungeons) reworked by **Reliquified Artifacts** into Relics' levelling system
   (accessories grow stronger with use), and Mythic Upgrades (late-game gear tiers).
+  - Two vanilla behaviours adjusted for Pokémon and friends: creeper explosions don't break blocks
+    (`creeper_explosions.js`, asked for on 2026-11-15), and **wardens dig back down** once no player has been within
+    32 blocks for 60 s (`warden_digging.js`, asked for on 2026-11-22). Vanilla digs them down after 60 s without a
+    disturbance, but wild Pokémon walking in the deep dark are vibrations too, so wardens stayed up for good. The
+    script plays the vanilla dig (pose, sound, removal after 5 s) and skips named wardens; the last time a player
+    was near is stored on the warden, so one left in an unloaded chunk digs soon after it loads again. It reads the
+    world clock through `getLevelData().getGameTime()`: KubeJS doesn't expose `Level.getGameTime()`. Test server: two
+    wardens re-disturbed every 2 s (as Pokémon would) with no player near: the unnamed one started digging at about
+    62 s and was gone 5 s later; the named one stayed.
   - Relics needs **Curios**, so the pack runs two accessory systems: Accessories (Mega Bracelet/Z-Ring/badges)
     and Curios (relics). Same setup as All the Mons, which runs both. Curios and Artifacts come from Modrinth;
     Relics, Reliquified Artifacts and OctoLib from CurseForge (they allow third-party downloads).
