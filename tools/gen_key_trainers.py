@@ -24,7 +24,7 @@ import sys
 import zipfile
 
 SERIES = 'radicalred'
-KEY_WEIGHT = 1.0  # RCT's 0.25 -> an ordinary trainer's weight
+KEY_WEIGHT = 0.375  # RCT's 0.25, half as much again
 TYPES = {'rival', 'team_rocket'}
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
 OUT = os.path.join(ROOT, 'kubejs', 'data', 'rctmod')

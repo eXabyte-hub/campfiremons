@@ -4351,87 +4351,87 @@ hash = "bd51db29fe13e5d94a4c43c3864a96c06c061e126e470305686f6164f0ad3537"
 
 [[files]]
 file = "kubejs/data/rctmod/license.txt"
-hash = "bbb447f06628aaa12858465985080665712384808fa641b4e65805c11472b8b5"
+hash = "cf164f5889b7ee8232f232b181cd460b33ed887c90437a6aa03e9412e9b89af1"
 
 [[files]]
 file = "kubejs/data/rctmod/mobs/trainers/single/boss_giovanni_0045.json"
-hash = "fdf8d7629f4f2d4086bd2dc057811faf86ee995e5d8559a3f91210cacbb9f0a7"
+hash = "077cc7630244b7eacdbbf29786d2d908fd94a88a318d96f3ec9561b72dbb519c"
 
 [[files]]
 file = "kubejs/data/rctmod/mobs/trainers/single/boss_giovanni_015c.json"
-hash = "2091011f096354d949fdad4311f556551506aefb5c9f496297a7d5181ebd2775"
+hash = "303fcade940eb10a1afee90d040aabfae63907a5e6f674dfee45910d57015360"
 
 [[files]]
 file = "kubejs/data/rctmod/mobs/trainers/single/boss_giovanni_015d.json"
-hash = "a1c3d8e86857a53b5d938c1f403ab3088cfd15b395837e80863b074f71ca25c7"
+hash = "8a194f4d438eb220f355624ccaee65caced2ddd06f9f550c566bae101648552b"
 
 [[files]]
 file = "kubejs/data/rctmod/mobs/trainers/single/rival_terry_014c.json"
-hash = "acaffd8512a49df33f36bb974b7ebb38f313aee50d27532fa92a73625d058bdc"
+hash = "69bc91965428842979d371c2e248bd75e15946a87a33e3c008d65f5798921296"
 
 [[files]]
 file = "kubejs/data/rctmod/mobs/trainers/single/rival_terry_014d.json"
-hash = "acaffd8512a49df33f36bb974b7ebb38f313aee50d27532fa92a73625d058bdc"
+hash = "69bc91965428842979d371c2e248bd75e15946a87a33e3c008d65f5798921296"
 
 [[files]]
 file = "kubejs/data/rctmod/mobs/trainers/single/rival_terry_014e.json"
-hash = "acaffd8512a49df33f36bb974b7ebb38f313aee50d27532fa92a73625d058bdc"
+hash = "69bc91965428842979d371c2e248bd75e15946a87a33e3c008d65f5798921296"
 
 [[files]]
 file = "kubejs/data/rctmod/mobs/trainers/single/rival_terry_01b0.json"
-hash = "175c8b847316de5b3fe5766fe6d774831f677dd1a91f31fcf7581ef2be8821bb"
+hash = "898c159008d05cc1470bac7becf67c477ab90b42d1c222f96fae328504bae42f"
 
 [[files]]
 file = "kubejs/data/rctmod/mobs/trainers/single/rival_terry_01b1.json"
-hash = "175c8b847316de5b3fe5766fe6d774831f677dd1a91f31fcf7581ef2be8821bb"
+hash = "898c159008d05cc1470bac7becf67c477ab90b42d1c222f96fae328504bae42f"
 
 [[files]]
 file = "kubejs/data/rctmod/mobs/trainers/single/rival_terry_01b2.json"
-hash = "175c8b847316de5b3fe5766fe6d774831f677dd1a91f31fcf7581ef2be8821bb"
+hash = "898c159008d05cc1470bac7becf67c477ab90b42d1c222f96fae328504bae42f"
 
 [[files]]
 file = "kubejs/data/rctmod/mobs/trainers/single/rival_terry_01b3.json"
-hash = "0dc686f259ef3eba1bd193c90dd88d612398189db4db2b299809ed0cd3b7b219"
+hash = "8fe1f2b8e60e3ba4b72565570819189cb0f17f2bec7893f2407488586c689ab4"
 
 [[files]]
 file = "kubejs/data/rctmod/mobs/trainers/single/rival_terry_01b4.json"
-hash = "0dc686f259ef3eba1bd193c90dd88d612398189db4db2b299809ed0cd3b7b219"
+hash = "8fe1f2b8e60e3ba4b72565570819189cb0f17f2bec7893f2407488586c689ab4"
 
 [[files]]
 file = "kubejs/data/rctmod/mobs/trainers/single/rival_terry_01b5.json"
-hash = "0dc686f259ef3eba1bd193c90dd88d612398189db4db2b299809ed0cd3b7b219"
+hash = "8fe1f2b8e60e3ba4b72565570819189cb0f17f2bec7893f2407488586c689ab4"
 
 [[files]]
 file = "kubejs/data/rctmod/mobs/trainers/single/rocket_admin_archer_002e.json"
-hash = "37b50ec521336af919f4b3608c7957d0701b7afd85be5fdff74f93409b599dfc"
+hash = "bee8a0b04f095abfc5b946c9766c3ab8e3672379e6004ef918d86e6dc5d91c30"
 
 [[files]]
 file = "kubejs/data/rctmod/mobs/trainers/single/rocket_admin_archer_0043.json"
-hash = "600e714681856abe6141c5aff66e15fa24f7f15310758d05edb7b48574381b1d"
+hash = "991a447d1fdb66dbadf832f0ab8833f9be0afdb480a925815267543a71cadaf0"
 
 [[files]]
 file = "kubejs/data/rctmod/mobs/trainers/single/rocket_admin_archer_ariana_m000.json"
-hash = "567484dd649b1f5a1730a0585fb8ab83b6469ce3d09200be88bceb11e404d4a5"
+hash = "09b9ab0a35e6025d09b2403486781a83b857736c21ba79c80de81e30e3d0910f"
 
 [[files]]
 file = "kubejs/data/rctmod/mobs/trainers/single/rocket_admin_ariana_0044.json"
-hash = "2d35b1410adf050ff2f597e3b33fcf7f55d4a6a5cde9a36fddecfb1b36e41cd7"
+hash = "ca25ba49500fe4daabfa81afde9f32245d19ecced1e33bff23e4a3c95f795187"
 
 [[files]]
 file = "kubejs/data/rctmod/mobs/trainers/single/trainer_brendan_001a.json"
-hash = "aba9b1f681f1d51bcc255551305606a673b6c7940549cb8b7cd45344828d1fdf"
+hash = "214d9d21c13dbc79b59a32ebad69a9ef968fe705e731cbb6bad24b20adcd2029"
 
 [[files]]
 file = "kubejs/data/rctmod/mobs/trainers/single/trainer_brendan_0032.json"
-hash = "2a3e698f9089588280849b3fda68a7fd2be4ae5e197106a3b9df3f7e3bfc498d"
+hash = "36ea520ec0f637debd2579c55ec1c8e7e82c7689e6648661107b6e1e6d5e7b2e"
 
 [[files]]
 file = "kubejs/data/rctmod/mobs/trainers/single/trainer_brendan_0039.json"
-hash = "865810c6ba233a37b9c47a0f01d8003da61512be1aaa0ed897b03bdf2d734fed"
+hash = "7f43617a42300a9ac80f0d3280f5bb863e6bf37211b0f3b7a44d0d9a6f90512d"
 
 [[files]]
 file = "kubejs/data/rctmod/mobs/trainers/single/trainer_may_003d.json"
-hash = "6016476087cf6a0246fd3b63fdab54b111a9102ad3a170b3c118237f0dc8922d"
+hash = "a23fdfa3be21b4182c860eac797e0eb876eeb2f12b6ba8b0c6bdfc199e381276"
 
 [[files]]
 file = "kubejs/data/rgs/tags/worldgen/biome/celadon_gym.json"

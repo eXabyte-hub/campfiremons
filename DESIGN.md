@@ -60,14 +60,15 @@ ATMons has no license, so we only study its approach (see §6).
     rivals (Terry, Brendan, May) and Team Rocket (Archer, Ariana, Giovanni) only. Gym leaders, the Elite Four and
     the Champion stay as RCT ships them [decided]. The biomes stay as they are too: being clear about where and when
     matters more [decided].
-    1. Spawn weight 0.25 → 1.0 (an ordinary trainer's): 20 of RCT's trainer files copied into
+    1. Spawn weight 0.25 → 0.375 (half as much again; 1.0 was tried first, but they did turn up, just rarely, so
+       less was asked for): 20 of RCT's trainer files copied into
        `kubejs/data/rctmod/mobs/trainers/` with only that changed (RCT's licence and the change: `license.txt` there).
     2. The "Before <leader>" quests list each fight's biomes (RCT's `biomeTagWhitelist`, which names NeoForge's `c:`
        biome tags, plus `has_structure/end_city`) and say they come one at a time, in order.
     3. `key_fight_alerts.js`: when RCT spawns one of a player's key fights, that player gets its name, distance and
        direction in chat (once per trainer, tagged; placed persistent trainers are skipped).
     `tools/gen_key_trainers.py <rctmod jar>` writes 1, the fight list `key_fights.js` for 3, and the quest lines of
-    2; re-run it after updating RCT. Test server: RCT reads weight 1.0 for the 20 and 0.25 for Brock, the Elite Four
+    2; re-run it after updating RCT. Test server: RCT reads weight 0.375 for the 20 and 0.25 for Brock, the Elite Four
     and the Champion; a hand-made non-persistent Admin Archer for a test player was announced once ("Rocket Admin
     Archer has turned up about 42 blocks north-east!"), a Brock wasn't. Not yet seen with a natural spawn and a real
     player.

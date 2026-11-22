@@ -24,6 +24,6 @@
     "radicalred"
   ],
   "signatureItem": "cobblemon:black_sludge",
-  "spawnWeightFactor": 1.0,
+  "spawnWeightFactor": 0.375,
   "type": "team_rocket"
 }
