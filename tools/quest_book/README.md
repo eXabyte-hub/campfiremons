@@ -25,6 +25,9 @@ The builder still reads the original book's per-chapter `lang/en_us/` files and 
   does nothing once the fight quests exist. The stage banners come from `gen_quest_art.py` (`stage_1`..`stage_9`).
 - `add_boulder_chapter.py`: "Stage 0: Boulder Badge" at the top of Gym Challenge (v0.1.45), linking Getting
   Started's welcome and Beat Brock quests around a Road to Brock quest. Does nothing once the chapter exists.
+- `renumber_chapters.py`: gives every chapter a unique `order_index` (group order, then the current order). FTB
+  Quests keys chapters by `order_index` across the whole book, so two equal numbers, even in different groups, push
+  one chapter to the bottom of its group. Run it after adding a chapter.
 - `type_tooltips.py`: hover text for every type icon (`tera_types` images), from a type chart, written as `image.<id>.title` in `lang/en_us.snbt` (FTB shows an image's title as its tooltip), plus a Bulbapedia link as each icon's click action: FTB ignores the mouse over images without one, so their tooltips never show. Re-run after adding type icons; safe to run on the live book (it only touches those keys).
 - `rewards.py`: the rewards overhaul (v0.1.35). Every quest keeps its XP and gets items from its own mod's pool
   (`POOLS`, picked by the quest's item tasks, else the chapter), sized by its XP (1, 2-3, 4-6, 7+), plus

@@ -2,6 +2,13 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.46
+
+Already playing? Just press Play: the pack updates itself.
+
+- **Quest book order fixed.** "Stage 0: Boulder Badge" now sits at the top of the Gym Challenge list instead of below
+  Stage 9, and Gotta Find 'Em All is back in its place in the Guide.
+
 ## v0.1.45
 
 Already playing? Just press Play: the pack updates itself.
