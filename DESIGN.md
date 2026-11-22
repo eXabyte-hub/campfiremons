@@ -43,6 +43,13 @@ ATMons has no license, so we only study its approach (see §6).
 ### 3.1 Stages = quest chapters, each ending in a gym [decided]
 
 - Every FTB Quests chapter is one **stage**. The chapter's capstone quest is that stage's **gym battle**.
+  - Since v0.1.44 [asked for on 2026-11-22] each stage chapter is named after the badge at its end (Stage 1 runs
+    from Brock to Misty: "Stage 1: Cascade Badge"; Stage 8 "Champion", Stage 9 "Hall of Fame"), with that gym's
+    banner and type icons. Between the badge hub and the gym quest, on the same line, one quest per key fight in
+    series order, completed by RCT's own defeat advancement (rival variants one quest, the Elite Four one quest with
+    four parts), so fights already won tick off by themselves; the gym quest still only needs the hub, so nothing new
+    can block a gym. The hub, each fight and each gym quest give the level cap (Stage 1: 21 → 27). Added in place by
+    `tools/quest_book/add_key_fight_chains.py` (new quests only; no quest changes chapter, so progress stays).
 - Earning the badge completes the stage. The **stage number = badges earned**, giving one progression number for everything.
 - Stage flags are **advancements**: `campfiremons:stage/1` … `campfiremons:stage/9` [proposed].
   - *Advancement*: a per-player flag the game saves, visible in the advancements screen, and grantable by command.

@@ -13,7 +13,7 @@
 			id: "611104CA03909B58"
 			image: "campfiremons:textures/quests/stage_8.png"
 			rotation: 0.0d
-			width: 8.55d
+			width: 6.64d
 			x: 0.0d
 			y: -6.2d
 		}
@@ -21,20 +21,20 @@
 			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Dragon_(type)"
 			height: 1.5d
 			id: "2A941FE37412C3D2"
-			image: "mega_showdown:textures/gui/summary/tera_types/dragon.png"
+			image: "mega_showdown:textures/gui/summary/tera_types/stellar.png"
 			rotation: 0.0d
 			width: 1.5d
-			x: -5.375d
+			x: -4.42d
 			y: -6.2d
 		}
 		{
 			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Dragon_(type)"
 			height: 1.5d
 			id: "73A4C98CC855B321"
-			image: "mega_showdown:textures/gui/summary/tera_types/dragon.png"
+			image: "mega_showdown:textures/gui/summary/tera_types/stellar.png"
 			rotation: 0.0d
 			width: 1.5d
-			x: 5.375d
+			x: 4.42d
 			y: -6.2d
 		}
 	]
@@ -690,6 +690,104 @@
 				type: "advancement"
 			}]
 			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4C029B208A6F165B"
+			]
+			icon: {
+				id: "rctmod:trainer_card"
+			}
+			id: "2FFA3BA99725170D"
+			rewards: [{
+				id: "658FFF107902DD52"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			size: 1.1d
+			tasks: [{
+				advancement: "rctmod:trainers/defeat_rival_terry_4"
+				criterion: ""
+				id: "257BD6440D2DF4E8"
+				type: "advancement"
+			}]
+			x: 2.6d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2FFA3BA99725170D"
+			]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:sceptile"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "623FF5704F4571B7"
+			rewards: [{
+				id: "277D800F994C55F5"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			size: 1.1d
+			tasks: [{
+				advancement: "rctmod:trainers/defeat_trainer_brendan_3"
+				criterion: ""
+				id: "379FC368D4323643"
+				type: "advancement"
+			}]
+			x: 4.2d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"623FF5704F4571B7"
+			]
+			icon: {
+				id: "rctmod:trainer_card"
+			}
+			id: "7B5B336A532C2F19"
+			rewards: [{
+				id: "61CB1AC0B8F2EAB9"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			size: 1.1d
+			tasks: [
+				{
+					advancement: "rctmod:trainers/defeat_elite_four_lorelei"
+					criterion: ""
+					id: "16D18AF217784DF1"
+					type: "advancement"
+				}
+				{
+					advancement: "rctmod:trainers/defeat_elite_four_bruno"
+					criterion: ""
+					id: "300D66AC292F230F"
+					type: "advancement"
+				}
+				{
+					advancement: "rctmod:trainers/defeat_elite_four_agatha"
+					criterion: ""
+					id: "2177FAE75BC7FD14"
+					type: "advancement"
+				}
+				{
+					advancement: "rctmod:trainers/defeat_elite_four_lance"
+					criterion: ""
+					id: "788060541ADD4746"
+					type: "advancement"
+				}
+			]
+			x: 5.8d
 			y: 0.0d
 		}
 	]

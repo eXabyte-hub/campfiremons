@@ -13,7 +13,7 @@
 			id: "49C6A32425E416AF"
 			image: "campfiremons:textures/quests/stage_2.png"
 			rotation: 0.0d
-			width: 9.84d
+			width: 9.88d
 			x: 0.0d
 			y: -6.2d
 		}
@@ -21,20 +21,20 @@
 			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Water_(type)"
 			height: 1.5d
 			id: "17ECE896DD098DAA"
-			image: "mega_showdown:textures/gui/summary/tera_types/water.png"
+			image: "mega_showdown:textures/gui/summary/tera_types/electric.png"
 			rotation: 0.0d
 			width: 1.5d
-			x: -6.02d
+			x: -6.04d
 			y: -6.2d
 		}
 		{
 			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Water_(type)"
 			height: 1.5d
 			id: "07754A7C5ED3C2F2"
-			image: "mega_showdown:textures/gui/summary/tera_types/water.png"
+			image: "mega_showdown:textures/gui/summary/tera_types/electric.png"
 			rotation: 0.0d
 			width: 1.5d
-			x: 6.02d
+			x: 6.04d
 			y: -6.2d
 		}
 	]
@@ -659,6 +659,36 @@
 				type: "advancement"
 			}]
 			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"374ED3817109D1AE"
+			]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:grovyle"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "33BDC990065C4D1D"
+			rewards: [{
+				id: "5AE80F7197BE84E0"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			size: 1.1d
+			tasks: [{
+				advancement: "rctmod:trainers/defeat_trainer_brendan_1"
+				criterion: ""
+				id: "618658DA773C107E"
+				type: "advancement"
+			}]
+			x: 2.6d
 			y: 0.0d
 		}
 	]

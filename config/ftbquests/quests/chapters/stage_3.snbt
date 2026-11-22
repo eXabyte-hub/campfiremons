@@ -13,7 +13,7 @@
 			id: "7324DB4579139806"
 			image: "campfiremons:textures/quests/stage_3.png"
 			rotation: 0.0d
-			width: 9.88d
+			width: 10.02d
 			x: 0.0d
 			y: -6.2d
 		}
@@ -21,20 +21,20 @@
 			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Electric_(type)"
 			height: 1.5d
 			id: "492EBBD42DBAB2BC"
-			image: "mega_showdown:textures/gui/summary/tera_types/electric.png"
+			image: "mega_showdown:textures/gui/summary/tera_types/grass.png"
 			rotation: 0.0d
 			width: 1.5d
-			x: -6.040000000000001d
+			x: -6.11d
 			y: -6.2d
 		}
 		{
 			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Electric_(type)"
 			height: 1.5d
 			id: "4673C26C0111C908"
-			image: "mega_showdown:textures/gui/summary/tera_types/electric.png"
+			image: "mega_showdown:textures/gui/summary/tera_types/grass.png"
 			rotation: 0.0d
 			width: 1.5d
-			x: 6.040000000000001d
+			x: 6.11d
 			y: -6.2d
 		}
 	]

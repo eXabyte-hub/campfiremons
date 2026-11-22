@@ -13,7 +13,7 @@
 			id: "340B14AF53E02783"
 			image: "campfiremons:textures/quests/stage_4.png"
 			rotation: 0.0d
-			width: 10.02d
+			width: 8.54d
 			x: 0.0d
 			y: -6.2d
 		}
@@ -21,20 +21,20 @@
 			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Grass_(type)"
 			height: 1.5d
 			id: "4C8308B4D28EAFF3"
-			image: "mega_showdown:textures/gui/summary/tera_types/grass.png"
+			image: "mega_showdown:textures/gui/summary/tera_types/psychic.png"
 			rotation: 0.0d
 			width: 1.5d
-			x: -6.109999999999999d
+			x: -5.37d
 			y: -6.2d
 		}
 		{
 			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Grass_(type)"
 			height: 1.5d
 			id: "36BA3DE2112A11EA"
-			image: "mega_showdown:textures/gui/summary/tera_types/grass.png"
+			image: "mega_showdown:textures/gui/summary/tera_types/psychic.png"
 			rotation: 0.0d
 			width: 1.5d
-			x: 6.109999999999999d
+			x: 5.37d
 			y: -6.2d
 		}
 	]
@@ -432,7 +432,7 @@
 				id: "60C23BD2ECA8485A"
 				type: "advancement"
 			}]
-			x: 8.0d
+			x: 9.6d
 			y: 0.0d
 		}
 		{
@@ -495,6 +495,120 @@
 			}]
 			x: -1.9d
 			y: 3.3d
+		}
+		{
+			dependencies: [
+				"389BB3BBD7ABD021"
+			]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:kangaskhan"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "41C89AFA85BC59F9"
+			rewards: [{
+				id: "7EBB6E09A0744E39"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			size: 1.1d
+			tasks: [{
+				advancement: "rctmod:trainers/defeat_boss_giovanni_1"
+				criterion: ""
+				id: "428CBC9372F2F306"
+				type: "advancement"
+			}]
+			x: 2.6d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"41C89AFA85BC59F9"
+			]
+			icon: {
+				id: "rctmod:trainer_card"
+			}
+			id: "4257C7C3F6852A17"
+			rewards: [{
+				id: "390A65310598D28A"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			size: 1.1d
+			tasks: [{
+				advancement: "rctmod:trainers/defeat_rival_terry_2"
+				criterion: ""
+				id: "561969B06D9E683B"
+				type: "advancement"
+			}]
+			x: 4.2d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4257C7C3F6852A17"
+			]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:houndoom"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "180DE8FE477B1A22"
+			rewards: [{
+				id: "39086FCF8D8E5E11"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			size: 1.1d
+			tasks: [{
+				advancement: "rctmod:trainers/defeat_rocket_admin_archer_and_ariana"
+				criterion: ""
+				id: "619F3FCDA64B5984"
+				type: "advancement"
+			}]
+			x: 5.8d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"180DE8FE477B1A22"
+			]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:garchomp"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "5CB664B301EBEA99"
+			rewards: [{
+				id: "26BE5A5D748DD09F"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			size: 1.1d
+			tasks: [{
+				advancement: "rctmod:trainers/defeat_boss_giovanni_2"
+				criterion: ""
+				id: "2AE8545668A97C1B"
+				type: "advancement"
+			}]
+			x: 7.4d
+			y: 0.0d
 		}
 	]
 }

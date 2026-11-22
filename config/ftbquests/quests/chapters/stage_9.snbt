@@ -13,7 +13,7 @@
 			id: "597EC8600854C784"
 			image: "campfiremons:textures/quests/stage_9.png"
 			rotation: 0.0d
-			width: 6.64d
+			width: 9.44d
 			x: 0.0d
 			y: -6.2d
 		}
@@ -24,7 +24,7 @@
 			image: "mega_showdown:textures/gui/summary/tera_types/stellar.png"
 			rotation: 0.0d
 			width: 1.5d
-			x: -4.42d
+			x: -5.82d
 			y: -6.2d
 		}
 		{
@@ -34,7 +34,7 @@
 			image: "mega_showdown:textures/gui/summary/tera_types/stellar.png"
 			rotation: 0.0d
 			width: 1.5d
-			x: 4.42d
+			x: 5.82d
 			y: -6.2d
 		}
 	]

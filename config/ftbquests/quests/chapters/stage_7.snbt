@@ -13,7 +13,7 @@
 			id: "7AE37B4727179751"
 			image: "campfiremons:textures/quests/stage_7.png"
 			rotation: 0.0d
-			width: 9.57d
+			width: 8.55d
 			x: 0.0d
 			y: -6.2d
 		}
@@ -21,20 +21,20 @@
 			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Fire_(type)"
 			height: 1.5d
 			id: "7BE214D5C683803B"
-			image: "mega_showdown:textures/gui/summary/tera_types/fire.png"
+			image: "mega_showdown:textures/gui/summary/tera_types/dragon.png"
 			rotation: 0.0d
 			width: 1.5d
-			x: -5.885d
+			x: -5.375d
 			y: -6.2d
 		}
 		{
 			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Fire_(type)"
 			height: 1.5d
 			id: "25C3332A7FF240B4"
-			image: "mega_showdown:textures/gui/summary/tera_types/fire.png"
+			image: "mega_showdown:textures/gui/summary/tera_types/dragon.png"
 			rotation: 0.0d
 			width: 1.5d
-			x: 5.885d
+			x: 5.375d
 			y: -6.2d
 		}
 	]
@@ -603,6 +603,96 @@
 				type: "advancement"
 			}]
 			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"69C0821EA21C4C93"
+			]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:houndoom"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "70566F1C7B8AEA8E"
+			rewards: [{
+				id: "199A19F1485508A4"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			size: 1.1d
+			tasks: [{
+				advancement: "rctmod:trainers/defeat_rocket_admin_archer_3"
+				criterion: ""
+				id: "6AD17313A3845B25"
+				type: "advancement"
+			}]
+			x: 2.6d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"70566F1C7B8AEA8E"
+			]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:mawile"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "55ED951F6603B4AF"
+			rewards: [{
+				id: "2B30ECBCCF3BF79C"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			size: 1.1d
+			tasks: [{
+				advancement: "rctmod:trainers/defeat_rocket_admin_ariana_2"
+				criterion: ""
+				id: "791A122B631E0134"
+				type: "advancement"
+			}]
+			x: 4.2d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"55ED951F6603B4AF"
+			]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:mewtwo"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "667DD01808B50BF8"
+			rewards: [{
+				id: "749B08C48E1FFDD2"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			size: 1.1d
+			tasks: [{
+				advancement: "rctmod:trainers/defeat_boss_giovanni_3"
+				criterion: ""
+				id: "46BB6069EA1DCBF4"
+				type: "advancement"
+			}]
+			x: 5.8d
 			y: 0.0d
 		}
 	]

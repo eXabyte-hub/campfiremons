@@ -13,7 +13,7 @@
 			id: "15DE3A6B9BCD36CB"
 			image: "campfiremons:textures/quests/stage_6.png"
 			rotation: 0.0d
-			width: 7.45d
+			width: 9.57d
 			x: 0.0d
 			y: -6.2d
 		}
@@ -21,20 +21,20 @@
 			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Poison_(type)"
 			height: 1.5d
 			id: "06F3F535E3D5BBAA"
-			image: "mega_showdown:textures/gui/summary/tera_types/poison.png"
+			image: "mega_showdown:textures/gui/summary/tera_types/fire.png"
 			rotation: 0.0d
 			width: 1.5d
-			x: -4.825d
+			x: -5.885d
 			y: -6.2d
 		}
 		{
 			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Poison_(type)"
 			height: 1.5d
 			id: "697650C8387294D0"
-			image: "mega_showdown:textures/gui/summary/tera_types/poison.png"
+			image: "mega_showdown:textures/gui/summary/tera_types/fire.png"
 			rotation: 0.0d
 			width: 1.5d
-			x: 4.825d
+			x: 5.885d
 			y: -6.2d
 		}
 	]
@@ -648,6 +648,36 @@
 			}]
 			x: -1.9d
 			y: 3.3d
+		}
+		{
+			dependencies: [
+				"21FDD3645BEC06AC"
+			]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:blaziken"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "5BBE0E1612E41453"
+			rewards: [{
+				id: "41C848F31E06CDE0"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			size: 1.1d
+			tasks: [{
+				advancement: "rctmod:trainers/defeat_trainer_may"
+				criterion: ""
+				id: "2240FF83A8BFF08F"
+				type: "advancement"
+			}]
+			x: 2.6d
+			y: 0.0d
 		}
 	]
 }

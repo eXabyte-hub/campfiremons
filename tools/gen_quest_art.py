@@ -13,22 +13,23 @@ REPO = Path(__file__).resolve().parent.parent
 OUT = REPO / "kubejs" / "assets" / "campfiremons" / "textures" / "quests"
 FONT = "/usr/share/fonts/TTF/DejaVuSans-Bold.ttf"
 
-# file name: (title, fill top colour, fill bottom colour)
+# file name: (title, fill top colour, fill bottom colour). A stage chapter's banner names the badge at its end
+# (Stage 1 runs from Brock to Misty: Cascade Badge), since v0.1.44
 BANNERS = {
     "getting_started": ("Getting Started", "#ff6b6b", "#c8102e"),
     "evolution": ("Evolution", "#6fa8ff", "#1d4fd8"),
     "gotta_find_em_all": ("Gotta Find 'Em All!", "#ff6b6b", "#c8102e"),
     "archaeology": ("Archaeology", "#ffc35c", "#c46a12"),
     "fishing": ("Fishing", "#7ff0ea", "#138a96"),
-    "stage_1": ("Boulder Badge", "#c9b78f", "#7a6440"),
-    "stage_2": ("Cascade Badge", "#7cc4ff", "#1f6fd1"),
-    "stage_3": ("Thunder Badge", "#fff07a", "#d6a10f"),
-    "stage_4": ("Rainbow Badge", "#9cf08a", "#2f9e3a"),
-    "stage_5": ("Marsh Badge", "#ff9fd0", "#c4377e"),
-    "stage_6": ("Soul Badge", "#d9a3ff", "#7a2fc4"),
-    "stage_7": ("Volcano Badge", "#ffad5c", "#d1361f"),
-    "stage_8": ("Rising Badge", "#a8a2ff", "#4b2fd1"),
-    "stage_9": ("Champion", "#fff1a3", "#d6a10f"),
+    "stage_1": ("Cascade Badge", "#7cc4ff", "#1f6fd1"),
+    "stage_2": ("Thunder Badge", "#fff07a", "#d6a10f"),
+    "stage_3": ("Rainbow Badge", "#9cf08a", "#2f9e3a"),
+    "stage_4": ("Marsh Badge", "#ff9fd0", "#c4377e"),
+    "stage_5": ("Soul Badge", "#d9a3ff", "#7a2fc4"),
+    "stage_6": ("Volcano Badge", "#ffad5c", "#d1361f"),
+    "stage_7": ("Rising Badge", "#a8a2ff", "#4b2fd1"),
+    "stage_8": ("Champion", "#fff1a3", "#d6a10f"),
+    "stage_9": ("Hall of Fame", "#fff1a3", "#d6a10f"),
     "poke_balls": ("Poké Balls", "#ff6b6b", "#c8102e"),
     "battle_gimmicks": ("Battle Gimmicks", "#a5d8ff", "#2f7fd6"),
     "mega_evolution": ("Mega Evolution", "#a5d8ff", "#2f7fd6"),

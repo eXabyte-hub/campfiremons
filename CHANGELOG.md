@@ -2,6 +2,16 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.44
+
+Already playing? Just press Play: the pack updates itself.
+
+- **Clearer road to each gym.** Each stage chapter is now named after the badge you're working towards ("Stage 1:
+  Cascade Badge" runs from Brock to Misty). The key fights stand in a line before the gym quest, Admin Archer and
+  Rival Terry before Misty, and tick off by themselves when you beat them (fights you've already won too). The
+  badge, fight and gym quests all say your level cap, like "Level cap on the road to Misty: 21 → 27". Your quest
+  progress is unchanged.
+
 ## v0.1.43
 
 Already playing? Just press Play: the pack updates itself.

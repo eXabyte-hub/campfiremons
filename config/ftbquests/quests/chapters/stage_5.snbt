@@ -13,7 +13,7 @@
 			id: "6FC5E45D5477D026"
 			image: "campfiremons:textures/quests/stage_5.png"
 			rotation: 0.0d
-			width: 8.54d
+			width: 7.45d
 			x: 0.0d
 			y: -6.2d
 		}
@@ -21,20 +21,20 @@
 			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Psychic_(type)"
 			height: 1.5d
 			id: "067AC30B4A894238"
-			image: "mega_showdown:textures/gui/summary/tera_types/psychic.png"
+			image: "mega_showdown:textures/gui/summary/tera_types/poison.png"
 			rotation: 0.0d
 			width: 1.5d
-			x: -5.369999999999999d
+			x: -4.825d
 			y: -6.2d
 		}
 		{
 			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Psychic_(type)"
 			height: 1.5d
 			id: "3E341848960216D4"
-			image: "mega_showdown:textures/gui/summary/tera_types/psychic.png"
+			image: "mega_showdown:textures/gui/summary/tera_types/poison.png"
 			rotation: 0.0d
 			width: 1.5d
-			x: 5.369999999999999d
+			x: 4.825d
 			y: -6.2d
 		}
 	]
@@ -495,6 +495,36 @@
 				type: "advancement"
 			}]
 			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3426FB3074FCED6C"
+			]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:sceptile"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "340E9805624FB6FF"
+			rewards: [{
+				id: "539BA95A6C4110F2"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			size: 1.1d
+			tasks: [{
+				advancement: "rctmod:trainers/defeat_trainer_brendan_2"
+				criterion: ""
+				id: "3E0E6D5DB08C1E68"
+				type: "advancement"
+			}]
+			x: 2.6d
 			y: 0.0d
 		}
 	]
