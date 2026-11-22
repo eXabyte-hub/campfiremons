@@ -2,6 +2,14 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.43
+
+Already playing? Just press Play: the pack updates itself.
+
+- **Pasture Jobs chapter.** A new chapter in the quest book's Guide explains what pastured Pokémon do for you, and
+  which ones: Grass types farm, Fire types keep furnaces burning, Water types fish and water crops, Pokémon with Pickup
+  find items, Slowpoke makes it rain and more, plus how to set up a drop-off chest and give a worker a day off.
+
 ## v0.1.42
 
 Already playing? Just press Play: the pack updates itself.

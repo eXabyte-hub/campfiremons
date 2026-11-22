@@ -1,4 +1,5 @@
 {
+	chapter.2C1030E5DDF79236.title: "Pasture Jobs"
 	chapter.08801FD49944AA45.title: "Stage 2: Cascade Badge"
 	chapter.096137A26F3886E8.title: "Stage 7: Volcano Badge"
 	chapter.0F1CBEA36275A1D4.title: "Stage 9: Champion"
@@ -457,6 +458,132 @@
 	reward.2A8610EDFFD5E7A0.title: "2,000 CobbleDollars"
 	reward.1FFAB4E86D739DAA.title: "2,000 CobbleDollars"
 	reward.1E0D28996E71914C.title: "2,000 CobbleDollars"
+	quest.50C54A7D14B8223B.title: "Pasture Jobs"
+	quest.50C54A7D14B8223B.quest_subtitle: "Put your Pokémon to work"
+	quest.50C54A7D14B8223B.quest_desc: [
+		"Pokémon in a &ePasture&r take on jobs that suit their type, ability or moves: farming, keeping furnaces burning, fishing, digging up treasure and more."
+		""
+		"They work the blocks within 8 blocks of the pasture (5 up or down) and bring what they make to a chest or barrel nearby. A Pokémon does any job it qualifies for, and each quest here is one kind of worker."
+	]
+	quest.7515C22668D57446.title: "Drop-off"
+	quest.7515C22668D57446.quest_subtitle: "A chest by the pasture"
+	quest.7515C22668D57446.quest_desc: [
+		"Workers carry what they make to a container near the pasture: a chest, barrel or the like, within 8 blocks of it and 5 up or down. Keep some room in it."
+	]
+	quest.2DA862339A2FC395.title: "Worker Inventory Selector"
+	quest.2DA862339A2FC395.quest_subtitle: "Choose the drop-off"
+	quest.2DA862339A2FC395.quest_desc: [
+		"Right-click a container with it to make it the drop-off for pastures in range; right-click again to undo. Pastures with no chosen container use any one nearby."
+		""
+		"Crafted from paper, a red apricorn and string."
+	]
+	quest.2E236DC362C4FD7E.title: "Day Off"
+	quest.2E236DC362C4FD7E.quest_subtitle: "Stop a worker"
+	quest.2E236DC362C4FD7E.quest_desc: [
+		"Open a pastured Pokémon's interaction wheel and choose &eRest&r to stop it working. Choose it again to send it back to work."
+	]
+	quest.3A838978DB25F12E.title: "Farmers"
+	quest.3A838978DB25F12E.quest_subtitle: "Grass types"
+	quest.3A838978DB25F12E.quest_desc: [
+		"Harvest fully grown crops (wheat, carrots, potatoes, beetroot, most modded crops, revival herbs, vivichokes, medicinal leeks), berries, sweet berry and galarica nut bushes, mistleaf and verdroot, and leave them planted to grow again."
+		""
+		"Hearty grains are picked whole, so replant those yourself."
+	]
+	quest.7280A5173E85FE63.title: "Apricorn Pickers"
+	quest.7280A5173E85FE63.quest_subtitle: "Bug types"
+	quest.7280A5173E85FE63.quest_desc: [
+		"Pick ripe apricorns and leave the tree to grow more."
+	]
+	quest.20C1FF4D95DA49F1.title: "Mint Growers"
+	quest.20C1FF4D95DA49F1.quest_subtitle: "Fairy types"
+	quest.20C1FF4D95DA49F1.quest_desc: [
+		"Pick grown mints and leave them planted."
+	]
+	quest.76AE0A817ACCB9CD.title: "Nether Wart Farmers"
+	quest.76AE0A817ACCB9CD.quest_subtitle: "Ghost types"
+	quest.76AE0A817ACCB9CD.quest_desc: [
+		"Harvest grown nether wart and leave it planted."
+	]
+	quest.5CC5F49086DB9025.title: "Voltaconia Pickers"
+	quest.5CC5F49086DB9025.quest_subtitle: "Electric types"
+	quest.5CC5F49086DB9025.quest_desc: [
+		"Pick voltaconia and replant its seed."
+	]
+	quest.2379373969D88579.title: "Tidy Minds"
+	quest.2379373969D88579.quest_subtitle: "Psychic types"
+	quest.2379373969D88579.quest_desc: [
+		"Pick lucibell and replant its seed, and pick up items lying on the ground around the pasture."
+	]
+	quest.24D280DDB5B44A03.title: "Stokers"
+	quest.24D280DDB5B44A03.quest_subtitle: "Fire types"
+	quest.24D280DDB5B44A03.quest_desc: [
+		"Keep furnaces, smokers and blast furnaces burning while they have something to smelt, and fill empty cauldrons with lava."
+	]
+	quest.1EDE29F1AE4E1FB7.title: "Water Workers"
+	quest.1EDE29F1AE4E1FB7.quest_subtitle: "Water types"
+	quest.1EDE29F1AE4E1FB7.quest_desc: [
+		"Fill empty cauldrons with water, keep farmland wet and put out fires. Standing in water, they also fish: a catch every minute and a half."
+	]
+	quest.1FE4CACDE4168E25.title: "Snow Makers"
+	quest.1FE4CACDE4168E25.quest_subtitle: "Ice types"
+	quest.1FE4CACDE4168E25.quest_desc: [
+		"Fill empty cauldrons with powder snow."
+	]
+	quest.4D1922389574219A.title: "Brewing Helpers"
+	quest.4D1922389574219A.quest_subtitle: "Dragon types"
+	quest.4D1922389574219A.quest_desc: [
+		"Top up the fuel of brewing stands, so you need less blaze powder."
+	]
+	quest.1366BF3ACD6A3B81.title: "Pickup"
+	quest.1366BF3ACD6A3B81.quest_subtitle: "The Pickup ability"
+	quest.1366BF3ACD6A3B81.quest_desc: [
+		"A Pokémon with Pickup finds something every three and a half minutes: held items, Poké Balls, evolution stones, EXP candy, healing items, type gems or apricorn seeds."
+	]
+	quest.3E86580FE4E2DAD6.title: "Diggers"
+	quest.3E86580FE4E2DAD6.quest_subtitle: "Ground types"
+	quest.3E86580FE4E2DAD6.quest_desc: [
+		"Dig in dirt, gravel, mud, coarse dirt or rooted dirt with open air above it, turning up raw ores and other finds every four minutes."
+	]
+	quest.3A39DF7183414970.title: "Amethyst Miners"
+	quest.3A39DF7183414970.quest_subtitle: "Rock types"
+	quest.3A39DF7183414970.quest_desc: [
+		"Break grown amethyst clusters. Budding amethyst grows new ones."
+	]
+	quest.16D3AF9F0678F870.title: "Tumblestone Miners"
+	quest.16D3AF9F0678F870.quest_subtitle: "Steel types"
+	quest.16D3AF9F0678F870.quest_desc: [
+		"Break grown tumblestone, black tumblestone and sky tumblestone clusters. They grow back from the budding block left behind."
+	]
+	quest.41552B074287F72C.title: "Divers"
+	quest.41552B074287F72C.quest_subtitle: "Knows Dive"
+	quest.41552B074287F72C.quest_desc: [
+		"A Pokémon that knows Dive, standing in water, brings up treasure every three and a half minutes."
+	]
+	quest.5478B7ABFE90EFFC.title: "Fletchers"
+	quest.5478B7ABFE90EFFC.quest_subtitle: "Poison types"
+	quest.5478B7ABFE90EFFC.quest_desc: [
+		"Pick up arrows lying around the pasture and turn them into Arrows of Poison."
+	]
+	quest.7860633CA57FF05E.title: "Healers"
+	quest.7860633CA57FF05E.quest_subtitle: "Knows a healing move"
+	quest.7860633CA57FF05E.quest_desc: [
+		"A Pokémon that knows Wish, Soft-Boiled, Moonlight, Recover, Roost, Heal Bell, Aromatherapy, Synthesis, Rest or Life Dew gives players near the pasture a short Regeneration boost."
+	]
+	quest.635F7E2F04C1B105.title: "Rain Dancer"
+	quest.635F7E2F04C1B105.quest_subtitle: "Slowpoke"
+	quest.635F7E2F04C1B105.quest_desc: [
+		"A pastured Slowpoke calls rain at most every ten minutes. That is rain for the whole world, so check with your friends first."
+	]
+	quest.29BACF09B9D10613.title: "Honey Makers"
+	quest.29BACF09B9D10613.quest_subtitle: "Combee and Vespiquen"
+	quest.29BACF09B9D10613.quest_desc: [
+		"Fill beehives with honey and collect honeycombs from full ones. Three honeycombs and a glass bottle make a honey bottle."
+	]
+	quest.6FB591514A07A6AF.title: "Ender Pearls"
+	quest.6FB591514A07A6AF.quest_subtitle: "Knows Teleport"
+	quest.6FB591514A07A6AF.quest_desc: [
+		"A Pokémon that knows Teleport fetches an &eEnder Pearl&r from an &eEnder Chest&r near the pasture every two or three minutes. Walkers like Natu and Ralts work more steadily than floaty Abra."
+	]
 	quest.546ECBC3A98A93F7.title: "Ametrine Armor"
 	quest.546ECBC3A98A93F7.quest_subtitle: "All four pieces, 20 armor"
 	quest.17054473EC6F3B06.title: "Aquamarine Armor"
@@ -1054,9 +1181,7 @@
 		"Pokémon in a pasture wander nearby and produce items that suit them: wool, eggs, honey and more."
 		"With no farm animals in the pack, pastures are your farms."
 		""
-		"They also work the blocks around the pasture (crops, berries, apricorns, beehives, water for fishing)"
-		"and put what they make in a chest nearby. A Pokémon that knows &eTeleport&r fetches an &eEnder Pearl&r"
-		"from an &eEnder Chest&r every two or three minutes."
+		"Pastured Pokémon also do jobs: see the &ePasture Jobs&r chapter."
 	]
 	quest.60D795DB1BD39484.quest_subtitle: "Get a Pasture"
 	quest.60D795DB1BD39484.title: "Pasture"

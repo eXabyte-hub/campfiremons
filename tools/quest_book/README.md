@@ -19,6 +19,7 @@ The builder still reads the original book's per-chapter `lang/en_us/` files and 
 - Art: `tools/gen_quest_art.py` (banners and backgrounds).
 - `add_mythic_armor.py`: added the Mythic Upgrades armour sets to the live Armor chapter (v0.1.20), which `armor()`
   skipped because the dump gives their material as "?". It edits the book in place and does nothing once they're in.
+- `add_pasture_jobs.py`: added the Pasture Jobs chapter (Cobbleworkers' jobs, v0.1.43) to the live book in place, with its banners (`gen_quest_art.py`, `pasture_jobs` and `jobs_*`). Does nothing once the chapter exists.
 - `type_tooltips.py`: hover text for every type icon (`tera_types` images), from a type chart, written as `image.<id>.title` in `lang/en_us.snbt` (FTB shows an image's title as its tooltip), plus a Bulbapedia link as each icon's click action: FTB ignores the mouse over images without one, so their tooltips never show. Re-run after adding type icons; safe to run on the live book (it only touches those keys).
 - `rewards.py`: the rewards overhaul (v0.1.35). Every quest keeps its XP and gets items from its own mod's pool
   (`POOLS`, picked by the quest's item tasks, else the chapter), sized by its XP (1, 2-3, 4-6, 7+), plus

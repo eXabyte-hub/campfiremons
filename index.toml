@@ -502,7 +502,7 @@ hash = "c8068fe591c157333e76fa885fe9d0f5cd511ac5e582bb4988657214f3171ea1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gotta_find_em_all.snbt"
-hash = "84d22ff8c195be695cc75ec9c175cf0aed482f01e30624e243291450726c8aec"
+hash = "9d1622ad5e8a00153498b9736aaf184d29e5c88546b221e9d9824d0b39db2ea5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/legendary.snbt"
@@ -517,12 +517,16 @@ file = "config/ftbquests/quests/chapters/paradox.snbt"
 hash = "84f2808f2bab671d9069409231236286f6e1f5cfac6974909e0f2c74cf575891"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/pasture_jobs.snbt"
+hash = "165f94486072805e627e2525300a88115563dcb43753df37bb276850f7c58299"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/poke_balls.snbt"
 hash = "d8f28a17c481ef5049308298064a9d7af0628406cc3e8609bb69c4cc3fb31332"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/raids.snbt"
-hash = "828f4279152fb9573e09a90c6b7699c03876731739e84d80379c7d8405a6bcfc"
+hash = "082c4134eaed069f789957e3ccf2432f1c70ddf787c81a00edbb14683838174e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/relics.snbt"
@@ -590,7 +594,7 @@ hash = "520c41cea36c45c2c1eb854ed8d3b1c17a4c48fef620942245a88150890b0ec5"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "0ef28e3ae920006e3e5e8b64817658dd1055f6a5b21eefcd8d63a7b2d9d0b272"
+hash = "bea36e4acd28146adb0c66d97ba57f827fca1dda0f3018a7be1f9d39e05d52f9"
 
 [[files]]
 file = "config/magnumtorch-server.toml"
@@ -786,6 +790,26 @@ file = "kubejs/assets/campfiremons/textures/quests/gotta_find_em_all.png"
 hash = "04f6f0ee65a9e54133a64991977a95e41ffcbc8c3bf3031106cc3144bb08501a"
 
 [[files]]
+file = "kubejs/assets/campfiremons/textures/quests/jobs_farming.png"
+hash = "e97df5ff1f1b8d338500a0293c3d85fd3755a43a7e0b55e35d56858cb31545f2"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/jobs_helpers.png"
+hash = "91fe973701edf970af1a41a094ef6451ff024b631f3c56915479a1e16c753b68"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/jobs_machines.png"
+hash = "39f786f78c034a72d98f07e5552afada2e262214952ddc8e581ac04ff8ab1f9b"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/jobs_setup.png"
+hash = "2d1413f07e9709c265bc759f560e5b2160ff6418408ab861c45e36efab5ccfbb"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/jobs_treasure.png"
+hash = "09490685d356f2f209a18ba6a28e4e9a81edcc517ac3b0bd325b9b4c7f5876c5"
+
+[[files]]
 file = "kubejs/assets/campfiremons/textures/quests/legendary.png"
 hash = "4326d3fbfcbfd81e88108216a1cec72580f3cc5fad6a9b334a238b86e93c1894"
 
@@ -840,6 +864,10 @@ hash = "592389d26ab044053bfb970a128c37d6265ba54c1b1a7e1b06daa1057240935b"
 [[files]]
 file = "kubejs/assets/campfiremons/textures/quests/past_tiles.png"
 hash = "0a1474b5d55327d3b2c9c0d8bdb573b59f627904aa69fbddcc5216a62cb08aea"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/pasture_jobs.png"
+hash = "82b2bd6fb8448ba9f1b6ecb79c912c5778c50de7bcfe01e89f7c76b42c84a502"
 
 [[files]]
 file = "kubejs/assets/campfiremons/textures/quests/pickaxes.png"

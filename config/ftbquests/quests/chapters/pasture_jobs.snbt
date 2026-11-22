@@ -1,0 +1,769 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pasture_jobs"
+	group: "502FAE08F3920C75"
+	icon: {
+		id: "cobblemon:pasture"
+	}
+	id: "2C1030E5DDF79236"
+	images: [
+		{
+			height: 0.7d
+			id: "17755A76B4190BBD"
+			image: "campfiremons:textures/quests/jobs_setup.png"
+			rotation: 0.0d
+			width: 1.82d
+			x: -3.5d
+			y: -2.8d
+		}
+		{
+			height: 0.7d
+			id: "70A4477D4E41625C"
+			image: "campfiremons:textures/quests/jobs_farming.png"
+			rotation: 0.0d
+			width: 2.43d
+			x: 8.0d
+			y: -5.35d
+		}
+		{
+			height: 0.7d
+			id: "319BD23326BE0B0C"
+			image: "campfiremons:textures/quests/jobs_machines.png"
+			rotation: 0.0d
+			width: 3.18d
+			x: 6.4d
+			y: -2.55d
+		}
+		{
+			height: 0.7d
+			id: "418D3528A539A6F4"
+			image: "campfiremons:textures/quests/jobs_treasure.png"
+			rotation: 0.0d
+			width: 5.12d
+			x: 7.2d
+			y: 0.25d
+		}
+		{
+			height: 0.7d
+			id: "3A25AA8839866602"
+			image: "campfiremons:textures/quests/jobs_helpers.png"
+			rotation: 0.0d
+			width: 2.3d
+			x: 7.2d
+			y: 3.05d
+		}
+		{
+			height: 1.5d
+			id: "518BE90645B860EB"
+			image: "campfiremons:textures/quests/pasture_jobs.png"
+			rotation: 0.0d
+			width: 7.79d
+			x: 3.5d
+			y: -6.85d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "cobblemon:pasture"
+			}
+			id: "50C54A7D14B8223B"
+			rewards: [{
+				id: "4C8CA0E9EDE6AC90"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "3A2C27FB2E3E2A5F"
+				item: {
+					count: 1
+					id: "cobblemon:pasture"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"50C54A7D14B8223B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "7515C22668D57446"
+			optional: true
+			rewards: [{
+				id: "719281ABEA594ECF"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "60AA2A0FC0572E54"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -1.6d
+		}
+		{
+			dependencies: [
+				"50C54A7D14B8223B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobbleworkers:worker_inventory_selector"
+			}
+			id: "2DA862339A2FC395"
+			optional: true
+			rewards: [{
+				id: "1F9264B786BA9A89"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "377837A76FF7B2FB"
+				item: {
+					count: 1
+					id: "cobbleworkers:worker_inventory_selector"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"50C54A7D14B8223B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:red_bed"
+			}
+			id: "2E236DC362C4FD7E"
+			optional: true
+			rewards: [{
+				id: "518F6FB93279316B"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "37A4D82EE3313574"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"50C54A7D14B8223B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:bulbasaur"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "3A838978DB25F12E"
+			optional: true
+			rewards: [{
+				id: "7F854A50009A1E2E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "6CB12654D4A6310A"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -4.199999999999999d
+		}
+		{
+			dependencies: [
+				"50C54A7D14B8223B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:ledyba"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "7280A5173E85FE63"
+			optional: true
+			rewards: [{
+				id: "63CEB3F9FE3691BA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "6DACD918F62B5256"
+				type: "checkmark"
+			}]
+			x: 5.6d
+			y: -4.199999999999999d
+		}
+		{
+			dependencies: [
+				"50C54A7D14B8223B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:clefairy"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "20C1FF4D95DA49F1"
+			optional: true
+			rewards: [{
+				id: "14BE6CBB84991A31"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "5084923D2EFFE45E"
+				type: "checkmark"
+			}]
+			x: 7.2d
+			y: -4.199999999999999d
+		}
+		{
+			dependencies: [
+				"50C54A7D14B8223B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:gastly"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "76AE0A817ACCB9CD"
+			optional: true
+			rewards: [{
+				id: "50E86612AB3B6295"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "309B10A37402D024"
+				type: "checkmark"
+			}]
+			x: 8.8d
+			y: -4.199999999999999d
+		}
+		{
+			dependencies: [
+				"50C54A7D14B8223B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:pikachu"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "5CC5F49086DB9025"
+			optional: true
+			rewards: [{
+				id: "78FA48BC0219EAD6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "77EDB5E20FFE4109"
+				type: "checkmark"
+			}]
+			x: 10.4d
+			y: -4.199999999999999d
+		}
+		{
+			dependencies: [
+				"50C54A7D14B8223B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:ralts"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "2379373969D88579"
+			optional: true
+			rewards: [{
+				id: "2C32B431D263D1A9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "4F62917B673D1146"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: -4.199999999999999d
+		}
+		{
+			dependencies: [
+				"50C54A7D14B8223B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:charmander"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "24D280DDB5B44A03"
+			optional: true
+			rewards: [{
+				id: "74DA351A6A7AA50A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "23CCA25F61FE60C5"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -1.4d
+		}
+		{
+			dependencies: [
+				"50C54A7D14B8223B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:squirtle"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "1EDE29F1AE4E1FB7"
+			optional: true
+			rewards: [{
+				id: "3683FEEDAC3F14C5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "2DE434F7323072BC"
+				type: "checkmark"
+			}]
+			x: 5.6d
+			y: -1.4d
+		}
+		{
+			dependencies: [
+				"50C54A7D14B8223B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:swinub"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "1FE4CACDE4168E25"
+			optional: true
+			rewards: [{
+				id: "73B6C32456881E4D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "2E7D42D287503B28"
+				type: "checkmark"
+			}]
+			x: 7.2d
+			y: -1.4d
+		}
+		{
+			dependencies: [
+				"50C54A7D14B8223B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:dratini"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "4D1922389574219A"
+			optional: true
+			rewards: [{
+				id: "75A212607A0AD841"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "555050FAE7070C70"
+				type: "checkmark"
+			}]
+			x: 8.8d
+			y: -1.4d
+		}
+		{
+			dependencies: [
+				"50C54A7D14B8223B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:meowth"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "1366BF3ACD6A3B81"
+			optional: true
+			rewards: [{
+				id: "7E81B2230332E318"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "58B7008EB7631E5D"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 1.4d
+		}
+		{
+			dependencies: [
+				"50C54A7D14B8223B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:diglett"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "3E86580FE4E2DAD6"
+			optional: true
+			rewards: [{
+				id: "48DC637845FC5BC7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "3246BA12BD792891"
+				type: "checkmark"
+			}]
+			x: 5.6d
+			y: 1.4d
+		}
+		{
+			dependencies: [
+				"50C54A7D14B8223B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:geodude"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "3A39DF7183414970"
+			optional: true
+			rewards: [{
+				id: "7F34E75FC6296BC4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "3383D35F8AC77269"
+				type: "checkmark"
+			}]
+			x: 7.2d
+			y: 1.4d
+		}
+		{
+			dependencies: [
+				"50C54A7D14B8223B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:magnemite"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "16D3AF9F0678F870"
+			optional: true
+			rewards: [{
+				id: "3945F859B1A75E76"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "70C648B3E3E6FCDC"
+				type: "checkmark"
+			}]
+			x: 8.8d
+			y: 1.4d
+		}
+		{
+			dependencies: [
+				"50C54A7D14B8223B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:wailmer"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "41552B074287F72C"
+			optional: true
+			rewards: [{
+				id: "3A9976AF42CCFD3E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "44B2A3743B121533"
+				type: "checkmark"
+			}]
+			x: 10.4d
+			y: 1.4d
+		}
+		{
+			dependencies: [
+				"50C54A7D14B8223B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:ekans"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "5478B7ABFE90EFFC"
+			optional: true
+			rewards: [{
+				id: "5B44DDB6CB48B719"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "14B845FC1EFE2C58"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 4.199999999999999d
+		}
+		{
+			dependencies: [
+				"50C54A7D14B8223B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:chansey"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "7860633CA57FF05E"
+			optional: true
+			rewards: [{
+				id: "4F0E33E1517ACD8E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "78609F20BAD14360"
+				type: "checkmark"
+			}]
+			x: 5.6d
+			y: 4.199999999999999d
+		}
+		{
+			dependencies: [
+				"50C54A7D14B8223B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:slowpoke"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "635F7E2F04C1B105"
+			optional: true
+			rewards: [{
+				id: "6BB597730D02DD70"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "283474FB361A0B74"
+				type: "checkmark"
+			}]
+			x: 7.2d
+			y: 4.199999999999999d
+		}
+		{
+			dependencies: [
+				"50C54A7D14B8223B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:combee"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "29BACF09B9D10613"
+			optional: true
+			rewards: [{
+				id: "6F52D44E1D5DEF3D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "1A8A8C4C199DF96D"
+				type: "checkmark"
+			}]
+			x: 8.8d
+			y: 4.199999999999999d
+		}
+		{
+			dependencies: [
+				"50C54A7D14B8223B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:abra"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "6FB591514A07A6AF"
+			optional: true
+			rewards: [{
+				id: "781541FD39A2732C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "44874815BF836334"
+				type: "checkmark"
+			}]
+			x: 10.4d
+			y: 4.199999999999999d
+		}
+	]
+}

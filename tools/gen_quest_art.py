@@ -120,6 +120,12 @@ BANNERS = {
     "armor_12": ('12 Armor', "#eef3f8", "#5f7186"),
     "armor_15": ('15 Armor', "#eef3f8", "#5f7186"),
     "armor_20": ('20 Armor', "#eef3f8", "#5f7186"),
+    "pasture_jobs": ('Pasture Jobs', "#c8f0a0", "#4f9a2f"),
+    "jobs_setup": ('Setup', "#c8f0a0", "#4f9a2f"),
+    "jobs_farming": ('Farming', "#c8f0a0", "#4f9a2f"),
+    "jobs_machines": ('Machines', "#c8f0a0", "#4f9a2f"),
+    "jobs_treasure": ('Treasure & Mining', "#c8f0a0", "#4f9a2f"),
+    "jobs_helpers": ('Helpers', "#c8f0a0", "#4f9a2f"),
 }
 
 
