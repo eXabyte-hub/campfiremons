@@ -4535,7 +4535,7 @@ hash = "13c8df6de122fd82fc7294e1e88393b51793f65a2f2481c131c1eac499be6461"
 
 [[files]]
 file = "kubejs/server_scripts/campfiremons/key_fight_alerts.js"
-hash = "0b7f5e119f89f9c648893c10bb823590d244b6bbed3f915bb5653424c1029881"
+hash = "a43251d3f7ae4dae5bfa49a9a32659a9374adbcdcc51d734eb00013a909c3632"
 
 [[files]]
 file = "kubejs/server_scripts/campfiremons/key_fights.js"

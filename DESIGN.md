@@ -65,12 +65,13 @@ ATMons has no license, so we only study its approach (see §6).
        `kubejs/data/rctmod/mobs/trainers/` with only that changed (RCT's licence and the change: `license.txt` there).
     2. The "Before <leader>" quests list each fight's biomes (RCT's `biomeTagWhitelist`, which names NeoForge's `c:`
        biome tags, plus `has_structure/end_city`) and say they come one at a time, in order.
-    3. `key_fight_alerts.js`: when RCT spawns one of a player's key fights, that player gets its name, distance and
-       direction in chat (once per trainer, tagged; placed persistent trainers are skipped).
+    3. `key_fight_alerts.js`: when RCT spawns one of a player's key fights, that player gets one of six random lines
+       ("Rocket Admin Archer has arrived to challenge you!") with the distance and direction in grey after it (once
+       per trainer, tagged; placed persistent trainers are skipped).
     `tools/gen_key_trainers.py <rctmod jar>` writes 1, the fight list `key_fights.js` for 3, and the quest lines of
     2; re-run it after updating RCT. Test server: RCT reads weight 0.375 for the 20 and 0.25 for Brock, the Elite Four
     and the Champion; a hand-made non-persistent Admin Archer for a test player was announced once ("Rocket Admin
-    Archer has turned up about 42 blocks north-east!"), a Brock wasn't. Not yet seen with a natural spawn and a real
+    Archer has arrived to challenge you! (about 42 blocks north-east)"), a Brock wasn't. Not yet seen with a natural spawn and a real
     player.
 - Side chapters (not stage gates): Breeding, Raids, Legends, Create/Engineering, Economy.
 - **Spawn town** [decided, F10]: on a new world's first load, `spawn_town.js` moves the world spawn to the centre of
