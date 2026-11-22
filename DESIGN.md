@@ -50,6 +50,10 @@ ATMons has no license, so we only study its approach (see §6).
     four parts), so fights already won tick off by themselves; the gym quest still only needs the hub, so nothing new
     can block a gym. The hub, each fight and each gym quest give the level cap (Stage 1: 21 → 27). Added in place by
     `tools/quest_book/add_key_fight_chains.py` (new quests only; no quest changes chapter, so progress stays).
+    "Stage 0: Boulder Badge" opens the Gym Challenge group [asked for on 2026-11-22, v0.1.45]: the welcome quest and
+    Getting Started's Beat Brock as quest links (the same quests, completing in both places) with a "Road to Brock"
+    quest between them (cap 15, no key fights), so every badge has its chapter again
+    (`tools/quest_book/add_boulder_chapter.py`).
 - Earning the badge completes the stage. The **stage number = badges earned**, giving one progression number for everything.
 - Stage flags are **advancements**: `campfiremons:stage/1` … `campfiremons:stage/9` [proposed].
   - *Advancement*: a per-player flag the game saves, visible in the advancements screen, and grantable by command.

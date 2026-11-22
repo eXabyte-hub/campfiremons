@@ -1,0 +1,86 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "boulder_badge"
+	group: "33ACE78A3A205CA0"
+	icon: {
+		id: "cobblemon:poke_ball"
+	}
+	id: "240C5E409595021A"
+	images: [
+		{
+			height: 1.6d
+			id: "2CAB961F0E897523"
+			image: "campfiremons:textures/quests/boulder_badge.png"
+			rotation: 0.0d
+			width: 9.54d
+			x: 4.0d
+			y: -3.2d
+		}
+		{
+			height: 1.5d
+			id: "2DF087E397A0B30F"
+			image: "mega_showdown:textures/gui/summary/tera_types/rock.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -1.87d
+			y: -3.2d
+		}
+		{
+			height: 1.5d
+			id: "75369704DF0BF293"
+			image: "mega_showdown:textures/gui/summary/tera_types/rock.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 9.87d
+			y: -3.2d
+		}
+	]
+	order_index: 9
+	quest_links: [
+		{
+			id: "7D6CF86DB037FEA4"
+			linked_quest: "7BFE2B886541122D"
+			shape: "gear"
+			size: 2.5d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "757C388768E9874C"
+			linked_quest: "1D77FC3C44DE2076"
+			shape: "hexagon"
+			size: 2.0d
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+	quests: [{
+		dependencies: [
+			"7BFE2B886541122D"
+		]
+		icon: {
+			components: {
+				"cobblemon:pokemon_item": {
+					aspects: [ ]
+					species: "cobblemon:onix"
+				}
+			}
+			id: "cobblemon:pokemon_model"
+		}
+		id: "3EC89ECC138766E7"
+		rewards: [{
+			id: "59AF6ED3C127879B"
+			type: "xp_levels"
+			xp_levels: 2
+		}]
+		shape: "hexagon"
+		size: 1.1d
+		tasks: [{
+			id: "3B8ADFA0784A50FA"
+			type: "checkmark"
+		}]
+		x: 4.0d
+		y: 0.0d
+	}]
+}

@@ -489,6 +489,10 @@ file = "config/ftbquests/quests/chapters/battle_gimmicks.snbt"
 hash = "60c78d2d04ce75c87cd455e1b91a7f6570ef1a5fca32684a577b5ea05d80b4a8"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/boulder_badge.snbt"
+hash = "1c9aea5bbebdfb0d1ce840582341a9d8044882ee062604741dbe341016a5c95f"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/building.snbt"
 hash = "515fdeb7b6fa361e4be10398df3ac33da1e0d9972bca5b7eafac9a46ac55b2bc"
 
@@ -594,7 +598,7 @@ hash = "520c41cea36c45c2c1eb854ed8d3b1c17a4c48fef620942245a88150890b0ec5"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "853624f2341a962d44bee8ae59a0e0d23bef3bd70e940f3ab9ffca2b199046c5"
+hash = "c157d60a43fb7d32a8c81d1a3fce1502e52b8209afd6986c3845ffee6828f30f"
 
 [[files]]
 file = "config/magnumtorch-server.toml"
@@ -660,6 +664,10 @@ hash = "2950e6bafa764bd16b67cecc578266bfcf1bde698ebe61fd8182717a1b6545ae"
 [[files]]
 file = "kubejs/assets/campfiremons/textures/quests/battle_gimmicks.png"
 hash = "087eaa437ac3b9558613d7cbf6ec8337f9884692642ae20b23c48ea201877a05"
+
+[[files]]
+file = "kubejs/assets/campfiremons/textures/quests/boulder_badge.png"
+hash = "9c6366ab2eb0e1330f10e9988d60e90cce65c2d3359060afe8a3f61ee755eff6"
 
 [[files]]
 file = "kubejs/assets/campfiremons/textures/quests/box_legends.png"

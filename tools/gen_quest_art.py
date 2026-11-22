@@ -21,6 +21,7 @@ BANNERS = {
     "gotta_find_em_all": ("Gotta Find 'Em All!", "#ff6b6b", "#c8102e"),
     "archaeology": ("Archaeology", "#ffc35c", "#c46a12"),
     "fishing": ("Fishing", "#7ff0ea", "#138a96"),
+    "boulder_badge": ("Boulder Badge", "#c9b78f", "#7a6440"),
     "stage_1": ("Cascade Badge", "#7cc4ff", "#1f6fd1"),
     "stage_2": ("Thunder Badge", "#fff07a", "#d6a10f"),
     "stage_3": ("Rainbow Badge", "#9cf08a", "#2f9e3a"),

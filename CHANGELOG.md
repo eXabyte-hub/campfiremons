@@ -2,6 +2,14 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.45
+
+Already playing? Just press Play: the pack updates itself.
+
+- **The Boulder Badge is back.** A "Stage 0: Boulder Badge" chapter opens the Gym Challenge list: the road to Brock,
+  your level cap (15) and where to find him. Its Beat Brock quest is the same one as in Getting Started, so it's
+  already done if you've beaten him.
+
 ## v0.1.44
 
 Already playing? Just press Play: the pack updates itself.
