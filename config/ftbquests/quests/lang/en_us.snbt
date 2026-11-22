@@ -475,12 +475,12 @@
 	quest.1D93F6922DE04567.quest_subtitle: "All four pieces, 20 armor"
 	quest.0003E6E0530C6E98.quest_desc: [
 		"These key trainers stand between you and the next gym:"
-		"&e- Boss Giovanni (Lv46)"
-		"&e- Rival Terry (Lv55)"
-		"&e- Rocket Admins Archer \\& Ariana (Lv55)"
-		"&e- Boss Giovanni (Lv56)"
+		"&e- Boss Giovanni (Lv46)&r: badlands, wastelands, savannas"
+		"&e- Rival Terry (Lv55)&r: plains, sparse grassland, rare biomes, End cities"
+		"&e- Rocket Admins Archer \\& Ariana (Lv55)&r: the Nether, badlands, wastelands, savannas"
+		"&e- Boss Giovanni (Lv56)&r: the Nether, badlands, wastelands, savannas"
 		""
-		"Each one you beat raises your level cap. They spawn near you in their own biomes."
+		"Each one you beat raises your level cap. They come one at a time, in this order: only the next one you haven't beaten can appear, 25 to 70 blocks from you while you are in or near the biomes listed, and you get a chat message when one turns up."
 	]
 	quest.0003E6E0530C6E98.quest_subtitle: "Key fights"
 	quest.0003E6E0530C6E98.title: "Before Sabrina"
@@ -502,14 +502,14 @@
 	quest.0440240B5085D636.title: "Building a Team"
 	quest.056CC15916CA9B0B.quest_desc: [
 		"These key trainers stand between you and the next gym:"
-		"&e- Rival Terry (Lv81)"
-		"&e- Trainer Brendan (Lv82)"
+		"&e- Rival Terry (Lv81)&r: plains, sparse grassland, rare biomes, End cities"
+		"&e- Trainer Brendan (Lv82)&r: plains, sparse grassland, rare biomes, cave biomes underground"
 		"&e- Elite Four Agatha (Lv85)"
 		"&e- Elite Four Bruno (Lv85)"
 		"&e- Elite Four Lance (Lv85)"
 		"&e- Elite Four Lorelei (Lv85)"
 		""
-		"Each one you beat raises your level cap. They spawn near you in their own biomes."
+		"Each one you beat raises your level cap. They come one at a time, in this order: only the next one you haven't beaten can appear, 25 to 70 blocks from you while you are in or near the biomes listed, and you get a chat message when one turns up."
 	]
 	quest.056CC15916CA9B0B.quest_subtitle: "Key fights"
 	quest.056CC15916CA9B0B.title: "Before Champion Terry"
@@ -565,11 +565,11 @@
 	quest.148178E905BD69A8.title: "Shiny Flareon Armor"
 	quest.14F86FB31E011ACE.quest_desc: [
 		"These key trainers stand between you and the next gym:"
-		"&e- Rocket Admin Archer (Lv79)"
-		"&e- Rocket Admin Ariana (Lv79)"
-		"&e- Boss Giovanni (Lv80)"
+		"&e- Rocket Admin Archer (Lv79)&r: the Nether, End cities, badlands, wastelands, savannas"
+		"&e- Rocket Admin Ariana (Lv79)&r: the Nether, End cities, badlands, wastelands, savannas"
+		"&e- Boss Giovanni (Lv80)&r: the Nether, End cities, badlands, wastelands, savannas"
 		""
-		"Each one you beat raises your level cap. They spawn near you in their own biomes."
+		"Each one you beat raises your level cap. They come one at a time, in this order: only the next one you haven't beaten can appear, 25 to 70 blocks from you while you are in or near the biomes listed, and you get a chat message when one turns up."
 	]
 	quest.14F86FB31E011ACE.quest_subtitle: "Key fights"
 	quest.14F86FB31E011ACE.title: "Before Clair"
@@ -759,9 +759,9 @@
 	quest.3426FB3074FCED6C.title: "Marsh Badge"
 	quest.34D7A6CED618B0DF.quest_desc: [
 		"These key trainers stand between you and the next gym:"
-		"&e- Trainer Brendan (Lv63)"
+		"&e- Trainer Brendan (Lv63)&r: plains, sparse grassland, rare biomes, cave biomes underground"
 		""
-		"Each one you beat raises your level cap. They spawn near you in their own biomes."
+		"Each one you beat raises your level cap. They come one at a time, in this order: only the next one you haven't beaten can appear, 25 to 70 blocks from you while you are in or near the biomes listed, and you get a chat message when one turns up."
 	]
 	quest.34D7A6CED618B0DF.quest_subtitle: "Key fights"
 	quest.34D7A6CED618B0DF.title: "Before Koga"
@@ -818,10 +818,10 @@
 	quest.3BB8DDB00BE55B75.title: "Eternal Steak"
 	quest.3C85D0F002E65112.quest_desc: [
 		"These key trainers stand between you and the next gym:"
-		"&e- Rocket Admin Archer (Lv21)"
-		"&e- Rival Terry (Lv21)"
+		"&e- Rocket Admin Archer (Lv21)&r: cave biomes underground, badlands, wastelands, savannas"
+		"&e- Rival Terry (Lv21)&r: plains, sparse grassland, rare biomes, End cities"
 		""
-		"Each one you beat raises your level cap. They spawn near you in their own biomes."
+		"Each one you beat raises your level cap. They come one at a time, in this order: only the next one you haven't beaten can appear, 25 to 70 blocks from you while you are in or near the biomes listed, and you get a chat message when one turns up."
 	]
 	quest.3C85D0F002E65112.quest_subtitle: "Key fights"
 	quest.3C85D0F002E65112.title: "Before Misty"
@@ -939,9 +939,9 @@
 	quest.4FD237F458EE4E8C.title: "Shiny Umbreon Armor"
 	quest.4FF0A1ECD784785A.quest_desc: [
 		"These key trainers stand between you and the next gym:"
-		"&e- Trainer Brendan (Lv29)"
+		"&e- Trainer Brendan (Lv29)&r: plains, sparse grassland, rare biomes, cave biomes underground"
 		""
-		"Each one you beat raises your level cap. They spawn near you in their own biomes."
+		"Each one you beat raises your level cap. They come one at a time, in this order: only the next one you haven't beaten can appear, 25 to 70 blocks from you while you are in or near the biomes listed, and you get a chat message when one turns up."
 	]
 	quest.4FF0A1ECD784785A.quest_subtitle: "Key fights"
 	quest.4FF0A1ECD784785A.title: "Before Lt. Surge"
@@ -1069,9 +1069,9 @@
 	quest.614D0565290ADA09.title: "Poké Bait"
 	quest.619EAA0CB27820B9.quest_desc: [
 		"These key trainers stand between you and the next gym:"
-		"&e- Trainer May (Lv73)"
+		"&e- Trainer May (Lv73)&r: plains, sparse grassland, rare biomes, forests"
 		""
-		"Each one you beat raises your level cap. They spawn near you in their own biomes."
+		"Each one you beat raises your level cap. They come one at a time, in this order: only the next one you haven't beaten can appear, 25 to 70 blocks from you while you are in or near the biomes listed, and you get a chat message when one turns up."
 	]
 	quest.619EAA0CB27820B9.quest_subtitle: "Key fights"
 	quest.619EAA0CB27820B9.title: "Before Blaine"

@@ -53,6 +53,24 @@ ATMons has no license, so we only study its approach (see §6).
   - Gyms 5–8 (Sabrina, Koga, Blaine, Clair) are **out in the world** (Radical Gyms & Structures).
   - The Elite Four and Champion Terry are back in the hub's **League** building.
   - The rival, Brendan/May and Team Rocket fights are RCT key trainers that spawn in the world; they raise the level cap but aren't stage gates.
+  - **Key fights** [asked for on 2026-11-22]: they come one at a time, in series order (only the next unbeaten one
+    can spawn for a player), within 25–70 blocks while the player is in or near its biomes, and they were hard to
+    find: RCT gives every key trainer a quarter of an ordinary trainer's spawn weight (0.25), and Admin Archer's
+    first fight, for one, only spawns in cave biomes, badlands, wastelands and savannas. Three changes, all for the
+    rivals (Terry, Brendan, May) and Team Rocket (Archer, Ariana, Giovanni) only. Gym leaders, the Elite Four and
+    the Champion stay as RCT ships them [decided]. The biomes stay as they are too: being clear about where and when
+    matters more [decided].
+    1. Spawn weight 0.25 → 1.0 (an ordinary trainer's): 20 of RCT's trainer files copied into
+       `kubejs/data/rctmod/mobs/trainers/` with only that changed (RCT's licence and the change: `license.txt` there).
+    2. The "Before <leader>" quests list each fight's biomes (RCT's `biomeTagWhitelist`, which names NeoForge's `c:`
+       biome tags, plus `has_structure/end_city`) and say they come one at a time, in order.
+    3. `key_fight_alerts.js`: when RCT spawns one of a player's key fights, that player gets its name, distance and
+       direction in chat (once per trainer, tagged; placed persistent trainers are skipped).
+    `tools/gen_key_trainers.py <rctmod jar>` writes 1, the fight list `key_fights.js` for 3, and the quest lines of
+    2; re-run it after updating RCT. Test server: RCT reads weight 1.0 for the 20 and 0.25 for Brock, the Elite Four
+    and the Champion; a hand-made non-persistent Admin Archer for a test player was announced once ("Rocket Admin
+    Archer has turned up about 42 blocks north-east!"), a Brock wasn't. Not yet seen with a natural spawn and a real
+    player.
 - Side chapters (not stage gates): Breeding, Raids, Legends, Create/Engineering, Economy.
 - **Spawn town** [decided, F10]: on a new world's first load, `spawn_town.js` moves the world spawn to the centre of
   the nearest Pallet Town (CobbleTowns; structure tag `campfiremons:spawn_town`), so everyone starts and respawns

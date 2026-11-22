@@ -590,7 +590,7 @@ hash = "520c41cea36c45c2c1eb854ed8d3b1c17a4c48fef620942245a88150890b0ec5"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "c4283cb22636a363ae5fb2f8e3838bb2daa6c493506b866258b0e2931ebf5860"
+hash = "0ef28e3ae920006e3e5e8b64817658dd1055f6a5b21eefcd8d63a7b2d9d0b272"
 
 [[files]]
 file = "config/magnumtorch-server.toml"
@@ -4350,6 +4350,90 @@ file = "kubejs/data/neoforge/loot_modifiers/global_loot_modifiers.json"
 hash = "bd51db29fe13e5d94a4c43c3864a96c06c061e126e470305686f6164f0ad3537"
 
 [[files]]
+file = "kubejs/data/rctmod/license.txt"
+hash = "bbb447f06628aaa12858465985080665712384808fa641b4e65805c11472b8b5"
+
+[[files]]
+file = "kubejs/data/rctmod/mobs/trainers/single/boss_giovanni_0045.json"
+hash = "fdf8d7629f4f2d4086bd2dc057811faf86ee995e5d8559a3f91210cacbb9f0a7"
+
+[[files]]
+file = "kubejs/data/rctmod/mobs/trainers/single/boss_giovanni_015c.json"
+hash = "2091011f096354d949fdad4311f556551506aefb5c9f496297a7d5181ebd2775"
+
+[[files]]
+file = "kubejs/data/rctmod/mobs/trainers/single/boss_giovanni_015d.json"
+hash = "a1c3d8e86857a53b5d938c1f403ab3088cfd15b395837e80863b074f71ca25c7"
+
+[[files]]
+file = "kubejs/data/rctmod/mobs/trainers/single/rival_terry_014c.json"
+hash = "acaffd8512a49df33f36bb974b7ebb38f313aee50d27532fa92a73625d058bdc"
+
+[[files]]
+file = "kubejs/data/rctmod/mobs/trainers/single/rival_terry_014d.json"
+hash = "acaffd8512a49df33f36bb974b7ebb38f313aee50d27532fa92a73625d058bdc"
+
+[[files]]
+file = "kubejs/data/rctmod/mobs/trainers/single/rival_terry_014e.json"
+hash = "acaffd8512a49df33f36bb974b7ebb38f313aee50d27532fa92a73625d058bdc"
+
+[[files]]
+file = "kubejs/data/rctmod/mobs/trainers/single/rival_terry_01b0.json"
+hash = "175c8b847316de5b3fe5766fe6d774831f677dd1a91f31fcf7581ef2be8821bb"
+
+[[files]]
+file = "kubejs/data/rctmod/mobs/trainers/single/rival_terry_01b1.json"
+hash = "175c8b847316de5b3fe5766fe6d774831f677dd1a91f31fcf7581ef2be8821bb"
+
+[[files]]
+file = "kubejs/data/rctmod/mobs/trainers/single/rival_terry_01b2.json"
+hash = "175c8b847316de5b3fe5766fe6d774831f677dd1a91f31fcf7581ef2be8821bb"
+
+[[files]]
+file = "kubejs/data/rctmod/mobs/trainers/single/rival_terry_01b3.json"
+hash = "0dc686f259ef3eba1bd193c90dd88d612398189db4db2b299809ed0cd3b7b219"
+
+[[files]]
+file = "kubejs/data/rctmod/mobs/trainers/single/rival_terry_01b4.json"
+hash = "0dc686f259ef3eba1bd193c90dd88d612398189db4db2b299809ed0cd3b7b219"
+
+[[files]]
+file = "kubejs/data/rctmod/mobs/trainers/single/rival_terry_01b5.json"
+hash = "0dc686f259ef3eba1bd193c90dd88d612398189db4db2b299809ed0cd3b7b219"
+
+[[files]]
+file = "kubejs/data/rctmod/mobs/trainers/single/rocket_admin_archer_002e.json"
+hash = "37b50ec521336af919f4b3608c7957d0701b7afd85be5fdff74f93409b599dfc"
+
+[[files]]
+file = "kubejs/data/rctmod/mobs/trainers/single/rocket_admin_archer_0043.json"
+hash = "600e714681856abe6141c5aff66e15fa24f7f15310758d05edb7b48574381b1d"
+
+[[files]]
+file = "kubejs/data/rctmod/mobs/trainers/single/rocket_admin_archer_ariana_m000.json"
+hash = "567484dd649b1f5a1730a0585fb8ab83b6469ce3d09200be88bceb11e404d4a5"
+
+[[files]]
+file = "kubejs/data/rctmod/mobs/trainers/single/rocket_admin_ariana_0044.json"
+hash = "2d35b1410adf050ff2f597e3b33fcf7f55d4a6a5cde9a36fddecfb1b36e41cd7"
+
+[[files]]
+file = "kubejs/data/rctmod/mobs/trainers/single/trainer_brendan_001a.json"
+hash = "aba9b1f681f1d51bcc255551305606a673b6c7940549cb8b7cd45344828d1fdf"
+
+[[files]]
+file = "kubejs/data/rctmod/mobs/trainers/single/trainer_brendan_0032.json"
+hash = "2a3e698f9089588280849b3fda68a7fd2be4ae5e197106a3b9df3f7e3bfc498d"
+
+[[files]]
+file = "kubejs/data/rctmod/mobs/trainers/single/trainer_brendan_0039.json"
+hash = "865810c6ba233a37b9c47a0f01d8003da61512be1aaa0ed897b03bdf2d734fed"
+
+[[files]]
+file = "kubejs/data/rctmod/mobs/trainers/single/trainer_may_003d.json"
+hash = "6016476087cf6a0246fd3b63fdab54b111a9102ad3a170b3c118237f0dc8922d"
+
+[[files]]
 file = "kubejs/data/rgs/tags/worldgen/biome/celadon_gym.json"
 hash = "3aeb115ded86db393859cbd65f54b4057dc8f99c890e0f901b1388df3b83f04a"
 
@@ -4448,6 +4532,14 @@ hash = "05b351e8b7a1bc82296c74fb2c4af6c7a0aaac4b00bb10d411498cf3987f2935"
 [[files]]
 file = "kubejs/server_scripts/campfiremons/item_locks.js"
 hash = "13c8df6de122fd82fc7294e1e88393b51793f65a2f2481c131c1eac499be6461"
+
+[[files]]
+file = "kubejs/server_scripts/campfiremons/key_fight_alerts.js"
+hash = "0b7f5e119f89f9c648893c10bb823590d244b6bbed3f915bb5653424c1029881"
+
+[[files]]
+file = "kubejs/server_scripts/campfiremons/key_fights.js"
+hash = "ec79964d70c087ca5214c107b90ac22d96a0186914697e7f2d46c26524e832f3"
 
 [[files]]
 file = "kubejs/server_scripts/campfiremons/leather.js"

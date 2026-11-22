@@ -2,6 +2,15 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.42
+
+Already playing? Just press Play: the pack updates itself.
+
+- **Key fights are easier to find.** The rival and Team Rocket fights between gyms (Terry, Brendan, May, Archer,
+  Ariana, Giovanni) now spawn about four times as often. You also get a chat message when yours turns up, like
+  "Rocket Admin Archer has turned up about 40 blocks north-east!". The "Before …" quests now list the biomes each
+  one spawns in. They come one at a time, in order. Gym leaders are unchanged.
+
 ## v0.1.41
 
 Already playing? Just press Play: the pack updates itself.
