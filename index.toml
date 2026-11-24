@@ -5378,6 +5378,11 @@ hash = "dc7d09e2ca192b0b0595c577939d7eb042364dbcad77e62de86cb72eb989254d"
 metafile = true
 
 [[files]]
+file = "mods/natures-compass.pw.toml"
+hash = "35acdf433fe8f8599f59975e848efdb717663c2c471d3a5dc18743799795a736"
+metafile = true
+
+[[files]]
 file = "mods/navas-zamega.pw.toml"
 hash = "0f1148ea2b643d8999ba0e96b62171e4925470518d874f9f13e213affaf4e968"
 metafile = true

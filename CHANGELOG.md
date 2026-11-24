@@ -8,6 +8,9 @@ Already playing? Just press Play: the pack updates itself.
 
 - **Quest book order fixed.** "Stage 0: Boulder Badge" now sits at the top of the Gym Challenge list instead of below
   Stage 9, and Gotta Find 'Em All is back in its place in the Guide.
+- **Nature's Compass** (a player's suggestion). Craft it from a compass, 4 logs and 4 saplings, then right-click with it to
+  search for a biome by name and follow the needle. It searches the dimension you're in, so it's handy for the biomes
+  listed in the key trainer quests.
 
 ## v0.1.45
 

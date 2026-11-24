@@ -89,11 +89,11 @@ Ask whoever runs the server for the address and to be added to the whitelist, th
 
 <!-- modlist:start -->
 <details>
-<summary>All 234 mods, plus resource packs and shaders (click to open)</summary>
+<summary>All 235 mods, plus resource packs and shaders (click to open)</summary>
 
 Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are only on players' computers, "server only" ones only on the server.
 
-### Mods (234)
+### Mods (235)
 
 | Name | Notes | From |
 | --- | --- | --- |
@@ -250,6 +250,7 @@ Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are 
 | [MoreCobblemonTweaks](https://modrinth.com/project/5KWlJ2HC) | client only | Modrinth |
 | [Mouse Tweaks](https://modrinth.com/project/aC3cM3Vq) | client only | Modrinth |
 | [Mythic Upgrades](https://modrinth.com/project/ERH7cFoy) |  | Modrinth |
+| [Nature's Compass](https://modrinth.com/project/fPetb5Kh) |  | Modrinth |
 | [Navas ZA Megas](https://modrinth.com/project/2V1Y86sc) |  | Modrinth |
 | [Neruina - Ticking Entity Fixer](https://modrinth.com/project/1s5x833P) |  | Modrinth |
 | [NetherPortalFix](https://modrinth.com/project/nPZr02ET) |  | Modrinth |
