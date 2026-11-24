@@ -57,9 +57,12 @@ ATMons has no license, so we only study its approach (see §6).
     Erika is the other gym with no key fights (RCT only asks for Lt. Surge), so Stage 3 has "The Road to Erika" in line, and
     its Thunder Badge depends on Beat Lt. Surge like the other hubs on their gyms [2026-11-24, v0.1.47]
     (`tools/quest_book/add_erika_road.py`).
-    Chapter `order_index` values must be unique across the whole book: FTB Quests keys chapters by them, so Stage 0
-    (9, like Paradox) first showed below Stage 9 in v0.1.45. `tools/quest_book/renumber_chapters.py` numbers them
-    0..n in group order (v0.1.46).
+    Chapter `order_index` values are 0..n **within each group**, as FTB Quests saves them: it sorts each group by them and
+    rewrites every chapter file with its position, while packwiz only replaces the files a release changes, so any other
+    numbering puts a changed chapter in the wrong place on the server (Stage 0 last in v0.1.45, Stage 3 last in v0.1.47;
+    v0.1.46's book-wide numbers were a wrong diagnosis). `tools/quest_book/renumber_chapters.py` sets them (v0.1.48).
+    Changing a stage's type icons means re-running `type_tooltips.py` too (v0.1.44 didn't: hovering a stage's icons showed
+    the previous stage's type until v0.1.48). `validate.py` checks both.
 - Earning the badge completes the stage. The **stage number = badges earned**, giving one progression number for everything.
 - Stage flags are **advancements**: `campfiremons:stage/1` … `campfiremons:stage/9` [proposed].
   - *Advancement*: a per-player flag the game saves, visible in the advancements screen, and grantable by command.

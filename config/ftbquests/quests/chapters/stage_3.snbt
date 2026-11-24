@@ -18,7 +18,7 @@
 			y: -6.2d
 		}
 		{
-			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Electric_(type)"
+			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Grass_(type)"
 			height: 1.5d
 			id: "492EBBD42DBAB2BC"
 			image: "mega_showdown:textures/gui/summary/tera_types/grass.png"
@@ -28,7 +28,7 @@
 			y: -6.2d
 		}
 		{
-			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Electric_(type)"
+			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Grass_(type)"
 			height: 1.5d
 			id: "4673C26C0111C908"
 			image: "mega_showdown:textures/gui/summary/tera_types/grass.png"
@@ -38,7 +38,7 @@
 			y: -6.2d
 		}
 	]
-	order_index: 14
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{

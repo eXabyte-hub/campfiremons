@@ -27,10 +27,10 @@ The builder still reads the original book's per-chapter `lang/en_us/` files and 
   Started's welcome and Beat Brock quests around a Road to Brock quest. Does nothing once the chapter exists.
 - `add_erika_road.py`: "The Road to Erika" in Stage 3 (v0.1.47), since RCT has no key fights before Erika, and the missing
   link from the Thunder Badge hub to Beat Lt. Surge.
-- `renumber_chapters.py`: gives every chapter a unique `order_index` (group order, then the current order). FTB
-  Quests keys chapters by `order_index` across the whole book, so two equal numbers, even in different groups, push
-  one chapter to the bottom of its group. Run it after adding a chapter.
-- `type_tooltips.py`: hover text for every type icon (`tera_types` images), from a type chart, written as `image.<id>.title` in `lang/en_us.snbt` (FTB shows an image's title as its tooltip), plus a Bulbapedia link as each icon's click action: FTB ignores the mouse over images without one, so their tooltips never show. Re-run after adding type icons; safe to run on the live book (it only touches those keys).
+- `renumber_chapters.py`: numbers chapters 0..n within each group (`order_index`), the numbers FTB Quests writes when it
+  re-saves the book. packwiz only replaces changed files, so with other numbers a changed chapter lands in the wrong place
+  on the server. Run it after adding, removing or moving a chapter; `validate.py` fails otherwise.
+- `type_tooltips.py`: hover text for every type icon (`tera_types` images), from a type chart, written as `image.<id>.title` in `lang/en_us.snbt` (FTB shows an image's title as its tooltip), plus a Bulbapedia link as each icon's click action: FTB ignores the mouse over images without one, so their tooltips never show. Re-run after adding or changing type icons (`validate.py` fails otherwise); safe to run on the live book (it only touches those keys).
 - `rewards.py`: the rewards overhaul (v0.1.35). Every quest keeps its XP and gets items from its own mod's pool
   (`POOLS`, picked by the quest's item tasks, else the chapter), sized by its XP (1, 2-3, 4-6, 7+), plus
   CobbleDollars on medium and bigger quests (a `command` reward, `/cobbledollars give @s N` at permission level 2,

@@ -18,6 +18,7 @@
 			y: -3.2d
 		}
 		{
+			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Rock_(type)"
 			height: 1.5d
 			id: "2DF087E397A0B30F"
 			image: "mega_showdown:textures/gui/summary/tera_types/rock.png"
@@ -27,6 +28,7 @@
 			y: -3.2d
 		}
 		{
+			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Rock_(type)"
 			height: 1.5d
 			id: "75369704DF0BF293"
 			image: "mega_showdown:textures/gui/summary/tera_types/rock.png"
@@ -36,7 +38,7 @@
 			y: -3.2d
 		}
 	]
-	order_index: 11
+	order_index: 0
 	quest_links: [
 		{
 			id: "7D6CF86DB037FEA4"

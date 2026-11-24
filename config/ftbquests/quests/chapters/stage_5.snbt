@@ -18,7 +18,7 @@
 			y: -6.2d
 		}
 		{
-			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Psychic_(type)"
+			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Poison_(type)"
 			height: 1.5d
 			id: "067AC30B4A894238"
 			image: "mega_showdown:textures/gui/summary/tera_types/poison.png"
@@ -28,7 +28,7 @@
 			y: -6.2d
 		}
 		{
-			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Psychic_(type)"
+			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Poison_(type)"
 			height: 1.5d
 			id: "3E341848960216D4"
 			image: "mega_showdown:textures/gui/summary/tera_types/poison.png"
@@ -38,7 +38,7 @@
 			y: -6.2d
 		}
 	]
-	order_index: 16
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{

@@ -18,7 +18,7 @@
 			y: -6.2d
 		}
 		{
-			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Dragon_(type)"
+			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Stellar_(type)"
 			height: 1.5d
 			id: "2A941FE37412C3D2"
 			image: "mega_showdown:textures/gui/summary/tera_types/stellar.png"
@@ -28,7 +28,7 @@
 			y: -6.2d
 		}
 		{
-			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Dragon_(type)"
+			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Stellar_(type)"
 			height: 1.5d
 			id: "73A4C98CC855B321"
 			image: "mega_showdown:textures/gui/summary/tera_types/stellar.png"
@@ -38,7 +38,7 @@
 			y: -6.2d
 		}
 	]
-	order_index: 19
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{

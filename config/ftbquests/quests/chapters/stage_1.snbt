@@ -18,7 +18,7 @@
 			y: -6.2d
 		}
 		{
-			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Rock_(type)"
+			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Water_(type)"
 			height: 1.5d
 			id: "21066B28ACD9FF91"
 			image: "mega_showdown:textures/gui/summary/tera_types/water.png"
@@ -28,7 +28,7 @@
 			y: -6.2d
 		}
 		{
-			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Rock_(type)"
+			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Water_(type)"
 			height: 1.5d
 			id: "56A465783BA356CA"
 			image: "mega_showdown:textures/gui/summary/tera_types/water.png"
@@ -38,7 +38,7 @@
 			y: -6.2d
 		}
 	]
-	order_index: 12
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

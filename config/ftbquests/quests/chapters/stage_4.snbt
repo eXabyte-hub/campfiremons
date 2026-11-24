@@ -18,7 +18,7 @@
 			y: -6.2d
 		}
 		{
-			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Grass_(type)"
+			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Psychic_(type)"
 			height: 1.5d
 			id: "4C8308B4D28EAFF3"
 			image: "mega_showdown:textures/gui/summary/tera_types/psychic.png"
@@ -28,7 +28,7 @@
 			y: -6.2d
 		}
 		{
-			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Grass_(type)"
+			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Psychic_(type)"
 			height: 1.5d
 			id: "36BA3DE2112A11EA"
 			image: "mega_showdown:textures/gui/summary/tera_types/psychic.png"
@@ -38,7 +38,7 @@
 			y: -6.2d
 		}
 	]
-	order_index: 15
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{

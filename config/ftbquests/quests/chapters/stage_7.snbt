@@ -18,7 +18,7 @@
 			y: -6.2d
 		}
 		{
-			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Fire_(type)"
+			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Dragon_(type)"
 			height: 1.5d
 			id: "7BE214D5C683803B"
 			image: "mega_showdown:textures/gui/summary/tera_types/dragon.png"
@@ -28,7 +28,7 @@
 			y: -6.2d
 		}
 		{
-			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Fire_(type)"
+			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Dragon_(type)"
 			height: 1.5d
 			id: "25C3332A7FF240B4"
 			image: "mega_showdown:textures/gui/summary/tera_types/dragon.png"
@@ -38,7 +38,7 @@
 			y: -6.2d
 		}
 	]
-	order_index: 18
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{

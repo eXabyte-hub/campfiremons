@@ -18,7 +18,7 @@
 			y: -6.2d
 		}
 		{
-			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Water_(type)"
+			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Electric_(type)"
 			height: 1.5d
 			id: "17ECE896DD098DAA"
 			image: "mega_showdown:textures/gui/summary/tera_types/electric.png"
@@ -28,7 +28,7 @@
 			y: -6.2d
 		}
 		{
-			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Water_(type)"
+			click_action: "open_uri:https://bulbapedia.bulbagarden.net/wiki/Electric_(type)"
 			height: 1.5d
 			id: "07754A7C5ED3C2F2"
 			image: "mega_showdown:textures/gui/summary/tera_types/electric.png"
@@ -38,7 +38,7 @@
 			y: -6.2d
 		}
 	]
-	order_index: 13
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

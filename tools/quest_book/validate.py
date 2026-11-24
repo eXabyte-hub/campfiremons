@@ -2,6 +2,7 @@ import sys, re, zipfile, glob, collections
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 from snbt import parse, mods_dir
+from type_tooltips import link, tooltip
 Q = Path(__file__).resolve().parents[2] / 'config' / 'ftbquests' / 'quests'
 MODS = mods_dir()
 items, textures = set(), set()
@@ -44,6 +45,18 @@ for name, ch in chapters.items():
             if dep not in quests: problems.append(f'{name}: {q["id"]} depends on missing {dep}')
     for l in ch.get('quest_links', []):
         if l['linked_quest'] not in quests: problems.append(f'{name}: link to missing {l["linked_quest"]}')
+# Chapters are numbered as FTB Quests saves them, 0, 1, 2... within each group: any other numbers put a changed chapter in
+# the wrong place on the server (see renumber_chapters.py; Stage 0 in v0.1.45, Stage 3 in v0.1.47)
+order = collections.defaultdict(list)
+for name, ch in chapters.items(): order[ch.get('group', '')].append((int(str(ch['order_index'])), name))
+for g, rows in order.items():
+    if [i for i, _ in sorted(rows)] != list(range(len(rows))): problems.append(f'chapter order in group {g} is not 0..{len(rows) - 1}: {sorted(rows)} (run renumber_chapters.py)')
+# A type icon's tooltip and link must be its own type's (v0.1.44 changed the stage icons' pictures only)
+for name, ch in chapters.items():
+    for im in ch.get('images', []):
+        m = re.search(r'tera_types/(\w+)\.png$', im['image'])
+        if m and im.get('click_action') != link(m.group(1)): problems.append(f'{name}: {m.group(1)} icon links to {im.get("click_action")} (run type_tooltips.py)')
+        if m and LANG.get(f'image.{im["id"]}.title') != '\\n'.join(tooltip(m.group(1))): problems.append(f'{name}: {m.group(1)} icon has another type\'s tooltip or none (run type_tooltips.py)')
 dupes = [i for i, n in ids.items() if n > 1]
 problems += globals().get('problems_lang', [])
 # FTB Quests reads IDs as signed longs: one at or above 8000000000000000 gets a new random ID on every load, losing
