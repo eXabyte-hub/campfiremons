@@ -12,6 +12,8 @@ Already playing? Just press Play: the pack updates itself.
   Pokémon out doesn't. You get a chat message when a chain brings out a shiny, and only you can catch that one.
 - **Counter**, a new item that lists your streaks: craft it from stone, a stone button and redstone, then hover over it. Your
   catch streak also shows above the hotbar from the second catch in a row.
+- **Stage 3 in the quest book** now has "The Road to Erika" before the gym, like Brock's: the level cap, where to go, and that
+  no key fights stand in the way. The other gyms already have their key fights in line.
 
 ## v0.1.46
 

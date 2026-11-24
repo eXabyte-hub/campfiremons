@@ -54,6 +54,9 @@ ATMons has no license, so we only study its approach (see §6).
     Getting Started's Beat Brock as quest links (the same quests, completing in both places) with a "Road to Brock"
     quest between them (cap 15, no key fights), so every badge has its chapter again
     (`tools/quest_book/add_boulder_chapter.py`).
+    Erika is the other gym with no key fights (RCT only asks for Lt. Surge), so Stage 3 has "The Road to Erika" in line, and
+    its Thunder Badge depends on Beat Lt. Surge like the other hubs on their gyms [2026-11-24, v0.1.47]
+    (`tools/quest_book/add_erika_road.py`).
     Chapter `order_index` values must be unique across the whole book: FTB Quests keys chapters by them, so Stage 0
     (9, like Paradox) first showed below Stage 9 in v0.1.45. `tools/quest_book/renumber_chapters.py` numbers them
     0..n in group order (v0.1.46).

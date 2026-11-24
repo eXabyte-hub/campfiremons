@@ -554,7 +554,7 @@ hash = "c40265b46aefed5553ec625db5fbf5ec57e351a0874da28433cfbc7e4e8fea45"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stage_3.snbt"
-hash = "18e4782806b454fbab954702136ef83ea4919a23a37b8a9a783e260dcbeecf2c"
+hash = "094780bf1c364c1656c3010ebeb50ea99a67be37ce459c2b6e841de13e835c54"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stage_4.snbt"
@@ -602,7 +602,7 @@ hash = "520c41cea36c45c2c1eb854ed8d3b1c17a4c48fef620942245a88150890b0ec5"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "c157d60a43fb7d32a8c81d1a3fce1502e52b8209afd6986c3845ffee6828f30f"
+hash = "2d5e9eacfb3fc589c8e99c08f0437a5c0a619ad094507dad88d89c568c049cd5"
 
 [[files]]
 file = "config/magnumtorch-server.toml"

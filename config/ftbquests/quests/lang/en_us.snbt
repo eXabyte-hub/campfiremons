@@ -459,6 +459,16 @@
 	reward.2A8610EDFFD5E7A0.title: "2,000 CobbleDollars"
 	reward.1FFAB4E86D739DAA.title: "2,000 CobbleDollars"
 	reward.1E0D28996E71914C.title: "2,000 CobbleDollars"
+	quest.480E2472874EE104.quest_desc: [
+		"Erika, the Celadon City gym leader, is your next badge. There are no key fights before Erika: you can battle as soon as you've beaten Lt. Surge."
+		""
+		"Level cap until you win: &e44&r."
+		"Type &a/gymmap&r for directions to the nearest &eCeladon Gym&r."
+		""
+		"Winning earns the &eRainbow Badge&r and Stage 4, and opens &eStage 4: Marsh Badge&r."
+	]
+	quest.480E2472874EE104.quest_subtitle: "No key fights"
+	quest.480E2472874EE104.title: "The Road to Erika"
 	quest.3EC89ECC138766E7.quest_desc: [
 		"Brock, the Pewter City gym leader, is your first badge. There are no key fights before him."
 		""

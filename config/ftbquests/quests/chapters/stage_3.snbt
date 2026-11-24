@@ -42,6 +42,9 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: [
+				"06CA7CC483D0C8F4"
+			]
 			icon: {
 				id: "cobblemon:ultra_ball"
 			}
@@ -519,6 +522,34 @@
 				type: "advancement"
 			}]
 			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1783D60CE9E9DB38"
+			]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:venusaur"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "480E2472874EE104"
+			rewards: [{
+				id: "2732ABDD16780E74"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "hexagon"
+			size: 1.1d
+			tasks: [{
+				id: "3E67BAA128B3BD2C"
+				type: "checkmark"
+			}]
+			x: 4.0d
 			y: 0.0d
 		}
 	]
