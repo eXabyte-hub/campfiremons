@@ -2,6 +2,17 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.47
+
+Already playing? Just press Play: the pack updates itself.
+
+- **Shiny chains** (Cobblemon Unchained and Cobblemon Counter). Catch the same species in a row and it's more likely to turn
+  up shiny for you in the wild, when fishing and at Poké Snacks: 1 in 4096 after 10 catches, 1 in 2048 after 20 and 1 in 1024
+  after 40 (normally 1 in 8192). Catching any other species, or another form such as Alolan, starts the streak over; knocking
+  Pokémon out doesn't. You get a chat message when a chain brings out a shiny, and only you can catch that one.
+- **Counter**, a new item that lists your streaks: craft it from stone, a stone button and redstone, then hover over it. Your
+  catch streak also shows above the hotbar from the second catch in a row.
+
 ## v0.1.46
 
 Already playing? Just press Play: the pack updates itself.

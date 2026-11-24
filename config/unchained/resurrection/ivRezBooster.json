@@ -1,0 +1,21 @@
+{
+  "points": {
+    "resurrection": {
+      "streak": 1.0
+    }
+  },
+  "thresholds": {
+    "10": 1.0,
+    "20": 2.0,
+    "40": 3.0,
+    "60": 4.0
+  },
+  "breakStreakOnSuccess": [],
+  "defaultValue": 0.0,
+  "debug": false,
+  "enabled": false,
+  "lockToPlayer": false,
+  "blacklist": [],
+  "whitelist": [],
+  "notifyPlayer": true
+}

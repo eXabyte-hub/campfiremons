@@ -1,0 +1,13 @@
+{
+  "ignoreFormFor": [],
+  "noBroadcastFor": [
+    "ko",
+    "resurrection",
+    "fish",
+    "hatch",
+    "snack"
+  ],
+  "minimumStreakForBroadcast": 2,
+  "broadcastLocation": "ACTION_BAR",
+  "debug": false
+}

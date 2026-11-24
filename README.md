@@ -57,6 +57,9 @@ Ask whoever runs the server for the address and to be added to the whitelist, th
   Their gym leaders are the Radical Red ones: talk to them for the same badge battle as at the Radical Red gyms.
   Sophisticated Backpacks can take PC and healing upgrades so you can do both on the go. Waystones (some in villages)
   let you teleport between the ones you've found, and Ping Wheel marks a spot or a Pokémon for your friends.
+- **Shiny chains:** catching the same species in a row raises its shiny odds in your wild spawns, fishing and Poké Snacks:
+  from 1 in 8192 to 1 in 4096 after 10 catches, 1 in 2048 after 20 and 1 in 1024 after 40. Catching any other species (or
+  form) starts over. The streak shows above your hotbar when you catch, and a craftable Counter lists all your streaks.
 - **Pokémon at home:** Pokémon in a pasture produce items (wool, eggs and more), and wild Pokémon show whether
   you've caught their species yet. Your PC has 60 boxes.
 - **Livelier Pokémon and towns:** about 200 Pokémon get new idle, walking and attack animations (CobbleMotion),
@@ -89,11 +92,11 @@ Ask whoever runs the server for the address and to be added to the whitelist, th
 
 <!-- modlist:start -->
 <details>
-<summary>All 235 mods, plus resource packs and shaders (click to open)</summary>
+<summary>All 237 mods, plus resource packs and shaders (click to open)</summary>
 
 Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are only on players' computers, "server only" ones only on the server.
 
-### Mods (235)
+### Mods (237)
 
 | Name | Notes | From |
 | --- | --- | --- |
@@ -142,6 +145,7 @@ Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are 
 | [Cobblemon Capture XP](https://modrinth.com/project/LBl4Qguc) |  | Modrinth |
 | [Cobblemon Catch Rate Display](https://modrinth.com/project/vADO40xp) |  | Modrinth |
 | [Cobblemon Cities & Structures](https://modrinth.com/project/IqCPvv9e) |  | Modrinth |
+| [Cobblemon Counter](https://modrinth.com/project/rj8uLYP4) |  | Modrinth |
 | [Cobblemon Pasture Loot](https://modrinth.com/project/XP2jcAo0) |  | Modrinth |
 | [Cobblemon PokeNav](https://modrinth.com/project/bI8Nt3uA) |  | Modrinth |
 | [Cobblemon Quests Reloaded](https://modrinth.com/project/agTMcrPN) |  | Modrinth |
@@ -150,6 +154,7 @@ Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are 
 | [Cobblemon Tim Core](https://modrinth.com/project/lVP9aUaY) |  | Modrinth |
 | [Cobblemon Ultimine Harvest](https://www.curseforge.com/minecraft/mc-mods/cobblemon-ultimine-harvest) | hosted in this repo (MIT) | CurseForge |
 | [Cobblemon Ultra-Beasts](https://www.curseforge.com/projects/1333072) |  | CurseForge |
+| [Cobblemon Unchained](https://modrinth.com/project/wh0wnzrT) |  | Modrinth |
 | [Cobblemon: Armory](https://modrinth.com/project/2GSJkNsi) |  | Modrinth |
 | [Cobblemon: Create Industries (3D Production Models)](https://modrinth.com/project/7BX9lbH9) |  | Modrinth |
 | [Cobblemon: Extra Structures](https://modrinth.com/project/IkJ2gbjT) |  | Modrinth |

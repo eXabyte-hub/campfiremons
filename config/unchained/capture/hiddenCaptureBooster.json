@@ -1,0 +1,13 @@
+{
+  "points": {},
+  "thresholds": {},
+  "breakStreakOnSuccess": [],
+  "marbles": 5,
+  "defaultValue": 0.0,
+  "debug": false,
+  "enabled": false,
+  "lockToPlayer": false,
+  "blacklist": [],
+  "whitelist": [],
+  "notifyPlayer": true
+}
