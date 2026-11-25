@@ -9,6 +9,8 @@ Already playing? Just press Play: the pack updates itself.
 - **Quest book order fixed.** Stage 3 is back between Stage 2 and Stage 4; v0.1.47 had put it last in Gym Challenge.
 - **Type icons in the gym chapters** show their own type when you hover over them, and link to its page. Since v0.1.44 they
   showed the previous stage's type (Stage 3's Grass icon described Electric), and Stage 0's had nothing.
+- **Refined Storage works with EMI's + button:** it fills the Crafting Grid and Pattern Grid from your network (Refined
+  Storage - EMI Integration).
 
 ## v0.1.47
 

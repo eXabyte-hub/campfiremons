@@ -92,11 +92,11 @@ Ask whoever runs the server for the address and to be added to the whitelist, th
 
 <!-- modlist:start -->
 <details>
-<summary>All 237 mods, plus resource packs and shaders (click to open)</summary>
+<summary>All 238 mods, plus resource packs and shaders (click to open)</summary>
 
 Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are only on players' computers, "server only" ones only on the server.
 
-### Mods (237)
+### Mods (238)
 
 | Name | Notes | From |
 | --- | --- | --- |
@@ -283,6 +283,7 @@ Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are 
 | [Rechiseled: Cobblemon](https://modrinth.com/project/Mqaobp5i) |  | Modrinth |
 | [Reese's Sodium Options](https://modrinth.com/project/Bh37bMuy) | client only | Modrinth |
 | [Refined Storage](https://modrinth.com/project/KDvYkUg3) |  | Modrinth |
+| [Refined Storage - EMI Integration](https://modrinth.com/project/TCSDwmbf) |  | Modrinth |
 | [Relics](https://www.curseforge.com/projects/445274) |  | CurseForge |
 | [Reliquified Artifacts](https://www.curseforge.com/projects/1100379) |  | CurseForge |
 | [Resourceful Lib](https://modrinth.com/project/G1hIVOrD) |  | Modrinth |
