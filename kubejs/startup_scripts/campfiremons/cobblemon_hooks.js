@@ -1,5 +1,5 @@
-// Subscribes to Cobblemon's own event bus once at game start and forwards each event to a handler on
-// global.campfiremons (set by tier_locks.js). Handlers are looked up per event, so `/kubejs reload startup`
+// Subscribes to Cobblemon's own event bus (and Cobblemon Counter's) once at game start and forwards each event to a
+// handler on global.campfiremons (set by tier_locks.js and streak_messages.js). Handlers are looked up per event, so `/kubejs reload startup`
 // swaps in new logic without re-subscribing or restarting.
 
 const $CobblemonEvents = Java.loadClass('com.cobblemon.mod.common.api.events.CobblemonEvents')
@@ -26,6 +26,9 @@ StartupEvents.postInit(event => {
   if (global.campfiremonsHooked) return // startup scripts can be reloaded; never subscribe twice
   forward($CobblemonEvents.THROWN_POKEBALL_HIT, 'onPokeballHit')
   forward($CobblemonEvents.BATTLE_STARTED_PRE, 'onBattleStartPre')
+  if (Platform.isLoaded('cobbled_counter')) { // loaded here, not at the top: the mod must be constructed first
+    forward(Java.loadClass('us.timinc.mc.cobblemon.counter.CounterMod$Events').RECORD_POST, 'onStreakRecorded')
+  }
   global.campfiremonsHooked = true
   console.info('[campfiremons] Cobblemon event hooks registered')
 })

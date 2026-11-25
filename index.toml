@@ -4679,11 +4679,15 @@ hash = "d1df73e85d77a2e76d01f40fdf22bad19d34cf9db08adeb3204528ed8dba780f"
 
 [[files]]
 file = "kubejs/startup_scripts/campfiremons/cobblemon_hooks.js"
-hash = "21687adb07bcb4ab7e4e1d40dc6c289621e8fa5603aa4a87248cbbc160e42aa5"
+hash = "c879f0efff7a8728ce1c8f6a598879ee0db2032f3da5deb4e7ba1c70a201ad71"
 
 [[files]]
 file = "kubejs/startup_scripts/campfiremons/config.js"
 hash = "aa3aa8752c37ae8593abc64098b2f7038f746633d70c524c6a1edeee2c6619d2"
+
+[[files]]
+file = "kubejs/startup_scripts/campfiremons/streak_messages.js"
+hash = "7d7154fddf864e4f31801dce1a0d798467b8534763aa2a875c18ce8a352f7d80"
 
 [[files]]
 file = "kubejs/startup_scripts/campfiremons/tier_locks.js"

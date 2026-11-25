@@ -59,7 +59,8 @@ Ask whoever runs the server for the address and to be added to the whitelist, th
   let you teleport between the ones you've found, and Ping Wheel marks a spot or a Pokémon for your friends.
 - **Shiny chains:** catching the same species in a row raises its shiny odds in your wild spawns, fishing and Poké Snacks:
   from 1 in 8192 to 1 in 4096 after 10 catches, 1 in 2048 after 20 and 1 in 1024 after 40. Catching any other species (or
-  form) starts over. The streak shows above your hotbar when you catch, and a craftable Counter lists all your streaks.
+  form) starts over. The streak shows above your hotbar when you catch, chat
+  tells you at each step, and a craftable Counter lists all your streaks.
 - **Shiny parents:** an egg is shiny 1 in 256 with one shiny parent and 1 in 8 with two, or 1 in 64 and 1 in 2 if the parents
   have different original trainers (normally 1 in 8192).
 - **Pokémon at home:** Pokémon in a pasture produce items (wool, eggs and more), and wild Pokémon show whether
