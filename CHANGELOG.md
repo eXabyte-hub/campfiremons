@@ -11,6 +11,8 @@ Already playing? Just press Play: the pack updates itself.
   showed the previous stage's type (Stage 3's Grass icon described Electric), and Stage 0's had nothing.
 - **Refined Storage works with EMI's + button:** it fills the Crafting Grid and Pattern Grid from your network (Refined
   Storage - EMI Integration).
+- **Shiny parents can pass it on.** An egg is shiny 1 in 256 with one shiny parent and 1 in 8 with two (normally 1 in 8192).
+  Parents with different original trainers are 4 times likelier again: 1 in 64 and 1 in 2. A shiny Ditto counts.
 
 ## v0.1.47
 

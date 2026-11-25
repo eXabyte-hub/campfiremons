@@ -22,7 +22,7 @@ hash = "490c6610c8ed3bcc8e3005ba5bc0a4688e2891b6b3f92f672917130d4a4f0f5f"
 
 [[files]]
 file = "config/cobbreeding/main.json"
-hash = "13add079e4dc30c3b283e8632a9777d3d0e7128b8a16fb4b484b5274a0d050cb"
+hash = "7a6fd250843826bcb25bdc731911a06f857a941f8de3c49bc27e048310d94aea"
 
 [[files]]
 file = "config/defaultoptions/extra/config/ali/ali_common.json"
