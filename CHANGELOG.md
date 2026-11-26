@@ -6,6 +6,9 @@ Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/rel
 
 Already playing? Just press Play: the pack updates itself.
 
+- **Advanced Netherite:** four tiers above Netherite (Iron, Gold, Emerald and Diamond Netherite), each with tools, armour
+  and a block. The armour can keep Piglins and Endermen calm, and the tools have a chance of extra ore, crop and mob drops
+  (hold Shift on one to see its perks). The recipes are in EMI.
 - **Ultra Space wormholes come at random times, and a bit less often.** After each wormhole, the next one opens somewhere
   between 30 and 90 minutes later (an hour on average), so they no longer bunch up (three opened within half an hour
   once). As before, the wait only counts down while someone who's reached Stage 6 is in the overworld, and the wormhole

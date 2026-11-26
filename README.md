@@ -95,11 +95,11 @@ Ask whoever runs the server for the address and to be added to the whitelist, th
 
 <!-- modlist:start -->
 <details>
-<summary>All 241 mods, plus resource packs and shaders (click to open)</summary>
+<summary>All 242 mods, plus resource packs and shaders (click to open)</summary>
 
 Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are only on players' computers, "server only" ones only on the server.
 
-### Mods (241)
+### Mods (242)
 
 | Name | Notes | From |
 | --- | --- | --- |
@@ -108,6 +108,7 @@ Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are 
 | [Accessories](https://modrinth.com/project/jtmvUHXj) |  | Modrinth |
 | [Advanced Core Info (ACI)](https://modrinth.com/project/BaR4ijFC) |  | Modrinth |
 | [Advanced Loot Info (ALI)](https://modrinth.com/project/PEPVViac) |  | Modrinth |
+| [Advanced Netherite](https://modrinth.com/project/CFX9ftUJ) |  | Modrinth |
 | [Advancement Plaques](https://modrinth.com/project/9NM0dXub) | client only | Modrinth |
 | [Almanac](https://modrinth.com/project/Gi02250Z) |  | Modrinth |
 | [Almost Unified](https://modrinth.com/project/sdaSaQEz) |  | Modrinth |
