@@ -270,6 +270,13 @@ Verified in the RCT 0.19.2-beta source: RCT already does both halves, so we conf
   `medicinal_brew.js` removes that brew, its bottling and the 12 mixes only it feeds (every one has a Klinks n Klangs
   equivalent). Its bottle emptying/filling and Max mixes stay. Scratch-tested: all 14 gone, the Klinks n Klangs chain
   and Cobblemon's brewing-stand brew still there.
+  One liquid experience since v0.1.51 [asked for on 2026-11-27]: Enchantment Industry's Liquid Experience (1 mB/XP;
+  the only fluid its Blaze Enchanter and Forger take) and Sophisticated Core's Experience (20 mB/XP; XP Pump Upgrades,
+  Supplementaries' XP jars) can't share a tag (Sophisticated reads all of `#c:experience` at 20 mB/XP, so tagging Liquid
+  Experience would turn 1 XP into 20). `liquid_experience.js` adds a one-way unheated mix, 100 mB Sophisticated to 5 mB
+  Liquid Experience; Enchantment Industry's Experience Hatch already reads both at their own rates. Scratch-tested in a
+  real basin and mixer (driven by a cogwheel; a mixer takes no shaft from above): 1000 mB became 50 mB within 25 s at
+  128 RPM.
   Plus Crafts & Additions (electricity), Create Deco and Copycats+ (building).
 - **Refined Storage 2** and **Tom's Simple Storage** for storage, **Oritech** as the late automation tier. No
   Mekanism, no AE2.

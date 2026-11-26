@@ -14,6 +14,9 @@ Already playing? Just press Play: the pack updates itself.
   medicine mixes that needed it: Klinks 'n' Klangs' brew (in a heated mixer) makes all the same medicines, so nothing is
   lost. Brew you've already made with the old recipe can't be used any more; Medicinal Brew bottles still empty into the
   Klinks 'n' Klangs one.
+- **Backpack XP into Liquid Experience.** The XP Pump Upgrade's Experience (from Sophisticated backpacks and storage)
+  now mixes into Create: Enchantment Industry's Liquid Experience in a mixer, no heat needed: 100 mB makes 5 mB, the same
+  amount of XP. So whichever way you collect it, it can run a Blaze Enchanter or Forger.
 
 ## v0.1.50
 
