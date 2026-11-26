@@ -20,6 +20,9 @@ Already playing? Just press Play: the pack updates itself.
 - **Backpack XP into Liquid Experience.** The XP Pump Upgrade's Experience (from Sophisticated backpacks and storage)
   now mixes into Create: Enchantment Industry's Liquid Experience in a mixer, no heat needed: 100 mB makes 5 mB, the same
   amount of XP. So whichever way you collect it, it can run a Blaze Enchanter or Forger.
+- **No more perfect-IV Ultra Beasts.** The Ultra Warp Ride's best portals gave Ultra Beasts six perfect IVs. Now no wild
+  Ultra Beast has all six: one of them is rerolled when it appears (Bottle Caps can still perfect it after you catch it).
+  The one six-perfect-IV Ultra Beast it gave out is taken back.
 
 ## v0.1.50
 

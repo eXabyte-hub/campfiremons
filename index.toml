@@ -4714,8 +4714,16 @@ file = "kubejs/server_scripts/campfiremons/removed_mobs.js"
 hash = "82a31e7780860d1805d84822171a350caf829035a00139f6282bf5dfc092ed7e"
 
 [[files]]
+file = "kubejs/server_scripts/campfiremons/removed_pokemon.js"
+hash = "d20a6570a2977ed22418e7fe55690dc3eb08c014af6ee35ace51d2b8d9733879"
+
+[[files]]
 file = "kubejs/server_scripts/campfiremons/spawn_town.js"
 hash = "b46202226ae101014d7a0f465368dac747bc400763ed4732de87f6f565d1b683"
+
+[[files]]
+file = "kubejs/server_scripts/campfiremons/ultra_beast_ivs.js"
+hash = "5316fc3283b91aae4eb8bd5a2a5ff44723d35475619a8360053ac946bb1a78ed"
 
 [[files]]
 file = "kubejs/server_scripts/campfiremons/ultra_space.js"
