@@ -92,6 +92,9 @@ global.campfiremonsConfig = {
     'minecraft:pufferfish', 'minecraft:dolphin', 'minecraft:turtle', 'minecraft:axolotl',
     'minecraft:goat', 'minecraft:panda', 'minecraft:polar_bear', 'minecraft:armadillo', 'minecraft:sniffer',
     'minecraft:bat',
+    // Not an animal and not biome-spawned (vanilla's insomnia timer spawns it), so not in the biome modifier: asked to go on
+    // 2026-11-26. phantom_spawns.js also turns the doInsomnia game rule off.
+    'minecraft:phantom',
   ],
 
   // Held-item locks (tier_locks.js, at battle start): these work just by being held, so a use-lock can't stop them.

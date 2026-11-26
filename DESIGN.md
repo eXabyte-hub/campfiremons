@@ -302,6 +302,9 @@ Verified in the RCT 0.19.2-beta source: RCT already does both halves, so we conf
   leather otherwise means beating Tauros, Miltank, Ponyta and the like.
   - Natural spawns: NeoForge biome modifier `remove_passive_mobs.json`. Everything else (structure pens, village
     cats, trader llamas, spawn eggs): KubeJS cancels them joining the world (`config.js` `removedMobs`).
+    Phantoms too [asked for on 2026-11-26, v0.1.49]: they're on the same list, and `phantom_spawns.js` turns the doInsomnia
+    game rule off on load, so vanilla stops trying (the live server's rule was switched off by hand the same day).
+    Membranes still come from the Noibat and Dreepy lines (`kubejs/data/cobblemon_drops/`).
 - **Pokémon drop fixes** (`tools/gen_drops.py`): Cobblemon's `species_additions` *replace* drop tables, so Cobblemon
   Armory (90 species), Legendary Monuments (50) and Mega Showdown (2) were wiping normal drops. We override their
   files at the same ids with original + mod drops merged, and give the Pidgey, Spearow and Starly lines and

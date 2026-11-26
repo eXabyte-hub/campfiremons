@@ -13,6 +13,8 @@ Already playing? Just press Play: the pack updates itself.
   that already exist are removed when their area loads.
 - **No more wild Ultra Beasts in the End.** They now come from Ultra Space and CobbleSafari's Ultra Warp Ride, plus the rare
   overworld spawns (swamps, bamboo jungles, deserts, peaks and spooky biomes). The End keeps its other Pokémon.
+- **No more phantoms.** They don't spawn anywhere, whether or not you sleep. Phantom Membranes still drop from Noibat,
+  Noivern and the Dreepy line.
 
 ## v0.1.48
 

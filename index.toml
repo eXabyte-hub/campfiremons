@@ -4690,6 +4690,10 @@ file = "kubejs/server_scripts/campfiremons/leather.js"
 hash = "3f2ae44d9d76497868cccd96e4a68ce66b9ccded6c5b717b5552ca9a77fb9921"
 
 [[files]]
+file = "kubejs/server_scripts/campfiremons/phantom_spawns.js"
+hash = "c5b6f47cedb3e0a742b5e27ddb1032e0385f0762aeadb44e7eb964009500ae15"
+
+[[files]]
 file = "kubejs/server_scripts/campfiremons/poke_ball_recipes.js"
 hash = "5fad2ef470f61f400d451dab97d08c57d1becc83b88d55feb5bda41ef076ebcc"
 
@@ -4715,7 +4719,7 @@ hash = "c879f0efff7a8728ce1c8f6a598879ee0db2032f3da5deb4e7ba1c70a201ad71"
 
 [[files]]
 file = "kubejs/startup_scripts/campfiremons/config.js"
-hash = "aa3aa8752c37ae8593abc64098b2f7038f746633d70c524c6a1edeee2c6619d2"
+hash = "455e42f76a8b85e8b0f7a0695b842c0534baf25166bc8a277f7c2bea98a35aab"
 
 [[files]]
 file = "kubejs/startup_scripts/campfiremons/streak_messages.js"
