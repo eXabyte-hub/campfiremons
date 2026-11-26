@@ -2026,6 +2026,30 @@ file = "kubejs/data/ccs/license.txt"
 hash = "847f3a2df151aab863f1edfd4a2048ceb610d3dd35dfaf7dae93d4c84106def8"
 
 [[files]]
+file = "kubejs/data/ccs/structure/houses/celadon/2x2/gym.nbt"
+hash = "705b8e592b4ab661e58d33f35ab22dc319f5ef2982420797cb7972d6f32b511c"
+
+[[files]]
+file = "kubejs/data/ccs/structure/houses/cinnabar/2x2/gym.nbt"
+hash = "e288c4faa401fadd0090c79325515445d027ecd71769e2d1f5259b18368a7244"
+
+[[files]]
+file = "kubejs/data/ccs/structure/houses/fuchsia/2x2/gym.nbt"
+hash = "b3ae3e0ad22e7e06f9d7840c5b22b6638022e8f1015f57bde0f929263c2f0ae0"
+
+[[files]]
+file = "kubejs/data/ccs/structure/houses/pewter/2x2/gym.nbt"
+hash = "d86364ce6b102bacb6df0137ef37aad050fa6497b9ea6f8311d3784af4dcf939"
+
+[[files]]
+file = "kubejs/data/ccs/structure/houses/vermilion/2x2/gym.nbt"
+hash = "a81665369980d1872080e0925656deb0db325db333a323f1bfae3f984d90fa50"
+
+[[files]]
+file = "kubejs/data/ccs/structure/houses/viridian/2x2/gym.nbt"
+hash = "c5978a845eb3882dfd413ecf564e5dd50a871a5bcc3fd65d98e2f5673f2aba78"
+
+[[files]]
 file = "kubejs/data/ccs/worldgen/structure_set/towns.json"
 hash = "0553f53cc1b941eb4fe9aae47a12b2e0442710910769d61a463e2aadacc33a80"
 
@@ -4620,6 +4644,10 @@ hash = "1b7749aa94f2d229710c553598ecbb7d697c68da991d05fb10c288bd845e64e3"
 [[files]]
 file = "kubejs/data/terralith/worldgen/structure_set/rubble.json"
 hash = "dda8edd0f4284a1f33d3a138190543fc771f648f91e534686191b4cfb01722e8"
+
+[[files]]
+file = "kubejs/server_scripts/campfiremons/ccs_built_in_pokemon.js"
+hash = "dca77e16fd44ccea2f1a52fb0a7a802775b9281198e3e4dfb3d418d5e62335ba"
 
 [[files]]
 file = "kubejs/server_scripts/campfiremons/ccs_leaders.js"

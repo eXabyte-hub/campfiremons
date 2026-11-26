@@ -2,6 +2,16 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.49
+
+Already playing? Just press Play: the pack updates itself.
+
+- **No more phantom "max IV" Paradox spawns at the Kanto city gyms.** Six of the city gyms (Pewter, Viridian, Vermilion,
+  Celadon, Fuchsia, Cinnabar) were built with Pokémon left inside them: perfect-IV Varoom, Ampharos, Electrode, Iron
+  Valiant, Walking Wake and Archaludon, plus a Bulbasaur in each. Each new gym let them loose as wild Pokémon, and the
+  Iron Valiant and Walking Wake were announced in chat like real spawns. They're gone from new gyms, and copies in gyms
+  that already exist are removed when their area loads.
+
 ## v0.1.48
 
 Already playing? Just press Play: the pack updates itself.
