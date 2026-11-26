@@ -2,6 +2,15 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.51
+
+Already playing? Just press Play: the pack updates itself.
+
+- **Ultra Space wormholes come at random times, and a bit less often.** After each wormhole, the next one opens somewhere
+  between 30 and 90 minutes later (an hour on average), so they no longer bunch up (three opened within half an hour
+  once). As before, the wait only counts down while someone who's reached Stage 6 is in the overworld, and the wormhole
+  opens next to one of them.
+
 ## v0.1.50
 
 Already playing? Just press Play: the pack updates itself.

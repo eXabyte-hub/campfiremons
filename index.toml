@@ -4715,7 +4715,7 @@ hash = "2395ecddbc2710f39b7048ee37a0ae85ce65f7a4a49c87f835edb001377a1d5b"
 
 [[files]]
 file = "kubejs/server_scripts/campfiremons/ultra_wormholes.js"
-hash = "6734bdf2906530f3bf7de14f47e47d2e70dc262db8d6f4b3ecffa4959e4678ac"
+hash = "81857025ecdea783e6fa3bcc04db88d19b745def3d0c3537f1851560ddc9996e"
 
 [[files]]
 file = "kubejs/server_scripts/campfiremons/warden_digging.js"
