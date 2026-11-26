@@ -265,6 +265,11 @@ Verified in the RCT 0.19.2-beta source: RCT already does both halves, so we conf
 - Tech is open from the start; progression stays on the Pokémon side (the group doesn't rush tech).
 - **Create 6** with Pokémon production: Cobblemon: Create Industries (balls, candy, mochi on Create lines),
   Klinks n Klangs (Cobblemon medicine/vitamins as fluids), Berry Harvester (harvesters pick Cobblemon berries).
+  Klinks n Klangs' Medicinal Brew is the only one on Create since v0.1.51 [asked for on 2026-11-27]: Create: Cobblemon
+  Integrations made its own brew fluid (unheated, 250 mB a leek) feeding a parallel set of medicine mixes;
+  `medicinal_brew.js` removes that brew, its bottling and the 12 mixes only it feeds (every one has a Klinks n Klangs
+  equivalent). Its bottle emptying/filling and Max mixes stay. Scratch-tested: all 14 gone, the Klinks n Klangs chain
+  and Cobblemon's brewing-stand brew still there.
   Plus Crafts & Additions (electricity), Create Deco and Copycats+ (building).
 - **Refined Storage 2** and **Tom's Simple Storage** for storage, **Oritech** as the late automation tier. No
   Mekanism, no AE2.

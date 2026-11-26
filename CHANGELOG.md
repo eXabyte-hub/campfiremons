@@ -10,6 +10,10 @@ Already playing? Just press Play: the pack updates itself.
   between 30 and 90 minutes later (an hour on average), so they no longer bunch up (three opened within half an hour
   once). As before, the wait only counts down while someone who's reached Stage 6 is in the overworld, and the wormhole
   opens next to one of them.
+- **One Medicinal Brew on Create.** Create: Cobblemon Integrations' Medicinal Brew mix (no heat) is gone, with the
+  medicine mixes that needed it: Klinks 'n' Klangs' brew (in a heated mixer) makes all the same medicines, so nothing is
+  lost. Brew you've already made with the old recipe can't be used any more; Medicinal Brew bottles still empty into the
+  Klinks 'n' Klangs one.
 
 ## v0.1.50
 
