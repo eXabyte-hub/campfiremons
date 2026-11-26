@@ -21,6 +21,10 @@ file = "config/cobblemon_battle_tower/bp_shop_items.json"
 hash = "490c6610c8ed3bcc8e3005ba5bc0a4688e2891b6b3f92f672917130d4a4f0f5f"
 
 [[files]]
+file = "config/cobblemon_ultrabeast/main.json"
+hash = "2f1290a3d32f7a2376184aeebc9800cff800188a6aa43f48e7db17826d747ddc"
+
+[[files]]
 file = "config/cobbreeding/main.json"
 hash = "7a6fd250843826bcb25bdc731911a06f857a941f8de3c49bc27e048310d94aea"
 
@@ -1790,8 +1794,8 @@ file = "kubejs/data/campfiremons/neoforge/biome_modifier/remove_passive_mobs.jso
 hash = "4c44ed7597fc6bf19d1d1fba728bc0f38409e0355fae2101b8683d88ad158e39"
 
 [[files]]
-file = "kubejs/data/campfiremons/spawn_rules/no_end_ultra_beasts.json"
-hash = "4281df6c0e652fe39509c77a3684b8a497db12ffe7b6499073235e6749316fa4"
+file = "kubejs/data/campfiremons/spawn_rules/no_wild_ultra_beasts.json"
+hash = "65af8c60806fbc0a54c4aaa91c06bac748e10bfe378da8ea820a68ea06538891"
 
 [[files]]
 file = "kubejs/data/campfiremons/species_additions/fearow.json"
@@ -4708,6 +4712,10 @@ hash = "b46202226ae101014d7a0f465368dac747bc400763ed4732de87f6f565d1b683"
 [[files]]
 file = "kubejs/server_scripts/campfiremons/ultra_space.js"
 hash = "2395ecddbc2710f39b7048ee37a0ae85ce65f7a4a49c87f835edb001377a1d5b"
+
+[[files]]
+file = "kubejs/server_scripts/campfiremons/ultra_wormholes.js"
+hash = "6734bdf2906530f3bf7de14f47e47d2e70dc262db8d6f4b3ecffa4959e4678ac"
 
 [[files]]
 file = "kubejs/server_scripts/campfiremons/warden_digging.js"

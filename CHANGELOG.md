@@ -9,6 +9,10 @@ Already playing? Just press Play: the pack updates itself.
 - **Better Muffling:** a Muffling Block (4 wool, 4 leather and a note block) turns down sounds around it: pick the sound
   category, volume, range and particular sounds, and Private Mode makes it affect only you. Surround one with gold for the
   Advanced version.
+- **Ultra Beasts come from Ultra Space wormholes.** No more wild Ultra Beasts anywhere (the End already went in v0.1.49;
+  swamps, deserts, bamboo jungles, peaks and spooky biomes now too). Wormholes now open only next to players who've reached
+  Stage 6, and much more often: about every 30 minutes while one of you is in the overworld (it was about every 11 hours,
+  next to anyone). Right-click it to step in. CobbleSafari's Ultra Warp Ride still has its own.
 
 ## v0.1.49
 
