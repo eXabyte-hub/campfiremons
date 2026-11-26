@@ -15,6 +15,8 @@ Already playing? Just press Play: the pack updates itself.
   overworld spawns (swamps, bamboo jungles, deserts, peaks and spooky biomes). The End keeps its other Pokémon.
 - **No more phantoms.** They don't spawn anywhere, whether or not you sleep. Phantom Membranes still drop from Noibat,
   Noivern and the Dreepy line.
+- **Wear an Elytra as an accessory** (Elytra Slot): put it in a back slot in the Curios menu and keep your chestplate on.
+  The back slot holds two, so a backpack and an Elytra fit together.
 
 ## v0.1.48
 

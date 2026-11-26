@@ -95,11 +95,11 @@ Ask whoever runs the server for the address and to be added to the whitelist, th
 
 <!-- modlist:start -->
 <details>
-<summary>All 238 mods, plus resource packs and shaders (click to open)</summary>
+<summary>All 240 mods, plus resource packs and shaders (click to open)</summary>
 
 Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are only on players' computers, "server only" ones only on the server.
 
-### Mods (238)
+### Mods (240)
 
 | Name | Notes | From |
 | --- | --- | --- |
@@ -129,6 +129,7 @@ Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are 
 | [BisectHosting Server Integration Menu](https://modrinth.com/project/yWSAtnfH) | client only | Modrinth |
 | [Bookshelf](https://modrinth.com/project/uy4Cnpcm) |  | Modrinth |
 | [Building Gadgets](https://www.curseforge.com/projects/298187) |  | CurseForge |
+| [Caelus API](https://modrinth.com/project/40FYwb4z) |  | Modrinth |
 | [Catch Indicator [Cobblemon Addon]](https://modrinth.com/project/tpTcu2PM) | client only | Modrinth |
 | [Charging Gadgets](https://www.curseforge.com/projects/399757) |  | CurseForge |
 | [Chipped](https://modrinth.com/project/BAscRYKm) |  | Modrinth |
@@ -199,6 +200,7 @@ Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are 
 | [Dynamic Crosshair](https://modrinth.com/project/ZcR9weSm) | client only | Modrinth |
 | [Easy Anvils](https://modrinth.com/project/OZBR5JT5) |  | Modrinth |
 | [Easy Magic](https://modrinth.com/project/9hx3AbJM) |  | Modrinth |
+| [Elytra Slot](https://modrinth.com/project/mSQF1NpT) |  | Modrinth |
 | [EMI](https://modrinth.com/project/fRiHVvU7) |  | Modrinth |
 | [EMI Enchanting](https://modrinth.com/project/wbWoo11W) | client only | Modrinth |
 | [EMI Ores](https://modrinth.com/project/sG4TqDb8) |  | Modrinth |
