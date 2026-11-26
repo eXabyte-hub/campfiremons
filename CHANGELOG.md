@@ -2,6 +2,14 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.50
+
+Already playing? Just press Play: the pack updates itself.
+
+- **Better Muffling:** a Muffling Block (4 wool, 4 leather and a note block) turns down sounds around it: pick the sound
+  category, volume, range and particular sounds, and Private Mode makes it affect only you. Surround one with gold for the
+  Advanced version.
+
 ## v0.1.49
 
 Already playing? Just press Play: the pack updates itself.

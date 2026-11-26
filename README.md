@@ -95,11 +95,11 @@ Ask whoever runs the server for the address and to be added to the whitelist, th
 
 <!-- modlist:start -->
 <details>
-<summary>All 240 mods, plus resource packs and shaders (click to open)</summary>
+<summary>All 241 mods, plus resource packs and shaders (click to open)</summary>
 
 Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are only on players' computers, "server only" ones only on the server.
 
-### Mods (240)
+### Mods (241)
 
 | Name | Notes | From |
 | --- | --- | --- |
@@ -123,6 +123,7 @@ Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are 
 | [Berry Harvester](https://modrinth.com/project/wZks2uy6) |  | Modrinth |
 | [Better Advanced Tooltips](https://modrinth.com/project/iHLDc0eo) |  | Modrinth |
 | [Better Advancements](https://modrinth.com/project/Q2OqKxDG) | client only | Modrinth |
+| [Better Muffling](https://www.curseforge.com/projects/284397) |  | CurseForge |
 | [Better Ping Display [Forge/NeoForge]](https://modrinth.com/project/ZvaHbwoZ) | client only | Modrinth |
 | [Better Third Person](https://modrinth.com/project/G1s2WpNo) | client only | Modrinth |
 | [Better Tooltips](https://modrinth.com/project/Z7rKZJ8k) | client only | Modrinth |
