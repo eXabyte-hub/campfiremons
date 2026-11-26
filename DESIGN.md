@@ -152,7 +152,7 @@ Label names verified against the Cobblemon 1.8.4 species data. Tier stages, labe
 **Sources once a tier is unlocked** [decided: all of them]:
 - Legendary Monuments shrines and summoning
 - Ultra Space for T2 (Cobblemon Ultra-Beasts: rare wormholes to a one-Ultra-Beast dimension; entry is Stage 6+, below that the mod's void-fall return sends you home)
-- Rare wild spawns (Complete Cobblemon Collection adds rare/ultra-rare Paradox and Ultra Beast spawns)
+- Rare wild spawns (Complete Cobblemon Collection adds rare/ultra-rare Paradox and Ultra Beast spawns); not in the End since v0.1.49 [asked for on 2026-11-26]: CCC put seven Ultra Beasts in End biomes (every ultra-rare End spawn, all announced in chat). `kubejs/data/campfiremons/spawn_rules/no_end_ultra_beasts.json` filters the eleven Ultra Beasts out where `v.spawnable_position.biome.is_in('cobblemon:is_end')` (CCC's own End tag; `v.spawnable_position.world.is_of('minecraft:the_end')` never matches in 1.8.4: tested). A spawn rule, not edited CCC files, because CCC is All Rights Reserved. Scratch test with only rare and ultra-rare spawns in the End: 229 of 561 were Ultra Beasts without the rule, 0 of 214 with it
 - Big quest rewards
 
 ## 4. What gets gated, and how

@@ -1,0 +1,12 @@
+{
+  "displayName": "No wild Ultra Beasts in the End (Campfiremons: they come from Ultra Space and the Ultra Warp Ride)",
+  "enabled": true,
+  "components": [
+    {
+      "type": "filter",
+      "allow": "false",
+      "spawnDetailSelector": "v.spawn_detail.pokemon.species == 'nihilego' || v.spawn_detail.pokemon.species == 'buzzwole' || v.spawn_detail.pokemon.species == 'pheromosa' || v.spawn_detail.pokemon.species == 'xurkitree' || v.spawn_detail.pokemon.species == 'celesteela' || v.spawn_detail.pokemon.species == 'kartana' || v.spawn_detail.pokemon.species == 'guzzlord' || v.spawn_detail.pokemon.species == 'poipole' || v.spawn_detail.pokemon.species == 'naganadel' || v.spawn_detail.pokemon.species == 'stakataka' || v.spawn_detail.pokemon.species == 'blacephalon'",
+      "spawnablePositionSelector": "v.spawnable_position.biome.is_in('cobblemon:is_end')"
+    }
+  ]
+}

@@ -1790,6 +1790,10 @@ file = "kubejs/data/campfiremons/neoforge/biome_modifier/remove_passive_mobs.jso
 hash = "4c44ed7597fc6bf19d1d1fba728bc0f38409e0355fae2101b8683d88ad158e39"
 
 [[files]]
+file = "kubejs/data/campfiremons/spawn_rules/no_end_ultra_beasts.json"
+hash = "4281df6c0e652fe39509c77a3684b8a497db12ffe7b6499073235e6749316fa4"
+
+[[files]]
 file = "kubejs/data/campfiremons/species_additions/fearow.json"
 hash = "78ec43a1f76296f56a211d9ee76ab725779a61bba1c892c5475b318671c3181c"
 

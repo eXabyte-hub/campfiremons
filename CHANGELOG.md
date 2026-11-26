@@ -11,6 +11,8 @@ Already playing? Just press Play: the pack updates itself.
   Valiant, Walking Wake and Archaludon, plus a Bulbasaur in each. Each new gym let them loose as wild Pokémon, and the
   Iron Valiant and Walking Wake were announced in chat like real spawns. They're gone from new gyms, and copies in gyms
   that already exist are removed when their area loads.
+- **No more wild Ultra Beasts in the End.** They now come from Ultra Space and CobbleSafari's Ultra Warp Ride, plus the rare
+  overworld spawns (swamps, bamboo jungles, deserts, peaks and spooky biomes). The End keeps its other Pokémon.
 
 ## v0.1.48
 
