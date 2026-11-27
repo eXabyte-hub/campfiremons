@@ -2,6 +2,14 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.52
+
+Already playing? Just press Play: the pack updates itself.
+
+- **Medicinal Brew in a heated mixer works every time.** If the leek reached the basin before the water, the mixer roasted
+  it instead (a Cooking Pot recipe that the basin can also cook). That recipe is gone, so the leek waits for its water and
+  becomes Klinks 'n' Klangs' Medicinal Brew. Roasted Leeks still come from a furnace, smoker or campfire.
+
 ## v0.1.51
 
 Already playing? Just press Play: the pack updates itself.

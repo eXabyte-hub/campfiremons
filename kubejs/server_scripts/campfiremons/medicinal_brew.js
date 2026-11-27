@@ -4,11 +4,20 @@
 // Cobblemon Integrations' (no heat: a leek and 250 mB of water make 250 mB), its bottling, and the 12 mixes that only its
 // brew feeds; Klinks 'n' Klangs makes every one of those medicines from its own brew. Cobblemon Integrations' bottle
 // emptying and filling and its Max mixes stay: they work from emptied bottles, not from the brew.
+//
+// Slice & Dice cooks Farmer's Delight Cooking Pot recipes in a heated basin, and Tomtaru's tweaks have a one-leek "roast
+// it" Cooking Pot recipe, so a heated basin roasted the leek whenever it got there before the water, before Klinks 'n'
+// Klangs' brew could use it (reported 2026-11-27). Both copies go; Roasted Leeks still come from a furnace, smoker or
+// campfire.
 
 const CCI_BREW_RECIPES = ['mixing/medicinal_brew', 'filling/medicinal_brew_bottle', 'mixing/antidote', 'mixing/awakening',
   'mixing/burn_heal', 'mixing/cobblemon_potion', 'mixing/elixir', 'mixing/ether', 'mixing/full_heal',
   'mixing/hyper_potion', 'mixing/ice_heal', 'mixing/paralyze_heal', 'mixing/pp_up', 'mixing/super_potion']
 
+const LEEK_ROASTING_RECIPES = ['tomtaru:cooking_pot/roasted_leek_in_cooking_pot',
+  'sliceanddice:cooking/tomtaru/cooking_pot/roasted_leek_in_cooking_pot_0']
+
 ServerEvents.recipes(event => {
   CCI_BREW_RECIPES.forEach(id => event.remove({ id: `createcobblemonintegrations:${id}` }))
+  LEEK_ROASTING_RECIPES.forEach(id => event.remove({ id: id }))
 })

@@ -4699,7 +4699,7 @@ hash = "c4791cb4e251c05ffa8e67b35bb722237836dd0fad857655bfb0d55e8deba92f"
 
 [[files]]
 file = "kubejs/server_scripts/campfiremons/medicinal_brew.js"
-hash = "5ea1324e5cd342fbb3e97c32d2b062e4b510347679e6015b621a45cea0805a39"
+hash = "01eefb526207e32ad99d04fb0013ced4634550df75f5b3633ff49f898f4f3a59"
 
 [[files]]
 file = "kubejs/server_scripts/campfiremons/phantom_spawns.js"
