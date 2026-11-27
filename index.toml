@@ -606,7 +606,7 @@ hash = "520c41cea36c45c2c1eb854ed8d3b1c17a4c48fef620942245a88150890b0ec5"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "d0888fccd3ed368037c944c14279c887e1151bb44c88bde03a51687a66b5b9bd"
+hash = "13be6abb4a3a85ad21693c16898961652e1031d062004c08f9c7d79b8523322e"
 
 [[files]]
 file = "config/magnumtorch-server.toml"
@@ -4708,6 +4708,10 @@ hash = "c5b6f47cedb3e0a742b5e27ddb1032e0385f0762aeadb44e7eb964009500ae15"
 [[files]]
 file = "kubejs/server_scripts/campfiremons/poke_ball_recipes.js"
 hash = "5fad2ef470f61f400d451dab97d08c57d1becc83b88d55feb5bda41ef076ebcc"
+
+[[files]]
+file = "kubejs/server_scripts/campfiremons/pollinators.js"
+hash = "e96079c0ebb7c5875fc0db81b021db6dc8ec7ffadd474a45281a98963c4ee109"
 
 [[files]]
 file = "kubejs/server_scripts/campfiremons/removed_mobs.js"

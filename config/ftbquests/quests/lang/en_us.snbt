@@ -635,10 +635,12 @@
 		""
 		"Hearty grains are picked whole, so replant those yourself."
 	]
-	quest.7280A5173E85FE63.title: "Apricorn Pickers"
+	quest.7280A5173E85FE63.title: "Pollinators"
 	quest.7280A5173E85FE63.quest_subtitle: "Bug types"
 	quest.7280A5173E85FE63.quest_desc: [
-		"Pick ripe apricorns and leave the tree to grow more."
+		"Pollinate: crops, berries and apricorns within 8 blocks of their pasture grow about twice as fast. Watch for green sparkles. One Bug type per pasture is enough; more don't add more."
+		""
+		"They also pick ripe apricorns and leave the tree to grow more."
 	]
 	quest.20C1FF4D95DA49F1.title: "Mint Growers"
 	quest.20C1FF4D95DA49F1.quest_subtitle: "Fairy types"

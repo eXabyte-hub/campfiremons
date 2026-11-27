@@ -2,6 +2,14 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.53
+
+Already playing? Just press Play: the pack updates itself.
+
+- **Bug types pollinate.** Put a Bug-type Pokémon in a Pasture Block and the crops, berries and apricorns within 8 blocks
+  of it grow about twice as fast (green sparkles show it working). One per pasture is enough; they still pick apricorns
+  too. See *Pollinators* in the Pasture Jobs chapter.
+
 ## v0.1.52
 
 Already playing? Just press Play: the pack updates itself.
