@@ -12,3 +12,6 @@ kubejs/probe/
 # Generated per install: holds a local auth token, never commit or ship it
 kubejs/config/web_server.json
 kubejs/README.txt
+
+# Claude Code session files (e.g. scheduled_tasks.lock from an in-session timer)
+.claude/

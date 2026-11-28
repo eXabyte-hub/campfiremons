@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".claude/scheduled_tasks.lock"
-hash = "a92d38c98d613d3eac969a5fdf096a8728880375c382edc55770fd4aa2f760ef"
-
-[[files]]
 file = "config/almostunified/unification/materials.json"
 hash = "122f411100a8cf89139ac0021d0ea08d181d86115e0286a04bddc8189a49d437"
 
