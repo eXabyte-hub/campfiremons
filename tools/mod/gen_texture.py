@@ -5,8 +5,10 @@ Create's wheel model (an OBJ we only reference, never copy: Create's art is All 
 "plates" texture like this, in pixels of a 16x16 image:
   columns 0-6, rows 2-13   the outer crushing face of each plate
   columns 0-6, rows 0-1 and 14-15   the plate's top and bottom edges
-  column 15                the plate's sides
-Everything here is our own pixels: dark steel plates with three diamond tips on each face.
+  column 15                the plate's sides (its leading and trailing edges as the wheel turns)
+Everything here is our own pixels, made to look like real diamond tooling: a dark steel plate with six 2x2 diamond
+cutters set into the crushing face in staggered rows (like the cutters on a diamond drill bit; 2x2 so they still show
+from a distance, where single-pixel specks blur away), and diamond inserts along the plate's sides.
 
 Run from anywhere: python3 tools/mod/gen_texture.py
 """
@@ -16,14 +18,16 @@ from PIL import Image
 
 OUT = Path(__file__).parent / 'src/main/resources/assets/campfiremons/textures/block/diamond_tipped_crushing_wheel_plates.png'
 
-STEEL = [(0x6a, 0x6f, 0x77), (0x73, 0x78, 0x80), (0x7c, 0x81, 0x89)]
-STEEL_DARK = (0x4b, 0x4f, 0x56)
-STEEL_EDGE = (0x3c, 0x3f, 0x45)
-SHINE = (0xe6, 0xff, 0xfb)
+STEEL = [(0x5f, 0x64, 0x6c), (0x68, 0x6d, 0x75), (0x71, 0x76, 0x7e)]
+STEEL_DARK = (0x47, 0x4b, 0x52)
+STEEL_EDGE = (0x38, 0x3b, 0x41)
+SHINE = (0xf0, 0xff, 0xfc)
 LIGHT = (0x9c, 0xf6, 0xe8)
 MID = (0x4f, 0xd8, 0xc6)
 DARK = (0x2b, 0x9e, 0x91)
-SHADOW = (0x1c, 0x6b, 0x63)
+
+# Top-left corners of the 2x2 diamond cutters on the crushing face: (column, row), in staggered rows.
+CUTTERS = [(1, 3), (4, 3), (2, 7), (5, 7), (1, 11), (4, 11)]
 
 
 def steel(x, y):
@@ -34,27 +38,27 @@ def steel(x, y):
 def main():
     im = Image.new('RGBA', (16, 16))
     px = im.load()
+
+    def put(x, y, c):
+        px[x, y] = c + (255,)
+
     for y in range(16):
         for x in range(16):
-            px[x, y] = steel(x, y) + (255,)
-    # Plate border: darker right edge, and the plate sides in column 15.
+            put(x, y, steel(x, y))
+    # Plate border, and the plate sides in column 15.
     for y in range(16):
-        px[7, y] = STEEL_EDGE + (255,)
-        px[15, y] = STEEL_DARK + (255,)
-        px[14, y] = STEEL_EDGE + (255,)
-    # A thin diamond inlay along the plate's top and bottom edges.
-    for x in range(7):
-        px[x, 1] = (LIGHT if x % 2 else MID) + (255,)
-        px[x, 14] = (MID if x % 2 else DARK) + (255,)
-    # Three diamond tips on the crushing face, centred on column 3.
-    for cy in (4, 8, 12):
-        tip = {
-            (2, cy - 1): LIGHT, (3, cy - 1): SHINE, (4, cy - 1): LIGHT,
-            (1, cy): DARK, (2, cy): MID, (3, cy): LIGHT, (4, cy): MID, (5, cy): DARK,
-            (2, cy + 1): SHADOW, (3, cy + 1): DARK, (4, cy + 1): SHADOW,
-        }
-        for (x, y), c in tip.items():
-            px[x, y] = c + (255,)
+        put(7, y, STEEL_EDGE)
+        put(14, y, STEEL_EDGE)
+        put(15, y, STEEL_DARK)
+    # Crushing face: each cutter is lit from the top left, so it reads as a raised facet set into the steel.
+    for x, y in CUTTERS:
+        put(x, y, SHINE)
+        put(x + 1, y, LIGHT)
+        put(x, y + 1, MID)
+        put(x + 1, y + 1, DARK)
+    # Sides (leading and trailing edges): a diamond insert every third row.
+    for y in range(2, 14):
+        put(15, y, MID if y % 3 == 0 else STEEL_DARK)
     OUT.parent.mkdir(parents=True, exist_ok=True)
     im.save(OUT)
     print(OUT)

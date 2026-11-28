@@ -4902,7 +4902,7 @@ metafile = true
 
 [[files]]
 file = "mods/campfiremons-1.0.0.jar"
-hash = "6465155e68a4f389a378c095ad808f28b9963ba5a0b864e79927f5ebf87c902f"
+hash = "20c295d27e963b538145a9c7f7a63281e58be1a3c5018ba5c423511b7839b4e4"
 
 [[files]]
 file = "mods/catch-indicator.pw.toml"
