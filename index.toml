@@ -4763,7 +4763,7 @@ hash = "82a31e7780860d1805d84822171a350caf829035a00139f6282bf5dfc092ed7e"
 
 [[files]]
 file = "kubejs/server_scripts/campfiremons/removed_pokemon.js"
-hash = "d20a6570a2977ed22418e7fe55690dc3eb08c014af6ee35ace51d2b8d9733879"
+hash = "68a4afecb8f536dd7a184aa1efa841c7094c302be50ebab0bc369156ff89776d"
 
 [[files]]
 file = "kubejs/server_scripts/campfiremons/spawn_town.js"
