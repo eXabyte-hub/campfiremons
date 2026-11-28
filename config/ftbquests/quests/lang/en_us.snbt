@@ -829,6 +829,7 @@
 	]
 	quest.10A6D6C341C9DE6F.quest_subtitle: "Explore structure chests"
 	quest.10A6D6C341C9DE6F.title: "Find the Z-Ring"
+	quest.11AD944950E1ABD5.quest_desc: ["&r&rBuy a &eBeast Memory&r in the Battle Tower's BP shop and use it to summon Type: Null."]
 	quest.11AD944950E1ABD5.quest_subtitle: "Catchable from Stage 5"
 	quest.11AD944950E1ABD5.title: "Type: Null"
 	quest.134977A1494685F1.quest_desc: [
@@ -918,6 +919,7 @@
 	]
 	quest.1F8AD986D9B689B8.quest_subtitle: "Explore structure chests"
 	quest.1F8AD986D9B689B8.title: "Find the Rusted Sword"
+	quest.1FAF7A9194CEE7E9.quest_desc: ["&r&rA ★7 Raid Den boss (Stage 8 dens)."]
 	quest.1FAF7A9194CEE7E9.quest_subtitle: "Catchable from Stage 7"
 	quest.1FAF7A9194CEE7E9.title: "Necrozma"
 	quest.219C6B0EF7C308FF.quest_desc: [
@@ -940,6 +942,7 @@
 	quest.21FDD3645BEC06AC.quest_subtitle: "Stage 6 reached"
 	quest.21FDD3645BEC06AC.title: "Soul Badge"
 	quest.2268AC8BDEF3EC2E.title: "Flame Pendant"
+	quest.22FA13A0BFF89918.quest_desc: ["&r&rTurns up wild, rarely: rides in on the rain over hills and mountains."]
 	quest.22FA13A0BFF89918.quest_subtitle: "Catchable from Stage 5"
 	quest.22FA13A0BFF89918.title: "Tornadus"
 	quest.239474265330219B.quest_subtitle: "Held relics"
@@ -1054,6 +1057,7 @@
 	quest.34D7A6CED618B0DF.title: "Before Koga"
 	quest.34E29F04C0A70EC5.quest_subtitle: "Catchable from Stage 7"
 	quest.34E29F04C0A70EC5.title: "Mew"
+	quest.3573749C577AC606.quest_desc: ["&r&rBuild a &eGenesect Drive&r in a Create Mechanical Crafter and use it to summon Genesect."]
 	quest.3573749C577AC606.quest_subtitle: "Catchable from Stage 7"
 	quest.3573749C577AC606.title: "Genesect"
 	quest.35AB6630D867D962.title: "Armor Fossil"
@@ -1132,6 +1136,7 @@
 	quest.414582D2A84B0CDC.title: "Up-Grade"
 	quest.41703DE236EB6084.quest_subtitle: "Catchable from Stage 7"
 	quest.41703DE236EB6084.title: "Darkrai"
+	quest.418A079DC34CDAE8.quest_desc: ["&r&rTurns up wild, rarely: forests at night."]
 	quest.418A079DC34CDAE8.quest_subtitle: "Catchable from Stage 5"
 	quest.418A079DC34CDAE8.title: "Munkidori"
 	quest.4296A085077F89CB.quest_subtitle: "Catchable from Stage 6"
@@ -1185,10 +1190,12 @@
 	]
 	quest.49D75BE2D9DF4145.quest_subtitle: "See the Evolution chapter"
 	quest.49D75BE2D9DF4145.title: "More Evolution"
+	quest.49DE0A1C55443AE5.quest_desc: ["&r&rTurns up wild, rarely: deep jungle."]
 	quest.49DE0A1C55443AE5.quest_subtitle: "Catchable from Stage 7"
 	quest.49DE0A1C55443AE5.title: "Zarude"
 	quest.4A1909D2C33CD3FE.quest_subtitle: "Catch 40 Pokémon"
 	quest.4A1909D2C33CD3FE.title: "Growing Collection"
+	quest.4A3A01664736D61D.quest_desc: ["&r&rTurns up wild, rarely: deep underground by amethyst geodes."]
 	quest.4A3A01664736D61D.quest_subtitle: "Catchable from Stage 7"
 	quest.4A3A01664736D61D.title: "Diancie"
 	quest.4A5D3D07B804E4A8.quest_desc: [
@@ -1198,6 +1205,7 @@
 	quest.4A5D3D07B804E4A8.title: "Restoration Tank"
 	quest.4BB0A7AB70BBF5ED.quest_subtitle: "All four pieces"
 	quest.4BB0A7AB70BBF5ED.title: "Shiny Eevee Armor"
+	quest.4BE7C4D2D783A90B.quest_desc: ["&r&rTurns up wild, rarely: flower fields at dawn and dusk."]
 	quest.4BE7C4D2D783A90B.quest_subtitle: "Catchable from Stage 5"
 	quest.4BE7C4D2D783A90B.title: "Fezandipiti"
 	quest.4C029B208A6F165B.quest_desc: [
@@ -1251,6 +1259,7 @@
 	quest.51DFACB6D6E9BDE3.title: "Roseate Ball"
 	quest.52E5B20F16830E9A.quest_subtitle: "Belts"
 	quest.52E5B20F16830E9A.title: "Belt"
+	quest.52EA335159068F7E.quest_desc: ["&r&rTurns up wild, rarely: jungle thunderstorms."]
 	quest.52EA335159068F7E.quest_subtitle: "Catchable from Stage 5"
 	quest.52EA335159068F7E.title: "Tapu Koko"
 	quest.531C693D90F8EE33.quest_desc: [
@@ -1294,10 +1303,12 @@
 	quest.57FCC1320A0E2515.title: "Ancient Heavy Ball"
 	quest.583E05D320D801D3.quest_subtitle: "Catchable from Stage 6"
 	quest.583E05D320D801D3.title: "Sandy Shocks"
+	quest.589EE794FB686D88.quest_desc: ["&r&rTurns up wild, rarely: badlands, deserts and volcanoes in the midday sun."]
 	quest.589EE794FB686D88.quest_subtitle: "Catchable from Stage 7"
 	quest.589EE794FB686D88.title: "Groudon"
 	quest.59A85AB40C4ABE42.quest_subtitle: "Catchable from Stage 6"
 	quest.59A85AB40C4ABE42.title: "Xurkitree"
+	quest.5A2DD932B086BF58.quest_desc: ["&r&rTurns up wild, rarely: thunderstorms on the plains at night."]
 	quest.5A2DD932B086BF58.quest_subtitle: "Catchable from Stage 7"
 	quest.5A2DD932B086BF58.title: "Zeraora"
 	quest.5A6690D6C6CD6A94.title: "Dragon Scale"
@@ -1378,6 +1389,7 @@
 	quest.621F56455F7E2D33.title: "Charm Of Sinking"
 	quest.6229697F942F276B.quest_subtitle: "Catchable from Stage 7"
 	quest.6229697F942F276B.title: "Eternatus"
+	quest.6254A1F4C95FC49B.quest_desc: ["&r&rTurns up wild, rarely: deep ocean in thunderstorms."]
 	quest.6254A1F4C95FC49B.quest_subtitle: "Catchable from Stage 7"
 	quest.6254A1F4C95FC49B.title: "Kyogre"
 	quest.62758D35E9195EBF.title: "Ancient Great Ball"
@@ -1457,6 +1469,7 @@
 	]
 	quest.6E95CF8E029955B9.quest_subtitle: "Explore structure chests"
 	quest.6E95CF8E029955B9.title: "Find the Dynamax Band"
+	quest.6EDA6AC5A7C41CE9.quest_desc: ["&r&rTurns up wild, rarely: the highest mountain peaks."]
 	quest.6EDA6AC5A7C41CE9.quest_subtitle: "Catchable from Stage 7"
 	quest.6EDA6AC5A7C41CE9.title: "Rayquaza"
 	quest.6EFA1D7CDA08F0A4.quest_desc: [
@@ -1587,12 +1600,14 @@
 	]
 	quest.7F9958556C02DF15.quest_subtitle: "Stage 1 reached"
 	quest.7F9958556C02DF15.title: "Boulder Badge"
+	quest.7FCC99D4C7FB6631.quest_desc: ["&r&rTurns up wild, rarely: forests and hills at dusk."]
 	quest.7FCC99D4C7FB6631.quest_subtitle: "Catchable from Stage 5"
 	quest.7FCC99D4C7FB6631.title: "Okidogi"
 	quest.01D3CBCD808496EF.quest_subtitle: "Catchable from Stage 5"
 	quest.01D3CBCD808496EF.title: "Regice"
 	quest.023FA5C37D3492A4.quest_subtitle: "All four pieces"
 	quest.023FA5C37D3492A4.title: "Chainmail Armor"
+	quest.0261F25D5763D10F.quest_desc: ["&r&rTurns up wild, rarely: drifting on warm seas."]
 	quest.0261F25D5763D10F.quest_subtitle: "Catchable from Stage 7"
 	quest.0261F25D5763D10F.title: "Phione"
 	quest.02BBD563B3561EF4.quest_desc: [
@@ -1628,6 +1643,7 @@
 	quest.0647E1464D069A7C.title: "Ultra Space"
 	quest.06BCE39D9A8FF9B1.title: "Fire Gauntlet"
 	quest.06E6645F17465BFA.title: "Old Amber Fossil"
+	quest.06EA25DF31EBD8C4.quest_desc: ["&r&rA ★7 Raid Den boss (Stage 8 dens)."]
 	quest.06EA25DF31EBD8C4.quest_subtitle: "Catchable from Stage 7"
 	quest.06EA25DF31EBD8C4.title: "Mewtwo"
 	quest.078DEFD017DEBFB6.quest_subtitle: "Catchable from Stage 7"
@@ -1639,9 +1655,11 @@
 	]
 	quest.09AD47EBBC3C11DD.quest_subtitle: "Open from Stage 6"
 	quest.09AD47EBBC3C11DD.title: "★★★★★ Raids"
+	quest.0A0F76D97C240632.quest_desc: ["&r&rTurns up wild, rarely: the End: it fell from space."]
 	quest.0A0F76D97C240632.quest_subtitle: "Catchable from Stage 7"
 	quest.0A0F76D97C240632.title: "Deoxys"
 	quest.0A716C7CCFB1C52C.title: "Ancient Poké Ball"
+	quest.0B48489079D6B139.quest_desc: ["&r&rA ★6 Raid Den boss (Stage 7 dens)."]
 	quest.0B48489079D6B139.quest_subtitle: "Catchable from Stage 7"
 	quest.0B48489079D6B139.title: "Zygarde"
 	quest.0DF228075ED6A609.quest_desc: [
@@ -1678,6 +1696,7 @@
 	quest.178BD3B40A1492AA.title: "Held-Item Evolutions"
 	quest.1843C52C745283F0.title: "Claw Fossil"
 	quest.193BB1AC62EC7CEA.title: "Protector"
+	quest.1A79857179BA5200.quest_desc: ["&r&rA ★6 Raid Den boss (Stage 7 dens)."]
 	quest.1A79857179BA5200.quest_subtitle: "Catchable from Stage 7"
 	quest.1A79857179BA5200.title: "Koraidon"
 	quest.1ABF2A9522D1548E.title: "Ancient Leaden Ball"
@@ -1716,6 +1735,7 @@
 	quest.204CCC6F1867B96C.title: "Trade Partners"
 	quest.206964BDCFDBA42E.quest_subtitle: "Catchable from Stage 6"
 	quest.206964BDCFDBA42E.title: "Pheromosa"
+	quest.2083B625E0DDF2C3.quest_desc: ["&r&rTurns up wild, rarely: beaches at dawn."]
 	quest.2083B625E0DDF2C3.quest_subtitle: "Catchable from Stage 5"
 	quest.2083B625E0DDF2C3.title: "Tapu Lele"
 	quest.21366BA4C97B3FA0.quest_subtitle: "Pipes and tanks"
@@ -1751,6 +1771,7 @@
 	quest.2AD00011004159D0.title: "Shiny Rayquaza Armor"
 	quest.2B4D8C7FB2F0D9F4.quest_subtitle: "Catchable from Stage 6"
 	quest.2B4D8C7FB2F0D9F4.title: "Iron Boulder"
+	quest.2B8BD97DD72B0B3B.quest_desc: ["&r&rTurns up wild, rarely: flower fields on clear days."]
 	quest.2B8BD97DD72B0B3B.quest_subtitle: "Catchable from Stage 7"
 	quest.2B8BD97DD72B0B3B.title: "Shaymin"
 	quest.2C6F4ABE4F7D0090.quest_subtitle: "Stage 6"
@@ -1787,6 +1808,7 @@
 	quest.372AF170CD6925A0.title: "Metagross Armor"
 	quest.37882F4A78E18891.quest_subtitle: "Stage 2"
 	quest.37882F4A78E18891.title: "Mewtwonite X"
+	quest.37A2205C85FA7927.quest_desc: ["&r&rTurns up wild, rarely: warm seas at night."]
 	quest.37A2205C85FA7927.quest_subtitle: "Catchable from Stage 5"
 	quest.37A2205C85FA7927.title: "Tapu Fini"
 	quest.37BA365F941A7FB9.title: "Rooted Boots"
@@ -1803,6 +1825,7 @@
 	quest.3BFAEB03E3A04522.title: "Safari Ball"
 	quest.3C1655D842A2FD03.quest_subtitle: "Catchable from Stage 5"
 	quest.3C1655D842A2FD03.title: "Spectrier"
+	quest.3C56F3316A435AF0.quest_desc: ["&r&rTurns up wild, rarely: the Nether."]
 	quest.3C56F3316A435AF0.quest_subtitle: "Catchable from Stage 7"
 	quest.3C56F3316A435AF0.title: "Volcanion"
 	quest.3C654F1CCFEFE2CD.quest_desc: [
@@ -1811,6 +1834,7 @@
 	]
 	quest.3C654F1CCFEFE2CD.quest_subtitle: "Usable from Stage 1"
 	quest.3C654F1CCFEFE2CD.title: "Great Balls"
+	quest.3C8DA7A6B12BD6EE.quest_desc: ["&r&rTurns up wild, rarely: clear days on open land."]
 	quest.3C8DA7A6B12BD6EE.quest_subtitle: "Catchable from Stage 5"
 	quest.3C8DA7A6B12BD6EE.title: "Landorus"
 	quest.3CAAD67960130D79.quest_desc: [
@@ -1838,6 +1862,7 @@
 	quest.402A54D072DBAC47.title: "Fire Tera Shard"
 	quest.417876AE69874A80.quest_subtitle: "Catchable from Stage 5"
 	quest.417876AE69874A80.title: "Regirock"
+	quest.41B0BF5141F33EDF.quest_desc: ["&r&rTurns up wild, rarely: clear full-moon nights."]
 	quest.41B0BF5141F33EDF.quest_subtitle: "Catchable from Stage 7"
 	quest.41B0BF5141F33EDF.title: "Jirachi"
 	quest.41CA4B26E03A68D3.quest_desc: [
@@ -1868,12 +1893,14 @@
 	]
 	quest.4BE0256C558362B7.quest_subtitle: "Find one"
 	quest.4BE0256C558362B7.title: "Dusk Stone"
+	quest.4C4CE5BF5A258705.quest_desc: ["&r&rTurns up wild, rarely: jungle by day."]
 	quest.4C4CE5BF5A258705.quest_subtitle: "Catchable from Stage 5"
 	quest.4C4CE5BF5A258705.title: "Tapu Bulu"
 	quest.4DB0702500799233.quest_subtitle: "All four pieces"
 	quest.4DB0702500799233.title: "Shiny Torterra Armor"
 	quest.4E3DC6E86E8FFBD1.quest_subtitle: "Digital storage"
 	quest.4E3DC6E86E8FFBD1.title: "Refined Storage"
+	quest.4F27A00B5E9D498C.quest_desc: ["&r&rA ★6 Raid Den boss (Stage 7 dens)."]
 	quest.4F27A00B5E9D498C.quest_subtitle: "Catchable from Stage 7"
 	quest.4F27A00B5E9D498C.title: "Miraidon"
 	quest.4F654947ACB6C726.quest_desc: [
@@ -1899,6 +1926,7 @@
 	quest.51E771BB4540FBAA.quest_subtitle: "Read me"
 	quest.51E771BB4540FBAA.title: "How Pokémon Evolve"
 	quest.5234B3FF4F0A5EDA.title: "Panic Necklace"
+	quest.526C4A7EA41DEFCE.quest_desc: ["&r&rEvolve a Type: Null with high friendship."]
 	quest.526C4A7EA41DEFCE.quest_subtitle: "Catchable from Stage 5"
 	quest.526C4A7EA41DEFCE.title: "Silvally"
 	quest.536015D07F7B33AB.quest_subtitle: "All four pieces"
@@ -1916,10 +1944,12 @@
 	quest.580A56912434AE75.title: "Love Ball"
 	quest.586F834BC649F8AB.quest_subtitle: "Catchable from Stage 6"
 	quest.586F834BC649F8AB.title: "Celesteela"
+	quest.58DE955837F66062.quest_desc: ["&r&rTurns up wild, rarely: deep in warm seas."]
 	quest.58DE955837F66062.quest_subtitle: "Catchable from Stage 7"
 	quest.58DE955837F66062.title: "Manaphy"
 	quest.58F1612E0E45F26E.quest_subtitle: "Fast travel"
 	quest.58F1612E0E45F26E.title: "Waystones"
+	quest.5977F055D86950C2.quest_desc: ["&r&rA ★6 Raid Den boss (Stage 7 dens)."]
 	quest.5977F055D86950C2.quest_subtitle: "Catchable from Stage 7"
 	quest.5977F055D86950C2.title: "Miraidon"
 	quest.59FA17BE794A89EC.quest_desc: [
@@ -1940,6 +1970,7 @@
 	quest.5DB5D49204B46DD9.title: "Premier Ball"
 	quest.5DD361ACFAB94FEB.quest_subtitle: "Catchable from Stage 6"
 	quest.5DD361ACFAB94FEB.title: "Buzzwole"
+	quest.5F4CBA80DE16F717.quest_desc: ["&r&rA ★6 Raid Den boss (Stage 7 dens)."]
 	quest.5F4CBA80DE16F717.quest_subtitle: "Catchable from Stage 7"
 	quest.5F4CBA80DE16F717.title: "Terapagos"
 	quest.5FD1565753F78B9A.quest_subtitle: "Catchable from Stage 6"
@@ -1975,6 +2006,7 @@
 	quest.652A74FAFCF7382D.title: "Mints"
 	quest.653D06038E79A753.quest_subtitle: "Catchable from Stage 5"
 	quest.653D06038E79A753.title: "Chi-Yu"
+	quest.6594343B6FE8AEE5.quest_desc: ["&r&rMix a &ePoisoned Mochi&r (Potato Mochi, a Poisonous Potato and a Fermented Spider Eye, heated) and use it to summon Pecharunt."]
 	quest.6594343B6FE8AEE5.quest_subtitle: "Catchable from Stage 7"
 	quest.6594343B6FE8AEE5.title: "Pecharunt"
 	quest.663F3F491C0CA64A.quest_desc: [
@@ -2010,6 +2042,7 @@
 	quest.6A00086F4DFE983E.title: "Snorkel"
 	quest.6A0222AC6F07C1E6.quest_subtitle: "Catchable from Stage 6"
 	quest.6A0222AC6F07C1E6.title: "Great Tusk"
+	quest.6A0F68D0A6390428.quest_desc: ["&r&rTurns up wild, rarely: thunderstorms."]
 	quest.6A0F68D0A6390428.quest_subtitle: "Catchable from Stage 5"
 	quest.6A0F68D0A6390428.title: "Thundurus"
 	quest.6A10E610B5E70ACB.quest_subtitle: "Exosuit and tools"
@@ -2025,6 +2058,7 @@
 	]
 	quest.6BC70378F39842EB.quest_subtitle: "Find one"
 	quest.6BC70378F39842EB.title: "Moon Stone"
+	quest.6C599888A6A979E4.quest_desc: ["&r&rBuild a &eSoul-Heart&r in a Create Mechanical Crafter and use it to summon Magearna."]
 	quest.6C599888A6A979E4.quest_subtitle: "Catchable from Stage 7"
 	quest.6C599888A6A979E4.title: "Magearna"
 	quest.6C747B943B5A06CC.quest_subtitle: "Boots and skates"
@@ -2076,6 +2110,7 @@
 	quest.7471ABF6353B5E4E.title: "Cross Necklace"
 	quest.74EB07196896D7A6.quest_subtitle: "All four pieces"
 	quest.74EB07196896D7A6.title: "Umbreon Armor"
+	quest.76B9191A8FBC25C9.quest_desc: ["&r&rTurns up wild, rarely: forests on rainy nights."]
 	quest.76B9191A8FBC25C9.quest_subtitle: "Catchable from Stage 5"
 	quest.76B9191A8FBC25C9.title: "Ogerpon"
 	quest.77A32519300AF862.quest_desc: [
@@ -2092,6 +2127,7 @@
 	quest.7A3261123053DEC0.title: "Darkinium-Z"
 	quest.7A7D78318A1130AC.quest_subtitle: "Catchable from Stage 6"
 	quest.7A7D78318A1130AC.title: "Iron Valiant"
+	quest.7AAF86C058C7F548.quest_desc: ["&r&rA ★6 Raid Den boss (Stage 7 dens)."]
 	quest.7AAF86C058C7F548.quest_subtitle: "Catchable from Stage 7"
 	quest.7AAF86C058C7F548.title: "Koraidon"
 	quest.7C0E9BC8F053182C.quest_subtitle: "Stage 3"

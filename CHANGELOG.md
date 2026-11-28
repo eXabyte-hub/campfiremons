@@ -2,6 +2,29 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.57
+
+Already playing? Just press Play: the pack updates itself.
+
+- **34 legendaries you couldn't get before are now out there.** Each one's catch quest says where to look, and the
+  usual tier locks apply.
+  - **Wild, and rare, in the right place:** Kyogre in deep-ocean thunderstorms, Groudon in sunny badlands, deserts and
+    volcanoes, Rayquaza on the highest peaks, Tornadus, Thundurus and Landorus in rain, storms and sun, the Tapus on
+    tropical islands and warm seas, Okidogi, Munkidori, Fezandipiti and Ogerpon in forests and flower fields, Jirachi
+    on clear full-moon nights, Deoxys in the End, Manaphy and Phione in warm seas, Shaymin in flower fields, Diancie by
+    deep amethyst geodes, Volcanion in the Nether, Zeraora in night thunderstorms and Zarude in the jungle.
+  - **Raid bosses:** Zygarde, Terapagos, Koraidon and Miraidon in ★6 dens (Stage 7), Mewtwo and Necrozma in ★7 dens
+    (Stage 8).
+  - **Summon items:** a Soul-Heart (Magearna) and a Genesect Drive (Genesect), built in a Create Mechanical Crafter; a
+    Poisoned Mochi (Pecharunt), mixed hot from Potato Mochi, a Poisonous Potato and a Fermented Spider Eye; a Beast
+    Memory (Type: Null) from the Battle Tower's BP shop. Silvally evolves from Type: Null.
+- **Underground fossils, fixed.** CobbleSafari's special fossils no longer revive legendaries, Ultra Beasts or Paradox
+  Pokémon: you get a random ordinary Pokémon instead, still shiny or with its hidden ability if the fossil gave one.
+  Max IV and Perfect Fossils now give high IVs (20 to 31 each) instead of six perfect ones, and Shiny Fossils turn up a
+  quarter as often.
+- **Gym buttons work.** The buttons that call the leader in Radical Gyms' gyms (Blaine's in the Nether, for one) did
+  nothing, because the server had command blocks turned off. They're on now.
+
 ## v0.1.56
 
 Already playing? Just press Play: the pack updates itself.

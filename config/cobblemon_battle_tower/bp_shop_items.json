@@ -21,6 +21,15 @@
       "bp_cost": 200,
       "item_id": "cobblemon:ancient_origin_ball",
       "quantity": 1
+    },
+    // Campfiremons: the Tower's own prize, like the Aether Foundation's gift. Using it summons a wild Type: Null to
+    // catch (from Stage 5, its tier); Silvally evolves from it (legendary_summons.js)
+    {
+      "id": "beast_memory",
+      "display_name": "Beast Memory (Type: Null)",
+      "bp_cost": 60,
+      "item_id": "campfiremons:beast_memory",
+      "quantity": 1
     }
     // {
     //   "id": "master_ball",

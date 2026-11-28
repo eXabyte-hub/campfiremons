@@ -1,0 +1,477 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "campfiremons-tornadus",
+      "pokemon": "tornadus",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "55-62",
+      "weight": 1.0,
+      "percentage": 12.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_hills",
+          "#cobblemon:is_highlands"
+        ],
+        "isRaining": true,
+        "canSeeSky": true
+      }
+    },
+    {
+      "id": "campfiremons-thundurus",
+      "pokemon": "thundurus",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "55-62",
+      "weight": 1.0,
+      "percentage": 15.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_hills",
+          "#cobblemon:is_plains"
+        ],
+        "isThundering": true,
+        "canSeeSky": true
+      }
+    },
+    {
+      "id": "campfiremons-landorus",
+      "pokemon": "landorus",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "55-62",
+      "weight": 1.0,
+      "percentage": 6.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_plains",
+          "#cobblemon:is_savanna",
+          "#cobblemon:is_grassland"
+        ],
+        "timeRange": "day",
+        "isRaining": false,
+        "canSeeSky": true
+      }
+    },
+    {
+      "id": "campfiremons-tapukoko",
+      "pokemon": "tapukoko",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "55-62",
+      "weight": 1.0,
+      "percentage": 15.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_tropical_island"
+        ],
+        "isThundering": true
+      }
+    },
+    {
+      "id": "campfiremons-tapulele",
+      "pokemon": "tapulele",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "55-62",
+      "weight": 1.0,
+      "percentage": 12.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_beach",
+          "#cobblemon:is_tropical_island"
+        ],
+        "timeRange": "dawn"
+      }
+    },
+    {
+      "id": "campfiremons-tapubulu",
+      "pokemon": "tapubulu",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "55-62",
+      "weight": 1.0,
+      "percentage": 6.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
+        "timeRange": "day",
+        "isRaining": false
+      }
+    },
+    {
+      "id": "campfiremons-tapufini",
+      "pokemon": "tapufini",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "ultra-rare",
+      "level": "55-62",
+      "weight": 1.0,
+      "percentage": 10.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_warm_ocean",
+          "#cobblemon:is_lukewarm_ocean"
+        ],
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "campfiremons-okidogi",
+      "pokemon": "okidogi",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "55-62",
+      "weight": 1.0,
+      "percentage": 12.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest",
+          "#cobblemon:is_hills"
+        ],
+        "timeRange": "dusk"
+      }
+    },
+    {
+      "id": "campfiremons-munkidori",
+      "pokemon": "munkidori",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "55-62",
+      "weight": 1.0,
+      "percentage": 8.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_forest"
+        ],
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "campfiremons-fezandipiti",
+      "pokemon": "fezandipiti",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "55-62",
+      "weight": 1.0,
+      "percentage": 10.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_floral",
+          "#cobblemon:is_grassland"
+        ],
+        "timeRange": "twilight"
+      }
+    },
+    {
+      "id": "campfiremons-ogerpon",
+      "pokemon": "ogerpon",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "55-62",
+      "weight": 1.0,
+      "percentage": 15.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest"
+        ],
+        "timeRange": "night",
+        "isRaining": true
+      }
+    },
+    {
+      "id": "campfiremons-jirachi",
+      "pokemon": "jirachi",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "68-75",
+      "weight": 1.0,
+      "percentage": 8.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_hills",
+          "#cobblemon:is_plains"
+        ],
+        "timeRange": "night",
+        "moonPhase": "0",
+        "isRaining": false,
+        "canSeeSky": true
+      }
+    },
+    {
+      "id": "campfiremons-deoxys",
+      "pokemon": "deoxys",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "68-75",
+      "weight": 1.0,
+      "percentage": 4.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ]
+      }
+    },
+    {
+      "id": "campfiremons-manaphy",
+      "pokemon": "manaphy",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "ultra-rare",
+      "level": "68-75",
+      "weight": 1.0,
+      "percentage": 6.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ]
+      }
+    },
+    {
+      "id": "campfiremons-phione",
+      "pokemon": "phione",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "ultra-rare",
+      "level": "68-75",
+      "weight": 1.0,
+      "percentage": 10.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_warm_ocean",
+          "#cobblemon:is_lukewarm_ocean"
+        ]
+      }
+    },
+    {
+      "id": "campfiremons-shaymin",
+      "pokemon": "shaymin",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "68-75",
+      "weight": 1.0,
+      "percentage": 8.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_floral"
+        ],
+        "timeRange": "day",
+        "isRaining": false,
+        "canSeeSky": true
+      }
+    },
+    {
+      "id": "campfiremons-diancie",
+      "pokemon": "diancie",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "68-75",
+      "weight": 1.0,
+      "percentage": 15.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "canSeeSky": false,
+        "maxY": 32,
+        "neededNearbyBlocks": [
+          "minecraft:budding_amethyst",
+          "minecraft:amethyst_cluster"
+        ]
+      }
+    },
+    {
+      "id": "campfiremons-volcanion",
+      "pokemon": "volcanion",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "68-75",
+      "weight": 1.0,
+      "percentage": 4.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ]
+      }
+    },
+    {
+      "id": "campfiremons-zeraora",
+      "pokemon": "zeraora",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "68-75",
+      "weight": 1.0,
+      "percentage": 15.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_plains",
+          "#cobblemon:is_savanna"
+        ],
+        "timeRange": "night",
+        "isThundering": true
+      }
+    },
+    {
+      "id": "campfiremons-zarude",
+      "pokemon": "zarude",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "68-75",
+      "weight": 1.0,
+      "percentage": 5.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ]
+      }
+    },
+    {
+      "id": "campfiremons-kyogre",
+      "pokemon": "kyogre",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "ultra-rare",
+      "level": "68-75",
+      "weight": 1.0,
+      "percentage": 15.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_deep_ocean"
+        ],
+        "isThundering": true
+      }
+    },
+    {
+      "id": "campfiremons-groudon",
+      "pokemon": "groudon",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "68-75",
+      "weight": 1.0,
+      "percentage": 6.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_badlands",
+          "#cobblemon:is_volcanic",
+          "#cobblemon:is_desert"
+        ],
+        "timeRange": "day",
+        "isRaining": false,
+        "canSeeSky": true
+      }
+    },
+    {
+      "id": "campfiremons-rayquaza",
+      "pokemon": "rayquaza",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "68-75",
+      "weight": 1.0,
+      "percentage": 10.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_peak"
+        ],
+        "minY": 160,
+        "canSeeSky": true
+      }
+    }
+  ]
+}

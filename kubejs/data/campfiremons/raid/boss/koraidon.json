@@ -1,0 +1,18 @@
+{
+    "pokemon": {
+        "species": "koraidon",
+        "moves": [
+            "collisioncourse",
+            "flareblitz",
+            "dragonclaw",
+            [
+                "tm_coverage",
+                "offensive_tm",
+                "move_any"
+            ]
+        ]
+    },
+    "raid_tier": "TIER_SIX",
+    "raid_type": "FIGHTING",
+    "weight": 20.0
+}

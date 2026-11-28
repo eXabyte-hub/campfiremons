@@ -1,0 +1,18 @@
+{
+    "pokemon": {
+        "species": "miraidon",
+        "moves": [
+            "electrodrift",
+            "dracometeor",
+            "dazzlinggleam",
+            [
+                "tm_coverage",
+                "offensive_tm",
+                "move_any"
+            ]
+        ]
+    },
+    "raid_tier": "TIER_SIX",
+    "raid_type": "ELECTRIC",
+    "weight": 20.0
+}

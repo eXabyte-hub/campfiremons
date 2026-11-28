@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".claude/scheduled_tasks.lock"
+hash = "a92d38c98d613d3eac969a5fdf096a8728880375c382edc55770fd4aa2f760ef"
+
+[[files]]
 file = "config/almostunified/unification/materials.json"
 hash = "122f411100a8cf89139ac0021d0ea08d181d86115e0286a04bddc8189a49d437"
 
@@ -18,7 +22,7 @@ hash = "4a59d96b687e8db932660b5fd7856601750fd08e28b5c7fb41048a82ec749bd6"
 
 [[files]]
 file = "config/cobblemon_battle_tower/bp_shop_items.json"
-hash = "490c6610c8ed3bcc8e3005ba5bc0a4688e2891b6b3f92f672917130d4a4f0f5f"
+hash = "34aa30f9fa4a733e07b52135857091b0db72b7de448f9aa625ef81ed67651d6d"
 
 [[files]]
 file = "config/cobblemon_ultrabeast/main.json"
@@ -606,7 +610,7 @@ hash = "520c41cea36c45c2c1eb854ed8d3b1c17a4c48fef620942245a88150890b0ec5"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "61486c42ca45431a502110c986420383f6c6f74e6238feb1936f129c13c998c8"
+hash = "fa86c44a0920a6fc9c9dfb04edef430bc51f9b7f2829da93b1e6df4fecc43218"
 
 [[files]]
 file = "config/magnumtorch-server.toml"
@@ -1794,6 +1798,34 @@ file = "kubejs/data/campfiremons/neoforge/biome_modifier/remove_passive_mobs.jso
 hash = "4c44ed7597fc6bf19d1d1fba728bc0f38409e0355fae2101b8683d88ad158e39"
 
 [[files]]
+file = "kubejs/data/campfiremons/raid/boss/koraidon.json"
+hash = "c9fedecaf7a479663e9836355b6ae0715742c79d47ec5569b521d117ddcfcefe"
+
+[[files]]
+file = "kubejs/data/campfiremons/raid/boss/mewtwo.json"
+hash = "218c186772824d4d5fe42934aacf3a12f624a403a5a3d1d86adb7abe92ff79a5"
+
+[[files]]
+file = "kubejs/data/campfiremons/raid/boss/miraidon.json"
+hash = "77301a02aa1b0d091313c97bc6b0c1c7fb295e301d0d8615b814d9d174339b84"
+
+[[files]]
+file = "kubejs/data/campfiremons/raid/boss/necrozma.json"
+hash = "b4136e7b05b178907144b0177479b0f531fa1c16b39a4a72f31c6737cd32d7ac"
+
+[[files]]
+file = "kubejs/data/campfiremons/raid/boss/terapagos.json"
+hash = "98601065d330532e58bbe173d25e819ed6adc1e9dabf79673bb4dd24eac66fe1"
+
+[[files]]
+file = "kubejs/data/campfiremons/raid/boss/zygarde.json"
+hash = "a139774697662745aead41c1991f4fb1343f87f71522f81ff9a80d9222e1020f"
+
+[[files]]
+file = "kubejs/data/campfiremons/spawn_pool_world/legendaries.json"
+hash = "2c75761459ae415f0619ab174e1fe2f4d2f910b5372d746215f5646001d39028"
+
+[[files]]
 file = "kubejs/data/campfiremons/spawn_rules/no_wild_ultra_beasts.json"
 hash = "65af8c60806fbc0a54c4aaa91c06bac748e10bfe378da8ea820a68ea06538891"
 
@@ -2823,7 +2855,7 @@ hash = "1d7c8b413ddad40bbe4fce892befe270f53aac9a02d0018fda4e93ea7b3b2f2b"
 
 [[files]]
 file = "kubejs/data/cobblesafari/license.txt"
-hash = "fbaa184b5775cb5731729d147a57ffacf05f9c9d0a177cba96d28cd80f920c1c"
+hash = "5e3519641427af908e68686e22851cbab2e2c804cbaeaf2dd199908bd208e287"
 
 [[files]]
 file = "kubejs/data/cobblesafari/loot_table/blocks/buzzwole_plant.json"
@@ -2840,6 +2872,10 @@ hash = "56844de3424edcee6f0291341e701beeba5e58acc79d7ab5fbf3f073aeaf039c"
 [[files]]
 file = "kubejs/data/cobblesafari/loot_table/underground_ominous_oasis.json"
 hash = "a8b958cf4a56963da6c4e8484f01ff6c524f59df3790f1c5a479d84621e10da3"
+
+[[files]]
+file = "kubejs/data/cobblesafari/underground_treasure/fossilshiny.json"
+hash = "905d80f8457609ef91e2ed90bd487c198330d9db54207c0a0b8d381ed3900f39"
 
 [[files]]
 file = "kubejs/data/cobblesafari/wonder_trade/pokemon_groups/bug.json"
@@ -4694,6 +4730,10 @@ file = "kubejs/server_scripts/campfiremons/leather.js"
 hash = "3f2ae44d9d76497868cccd96e4a68ce66b9ccded6c5b717b5552ca9a77fb9921"
 
 [[files]]
+file = "kubejs/server_scripts/campfiremons/legendary_summons.js"
+hash = "e5c36fccb4d9d520451c4e799d68a6db0015ad0018085221b53985732405cec9"
+
+[[files]]
 file = "kubejs/server_scripts/campfiremons/liquid_experience.js"
 hash = "c4791cb4e251c05ffa8e67b35bb722237836dd0fad857655bfb0d55e8deba92f"
 
@@ -4743,11 +4783,19 @@ hash = "d1df73e85d77a2e76d01f40fdf22bad19d34cf9db08adeb3204528ed8dba780f"
 
 [[files]]
 file = "kubejs/startup_scripts/campfiremons/cobblemon_hooks.js"
-hash = "c879f0efff7a8728ce1c8f6a598879ee0db2032f3da5deb4e7ba1c70a201ad71"
+hash = "387366e9403ab0f44e61448a07c15e954c83f8d10da7245ec8e1f5b1b3a2532a"
 
 [[files]]
 file = "kubejs/startup_scripts/campfiremons/config.js"
 hash = "455e42f76a8b85e8b0f7a0695b842c0534baf25166bc8a277f7c2bea98a35aab"
+
+[[files]]
+file = "kubejs/startup_scripts/campfiremons/fossils.js"
+hash = "d53a4740215a0ca8fdebc5a1a8f3ceb0867b1595e267cc29e87dc6b304986ce1"
+
+[[files]]
+file = "kubejs/startup_scripts/campfiremons/legendary_items.js"
+hash = "7a739f83246a112eac437bc22e8b91473e8ebd6c98bd45a822a87b9f4015800f"
 
 [[files]]
 file = "kubejs/startup_scripts/campfiremons/streak_messages.js"
@@ -4755,7 +4803,7 @@ hash = "7d7154fddf864e4f31801dce1a0d798467b8534763aa2a875c18ce8a352f7d80"
 
 [[files]]
 file = "kubejs/startup_scripts/campfiremons/tier_locks.js"
-hash = "a2118e9488c23e059beabcaaf2d3c1161ada2fe83fe2006a56d624b508463e21"
+hash = "73016b289c595db6b1be96322cf04b8e16e122a2f5abaf1f5a5e5c602f264c38"
 
 [[files]]
 file = "licenses/campfiremons-1.0.0-MIT.txt"

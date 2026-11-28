@@ -79,6 +79,7 @@ global.campfiremons = global.campfiremons || {}
 
 // Shared with server scripts (they can read `global` but not write it), e.g. item_locks.js
 global.campfiremons.playerStage = playerStage
+global.campfiremons.tierOf = tierOf
 global.campfiremons.isBypassed = isBypassed
 global.campfiremons.deny = deny
 

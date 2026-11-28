@@ -12,4 +12,5 @@ Changes, made for the Campfiremons modpack (from CobbleSafari 0.4.1):
   species instead.
 - gts/unique_offers/hayley_mew.json, gts/unique_offers/hayley_phione.json: the offer asks for the same species it
   gives (a Mew or a Phione) instead of a Glaceon or a Leafeon.
+- underground_treasure/fossilshiny.json: the Shiny Fossil's weight is 1 instead of 4, so it turns up a quarter as often.
 The wonder_trade and gts files are written by tools/cobblesafari_trades.py.
