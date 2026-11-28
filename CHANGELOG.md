@@ -18,7 +18,9 @@ Already playing? Just press Play: the pack updates itself.
     (Stage 8).
   - **Summon items:** a Soul-Heart (Magearna) and a Genesect Drive (Genesect), built in a Create Mechanical Crafter; a
     Poisoned Mochi (Pecharunt), mixed hot from Potato Mochi, a Poisonous Potato and a Fermented Spider Eye; a Beast
-    Memory (Type: Null) from the Battle Tower's BP shop. Silvally evolves from Type: Null.
+    Memory (Type: Null) from the Battle Tower's BP shop. Silvally evolves from Type: Null. Rayquaza also answers a
+    **Jade Orb** (Dragon's Breath, a Dragon Head, a Nether Star, an Elytra and emerald blocks) used on an End City
+    roof, but only 1 time in 4, and the orb is used up either way.
 - **Underground fossils, fixed.** CobbleSafari's special fossils no longer revive legendaries, Ultra Beasts or Paradox
   Pokémon: you get a random ordinary Pokémon instead, still shiny or with its hidden ability if the fossil gave one.
   Max IV and Perfect Fossils now give high IVs (20 to 31 each) instead of six perfect ones, and Shiny Fossils turn up a

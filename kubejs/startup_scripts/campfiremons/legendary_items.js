@@ -5,7 +5,9 @@
 //   Genesect Drive  -> Genesect   (Create mechanical crafting)
 //   Poisoned Mochi  -> Pecharunt  (Create heated mixing from Potato Mochi; mochi is Pecharunt's own gimmick)
 //   Beast Memory    -> Type: Null (Battle Tower BP shop; Silvally evolves from it)
-// Textures reuse vanilla and Cobblemon item art.
+//   Jade Orb        -> Rayquaza   (crafted from Dragon's Breath, a Dragon Head, a Nether Star, an Elytra; works only on
+//                                  an End City roof in the outer End: the most sought-after one, so the hardest)
+// Textures reuse vanilla and Cobblemon item art, except the Jade Orb's (tools/art/gen_jade_orb.py).
 
 StartupEvents.registry('item', event => {
   event.create('campfiremons:soul_heart').displayName('Soul-Heart').maxStackSize(1).rarity('epic')
@@ -16,4 +18,6 @@ StartupEvents.registry('item', event => {
     .texture('cobblemon:item/food/potato_mochi')
   event.create('campfiremons:beast_memory').displayName('Beast Memory').maxStackSize(1).rarity('rare')
     .texture('minecraft:item/music_disc_11')
+  event.create('campfiremons:jade_orb').displayName('Jade Orb').maxStackSize(1).rarity('epic')
+    .texture('campfiremons:item/jade_orb')
 })

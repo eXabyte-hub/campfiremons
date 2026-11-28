@@ -172,6 +172,9 @@ Label names verified against the Cobblemon 1.8.4 species data. Tier stages, labe
     a Poisonous Potato, a Fermented Spider Eye), Beast Memory -> Type: Null (Battle Tower BP shop, 60 BP). Using one puts
     the Pokémon in front of you as a wild one (`pokespawn`); below its tier's stage the item is refused and kept.
     Silvally evolves from Type: Null.
+    Jade Orb -> Rayquaza (crafted: Dragon's Breath x4, Dragon Head, Nether Star, Elytra, 2 emerald blocks; works only where
+    its wild spawn does, outer End y 110+ beside purpur, and even there 25 %, the orb used up either way) [asked for on
+    2026-11-28: the most sought-after legendary, so the hardest]. Texture: our own, `tools/art/gen_jade_orb.py`.
 
 ## 4. What gets gated, and how
 
