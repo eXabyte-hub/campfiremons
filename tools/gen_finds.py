@@ -131,7 +131,7 @@ STAGE_TRAINERS = {
 DIRECT_REWARDS = {
     1: ["pokebadges:boulder_kanto_badge", "pokebadges:badge_box"], 2: ["pokebadges:cascade_kanto_badge"],
     3: ["pokebadges:thunder_kanto_badge"], 4: ["pokebadges:rainbow_kanto_badge"], 5: ["pokebadges:marsh_kanto_badge"],
-    6: ["pokebadges:soul_kanto_badge"], 7: ["pokebadges:volcano_kanto_badge"], 8: ["pokebadges:rising_johto_badge"],
+    6: ["pokebadges:soul_kanto_badge"], 7: ["pokebadges:volcano_kanto_badge"], 8: ["pokebadges:earth_kanto_badge"],
     9: ["cobblemon:master_ball"],
 }
 

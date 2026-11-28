@@ -773,7 +773,7 @@ def groups_and_titles(b):
               'stage_1': 'Stage 1: Boulder Badge', 'stage_2': 'Stage 2: Cascade Badge',
               'stage_3': 'Stage 3: Thunder Badge', 'stage_4': 'Stage 4: Rainbow Badge',
               'stage_5': 'Stage 5: Marsh Badge', 'stage_6': 'Stage 6: Soul Badge', 'stage_7': 'Stage 7: Volcano Badge',
-              'stage_8': 'Stage 8: Rising Badge', 'stage_9': 'Stage 9: Champion'}
+              'stage_8': 'Stage 8: Earth Badge', 'stage_9': 'Stage 9: Champion'}
     chapter_lang = {}
     for i, name in enumerate(order):
         ch = b.chapters[name]

@@ -2,6 +2,13 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.55
+
+Already playing? Just press Play: the pack updates itself.
+
+- **Clair gives the Earth Badge.** Beating Clair (Stage 8) handed out her Johto Rising Badge, the odd one out among the
+  Kanto badges. It's now the Kanto Earth Badge, and the quest book calls it that too.
+
 ## v0.1.54
 
 Already playing? Just press Play: the pack updates itself.

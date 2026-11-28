@@ -37,7 +37,7 @@ INITIAL_CAP = 15  # defaultconfigs/rctmod-server.toml initialLevelCap
 GOALS = {1: ('Cascade Badge', 'Misty', 'water'), 2: ('Thunder Badge', 'Lt. Surge', 'electric'),
          3: ('Rainbow Badge', 'Erika', 'grass'), 4: ('Marsh Badge', 'Sabrina', 'psychic'),
          5: ('Soul Badge', 'Koga', 'poison'), 6: ('Volcano Badge', 'Blaine', 'fire'),
-         7: ('Rising Badge', 'Clair', 'dragon'), 8: ('Champion', 'Champion Terry', 'stellar'),
+         7: ('Earth Badge', 'Clair', 'dragon'), 8: ('Champion', 'Champion Terry', 'stellar'),
          9: ('Hall of Fame', None, 'stellar')}
 E4_ORDER = ('lorelei', 'bruno', 'agatha', 'lance')
 CHAIN_X, CHAIN_STEP, GYM_GAP = 2.6, 1.6, 2.2
