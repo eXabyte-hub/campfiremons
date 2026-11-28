@@ -2,7 +2,7 @@
 	chapter.240C5E409595021A.title: "Stage 0: Boulder Badge"
 	chapter.2C1030E5DDF79236.title: "Pasture Jobs"
 	chapter.08801FD49944AA45.title: "Stage 2: Thunder Badge"
-	chapter.096137A26F3886E8.title: "Stage 7: Earth Badge"
+	chapter.096137A26F3886E8.title: "Stage 7: Earth and Rising Badges"
 	chapter.0F1CBEA36275A1D4.title: "Stage 9: Hall of Fame"
 	chapter.0FC5609B33DF101F.title: "Stage 5: Soul Badge"
 	chapter.18842A495D507952.title: "Training"
@@ -1206,7 +1206,7 @@
 		"Level cap on the road to Champion Terry: &e81 → 85&r, rising with each key fight in the line to the right."
 	]
 	quest.4C029B208A6F165B.quest_subtitle: "Stage 8 reached"
-	quest.4C029B208A6F165B.title: "Earth Badge"
+	quest.4C029B208A6F165B.title: "Earth and Rising Badges"
 	quest.4C75A586CF462E95.quest_desc: [
 		"Beating Lt. Surge unlocks &eUltra Balls&r with Quick, Dusk, Timer, Repeat, Luxury and Love Balls."
 	]

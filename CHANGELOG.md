@@ -2,6 +2,13 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.56
+
+Already playing? Just press Play: the pack updates itself.
+
+- **Clair gives both badges.** Beating Clair (Stage 8) now gives the Kanto Earth Badge, the last one in your Kanto
+  Badge Box, and her own Johto Rising Badge, since it's her gym.
+
 ## v0.1.55
 
 Already playing? Just press Play: the pack updates itself.

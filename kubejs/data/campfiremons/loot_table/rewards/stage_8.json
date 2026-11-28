@@ -9,6 +9,15 @@
           "name": "pokebadges:earth_kanto_badge"
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pokebadges:rising_johto_badge"
+        }
+      ]
     }
   ]
 }

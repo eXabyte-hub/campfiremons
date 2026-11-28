@@ -127,11 +127,13 @@ STAGE_TRAINERS = {
     5: ["leader_sabrina_01a4"], 6: ["leader_koga_01a2"], 7: ["leader_blaine_01a3"], 8: ["leader_clair_004a"],
     9: ["champion_terry_01b8", "champion_terry_01b7", "champion_terry_01b6"],
 }
-# Handed out by the stage advancement itself: the gym's PokeBadges badge (cosmetic) and the Champion's Master Ball
+# Handed out by the stage advancement itself: the gym's PokeBadges badge (cosmetic) and the Champion's Master Ball.
+# Clair gives both: the Kanto Earth Badge (the eighth slot of the Kanto set) and her own Johto Rising Badge.
 DIRECT_REWARDS = {
     1: ["pokebadges:boulder_kanto_badge", "pokebadges:badge_box"], 2: ["pokebadges:cascade_kanto_badge"],
     3: ["pokebadges:thunder_kanto_badge"], 4: ["pokebadges:rainbow_kanto_badge"], 5: ["pokebadges:marsh_kanto_badge"],
-    6: ["pokebadges:soul_kanto_badge"], 7: ["pokebadges:volcano_kanto_badge"], 8: ["pokebadges:earth_kanto_badge"],
+    6: ["pokebadges:soul_kanto_badge"], 7: ["pokebadges:volcano_kanto_badge"],
+    8: ["pokebadges:earth_kanto_badge", "pokebadges:rising_johto_badge"],
     9: ["cobblemon:master_ball"],
 }
 
