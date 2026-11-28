@@ -606,7 +606,7 @@ hash = "520c41cea36c45c2c1eb854ed8d3b1c17a4c48fef620942245a88150890b0ec5"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "13be6abb4a3a85ad21693c16898961652e1031d062004c08f9c7d79b8523322e"
+hash = "b0ceb83dfa940b7ff27887f28370e0d27f6bd64197ad78a08d412f4463620ea5"
 
 [[files]]
 file = "config/magnumtorch-server.toml"
@@ -1783,7 +1783,7 @@ hash = "0f309d5ff7ab9fb6e1561e997be938fd7930c4ad2d67d4b9b85d1391a636209c"
 
 [[files]]
 file = "kubejs/data/campfiremons/loot_table/rewards/stage_8.json"
-hash = "71fe3e8a8dab1ca4e99b04567a48c0ace63dc2d7061c9b7ea6cfd706fe094369"
+hash = "ac24438ac464e3894ccadbfc283923ef041f00fbceab403148bda5388dbc36ac"
 
 [[files]]
 file = "kubejs/data/campfiremons/loot_table/rewards/stage_9.json"

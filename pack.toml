@@ -1,12 +1,12 @@
 name = "Campfiremons"
 author = "eXabyte-hub"
-version = "0.1.54"
+version = "0.1.55"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "d8694a2ced2341b150dcf9c5382ee2acaa90c990ad073219805a683cdd5124d4"
+hash = "7fd3b7d7ceef0fa44a9911490e7441052aa8357a9779f890954ca2a9dff97f0e"
 
 [versions]
 minecraft = "1.21.1"
