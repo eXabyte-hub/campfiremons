@@ -1,0 +1,62 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:crushing_wheel"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "id": "campfiremons:diamond_tipped_crushing_wheel"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "campfiremons:incomplete_diamond_tipped_crushing_wheel"
+        },
+        {
+          "tag": "c:gems/diamond"
+        }
+      ],
+      "results": [
+        {
+          "id": "campfiremons:incomplete_diamond_tipped_crushing_wheel"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "campfiremons:incomplete_diamond_tipped_crushing_wheel"
+        },
+        {
+          "tag": "c:gems/diamond"
+        }
+      ],
+      "results": [
+        {
+          "id": "campfiremons:incomplete_diamond_tipped_crushing_wheel"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "campfiremons:incomplete_diamond_tipped_crushing_wheel"
+        }
+      ],
+      "results": [
+        {
+          "id": "campfiremons:incomplete_diamond_tipped_crushing_wheel"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "campfiremons:incomplete_diamond_tipped_crushing_wheel"
+  }
+}

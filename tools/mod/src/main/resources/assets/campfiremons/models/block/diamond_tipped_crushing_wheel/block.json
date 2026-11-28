@@ -1,0 +1,6 @@
+{
+  "parent": "create:block/crushing_wheel/block",
+  "textures": {
+    "plates": "campfiremons:block/diamond_tipped_crushing_wheel_plates"
+  }
+}

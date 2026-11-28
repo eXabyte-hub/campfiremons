@@ -1,0 +1,56 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.140'
+}
+
+version = mod_version
+group = 'campfiremons'
+base { archivesName = 'campfiremons' }
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+neoForge {
+    enable {
+        version = neo_version
+        // Compile against Minecraft's own jar: no decompiling, so builds are quick and light.
+        disableRecompilation = true
+    }
+    mods {
+        campfiremons { sourceSet sourceSets.main }
+    }
+}
+
+repositories {
+    exclusiveContent {
+        forRepository { maven { url = 'https://api.modrinth.com/maven' } }
+        filter { includeGroup 'maven.modrinth' }
+    }
+    maven { url = 'https://maven.createmod.net' }          // Flywheel, Ponder
+    maven { url = 'https://maven.ithundxr.dev/snapshots' } // Registrate
+}
+
+dependencies {
+    // The same Create jar players and the server run.
+    compileOnly "maven.modrinth:create:${create_modrinth_version}"
+    compileOnly "dev.engine-room.flywheel:flywheel-neoforge-api-${minecraft_version}:${flywheel_version}"
+    compileOnly "dev.engine-room.flywheel:flywheel-neoforge-${minecraft_version}:${flywheel_version}"
+    compileOnly "net.createmod.ponder:ponder-neoforge:${ponder_version}+mc${minecraft_version}"
+    compileOnly "com.tterrag.registrate:Registrate:${registrate_version}"
+}
+
+// The jar is committed to mods/: the same source must give the same bytes (and the same index.toml hash).
+tasks.withType(AbstractArchiveTask).configureEach {
+    preserveFileTimestamps = false
+    reproducibleFileOrder = true
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 21
+}
+
+processResources {
+    def props = [mod_version: mod_version, create_version: create_version, neo_version: neo_version]
+    inputs.properties props
+    filesMatching('META-INF/neoforge.mods.toml') { expand props }
+}

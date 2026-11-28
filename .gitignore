@@ -8,6 +8,8 @@ kubejs/README.txt
 
 # Build output
 dist/
+tools/mod/build/
+tools/mod/.gradle/
 *.mrpack
 
 # Editors / tooling

@@ -95,11 +95,11 @@ Ask whoever runs the server for the address and to be added to the whitelist, th
 
 <!-- modlist:start -->
 <details>
-<summary>All 242 mods, plus resource packs and shaders (click to open)</summary>
+<summary>All 243 mods, plus resource packs and shaders (click to open)</summary>
 
 Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are only on players' computers, "server only" ones only on the server.
 
-### Mods (242)
+### Mods (243)
 
 | Name | Notes | From |
 | --- | --- | --- |
@@ -132,6 +132,7 @@ Generated from the pack files by `tools/gen_modlist.py`. "Client only" mods are 
 | [Bookshelf](https://modrinth.com/project/uy4Cnpcm) |  | Modrinth |
 | [Building Gadgets](https://www.curseforge.com/projects/298187) |  | CurseForge |
 | [Caelus API](https://modrinth.com/project/40FYwb4z) |  | Modrinth |
+| [Campfiremons (Diamond-Tipped Crushing Wheels)](https://github.com/eXabyte-hub/campfiremons/tree/main/tools/mod) | our own mod (MIT), source in tools/mod | this repo |
 | [Catch Indicator [Cobblemon Addon]](https://modrinth.com/project/tpTcu2PM) | client only | Modrinth |
 | [Charging Gadgets](https://www.curseforge.com/projects/399757) |  | CurseForge |
 | [Chipped](https://modrinth.com/project/BAscRYKm) |  | Modrinth |

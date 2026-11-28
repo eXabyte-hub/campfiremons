@@ -13,10 +13,16 @@ README = ROOT / 'README.md'
 START, END = '<!-- modlist:start -->', '<!-- modlist:end -->'
 SECTIONS = [('mods', 'Mods'), ('resourcepacks', 'Resource packs'), ('shaderpacks', 'Shaders'), ('datapacks', 'Data packs')]
 SIDES = {'both': '', 'client': 'client only', 'server': 'server only'}
-# Jars the pack serves itself (their authors turned off third-party downloads; licences in licenses/): file -> page
+# Jars the pack serves itself (licences in licenses/): file -> (name, page, note, source). Most are there because
+# their authors turned off third-party downloads; campfiremons-*.jar is our own mod.
 HOSTED = {
     'ultimine_cobblemon_harvest-1.0.0.jar': ('Cobblemon Ultimine Harvest',
-                                             'https://www.curseforge.com/minecraft/mc-mods/cobblemon-ultimine-harvest'),
+                                             'https://www.curseforge.com/minecraft/mc-mods/cobblemon-ultimine-harvest',
+                                             'hosted in this repo (MIT)', 'CurseForge'),
+    # Our own mod, built from tools/mod/
+    'campfiremons-1.0.0.jar': ('Campfiremons (Diamond-Tipped Crushing Wheels)',
+                               'https://github.com/eXabyte-hub/campfiremons/tree/main/tools/mod',
+                               'our own mod (MIT), source in tools/mod', 'this repo'),
 }
 
 
@@ -43,8 +49,8 @@ def render():
         for jar in (ROOT / folder).glob('*.jar'):
             if jar.name not in HOSTED:
                 sys.exit(f'{folder}/{jar.name} is served from the repo: add it to HOSTED in tools/gen_modlist.py')
-            name, url = HOSTED[jar.name]
-            rows.append((name.lower(), f'| [{name}]({url}) | hosted in this repo (MIT) | CurseForge |'))
+            name, url, note, source = HOSTED[jar.name]
+            rows.append((name.lower(), f'| [{name}]({url}) | {note} | {source} |'))
         rows.sort()
         if not rows:
             continue

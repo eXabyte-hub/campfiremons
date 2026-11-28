@@ -1,0 +1,38 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+issueTrackerURL = "https://github.com/eXabyte-hub/campfiremons/issues"
+
+[[mods]]
+modId = "campfiremons"
+version = "${mod_version}"
+displayName = "Campfiremons"
+authors = "eXabyte-hub"
+description = '''
+The Campfiremons modpack's own content: Diamond-Tipped Crushing Wheels for Create.
+'''
+
+[[mixins]]
+config = "campfiremons.mixins.json"
+
+[[dependencies.campfiremons]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.campfiremons]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.21.2)"
+ordering = "NONE"
+side = "BOTH"
+
+# Pinned: the mixins patch this exact Create build. Rebuild and re-test before updating Create.
+[[dependencies.campfiremons]]
+modId = "create"
+type = "required"
+versionRange = "[${create_version}]"
+ordering = "AFTER"
+side = "BOTH"

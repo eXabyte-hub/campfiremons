@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "campfiremons.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "CrushingWheelBlockMixin",
+    "CrushingWheelControllerBlockMixin",
+    "CrushingWheelControllerBlockEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -16,6 +16,7 @@ metadata files (download URL + hash), never as jars.
 | `kubejs/` | our scripts (`startup_scripts/`, `server_scripts/`, `client_scripts/`) and datapack files |
 | `tools/` | dev scripts (not shipped to players, see `.packwizignore`) |
 | `tools/release/` | `build.py` (the release zips) and the server starter: the launcher (`server/launcher/Launcher.java`) and `start.sh` |
+| `tools/mod/` | source of our own mod, `mods/campfiremons-<version>.jar` (Diamond-Tipped Crushing Wheels; see "Our own mod") |
 | `.github/workflows/` | `release.yml` publishes a GitHub Release per `vX.Y.Z` tag; `check.yml` fails on a stale `index.toml` |
 | `README.md` | the player-facing page: install, joining, how the pack plays |
 | `CHANGELOG.md` | one section per version, used as the release notes |
@@ -80,7 +81,8 @@ from the CurseForge API and must be downloaded manually", which breaks every pla
 if the licence allows redistribution (MIT and the like, never All Rights Reserved) the pack serves the jar itself:
 the unmodified jar in `mods/`, its licence and source in `licenses/`, and an entry in `HOSTED` in
 `tools/gen_modlist.py`. `packwiz update` doesn't see these jars, so update them by hand. Served this way:
-Cobblemon Ultimine Harvest. Turned down for this reason: Who's That Pokémon (All Rights Reserved).
+Cobblemon Ultimine Harvest. Turned down for this reason: Who's That Pokémon (All Rights Reserved). Our own mod is
+served the same way (see "Our own mod" below).
 
 `tools/gen_animation_fixes.py` owns `kubejs/assets/cobblemon/bedrock/pokemon/animations/`. Mods that replace
 Cobblemon's Pokémon files (CCC's animations, Mega Showdown's poses) can leave a winning pose asking for an animation
@@ -125,6 +127,27 @@ pack ships from the dev instance, so sync that first, and re-run it after adding
 apply to chunks generated afterwards. A structure that maps or a mod look up must not be on the shared grid (finding
 it there generates every candidate cell and can stall the server): the tool finds explorer-map destinations itself,
 but add a mod that locates structures in code to `OWN_GRID`.
+
+## Our own mod (`tools/mod/`)
+
+`mods/campfiremons-<version>.jar` is the pack's own NeoForge mod (MIT, licence in `licenses/`), served from the repo
+like Cobblemon Ultimine Harvest. It adds the Diamond-Tipped Crushing Wheel. It is Java because KubeJS can't add a
+spinning Create machine or change how Create rolls crushing outputs.
+
+- **Build:** `cd tools/mod && ./gradlew build` (needs JDK 21; the wrapper fetches Gradle 8.14.3). `disableRecompilation`
+  compiles against Minecraft's own jar without decompiling it: about 2 minutes the first time, seconds after. The build
+  is reproducible (same source, same jar bytes). Then copy `build/libs/campfiremons-<version>.jar` to `mods/` (delete
+  the old one), rename the licence file and the `HOSTED` entry in `tools/gen_modlist.py` if the version changed, and run
+  `packwiz refresh`.
+- **Create is pinned.** The three mixins in `src/main/java/campfiremons/mixin/` patch Create's crushing wheel code, and
+  the build compiles against the exact Create jar the pack ships (Modrinth version `UjX6dr61`, 6.0.10). Their targets were
+  checked with `javap` against that jar, including the compiled lambda name `lambda$updateSpeed$1`. `neoforge.mods.toml`
+  requires Create `[6.0.10]`, so a `packwiz update` that moves Create stops the game with a "requires create 6.0.10"
+  message. To update Create: bump `create_version` and `create_modrinth_version` in `gradle.properties`, re-check the
+  targets with `javap`, rebuild, and re-run the crushing test on a scratch server.
+- **Create's art is All Rights Reserved** (its code is MIT). Our models only name `create:block/crushing_wheel/block` and
+  `create:block/crushing_wheel/item` as their parent and swap its `plates` texture for ours, drawn from scratch by
+  `tools/mod/gen_texture.py`. Never copy files out of Create's `assets/`.
 
 ## Testing stages
 

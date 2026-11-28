@@ -4758,6 +4758,10 @@ file = "kubejs/startup_scripts/campfiremons/tier_locks.js"
 hash = "a2118e9488c23e059beabcaaf2d3c1161ada2fe83fe2006a56d624b508463e21"
 
 [[files]]
+file = "licenses/campfiremons-1.0.0-MIT.txt"
+hash = "100b8e48ef18dd86c55fc96841275c80f4c5cd28a219c8a95eeb1d93fb063d15"
+
+[[files]]
 file = "licenses/ultimine_cobblemon_harvest-1.0.0-MIT.txt"
 hash = "d14c006c243a20122d179ec0f424ad42045a0180746be8f8bd4a08e85572dffa"
 
@@ -4895,6 +4899,10 @@ metafile = true
 file = "mods/caelus.pw.toml"
 hash = "992b0dca9683f225fc774d779762d18a009f2d82b9d051e7c0b55a33a95d9238"
 metafile = true
+
+[[files]]
+file = "mods/campfiremons-1.0.0.jar"
+hash = "6465155e68a4f389a378c095ad808f28b9963ba5a0b864e79927f5ebf87c902f"
 
 [[files]]
 file = "mods/catch-indicator.pw.toml"

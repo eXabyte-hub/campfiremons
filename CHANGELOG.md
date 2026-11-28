@@ -2,6 +2,16 @@
 
 Each `## vX.Y.Z` section becomes that version's GitHub Release notes (`tools/release/build.py`).
 
+## v0.1.54
+
+Already playing? Just press Play: the pack updates itself.
+
+- **Diamond-Tipped Crushing Wheels.** A new Create crushing wheel: send a Crushing Wheel down a belt where Deployers add
+  4 diamonds and a Press sets them (the steps are in EMI). A pair of them crushes 50% faster at the same speed, and every
+  chance output gets 25 points more (75% becomes 100%): more crushed ore from ore blocks, more flint from gravel, and
+  the XP nugget always drops. They cost
+  12 stress units per RPM instead of 8. A diamond wheel paired with a normal one crushes like two normal wheels.
+
 ## v0.1.53
 
 Already playing? Just press Play: the pack updates itself.

@@ -1,0 +1,7 @@
+{
+  "block.campfiremons.diamond_tipped_crushing_wheel": "Diamond-Tipped Crushing Wheel",
+  "block.campfiremons.diamond_tipped_crushing_wheel.tooltip.summary": "A _Crushing Wheel_ with diamond tips. Pair it with another one to crush _faster_ and get _more bonus outputs_.",
+  "block.campfiremons.diamond_tipped_crushing_wheel.tooltip.condition1": "When both wheels are Diamond-Tipped",
+  "block.campfiremons.diamond_tipped_crushing_wheel.tooltip.behaviour1": "Crushes _50% faster_ at the same speed, and every _chance output_ gets _25 points_ more (75% becomes 100%): _more crushed ore_ from ore blocks, and the _XP nugget_ always drops. Paired with a normal wheel, it crushes like a normal wheel.",
+  "item.campfiremons.incomplete_diamond_tipped_crushing_wheel": "Incomplete Diamond-Tipped Crushing Wheel"
+}

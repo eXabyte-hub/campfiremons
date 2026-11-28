@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "axis=x": { "model": "campfiremons:block/diamond_tipped_crushing_wheel/block", "x": 90, "y": 90 },
+    "axis=y": { "model": "campfiremons:block/diamond_tipped_crushing_wheel/block" },
+    "axis=z": { "model": "campfiremons:block/diamond_tipped_crushing_wheel/block", "x": 90, "y": 180 }
+  }
+}
