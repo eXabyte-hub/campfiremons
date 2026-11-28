@@ -71,8 +71,11 @@ SPAWNS = [
     ("groudon", TOP, "grounded", {"biomes": ["#cobblemon:is_badlands", "#cobblemon:is_volcanic", "#cobblemon:is_desert"],
                                   "timeRange": "day", "isRaining": False, "canSeeSky": True}, 6,
      "badlands, deserts and volcanoes in the midday sun"),
-    ("rayquaza", TOP, "grounded", {"biomes": ["#cobblemon:is_peak"], "minY": 160, "canSeeSky": True}, 10,
-     "the highest mountain peaks"),
+    # Rayquaza: the sky dragon, made hard on purpose [asked for on 2026-11-28]: the outer End only (not the main island),
+    # 110 blocks up or more and next to purpur, so in practice on the roofs of End City towers, at a small share
+    ("rayquaza", TOP, "grounded", {"biomes": ["minecraft:end_highlands", "minecraft:end_midlands"], "minY": 110,
+                                   "neededNearbyBlocks": ["minecraft:purpur_block", "minecraft:purpur_pillar"]}, 3,
+     "high in the outer End, on the roofs of End City towers"),
 ]
 
 

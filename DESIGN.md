@@ -158,7 +158,7 @@ Label names verified against the Cobblemon 1.8.4 species data. Tier stages, labe
   quest list (`QuestCatalog`) marks them unfinished, and no other mod spawns them. Each one's catch quest now says where
   it turns up (`tools/quest_book/add_legend_hints.py`, a quest_desc in `lang/en_us.snbt`).
   - 23 rare wild spawns tied to lore (`tools/gen_legend_spawns.py` writes `kubejs/data/campfiremons/spawn_pool_world/legendaries.json`):
-    Kyogre in deep-ocean thunderstorms, Groudon in sunny badlands/deserts/volcanoes, Rayquaza on peaks above y 160, the
+    Kyogre in deep-ocean thunderstorms, Groudon in sunny badlands/deserts/volcanoes, Rayquaza only high in the outer End beside purpur (End City roofs, y 110+, 3 %: kept hard on purpose), the
     Forces of Nature in rain/storms/sun, the Tapus on tropical islands and warm seas, the Loyal Three and Ogerpon in
     forests and flower fields, Jirachi on clear full-moon nights, Deoxys in the End, Manaphy/Phione in warm seas, Shaymin
     in flower fields, Diancie by deep amethyst geodes, Volcanion in the Nether, Zeraora in night thunderstorms, Zarude in

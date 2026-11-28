@@ -464,13 +464,17 @@
       "bucket": "ultra-rare",
       "level": "68-75",
       "weight": 1.0,
-      "percentage": 10.0,
+      "percentage": 3.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_peak"
+          "minecraft:end_highlands",
+          "minecraft:end_midlands"
         ],
-        "minY": 160,
-        "canSeeSky": true
+        "minY": 110,
+        "neededNearbyBlocks": [
+          "minecraft:purpur_block",
+          "minecraft:purpur_pillar"
+        ]
       }
     }
   ]

@@ -610,7 +610,7 @@ hash = "520c41cea36c45c2c1eb854ed8d3b1c17a4c48fef620942245a88150890b0ec5"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "fa86c44a0920a6fc9c9dfb04edef430bc51f9b7f2829da93b1e6df4fecc43218"
+hash = "abb25620747d579ed2bec91af393b5308a16c2accd4e8baecfbb5b4af5374cf2"
 
 [[files]]
 file = "config/magnumtorch-server.toml"
@@ -1823,7 +1823,7 @@ hash = "a139774697662745aead41c1991f4fb1343f87f71522f81ff9a80d9222e1020f"
 
 [[files]]
 file = "kubejs/data/campfiremons/spawn_pool_world/legendaries.json"
-hash = "2c75761459ae415f0619ab174e1fe2f4d2f910b5372d746215f5646001d39028"
+hash = "dc782cd09260b9b6995a65d7e3ffd910da7be126dafdfe497e34f8ab17eb0fab"
 
 [[files]]
 file = "kubejs/data/campfiremons/spawn_rules/no_wild_ultra_beasts.json"

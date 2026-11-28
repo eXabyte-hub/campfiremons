@@ -9,10 +9,11 @@ Already playing? Just press Play: the pack updates itself.
 - **34 legendaries you couldn't get before are now out there.** Each one's catch quest says where to look, and the
   usual tier locks apply.
   - **Wild, and rare, in the right place:** Kyogre in deep-ocean thunderstorms, Groudon in sunny badlands, deserts and
-    volcanoes, Rayquaza on the highest peaks, Tornadus, Thundurus and Landorus in rain, storms and sun, the Tapus on
-    tropical islands and warm seas, Okidogi, Munkidori, Fezandipiti and Ogerpon in forests and flower fields, Jirachi
-    on clear full-moon nights, Deoxys in the End, Manaphy and Phione in warm seas, Shaymin in flower fields, Diancie by
-    deep amethyst geodes, Volcanion in the Nether, Zeraora in night thunderstorms and Zarude in the jungle.
+    volcanoes, Rayquaza (hard to find: high in the outer End, on End City roofs), Tornadus, Thundurus and Landorus in
+    rain, storms and sun, the Tapus on tropical islands and warm seas, Okidogi, Munkidori, Fezandipiti and Ogerpon in
+    forests and flower fields, Jirachi on clear full-moon nights, Deoxys in the End, Manaphy and Phione in warm seas,
+    Shaymin in flower fields, Diancie by deep amethyst geodes, Volcanion in the Nether, Zeraora in night thunderstorms
+    and Zarude in the jungle.
   - **Raid bosses:** Zygarde, Terapagos, Koraidon and Miraidon in ★6 dens (Stage 7), Mewtwo and Necrozma in ★7 dens
     (Stage 8).
   - **Summon items:** a Soul-Heart (Magearna) and a Genesect Drive (Genesect), built in a Create Mechanical Crafter; a
