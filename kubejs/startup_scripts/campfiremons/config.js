@@ -13,6 +13,7 @@ global.campfiremonsConfig = {
     beast_paradox: { name: 'Ultra Beast / Paradox', stage: 6 },
     mythical: { name: 'Mythical', stage: 7 },
     restricted: { name: 'Box legend', stage: 7 },
+    champion: { name: 'Champion-level', stage: 9 }, // Rayquaza only (overrides): the most sought-after [2026-11-28]
   },
 
   // Species are sorted into tiers by their Cobblemon labels; the first matching rule wins.
@@ -28,6 +29,7 @@ global.campfiremonsConfig = {
   // Per-species exceptions: Cobblemon species id (e.g. 'hooh', 'tapukoko') -> tier id, or null to never lock it.
   overrides: {
     arceus: 'restricted', // labelled mythical, but it belongs with the box legends
+    rayquaza: 'champion', // asked for on 2026-11-28: after the Champion only, and hard to find (Jade Orb, End City roofs)
   },
 
   // Use-locks (DESIGN.md §4.3, server_scripts/campfiremons/item_locks.js): getting an item stays free, but throwing or using

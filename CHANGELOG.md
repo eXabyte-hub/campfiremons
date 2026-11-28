@@ -8,6 +8,7 @@ Already playing? Just press Play: the pack updates itself.
 
 - **34 legendaries you couldn't get before are now out there.** Each one's catch quest says where to look, and the
   usual tier locks apply.
+  - **Rayquaza is now Champion-only:** it can be caught from Stage 9, and it's the hardest to find (below).
   - **Wild, and rare, in the right place:** Kyogre in deep-ocean thunderstorms, Groudon in sunny badlands, deserts and
     volcanoes, Rayquaza (hard to find: high in the outer End, on End City roofs), Tornadus, Thundurus and Landorus in
     rain, storms and sun, the Tapus on tropical islands and warm seas, Okidogi, Munkidori, Fezandipiti and Ogerpon in

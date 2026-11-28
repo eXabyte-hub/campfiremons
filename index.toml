@@ -610,7 +610,7 @@ hash = "520c41cea36c45c2c1eb854ed8d3b1c17a4c48fef620942245a88150890b0ec5"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "b4f622e3a7127a7fbede1872a1f3f9bf3978aa2179c525e139219002c02416f4"
+hash = "21212b48b9a689bd8e27d1b384f6db43cbd80f095f05523549f2a2af360bb14d"
 
 [[files]]
 file = "config/magnumtorch-server.toml"
@@ -4735,7 +4735,7 @@ hash = "3f2ae44d9d76497868cccd96e4a68ce66b9ccded6c5b717b5552ca9a77fb9921"
 
 [[files]]
 file = "kubejs/server_scripts/campfiremons/legendary_summons.js"
-hash = "cc96e0fef5ed214ce5e7a8f7e41487d516eeee6f5ec509b5d9bdd2137d6954af"
+hash = "cc53da248aa6c4e3d4a62a3b5cdd32f30645fc152975f675b0f7fe3f141160ca"
 
 [[files]]
 file = "kubejs/server_scripts/campfiremons/liquid_experience.js"
@@ -4791,7 +4791,7 @@ hash = "387366e9403ab0f44e61448a07c15e954c83f8d10da7245ec8e1f5b1b3a2532a"
 
 [[files]]
 file = "kubejs/startup_scripts/campfiremons/config.js"
-hash = "455e42f76a8b85e8b0f7a0695b842c0534baf25166bc8a277f7c2bea98a35aab"
+hash = "49677ca31c8c948a04003143e8cecad64535cc7a086882c0afb58017ecd7ca98"
 
 [[files]]
 file = "kubejs/startup_scripts/campfiremons/fossils.js"

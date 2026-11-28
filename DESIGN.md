@@ -147,6 +147,8 @@ From RCT's Radical Red data, the first fight that uses each class:
 | T4 Box/restricted | Mewtwo, Lugia, Ho-Oh, the weather trio, the creation trio, Arceus, … Koraidon, Miraidon, Terapagos | Cobblemon's own label `restricted` (27) + Arceus override |
 
 Tier lists live in one config file. Any species can be moved by hand (for example, putting Kubfu earlier).
+Rayquaza has a tier of its own, `champion` (Stage 9), since 2026-11-28 [asked for]: the most sought-after legendary, so it waits
+for the Champion; it's also the hardest to find (End City roofs, Jade Orb at 25 %).
 Label names verified against the Cobblemon 1.8.4 species data. Tier stages, label rules and per-species overrides live in `kubejs/startup_scripts/campfiremons/config.js`.
 
 **Sources once a tier is unlocked** [decided: all of them]:

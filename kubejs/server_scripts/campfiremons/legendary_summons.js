@@ -9,8 +9,9 @@ const LEGENDARY_SUMMONS = {
   'campfiremons:beast_memory': { pokemon: 'typenull level=60', name: 'Type: Null', stage: 5 },
   // Rayquaza (asked for on 2026-11-28: the most sought-after, so the hardest): only on the roof of an End City in the
   // outer End, the same place its rare wild spawn needs (tools/gen_legend_spawns.py)
-  // Even there it answers only 1 time in 4 (asked for on 2026-11-28); the orb is used up either way
-  'campfiremons:jade_orb': { pokemon: 'rayquaza level=75', name: 'Rayquaza', stage: 7, where: jadeOrbPlace,
+  // Even there it answers only 1 time in 4 (asked for on 2026-11-28); the orb is used up either way. Stage 9: Rayquaza
+  // has its own Champion-level tier (config.js)
+  'campfiremons:jade_orb': { pokemon: 'rayquaza level=75', name: 'Rayquaza', stage: 9, where: jadeOrbPlace,
     elsewhere: 'The Jade Orb stays dark. Rayquaza answers only from high in the outer End, on the roof of an End City.',
     chance: 0.25, unanswered: 'The Jade Orb flares and crumbles to dust. Rayquaza did not answer this time.' },
 }

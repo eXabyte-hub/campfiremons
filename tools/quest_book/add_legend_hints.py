@@ -31,7 +31,7 @@ HINTS.update({
                  f"heated) and use it to summon Pecharunt.",
     "Type: Null": f"{MARK}Buy a &eBeast Memory&r in the Battle Tower's BP shop and use it to summon Type: Null.",
     "Silvally": f"{MARK}Evolve a Type: Null with high friendship.",
-    "Rayquaza": f"{MARK}Very rare: high in the outer End, on the roofs of End City towers. A &eJade Orb&r "
+    "Rayquaza": f"{MARK}Catchable only after the Champion. Very rare: high in the outer End, on the roofs of End City towers. A &eJade Orb&r "
                 f"(Dragon's Breath, a Dragon Head, a Nether Star, an Elytra and emerald blocks) used up there "
                 f"calls it, but only 1 time in 4, and the orb is used up either way.",
 })
